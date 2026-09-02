@@ -24,7 +24,7 @@ jobs:
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
-                  node-version: '22'
+                  node-version: '24'
                   cache: 'npm'
                   cache-dependency-path: site/package-lock.json
 
@@ -50,7 +50,7 @@ jobs:
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
-                  node-version: '22'
+                  node-version: '24'
                   cache: 'npm'
                   cache-dependency-path: site/package-lock.json
 
@@ -76,7 +76,7 @@ jobs:
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
-                  node-version: '22'
+                  node-version: '24'
                   cache: 'npm'
                   cache-dependency-path: site/package-lock.json
 
@@ -123,17 +123,23 @@ jobs:
                   ssh -i ~/.ssh/deploy_key "$SERVER_USER@$SERVER_HOST" bash -s <<'REMOTE'
                   set -eu
 
+                  # Under a directory the deploy user owns, not /root
+                  # (mode 700, www-data cannot traverse it). The swap renames
+                  # siblings, so the PARENT has to be writable by this user -
+                  # hence the extra level rather than /var/www directly.
+                  SITE=/var/www/dbd-flashcards/current
+
                   # Unpack beside the live directory, then swap
-                  rm -rf ~/site.new
-                  mkdir ~/site.new
-                  tar -xzf ~/site.tar.gz -C ~/site.new
+                  rm -rf "$SITE.new"
+                  mkdir -p "$SITE.new"
+                  tar -xzf ~/site.tar.gz -C "$SITE.new"
 
                   # nginx runs as www-data and has to be able to read these.
-                  chmod -R o+rX ~/site.new
+                  chmod -R o+rX "$SITE.new"
 
-                  mkdir -p ~/site
-                  rm -rf ~/site.old
-                  mv ~/site ~/site.old
-                  mv ~/site.new ~/site
-                  rm -rf ~/site.old ~/site.tar.gz
+                  mkdir -p "$SITE"
+                  rm -rf "$SITE.old"
+                  mv "$SITE" "$SITE.old"
+                  mv "$SITE.new" "$SITE"
+                  rm -rf "$SITE.old" ~/site.tar.gz
                   REMOTE
