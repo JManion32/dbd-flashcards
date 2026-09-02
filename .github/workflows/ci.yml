@@ -1,0 +1,139 @@
+name: CI/CD Pipeline
+
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+
+jobs:
+    stylelint:
+        name: Stylelint
+        runs-on: ubuntu-24.04
+
+        defaults:
+            run:
+                working-directory: site
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '22'
+                  cache: 'npm'
+                  cache-dependency-path: site/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run Stylelint
+              run: npx stylelint **/*.{css,scss}
+
+
+    prettier:
+        name: Prettier
+        runs-on: ubuntu-24.04
+
+        defaults:
+            run:
+                working-directory: site
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '22'
+                  cache: 'npm'
+                  cache-dependency-path: site/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run Prettier
+              run: npx prettier --check .
+
+
+    eslint:
+        name: ESLint
+        runs-on: ubuntu-24.04
+
+        defaults:
+            run:
+                working-directory: site
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '22'
+                  cache: 'npm'
+                  cache-dependency-path: site/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run ESLint
+              run: npx eslint .
+
+
+    deploy:
+        name: Deploy
+        runs-on: ubuntu-24.04
+        needs: [stylelint, prettier, eslint]
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: '22'
+                  cache: 'npm'
+                  cache-dependency-path: site/package-lock.json
+
+            - name: Build
+              working-directory: site
+              run: npm ci && npm run build
+
+            - name: Deploy
+              env:
+                  SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+                  SERVER_HOST: ${{ secrets.SERVER_HOST }}
+                  SERVER_USER: ${{ secrets.SERVER_USER }}
+              run: |
+                  mkdir -p ~/.ssh
+                  printf '%s\n' "$SERVER_SSH_KEY" > ~/.ssh/deploy_key
+                  chmod 600 ~/.ssh/deploy_key
+                  ssh-keyscan -H "$SERVER_HOST" >> ~/.ssh/known_hosts
+
+                  tar -czf site.tar.gz -C site/dist .
+                  scp -i ~/.ssh/deploy_key site.tar.gz "$SERVER_USER@$SERVER_HOST:"
+
+                  ssh -i ~/.ssh/deploy_key "$SERVER_USER@$SERVER_HOST" bash -s <<'REMOTE'
+                  set -eu
+
+                  # Unpack beside the live directory, then swap
+                  rm -rf ~/site.new
+                  mkdir ~/site.new
+                  tar -xzf ~/site.tar.gz -C ~/site.new
+
+                  # nginx runs as www-data and has to be able to read these.
+                  chmod -R o+rX ~/site.new
+
+                  mkdir -p ~/site
+                  rm -rf ~/site.old
+                  mv ~/site ~/site.old
+                  mv ~/site.new ~/site
+                  rm -rf ~/site.old ~/site.tar.gz
+                  REMOTE

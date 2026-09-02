@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue';
+import './styles/index.css';
+import './styles/colors.css';
+import './styles/scaling.css';
 </script>
 
 <template>
-  <HelloWorld />
+    <Home />
 </template>
