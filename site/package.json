@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite --host 0.0.0.0",
-        "build": "tsc -b && vite build",
+        "build": "vue-tsc -b && vite build",
         "preview": "vite preview",
         "lint-check": "eslint . && prettier --check . && stylelint \"**/*.{css,scss}\"",
         "lint-fix": "eslint . --fix && prettier --write . && stylelint \"**/*.{css,scss}\" --fix"
