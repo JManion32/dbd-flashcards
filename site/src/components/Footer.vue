@@ -1,15 +1,64 @@
 <script setup lang="ts">
+import twitchLogo from '../assets/twitch-logo.webp';
 </script>
 <template>
     <div class="footer-container">
-        <span>Made with love by TTV The_JMan32</span>
+        <div class="footer-links-container">
+            <a> About </a>
+            <span>•</span>
+            <a> Privacy Policy </a>
+            <span>•</span>
+            <a> What's New? </a>
+            <span>•</span>
+            <a href="https://github.com/JManion32/dbd-flashcards" target="_blank"> GitHub </a>
+        </div>
+        <div class="twitch-link-container">
+            <span>Made with ❤︎ by</span>
+            <img class="twitch-logo" :src="twitchLogo" />
+            <a href="https://www.twitch.tv/the_jman32" target="_blank">The_JMan32</a>
+        </div>
     </div>
 </template>
 <style scoped>
-    .footer-container {
-        background: red;
-        width: 100%;
-        height: 2rem;
-        padding: 0.5rem;
-    }
+.footer-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+
+    background: #1d1d1d;
+}
+.footer-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    color: #bbbbbb;
+}
+.footer-container a {
+    cursor: pointer;
+    font-weight: bold;
+    color: #bbbbbb;
+    text-decoration: none;
+}
+.footer-container a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.twitch-link-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    color: white;
+    font-weight: bold;
+}
+.twitch-link-container {
+    color: #bbbbbb;
+}
+.twitch-logo {
+    height: 1rem;
+    margin: 0 0.25rem 0 0.5rem;
+}
 </style>

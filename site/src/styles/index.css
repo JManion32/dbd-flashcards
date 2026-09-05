@@ -12,8 +12,32 @@ body {
     background: #111111;
 }
 
+body,
+button,
+input,
+select,
+textarea {
+    font-family: var(--site-font);
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(92, 92, 92, 0.5);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
 }
