@@ -37,7 +37,7 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgba(92, 92, 92, 0.5);
+    background-color: #232323;
     border-radius: 10px;
     border: 2px solid transparent;
     background-clip: content-box;

@@ -1,0 +1,48 @@
+/* Abstracted to standalone CSS file because elements 
+are split between too many files. */
+.footer-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    background: var(--header-bg);
+}
+
+.footer-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    color: var(--inactive-text);
+}
+
+.footer-link {
+    cursor: pointer;
+    font-weight: 800;
+    color: var(--inactive-text);
+    text-decoration: none;
+    transition: var(--site-transition);
+}
+
+.footer-link:hover {
+    color: var(--standard-white);
+    text-decoration: underline;
+}
+
+.twitch-link-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    color: var(--standard-white);
+    font-weight: 800;
+}
+
+.twitch-link-container {
+    color: var(--inactive-text);
+}
+
+.twitch-logo {
+    height: 1rem;
+    margin: 0 0.25rem 0 0.5rem;
+}

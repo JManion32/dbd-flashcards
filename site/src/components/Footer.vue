@@ -1,16 +1,21 @@
 <script setup lang="ts">
+import '../styles/footer.css';
+import AboutModal from './modal/AboutModal.vue';
+import PrivacyPolicyModal from './modal/PrivacyPolicyModal.vue';
+import WhatsNewModal from './modal/WhatsNewModal.vue';
 import twitchLogo from '../assets/twitch-logo.webp';
 </script>
 <template>
     <div class="footer-container">
         <div class="footer-links-container">
-            <a> About </a>
+            <AboutModal />
             <span>•</span>
-            <a> Privacy Policy </a>
+            <PrivacyPolicyModal />
             <span>•</span>
-            <a> What's New? </a>
+            <WhatsNewModal />
             <span>•</span>
             <a
+                class="footer-link"
                 href="https://github.com/JManion32/dbd-flashcards"
                 target="_blank"
             >
@@ -24,6 +29,7 @@ import twitchLogo from '../assets/twitch-logo.webp';
                 :src="twitchLogo"
             />
             <a
+                class="footer-link"
                 href="https://www.twitch.tv/the_jman32"
                 target="_blank"
                 >The_JMan32</a
@@ -31,46 +37,3 @@ import twitchLogo from '../assets/twitch-logo.webp';
         </div>
     </div>
 </template>
-<style scoped>
-.footer-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 2rem;
-    padding: 0.5rem 1rem;
-
-    background: var(--header-bg);
-}
-.footer-links-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    color: var(--header-text);
-}
-.footer-container a {
-    cursor: pointer;
-    font-weight: 800;
-    color: #999;
-    text-decoration: none;
-}
-.footer-container a:hover {
-    color: var(--standard-white);
-    text-decoration: underline;
-}
-.twitch-link-container {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-
-    color: var(--standard-white);
-    font-weight: 800;
-}
-.twitch-link-container {
-    color: #999;
-}
-.twitch-logo {
-    height: 1rem;
-    margin: 0 0.25rem 0 0.5rem;
-}
-</style>

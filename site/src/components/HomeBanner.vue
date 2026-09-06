@@ -32,7 +32,6 @@ import bannerBg from '../assets/banner-bg.png';
     width: 100%;
     height: 24rem;
     padding: 1rem;
-    margin-top: 4rem;
 
     display: flex;
     align-items: center;

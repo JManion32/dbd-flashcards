@@ -1,0 +1,51 @@
+/* Centralized styles for modal content */
+
+/* stylelint-disable no-descending-specificity */
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0.5rem;
+}
+
+.modal-content h2 {
+    color: var(--standard-white);
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.modal-content h4 {
+    color: var(--standard-white);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.modal-content hr {
+    border: 0;
+    border-top: solid 1px var(--secondary-bg);
+    margin: 2rem 0 1rem;
+}
+
+.modal-content p {
+    font-weight: 700;
+}
+
+.modal-content p:not(.modal-last-updated),
+p:not(.update-block-container) {
+    margin: 1.25rem 0 0;
+    color: var(--standard-white);
+}
+
+.modal-spacer {
+    height: 2rem;
+}
+
+.modal-last-updated {
+    padding-top: 2rem;
+    margin: auto auto 0;
+    font-style: italic;
+    color: var(--inactive-text);
+}

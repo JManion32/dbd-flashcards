@@ -1,0 +1,5 @@
+:root {
+    --site-font: 'Archivo Black', sans-serif;
+    --site-transition-time: 0.25s;
+    --site-transition: all var(--site-transition-time) ease;
+}

@@ -11,7 +11,7 @@
     border-radius: 1.5rem;
     height: 5rem;
     width: 40%;
-    background: #1d1d1d;
+    background: var(--secondary-bg);
     font-family: var(--site-font);
 
     display: flex;

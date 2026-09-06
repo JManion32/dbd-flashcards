@@ -1,3 +1,3 @@
 <script setup lang="ts"></script>
-<template><button /></template>
+<template>This is the add-ons page</template>
 <style scoped></style>
