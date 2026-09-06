@@ -1,21 +1,28 @@
 <script setup lang="ts"></script>
 <template>
     <div class="test-knowledge-container">
-        <h2>Ready to test your knowledge?</h2>
-        <button>Study</button>
+        <h2 class="ready-header">Ready to test your knowledge?</h2>
+        <button style="margin-left: auto">Study</button>
     </div>
 </template>
 <style scoped>
 .test-knowledge-container {
-    margin: 1rem 0 2rem;
+    margin: 4rem 0;
     border-radius: 1.5rem;
-    height: 8rem;
-    width: 50%;
+    height: 5rem;
+    width: 40%;
     background: #1d1d1d;
     font-family: var(--site-font);
 
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 1rem 2rem;
+}
+.ready-header {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: var(--standard-white);
+    margin: 0;
 }
 </style>

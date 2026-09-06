@@ -1,3 +1,12 @@
 :root {
-    --site-font: 'Roboto', sans-serif;
+    --site-font: 'Archivo Black', sans-serif;
+    --site-transition: 0.25s;
+
+    /* Index */
+    --site-bg: #111;
+    --standard-white: #fff;
+
+    /* Header / Footer */
+    --header-bg: #0a0a0a;
+    --header-text: #999;
 }

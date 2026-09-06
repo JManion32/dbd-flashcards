@@ -10,12 +10,24 @@ import twitchLogo from '../assets/twitch-logo.webp';
             <span>•</span>
             <a> What's New? </a>
             <span>•</span>
-            <a href="https://github.com/JManion32/dbd-flashcards" target="_blank"> GitHub </a>
+            <a
+                href="https://github.com/JManion32/dbd-flashcards"
+                target="_blank"
+            >
+                GitHub
+            </a>
         </div>
         <div class="twitch-link-container">
             <span>Made with ❤︎ by</span>
-            <img class="twitch-logo" :src="twitchLogo" />
-            <a href="https://www.twitch.tv/the_jman32" target="_blank">The_JMan32</a>
+            <img
+                class="twitch-logo"
+                :src="twitchLogo"
+            />
+            <a
+                href="https://www.twitch.tv/the_jman32"
+                target="_blank"
+                >The_JMan32</a
+            >
         </div>
     </div>
 </template>
@@ -27,23 +39,23 @@ import twitchLogo from '../assets/twitch-logo.webp';
     height: 2rem;
     padding: 0.5rem 1rem;
 
-    background: #1d1d1d;
+    background: var(--header-bg);
 }
 .footer-links-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    color: #bbbbbb;
+    color: var(--header-text);
 }
 .footer-container a {
     cursor: pointer;
-    font-weight: bold;
-    color: #bbbbbb;
+    font-weight: 800;
+    color: #999;
     text-decoration: none;
 }
 .footer-container a:hover {
-    color: white;
+    color: var(--standard-white);
     text-decoration: underline;
 }
 .twitch-link-container {
@@ -51,11 +63,11 @@ import twitchLogo from '../assets/twitch-logo.webp';
     align-items: center;
     margin-left: auto;
 
-    color: white;
-    font-weight: bold;
+    color: var(--standard-white);
+    font-weight: 800;
 }
 .twitch-link-container {
-    color: #bbbbbb;
+    color: #999;
 }
 .twitch-logo {
     height: 1rem;
