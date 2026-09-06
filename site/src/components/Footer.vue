@@ -18,7 +18,7 @@ import twitchLogo from '../assets/twitch-logo.webp';
             </a>
         </div>
         <div class="twitch-link-container">
-            <span>Made with ❤︎ by</span>
+            <span>Made with <span style="color: #b01e28">❤︎</span> by</span>
             <img
                 class="twitch-logo"
                 :src="twitchLogo"

@@ -1,8 +1,8 @@
 <script setup lang="ts">
-const props = defineProps({
-    title: String,
-    id: String,
-});
+const props = defineProps<{
+    title: string;
+    id: string;
+}>();
 //import emblaCarouselVue from 'embla-carousel-vue';
 //const [emblaRef] = emblaCarouselVue();
 </script>
@@ -15,7 +15,7 @@ const props = defineProps({
             <h2 class="section-header">
                 {{ props.title }}
             </h2>
-            <input class="section-search"/>
+            <input class="section-search" />
         </div>
         <!--
         <div
@@ -54,7 +54,7 @@ const props = defineProps({
     color: var(--standard-white);
     font-size: 2.5rem;
     font-weight: 900;
-    display: inline-block
+    display: inline-block;
 }
 .section-search {
     margin: 0 0 0 auto;

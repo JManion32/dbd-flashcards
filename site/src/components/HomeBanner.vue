@@ -13,9 +13,7 @@ import bannerBg from '../assets/banner-bg.png';
         <div class="banner-content">
             <h1 class="banner-header">DBD Flashcards</h1>
 
-            <p class="banner-desc">
-                An unofficial Dead by Daylight study tool!
-            </p>
+            <p class="banner-desc">An unofficial Dead by Daylight study tool!</p>
         </div>
 
         <div class="home-h-links">
@@ -64,16 +62,8 @@ import bannerBg from '../assets/banner-bg.png';
     inset: 0;
 
     background:
-        linear-gradient(
-            to bottom,
-            rgba(17, 17, 17, 0.1),
-            rgba(17, 17, 17, 0.65)
-        ),
-        radial-gradient(
-            circle at center,
-            transparent 30%,
-            rgba(0, 0, 0, 0.6) 100%
-        );
+        linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgba(17, 17, 17, 0.65)),
+        radial-gradient(circle at center, transparent 30%, rgba(0, 0, 0, 0.6) 100%);
 
     pointer-events: none;
 }

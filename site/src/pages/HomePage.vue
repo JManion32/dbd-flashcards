@@ -5,22 +5,22 @@ import TestKnowledge from '../components/TestKnowledge.vue';
 </script>
 <template>
     <div class="home-container">
-        <HomeBanner/>
+        <HomeBanner />
         <HomeSection
-          title="Survivor Perks"
-          id="survivor-perks"
+            id="survivor-perks"
+            title="Survivor Perks"
         />
         <HomeSection
-          title="Survivor Add-ons"
-          id="survivor-addons"
+            id="survivor-addons"
+            title="Survivor Add-ons"
         />
         <HomeSection
-          title="Killer Perks"
-          id="killer-perks"
+            id="killer-perks"
+            title="Killer Perks"
         />
         <HomeSection
-          title="Killer Add-ons"
-          id="killer-addons"
+            id="killer-addons"
+            title="Killer Add-ons"
         />
         <TestKnowledge />
     </div>

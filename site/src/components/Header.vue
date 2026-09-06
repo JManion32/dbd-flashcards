@@ -10,9 +10,7 @@ import siteLogo from '../assets/logo-512.png';
                 class="site-logo"
             />
             <!--<h1 class="header-header">DBD Flashcards</h1>-->
-            <div>
-                
-            </div>
+            <div />
         </div>
     </div>
 </template>
@@ -44,6 +42,11 @@ import siteLogo from '../assets/logo-512.png';
     margin: 0;
 }
 .site-logo {
-    height: 3rem;
+    height: 2.7rem;
+    transition: all var(--site-transition) ease;
+}
+.site-logo:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
 </style>

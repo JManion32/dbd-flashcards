@@ -12,6 +12,9 @@ export default defineConfig([
         languageOptions: {
             ecmaVersion: 2020,
             globals: globals.browser,
+            parserOptions: {
+                parser: tseslint.parser,
+            },
         },
         rules: {
             // Force 1 attribute per line for both singleline and multiline tags
