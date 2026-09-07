@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, watch } from 'vue';
+import { onMounted, onUnmounted } from 'vue';
 
 const props = defineProps<{
     visible: boolean;
@@ -15,43 +15,18 @@ function handleKeydown(event: KeyboardEvent) {
     }
 }
 
-function lockScroll() {
-    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-
-    document.body.style.overflow = 'hidden';
-    document.body.style.paddingRight = `${scrollbarWidth}px`;
-}
-
-function unlockScroll() {
-    document.body.style.overflow = '';
-    document.body.style.paddingRight = '';
-}
-
 onMounted(() => {
     window.addEventListener('keydown', handleKeydown);
 });
 
 onUnmounted(() => {
     window.removeEventListener('keydown', handleKeydown);
-    unlockScroll();
 });
-
-watch(
-    () => props.visible,
-    (visible) => {
-        if (visible) {
-            lockScroll();
-        }
-    }
-);
 </script>
 
 <template>
     <Teleport to="body">
-        <Transition
-            :name="transition"
-            @after-leave="unlockScroll"
-        >
+        <Transition :name="transition">
             <div
                 v-if="visible"
                 class="modal-backdrop"

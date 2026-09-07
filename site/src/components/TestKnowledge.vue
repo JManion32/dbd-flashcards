@@ -1,8 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import StartStudyModal from './modal/StartStudyModal.vue';
+</script>
 <template>
     <div class="test-knowledge-container">
         <h2 class="ready-header">Ready to test your knowledge?</h2>
-        <button style="margin-left: auto">Study</button>
+        <StartStudyModal />
     </div>
 </template>
 <style scoped>

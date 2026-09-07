@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import siteLogo from '../assets/logo-512.png';
+import StartStudyModal from '../components/modal/StartStudyModal.vue';
 </script>
 
 <template>
@@ -29,6 +30,7 @@ import siteLogo from '../assets/logo-512.png';
                 </RouterLink>
             </nav>
         </div>
+        <StartStudyModal />
     </div>
 </template>
 
@@ -81,8 +83,16 @@ import siteLogo from '../assets/logo-512.png';
     font-size: 1.2rem;
     color: var(--inactive-text);
     font-weight: 800;
+    transition: var(--site-transition);
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
 }
-nav-link:hover {
+.nav-link:hover {
     color: var(--standard-white);
+    background: #1a1a1a;
+}
+.nav-link.router-link-exact-active {
+    color: var(--standard-white);
+    background: #2d2d2d;
 }
 </style>

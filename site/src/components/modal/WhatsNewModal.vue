@@ -25,7 +25,7 @@ const visible = ref(false);
             <!--TODO: Populate this by pulling from a changelog txt/json file.-->
             <div class="updates-container">
                 <UpdateBlock
-                    title="Welcome!"
+                    title="Hello!"
                     desc="Welcome to DBD Flashcards!"
                     date="09-06-2026"
                 />
