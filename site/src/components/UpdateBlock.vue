@@ -24,6 +24,8 @@ const props = defineProps<{
 .update-block-container {
     border-bottom: 1px solid var(--secondary-bg);
     width: 100%;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
 }
 .update-block-header {
     display: flex;
@@ -38,7 +40,7 @@ const props = defineProps<{
 }
 .update-header-date {
     margin: 0;
-}
-.update-block-desc {
+    font-style: italic;
+    color: var(--inactive-text);
 }
 </style>

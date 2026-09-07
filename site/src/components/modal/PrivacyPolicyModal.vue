@@ -26,28 +26,28 @@ const visible = ref(false);
                 your name, email address, or password.
             </p>
             <hr />
-            <h4>Analytics</h4>
+            <h3>Analytics</h3>
             <p>
                 DBD Flashcards uses Google Analytics to understand general site traffic and usage. Google Analytics may
                 collect information such as your device and browser type, pages visited, and approximate location.
             </p>
             <hr />
-            <h4>Local Storage</h4>
+            <h3>Local Storage</h3>
             <p>
                 DBD Flashcards uses your browser's local storage to save things such as preferences and flashcard
                 progress. This information is stored on your device and is not sent to DBD Flashcards.
             </p>
             <hr />
-            <h4>Third-Party Links</h4>
+            <h3>Third-Party Links</h3>
             <p>
                 The site may contain links to third-party websites such as GitHub and Twitch. Those websites have their
                 own privacy practices and policies.
             </p>
             <hr />
-            <h4>Changes</h4>
+            <h3>Changes</h3>
             <p>This policy may be updated if the site's features or data practices change.</p>
             <hr />
-            <h4>Contact</h4>
+            <h3>Contact</h3>
             <p>Questions about privacy can be submitted through the DBD Flashcards GitHub repository.</p>
             <hr />
             <p class="modal-last-updated">Last updated: 09-06-2026</p>

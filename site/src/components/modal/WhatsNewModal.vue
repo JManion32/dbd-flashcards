@@ -22,6 +22,7 @@ const visible = ref(false);
     >
         <div class="modal-content">
             <h2>What's New?</h2>
+            <!--TODO: Populate this by pulling from a changelog txt/json file.-->
             <div class="updates-container">
                 <UpdateBlock
                     title="Welcome!"
@@ -34,8 +35,8 @@ const visible = ref(false);
 </template>
 <style scoped>
 .updates-container {
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
+    padding-right: 1rem;
 }
 </style>
