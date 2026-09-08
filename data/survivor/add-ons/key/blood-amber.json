@@ -1,0 +1,15 @@
+{
+    "name": "Crimson Stamp",
+    "type": "Map",
+    "rarity": "Visceral",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "The Killer's Aura is revealed with @8 meters of the beam of light.",
+                "Reduces beam of light duration by @10 seconds.",
+                "Reduces number of charges by @2."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Alert",
+    "type": "survivor",
+    "character": "Feng Min",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Killer breaks a Pallet or Breakable Wall, or damages a Generator:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You hear a sound cue.",
+                "You see their Aura for @5s."
+            ]
+        }
+    ],
+    "tags": [
+        "aura",
+        "generator",
+        "pallet"
+    ]
+}

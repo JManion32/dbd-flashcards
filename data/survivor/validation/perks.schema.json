@@ -1,0 +1,73 @@
+{
+    "type": "object",
+    "required": [
+        "name",
+        "type",
+        "character",
+        "description",
+        "tags"
+    ],
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "character": {
+            "type": "string"
+        },
+        "description": {
+            "type": "array",
+            "items": {
+                "oneOf": [
+                    {
+                        "type": "object",
+                        "required": [
+                            "type",
+                            "content"
+                        ],
+                        "properties": {
+                            "type": {
+                                "const": "text"
+                            },
+                            "content": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": false
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "type",
+                            "items"
+                        ],
+                        "properties": {
+                            "type": {
+                                "const": "list"
+                            },
+                            "items": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "minItems": 1
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                ]
+            },
+            "minItems": 1
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
+        }
+    },
+    "additionalProperties": false
+}

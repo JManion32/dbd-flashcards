@@ -1,0 +1,26 @@
+{
+    "name": "Aftercare",
+    "type": "survivor",
+    "character": "Jeff Johansen",
+    "description": [
+        {
+            "type": "text",
+            "content": "You and up to @3 Survivors see each other's Auras whenever:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You unhook them, or they unhook you.",
+                "You finish healing them, or they finish healing you."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "This effect lasts until you are hooked."
+        }
+    ],
+    "tags": [
+        "aura",
+        "healing"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "A Place for us",
+    "type": "survivor",
+    "character": "Kwon Tae-Young",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healing another Survivor, you both gain [Elusive]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you finish healing the Obsession, you both gain [Elusive] for @30s."
+        },
+        {
+            "type": "text",
+            "content": "When the trial starts, you are less likely to be the Obsession."
+        }
+    ],
+    "tags": [
+        "elusive",
+        "obsession"
+    ]
+}

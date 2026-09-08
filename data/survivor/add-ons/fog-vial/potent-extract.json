@@ -1,0 +1,14 @@
+{
+    "name": "Potent Extract",
+    "type": "Fog Vial",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the Fog Cloud's opacity by @100%.",
+                "Decreases the Fog Cloud's duration by @50%.",
+                "Decreases the Fog Cloud's size by @25%."
+            ]
+        }
+    ]
+}

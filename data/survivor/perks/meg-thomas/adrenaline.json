@@ -1,0 +1,22 @@
+{
+    "name": "Adrenaline",
+    "type": "survivor",
+    "character": "Meg Thomas",
+    "description": [
+        {
+            "type": "text",
+            "content": "When all Generators are completed, if you are downed or injured, heal instantly. Then, ignoring [Exhausted]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain @50% [Haste] for @4s.",
+                "You gain [Exhausted] for @40s."
+            ]
+        }
+    ],
+    "tags": [
+        "exhaustion",
+        "haste"
+    ]
+}

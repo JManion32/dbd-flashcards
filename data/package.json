@@ -1,0 +1,20 @@
+{
+    "name": "data",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "lint-check": "prettier --check .",
+        "lint-fix": "prettier --write .",
+        "validate:killer-perks": "node validate.mjs killer perks",
+        "validate:killer-add-ons": "node validate.mjs killer add-ons",
+        "validate:survivor-perks": "node validate.mjs survivor perks",
+        "validate:survivor-add-ons": "node validate.mjs survivor add-ons",
+        "validate": "npm run validate:killer-perks && npm run validate:killer-add-ons && npm run validate:survivor-perks npm run validate:survivor-add-ons"
+    },
+    "devDependencies": {
+        "ajv": "^8.20.0",
+        "prettier": "^3.5.3",
+        "prettier-plugin-multiline-arrays": "^4.1.11"
+    }
+}

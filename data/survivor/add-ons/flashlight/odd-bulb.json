@@ -1,0 +1,14 @@
+{
+    "name": "Odd Bulb",
+    "type": "Flashlight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the brightness of the Flashlight beam by @50%.",
+                "Increases the Blindness duration by @25%.",
+                "Increases Flashlight battery consumption by @12%."
+            ]
+        }
+    ]
+}

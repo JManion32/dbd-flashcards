@@ -1,0 +1,26 @@
+{
+    "name": "Ace in the Hole",
+    "type": "survivor",
+    "character": "Ace Visconti",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you loot an item from a Chest, it will have:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "A Visceral or lower rarity add-on.",
+                "@100% chance for an Uncommon or lower rarity add-on."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When you escape, you keep your add-ons."
+        }
+    ],
+    "tags": [
+        "chest",
+        "items"
+    ]
+}
