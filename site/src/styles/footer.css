@@ -27,7 +27,8 @@ are split between too many files. */
 
 .footer-link:hover {
     color: var(--standard-white);
-    text-decoration: underline;
+    scale: 1.05;
+    text-shadow: var(--site-text-shadow)
 }
 
 .twitch-link-container {

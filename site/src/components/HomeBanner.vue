@@ -18,9 +18,9 @@ import bannerBg from '../assets/banner-bg.png';
 
         <div class="home-h-links">
             <a href="#survivor-perks">Survivor Perks</a>
-            <a href="#survivor-addons">Survivor Addons</a>
+            <a href="#survivor-addons">Survivor Add-ons</a>
             <a href="#killer-perks">Killer Perks</a>
-            <a href="#killer-addons">Killer Addons</a>
+            <a href="#killer-addons">Killer Add-ons</a>
         </div>
     </section>
 </template>
@@ -84,6 +84,7 @@ import bannerBg from '../assets/banner-bg.png';
     color: var(--standard-white);
     font-size: 6rem;
     font-weight: 900;
+    text-shadow: 1px 2px 50px #ffffff65;
 }
 
 .banner-desc {
@@ -92,6 +93,7 @@ import bannerBg from '../assets/banner-bg.png';
     font-size: 1.1rem;
     font-weight: 800;
     font-style: italic;
+    text-shadow: var(--site-text-shadow)
 }
 
 .home-h-links {
@@ -110,15 +112,16 @@ import bannerBg from '../assets/banner-bg.png';
 }
 
 .home-h-links a {
-    color: #bbbbbb;
+    color: var(--inactive-text);
     font-weight: 800;
     text-decoration: none;
+    transition: var(--site-transition);
 }
 
 .home-h-links a:hover {
     color: var(--standard-white);
-    text-decoration: underline;
-
+    scale: 1.10;
     cursor: pointer;
+    text-shadow: var(--site-text-shadow)
 }
 </style>

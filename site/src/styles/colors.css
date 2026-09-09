@@ -9,4 +9,6 @@
 
     /* Header / Footer */
     --header-bg: #0a0a0a;
+    --nav-link-hover-bg: #1a1a1a;
+    --nav-link-active-bg: #2d2d2d;
 }

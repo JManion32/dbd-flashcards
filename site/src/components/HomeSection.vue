@@ -55,12 +55,13 @@ const props = defineProps<{
     font-size: 2.5rem;
     font-weight: 900;
     display: inline-block;
+    text-shadow: var(--site-text-shadow);
 }
 .section-search {
     margin: 0 0 0 auto;
     height: 2rem;
     border-radius: 0.5rem;
     border: none;
-    background: #333;
+    background: var(--secondary-bg);
 }
 </style>

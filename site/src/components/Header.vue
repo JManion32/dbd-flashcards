@@ -75,7 +75,7 @@ import StartStudyModal from '../components/modal/StartStudyModal.vue';
 .nav-link-container {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 2rem;
     margin-left: 1.5rem;
 }
 .nav-link {
@@ -85,14 +85,16 @@ import StartStudyModal from '../components/modal/StartStudyModal.vue';
     font-weight: 800;
     transition: var(--site-transition);
     padding: 0.5rem 1rem;
-    border-radius: 0.75rem;
+    border-radius: 1rem;
 }
 .nav-link:hover {
     color: var(--standard-white);
-    background: #1a1a1a;
+    background: var(--nav-link-hover-bg);
+    text-shadow: var(--site-text-shadow)
 }
 .nav-link.router-link-exact-active {
     color: var(--standard-white);
-    background: #2d2d2d;
+    background: var(--nav-link-active-bg);
+    text-shadow: var(--site-text-shadow)
 }
 </style>
