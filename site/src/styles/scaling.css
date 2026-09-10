@@ -1,1 +1,31 @@
-/* Temp */
+/* stylelint-disable */
+
+/* Mobile */
+@media (width <= 640px) {
+    :root {
+    }
+}
+
+/* Tablets */
+@media (width >= 641px) {
+    :root {
+    }
+}
+
+/* Small Laptops */
+@media (width >= 1024px) {
+    :root {
+    }
+}
+
+/* Desktop */
+@media (width >= 1280px) {
+    :root {
+    }
+}
+
+/* Big Desktops */
+@media (width >= 2560px) {
+    :root {
+    }
+}

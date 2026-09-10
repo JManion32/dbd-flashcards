@@ -93,7 +93,7 @@ import bannerBg from '../assets/banner-bg.png';
     font-size: 1.1rem;
     font-weight: 800;
     font-style: italic;
-    text-shadow: var(--site-text-shadow)
+    text-shadow: var(--site-text-shadow);
 }
 
 .home-h-links {
@@ -120,8 +120,8 @@ import bannerBg from '../assets/banner-bg.png';
 
 .home-h-links a:hover {
     color: var(--standard-white);
-    scale: 1.10;
+    scale: 1.1;
     cursor: pointer;
-    text-shadow: var(--site-text-shadow)
+    text-shadow: var(--site-text-shadow);
 }
 </style>
