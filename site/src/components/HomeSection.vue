@@ -40,7 +40,7 @@ const props = defineProps<{
     scroll-margin-top: 6rem;
     margin-top: 3rem;
     height: 32rem;
-    width: 70%;
+    width: var(--home-section-width);
 }
 .section-header-container {
     display: flex;
@@ -52,14 +52,16 @@ const props = defineProps<{
 .section-header {
     margin: 0;
     color: var(--standard-white);
-    font-size: 2.5rem;
+    font-size: var(--home-section-header);
     font-weight: 900;
     display: inline-block;
     text-shadow: var(--large-text-glow);
+    margin-right: 2rem;
 }
 .section-search {
     margin: 0 0 0 auto;
     height: 2rem;
+    width: var(--home-section-search);
     border-radius: 0.5rem;
     border: none;
     background: var(--secondary-bg);

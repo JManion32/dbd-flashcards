@@ -1,25 +1,30 @@
 /* Abstracted to standalone CSS file because elements 
-are split between too many files. */
+are split between too many files (the modals). */
 .footer-container {
     display: flex;
+    flex-direction: var(--footer-flex-dir);
     align-items: center;
     width: 100%;
-    height: 2rem;
-    padding: 0.5rem 1rem;
+    padding: var(--footer-padding);
     background: var(--header-bg);
 }
 
 .footer-links-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: var(--footer-flex-dir);
     align-items: center;
-    gap: 1rem;
+    gap: var(--footer-links-gap);
     color: var(--inactive-text);
+}
+
+.footer-links-container span {
+    display: var(--footer-spacer-visibility);
 }
 
 .footer-link {
     cursor: pointer;
     font-weight: 800;
+    font-size: var(--footer-link-size);
     color: var(--inactive-text);
     text-decoration: none;
     transition: var(--site-transition);
@@ -34,9 +39,11 @@ are split between too many files. */
 .twitch-link-container {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    margin-top: var(--twitch-link-margin-top);
+    margin-left: var(--twitch-link-margin-left);
     color: var(--standard-white);
     font-weight: 800;
+    font-size: var(--footer-link-size);
 }
 
 .twitch-link-container {

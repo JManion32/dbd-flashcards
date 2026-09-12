@@ -12,7 +12,7 @@ import StartStudyModal from './modal/StartStudyModal.vue';
     margin: 4rem 0;
     border-radius: 1.5rem;
     height: 5rem;
-    width: 40%;
+    width: var(--test-knowledge-width);
     background: var(--secondary-bg);
     font-family: var(--site-font);
 
@@ -22,10 +22,11 @@ import StartStudyModal from './modal/StartStudyModal.vue';
     padding: 1rem 2rem;
 }
 .ready-header {
-    font-size: 1.75rem;
+    font-size: var(--test-knowledge-title);
     font-weight: 900;
     color: var(--standard-white);
     margin: 0;
     text-shadow: var(--large-text-glow);
+    margin-right: 2rem;
 }
 </style>

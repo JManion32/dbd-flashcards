@@ -1,31 +1,106 @@
 /* stylelint-disable */
 
 /* Mobile */
-@media (width <= 640px) {
-    :root {
-    }
+:root {
+    --site-font-size: 12px;
+
+    /* HomeBanner */
+    --banner-header-title: 3.75rem;
+    --banner-header-desc: 0.75rem;
+    --home-links-visibility: none;
+    --banner-img-height: 18rem;
+
+    /* HomeSection */
+    --home-section-width: 85%;
+    --home-section-header: 1.5rem;
+    --home-section-search: 12rem;
+
+    /* Modal */
+    --modal-width: 32rem;
+
+    /* LinkCard */
+    --link-card-width: 100%;
+    --link-card-title: 1.1rem;
+
+    /* TestKnowledge */
+    --test-knowledge-width: 90%;
+    --test-knowledge-title: 1.25rem;
+
+    /* Footer */
+    --footer-link-size: 1.25rem;
+    --footer-spacer-visibility: none;
+    --footer-flex-dir: column;
+    --twitch-link-margin-left: 0;
+    --twitch-link-margin-top: 1.5rem;
+    --footer-links-gap: 1.5rem;
+    --footer-padding: 1.75rem 1rem;
 }
 
 /* Tablets */
 @media (width >= 641px) {
     :root {
+        --site-font-size: 13px;
+
+        /* HomeBanner */
+        --banner-header-title: 5rem;
+        --banner-header-desc: 1rem;
+        --home-links-visibility: flex;
+        --banner-img-height: 24rem;
+
+        /* HomeSection */
+        --home-section-width: 70%;
+        --home-section-header: 2rem;
+        --home-section-search: 16rem;
+
+        /* Modal */
+        --modal-width: 44rem;
+
+        /* LinkCard */
+        --link-card-width: 80%;
+        --link-card-title: 1.25rem;
+
+        /* TestKnowledge */
+        --test-knowledge-width: 75%;
+        --test-knowledge-title: 1.5rem;
+
+        /* Footer */
+        --footer-link-size: 1rem;
+        --footer-spacer-visibility: flex;
+        --footer-flex-dir: row;
+        --twitch-link-margin-left: auto;
+        --twitch-link-margin-top: 0;
+        --footer-links-gap: 1rem;
+        --footer-padding: 0.5rem 1rem;
     }
 }
 
 /* Small Laptops */
 @media (width >= 1024px) {
     :root {
+        --site-font-size: 14px;
+
+        /* HomeBanner */
+        --banner-header-title: 6rem;
+
+        /* HomeSection */
+        --home-section-header: 2.5rem;
+
+        /* TestKnowledge */
+        --test-knowledge-width: 60%;
+        --test-knowledge-title: 1.75rem;
     }
 }
 
 /* Desktop */
 @media (width >= 1280px) {
     :root {
+        --site-font-size: 16px;
     }
 }
 
 /* Big Desktops */
 @media (width >= 2560px) {
     :root {
+        --site-font-size: 18px;
     }
 }

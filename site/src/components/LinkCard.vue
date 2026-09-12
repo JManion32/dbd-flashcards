@@ -41,7 +41,7 @@ const backgroundColor = computed(() => `${props.color}12`);
     flex-direction: row;
     flex-shrink: 0;
 
-    width: 80%;
+    width: var(--link-card-width);
     height: 7rem;
     padding: 1rem;
     gap: 2rem;
@@ -70,7 +70,7 @@ const backgroundColor = computed(() => `${props.color}12`);
 
 .link-card-title {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: var(--link-card-title);
 }
 
 .link-card-desc {

@@ -29,6 +29,7 @@ textarea {
 
 html {
     scrollbar-gutter: stable both-edges;
+    font-size: var(--site-font-size);
 }
 
 ::-webkit-scrollbar {

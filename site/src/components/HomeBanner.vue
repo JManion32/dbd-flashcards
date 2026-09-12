@@ -30,7 +30,7 @@ import bannerBg from '../assets/banner-bg.png';
     position: relative;
 
     width: 100%;
-    height: 24rem;
+    height: var(--banner-img-height);
     padding: 1rem;
 
     display: flex;
@@ -82,7 +82,7 @@ import bannerBg from '../assets/banner-bg.png';
 .banner-header {
     margin: 0;
     color: var(--standard-white);
-    font-size: 6rem;
+    font-size: var(--banner-header-title);
     font-weight: 900;
     text-shadow: var(--home-banner-text-shadow);
 }
@@ -102,7 +102,7 @@ import bannerBg from '../assets/banner-bg.png';
     left: 50%;
     z-index: 1;
 
-    display: flex;
+    display: var(--home-links-visibility);
     gap: 3rem;
 
     font-size: 1.1rem;

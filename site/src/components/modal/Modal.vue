@@ -59,7 +59,7 @@ onUnmounted(() => {
 }
 .modal-container {
     height: 52rem;
-    width: 48rem;
+    width: var(--modal-width);
     background: var(--site-bg);
     border-radius: 1rem;
     padding: 2rem 1rem 2rem 2rem;
