@@ -55,7 +55,7 @@ const props = defineProps<{
     font-size: 2.5rem;
     font-weight: 900;
     display: inline-block;
-    text-shadow: var(--site-text-shadow);
+    text-shadow: var(--large-text-glow);
 }
 .section-search {
     margin: 0 0 0 auto;

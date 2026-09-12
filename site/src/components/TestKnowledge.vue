@@ -26,5 +26,6 @@ import StartStudyModal from './modal/StartStudyModal.vue';
     font-weight: 900;
     color: var(--standard-white);
     margin: 0;
+    text-shadow: var(--large-text-glow);
 }
 </style>

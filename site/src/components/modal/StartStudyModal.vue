@@ -26,32 +26,28 @@ const visible = ref(false);
 </template>
 <style scoped>
 .study-btn {
-    border: 2px solid var(--standard-gold);
+    /* #ffd700 is localized to study and since the transparency
+    is being adjusted in multiple places, it's better to not
+    make it a variable. */
+    border: 2px solid #ffd700;
+    background: #ffd70005;
+    color: #ffd700;
+    box-shadow: 1px 1px 10px #ffd70070;
+
     border-radius: 0.5rem;
-
-    background: color-mix(in srgb, var(--standard-gold) 5%, transparent);
-
-    color: var(--standard-gold);
     margin-left: auto;
-
     font-size: 1.25rem;
     font-weight: 900;
     padding: 0.5rem 1.5rem;
-
-    box-shadow: 0 0 0.75rem color-mix(in srgb, var(--standard-gold) 20%, transparent);
-
     transition: var(--site-transition);
 }
 
 .study-btn:hover {
+    background: #ffd700;
+    color: var(--standard-black);
+    box-shadow: 0 0 20px #ffd700;
+
     cursor: pointer;
     scale: 1.08;
-
-    background: var(--standard-gold);
-    color: var(--standard-black);
-
-    box-shadow:
-        0 0 1rem color-mix(in srgb, var(--standard-gold) 60%, transparent),
-        0 0 2rem color-mix(in srgb, var(--standard-gold) 25%, transparent);
 }
 </style>

@@ -90,11 +90,11 @@ import StartStudyModal from '../components/modal/StartStudyModal.vue';
 .nav-link:hover {
     color: var(--standard-white);
     background: var(--nav-link-hover-bg);
-    text-shadow: var(--site-text-shadow);
+    text-shadow: var(--small-text-glow);
 }
 .nav-link.router-link-exact-active {
     color: var(--standard-white);
     background: var(--nav-link-active-bg);
-    text-shadow: var(--site-text-shadow);
+    text-shadow: var(--small-text-glow);
 }
 </style>

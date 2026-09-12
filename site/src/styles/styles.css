@@ -2,5 +2,7 @@
     --site-font: 'Archivo Black', sans-serif;
     --site-transition-time: 0.25s;
     --site-transition: all var(--site-transition-time) ease;
-    --site-text-shadow: 1px 1px 10px #ffffff65;
+    --small-text-glow: 0 0 10px #ffffff75;
+    --large-text-glow: 0 0 10px #ffffff50;
+    --home-banner-text-shadow: 0px 0px 20px #000000;
 }

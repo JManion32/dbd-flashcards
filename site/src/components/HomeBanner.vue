@@ -84,7 +84,7 @@ import bannerBg from '../assets/banner-bg.png';
     color: var(--standard-white);
     font-size: 6rem;
     font-weight: 900;
-    text-shadow: 1px 2px 50px #ffffff65;
+    text-shadow: var(--home-banner-text-shadow);
 }
 
 .banner-desc {
@@ -93,7 +93,7 @@ import bannerBg from '../assets/banner-bg.png';
     font-size: 1.1rem;
     font-weight: 800;
     font-style: italic;
-    text-shadow: var(--site-text-shadow);
+    text-shadow: var(--home-banner-text-shadow);
 }
 
 .home-h-links {
@@ -120,8 +120,8 @@ import bannerBg from '../assets/banner-bg.png';
 
 .home-h-links a:hover {
     color: var(--standard-white);
-    scale: 1.1;
+    scale: 1.05;
     cursor: pointer;
-    text-shadow: var(--site-text-shadow);
+    text-shadow: var(--small-text-glow);
 }
 </style>
