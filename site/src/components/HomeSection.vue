@@ -1,15 +1,44 @@
 <script setup lang="ts">
+import { onMounted, onUnmounted, ref } from 'vue';
+
 const props = defineProps<{
     title: string;
     id: string;
 }>();
-//import emblaCarouselVue from 'embla-carousel-vue';
-//const [emblaRef] = emblaCarouselVue();
+
+const sectionRef = ref<HTMLElement | null>(null);
+const isVisible = ref(false);
+
+let observer: IntersectionObserver | null = null;
+
+onMounted(() => {
+    observer = new IntersectionObserver(
+        ([entry]) => {
+            if (entry.isIntersecting) {
+                isVisible.value = true;
+                observer?.unobserve(entry.target);
+            }
+        },
+        {
+            threshold: 0.15,
+        }
+    );
+
+    if (sectionRef.value) {
+        observer.observe(sectionRef.value);
+    }
+});
+
+onUnmounted(() => {
+    observer?.disconnect();
+});
 </script>
 <template>
     <section
         :id="props.id"
+        ref="sectionRef"
         class="home-section-container"
+        :class="{ visible: isVisible }"
     >
         <div class="section-header-container">
             <h2 class="section-header">
@@ -17,22 +46,6 @@ const props = defineProps<{
             </h2>
             <input class="section-search" />
         </div>
-        <!--
-        <div
-            ref="emblaRef"
-            class="embla"
-        >
-            <div class="embla__container">
-                <div
-                    v-for="perk in perks"
-                    :key="perk.id"
-                    class="embla__slide"
-                >
-                    <PerkCard :perk="perk" />
-                </div>
-            </div>
-        </div>
-        -->
     </section>
 </template>
 <style scoped>
@@ -41,6 +54,16 @@ const props = defineProps<{
     margin-top: 3rem;
     height: 32rem;
     width: var(--home-section-width);
+
+    opacity: 0;
+    transform: translateY(2rem);
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+}
+.home-section-container.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 .section-header-container {
     display: flex;
