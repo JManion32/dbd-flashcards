@@ -27,6 +27,10 @@ textarea {
     box-sizing: border-box;
 }
 
+html {
+    scrollbar-gutter: stable both-edges;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
     height: 12px;

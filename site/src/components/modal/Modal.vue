@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue';
+import { onMounted, onUnmounted, watch } from 'vue';
 
 const props = defineProps<{
     visible: boolean;
@@ -14,6 +14,13 @@ function handleKeydown(event: KeyboardEvent) {
         emit('close');
     }
 }
+
+watch(
+    () => props.visible,
+    (visible) => {
+        document.body.style.overflow = visible ? 'hidden' : '';
+    }
+);
 
 onMounted(() => {
     window.addEventListener('keydown', handleKeydown);
@@ -55,7 +62,7 @@ onUnmounted(() => {
     width: 48rem;
     background: var(--site-bg);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2rem 1rem 2rem 2rem;
 }
 
 /* Slide up */
