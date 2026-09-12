@@ -62,6 +62,7 @@ const backgroundColor = computed(() => `${props.color}12`);
 
 .link-card-img {
     border-radius: 1rem;
+    height: auto;
 }
 
 .link-card-content {
