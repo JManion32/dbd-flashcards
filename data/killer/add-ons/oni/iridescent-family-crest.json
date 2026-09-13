@@ -1,0 +1,12 @@
+{
+    "name": "Iridescent Family Crest",
+    "character": "The Oni",
+    "rarity": "Visceral",
+    "description": [
+        {
+            "type": "text",
+            "content": "Miss a charged attack during [Blood Fury] to smash the ground and create a shock wave. Any Survivors with [24m] will scream and reveal their current location to you for [4s]."
+        }
+    ],
+    "tags": []
+}

@@ -2,11 +2,15 @@
     "type": "object",
     "required": [
         "name",
+        "character",
         "rarity",
         "description"
     ],
     "properties": {
         "name": {
+            "type": "string"
+        },
+        "character": {
             "type": "string"
         },
         "rarity": {
@@ -55,6 +59,13 @@
                 ]
             },
             "minItems": 1
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
         }
     },
     "additionalProperties": false

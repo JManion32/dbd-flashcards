@@ -1,0 +1,16 @@
+{
+    "name": "Compound Thirty-Three",
+    "character": "The Blight",
+    "rarity": "Visceral",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Rush] cannot be performed more than [5] times.",
+                "Increases [Rush] turn rate by [11%].",
+                "Increases Rush duration by [11%]."
+            ]
+        }
+    ],
+    "tags": []
+}

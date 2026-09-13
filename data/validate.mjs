@@ -44,7 +44,6 @@ let hasErrors = false;
 
 switch (dataSetType) {
     case 'survivor_perks':
-
         for (const file of jsonFiles) {
             const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
 
@@ -81,7 +80,6 @@ switch (dataSetType) {
         break;
 
     case 'killer_perks':
-
         for (const file of jsonFiles) {
             const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
 
@@ -101,7 +99,6 @@ switch (dataSetType) {
         break;
 
     case 'killer_add-ons':
-
         for (const file of jsonFiles) {
             const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
 
@@ -112,7 +109,7 @@ switch (dataSetType) {
                 hasErrors = true;
             }
             const allowedRarities = getAllowList('shared', 'rarities.json');
-            if (validateField(file, 'rarity', parsedFile.character, allowedRarities)) {
+            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
                 hasErrors = true;
             }
             if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
