@@ -38,6 +38,7 @@ import StartStudyModal from '../components/modal/StartStudyModal.vue';
 .header-filler-container {
     width: 100%;
     height: 4rem;
+    flex-shrink: 0;
 }
 .header-container {
     position: fixed;
