@@ -1,7 +1,10 @@
 {
     "name": "Compound Thirty-Three",
-    "character": "The Blight",
+    "id": "compound-thirty-three",
+    "side": "killer",
+    "type": "add-on",
     "rarity": "Visceral",
+    "owner": "The Blight",
     "description": [
         {
             "type": "list",
@@ -12,5 +15,6 @@
             ]
         }
     ],
+    "quote": "\"Time is scarce. Let this be the one...\" -Talbot Grimes",
     "tags": []
 }

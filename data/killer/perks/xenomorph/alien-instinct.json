@@ -1,7 +1,9 @@
 {
     "name": "Alien Instinct",
-    "type": "killer",
-    "character": "The Xenomorph",
+    "id": "alien-instinct",
+    "side": "killer",
+    "type": "perk",
+    "owner": "The Xenomorph",
     "description": [
         {
             "type": "text",
@@ -15,6 +17,7 @@
             ]
         }
     ],
+    "quote": "\"Yellow light's for my eyes only.\" -Dallas",
     "tags": [
         "aura",
         "oblivious"

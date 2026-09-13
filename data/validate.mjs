@@ -10,10 +10,13 @@ import {
     getAllowList,
     getJsonFiles,
     validateSchema,
+    assertField,
     validateField,
+    assertLowerKebabCase,
     validateList,
     assertAlphabeticalList,
-} from './validate-helper.mjs';
+} from './validation/validate-helper.mjs';
+import validateFieldOrder from './validation/validateFieldOrder.mjs';
 
 validateArgLength(process.argv.length, 4);
 
@@ -29,100 +32,108 @@ const dataSetType = `${characterType}_${itemType}`;
 // Location of data to be validated.
 const dataDir = path.join(`${characterType}/${itemType}`);
 
-// Location of this data's validation (allow lists, schema, etc).
-const validationDir = path.join(`${characterType}/validation`);
-
 // Create the validation function (for helper)
-createValidationFunction(validationDir, `${itemType}.schema.json`);
+createValidationFunction(`schema.json`);
 
 // exhaustion, elusive, exposed, etc
-const allowedTags = getAllowList('shared', 'tags.json');
+const allowedTags = getAllowList('tags.json');
 
 const jsonFiles = getJsonFiles(dataDir);
 
 let hasErrors = false;
 
-switch (dataSetType) {
-    case 'survivor_perks':
-        for (const file of jsonFiles) {
-            const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
+for (const file of jsonFiles) {
+    const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
 
-            validateSchema(file, parsedFile);
+    if (validateSchema(file, parsedFile)) {
+        hasErrors = true;
+    }
+    if (validateFieldOrder(file, parsedFile)) {
+        hasErrors = true;
+    }
+    if (assertLowerKebabCase(file, 'id', parsedFile.id)) {
+        hasErrors = true;
+    }
+    if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+        hasErrors = true;
+    }
+    if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+        hasErrors = true;
+    }
 
-            const allowedCharacters = getAllowList(validationDir, 'survivors.json');
-            if (validateField(file, 'survivor', parsedFile.character, allowedCharacters)) {
+    switch (dataSetType) {
+        case 'survivor_perks': {
+            if (assertField(file, 'side', parsedFile.side, 'survivor')) {
                 hasErrors = true;
             }
-            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+            if (assertField(file, 'type', parsedFile.type, 'perk')) {
                 hasErrors = true;
             }
-            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+            const allowedCharacters = getAllowList('survivors.json');
+            if (validateField(file, 'survivor', parsedFile.owner, allowedCharacters)) {
                 hasErrors = true;
             }
+            break;
         }
-        break;
 
-    case 'survivor_add-ons':
-        for (const file of jsonFiles) {
-            const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
-
-            validateSchema(file, parsedFile);
-
-            const allowedItems = getAllowList(validationDir, 'items.json');
-            if (validateField(file, 'item', parsedFile.type, allowedItems)) {
+        case 'survivor_add-ons': {
+            if (assertField(file, 'side', parsedFile.side, 'survivor')) {
                 hasErrors = true;
             }
-            const allowedRarities = getAllowList('shared', 'rarities.json');
+            if (assertField(file, 'type', parsedFile.type, 'add-on')) {
+                hasErrors = true;
+            }
+            if (assertLowerKebabCase(file, 'id', parsedFile.id)) {
+                hasErrors = true;
+            }
+
+            const allowedItems = getAllowList('items.json');
+            if (validateField(file, 'item', parsedFile.owner, allowedItems)) {
+                hasErrors = true;
+            }
+            const allowedRarities = getAllowList('rarities.json');
             if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
                 hasErrors = true;
             }
+            break;
         }
-        break;
 
-    case 'killer_perks':
-        for (const file of jsonFiles) {
-            const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
-
-            validateSchema(file, parsedFile);
-
-            const allowedCharacters = getAllowList(validationDir, 'killers.json');
-            if (validateField(file, 'killer', parsedFile.character, allowedCharacters)) {
+        case 'killer_perks': {
+            if (assertField(file, 'side', parsedFile.side, 'killer')) {
                 hasErrors = true;
             }
-            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+            if (assertField(file, 'type', parsedFile.type, 'perk')) {
                 hasErrors = true;
             }
-            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+            const allowedCharacters = getAllowList('killers.json');
+            if (validateField(file, 'killer', parsedFile.owner, allowedCharacters)) {
                 hasErrors = true;
             }
+            break;
         }
-        break;
 
-    case 'killer_add-ons':
-        for (const file of jsonFiles) {
-            const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
-
-            validateSchema(file, parsedFile);
-
-            const allowedCharacters = getAllowList(validationDir, 'killers.json');
-            if (validateField(file, 'killer', parsedFile.character, allowedCharacters)) {
+        case 'killer_add-ons': {
+            if (assertField(file, 'side', parsedFile.side, 'killer')) {
                 hasErrors = true;
             }
-            const allowedRarities = getAllowList('shared', 'rarities.json');
+            if (assertField(file, 'type', parsedFile.type, 'add-on')) {
+                hasErrors = true;
+            }
+            const allowedCharacters = getAllowList('killers.json');
+            if (validateField(file, 'killer', parsedFile.owner, allowedCharacters)) {
+                hasErrors = true;
+            }
+            const allowedRarities = getAllowList('rarities.json');
             if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
                 hasErrors = true;
             }
-            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
-                hasErrors = true;
-            }
-            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
-                hasErrors = true;
-            }
+            break;
         }
-        break;
 
-    default:
-        console.error('Error: No such dataset.');
+        default: {
+            console.error('Error: No such dataset.');
+        }
+    }
 }
 
 if (hasErrors) {

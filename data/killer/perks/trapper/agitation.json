@@ -1,7 +1,9 @@
 {
     "name": "Agitation",
-    "type": "killer",
-    "character": "The Trapper",
+    "id": "agitation",
+    "side": "killer",
+    "type": "perk",
+    "owner": "The Trapper",
     "description": [
         {
             "type": "text",
@@ -15,6 +17,7 @@
             ]
         }
     ],
+    "quote": "\"At some point, the execitement of hooking one of us becomes more important than the desire to kill us.\"",
     "tags": [
         "carry",
         "terror-radius"

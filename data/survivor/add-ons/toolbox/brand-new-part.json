@@ -1,7 +1,10 @@
 {
     "name": "Brand New Part",
-    "type": "Toolbox",
+    "id": "brand-new-part",
+    "side": "survivor",
+    "type": "add-on",
     "rarity": "Visceral",
+    "owner": "Toolbox",
     "description": [
         {
             "type": "list",
@@ -12,5 +15,6 @@
                 "<This add-on is consumed after use.>"
             ]
         }
-    ]
+    ],
+    "tags": []
 }

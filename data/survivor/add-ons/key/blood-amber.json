@@ -1,7 +1,10 @@
 {
     "name": "Blood Amber",
-    "type": "Key",
+    "id": "blood-amber",
+    "side": "survivor",
+    "type": "add-on",
     "rarity": "Visceral",
+    "owner": "Key",
     "description": [
         {
             "type": "list",
@@ -11,5 +14,6 @@
                 "Reduces number of charges by [2]."
             ]
         }
-    ]
+    ],
+    "tags": []
 }

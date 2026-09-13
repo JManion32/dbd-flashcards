@@ -2,8 +2,10 @@
     "type": "object",
     "required": [
         "name",
+        "id",
+        "side",
         "type",
-        "character",
+        "owner",
         "description",
         "tags"
     ],
@@ -11,10 +13,19 @@
         "name": {
             "type": "string"
         },
+        "id": {
+            "type": "string"
+        },
+        "side": {
+            "type": "string"
+        },
         "type": {
             "type": "string"
         },
-        "character": {
+        "rarity": {
+            "type": "string"
+        },
+        "owner": {
             "type": "string"
         },
         "description": {
@@ -60,6 +71,9 @@
                 ]
             },
             "minItems": 1
+        },
+        "quote": {
+            "type": "string"
         },
         "tags": {
             "type": "array",

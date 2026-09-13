@@ -1,7 +1,9 @@
 {
     "name": "A Place for us",
-    "type": "survivor",
-    "character": "Kwon Tae-Young",
+    "id": "a-place-for-us",
+    "side": "survivor",
+    "type": "perk",
+    "owner": "Kwon Tae-Young",
     "description": [
         {
             "type": "text",

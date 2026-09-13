@@ -1,4 +1,4 @@
-/* Abstracts boilerplate to simplify validate.mjs */
+/* Abstracts function implementation to simplify validate.mjs */
 
 import Ajv from 'ajv';
 import fs from 'node:fs';
@@ -11,8 +11,8 @@ const ajv = new Ajv({
 });
 
 let __validate_schema;
-export function createValidationFunction(validationDir, schemaFile) {
-    const schema = JSON.parse(fs.readFileSync(path.join(`${validationDir}/${schemaFile}`), 'utf8'));
+export function createValidationFunction(schemaFile) {
+    const schema = JSON.parse(fs.readFileSync(path.join(`validation/${schemaFile}`), 'utf8'));
     __validate_schema = ajv.compile(schema);
 }
 
@@ -32,8 +32,8 @@ export function validateArgContent(argNum, type, type1, type2) {
     }
 }
 
-export function getAllowList(filePath, file) {
-    return new Set(JSON.parse(fs.readFileSync(path.join(`${filePath}/${file}`), 'utf8')));
+export function getAllowList(file) {
+    return new Set(JSON.parse(fs.readFileSync(path.join(`validation/${file}`), 'utf8')));
 }
 
 export function getJsonFiles(dir) {
@@ -58,6 +58,24 @@ export function validateSchema(file, parsedFile) {
     if (!__validate_schema(parsedFile)) {
         console.error(`\n❌ ${file}`);
         console.error(__validate_schema.errors);
+        return true;
+    }
+    return false;
+}
+
+export function assertLowerKebabCase(file, field, value) {
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value)) {
+        console.error(`\n❌ ${file}: Invalid ${field}: "${value}".`);
+        console.error('Must be kebab-case and all lowercase.');
+        return true;
+    }
+    return false;
+}
+
+export function assertField(file, field, value, expectedValue) {
+    if (value !== expectedValue) {
+        console.error(`\n❌ ${file}: Invalid ${field}: "${value}".`);
+        console.error(`Expected: ${expectedValue}.`);
         return true;
     }
     return false;

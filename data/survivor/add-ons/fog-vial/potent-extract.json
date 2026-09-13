@@ -1,7 +1,10 @@
 {
     "name": "Potent Extract",
-    "type": "Fog Vial",
+    "id": "potent-extract",
+    "side": "survivor",
+    "type": "add-on",
     "rarity": "Visceral",
+    "owner": "Fog Vial",
     "description": [
         {
             "type": "list",
@@ -11,5 +14,6 @@
                 "Decreases the Fog Cloud's size by [25%]."
             ]
         }
-    ]
+    ],
+    "tags": []
 }

@@ -1,7 +1,9 @@
 {
     "name": "Aftercare",
-    "type": "survivor",
-    "character": "Jeff Johansen",
+    "id": "aftercase",
+    "side": "survivor",
+    "type": "perk",
+    "owner": "Jeff Johansen",
     "description": [
         {
             "type": "text",

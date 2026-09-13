@@ -1,12 +1,16 @@
 {
     "name": "Iridescent Family Crest",
-    "character": "The Oni",
+    "id": "iridescent-family-crest",
+    "side": "killer",
+    "type": "add-on",
     "rarity": "Visceral",
+    "owner": "The Oni",
     "description": [
         {
             "type": "text",
             "content": "Miss a charged attack during [Blood Fury] to smash the ground and create a shock wave. Any Survivors with [24m] will scream and reveal their current location to you for [4s]."
         }
     ],
+    "quote": "\"Know who you are so you may shield your heart.\" -Renjiro's Doctrine 11:2",
     "tags": []
 }

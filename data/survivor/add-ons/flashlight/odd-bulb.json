@@ -1,7 +1,10 @@
 {
     "name": "Odd Bulb",
-    "type": "Flashlight",
+    "id": "odd-bulb",
+    "side": "survivor",
+    "type": "add-on",
     "rarity": "Visceral",
+    "owner": "Flashlight",
     "description": [
         {
             "type": "list",
@@ -11,5 +14,6 @@
                 "Increases Flashlight battery consumption by [12%]."
             ]
         }
-    ]
+    ],
+    "tags": []
 }

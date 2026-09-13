@@ -1,7 +1,10 @@
 {
     "name": "Anti-Exhaustion Syringe",
-    "type": "Med-kit",
+    "id": "anti-exhaustion-syringe",
+    "side": "survivor",
+    "type": "add-on",
     "rarity": "Visceral",
+    "owner": "Med-Kit",
     "description": [
         {
             "type": "list",
@@ -11,5 +14,6 @@
                 "Consumes the Med-kit upon use."
             ]
         }
-    ]
+    ],
+    "tags": []
 }

@@ -1,7 +1,9 @@
 {
     "name": "Alert",
-    "type": "survivor",
-    "character": "Feng Min",
+    "id": "alert",
+    "side": "survivor",
+    "type": "perk",
+    "owner": "Feng Min",
     "description": [
         {
             "type": "text",

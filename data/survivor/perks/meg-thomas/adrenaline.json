@@ -1,7 +1,9 @@
 {
     "name": "Adrenaline",
-    "type": "survivor",
-    "character": "Meg Thomas",
+    "id": "adrenaline",
+    "side": "survivor",
+    "type": "perk",
+    "owner": "Meg Thomas",
     "description": [
         {
             "type": "text",
