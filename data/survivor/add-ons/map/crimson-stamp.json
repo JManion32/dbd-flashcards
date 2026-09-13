@@ -1,13 +1,13 @@
 {
-    "name": "Blood Amber",
-    "type": "Key",
+    "name": "Crimson Stamp",
+    "type": "Map",
     "rarity": "Visceral",
     "description": [
         {
             "type": "list",
             "items": [
-                "Using the key reveals the Killer to you, and you to the Killer.",
-                "Reduces aura reveal time by [6s].",
+                "The Killer's Aura is revealed within [8m] of the beam of light.",
+                "Reduces beam of light duration by [10s].",
                 "Reduces number of charges by [2]."
             ]
         }

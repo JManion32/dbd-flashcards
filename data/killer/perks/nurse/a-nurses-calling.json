@@ -1,0 +1,15 @@
+{
+    "name": "A Nurse's Calling",
+    "type": "killer",
+    "character": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "Within [32m] of Survivors who are healing or being healed, you see their Auras."
+        }
+    ],
+    "tags": [
+        "aura",
+        "healing"
+    ]
+}

@@ -11,7 +11,7 @@
             "type": "list",
             "items": [
                 "You hear a sound cue.",
-                "You see their Aura for @5s."
+                "You see their Aura for [5s]."
             ]
         }
     ],

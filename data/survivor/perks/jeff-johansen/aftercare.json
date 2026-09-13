@@ -5,7 +5,7 @@
     "description": [
         {
             "type": "text",
-            "content": "You and up to @3 Survivors see each other's Auras whenever:"
+            "content": "You and up to [3] Survivors see each other's Auras whenever:"
         },
         {
             "type": "list",

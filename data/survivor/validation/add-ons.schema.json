@@ -3,6 +3,7 @@
     "required": [
         "name",
         "type",
+        "rarity",
         "description"
     ],
     "properties": {
@@ -10,6 +11,9 @@
             "type": "string"
         },
         "type": {
+            "type": "string"
+        },
+        "rarity": {
             "type": "string"
         },
         "description": {

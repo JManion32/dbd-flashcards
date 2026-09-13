@@ -1,0 +1,15 @@
+{
+    "name": "Anti-Exhaustion Syringe",
+    "type": "Med-kit",
+    "rarity": "Visceral",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Press the <Secondary Action> button while healing with the Med-kit to use.",
+                "The affected Survivor loses the [Exhausted] Status Effect upon use.",
+                "Consumes the Med-kit upon use."
+            ]
+        }
+    ]
+}

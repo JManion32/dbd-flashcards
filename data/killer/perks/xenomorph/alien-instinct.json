@@ -1,0 +1,22 @@
+{
+    "name": "Alien Instinct",
+    "type": "killer",
+    "character": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you hook a Survivor, the farthest injured Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gains [Oblivious] for [60s].",
+                "You see their Aura for [8s]."
+            ]
+        }
+    ],
+    "tags": [
+        "aura",
+        "oblivious"
+    ]
+}

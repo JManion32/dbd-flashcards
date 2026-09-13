@@ -1,0 +1,22 @@
+{
+    "name": "Agitation",
+    "type": "killer",
+    "character": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "While carrying a Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [18%] [Haste]",
+                "Your Terror Radius is [12m] larger."
+            ]
+        }
+    ],
+    "tags": [
+        "carry",
+        "terror-radius"
+    ]
+}

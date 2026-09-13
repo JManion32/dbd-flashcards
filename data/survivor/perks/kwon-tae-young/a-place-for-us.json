@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "content": "Whenever you finish healing the Obsession, you both gain [Elusive] for @30s."
+            "content": "Whenever you finish healing the Obsession, you both gain [Elusive] for [@30s]."
         },
         {
             "type": "text",

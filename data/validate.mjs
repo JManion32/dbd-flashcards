@@ -1,127 +1,135 @@
+/* Validate the perks and add-ons, ensuring all fields are correctly filled in. */
+
 import fs from 'node:fs';
 import path from 'node:path';
-import Ajv from 'ajv';
 
-const usage = `Usage: node validate <killer/survivor> <perks/add-ons>`;
+import {
+    createValidationFunction,
+    validateArgLength,
+    validateArgContent,
+    getAllowList,
+    getJsonFiles,
+    validateSchema,
+    validateField,
+    validateList,
+    assertAlphabeticalList,
+} from './validate-helper.mjs';
 
-if (process.argv.length !== 4) {
-    console.error(`Argument error: Expected 4, got ${process.argv.length}.`);
-    console.error(usage);
-    process.exit(1);
-}
+validateArgLength(process.argv.length, 4);
 
-const CHARACTER_TYPE = process.argv[2];
-if (CHARACTER_TYPE !== 'killer' && CHARACTER_TYPE !== 'survivor') {
-    console.error('Error: The third argument must be <killer> or <survivor>.');
-    console.error(usage);
-    process.exit(1);
-}
+const characterType = process.argv[2];
+validateArgContent(2, characterType, 'killer', 'survivor');
 
-const ITEM_TYPE = process.argv[3];
-if (ITEM_TYPE !== 'perks' && ITEM_TYPE !== 'add-ons') {
-    console.error('Error: The fourth argument must be <perks> or <add-ons>.');
-    console.error(usage);
-    process.exit(1);
-}
+const itemType = process.argv[3];
+validateArgContent(3, itemType, 'perks', 'add-ons');
 
-const __data_dir = path.join(`${CHARACTER_TYPE}/${ITEM_TYPE}`);
-const __validation_dir = path.join(`${CHARACTER_TYPE}/validation`);
+// For the switch statement.
+const dataSetType = `${characterType}_${itemType}`;
 
-const schema = JSON.parse(
-    fs.readFileSync(
-        path.resolve(__validation_dir, `${ITEM_TYPE}.schema.json`),
-        'utf8'
-    )
-);
+// Location of data to be validated.
+const dataDir = path.join(`${characterType}/${itemType}`);
 
-const allowedCharacters = new Set(
-    JSON.parse(
-        fs.readFileSync(
-            path.resolve(__validation_dir, 'characters.json'),
-            'utf8'
-        )
-    )
-);
+// Location of this data's validation (allow lists, schema, etc).
+const validationDir = path.join(`${characterType}/validation`);
 
-const allowedTags = new Set(
-    JSON.parse(
-        fs.readFileSync(path.resolve(__validation_dir, 'tags.json'), 'utf8')
-    )
-);
+// Create the validation function (for helper)
+createValidationFunction(validationDir, `${itemType}.schema.json`);
 
-const ajv = new Ajv({
-    allErrors: true,
-});
+// exhaustion, elusive, exposed, etc
+const allowedTags = getAllowList('shared', 'tags.json');
 
-const validateSchema = ajv.compile(schema);
-
-function getJsonFiles(directory) {
-    return fs
-        .readdirSync(directory, { withFileTypes: true })
-        .flatMap((entry) => {
-            const fullPath = path.join(directory, entry.name);
-
-            if (entry.isDirectory()) {
-                return getJsonFiles(fullPath);
-            }
-
-            if (entry.name.endsWith('.json')) {
-                return [
-                    fullPath,
-                ];
-            }
-
-            return [];
-        });
-}
+const jsonFiles = getJsonFiles(dataDir);
 
 let hasErrors = false;
 
-for (const file of getJsonFiles(__data_dir)) {
-    const parsed_file = JSON.parse(fs.readFileSync(file, 'utf8'));
+switch (dataSetType) {
+    case 'survivor_perks':
 
-    // Run ajv
-    if (!validateSchema(parsed_file)) {
-        console.error(`\n❌ ${file}`);
-        console.error(validateSchema.errors);
-        hasErrors = true;
-        continue;
-    }
+        for (const file of jsonFiles) {
+            const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
 
-    // Assert character is valid.
-    if (CHARACTER_TYPE !== 'survivor' && ITEM_TYPE !== 'add-on') {
-        if (!allowedCharacters.has(parsed_file.character)) {
-            console.error(
-                `\n❌ ${file}: Invalid character "${parsed_file.character}"`
-            );
-            hasErrors = true;
-        }
+            validateSchema(file, parsedFile);
 
-        // Assert tags are valid.
-        for (const tag of parsed_file.tags) {
-            if (!allowedTags.has(tag)) {
-                console.error(`\n❌ ${file}: Invalid tag "${tag}"`);
+            const allowedCharacters = getAllowList(validationDir, 'survivors.json');
+            if (validateField(file, 'survivor', parsedFile.character, allowedCharacters)) {
+                hasErrors = true;
+            }
+            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+                hasErrors = true;
+            }
+            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
                 hasErrors = true;
             }
         }
+        break;
 
-        // Assert tags in alphabetical order.
-        const sortedTags = [
-            ...parsed_file.tags,
-        ].sort((a, b) => a.localeCompare(b));
-        if (JSON.stringify(parsed_file.tags) !== JSON.stringify(sortedTags)) {
-            console.error(`❌ ${file}: Tags must be in alphabetical order`);
-            hasErrors = true;
+    case 'survivor_add-ons':
+        for (const file of jsonFiles) {
+            const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
+
+            validateSchema(file, parsedFile);
+
+            const allowedItems = getAllowList(validationDir, 'items.json');
+            if (validateField(file, 'item', parsedFile.type, allowedItems)) {
+                hasErrors = true;
+            }
+            const allowedRarities = getAllowList('shared', 'rarities.json');
+            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
+                hasErrors = true;
+            }
         }
-    }
-    // Is Survivor add-on
-    else {
-        // TODO: Add validation for type.
-    }
+        break;
+
+    case 'killer_perks':
+
+        for (const file of jsonFiles) {
+            const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
+
+            validateSchema(file, parsedFile);
+
+            const allowedCharacters = getAllowList(validationDir, 'killers.json');
+            if (validateField(file, 'killer', parsedFile.character, allowedCharacters)) {
+                hasErrors = true;
+            }
+            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+                hasErrors = true;
+            }
+            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+                hasErrors = true;
+            }
+        }
+        break;
+
+    case 'killer_add-ons':
+
+        for (const file of jsonFiles) {
+            const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
+
+            validateSchema(file, parsedFile);
+
+            const allowedCharacters = getAllowList(validationDir, 'killers.json');
+            if (validateField(file, 'killer', parsedFile.character, allowedCharacters)) {
+                hasErrors = true;
+            }
+            const allowedRarities = getAllowList('shared', 'rarities.json');
+            if (validateField(file, 'rarity', parsedFile.character, allowedRarities)) {
+                hasErrors = true;
+            }
+            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+                hasErrors = true;
+            }
+            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+                hasErrors = true;
+            }
+        }
+        break;
+
+    default:
+        console.error('Error: No such dataset.');
 }
 
 if (hasErrors) {
     process.exit(1);
 }
 
-console.log(`✅ All ${CHARACTER_TYPE} ${ITEM_TYPE} are valid.`);
+console.log(`✅ All ${characterType} ${itemType} are valid.`);

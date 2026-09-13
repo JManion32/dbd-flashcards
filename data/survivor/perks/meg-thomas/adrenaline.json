@@ -10,8 +10,8 @@
         {
             "type": "list",
             "items": [
-                "You gain @50% [Haste] for @4s.",
-                "You gain [Exhausted] for @40s."
+                "You gain [50%] [Haste] for [4s].",
+                "You gain [Exhausted] for [@40s]."
             ]
         }
     ],

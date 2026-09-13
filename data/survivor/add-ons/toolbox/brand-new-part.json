@@ -1,0 +1,16 @@
+{
+    "name": "Brand New Part",
+    "type": "Toolbox",
+    "rarity": "Visceral",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Toolbox Repair] action is replaced with [Install Brand New Part].",
+                "During the installation, you will be faced with a difficult Skill Check.",
+                "Upon succeeding the Skill Check, the generator's required charges are reduced by [10].",
+                "<This add-on is consumed after use.>"
+            ]
+        }
+    ]
+}
