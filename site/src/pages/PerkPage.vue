@@ -8,13 +8,16 @@ const { combinedPerks } = useData();
     <div class="display-cards-container">
         <div
             v-for="perk in combinedPerks"
-            :key="perk.name"
+            :key="perk.id"
         >
             <DisplayCard
+                :id="perk.id"
                 :name="perk.name"
+                :side="perk.side"
                 :type="perk.type"
-                :character="perk.character"
+                :owner="perk.owner"
                 :description="perk.description"
+                :quote="perk.quote"
                 :tags="perk.tags"
             />
         </div>

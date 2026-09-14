@@ -3,14 +3,18 @@ import '../../styles/modal.css';
 import randomIcon from '../../assets/random.webp';
 import { ref } from 'vue';
 import Modal from './Modal.vue';
+import { getRarityColor } from '../../utils/GameItemFormatter.ts';
 
 const props = defineProps<{
     name: string;
+    id: string;
+    side: string;
     type: string;
     item?: string;
     rarity?: string;
-    character?: string;
+    owner: string;
     description: string | Array<string>;
+    quote?: string | undefined;
     tags: Array<string>;
 }>();
 
@@ -36,18 +40,30 @@ const visible = ref(false);
             <h2 class="card-name">
                 {{ props.name }}
             </h2>
-            <p
-                v-if="props.rarity"
-                class="card-rarity"
-            >
-                {{ props.rarity }}
-            </p>
-            <p
-                v-if="props.character"
-                class="card-character"
-            >
-                {{ props.character }}
-            </p>
+            <div class="metadata-container">
+                <span
+                    v-if="props.owner"
+                    class="metadata-text"
+                >
+                    {{ props.owner }}
+                </span>
+                <span class="metadata-text"> • </span>
+                <span class="metadata-text">
+                    {{ props.type }}
+                </span>
+                <div
+                    v-if="props.rarity"
+                    class="rarity-container"
+                >
+                    <span class="metadata-text"> • </span>
+                    <span
+                        class="card-rarity"
+                        :style="{ color: getRarityColor(props.rarity) }"
+                    >
+                        {{ props.rarity }}
+                    </span>
+                </div>
+            </div>
             <h3>Description</h3>
             <div>
                 {{ props.description }}
@@ -78,8 +94,8 @@ const visible = ref(false);
     opacity: 100%;
 }
 .display-card-img {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     object-fit: contain;
 }
 .display-card-title {
@@ -99,6 +115,7 @@ const visible = ref(false);
     font-weight: 900;
     font-size: 2.5rem;
     margin: 0;
+    margin-bottom: 0.75rem;
     text-shadow: var(--large-text-glow);
 }
 .card-modal-content h3 {
@@ -106,13 +123,26 @@ const visible = ref(false);
     font-weight: 900;
     font-size: 1.5rem;
     margin: 0;
+    margin-top: 2rem;
     text-shadow: var(--small-text-glow);
 }
-.card-character,
+.metadata-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.rarity-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.metadata-text {
+    font-style: italic;
+    color: var(--standard-dim);
+    font-weight: 700;
+}
 .card-rarity {
     font-style: italic;
     font-weight: 700;
-    color: var(--standard-dim);
-    margin: 0.5rem 0;
 }
 </style>

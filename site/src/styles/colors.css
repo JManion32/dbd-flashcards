@@ -11,4 +11,11 @@
     --header-bg: #0a0a0a;
     --nav-link-hover-bg: #1a1a1a;
     --nav-link-active-bg: #222222;
+
+    /* Rarities */
+    --common-rarity: #ab713c;
+    --uncommon-rarity: #199b1e;
+    --rare-rarity: #265dbd;
+    --very-rare-rarity: #ac3ee3;
+    --visceral-rarity: #ff0955;
 }

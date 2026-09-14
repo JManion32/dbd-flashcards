@@ -1,8 +1,8 @@
 {
     "name": "Ace in the Hole",
     "id": "ace-in-the-hole",
-    "side": "survivor",
-    "type": "perk",
+    "side": "Survivor",
+    "type": "Perk",
     "owner": "Ace Visconti",
     "description": [
         {

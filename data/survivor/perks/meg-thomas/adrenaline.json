@@ -1,8 +1,8 @@
 {
     "name": "Adrenaline",
     "id": "adrenaline",
-    "side": "survivor",
-    "type": "perk",
+    "side": "Survivor",
+    "type": "Perk",
     "owner": "Meg Thomas",
     "description": [
         {

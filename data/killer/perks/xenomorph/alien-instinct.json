@@ -1,8 +1,8 @@
 {
     "name": "Alien Instinct",
     "id": "alien-instinct",
-    "side": "killer",
-    "type": "perk",
+    "side": "Killer",
+    "type": "Perk",
     "owner": "The Xenomorph",
     "description": [
         {

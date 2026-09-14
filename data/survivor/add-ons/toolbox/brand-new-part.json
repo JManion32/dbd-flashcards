@@ -1,8 +1,8 @@
 {
     "name": "Brand New Part",
     "id": "brand-new-part",
-    "side": "survivor",
-    "type": "add-on",
+    "side": "Survivor",
+    "type": "Add-On",
     "rarity": "Visceral",
     "owner": "Toolbox",
     "description": [

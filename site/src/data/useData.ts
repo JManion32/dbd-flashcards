@@ -6,9 +6,16 @@ export function useData() {
         return [...survivorPerks, ...killerPerks].sort((a, b) => a.name.localeCompare(b.name));
     });
 
+    const combinedAddOns = computed(() => {
+        return [...survivorAddOns, ...killerAddOns].sort((a, b) => a.name.localeCompare(b.name));
+    });
+
     return {
         combinedPerks,
+        combinedAddOns,
+        survivorPerks,
         survivorAddOns,
+        killerPerks,
         killerAddOns,
     };
 }

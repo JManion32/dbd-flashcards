@@ -63,10 +63,10 @@ for (const file of jsonFiles) {
 
     switch (dataSetType) {
         case 'survivor_perks': {
-            if (assertField(file, 'side', parsedFile.side, 'survivor')) {
+            if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
                 hasErrors = true;
             }
-            if (assertField(file, 'type', parsedFile.type, 'perk')) {
+            if (assertField(file, 'type', parsedFile.type, 'Perk')) {
                 hasErrors = true;
             }
             const allowedCharacters = getAllowList('survivors.json');
@@ -77,10 +77,10 @@ for (const file of jsonFiles) {
         }
 
         case 'survivor_add-ons': {
-            if (assertField(file, 'side', parsedFile.side, 'survivor')) {
+            if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
                 hasErrors = true;
             }
-            if (assertField(file, 'type', parsedFile.type, 'add-on')) {
+            if (assertField(file, 'type', parsedFile.type, 'Add-On')) {
                 hasErrors = true;
             }
             if (assertLowerKebabCase(file, 'id', parsedFile.id)) {
@@ -99,10 +99,10 @@ for (const file of jsonFiles) {
         }
 
         case 'killer_perks': {
-            if (assertField(file, 'side', parsedFile.side, 'killer')) {
+            if (assertField(file, 'side', parsedFile.side, 'Killer')) {
                 hasErrors = true;
             }
-            if (assertField(file, 'type', parsedFile.type, 'perk')) {
+            if (assertField(file, 'type', parsedFile.type, 'Perk')) {
                 hasErrors = true;
             }
             const allowedCharacters = getAllowList('killers.json');
@@ -113,10 +113,10 @@ for (const file of jsonFiles) {
         }
 
         case 'killer_add-ons': {
-            if (assertField(file, 'side', parsedFile.side, 'killer')) {
+            if (assertField(file, 'side', parsedFile.side, 'Killer')) {
                 hasErrors = true;
             }
-            if (assertField(file, 'type', parsedFile.type, 'add-on')) {
+            if (assertField(file, 'type', parsedFile.type, 'Add-On')) {
                 hasErrors = true;
             }
             const allowedCharacters = getAllowList('killers.json');

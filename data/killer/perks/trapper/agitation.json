@@ -1,8 +1,8 @@
 {
     "name": "Agitation",
     "id": "agitation",
-    "side": "killer",
-    "type": "perk",
+    "side": "Killer",
+    "type": "Perk",
     "owner": "The Trapper",
     "description": [
         {
