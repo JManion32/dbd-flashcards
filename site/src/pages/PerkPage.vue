@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DisplayCard from '../components/modal/DisplayCardModal.vue';
+import DisplayCard from '../components/modal/GameItemModal.vue';
 
 import { useData } from '../data/useData.ts';
 const { combinedPerks } = useData();

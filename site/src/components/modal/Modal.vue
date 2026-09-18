@@ -40,6 +40,9 @@ onUnmounted(() => {
                 @click.self="emit('close')"
             >
                 <div class="modal-container">
+                    <div class="modal-close-container">
+                        <button class="modal-close-btn" @click.self="emit('close')">&times;</button>
+                    </div>
                     <slot />
                 </div>
             </div>
@@ -62,7 +65,32 @@ onUnmounted(() => {
     width: var(--modal-width);
     background: var(--site-bg);
     border-radius: 1rem;
-    padding: 2rem 1rem 2rem 2rem;
+    padding: 1rem 1rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.modal-close-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 1.5rem;
+}
+.modal-close-btn {
+    margin-left: auto;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-weight: 900;
+    color: var(--scroll-thumb);
+    transition: var(--site-transition);
+    background: none;
+    border: none;
+    padding: none;
+    font-size: 1.5rem;
+}
+.modal-close-btn:hover {
+    cursor: pointer;
+    scale: 1.1;
 }
 
 /* Slide up */
