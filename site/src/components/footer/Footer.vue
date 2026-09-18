@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import '../../styles/footer.css';
-import AboutModal from './AboutModal.vue';
-import PrivacyPolicyModal from './PrivacyPolicyModal.vue';
-import WhatsNewModal from './WhatsNewModal.vue';
-import twitchLogo from '../../assets/twitch-logo.webp';
+import '@/styles/footer.css';
+import AboutModal from '@/components/footer/AboutModal.vue';
+import PrivacyPolicyModal from '@/components/footer/PrivacyPolicyModal.vue';
+import WhatsNewModal from '@/components/footer/WhatsNewModal.vue';
+import twitchLogo from '@/assets/twitch-logo.webp';
 </script>
 <template>
     <div class="footer-container">

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import DisplayCard from '../components/gameitem/GameItemModal.vue';
+import DisplayCard from '@/components/gameitem/GameItemModal.vue';
 
-import { useData } from '../data/useData.ts';
+import { useData } from '@/data/useData.ts';
 const { combinedAddOns } = useData();
 </script>
 <template>

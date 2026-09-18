@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import '../../styles/modal.css';
-//import randomIcon from '../../assets/random.webp';
-import { getRarityColor } from '../../utils/GameItemFormatter.ts';
-import type { GameItem } from '../../types/GameItem.ts';
+import '@/styles/modal.css';
+//import randomIcon from '@/assets/random.webp';
+import { getRarityColor } from '@/utils/GameItemFormatter.ts';
+import type { GameItem } from '@/types/GameItem.ts';
 
 const props = defineProps<{
     gameItem: GameItem;

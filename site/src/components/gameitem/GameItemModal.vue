@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import '../../styles/modal.css';
-import randomIcon from '../../assets/random.webp';
-import type { GameItem } from '../../types/GameItem.ts';
+import '@/styles/modal.css';
+import randomIcon from '@/assets/random.webp';
+import type { GameItem } from '@/types/GameItem.ts';
 import { ref } from 'vue';
-import Modal from '../Modal.vue';
-import GameItemDisplay from './GameItemDisplay.vue';
+import Modal from '@/components/Modal.vue';
+import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
 
 const props = defineProps<{
     gameItem: GameItem;

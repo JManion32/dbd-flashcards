@@ -1,4 +1,4 @@
-import type { GameItem } from '../types/GameItem.ts';
+import type { GameItem } from '@/types/GameItem.ts';
 
 // Survivor Perks
 const survivorPerkModules = import.meta.glob('../../../data/survivor/perks/**/*.json', {

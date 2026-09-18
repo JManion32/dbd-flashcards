@@ -1,12 +1,12 @@
 import { createApp } from 'vue';
 import { createWebHistory, createRouter } from 'vue-router';
 
-import HomePage from './pages/HomePage.vue';
-import FlashcardPage from './pages/FlashcardPage.vue';
-import PerkPage from './pages/PerkPage.vue';
-import AddonPage from './pages/AddonPage.vue';
+import HomePage from '@/pages/HomePage.vue';
+import FlashcardPage from '@/pages/FlashcardPage.vue';
+import PerkPage from '@/pages/PerkPage.vue';
+import AddonPage from '@/pages/AddonPage.vue';
 
-import App from './App.vue';
+import App from '@/App.vue';
 
 const routes = [
     { path: '/', component: HomePage },

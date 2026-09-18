@@ -1,5 +1,5 @@
 import { computed } from 'vue';
-import { survivorPerks, survivorAddOns, killerPerks, killerAddOns } from './loadData.ts';
+import { survivorPerks, survivorAddOns, killerPerks, killerAddOns } from '@/data/loadData.ts';
 
 export function useData() {
     const combinedPerks = computed(() => {

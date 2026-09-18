@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HomeBanner from '../components/home/HomeBanner.vue';
-import HomeSection from '../components/home/HomeSection.vue';
-import TestKnowledge from '../components/home/TestKnowledge.vue';
+import HomeBanner from '@/components/home/HomeBanner.vue';
+import HomeSection from '@/components/home/HomeSection.vue';
+import TestKnowledge from '@/components/home/TestKnowledge.vue';
 </script>
 <template>
     <div class="home-container">
