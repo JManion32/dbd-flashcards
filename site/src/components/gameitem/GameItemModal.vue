@@ -29,6 +29,7 @@ const visible = ref(false);
     <Modal
         :visible="visible"
         transition="scale"
+        height="short"
         @close="visible = false"
     >
         <!-- A little prop drilling never hurt anyone right? -->

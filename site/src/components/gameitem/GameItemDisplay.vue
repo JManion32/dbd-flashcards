@@ -55,7 +55,7 @@ const props = defineProps<{
         </div>
         <h3>Description</h3>
         <GameItemDisplayDesc :desc="props.gameItem.description" />
-        <h3>Tags</h3>
+        <h3 v-if="props.gameItem.tags.length > 0">Tags</h3>
         <GameItemDisplayTags :tags="props.gameItem.tags" />
         <p
             v-if="props.gameItem.quote"
@@ -90,7 +90,7 @@ const props = defineProps<{
 .game-item-header {
     color: var(--standard-white);
     font-weight: 900;
-    font-size: var(--game-item-header-size);
+    font-size: var(--game-item-h2-size);
     margin: 0 1rem 0.75rem 0;
     text-shadow: var(--large-text-glow);
 }
@@ -103,7 +103,7 @@ const props = defineProps<{
 .card-modal-content h3 {
     color: var(--standard-white);
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: var(--game-item-h3-size);
     margin: 0;
     margin-top: 2rem;
 }

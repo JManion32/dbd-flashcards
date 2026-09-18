@@ -38,7 +38,8 @@
     --footer-padding: 1.75rem 1rem;
 
     /* GameItemDisplay */
-    --game-item-header-size: 1.75rem;
+    --game-item-h2-size: 1.75rem;
+    --game-item-h3-size: 1.25rem;
 }
 
 /* Large Phones */
@@ -53,7 +54,7 @@
         --link-card-height: 7rem;
 
         /* GameItemDisplay */
-        --game-item-header-size: 2rem;
+        --game-item-h2-size: 2rem;
     }
 }
 
@@ -94,7 +95,8 @@
         --footer-padding: 0.5rem 1rem;
 
         /* GameItemDisplay */
-        --game-item-header-size: 2.5rem;
+        --game-item-h2-size: 2.5rem;
+        --game-item-h3-size: 1.5rem;
     }
 }
 
