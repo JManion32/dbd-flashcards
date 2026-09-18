@@ -12,11 +12,17 @@ defineProps<{
             v-for="(block, index) in desc"
             :key="index"
         >
-            <p v-if="block.type === 'text'" class="game-item-desc-txt">
+            <p
+                v-if="block.type === 'text'"
+                class="game-item-desc-txt"
+            >
                 {{ block.content }}
             </p>
 
-            <ul v-else-if="block.type === 'list'" class="game-item-desc-txt">
+            <ul
+                v-else-if="block.type === 'list'"
+                class="game-item-desc-txt"
+            >
                 <li
                     v-for="(item, itemIndex) in block.items"
                     :key="itemIndex"

@@ -48,13 +48,19 @@ const props = defineProps<{
                     </div>
                 </div>
             </div>
-            <img class="game-item-icon" :src="randomIcon"/>
+            <img
+                class="game-item-icon"
+                :src="randomIcon"
+            />
         </div>
         <h3>Description</h3>
         <GameItemDisplayDesc :desc="props.gameItem.description" />
         <h3>Tags</h3>
         <GameItemDisplayTags :tags="props.gameItem.tags" />
-        <img class="gid-side-icon" :src="props.gameItem.side === 'Killer' ? killerIcon : survivorIcon"/>
+        <img
+            class="gid-side-icon"
+            :src="props.gameItem.side === 'Killer' ? killerIcon : survivorIcon"
+        />
     </div>
 </template>
 <style scoped>
