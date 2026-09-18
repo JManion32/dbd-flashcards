@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import GameItemDisplayText from '@/components/gameitem/GameItemDisplayText.vue';
+
 import type { DescriptionBlock } from '@/types/GameItem.ts';
 
 defineProps<{
@@ -16,7 +18,7 @@ defineProps<{
                 v-if="block.type === 'text'"
                 class="game-item-desc-txt"
             >
-                {{ block.content }}
+                <GameItemDisplayText :text="block.content" />
             </p>
 
             <ul
@@ -27,12 +29,13 @@ defineProps<{
                     v-for="(item, itemIndex) in block.items"
                     :key="itemIndex"
                 >
-                    {{ item }}
+                    <GameItemDisplayText :text="item" />
                 </li>
             </ul>
         </template>
     </div>
 </template>
+
 <style scoped>
 .game-item-desc-txt {
     color: var(--standard-white);
