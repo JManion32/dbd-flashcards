@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import '@/styles/modal.css';
-import randomIcon from '@/assets/random.webp';
-import type { GameItem } from '@/types/GameItem.ts';
 import { ref } from 'vue';
+
 import Modal from '@/components/Modal.vue';
 import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
+
+import type { GameItem } from '@/types/GameItem.ts';
+
+import { getGameItemImage } from '@/utils/GameItemImages';
 
 const props = defineProps<{
     gameItem: GameItem;
@@ -19,7 +22,7 @@ const visible = ref(false);
     >
         <img
             class="display-card-img"
-            :src="randomIcon"
+            :src="getGameItemImage(props.gameItem.id)"
         />
         <span class="display-card-title">{{ props.gameItem.name }}</span>
     </div>

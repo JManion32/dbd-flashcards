@@ -36,6 +36,9 @@
     --twitch-link-margin-top: 1.5rem;
     --footer-links-gap: 1.5rem;
     --footer-padding: 1.75rem 1rem;
+
+    /* GameItemDisplay */
+    --game-item-header-size: 1.75rem;
 }
 
 /* Large Phones */
@@ -48,6 +51,9 @@
 
         /* LinkCard */
         --link-card-height: 7rem;
+
+        /* GameItemDisplay */
+        --game-item-header-size: 2rem;
     }
 }
 
@@ -86,6 +92,9 @@
         --twitch-link-margin-top: 0;
         --footer-links-gap: 1rem;
         --footer-padding: 0.5rem 1rem;
+
+        /* GameItemDisplay */
+        --game-item-header-size: 2.5rem;
     }
 }
 

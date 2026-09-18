@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import '@/styles/modal.css';
 
-import randomIcon from '@/assets/random.webp';
 import survivorIcon from '@/assets/survivor-icon.webp';
 import killerIcon from '@/assets/killer-icon.webp';
 
@@ -9,6 +8,7 @@ import GameItemDisplayDesc from '@/components/gameitem/GameItemDisplayDesc.vue';
 import GameItemDisplayTags from '@/components/gameitem/GameItemDisplayTags.vue';
 
 import { getRarityColor } from '@/utils/GameItemFormatter.ts';
+import { getGameItemImage } from '@/utils/GameItemImages';
 
 import type { GameItem } from '@/types/GameItem.ts';
 
@@ -50,13 +50,19 @@ const props = defineProps<{
             </div>
             <img
                 class="game-item-icon"
-                :src="randomIcon"
+                :src="getGameItemImage(props.gameItem.id)"
             />
         </div>
         <h3>Description</h3>
         <GameItemDisplayDesc :desc="props.gameItem.description" />
         <h3>Tags</h3>
         <GameItemDisplayTags :tags="props.gameItem.tags" />
+        <p
+            v-if="props.gameItem.quote"
+            class="game-item-display-quote"
+        >
+            {{ props.gameItem.quote }}
+        </p>
         <img
             class="gid-side-icon"
             :src="props.gameItem.side === 'Killer' ? killerIcon : survivorIcon"
@@ -84,7 +90,7 @@ const props = defineProps<{
 .game-item-header {
     color: var(--standard-white);
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: var(--game-item-header-size);
     margin: 0 1rem 0.75rem 0;
     text-shadow: var(--large-text-glow);
 }
@@ -119,6 +125,12 @@ const props = defineProps<{
 .card-rarity {
     font-style: italic;
     font-weight: 700;
+}
+.game-item-display-quote {
+    margin-top: 3rem;
+    color: var(--standard-dim);
+    font-weight: 700%;
+    font-style: italic;
 }
 .gid-side-icon {
     height: 20rem;
