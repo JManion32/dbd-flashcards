@@ -1,14 +1,12 @@
-type TextBlock = {
-    type: 'text';
-    content: string;
-};
-
-type ListBlock = {
-    type: 'list';
-    items: string[];
-};
-
-export type DescriptionBlock = TextBlock | ListBlock;
+export type DescriptionBlock =
+    | {
+          type: 'text';
+          content: string;
+      }
+    | {
+          type: 'list';
+          items: string[];
+      };
 
 export interface GameItem {
     name: string;
@@ -17,7 +15,7 @@ export interface GameItem {
     type: string;
     rarity?: string;
     owner: string;
-    description: string | Array<string>;
+    description: DescriptionBlock[];
     quote: string;
     tags: Array<string>;
 }
