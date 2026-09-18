@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DisplayCard from '../components/modal/GameItemModal.vue';
+import DisplayCard from '../components/gameitem/GameItemModal.vue';
 
 import { useData } from '../data/useData.ts';
 const { combinedAddOns } = useData();
@@ -10,17 +10,7 @@ const { combinedAddOns } = useData();
             v-for="addon in combinedAddOns"
             :key="addon.id"
         >
-            <DisplayCard
-                :id="addon.id"
-                :name="addon.name"
-                :side="addon.side"
-                :type="addon.type"
-                :rarity="addon.rarity"
-                :owner="addon.owner"
-                :description="addon.description"
-                :quote="addon.quote"
-                :tags="addon.tags"
-            />
+            <DisplayCard :game-item="addon" />
         </div>
     </div>
 </template>

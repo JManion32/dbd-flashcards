@@ -42,7 +42,7 @@ const backgroundColor = computed(() => `${props.color}12`);
     flex-shrink: 0;
 
     width: var(--link-card-width);
-    height: 7rem;
+    height: var(--link-card-height);
     padding: 1rem;
     gap: 2rem;
     margin: 2rem auto 0;

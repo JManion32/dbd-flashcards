@@ -70,7 +70,7 @@ onUnmounted(() => {
     width: var(--modal-width);
     background: var(--site-bg);
     border-radius: 1rem;
-    padding: 1rem 1rem 2rem 2rem;
+    padding: var(--modal-padding);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -91,11 +91,12 @@ onUnmounted(() => {
     background: none;
     border: none;
     padding: none;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 .modal-close-btn:hover {
     cursor: pointer;
-    scale: 1.1;
+    scale: 1.05;
+    color: #353535;
 }
 
 /* Slide up */

@@ -1,4 +1,16 @@
-export default interface Perk {
+type TextBlock = {
+    type: 'text';
+    content: string;
+};
+
+type ListBlock = {
+    type: 'list';
+    items: string[];
+};
+
+export type DescriptionBlock = TextBlock | ListBlock;
+
+export interface GameItem {
     name: string;
     id: string;
     side: string;

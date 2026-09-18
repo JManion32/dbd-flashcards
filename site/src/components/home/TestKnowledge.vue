@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import StartStudyModal from './modal/StartStudyModal.vue';
+import StartStudyModal from '../StartStudyModal.vue';
 </script>
 <template>
     <div class="test-knowledge-container">

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import '../../styles/footer.css';
-import '../../styles/modal.css';
+import '../styles/footer.css';
+import '../styles/modal.css';
 
 import { ref } from 'vue';
 import Modal from './Modal.vue';

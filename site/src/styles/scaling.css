@@ -16,11 +16,13 @@
     --home-section-search: 12rem;
 
     /* Modal */
-    --modal-width: 32rem;
+    --modal-width: 29rem;
+    --modal-padding: 1rem;
 
     /* LinkCard */
     --link-card-width: 100%;
     --link-card-title: 1.1rem;
+    --link-card-height: 9rem;
 
     /* TestKnowledge */
     --test-knowledge-width: 90%;
@@ -34,6 +36,19 @@
     --twitch-link-margin-top: 1.5rem;
     --footer-links-gap: 1.5rem;
     --footer-padding: 1.75rem 1rem;
+}
+
+/* Large Phones */
+@media (width >= 510px) {
+    :root {
+        /* Modal */
+        --modal-width: 40rem;
+        --modal-padding: 1rem 1rem 2rem 2rem;
+        --link-card-height: 7rem;
+
+        /* LinkCard */
+        --link-card-height: 7rem;
+    }
 }
 
 /* Tablets */

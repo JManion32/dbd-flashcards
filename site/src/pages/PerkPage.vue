@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DisplayCard from '../components/modal/GameItemModal.vue';
+import DisplayCard from '../components/gameitem/GameItemModal.vue';
 
 import { useData } from '../data/useData.ts';
 const { combinedPerks } = useData();
@@ -10,16 +10,7 @@ const { combinedPerks } = useData();
             v-for="perk in combinedPerks"
             :key="perk.id"
         >
-            <DisplayCard
-                :id="perk.id"
-                :name="perk.name"
-                :side="perk.side"
-                :type="perk.type"
-                :owner="perk.owner"
-                :description="perk.description"
-                :quote="perk.quote"
-                :tags="perk.tags"
-            />
+            <DisplayCard :game-item="perk" />
         </div>
     </div>
 </template>

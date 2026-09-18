@@ -3,8 +3,8 @@ import '../../styles/footer.css';
 import '../../styles/modal.css';
 
 import { ref } from 'vue';
-import Modal from './Modal.vue';
-import UpdateBlock from '../UpdateBlock.vue';
+import Modal from '../Modal.vue';
+import UpdateBlock from './UpdateBlock.vue';
 
 const visible = ref(false);
 </script>

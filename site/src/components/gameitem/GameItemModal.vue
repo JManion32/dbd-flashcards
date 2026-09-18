@@ -1,21 +1,13 @@
 <script setup lang="ts">
 import '../../styles/modal.css';
 import randomIcon from '../../assets/random.webp';
+import type { GameItem } from '../../types/GameItem.ts';
 import { ref } from 'vue';
-import Modal from './Modal.vue';
-import { getRarityColor } from '../../utils/GameItemFormatter.ts';
+import Modal from '../Modal.vue';
+import GameItemDisplay from './GameItemDisplay.vue';
 
 const props = defineProps<{
-    name: string;
-    id: string;
-    side: string;
-    type: string;
-    item?: string;
-    rarity?: string;
-    owner: string;
-    description: string | Array<string>;
-    quote?: string | undefined;
-    tags: Array<string>;
+    gameItem: GameItem;
 }>();
 
 const visible = ref(false);
@@ -29,48 +21,15 @@ const visible = ref(false);
             class="display-card-img"
             :src="randomIcon"
         />
-        <span class="display-card-title">{{ props.name }}</span>
+        <span class="display-card-title">{{ props.gameItem.name }}</span>
     </div>
     <Modal
         :visible="visible"
         transition="scale"
         @close="visible = false"
     >
-        <div class="card-modal-content">
-            <h2 class="card-name">
-                {{ props.name }}
-            </h2>
-            <div class="metadata-container">
-                <span
-                    v-if="props.owner"
-                    class="metadata-text"
-                >
-                    {{ props.owner }}
-                </span>
-                <span class="metadata-text"> • </span>
-                <span class="metadata-text">
-                    {{ props.type }}
-                </span>
-                <div
-                    v-if="props.rarity"
-                    class="rarity-container"
-                >
-                    <span class="metadata-text"> • </span>
-                    <span
-                        class="card-rarity"
-                        :style="{ color: getRarityColor(props.rarity) }"
-                    >
-                        {{ props.rarity }}
-                    </span>
-                </div>
-            </div>
-            <h3>Description</h3>
-            <div>
-                {{ props.description }}
-            </div>
-            <h3>Tags</h3>
-            <p>{{ props.tags }}</p>
-        </div>
+        <!-- A little prop drilling never hurt anyone right? -->
+        <GameItemDisplay :game-item="props.gameItem" />
     </Modal>
 </template>
 <style scoped>

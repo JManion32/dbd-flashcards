@@ -6,7 +6,7 @@ import '../../styles/modal.css';
 import me2023 from '../../assets/me.png';
 import ghWhite from '../../assets/github_white.png';
 
-import Modal from './Modal.vue';
+import Modal from '../Modal.vue';
 import LinkCard from '../LinkCard.vue';
 
 const visible = ref(false);
