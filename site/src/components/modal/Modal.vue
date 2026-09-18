@@ -41,7 +41,12 @@ onUnmounted(() => {
             >
                 <div class="modal-container">
                     <div class="modal-close-container">
-                        <button class="modal-close-btn" @click.self="emit('close')">&times;</button>
+                        <button
+                            class="modal-close-btn"
+                            @click.self="emit('close')"
+                        >
+                            &times;
+                        </button>
                     </div>
                     <slot />
                 </div>
