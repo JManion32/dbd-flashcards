@@ -1,21 +1,49 @@
 <script setup lang="ts">
 import GameFilterModal from '@/components/gameitem/GameItemFilterModal.vue';
+import { ref } from 'vue';
+
+type SideFilter = 'killer' | 'survivor' | 'all';
+const selectedSide = ref<SideFilter>('all');
+
+const props = defineProps<{
+    type: 'perks' | 'add-ons';
+}>();
 </script>
 
 <template>
     <div class="filter-component-container">
         <div class="filter-container">
             <div class="left-filter-container">
-                <button class="quick-select-btn">Killer</button>
-                <button class="quick-select-btn">Survivor</button>
-                <button class="quick-select-btn">All</button>
+                <button
+                    class="quick-select-btn"
+                    :class="{ active: selectedSide === 'killer' }"
+                    @click="selectedSide = 'killer'"
+                >
+                    Killer
+                </button>
+
+                <button
+                    class="quick-select-btn"
+                    :class="{ active: selectedSide === 'survivor' }"
+                    @click="selectedSide = 'survivor'"
+                >
+                    Survivor
+                </button>
+
+                <button
+                    class="quick-select-btn"
+                    :class="{ active: selectedSide === 'all' }"
+                    @click="selectedSide = 'all'"
+                >
+                    All
+                </button>
             </div>
             <div class="right-filter-container">
-                <button class="clear-filters-btn">Clear Filters</button>
+                <button class="clear-btn-inactive">Clear</button>
                 <GameFilterModal />
                 <input
                     class="filter-search"
-                    placeholder="Search perks..."
+                    :placeholder="`Search ${props.type}...`"
                 />
             </div>
         </div>
@@ -39,41 +67,52 @@ import GameFilterModal from '@/components/gameitem/GameItemFilterModal.vue';
 }
 .filter-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: var(--filter-container-dir);
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
 }
 .left-filter-container {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    height: 2rem;
 }
 .right-filter-container {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
-    margin-left: auto;
+    height: 2rem;
 }
-.clear-filters-btn {
+.clear-btn-inactive,
+.clear-btn-active {
     background: none;
-    color: var(--standard-white);
+    color: var(--standard-dim);
     transition: var(--site-transition);
     border: none;
     font-weight: 700;
     font-style: italic;
     font-size: 1rem;
 }
-.clear-filters-btn:hover {
-    scale: 1.05;
-    text-shadow: var(--small-text-glow);
+.clear-btn-inactive {
+    color: var(--standard-gray);
+}
+.clear-btn-active {
+    color: var(--standard-dim);
+}
+.clear-btn-active:hover {
+    color: var(--standard-white);
     cursor: pointer;
 }
 .filter-search {
     border-radius: 0.5rem;
     border: none;
     color: var(--standard-white);
-    background: var(--dark-333);
+    background: var(--dark-222);
     padding: 0.5rem 0.75rem;
     font-weight: 700;
     font-size: 1rem;
+    width: 16rem;
 }
 .filter-search::placeholder {
     font-style: italic;
@@ -83,18 +122,22 @@ import GameFilterModal from '@/components/gameitem/GameItemFilterModal.vue';
 }
 .quick-select-btn {
     color: var(--standard-dim);
-    border: 2px solid var(--nav-link-active-bg);
     background: transparent;
     transition: var(--site-transition);
-    font-weight: 700;
-    border-radius: 0.5rem;
-    padding: 0 1rem;
+    padding: 0.25rem 1.25rem;
     font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 700;
 }
 .quick-select-btn:hover {
     color: var(--standard-white);
     text-shadow: var(--small-text-shadow);
     cursor: pointer;
-    background: var(--nav-link-active-bg);
+    background: var(--dark-222);
+}
+.quick-select-btn.active {
+    color: var(--standard-white);
+    background: var(--dark-333);
 }
 </style>

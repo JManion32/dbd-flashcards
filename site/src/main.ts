@@ -16,12 +16,12 @@ const routes = [
     {
         path: '/perks',
         component: GameItemPage,
-        props: () => ({ gameItems: combinedPerks.value }),
+        props: () => ({ type: 'perks', gameItems: combinedPerks.value }),
     },
     {
         path: '/add-ons',
         component: GameItemPage,
-        props: () => ({ gameItems: combinedAddOns.value }),
+        props: () => ({ type: 'add-ons', gameItems: combinedAddOns.value }),
     },
 ];
 

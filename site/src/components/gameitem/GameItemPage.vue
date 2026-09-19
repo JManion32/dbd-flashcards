@@ -4,12 +4,13 @@ import GameItemModal from '@/components/gameitem/GameItemModal.vue';
 import type { GameItem } from '@/types/GameItem.ts';
 
 const props = defineProps<{
+    type: 'perks' | 'add-ons';
     gameItems: GameItem[];
 }>();
 </script>
 <template>
     <div class="card-displays-container">
-        <GameItemFilter />
+        <GameItemFilter :type="props.type" />
         <div class="display-cards-container">
             <GameItemModal
                 v-for="gameItem in props.gameItems"

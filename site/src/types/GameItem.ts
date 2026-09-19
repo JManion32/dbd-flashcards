@@ -11,8 +11,8 @@ export type DescriptionBlock =
 export interface GameItem {
     name: string;
     id: string;
-    side: string;
-    type: string;
+    side: 'Killer' | 'Survivor';
+    type: 'Perks' | 'Add-Ons';
     rarity?: string;
     owner: string;
     description: DescriptionBlock[];

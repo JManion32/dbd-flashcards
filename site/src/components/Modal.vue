@@ -86,10 +86,11 @@ onUnmounted(() => {
 }
 .modal-close-btn {
     margin-left: auto;
+    margin-right: 0.5rem;
     height: 1.5rem;
     width: 1.5rem;
-    font-weight: 900;
-    color: var(--scroll-thumb);
+    font-weight: 600;
+    color: #777;
     transition: var(--site-transition);
     background: none;
     border: none;
@@ -99,7 +100,7 @@ onUnmounted(() => {
 .modal-close-btn:hover {
     cursor: pointer;
     scale: 1.05;
-    color: #353535;
+    color: #888;
 }
 
 /* Slide up */

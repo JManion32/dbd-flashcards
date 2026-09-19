@@ -59,7 +59,7 @@ import StartStudyModal from '@/components/StartStudyModal.vue';
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 .header-header {
     color: var(--standard-white);
@@ -76,8 +76,7 @@ import StartStudyModal from '@/components/StartStudyModal.vue';
 .nav-link-container {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-    margin-left: 1.5rem;
+    gap: var(--nav-link-gap);
 }
 .nav-link {
     text-decoration: none;

@@ -28,9 +28,9 @@ const visible = ref(false);
 <style scoped>
 .filter-btn {
     color: var(--standard-white);
+    background: none;
     padding: 0.25rem 1.25rem;
-    background: var(--dark-222);
-    font-size: 1.05rem;
+    font-size: 1rem;
     border-radius: 0.5rem;
     border: none;
     font-weight: 700;
@@ -39,6 +39,6 @@ const visible = ref(false);
 .filter-btn:hover {
     scale: 1.05;
     cursor: pointer;
-    background: var(--dark-333);
+    text-shadow: var(--small-text-glow);
 }
 </style>
