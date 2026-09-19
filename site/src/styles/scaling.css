@@ -8,7 +8,7 @@
     --nav-link-gap: 1rem;
 
     /* HomeBanner */
-    --banner-header-title: 3.75rem;
+    --banner-header-title: 3.5rem;
     --banner-header-desc: 0.75rem;
     --home-links-visibility: none;
     --banner-img-height: 18rem;
@@ -45,7 +45,8 @@
     --game-item-h3-size: 1.25rem;
 
     /* GameItemFilter */
-    --filter-container-dir: column;
+    --qsb-mobile-display: flex;
+    --qsb-display: none;
 }
 
 /* Large Phones */
@@ -106,13 +107,10 @@
         /* GameItemDisplay */
         --game-item-h2-size: 2.5rem;
         --game-item-h3-size: 1.5rem;
-    }
-}
 
-@media (width >= 750px) {
-    :root {
         /* GameItemFilter */
-        --filter-container-dir: row;
+        --qsb-mobile-display: none;
+        --qsb-display: flex;
     }
 }
 

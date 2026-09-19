@@ -1,12 +1,34 @@
 <script setup lang="ts">
-import GameFilterModal from '@/components/gameitem/GameItemFilterModal.vue';
 import { ref } from 'vue';
+import type GameItemFilter from '@/types/GameItemFilter.ts';
 
-type SideFilter = 'killer' | 'survivor' | 'all';
-const selectedSide = ref<SideFilter>('all');
+import survivorIcon from '@/assets/survivor-icon.webp';
+import killerIcon from '@/assets/killer-icon.webp';
 
 const props = defineProps<{
     type: 'perks' | 'add-ons';
+}>();
+function getDefaultFilter(): GameItemFilter {
+    return {
+        side: 'All',
+        search: '',
+        tags: [],
+    };
+}
+
+const filter = ref<GameItemFilter>(getDefaultFilter());
+
+function updateFilter() {
+    emit('filter', filter.value);
+}
+
+function clearSearch() {
+    filter.value.search = '';
+    emit('filter', filter.value);
+}
+
+const emit = defineEmits<{
+    filter: [value: GameItemFilter];
 }>();
 </script>
 
@@ -16,35 +38,74 @@ const props = defineProps<{
             <div class="left-filter-container">
                 <button
                     class="quick-select-btn"
-                    :class="{ active: selectedSide === 'killer' }"
-                    @click="selectedSide = 'killer'"
+                    :class="{ active: filter.side === 'Killer' }"
+                    @click="
+                        filter.side = 'Killer';
+                        updateFilter();
+                    "
                 >
                     Killer
                 </button>
-
                 <button
-                    class="quick-select-btn"
-                    :class="{ active: selectedSide === 'survivor' }"
-                    @click="selectedSide = 'survivor'"
+                    class="qsb-mobile"
+                    :class="{ active: filter.side === 'Killer' }"
+                    @click="
+                        filter.side = 'Killer';
+                        updateFilter();
+                    "
                 >
-                    Survivor
+                    <img :src="killerIcon" />
                 </button>
 
                 <button
                     class="quick-select-btn"
-                    :class="{ active: selectedSide === 'all' }"
-                    @click="selectedSide = 'all'"
+                    :class="{ active: filter.side === 'Survivor' }"
+                    @click="
+                        filter.side = 'Survivor';
+                        updateFilter();
+                    "
+                >
+                    Survivor
+                </button>
+                <button
+                    class="qsb-mobile"
+                    :class="{ active: filter.side === 'Survivor' }"
+                    @click="
+                        filter.side = 'Survivor';
+                        updateFilter();
+                    "
+                >
+                    <img :src="survivorIcon" />
+                </button>
+
+                <button
+                    class="quick-select-btn-all"
+                    :class="{ active: filter.side === 'All' }"
+                    @click="
+                        filter.side = 'All';
+                        updateFilter();
+                    "
                 >
                     All
                 </button>
             </div>
             <div class="right-filter-container">
-                <button class="clear-btn-inactive">Clear</button>
-                <GameFilterModal />
-                <input
-                    class="filter-search"
-                    :placeholder="`Search ${props.type}...`"
-                />
+                <div class="search-field">
+                    <input
+                        v-model="filter.search"
+                        class="filter-search"
+                        :placeholder="`Search ${props.type}...`"
+                        @keyup.enter="emit('filter', filter)"
+                    />
+                    <button
+                        v-if="filter.search"
+                        class="search-clear-btn"
+                        aria-label="Clear search"
+                        @click="clearSearch"
+                    >
+                        ×
+                    </button>
+                </div>
             </div>
         </div>
         <hr />
@@ -81,35 +142,20 @@ const props = defineProps<{
 .right-filter-container {
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: 0.75rem;
     height: 2rem;
 }
-.clear-btn-inactive,
-.clear-btn-active {
-    background: none;
-    color: var(--standard-dim);
-    transition: var(--site-transition);
-    border: none;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 1rem;
-}
-.clear-btn-inactive {
-    color: var(--standard-gray);
-}
-.clear-btn-active {
-    color: var(--standard-dim);
-}
-.clear-btn-active:hover {
-    color: var(--standard-white);
-    cursor: pointer;
+.search-field {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 .filter-search {
     border-radius: 0.5rem;
     border: none;
     color: var(--standard-white);
     background: var(--dark-222);
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 2.5rem 0.5rem 0.75rem;
     font-weight: 700;
     font-size: 1rem;
     width: 16rem;
@@ -120,22 +166,63 @@ const props = defineProps<{
 .filter-search:focus {
     outline: none;
 }
-.quick-select-btn {
+.search-clear-btn {
+    position: absolute;
+    top: 50%;
+    right: 0.75rem;
+    transform: translateY(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    background: none;
+
+    color: var(--standard-dim);
+    font-size: 1.25rem;
+    line-height: 1;
+    transition: var(--site-transition);
+    cursor: pointer;
+}
+
+.search-clear-btn:hover {
+    color: var(--standard-white);
+}
+.quick-select-btn-all,
+.quick-select-btn,
+.qsb-mobile {
     color: var(--standard-dim);
     background: transparent;
     transition: var(--site-transition);
-    padding: 0.25rem 1.25rem;
+    padding: 0.25rem 0.5rem;
     font-size: 1rem;
     border-radius: 0.5rem;
     border: none;
     font-weight: 700;
+    align-items: center;
+    font-size: 1.05rem;
 }
+.quick-select-btn {
+    display: var(--qsb-display);
+}
+.qsb-mobile {
+    display: var(--qsb-mobile-display);
+}
+.qsb-mobile img {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+.quick-select-btn-all:hover,
+.qsb-mobile:hover,
 .quick-select-btn:hover {
     color: var(--standard-white);
     text-shadow: var(--small-text-shadow);
     cursor: pointer;
     background: var(--dark-222);
 }
+.quick-select-btn-all.active,
+.qsb-mobile.active,
 .quick-select-btn.active {
     color: var(--standard-white);
     background: var(--dark-333);

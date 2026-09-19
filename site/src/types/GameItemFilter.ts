@@ -1,5 +1,5 @@
 export default interface GameItemFilter {
-    searchQuery: string;
-    type: 'killer' | 'survivor' | 'all';
+    search: string;
+    side: 'Killer' | 'Survivor' | 'All';
     tags: string[];
 }
