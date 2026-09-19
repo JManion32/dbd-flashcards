@@ -49,6 +49,7 @@ const filteredGameItems = computed(() => {
 
             const matchesSearch =
                 gameItem.name.toLowerCase().includes(search.toLowerCase()) ||
+                gameItem.rarity?.toLowerCase().includes(search.toLowerCase()) ||
                 gameItem.owner.toLowerCase().includes(search.toLowerCase()) ||
                 matchesDescription;
 
