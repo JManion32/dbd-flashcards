@@ -76,7 +76,7 @@ import StartStudyModal from '@/components/StartStudyModal.vue';
 .nav-link-container {
     display: flex;
     flex-direction: row;
-    gap: var(--nav-link-gap);
+    gap: 1rem;
 }
 .nav-link {
     text-decoration: none;

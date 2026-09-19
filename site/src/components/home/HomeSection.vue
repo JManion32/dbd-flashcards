@@ -44,7 +44,6 @@ onUnmounted(() => {
             <h2 class="section-header">
                 {{ props.title }}
             </h2>
-            <input class="section-search" />
         </div>
     </section>
 </template>
@@ -68,8 +67,6 @@ onUnmounted(() => {
 .section-header-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: 100%;
 }
 .section-header {
@@ -80,13 +77,5 @@ onUnmounted(() => {
     display: inline-block;
     text-shadow: var(--large-text-glow);
     margin-right: 2rem;
-}
-.section-search {
-    margin: 0 0 0 auto;
-    height: 2rem;
-    width: var(--home-section-search);
-    border-radius: 0.5rem;
-    border: none;
-    background: var(--secondary-bg);
 }
 </style>
