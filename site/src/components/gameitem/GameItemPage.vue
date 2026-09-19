@@ -1,16 +1,18 @@
 <script setup lang="ts">
-import DisplayCard from '@/components/gameitem/GameItemModal.vue';
+import GameItemModal from '@/components/gameitem/GameItemModal.vue';
+import type { GameItem } from '@/types/GameItem.ts';
 
-import { useData } from '@/data/useData.ts';
-const { combinedPerks } = useData();
+const props = defineProps<{
+    gameItems: GameItem[];
+}>();
 </script>
 <template>
     <div class="display-cards-container">
         <div
-            v-for="perk in combinedPerks"
-            :key="perk.id"
+            v-for="gameItem in gameItems"
+            :key="gameItem.id"
         >
-            <DisplayCard :game-item="perk" />
+            <GameItemModal :gameItem="gameItem" />
         </div>
     </div>
 </template>
