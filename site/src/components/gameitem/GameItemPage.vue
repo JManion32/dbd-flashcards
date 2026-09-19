@@ -9,10 +9,10 @@ const props = defineProps<{
 <template>
     <div class="display-cards-container">
         <div
-            v-for="gameItem in gameItems"
+            v-for="gameItem in props.gameItems"
             :key="gameItem.id"
         >
-            <GameItemModal :gameItem="gameItem" />
+            <GameItemModal :game-item="gameItem" />
         </div>
     </div>
 </template>

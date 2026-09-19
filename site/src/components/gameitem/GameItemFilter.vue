@@ -1,12 +1,8 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-    <div class="filter-container">
-        Hello
-    </div>
-    <hr/>
+    <div class="filter-container">Hello</div>
+    <hr />
 </template>
 
 <style scoped>
