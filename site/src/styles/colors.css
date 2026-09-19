@@ -4,10 +4,13 @@
     --secondary-bg: #191919;
     --standard-white: #fff;
     --standard-off-white: #ddd;
+    --standard-gray: #565656;
     --standard-dim: #c2c2c2;
     --standard-black: #000;
     --inactive-text: #999;
     --scroll-thumb: #232323;
+    --dark-222: #222;
+    --dark-333: #333;
 
     /* Header / Footer */
     --header-bg: #0a0a0a;
