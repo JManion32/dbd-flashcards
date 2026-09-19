@@ -8,12 +8,11 @@ const props = defineProps<{
 </script>
 <template>
     <div class="display-cards-container">
-        <div
+        <GameItemModal
             v-for="gameItem in props.gameItems"
             :key="gameItem.id"
-        >
-            <GameItemModal :game-item="gameItem" />
-        </div>
+            :game-item="gameItem"
+        />
     </div>
 </template>
 <style scoped>
