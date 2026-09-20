@@ -95,7 +95,7 @@ const emit = defineEmits<{
                         v-model="filter.search"
                         class="filter-search"
                         :placeholder="`Search ${props.type}...`"
-                        @keyup.enter="emit('filter', filter)"
+                        @input="emit('filter', filter)"
                     />
                     <button
                         v-if="filter.search"

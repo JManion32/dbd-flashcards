@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
+import type { GameItem } from '@/types/GameItem';
+import GameItemCarousel from '../gameitem/GameItemCarousel.vue';
 
 const props = defineProps<{
     title: string;
     id: string;
+    gameItems: GameItem[];
 }>();
 
 const sectionRef = ref<HTMLElement | null>(null);
@@ -45,13 +48,14 @@ onUnmounted(() => {
                 {{ props.title }}
             </h2>
         </div>
+        <GameItemCarousel :game-items="props.gameItems" />
     </section>
 </template>
 <style scoped>
 .home-section-container {
     scroll-margin-top: 6rem;
     margin-top: 3rem;
-    height: 32rem;
+    height: 20rem;
     width: var(--home-section-width);
 
     opacity: 0;

@@ -8,10 +8,19 @@ import GameItemPage from '@/components/gameitem/GameItemPage.vue';
 
 import App from '@/App.vue';
 
-const { combinedPerks, combinedAddOns } = useData();
+const { combinedPerks, combinedAddOns, killerPerks, killerAddOns, survivorPerks, survivorAddOns } = useData();
 
 const routes = [
-    { path: '/', component: HomePage },
+    {
+        path: '/',
+        component: HomePage,
+        props: () => ({
+            killerPerks: killerPerks,
+            killerAddOns: killerAddOns,
+            survivorPerks: survivorPerks,
+            survivorAddOns: survivorAddOns,
+        }),
+    },
     { path: '/study', component: FlashcardPage },
     {
         path: '/perks',
