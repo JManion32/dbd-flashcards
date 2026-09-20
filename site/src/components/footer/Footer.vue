@@ -22,18 +22,17 @@ import twitchLogo from '@/assets/twitch-logo.webp';
                 GitHub
             </a>
         </div>
-        <div class="twitch-link-container">
+        <a
+            class="twitch-link-container footer-link"
+            href="https://www.twitch.tv/the_jman32"
+            target="_blank"
+        >
             <span>Made with <span style="color: #b01e28">❤︎</span> by</span>
             <img
                 class="twitch-logo"
                 :src="twitchLogo"
             />
-            <a
-                class="footer-link"
-                href="https://www.twitch.tv/the_jman32"
-                target="_blank"
-                >The_JMan32</a
-            >
-        </div>
+            <span> The_JMan32 </span>
+        </a>
     </div>
 </template>
