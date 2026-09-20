@@ -20,7 +20,7 @@
 .modal-content h3 {
     color: var(--standard-white);
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -33,7 +33,7 @@
 
 .modal-content hr {
     border: 0;
-    border-top: solid 1px var(--secondary-bg);
+    border-top: solid 1px var(--dark-222);
     margin: 2rem 0 1rem;
 }
 

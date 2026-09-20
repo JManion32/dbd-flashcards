@@ -18,11 +18,11 @@ import StartStudyModal from '@/components/StartStudyModal.vue';
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 1rem 2rem;
+
     background: radial-gradient(circle at 100% 50%, #ffd70018 0%, transparent 60%), #ffd70007;
-
     border: 1px solid #ffd70012;
-
     box-shadow:
         inset 0 1px 0 #ffffff08,
         0 0 2rem #ffd70005;

@@ -124,7 +124,7 @@ const emit = defineEmits<{
     width: 100%;
     border: none;
     margin-top: 1rem;
-    border-bottom: solid 1px var(--standard-gray);
+    border-bottom: solid 1px var(--dark-333);
 }
 .filter-container {
     display: flex;

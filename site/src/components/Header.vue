@@ -54,6 +54,7 @@ import StartStudyModal from '@/components/StartStudyModal.vue';
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 .header-home-container {
     display: flex;
