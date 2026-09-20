@@ -13,7 +13,7 @@ import StartStudyModal from '@/components/StartStudyModal.vue';
     border-radius: 1.5rem;
     height: 5rem;
     width: var(--test-knowledge-width);
-    background: var(--secondary-bg);
+    background: var(--header-bg);
     font-family: var(--site-font);
 
     display: flex;

@@ -22,7 +22,7 @@ const props = defineProps<{
         />
         <HomeSection
             id="killer-addons"
-            title="Killer Add-ons"
+            title="Killer Add-Ons"
             :game-items="props.killerAddOns"
         />
         <HomeSection
@@ -32,7 +32,7 @@ const props = defineProps<{
         />
         <HomeSection
             id="survivor-addons"
-            title="Survivor Add-ons"
+            title="Survivor Add-Ons"
             :game-items="props.survivorAddOns"
         />
         <TestKnowledge />

@@ -17,10 +17,10 @@ import bannerBg from '@/assets/banner-bg.png';
         </div>
 
         <div class="home-h-links">
-            <a href="#survivor-perks">Survivor Perks</a>
-            <a href="#survivor-addons">Survivor Add-ons</a>
             <a href="#killer-perks">Killer Perks</a>
-            <a href="#killer-addons">Killer Add-ons</a>
+            <a href="#killer-addons">Killer Add-Ons</a>
+            <a href="#survivor-perks">Survivor Perks</a>
+            <a href="#survivor-addons">Survivor Add-Ons</a>
         </div>
     </section>
 </template>
