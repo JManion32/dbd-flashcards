@@ -1,0 +1,27 @@
+{
+    "name": "Babysitter",
+    "id": "babysitter",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Steve Harrington",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you unhook a Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [10%] [Haste] for [30s].",
+                "They leave no Pools of Blood for [30s].",
+                "They leave no Scratch Marks for [30s].",
+                "You see the Killer's Aura for [8s]."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Haste",
+        "Scratch Marks"
+    ]
+}

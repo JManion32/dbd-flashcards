@@ -1,0 +1,25 @@
+{
+    "name": "Appraisal",
+    "id": "appraisal",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Élodie Rakoto",
+    "description": [
+        {
+            "type": "text",
+            "content": "You start the trial with [4] tokens."
+        },
+        {
+            "type": "text",
+            "content": "Spend [1] Token to rummage an empty Chest, up to [2] times per Chest."
+        },
+        {
+            "type": "text",
+            "content": "You rummage Chests [80%] faster."
+        }
+    ],
+    "tags": [
+        "Chest",
+        "Token"
+    ]
+}

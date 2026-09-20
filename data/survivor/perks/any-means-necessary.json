@@ -1,0 +1,21 @@
+{
+    "name": "Any Means Necessary",
+    "id": "any-means-necessary",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Yui Kimura",
+    "description": [
+        {
+            "type": "text",
+            "content": "You can reset Dropped Pallets."
+        },
+        {
+            "type": "text",
+            "content": "You see the Auras of Dropped Pallets"
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Pallet"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Autodidact",
+    "id": "autodidact",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Adam Francis",
+    "description": [
+        {
+            "type": "text",
+            "content": "You start the trial with [0] Tokens, up to [5], and your good basic healing Skill Checks give [15%] less progress."
+        },
+        {
+            "type": "text",
+            "content": "While healing another Survivor without a Med-Kit:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Earn [1] Token for each basic Skill Check.",
+                "For each Token, gain [15%] more progress.",
+                "You cannot get great Skill Checks."
+            ]
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Skill Check",
+        "Token"
+    ]
+}

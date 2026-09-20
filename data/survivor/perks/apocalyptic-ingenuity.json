@@ -1,0 +1,22 @@
+{
+    "name": "Apocalyptic Ingenuity",
+    "id": "apocalyptic-ingenuity",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rick Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you rummage or unlock [1] Chest, you can create a Fragile Pallet."
+        },
+        {
+            "type": "text",
+            "content": "Within [32m], you see the Auras of Broken Pallets."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Chest",
+        "Pallet"
+    ]
+}
