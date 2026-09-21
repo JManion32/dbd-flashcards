@@ -1,0 +1,20 @@
+{
+    "name": "Iridescent Blight Tag",
+    "id": "iridescent-blight-tag",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Rush] cannot be performed more than [3] times.",
+                "Increases maximum [Rush] look anfle by [20 degrees].",
+                "Increases [Rush] speed by [10%]."
+            ]
+        }
+    ],
+    "quote": "\"Progress requires drastic change.\" -Talbot Grimes",
+    "tags": []
+}

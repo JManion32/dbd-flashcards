@@ -1,0 +1,16 @@
+{
+    "name": "Summoning Stone",
+    "id": "summoning-stone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the initial [Rush] duration by [0.5s]."
+        }
+    ],
+    "quote": "\"Death is only the beginning.\"",
+    "tags": []
+}

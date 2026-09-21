@@ -1,0 +1,15 @@
+{
+    "name": "Blighted Crow",
+    "id": "blighted-crow",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases speed while Rushing by [3%] for each consecutive [Rush]."
+        }
+    ],
+    "tags": []
+}

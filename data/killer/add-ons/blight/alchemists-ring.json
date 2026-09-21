@@ -1,0 +1,16 @@
+{
+    "name": "Alchemist's Ring",
+    "id": "alchemists-ring",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Rush] duration by [20%] for each consecutive [Rush]."
+        }
+    ],
+    "quote": "\"The student is accused of grave robbing with the intent of unsanctioned scientific testing.\" -Faculty reprimand of Talbot Grimes, 1838",
+    "tags": []
+}

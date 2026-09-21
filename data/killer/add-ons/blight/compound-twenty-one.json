@@ -1,0 +1,15 @@
+{
+    "name": "Compound Twenty-One",
+    "id": "compound-twenty-one",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Reveals the auras of all Survivors within [8m] for [3s] after a [Slam]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Adrenaline Vial",
+    "id": "adrenaline-vial",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases maximum [Rush] tokens by [2].",
+                "Increases maximum look angle while Rushing by [20 degrees].",
+                "Decreases [Rush] turn rate by [55%]",
+                "Increases [Rush] speed by [5%]."
+            ]
+        }
+    ],
+    "quote": "\"Please, don't do this...\"",
+    "tags": []
+}

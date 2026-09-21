@@ -6,6 +6,7 @@ import GameItemCarousel from '../gameitem/GameItemCarousel.vue';
 const props = defineProps<{
     title: string;
     id: string;
+    type: string;
     gameItems: GameItem[];
 }>();
 
@@ -47,6 +48,12 @@ onUnmounted(() => {
             <h2 class="section-header">
                 {{ props.title }}
             </h2>
+            <RouterLink
+                class="full-page-link"
+                :to="`/${props.type}`"
+            >
+                {{ `See all ${props.type} ➞` }}
+            </RouterLink>
         </div>
         <GameItemCarousel :game-items="props.gameItems" />
     </section>
@@ -71,6 +78,8 @@ onUnmounted(() => {
 .section-header-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 .section-header {
@@ -81,5 +90,18 @@ onUnmounted(() => {
     display: inline-block;
     text-shadow: var(--large-text-glow);
     margin-right: 2rem;
+}
+.full-page-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: var(--site-transition);
+    color: var(--standard-dim);
+    font-style: italic;
+}
+.full-page-link:hover {
+    scale: 1.05;
+    color: var(--standard-white);
+    text-shadow: var(--small-text-glow);
 }
 </style>

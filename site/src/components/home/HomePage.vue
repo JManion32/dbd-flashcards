@@ -18,21 +18,25 @@ const props = defineProps<{
         <HomeSection
             id="killer-perks"
             title="Killer Perks"
+            type="perks"
             :game-items="props.killerPerks"
         />
         <HomeSection
             id="killer-addons"
             title="Killer Add-Ons"
+            type="add-ons"
             :game-items="props.killerAddOns"
         />
         <HomeSection
             id="survivor-perks"
             title="Survivor Perks"
+            type="perks"
             :game-items="props.survivorPerks"
         />
         <HomeSection
             id="survivor-addons"
             title="Survivor Add-Ons"
+            type="add-ons"
             :game-items="props.survivorAddOns"
         />
         <TestKnowledge />

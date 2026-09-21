@@ -1,0 +1,16 @@
+{
+    "name": "Vigo's Journal",
+    "id": "vigos-journal",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Grants [Undetectable] while Rushing."
+        }
+    ],
+    "quote": "\"In a wasteland of forgotten dreams and endless routine, the man with a way out is God.\" -Talbot Grimes",
+    "tags": []
+}

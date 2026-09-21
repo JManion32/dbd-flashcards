@@ -1,0 +1,17 @@
+{
+    "name": "Soul Chemical",
+    "id": "soul-chemical",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the initial [Rush] speed by [5%]."
+        }
+    ],
+    "quote": "\"...suspected to cause atypical alterations in neural rythmic activity.\" -Unlabeled mystery school text",
+    "tags": []
+}
+

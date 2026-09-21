@@ -86,7 +86,7 @@ const filteredGameItems = computed(() => {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 1rem 1rem 2.5rem 1rem;
     gap: 0.8rem;
     width: 100%;
     justify-content: center;
