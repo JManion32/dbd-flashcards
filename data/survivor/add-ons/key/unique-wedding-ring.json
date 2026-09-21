@@ -1,0 +1,18 @@
+{
+    "name": "Unique Wedding Ring",
+    "id": "unique-wedding-ring",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Key",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "You and the Obsession see each other's Aura at all times.",
+                "Decreases your chances to be the Killer's Obsession."
+            ]
+        }
+    ],
+    "tags": []
+}

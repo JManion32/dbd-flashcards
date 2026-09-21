@@ -1,0 +1,15 @@
+{
+    "name": "Gauze Roll",
+    "id": "gauze-roll",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Adds [10] charges."
+        }
+    ],
+    "tags": []
+}

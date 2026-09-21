@@ -1,0 +1,15 @@
+{
+    "name": "Abdominal Dressing",
+    "id": "abdominal-dressing",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases healing speed by [15%]."
+        }
+    ],
+    "tags": []
+}

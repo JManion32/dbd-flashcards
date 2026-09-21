@@ -1,0 +1,15 @@
+{
+    "name": "Battery",
+    "id": "battery",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Adds [2s] of use to the Flashlight."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Butterfly Tape",
+    "id": "butterfly-tape",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases healing speed by [5%]."
+        }
+    ],
+    "tags": []
+}

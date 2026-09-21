@@ -1,14 +1,14 @@
 {
-    "name": "Gnarled Compass",
-    "id": "gnarled-compass",
+    "name": "Sponge",
+    "id": "sponge",
     "side": "Survivor",
     "type": "Add-On",
     "rarity": "Uncommon",
-    "owner": "Map",
+    "owner": "Med-Kit",
     "description": [
         {
             "type": "text",
-            "content": "Adds [2] charges."
+            "content": "Increases the Bonus Skill Check size by [20%]."
         }
     ],
     "tags": []

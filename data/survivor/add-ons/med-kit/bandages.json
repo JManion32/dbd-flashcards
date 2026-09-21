@@ -1,0 +1,15 @@
+{
+    "name": "Bandages",
+    "id": "bandages",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Adds [8] charges."
+        }
+    ],
+    "tags": []
+}

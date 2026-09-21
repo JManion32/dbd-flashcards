@@ -1,0 +1,20 @@
+{
+    "name": "Focus Lens",
+    "id": "focus-lens",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the range of the Flashlight beam by [25%].",
+                "Decreases the width of the Flashlight beam by [15%].",
+                "Increases the brightness of the Flashlight beam by [20%].",
+                "Increases Blindness duration by [10%]."
+            ]
+        }
+    ],
+    "tags": []
+}

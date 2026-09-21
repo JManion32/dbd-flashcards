@@ -1,0 +1,15 @@
+{
+    "name": "Styptic Agent",
+    "id": "styptic-agent",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases self-healing speed by [15%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Intense Halogen",
+    "id": "intense-halogen",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the brightness of the Flashlight beam by [40%].",
+                "Increases the Blindness duration by [20%]."
+            ]
+        }
+    ],
+    "tags": []
+}

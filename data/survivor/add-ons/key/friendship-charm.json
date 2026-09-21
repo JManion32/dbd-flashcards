@@ -1,0 +1,15 @@
+{
+    "name": "Friendship Charm",
+    "id": "friendship-charm",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Key",
+    "description": [
+        {
+            "type": "text",
+            "content": "Adds [1] charge."
+        }
+    ],
+    "tags": []
+}

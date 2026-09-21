@@ -1,0 +1,15 @@
+{
+    "name": "Volcanic Stone",
+    "id": "volcanic-stone",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Fog Vial",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases Fog Vial cooldown by [5s]."
+        }
+    ],
+    "tags": []
+}

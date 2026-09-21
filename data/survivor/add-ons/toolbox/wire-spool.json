@@ -1,14 +1,14 @@
 {
-    "name": "Gnarled Compass",
-    "id": "gnarled-compass",
+    "name": "Wire Spool",
+    "id": "wire-spool",
     "side": "Survivor",
     "type": "Add-On",
     "rarity": "Uncommon",
-    "owner": "Map",
+    "owner": "Toolbox",
     "description": [
         {
             "type": "text",
-            "content": "Adds [2] charges."
+            "content": "Adds [12] charges."
         }
     ],
     "tags": []

@@ -1,0 +1,15 @@
+{
+    "name": "Gel Dressings",
+    "id": "gel-dressings",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Adds [16] charges."
+        }
+    ],
+    "tags": []
+}

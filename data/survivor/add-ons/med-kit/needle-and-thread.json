@@ -1,0 +1,18 @@
+{
+    "name": "Needle and Thread",
+    "id": "needle-and-thread",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the chances of triggering a Skill Check by [10%].",
+                "Increases Great Skill Check bonus by [5%]."
+            ]
+        }
+    ],
+    "tags": []
+}

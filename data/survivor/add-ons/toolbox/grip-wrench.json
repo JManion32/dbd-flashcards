@@ -1,0 +1,15 @@
+{
+    "name": "Grip Wrench",
+    "id": "grip-wrench",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Toolbox",
+    "description": [
+        {
+            "type": "text",
+            "content": "Sabotaged hooks take an extra [20s] to respawn."
+        }
+    ],
+    "tags": []
+}

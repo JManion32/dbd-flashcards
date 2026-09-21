@@ -1,0 +1,15 @@
+{
+    "name": "Clean Rag",
+    "id": "clean-rag",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Toolbox",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases repair speed by [20%]."
+        }
+    ],
+    "tags": []
+}

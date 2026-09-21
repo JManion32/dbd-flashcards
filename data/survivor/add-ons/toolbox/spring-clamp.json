@@ -1,14 +1,14 @@
 {
-    "name": "Gnarled Compass",
-    "id": "gnarled-compass",
+    "name": "Spring Clamp",
+    "id": "spring-clamp",
     "side": "Survivor",
     "type": "Add-On",
     "rarity": "Uncommon",
-    "owner": "Map",
+    "owner": "Toolbox",
     "description": [
         {
             "type": "text",
-            "content": "Adds [2] charges."
+            "content": "Your repair noises are reduced by [8m]."
         }
     ],
     "tags": []

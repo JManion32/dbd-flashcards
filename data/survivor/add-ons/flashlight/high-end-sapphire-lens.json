@@ -1,0 +1,20 @@
+{
+    "name": "High-End Sapphire Lens",
+    "id": "high-end-sapphire-lens",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the range of the Flashlight beam by [25%].",
+                "Increases the width of the Flashlight beam by [25%].",
+                "Increases the brightness of the Flashlight beam by [30%].",
+                "Increases Blindness duration by [15%]."
+            ]
+        }
+    ],
+    "tags": []
+}

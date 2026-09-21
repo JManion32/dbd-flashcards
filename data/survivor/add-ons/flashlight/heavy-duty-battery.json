@@ -1,14 +1,14 @@
 {
-    "name": "Gnarled Compass",
-    "id": "gnarled-compass",
+    "name": "Heavy Duty Battery",
+    "id": "heavy-duty-battery",
     "side": "Survivor",
     "type": "Add-On",
     "rarity": "Uncommon",
-    "owner": "Map",
+    "owner": "Flashlight",
     "description": [
         {
             "type": "text",
-            "content": "Adds [2] charges."
+            "content": "Adds [4s] of use to the Flashlight."
         }
     ],
     "tags": []

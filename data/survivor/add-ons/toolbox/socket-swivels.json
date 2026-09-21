@@ -1,14 +1,14 @@
 {
-    "name": "Gnarled Compass",
-    "id": "gnarled-compass",
+    "name": "Socket Swivels",
+    "id": "socket-swivels",
     "side": "Survivor",
     "type": "Add-On",
     "rarity": "Uncommon",
-    "owner": "Map",
+    "owner": "Toolbox",
     "description": [
         {
             "type": "text",
-            "content": "Adds [2] charges."
+            "content": "Increases repair speed by [30%]."
         }
     ],
     "tags": []

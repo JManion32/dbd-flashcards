@@ -1,0 +1,15 @@
+{
+    "name": "Rubber Gloves",
+    "id": "rubber-gloves",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the Bonus Skill Check size by [10%]."
+        }
+    ],
+    "tags": []
+}

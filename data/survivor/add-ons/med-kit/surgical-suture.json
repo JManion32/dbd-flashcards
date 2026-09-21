@@ -1,0 +1,18 @@
+{
+    "name": "Surgical Suture",
+    "id": "surgical-suture",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the chances of triggering a Skill Check by [15%].",
+                "Increases Great Skill Check bonus by [10%]."
+            ]
+        }
+    ],
+    "tags": []
+}

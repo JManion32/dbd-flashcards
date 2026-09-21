@@ -1,0 +1,15 @@
+{
+    "name": "Instructions",
+    "id": "instructions",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Toolbox",
+    "description": [
+        {
+            "type": "text",
+            "content": "Eliminates Skill Checks."
+        }
+    ],
+    "tags": []
+}

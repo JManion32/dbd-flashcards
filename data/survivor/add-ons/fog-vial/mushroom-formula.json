@@ -1,0 +1,15 @@
+{
+    "name": "Mushroom Formula",
+    "id": "mushroom-formula",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Fog Vial",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases maximum Fog Cloud size by [2m]."
+        }
+    ],
+    "tags": []
+}

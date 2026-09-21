@@ -1,0 +1,15 @@
+{
+    "name": "Oily Sap",
+    "id": "oily-sap",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Fog Vial",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases Fog Cloud duration by [2s]."
+        }
+    ],
+    "tags": []
+}

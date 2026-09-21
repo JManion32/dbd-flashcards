@@ -1,0 +1,18 @@
+{
+    "name": "Tir Optic",
+    "id": "tir-optic",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the brightness of the Flashlight beam by [30%].",
+                "Increases the Blindness duration by [15%]."
+            ]
+        }
+    ],
+    "tags": []
+}

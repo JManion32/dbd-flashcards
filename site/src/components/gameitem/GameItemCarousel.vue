@@ -32,6 +32,16 @@ const CLICKABLE_OPACITY = 0.12; // below this a card stops taking pointer events
 const DRAG_STEP_REM = 10.7; // ≈ horizontal gap between neighbours
 const DRAG_THRESHOLD = 6; // px of travel before a drag suppresses the click
 
+/* Flick-to-scroll. Releasing mid-drag hands the drum whatever speed the finger
+   had and lets it coast, so a hard swipe travels a long way instead of pinning
+   to the next card — which is how a touch list is expected to behave. Coasting
+   distance is roughly velocity / FLING_FRICTION, so the cap puts the ceiling at
+   about nine cards per flick. */
+const FLING_MIN = 0.8; // cards/sec below which a release just settles
+const FLING_MAX = 18; // cards/sec ceiling, so one wild swipe cannot bolt
+const FLING_FRICTION = 2; // per second, exponential decay
+const FLING_STOP = 0.3; // cards/sec at which coasting gives way to settling
+
 const AUTOPLAY_CARDS_PER_SEC = 0.252; // ≈4.0s to travel one card
 const SPEED_RAMP = 4; // how quickly the drift eases in and out (per second)
 const NAV_EASE = 9; // how quickly a button press / card click settles
@@ -124,6 +134,8 @@ function cardStyle(offset: number, layer: number) {
 
 function go(delta: number) {
     if (count.value === 0) return;
+    flinging = false;
+    flingVelocity = 0;
     navTarget = (navTarget ?? position.value) + delta;
 }
 
@@ -135,6 +147,8 @@ function go(delta: number) {
    bring it to rest, so a card is never pulled out from under a click. */
 let navTarget: number | null = null;
 let speed = 0; // cards per second, eased towards the desired drift
+let flingVelocity = 0; // cards per second, while coasting after a flick
+let flinging = false;
 let rafId = 0;
 let lastFrame = 0;
 
@@ -171,6 +185,19 @@ function frame(now: number) {
 
     // While dragging, the pointer writes position directly.
     if (dragging.value) {
+        speed = 0;
+        return;
+    }
+
+    // Coasting after a flick: let it run down, then settle onto a card.
+    if (flinging) {
+        position.value += flingVelocity * dt;
+        flingVelocity *= Math.exp(-FLING_FRICTION * dt);
+        if (Math.abs(flingVelocity) < FLING_STOP) {
+            flinging = false;
+            flingVelocity = 0;
+            navTarget = Math.round(position.value);
+        }
         speed = 0;
         return;
     }
@@ -218,6 +245,8 @@ onUnmounted(() => {
 let startX = 0;
 let dragStartPosition = 0;
 let suppressClick = false;
+let lastMoveAt = 0;
+let lastMovePosition = 0;
 
 function rootFontPx() {
     const size = parseFloat(getComputedStyle(document.documentElement).fontSize);
@@ -230,15 +259,47 @@ function onWindowPointerMove(event: PointerEvent) {
         suppressClick = true;
         dragging.value = true;
     }
-    position.value = dragStartPosition - dx / (DRAG_STEP_REM * rootFontPx());
+    const next = dragStartPosition - dx / (DRAG_STEP_REM * rootFontPx());
+
+    /* Track the finger's speed so a release can hand it to the coast. Smoothed,
+       because one jittery sample right before lift-off would otherwise decide
+       how far the whole flick travels. */
+    const now = performance.now();
+    const elapsed = (now - lastMoveAt) / 1000;
+    if (lastMoveAt && elapsed > 0) {
+        flingVelocity = flingVelocity * 0.7 + ((next - lastMovePosition) / elapsed) * 0.3;
+    }
+    lastMoveAt = now;
+    lastMovePosition = next;
+
+    position.value = next;
 }
 
-function endDrag() {
+function stopDragListening() {
     window.removeEventListener('pointermove', onWindowPointerMove);
-    window.removeEventListener('pointerup', endDrag);
-    window.removeEventListener('pointercancel', endDrag);
+    window.removeEventListener('pointerup', onDragRelease);
+    window.removeEventListener('pointercancel', onDragCancel);
     dragging.value = false;
-    navTarget = Math.round(position.value); // settle onto the nearest card
+}
+
+function onDragRelease() {
+    stopDragListening();
+    const v = Math.max(-FLING_MAX, Math.min(FLING_MAX, flingVelocity));
+    if (Math.abs(v) >= FLING_MIN) {
+        flingVelocity = v;
+        flinging = true; // frame() takes it from here
+    } else {
+        flingVelocity = 0;
+        navTarget = Math.round(position.value); // settle onto the nearest card
+    }
+}
+
+/* A cancel is the browser taking the gesture over (a vertical page scroll, say)
+   rather than the user letting go, so it settles instead of coasting. */
+function onDragCancel() {
+    stopDragListening();
+    flingVelocity = 0;
+    navTarget = Math.round(position.value);
 }
 
 function onPointerDown(event: PointerEvent) {
@@ -247,15 +308,22 @@ function onPointerDown(event: PointerEvent) {
     dragStartPosition = position.value;
     navTarget = null;
     suppressClick = false;
+
+    // Grabbing mid-coast catches the drum, the way a touch list does.
+    flinging = false;
+    flingVelocity = 0;
+    lastMoveAt = 0;
+    lastMovePosition = position.value;
+
     window.addEventListener('pointermove', onWindowPointerMove);
-    window.addEventListener('pointerup', endDrag);
-    window.addEventListener('pointercancel', endDrag);
+    window.addEventListener('pointerup', onDragRelease);
+    window.addEventListener('pointercancel', onDragCancel);
 }
 
 onUnmounted(() => {
     window.removeEventListener('pointermove', onWindowPointerMove);
-    window.removeEventListener('pointerup', endDrag);
-    window.removeEventListener('pointercancel', endDrag);
+    window.removeEventListener('pointerup', onDragRelease);
+    window.removeEventListener('pointercancel', onDragCancel);
 });
 
 /* A click on an off-centre card rotates the drum to it instead of opening its

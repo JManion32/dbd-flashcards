@@ -1,0 +1,15 @@
+{
+    "name": "Long Life Battery",
+    "id": "long-life-battery",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Adds [6s] of use to the Flashlight."
+        }
+    ],
+    "tags": []
+}

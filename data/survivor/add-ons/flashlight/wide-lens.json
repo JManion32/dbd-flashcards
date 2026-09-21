@@ -1,0 +1,18 @@
+{
+    "name": "Wide Lens",
+    "id": "wide-lens",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Decreases the range of the Flashlight beam by [25%].",
+                "Increases the width of the Flashlight beam by [25%]."
+            ]
+        }
+    ],
+    "tags": []
+}
