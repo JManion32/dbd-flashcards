@@ -1,0 +1,31 @@
+{
+    "name": "Bardic Inspiration",
+    "id": "bardic-inspiration",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Aestri Yazar",
+    "description": [
+        {
+            "type": "text",
+            "content": "While idle, you can perform, empowering all Survivors within [16m] for up to [15s]. While you are performing, other Survivors will see your Aura. Roll a d20:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[1] | You scream, but nothing happens.",
+                "[2-10] | Basic Skill Checks give [+1%] progress.",
+                "[11-19] | Basic Skill Checks give [+2%] progress.",
+                "[20] | Basic Skill Checks give [+3%] progress."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "If you complete the performance, this effect ends after [90s]. Cooldown: [90s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Luck",
+        "Skill Check"
+    ]
+}

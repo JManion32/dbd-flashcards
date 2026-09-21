@@ -1,0 +1,26 @@
+{
+    "name": "Better than New",
+    "id": "better-than-new",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rebecca Chambers",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you finish another Survivor, until they take damage:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They bless and cleanse Totems [16%] faster.",
+                "They heal [16%] faster.",
+                "They unlock Chests [16%] faster."
+            ]
+        }
+    ],
+    "tags": [
+        "Chest",
+        "Healing",
+        "Totem"
+    ]
+}

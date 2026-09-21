@@ -1,0 +1,26 @@
+{
+    "name": "Balanced Landing",
+    "id": "balanced-landing",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nea Karlsson",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you fall from at least [1.25m].:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [50%] [Haste] for [3s].",
+                "You gain [Exhausted] for [40s].",
+                "Your stagger is [75%] shorter.",
+                "Your Grunts from falling are [100%] quieter."
+            ]
+        }
+    ],
+    "tags": [
+        "Exhausted",
+        "Haste"
+    ]
+}

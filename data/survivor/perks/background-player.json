@@ -1,0 +1,24 @@
+{
+    "name": "Background Player",
+    "id": "background-player",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Renato Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Killer picks up another Survivor, for the next [10s], when you start running:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gain [50%] [Haste] for [5s].",
+                "Gain [Exhausted] for [20s]."
+            ]
+        }
+    ],
+    "tags": [
+        "Exhausted",
+        "Haste"
+    ]
+}

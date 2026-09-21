@@ -1,0 +1,15 @@
+{
+    "name": "Battered Tape",
+    "id": "battered-tape",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Map",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases maximum range by [8m]."
+        }
+    ],
+    "tags": []
+}

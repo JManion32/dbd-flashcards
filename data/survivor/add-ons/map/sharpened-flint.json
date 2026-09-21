@@ -1,0 +1,15 @@
+{
+    "name": "Sharpened Flint",
+    "id": "sharpened-flint",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Map",
+    "description": [
+        {
+            "type": "text",
+            "content": "All totems within range are revealed."
+        }
+    ],
+    "tags": []
+}

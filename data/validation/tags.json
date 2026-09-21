@@ -9,11 +9,14 @@
     "Haste",
     "Healing",
     "Items",
+    "Luck",
     "Oblivious",
     "Obsession",
     "Pallet",
     "Scratch Marks",
     "Skill Check",
     "Terror Radius",
-    "Token"
+    "Token",
+    "Totem",
+    "Window"
 ]

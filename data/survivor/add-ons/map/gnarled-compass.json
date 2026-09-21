@@ -1,0 +1,15 @@
+{
+    "name": "Gnarled Compass",
+    "id": "gnarled-compass",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "Map",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases charges by [2]."
+        }
+    ],
+    "tags": []
+}

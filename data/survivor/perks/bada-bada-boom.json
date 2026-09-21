@@ -1,0 +1,22 @@
+{
+    "name": "Bada Bada Boom",
+    "id": "bada-bada-boom",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dustin Henderson",
+    "description": [
+        {
+            "type": "text",
+            "content": "After repairing [20%] of Generators, you can trap a Window for [60s]. All Survivors see that Window's Aura for that time."
+        },
+        {
+            "type": "text",
+            "content": "When the Killer vaults that Window, the trap explodes and they gain [50%] [Hindered] for [6s]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Hindered",
+        "Window"
+    ]
+}

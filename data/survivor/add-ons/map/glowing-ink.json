@@ -1,0 +1,15 @@
+{
+    "name": "Glowing Ink",
+    "id": "glowing-ink",
+    "side": "Survivor",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Map",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases Aura reveal duration by [2s]."
+        }
+    ],
+    "tags": []
+}
