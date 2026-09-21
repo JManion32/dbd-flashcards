@@ -1,0 +1,21 @@
+{
+    "name": "Bitter Murmur",
+    "id": "bitter-murmur",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, you see the Auras of Survivors within [16m] of it for [5s]."
+        },
+        {
+            "type": "text",
+            "content": "When all Generators are completed, you see the Auras of all Survivors for [10s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator"
+    ]
+}

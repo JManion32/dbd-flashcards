@@ -1,0 +1,23 @@
+{
+    "name": "Blood Warden",
+    "id": "blood-warden",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Once per trial, when you hook a Survivor after an Exit Gate has been opened, both Exits are blocked for [60s]."
+        },
+        {
+            "type": "text",
+            "content": "You see the Auras of Survivors with Exit Thresholds."
+        }
+    ],
+    "quote": "\"This is my world. And you can't ever leave.\" -Freddy Krueger",
+    "tags": [
+        "Aura",
+        "End Game",
+        "Exit Gate"
+    ]
+}

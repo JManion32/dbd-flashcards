@@ -1,0 +1,19 @@
+{
+    "name": "Blood Echo",
+    "id": "blood-echo",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you hook a Survivor, for [30s], all injured Survivors gain [Exhausted] and [Hemorrhage]."
+        }
+    ],
+    "quote": "\"Attack an enemy with precision and their allies will feel it.\" -Renjiro's Doctrine 6:3",
+    "tags": [
+        "Exhaustion",
+        "Hemorrhage",
+        "Hooking"
+    ]
+}

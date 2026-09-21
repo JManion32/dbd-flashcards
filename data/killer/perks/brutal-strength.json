@@ -1,0 +1,18 @@
+{
+    "name": "Brutal Strength",
+    "id": "brutal-strength",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "You basic-break Pallets and Breakable Walls, and damage Generators [20%] faster."
+        }
+    ],
+    "quote": "\"It's more than muscles. A dark power motivates the beast.\"",
+    "tags": [
+        "Generator",
+        "Pallet"
+    ]
+}

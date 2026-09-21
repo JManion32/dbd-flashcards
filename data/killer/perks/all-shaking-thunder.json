@@ -1,0 +1,18 @@
+{
+    "name": "All-Shaking Thunder",
+    "id": "all-shaking-thunder",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you fall from at least [1.25m], your lunge attacks are [75%] longer for [25s]."
+        }
+    ],
+    "quote": "\"Go on. Run. Tell your friends I'm coming for them.\" -Portia Maye",
+    "tags": [
+        "Basic Attack",
+        "Falling"
+    ]
+}

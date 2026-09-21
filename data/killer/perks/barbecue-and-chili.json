@@ -1,0 +1,18 @@
+{
+    "name": "Barbecue and Chili",
+    "id": "barbecue-and-chili",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you hook a Survivor, see the Auras of all Survivors who are [40m] away for [5s]."
+        }
+    ],
+    "quote": "\"I just can't take no pleasure in killing. There's just some things you gotta do. Don't mean you have to like it.\" -Drayton Sawyer",
+    "tags": [
+        "Aura",
+        "Hooking"
+    ]
+}

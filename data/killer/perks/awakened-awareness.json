@@ -1,0 +1,17 @@
+{
+    "name": "Awakened Awareness",
+    "id": "awakened-awareness",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "While carrying another Survivor, see the Auras of other Survivors within [20m] of you."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Carrying"
+    ]
+}

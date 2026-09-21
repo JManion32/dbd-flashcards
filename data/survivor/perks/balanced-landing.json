@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you fall from at least [1.25m].:"
+            "content": "Whenever you fall from at least [1.25m]:"
         },
         {
             "type": "list",
@@ -21,6 +21,7 @@
     ],
     "tags": [
         "Exhaustion",
+        "Falling",
         "Haste"
     ]
 }

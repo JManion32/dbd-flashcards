@@ -1,0 +1,26 @@
+{
+    "name": "Bamboozle",
+    "id": "bamboozle",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you vault a Window, it is blocked for Survivors for [16s]."
+        },
+        {
+            "type": "text",
+            "content": "You basic-vault Windows [15%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Only [1] Window can be blocked at a time."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Vaulting",
+        "Window"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Call of Brine",
+    "id": "call-of-brine",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator, it regresses [50%] faster for [90s]."
+        },
+        {
+            "type": "text",
+            "content": "For that time, whenever a Survivor hits a good basic Skill Check while repairing that Generator, you are alerted."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Regression",
+        "Skill Check"
+    ]
+}

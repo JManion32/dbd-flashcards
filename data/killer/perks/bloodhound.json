@@ -1,0 +1,15 @@
+{
+    "name": "Bloodhound",
+    "id": "bloodhound",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "Pools of Blood are brighter and last [4s] longer.."
+        }
+    ],
+    "quote": "\"Pebbles shimmering in the moonlight; my life drips down in a trail so easy to follow.\"",
+    "tags": []
+}
