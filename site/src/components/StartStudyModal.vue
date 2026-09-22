@@ -4,9 +4,11 @@ import '@/styles/modal.css';
 import type { StudyConfig } from '@/types/StudyConfig.ts';
 
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 import Modal from '@/components/Modal.vue';
 
 const visible = ref(false);
+const router = useRouter();
 
 function getDefaultStudyConfig(): StudyConfig {
     return {
@@ -19,11 +21,19 @@ function getDefaultStudyConfig(): StudyConfig {
 
 const config = ref<StudyConfig>(getDefaultStudyConfig());
 
-/* One setter for every group. Keying off StudyConfig means the value passed
-   has to be a legal one for that field, so a typo in the template is a
-   compile error rather than a silently dead button. */
 function setConfig<K extends keyof StudyConfig>(key: K, value: StudyConfig[K]) {
     config.value[key] = value;
+}
+
+function startStudy() {
+    visible.value = false;
+
+    router.push({
+        path: '/study',
+        state: {
+            config: config.value,
+        },
+    });
 }
 
 function restoreDefaults() {
@@ -148,7 +158,12 @@ function restoreDefaults() {
                 >
                     Restore Defaults
                 </button>
-                <button class="study-btn">Start!</button>
+                <button
+                    class="study-btn"
+                    @click="startStudy()"
+                >
+                    Start!
+                </button>
             </div>
         </div>
     </Modal>
@@ -162,6 +177,7 @@ function restoreDefaults() {
     background: #ffd70005;
     color: #ffd700;
     box-shadow: 1px 1px 10px #ffd70070;
+    text-decoration: none;
 
     border-radius: 0.5rem;
     font-size: 1.25rem;
@@ -199,7 +215,7 @@ function restoreDefaults() {
     font-weight: 900;
     padding: 1rem;
     background: none;
-    border: 2px solid var(--standard-gray);
+    border: 2px solid var(--dark-333);
     color: var(--standard-dim);
     transition: var(--site-transition);
 }
@@ -210,15 +226,13 @@ function restoreDefaults() {
 }
 .selection-container button.active {
     color: var(--standard-white);
-    background: #ffd70008;
+    background: #ffd70010;
     border-color: #ffd70060;
-    box-shadow:
-        inset 0 0 1.5rem #ffd70006,
-        0 0 0.75rem #ffd70005;
 }
 .clear-selection-btn {
     background: none;
-    color: var(--standard-white);
+    color: var(--standard-dim);
+    font-style: italic;
     border: none;
     font-size: 1rem;
     font-weight: 700;
@@ -228,5 +242,6 @@ function restoreDefaults() {
     scale: 1.05;
     cursor: pointer;
     text-shadow: var(--small-text-glow);
+    color: var(--standard-white);
 }
 </style>

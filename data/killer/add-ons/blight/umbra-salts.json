@@ -1,0 +1,15 @@
+{
+    "name": "Umbra Salts",
+    "id": "umbra-salts",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases turn rate while [Rushing] by [15%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Placebo Tablet",
+    "id": "placebo-tablet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Decreases movement speed while [Rishing] by [15%].",
+                "Gain [100%] bonus Bloodpoints on [Rush] score events."
+            ]
+        }
+    ],
+    "tags": []
+}

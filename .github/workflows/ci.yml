@@ -36,8 +36,8 @@ jobs:
               run: npx stylelint **/*.{css,scss}
 
 
-    prettier:
-        name: Prettier
+    site-prettier:
+        name: Site Prettier
         runs-on: ubuntu-24.04
 
         defaults:
@@ -86,6 +86,32 @@ jobs:
 
             - name: Run ESLint
               run: npx eslint .
+
+
+    data-prettier:
+        name: Data Prettier
+        runs-on: ubuntu-24.04
+
+        defaults:
+            run:
+                working-directory: data
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '24'
+                  cache: 'npm'
+                  cache-dependency-path: data/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run Prettier
+              run: npx prettier --check .
 
 
     validate-survivor-perks:

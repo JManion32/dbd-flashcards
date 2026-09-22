@@ -1,0 +1,15 @@
+{
+    "name": "Foxglove",
+    "id": "foxglove",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Rush] recovery time by [0.25s]."
+        }
+    ],
+    "tags": []
+}

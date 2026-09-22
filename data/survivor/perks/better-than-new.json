@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you finish another Survivor, until they take damage:"
+            "content": "Whenever you finish healing another Survivor, until they take damage:"
         },
         {
             "type": "list",

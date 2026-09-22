@@ -84,7 +84,7 @@ const visible = ref(false);
 .card-modal-content h3 {
     color: var(--standard-white);
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: 0;
     margin-top: 2rem;
     text-shadow: var(--small-text-glow);

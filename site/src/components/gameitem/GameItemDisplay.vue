@@ -82,6 +82,7 @@ const props = defineProps<{
     display: flex;
     flex-direction: row;
     width: 100%;
+    gap: 2rem;
 }
 .game-item-title-meta {
     display: flex;
@@ -110,7 +111,8 @@ const props = defineProps<{
 .metadata-container {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 0.75rem;
+    flex-wrap: wrap;
 }
 .rarity-container {
     display: flex;
@@ -121,10 +123,12 @@ const props = defineProps<{
     font-style: italic;
     color: var(--standard-dim);
     font-weight: 700;
+    font-size: 1rem;
 }
 .card-rarity {
     font-style: italic;
     font-weight: 700;
+    font-size: 1rem;
 }
 .game-item-display-quote {
     margin-top: 3rem;

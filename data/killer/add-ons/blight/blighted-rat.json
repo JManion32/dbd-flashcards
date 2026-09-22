@@ -1,0 +1,15 @@
+{
+    "name": "Blighted Rat",
+    "id": "blighted-rat",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases speed while [Rushing] by [2%] for each consecutive [Rush]."
+        }
+    ],
+    "tags": []
+}

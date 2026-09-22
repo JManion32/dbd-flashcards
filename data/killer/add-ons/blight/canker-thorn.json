@@ -1,0 +1,15 @@
+{
+    "name": "Canker Thorn",
+    "id": "canker-thorn",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases recovery time after [Rushing] by [0.5s]."
+        }
+    ],
+    "tags": []
+}
