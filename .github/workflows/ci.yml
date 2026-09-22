@@ -227,7 +227,7 @@ jobs:
           eslint,
           data-prettier,
           validate-killer-perks,
-          validate-killer-add-ons
+          validate-killer-add-ons,
           validate-survivor-perks,
           validate-survivor-add-ons,
         ]
