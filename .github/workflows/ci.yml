@@ -114,58 +114,6 @@ jobs:
               run: npx prettier --check .
 
 
-    validate-survivor-perks:
-        name: Validate Survivor Perk Data
-        runs-on: ubuntu-24.04
-
-        defaults:
-            run:
-                working-directory: data
-
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
-
-            - name: Setup Node
-              uses: actions/setup-node@v4
-              with:
-                  node-version: '24'
-                  cache: 'npm'
-                  cache-dependency-path: site/package-lock.json
-
-            - name: Install dependencies
-              run: npm ci
-
-            - name: Run Validator
-              run: node ./validate.mjs survivor perks
-
-
-    validate-survivor-add-ons:
-        name: Validate Survivor Add-on Data
-        runs-on: ubuntu-24.04
-
-        defaults:
-            run:
-                working-directory: data
-
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
-
-            - name: Setup Node
-              uses: actions/setup-node@v4
-              with:
-                  node-version: '24'
-                  cache: 'npm'
-                  cache-dependency-path: site/package-lock.json
-
-            - name: Install dependencies
-              run: npm ci
-
-            - name: Run Validator
-              run: node ./validate.mjs survivor add-ons
-
-
     validate-killer-perks:
         name: Validate Killer Perk Data
         runs-on: ubuntu-24.04
@@ -218,10 +166,71 @@ jobs:
               run: node ./validate.mjs killer add-ons
 
 
+    validate-survivor-perks:
+        name: Validate Survivor Perk Data
+        runs-on: ubuntu-24.04
+
+        defaults:
+            run:
+                working-directory: data
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '24'
+                  cache: 'npm'
+                  cache-dependency-path: site/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run Validator
+              run: node ./validate.mjs survivor perks
+
+
+    validate-survivor-add-ons:
+        name: Validate Survivor Add-on Data
+        runs-on: ubuntu-24.04
+
+        defaults:
+            run:
+                working-directory: data
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '24'
+                  cache: 'npm'
+                  cache-dependency-path: site/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run Validator
+              run: node ./validate.mjs survivor add-ons
+
+
     deploy:
         name: Deploy
         runs-on: ubuntu-24.04
-        needs: [stylelint, prettier, eslint]
+        needs: [
+          stylelint,
+          site-prettier,
+          eslint,
+          data-prettier,
+          validate-killer-perks,
+          validate-killer-add-ons
+          validate-survivor-perks,
+          validate-survivor-add-ons,
+        ]
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
 
         steps:
