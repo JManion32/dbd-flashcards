@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import siteLogo from '@/assets/logo-512.png';
-import StartStudyModal from '@/components/StartStudyModal.vue';
+import StartStudyModal from '@/components/study/StartStudyModal.vue';
 </script>
 
 <template>

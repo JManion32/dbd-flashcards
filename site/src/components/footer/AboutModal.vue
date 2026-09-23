@@ -7,7 +7,7 @@ import me2023 from '@/assets/me.png';
 import ghWhite from '@/assets/github_white.png';
 
 import Modal from '@/components/Modal.vue';
-import LinkCard from '@/components/LinkCard.vue';
+import LinkCard from '@/components/footer/LinkCard.vue';
 
 const visible = ref(false);
 </script>

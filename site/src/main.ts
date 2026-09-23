@@ -3,7 +3,7 @@ import { createWebHistory, createRouter } from 'vue-router';
 import { useData } from '@/data/useData.ts';
 
 import HomePage from '@/components/home/HomePage.vue';
-import FlashcardPage from '@/components/flashcard/FlashcardPage.vue';
+import StudyPage from '@/components/study/StudyPage.vue';
 import GameItemPage from '@/components/gameitem/GameItemPage.vue';
 
 import App from '@/App.vue';
@@ -21,7 +21,7 @@ const routes = [
             survivorAddOns: survivorAddOns,
         }),
     },
-    { path: '/study', component: FlashcardPage },
+    { path: '/study', component: StudyPage },
     {
         path: '/perks',
         component: GameItemPage,

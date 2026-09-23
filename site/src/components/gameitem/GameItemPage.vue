@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import GameItemFilter from '@/components/gameitem/GameItemFilter.vue';
 import GameItemModal from '@/components/gameitem/GameItemModal.vue';
+import cursedImage from '@/assets/cursed-image.png';
 
 import { ref, computed } from 'vue';
 import type GameItemFilterType from '@/types/GameItemFilter.ts';
@@ -69,6 +70,16 @@ const filteredGameItems = computed(() => {
             @filter="updateFilter"
         />
         <div class="display-cards-container">
+            <div
+                v-if="filteredGameItems.length === 0"
+                class="no-match-container"
+            >
+                <img
+                    class="no-match-img"
+                    :src="cursedImage"
+                />
+                <p class="no-matches">No matches found.</p>
+            </div>
             <GameItemModal
                 v-for="gameItem in filteredGameItems"
                 :key="gameItem.id"
@@ -90,5 +101,21 @@ const filteredGameItems = computed(() => {
     gap: 0.8rem;
     width: 100%;
     justify-content: center;
+}
+.no-match-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.no-match-img {
+    height: 20rem;
+    width: 20rem;
+}
+.no-matches {
+    color: var(--standard-dim);
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 </style>

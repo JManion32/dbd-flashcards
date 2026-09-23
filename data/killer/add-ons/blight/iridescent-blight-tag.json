@@ -10,7 +10,7 @@
             "type": "list",
             "items": [
                 "[Rush] cannot be performed more than [3] times.",
-                "Increases maximum [Rush] look anfle by [20 degrees].",
+                "Increases maximum [Rush] look angle by [20 degrees].",
                 "Increases [Rush] speed by [10%]."
             ]
         }
