@@ -29,11 +29,11 @@
     --test-knowledge-title: 1.25rem;
 
     /* Footer */
-    --footer-link-size: 1.25rem;
+    --footer-link-size: 1.1rem;
     --footer-spacer-visibility: none;
     --footer-flex-dir: column;
     --twitch-link-margin-left: 0;
-    --twitch-link-margin-top: 1.5rem;
+    --footer-links-margin-bottom: 1.5rem;
     --footer-links-gap: 1.5rem;
     --footer-padding: 1.75rem 1rem;
 
@@ -42,8 +42,10 @@
     --game-item-h3-size: 1.25rem;
 
     /* GameItemFilter */
-    --qsb-mobile-display: flex;
-    --qsb-display: none;
+    --filter-container-dir: column;
+    --filter-hr-top: 2rem;
+    --quick-select-btn-padding: 0.5rem 0.75rem;
+    --quick-select-btn-size: 1.25rem;
 }
 
 /* Large Phones */
@@ -93,8 +95,8 @@
         --footer-link-size: 1rem;
         --footer-spacer-visibility: flex;
         --footer-flex-dir: row;
+        --footer-links-margin-bottom: 0;
         --twitch-link-margin-left: auto;
-        --twitch-link-margin-top: 0;
         --footer-links-gap: 1rem;
         --footer-padding: 0.5rem 1rem;
 
@@ -103,8 +105,10 @@
         --game-item-h3-size: 1.5rem;
 
         /* GameItemFilter */
-        --qsb-mobile-display: none;
-        --qsb-display: flex;
+        --filter-container-dir: row;
+        --filter-hr-top: 1rem;
+        --quick-select-btn-padding: 0.35rem 0.75rem;
+        --quick-select-btn-size: 1.1rem;
     }
 }
 

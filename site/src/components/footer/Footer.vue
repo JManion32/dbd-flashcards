@@ -1,13 +1,24 @@
 <script setup lang="ts">
 import '@/styles/footer.css';
 import AboutModal from '@/components/footer/AboutModal.vue';
+import HelpModal from '@/components/footer/HelpModal.vue';
 import PrivacyPolicyModal from '@/components/footer/PrivacyPolicyModal.vue';
 import WhatsNewModal from '@/components/footer/WhatsNewModal.vue';
-import twitchLogo from '@/assets/twitch-logo.webp';
+import TwitchLink from '@/components/footer/TwitchLink.vue';
+
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
 </script>
 <template>
-    <div class="footer-container">
-        <div class="footer-links-container">
+    <div
+        class="footer-container"
+        :style="route.path === '/study' ? { flexDirection: 'row', padding: '0.5rem 1rem' } : {}"
+    >
+        <div
+            v-if="route.path !== '/study'"
+            class="footer-links-container"
+        >
             <AboutModal />
             <span>•</span>
             <PrivacyPolicyModal />
@@ -22,17 +33,7 @@ import twitchLogo from '@/assets/twitch-logo.webp';
                 GitHub
             </a>
         </div>
-        <a
-            class="twitch-link-container footer-link"
-            href="https://www.twitch.tv/the_jman32"
-            target="_blank"
-        >
-            <span>Made with <span style="color: #b01e28">❤︎</span> by</span>
-            <img
-                class="twitch-logo"
-                :src="twitchLogo"
-            />
-            <span> The_JMan32 </span>
-        </a>
+        <HelpModal v-if="route.path === '/study'" />
+        <TwitchLink />
     </div>
 </template>

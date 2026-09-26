@@ -3,6 +3,7 @@ are split between too many files (the modals). */
 .footer-container {
     display: flex;
     flex-direction: var(--footer-flex-dir);
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: var(--footer-padding);
@@ -15,6 +16,7 @@ are split between too many files (the modals). */
     align-items: center;
     gap: var(--footer-links-gap);
     color: var(--inactive-text);
+    margin-bottom: var(--footer-links-margin-bottom);
 }
 
 .footer-links-container span {
@@ -39,7 +41,6 @@ are split between too many files (the modals). */
 .twitch-link-container {
     display: flex;
     align-items: center;
-    margin-top: var(--twitch-link-margin-top);
     margin-left: var(--twitch-link-margin-left);
     color: var(--standard-white);
     font-weight: 800;
