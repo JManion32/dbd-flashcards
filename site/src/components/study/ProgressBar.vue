@@ -1,18 +1,12 @@
 <script setup lang="ts">
-const props = withDefaults(
-    defineProps<{
-        correct?: number;
-        incorrect?: number;
-        total?: number;
-    }>(),
-    {
-        correct: 5,
-        incorrect: 0,
-        total: 50,
-    }
-);
-const completed = props.correct + props.incorrect;
-const progress = (completed / props.total) * 100;
+import { computed } from 'vue';
+const props = defineProps<{
+    completed: number;
+    total: number;
+}>();
+const progress = computed(() => {
+    return (props.completed / props.total) * 100;
+});
 </script>
 <template>
     <div class="progress-bar">
@@ -25,7 +19,7 @@ const progress = (completed / props.total) * 100;
 <style scoped>
 .progress-bar {
     margin-bottom: var(--progress-bottom);
-    width: 50%;
+    width: var(--flashcard-width);
     height: 0.3rem;
     background: var(--dark-222);
     border-radius: 1rem;

@@ -2,15 +2,9 @@
 import HomeBanner from '@/components/home/HomeBanner.vue';
 import HomeSection from '@/components/home/HomeSection.vue';
 import TestKnowledge from '@/components/home/TestKnowledge.vue';
+import { useData } from '@/data/useData.ts';
 
-import type { GameItem } from '@/types/GameItem';
-
-const props = defineProps<{
-    killerPerks: GameItem[];
-    killerAddOns: GameItem[];
-    survivorPerks: GameItem[];
-    survivorAddOns: GameItem[];
-}>();
+const { killerPerks, killerAddOns, survivorPerks, survivorAddOns } = useData();
 </script>
 <template>
     <div class="home-container">
@@ -19,25 +13,25 @@ const props = defineProps<{
             id="killer-perks"
             title="Killer Perks"
             type="perks"
-            :game-items="props.killerPerks"
+            :game-items="killerPerks"
         />
         <HomeSection
             id="killer-addons"
             title="Killer Add-Ons"
             type="add-ons"
-            :game-items="props.killerAddOns"
+            :game-items="killerAddOns"
         />
         <HomeSection
             id="survivor-perks"
             title="Survivor Perks"
             type="perks"
-            :game-items="props.survivorPerks"
+            :game-items="survivorPerks"
         />
         <HomeSection
             id="survivor-addons"
             title="Survivor Add-Ons"
             type="add-ons"
-            :game-items="props.survivorAddOns"
+            :game-items="survivorAddOns"
         />
         <TestKnowledge />
     </div>

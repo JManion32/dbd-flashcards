@@ -12,7 +12,7 @@ export interface GameItem {
     name: string;
     id: string;
     side: 'Killer' | 'Survivor';
-    type: 'Perks' | 'Add-Ons';
+    type: 'Perk' | 'Add-On';
     rarity?: string;
     owner: string;
     description: DescriptionBlock[];

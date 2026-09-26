@@ -1,7 +1,14 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import type { GameItem } from '@/types/GameItem';
+const props = defineProps<{
+    gameItems: GameItem[];
+}>();
+</script>
 <template>
     <div class="flashcard-page-container">
-        <div class="flashcard-container" />
+        <div class="flashcard-container">
+            {{ props.gameItems[0] }}
+        </div>
     </div>
 </template>
 <style scoped>

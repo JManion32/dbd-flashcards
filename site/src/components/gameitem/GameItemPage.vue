@@ -78,7 +78,7 @@ const filteredGameItems = computed(() => {
                     class="no-match-img"
                     :src="cursedImage"
                 />
-                <p class="no-matches">No matches found.</p>
+                <p class="no-matches">No results found...</p>
             </div>
             <GameItemModal
                 v-for="gameItem in filteredGameItems"

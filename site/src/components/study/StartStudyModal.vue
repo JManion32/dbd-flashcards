@@ -13,7 +13,7 @@ const router = useRouter();
 function getDefaultStudyConfig(): StudyConfig {
     return {
         side: 'All',
-        type: 'Perks',
+        type: 'Perk',
         preset: 'name-and-icon',
         length: 50,
     };
@@ -31,7 +31,7 @@ function startStudy() {
     router.push({
         path: '/study',
         state: {
-            config: config.value,
+            config: { ...config.value },
         },
     });
 }
@@ -82,14 +82,14 @@ function restoreDefaults() {
             <h3>Type</h3>
             <div class="selection-container">
                 <button
-                    :class="{ active: config.type === 'Perks' }"
-                    @click="setConfig('type', 'Perks')"
+                    :class="{ active: config.type === 'Perk' }"
+                    @click="setConfig('type', 'Perk')"
                 >
                     Perks
                 </button>
                 <button
-                    :class="{ active: config.type === 'Add-Ons' }"
-                    @click="setConfig('type', 'Add-Ons')"
+                    :class="{ active: config.type === 'Add-On' }"
+                    @click="setConfig('type', 'Add-On')"
                 >
                     Add-Ons
                 </button>

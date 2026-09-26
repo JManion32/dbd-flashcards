@@ -1,17 +1,10 @@
 <script setup lang="ts">
-const props = withDefaults(
-    defineProps<{
-        correct?: number;
-        incorrect?: number;
-        total?: number;
-    }>(),
-    {
-        correct: 5,
-        incorrect: 0,
-        total: 50,
-    }
-);
-const completed = props.correct + props.incorrect;
+const props = defineProps<{
+    correct: number;
+    incorrect: number;
+    completed: number;
+    total: number;
+}>();
 </script>
 <template>
     <div class="result-split-container">
@@ -19,9 +12,9 @@ const completed = props.correct + props.incorrect;
             <span class="incorrect-score-btn">
                 {{ props.incorrect }}
             </span>
-            <span class="incorrect-score-txt"> Still Learning </span>
+            <span class="incorrect-score-txt"> Learning </span>
         </div>
-        <span class="remaining-cards"> {{ completed }} / {{ total }} </span>
+        <span class="remaining-cards"> {{ props.completed }} / {{ props.total }} </span>
         <div class="result-container">
             <span class="correct-score-txt"> Know </span>
             <span class="correct-score-btn">
@@ -48,7 +41,7 @@ const completed = props.correct + props.incorrect;
 
     color: var(--standard-white);
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
 }
 
 .result-split-container > div:last-child {
@@ -65,7 +58,10 @@ const completed = props.correct + props.incorrect;
     border-radius: 1rem;
     font-size: 1.1rem;
     font-weight: 700;
-    padding: 0.25rem 1rem;
+    padding: 0.25rem 0.5rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
     color: var(--standard-white);
 }
 .correct-score-btn {

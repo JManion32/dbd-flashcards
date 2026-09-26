@@ -106,7 +106,7 @@ const emit = defineEmits<{
                         aria-label="Clear search"
                         @click="clearSearch"
                     >
-                        ×
+                        X
                     </button>
                 </div>
             </div>
@@ -182,6 +182,7 @@ const emit = defineEmits<{
 
     color: var(--standard-dim);
     font-size: 16px;
+    font-weight: 900;
     line-height: 1;
     transition: var(--site-transition);
     cursor: pointer;

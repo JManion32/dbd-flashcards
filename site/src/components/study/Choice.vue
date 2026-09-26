@@ -1,8 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const emit = defineEmits<{
+    correct: [];
+    incorrect: [];
+}>();
+</script>
 <template>
     <div class="choice-container">
-        <button class="incorrect-btn">&#10007;</button>
-        <button class="correct-btn">&#10004;</button>
+        <button
+            class="incorrect-btn"
+            @click.self="emit('incorrect')"
+        >
+            &#10007;
+        </button>
+        <button
+            class="correct-btn"
+            @click.self="emit('correct')"
+        >
+            &#10004;
+        </button>
     </div>
 </template>
 <style scoped>

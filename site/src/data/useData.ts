@@ -9,10 +9,16 @@ export function useData() {
     const combinedAddOns = computed(() => {
         return [...survivorAddOns, ...killerAddOns].sort((a, b) => a.name.localeCompare(b.name));
     });
+    const combinedGameItems = computed(() => {
+        return [...survivorPerks, ...survivorAddOns, ...killerPerks, ...killerAddOns].sort((a, b) =>
+            a.name.localeCompare(b.name)
+        );
+    });
 
     return {
         combinedPerks,
         combinedAddOns,
+        combinedGameItems,
         survivorPerks,
         survivorAddOns,
         killerPerks,
