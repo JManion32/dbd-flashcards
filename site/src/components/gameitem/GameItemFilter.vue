@@ -181,7 +181,7 @@ const emit = defineEmits<{
     background: none;
 
     color: var(--standard-dim);
-    font-size: 1.25rem;
+    font-size: 16px;
     line-height: 1;
     transition: var(--site-transition);
     cursor: pointer;

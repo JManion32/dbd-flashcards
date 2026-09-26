@@ -32,11 +32,6 @@ const visible = ref(false);
                 collect information such as your device and browser type, pages visited, and approximate location.
             </p>
             <hr />
-            <h3>Local Storage</h3>
-            <p>
-                DBD Flashcards uses your browser's local storage to save things such as preferences and flashcard
-                progress. This information is stored on your device and is not sent to DBD Flashcards.
-            </p>
             <hr />
             <h3>Third-Party Links</h3>
             <p>
@@ -50,7 +45,7 @@ const visible = ref(false);
             <h3>Contact</h3>
             <p>Questions about privacy can be submitted through the DBD Flashcards GitHub repository.</p>
             <hr />
-            <p class="modal-last-updated">Last updated: 09-06-2026</p>
+            <p class="modal-last-updated">Last updated: 09-26-2026</p>
         </div>
     </Modal>
 </template>

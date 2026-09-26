@@ -170,13 +170,10 @@ function restoreDefaults() {
 </template>
 <style scoped>
 .study-btn {
-    /* #ffd700 is localized to study and since the transparency
-    is being adjusted in multiple places, it's better to not
-    make it a variable. */
-    border: 2px solid #ffd700;
-    background: #ffd70005;
-    color: #ffd700;
-    box-shadow: 1px 1px 10px #ffd70070;
+    border: 2px solid var(--standard-gold);
+    background: color-mix(in srgb, var(--standard-gold) 5%, transparent);
+    color: var(--standard-gold);
+    box-shadow: 1px 1px 10px color-mix(in srgb, var(--standard-gold) 70%, transparent);
     text-decoration: none;
 
     border-radius: 0.5rem;
@@ -187,9 +184,9 @@ function restoreDefaults() {
 }
 
 .study-btn:hover {
-    background: #ffd700;
+    background: var(--standard-gold);
     color: var(--standard-black);
-    box-shadow: 0 0 20px #ffd700;
+    box-shadow: 0 0 20px var(--standard-gold);
     cursor: pointer;
     scale: 1.08;
 }
@@ -226,8 +223,8 @@ function restoreDefaults() {
 }
 .selection-container button.active {
     color: var(--standard-white);
-    background: #ffd70010;
-    border-color: #ffd70060;
+    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
 }
 .clear-selection-btn {
     background: none;

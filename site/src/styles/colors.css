@@ -7,6 +7,7 @@
     --standard-gray: #565656;
     --standard-dim: #c2c2c2;
     --standard-black: #000;
+    --standard-gold: #ffd700;
     --inactive-text: #999;
     --scroll-thumb: #232323;
     --dark-222: #222;
@@ -23,4 +24,8 @@
     --rare-rarity: #265dbd;
     --very-rare-rarity: #ac3ee3;
     --visceral-rarity: #ff0955;
+
+    /* Study */
+    --correct-green: #00af00;
+    --incorrect-red: #b90000;
 }

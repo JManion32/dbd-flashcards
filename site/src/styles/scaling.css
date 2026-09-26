@@ -46,6 +46,11 @@
     --filter-hr-top: 2rem;
     --quick-select-btn-padding: 0.5rem 0.75rem;
     --quick-select-btn-size: 1.25rem;
+
+    /* Study */
+    --flashcard-width: 90%;
+    --flashcard-height: 32rem;
+    --progress-bottom: 1.5rem;
 }
 
 /* Large Phones */
@@ -109,6 +114,11 @@
         --filter-hr-top: 1rem;
         --quick-select-btn-padding: 0.35rem 0.75rem;
         --quick-select-btn-size: 1.1rem;
+
+        /* Study */
+        --flashcard-width: 80%;
+        --flashcard-height: 40rem;
+        --progress-bottom: 2.5rem;
     }
 }
 
@@ -126,6 +136,9 @@
         /* TestKnowledge */
         --test-knowledge-width: 60%;
         --test-knowledge-title: 1.75rem;
+
+        /* Study */
+        --flashcard-width: 70%;
     }
 }
 
@@ -133,6 +146,9 @@
 @media (width >= 1280px) {
     :root {
         --site-font-size: 16px;
+
+        /* Study */
+        --flashcard-width: 60%;
     }
 }
 

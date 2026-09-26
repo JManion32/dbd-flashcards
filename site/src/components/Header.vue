@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import siteLogo from '@/assets/logo-512.png';
 import StartStudyModal from '@/components/study/StartStudyModal.vue';
+
+import { useRoute } from 'vue-router';
+const route = useRoute();
 </script>
 
 <template>
@@ -14,8 +17,10 @@ import StartStudyModal from '@/components/study/StartStudyModal.vue';
                     to="/"
                 />
             </RouterLink>
-            <!--<h1 class="header-header">DBD Flashcards</h1>-->
-            <nav class="nav-link-container">
+            <nav
+                v-if="route.path !== '/study'"
+                class="nav-link-container"
+            >
                 <RouterLink
                     class="nav-link"
                     to="/perks"
@@ -30,7 +35,7 @@ import StartStudyModal from '@/components/study/StartStudyModal.vue';
                 </RouterLink>
             </nav>
         </div>
-        <StartStudyModal />
+        <StartStudyModal v-if="route.path !== '/study'" />
     </div>
 </template>
 
