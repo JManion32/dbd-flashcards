@@ -9,8 +9,9 @@ import EndStudyModal from '@/components/study/EndStudyModal.vue';
 
 import type { StudyConfig } from '@/types/StudyConfig';
 import { StudyConfigDefault } from '@/types/StudyConfig';
-import { useData } from '@/data/useData.ts';
-import { shuffle } from '@/utils/FlashcardShuffler.ts';
+import { useData } from '@/stores/useData';
+import { useStudy } from '@/stores/useStudy';
+import { shuffle } from '@/utils/shuffleFlashcards';
 
 const { combinedGameItems } = useData();
 const props = withDefaults(
@@ -21,6 +22,10 @@ const props = withDefaults(
         config: () => ({ ...StudyConfigDefault }),
     }
 );
+
+const { studyConfig } = useStudy();
+
+studyConfig.value = props.config;
 
 const filteredGameItems = computed(() => {
     return combinedGameItems.value.filter((gameItem) => {

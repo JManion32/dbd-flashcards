@@ -55,6 +55,16 @@ const visible = ref(false);
                 color="#24292E"
             />
             <hr />
+            <h3>Coming Soon</h3>
+            <p>DBD Flashcards is just getting started! A few potential features:</p>
+            <ul>
+                <li>Advanced filtering on the Perks / Add-Ons pages.</li>
+                <li>More configuration options for flashcards.</li>
+                <li>Persistent storage of study sessions.</li>
+                <li>Alternative quiz modes such as multiple choice.</li>
+                <li>Standing up an API for the perks / add-ons data.</li>
+            </ul>
+            <hr />
             <h3>Disclaimer</h3>
             <p>
                 <i

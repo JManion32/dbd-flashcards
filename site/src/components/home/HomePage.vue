@@ -2,7 +2,7 @@
 import HomeBanner from '@/components/home/HomeBanner.vue';
 import HomeSection from '@/components/home/HomeSection.vue';
 import TestKnowledge from '@/components/home/TestKnowledge.vue';
-import { useData } from '@/data/useData.ts';
+import { useData } from '@/stores/useData';
 
 const { killerPerks, killerAddOns, survivorPerks, survivorAddOns } = useData();
 </script>

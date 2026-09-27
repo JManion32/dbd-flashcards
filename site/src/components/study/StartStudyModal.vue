@@ -2,6 +2,7 @@
 import '@/styles/footer.css';
 import '@/styles/modal.css';
 import type { StudyConfig } from '@/types/StudyConfig.ts';
+import { StudyConfigDefault } from '@/types/StudyConfig.ts';
 
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
@@ -10,16 +11,7 @@ import Modal from '@/components/Modal.vue';
 const visible = ref(false);
 const router = useRouter();
 
-function getDefaultStudyConfig(): StudyConfig {
-    return {
-        side: 'All',
-        type: 'Perk',
-        preset: 'name-and-icon',
-        length: 50,
-    };
-}
-
-const config = ref<StudyConfig>(getDefaultStudyConfig());
+const config = ref<StudyConfig>(StudyConfigDefault);
 
 function setConfig<K extends keyof StudyConfig>(key: K, value: StudyConfig[K]) {
     config.value[key] = value;
@@ -37,7 +29,7 @@ function startStudy() {
 }
 
 function restoreDefaults() {
-    config.value = getDefaultStudyConfig();
+    config.value = StudyConfigDefault;
 }
 </script>
 <template>
@@ -98,20 +90,20 @@ function restoreDefaults() {
             <h3>Presets</h3>
             <div class="selection-container">
                 <button
-                    :class="{ active: config.preset === 'name-and-icon' }"
-                    @click="setConfig('preset', 'name-and-icon')"
+                    :class="{ active: config.preset === 'Names / Icons' }"
+                    @click="setConfig('preset', 'Names / Icons')"
                 >
                     Icons and Names
                 </button>
                 <button
-                    :class="{ active: config.preset === 'icon-only' }"
-                    @click="setConfig('preset', 'icon-only')"
+                    :class="{ active: config.preset === 'Icons' }"
+                    @click="setConfig('preset', 'Icons')"
                 >
                     Icons Only
                 </button>
                 <button
-                    :class="{ active: config.preset === 'desc-only' }"
-                    @click="setConfig('preset', 'desc-only')"
+                    :class="{ active: config.preset === 'Descriptions' }"
+                    @click="setConfig('preset', 'Descriptions')"
                 >
                     Description Only
                 </button>

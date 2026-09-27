@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import siteLogo from '@/assets/logo-512.png';
 import StartStudyModal from '@/components/study/StartStudyModal.vue';
+import { useStudy } from '@/stores/useStudy';
 
 import { useRoute } from 'vue-router';
 const route = useRoute();
+
+const { studyConfig } = useStudy();
 </script>
 
 <template>
@@ -36,6 +39,12 @@ const route = useRoute();
             </nav>
         </div>
         <StartStudyModal v-if="route.path !== '/study'" />
+        <p
+            v-if="route.path === '/study' && studyConfig"
+            class="study-info"
+        >
+            {{ studyConfig.side }} {{ studyConfig.type }}s ({{ studyConfig.preset }})
+        </p>
     </div>
 </template>
 
@@ -102,5 +111,11 @@ const route = useRoute();
     color: var(--standard-white);
     background: var(--nav-link-active-bg);
     text-shadow: var(--small-text-glow);
+}
+.study-info {
+    color: var(--standard-white);
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.05rem;
 }
 </style>

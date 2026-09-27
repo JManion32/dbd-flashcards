@@ -42,10 +42,7 @@ const visible = ref(false);
             <h3>Changes</h3>
             <p>This policy may be updated if the site's features or data practices change.</p>
             <hr />
-            <h3>Contact</h3>
-            <p>Questions about privacy can be submitted through the DBD Flashcards GitHub repository.</p>
-            <hr />
-            <p class="modal-last-updated">Last updated: 09-26-2026</p>
+            <p class="modal-last-updated">Last updated: 09-27-2026</p>
         </div>
     </Modal>
 </template>

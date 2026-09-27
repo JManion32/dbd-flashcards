@@ -40,6 +40,8 @@ const backgroundColor = computed(() => `${props.color}12`);
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
 
     width: var(--link-card-width);
     height: var(--link-card-height);

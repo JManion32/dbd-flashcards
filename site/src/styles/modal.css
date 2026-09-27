@@ -41,6 +41,11 @@
     font-weight: 700;
 }
 
+.modal-content ul {
+    color: var(--standard-white);
+    font-weight: 700;
+}
+
 .modal-content p:not(.modal-last-updated, .update-header-date, .link-card-desc, .link-card-title) {
     margin: 1.25rem 0 0;
     color: var(--standard-white);

@@ -7,7 +7,7 @@ import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
 
 import type { GameItem } from '@/types/GameItem.ts';
 
-import { getGameItemImage } from '@/utils/GameItemImages';
+import { getGameItemImage } from '@/utils/resolveGameItemImg';
 
 const props = defineProps<{
     gameItem: GameItem;

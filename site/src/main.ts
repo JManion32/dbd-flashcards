@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import { createWebHistory, createRouter } from 'vue-router';
-import { useData } from '@/data/useData.ts';
+import { useData } from '@/stores/useData';
 
 import HomePage from '@/components/home/HomePage.vue';
 import StudyPage from '@/components/study/StudyPage.vue';

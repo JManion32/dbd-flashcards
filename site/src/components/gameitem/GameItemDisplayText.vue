@@ -78,7 +78,7 @@ function parseText(text: string): TextPart[] {
 
 <style scoped>
 .highlight {
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .highlight-status {

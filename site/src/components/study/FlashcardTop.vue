@@ -2,7 +2,7 @@
 import '@/styles/modal.css';
 
 import GameItemDisplayDesc from '@/components/gameitem/GameItemDisplayDesc.vue';
-import { getGameItemImage } from '@/utils/GameItemImages';
+import { getGameItemImage } from '@/utils/resolveGameItemImg';
 
 import type { GameItem } from '@/types/GameItem.ts';
 import type { StudyConfig } from '@/types/StudyConfig.ts';
@@ -15,18 +15,18 @@ const props = defineProps<{
 <template>
     <div class="flashcard-top-container">
         <img
-            v-if="props.config.preset === 'name-and-icon' || props.config.preset === 'icon-only'"
+            v-if="props.config.preset === 'Names / Icons' || props.config.preset === 'Icons'"
             class="flashcard-top-img"
             :src="getGameItemImage(props.gameItem.id)"
         />
         <h2
-            v-if="props.config.preset === 'name-and-icon'"
+            v-if="props.config.preset === 'Names / Icons'"
             class="flashcard-top-name"
         >
             {{ props.gameItem.name }}
         </h2>
         <GameItemDisplayDesc
-            v-if="props.config.preset === 'desc-only'"
+            v-if="props.config.preset === 'Descriptions'"
             :desc="gameItem.description"
         />
     </div>
