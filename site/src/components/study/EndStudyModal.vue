@@ -68,6 +68,11 @@ const resultMsg = computed(() => {
                     :key="gameItem.id"
                     :name="gameItem.name"
                 />
+                <span
+                    v-if="props.stillLearning.length === 0"
+                    class="nothing-left"
+                    >Nothing left to study. Nice work!</span
+                >
             </div>
             <hr />
             <div class="end-study-btn-container">
@@ -143,5 +148,11 @@ const resultMsg = computed(() => {
 }
 .still-learning-container > * {
     flex-shrink: 0;
+}
+.nothing-left {
+    font-style: italic;
+    color: var(--standard-dim);
+    font-weight: 700;
+    margin: 3rem auto;
 }
 </style>
