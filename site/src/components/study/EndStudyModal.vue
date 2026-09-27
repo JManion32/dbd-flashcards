@@ -71,7 +71,7 @@ const resultMsg = computed(() => {
                 <span
                     v-if="props.stillLearning.length === 0"
                     class="nothing-left"
-                    >Nothing left to study. Nice work!</span
+                    >Nothing to study. Nice work!</span
                 >
             </div>
             <hr />
