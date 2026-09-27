@@ -101,7 +101,6 @@ onUnmounted(() => {
 }
 .modal-close-btn {
     margin-left: auto;
-    margin-right: 0.5rem;
     height: 1.5rem;
     width: 1.5rem;
     font-weight: 600;
