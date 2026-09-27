@@ -38,9 +38,8 @@ const props = defineProps<{
 
 .remaining-cards {
     justify-self: center;
-
     color: var(--standard-white);
-    font-weight: 700;
+    font-weight: 800;
     font-size: 1.25rem;
 }
 
@@ -65,14 +64,14 @@ const props = defineProps<{
     color: var(--standard-white);
 }
 .correct-score-btn {
-    background: color-mix(in srgb, var(--correct-green) 10%, transparent);
-    border: 1px solid var(--correct-green);
-    color: var(--correct-green);
+    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+    border: 1px solid var(--standard-gold);
+    color: var(--standard-gold);
 }
 .incorrect-score-btn {
-    background: color-mix(in srgb, var(--incorrect-red) 10%, transparent);
-    border: 1px solid var(--incorrect-red);
-    color: var(--incorrect-red);
+    background: color-mix(in srgb, var(--standard-dim) 10%, transparent);
+    border: 1px solid var(--standard-dim);
+    color: var(--standard-dim);
 }
 .incorrect-score-txt,
 .correct-score-txt {
@@ -81,9 +80,9 @@ const props = defineProps<{
     font-style: italic;
 }
 .correct-score-txt {
-    color: var(--correct-green);
+    color: var(--standard-gold);
 }
 .incorrect-score-txt {
-    color: var(--incorrect-red);
+    color: var(--standard-dim);
 }
 </style>

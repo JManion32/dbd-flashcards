@@ -34,7 +34,7 @@ are split between too many files (the modals). */
 
 .footer-link:hover {
     color: var(--standard-white);
-    scale: 1.05;
+    scale: 1.03;
     text-shadow: var(--small-text-glow);
 }
 

@@ -8,15 +8,28 @@ const emit = defineEmits<{
     <div class="choice-container">
         <button
             class="incorrect-btn"
-            @click.self="emit('incorrect')"
+            aria-label="Incorrect"
+            @click="emit('incorrect')"
         >
-            &#10007;
+            <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+            >
+                <path d="M6 6L18 18M18 6L6 18" />
+            </svg>
         </button>
+
         <button
             class="correct-btn"
-            @click.self="emit('correct')"
+            aria-label="Correct"
+            @click="emit('correct')"
         >
-            &#10004;
+            <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+            >
+                <path d="M5 12L10 17L19 7" />
+            </svg>
         </button>
     </div>
 </template>
@@ -32,21 +45,33 @@ const emit = defineEmits<{
 .incorrect-btn {
     font-size: 1.75rem;
     border-radius: 1rem;
-    padding: 0.25rem 1.75rem;
+    padding: 0.5rem 1.75rem;
     transition: var(--site-transition);
     border: none;
+    display: flex;
+    align-items: center;
+    background: var(--dark-222);
+}
+.correct-btn svg,
+.incorrect-btn svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 .correct-btn:hover,
 .incorrect-btn:hover {
     cursor: pointer;
-    background: var(--dark-333);
+    background: #2b2b2b;
+    scale: 1.02;
 }
 .correct-btn {
-    background: var(--dark-222);
-    color: var(--correct-green);
+    color: var(--standard-gold);
 }
 .incorrect-btn {
-    background: var(--dark-222);
-    color: var(--incorrect-red);
+    color: var(--standard-dim);
 }
 </style>
