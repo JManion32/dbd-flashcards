@@ -69,6 +69,8 @@ const isFinished = computed(() => {
         <Flashcard
             :game-items="studyGameItems"
             :config="props.config"
+            :correct="correct"
+            :incorrect="incorrect"
             :completed="completed"
         />
         <Choice
