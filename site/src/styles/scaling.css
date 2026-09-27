@@ -51,6 +51,7 @@
     --flashcard-width: 90%;
     --flashcard-height: 32rem;
     --progress-bottom: 1.5rem;
+    --flashcard-side-padding: 1.5rem;
 }
 
 /* Large Phones */
@@ -119,6 +120,7 @@
         --flashcard-width: 80%;
         --flashcard-height: 40rem;
         --progress-bottom: 2.5rem;
+        --flashcard-side-padding: 3rem;
     }
 }
 
@@ -148,7 +150,8 @@
         --site-font-size: 16px;
 
         /* Study */
-        --flashcard-width: 60%;
+        --flashcard-width: 50%;
+        --flashcard-side-padding: 4rem;
     }
 }
 

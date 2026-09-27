@@ -24,10 +24,10 @@ import StartStudyModal from '@/components/study/StartStudyModal.vue';
     background:
         radial-gradient(
             circle at 100% 50%,
-            color-mix(in srgb, var(--standard-gold) 18%, transparent) 0%,
-            transparent 60%
+            color-mix(in srgb, var(--standard-gold) 15%, transparent) 0%,
+            transparent 50%
         ),
-        color-mix(in srgb, var(--standard-gold) 7%, transparent);
+        color-mix(in srgb, var(--standard-gold) 6%, transparent);
     border: 1px solid color-mix(in srgb, var(--standard-gold) 12%, transparent);
     box-shadow:
         inset 0 1px 0 color-mix(in srgb, var(--standard-gold) 8%, transparent),

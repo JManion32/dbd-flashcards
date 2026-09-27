@@ -14,10 +14,11 @@ import type { GameItem } from '@/types/GameItem.ts';
 
 const props = defineProps<{
     gameItem: GameItem;
+    flashcard?: boolean;
 }>();
 </script>
 <template>
-    <div class="card-modal-content">
+    <div class="game-item-display-container">
         <div class="game-item-header-container">
             <div class="game-item-title-meta">
                 <h2 class="game-item-header">
@@ -55,10 +56,12 @@ const props = defineProps<{
         </div>
         <h3>Description</h3>
         <GameItemDisplayDesc :desc="props.gameItem.description" />
-        <h3 v-if="props.gameItem.tags.length > 0">Tags</h3>
-        <GameItemDisplayTags :tags="props.gameItem.tags" />
+        <div v-if="props.gameItem.tags.length > 0 && !props.flashcard">
+            <h3>Tags</h3>
+            <GameItemDisplayTags :tags="props.gameItem.tags" />
+        </div>
         <p
-            v-if="props.gameItem.quote"
+            v-if="props.gameItem.quote && !props.flashcard"
             class="game-item-display-quote"
         >
             {{ props.gameItem.quote }}
@@ -70,7 +73,7 @@ const props = defineProps<{
     </div>
 </template>
 <style scoped>
-.card-modal-content {
+.game-item-display-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -101,7 +104,7 @@ const props = defineProps<{
     width: 5rem;
     border: none;
 }
-.card-modal-content h3 {
+.game-item-display-container h3 {
     color: var(--standard-white);
     font-weight: 900;
     font-size: var(--game-item-h3-size);
@@ -143,5 +146,6 @@ const props = defineProps<{
     bottom: 0;
     right: 0;
     opacity: 1%;
+    pointer-events: none;
 }
 </style>

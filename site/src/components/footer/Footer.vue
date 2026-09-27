@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import '@/styles/footer.css';
 import AboutModal from '@/components/footer/AboutModal.vue';
-import HelpModal from '@/components/footer/HelpModal.vue';
+import HelpModal from '@/components/study/HelpModal.vue';
 import PrivacyPolicyModal from '@/components/footer/PrivacyPolicyModal.vue';
 import WhatsNewModal from '@/components/footer/WhatsNewModal.vue';
 import TwitchLink from '@/components/footer/TwitchLink.vue';

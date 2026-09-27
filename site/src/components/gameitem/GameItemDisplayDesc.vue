@@ -39,6 +39,6 @@ defineProps<{
 <style scoped>
 .game-item-desc-txt {
     color: var(--standard-white);
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 </style>

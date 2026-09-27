@@ -5,7 +5,11 @@ const props = defineProps<{
     total: number;
 }>();
 const progress = computed(() => {
-    return (props.completed / props.total) * 100;
+    let result = (props.completed / props.total) * 100;
+    if (result <= 100) {
+        return result;
+    }
+    return 100;
 });
 </script>
 <template>

@@ -5,14 +5,28 @@ const props = defineProps<{
     visible: boolean;
     transition: 'slide-up' | 'fade' | 'scale';
     height?: string;
+    required?: boolean;
 }>();
 const emit = defineEmits<{
     close: [];
 }>();
 
-function handleKeydown(event: KeyboardEvent) {
-    if (event.key === 'Escape' && props.visible) {
+function emitClose() {
+    if (!props.required) {
         emit('close');
+    }
+}
+
+function handleKeydown(event: KeyboardEvent) {
+    if (!props.visible) {
+        return;
+    }
+
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+
+    if (event.key === 'Escape' && props.visible) {
+        emitClose();
     }
 }
 
@@ -38,7 +52,7 @@ onUnmounted(() => {
             <div
                 v-if="visible"
                 class="modal-backdrop"
-                @click.self="emit('close')"
+                @click.self="emitClose()"
             >
                 <div
                     class="modal-container"
@@ -46,8 +60,9 @@ onUnmounted(() => {
                 >
                     <div class="modal-close-container">
                         <button
+                            v-if="!props.required"
                             class="modal-close-btn"
-                            @click.self="emit('close')"
+                            @click.self="emitClose()"
                         >
                             &times;
                         </button>

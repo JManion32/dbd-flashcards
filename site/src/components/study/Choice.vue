@@ -1,8 +1,23 @@
 <script setup lang="ts">
+import { onMounted } from 'vue';
+
 const emit = defineEmits<{
     correct: [];
     incorrect: [];
 }>();
+
+function handleKeydown(event: KeyboardEvent) {
+    if (event.key === 'ArrowLeft') {
+        emit('incorrect');
+    }
+    if (event.key === 'ArrowRight') {
+        emit('correct');
+    }
+}
+
+onMounted(() => {
+    window.addEventListener('keydown', handleKeydown);
+});
 </script>
 <template>
     <div class="choice-container">
@@ -65,7 +80,7 @@ const emit = defineEmits<{
 .correct-btn:hover,
 .incorrect-btn:hover {
     cursor: pointer;
-    background: #2b2b2b;
+    background: var(--dark-333);
     scale: 1.02;
 }
 .correct-btn {

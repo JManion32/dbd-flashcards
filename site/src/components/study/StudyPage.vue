@@ -5,6 +5,7 @@ import ResultSplit from '@/components/study/ResultSplit.vue';
 import Flashcard from '@/components/study/Flashcard.vue';
 import Choice from '@/components/study/Choice.vue';
 import ProgressBar from '@/components/study/ProgressBar.vue';
+import EndStudyModal from '@/components/study/EndStudyModal.vue';
 
 import type { StudyConfig } from '@/types/StudyConfig';
 import { StudyConfigDefault } from '@/types/StudyConfig';
@@ -47,9 +48,14 @@ const completed = computed(() => {
     return correct.value + incorrect.value;
 });
 const total = studyGameItems.value.length;
+
+const isFinished = computed(() => {
+    return completed.value === total;
+});
 </script>
 <template>
     <div class="study-page-container">
+        <EndStudyModal :visible="isFinished" />
         <ProgressBar
             :completed="completed"
             :total="total"
@@ -60,7 +66,11 @@ const total = studyGameItems.value.length;
             :completed="completed"
             :total="total"
         />
-        <Flashcard :game-items="studyGameItems" />
+        <Flashcard
+            :game-items="studyGameItems"
+            :config="props.config"
+            :completed="completed"
+        />
         <Choice
             @correct="correct++"
             @incorrect="incorrect++"
