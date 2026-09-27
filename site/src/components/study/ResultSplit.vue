@@ -16,7 +16,7 @@ const props = defineProps<{
         </div>
         <span class="remaining-cards"> {{ props.completed }} / {{ props.total }} </span>
         <div class="result-container">
-            <span class="correct-score-txt"> Know </span>
+            <span class="correct-score-txt"> Known </span>
             <span class="correct-score-btn">
                 {{ props.correct }}
             </span>

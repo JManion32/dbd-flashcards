@@ -52,6 +52,7 @@
     --flashcard-height: 32rem;
     --progress-bottom: 1.5rem;
     --flashcard-side-padding: 1.5rem;
+    --fc-top-name-size: 2rem;
 }
 
 /* Large Phones */
@@ -121,6 +122,7 @@
         --flashcard-height: 40rem;
         --progress-bottom: 2.5rem;
         --flashcard-side-padding: 3rem;
+        --fc-top-name-size: 3rem;
     }
 }
 

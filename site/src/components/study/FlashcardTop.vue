@@ -45,7 +45,7 @@ const props = defineProps<{
 }
 .flashcard-top-name {
     color: var(--standard-white);
-    font-size: 3rem;
+    font-size: var(--fc-top-name-size);
     font-weight: 900;
 }
 </style>
