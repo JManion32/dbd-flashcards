@@ -56,7 +56,7 @@ onUnmounted(() => {
             >
                 <div
                     class="modal-container"
-                    :style="{ height: props.height === 'short' ? '40rem' : '50rem' }"
+                    :style="{ height: props.height === 'short' ? '42rem' : '50rem' }"
                 >
                     <div class="modal-close-container">
                         <button
