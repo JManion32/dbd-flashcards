@@ -201,16 +201,17 @@ function restoreDefaults() {
 }
 .selection-container {
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-top: 1rem;
 }
 .selection-container button {
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     border: none;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-weight: 900;
-    padding: 1rem;
+    padding: 0.35rem 0.85rem;
     background: none;
     border: 2px solid var(--dark-333);
     color: var(--standard-dim);
