@@ -71,6 +71,17 @@ watch(
     }
 );
 
+watch(
+    () => props.completed,
+    (newValue, oldValue) => {
+        if (newValue === 0 && oldValue !== 0) {
+            shownIndex.value = 0;
+            flipped.value = false;
+            answerAnimation.value = null;
+        }
+    }
+);
+
 function flipCard() {
     flipped.value = !flipped.value;
 }

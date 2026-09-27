@@ -54,6 +54,7 @@
     --progress-bottom: 1.5rem;
     --flashcard-side-padding: 1.5rem;
     --fc-top-name-size: 2rem;
+    --end-btn-width: 90%;
 }
 
 /* Large Phones */
@@ -125,6 +126,7 @@
         --progress-bottom: 2.5rem;
         --flashcard-side-padding: 3rem;
         --fc-top-name-size: 3rem;
+        --end-btn-width: 70%;
     }
 }
 
@@ -145,6 +147,7 @@
 
         /* Study */
         --flashcard-width: 70%;
+        --end-btn-width: 50%;
     }
 }
 

@@ -43,6 +43,7 @@ onMounted(() => {
 
 onUnmounted(() => {
     window.removeEventListener('keydown', handleKeydown);
+    document.body.style.overflow = '';
 });
 </script>
 

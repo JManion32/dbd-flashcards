@@ -7,6 +7,7 @@ import Choice from '@/components/study/Choice.vue';
 import ProgressBar from '@/components/study/ProgressBar.vue';
 import EndStudyModal from '@/components/study/EndStudyModal.vue';
 
+import type { GameItem } from '@/types/GameItem';
 import type { StudyConfig } from '@/types/StudyConfig';
 import { StudyConfigDefault } from '@/types/StudyConfig';
 import { useData } from '@/stores/useData';
@@ -52,15 +53,50 @@ const incorrect = ref(0);
 const completed = computed(() => {
     return correct.value + incorrect.value;
 });
-const total = studyGameItems.value.length;
+
+const total = computed(() => {
+    return studyGameItems.value.length;
+});
 
 const isFinished = computed(() => {
-    return completed.value === total;
+    return completed.value === total.value;
 });
+
+const stillLearning = ref<GameItem[]>([]);
+
+function handleIncorrect() {
+    stillLearning.value.push(studyGameItems.value[completed.value]);
+    incorrect.value++;
+}
+
+function handleRetry() {
+    const retryGameItems = shuffle([...stillLearning.value]);
+    studyGameItems.value = retryGameItems;
+    correct.value = 0;
+    incorrect.value = 0;
+    stillLearning.value = [];
+}
+
+function handleRestart() {
+    const shuffled = shuffle([...filteredGameItems.value]);
+
+    studyGameItems.value = props.config.length === 'All' ? shuffled : shuffled.slice(0, props.config.length);
+    correct.value = 0;
+    incorrect.value = 0;
+    stillLearning.value = [];
+}
 </script>
 <template>
     <div class="study-page-container">
-        <EndStudyModal :visible="isFinished" />
+        <EndStudyModal
+            :visible="isFinished"
+            :correct="correct"
+            :incorrect="incorrect"
+            :total="total"
+            :still-learning="stillLearning"
+            @retry="handleRetry"
+            @restart="handleRestart"
+        />
         <ProgressBar
             :completed="completed"
             :total="total"
@@ -80,7 +116,7 @@ const isFinished = computed(() => {
         />
         <Choice
             @correct="correct++"
-            @incorrect="incorrect++"
+            @incorrect="handleIncorrect()"
         />
     </div>
 </template>

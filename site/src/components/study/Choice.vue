@@ -23,7 +23,8 @@ onMounted(() => {
     <div class="choice-container">
         <button
             class="incorrect-btn"
-            aria-label="Incorrect"
+            aria-label="Mark as Still Learning"
+            title="Mark as Still Learning"
             @click="emit('incorrect')"
         >
             <svg
@@ -36,7 +37,8 @@ onMounted(() => {
 
         <button
             class="correct-btn"
-            aria-label="Correct"
+            aria-label="Mark as Known"
+            title="Mark as Known"
             @click="emit('correct')"
         >
             <svg
