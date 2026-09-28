@@ -1,0 +1,27 @@
+{
+    "name": "Cruel Limits",
+    "id": "cruel-limits",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Auras of all Windows for [30s].",
+                "All Windows are blocked for Survivors for [30s]"
+            ]
+        }
+    ],
+    "quote": "The specimen seems to be able to perform some kind of telekinesis that impacts the state of nearby objects, as if they existed in some other form within a dimension alternate to our own.\" -Hawkins National Laboratory",
+    "tags": [
+        "Aura",
+        "Blocked",
+        "Generator",
+        "Window"
+    ]
+}

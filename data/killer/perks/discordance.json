@@ -1,0 +1,22 @@
+{
+    "name": "Discordance",
+    "id": "discordance",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "Within [128m] of you, whenever a Generator is being repaired by at least [2] Survivors, you are alerted."
+        },
+        {
+            "type": "text",
+            "content": "While that Generator is being repaired by at least [2] Survivors, you see its Aura. When it is no longer being repaired by at least [2[ Survivors, this ends after [4s]."  
+        }
+    ],
+    "quote": "Smartasses get killed. We always see to that.\" -The Legion",
+    "tags": [
+        "Aura",
+        "Generator"
+    ]
+}

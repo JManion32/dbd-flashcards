@@ -1,0 +1,27 @@
+{
+    "name": "Dark Devotion",
+    "id": "dark-devotion",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Obsession takes damage, for [45s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your Terror Radius is set to [40m].",
+                "The Obsession has your Terror Radius.",
+                "You gain [Undetectable]."
+            ]
+        }
+    ],
+    "quote": "\"And terror shall take hold of a defiant non-believer, who shall falsely announce my arrival.\" (The Tablet of Adiris, 48.9)",
+    "tags": [
+        "Obsession",
+        "Terror Radius",
+        "Undetectable"
+    ]
+}

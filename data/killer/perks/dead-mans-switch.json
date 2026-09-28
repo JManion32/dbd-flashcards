@@ -1,0 +1,23 @@
+{
+    "name": "Dead Man's Switch",
+    "id": "dead-mans-switch",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you hook a Survivor, the first time a Survivor stops repairing a Generator, it is blocked for [35s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [35s]."
+        }
+    ],
+    "quote": "\"I've seen the look on a man's face when he realizes he's going to die.\" -Caleb Quinn",
+    "tags": [
+        "Blocked",
+        "Generator",
+        "Hooking"
+    ]
+}

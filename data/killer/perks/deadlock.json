@@ -1,0 +1,18 @@
+{
+    "name": "Deadlock",
+    "id": "deadlock",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, the Generator with the most progress is blocked for [25s]."
+        }
+    ],
+    "quote": "\"Nobody escapes us.\" -Pinhead",
+    "tags": [
+        "Blocked",
+        "Generator"
+    ]
+}

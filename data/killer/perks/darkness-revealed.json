@@ -1,0 +1,22 @@
+{
+    "name": "Darkness Revealed",
+    "id": "darkness-revealed",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you search a Locker, you see the Auras of Survivors with [8m] of all Lockers for [8s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "\"Stay in the light, my children. In darkness, your fear will expose you.\" -Otto Stamper",
+    "tags": [
+        "Aura",
+        "Locker"
+    ]
+}

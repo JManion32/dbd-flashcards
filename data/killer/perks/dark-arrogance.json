@@ -1,0 +1,24 @@
+{
+    "name": "Dark Arrogance",
+    "id": "dark-arrogance",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "You basic-vault Windows [25%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you are blinded or Pallet-stunned, the duration is [15%] longer."
+        }
+    ],
+    "quote": "\"Run all you want. I will not be denied.\" -Vecna",
+    "tags": [
+        "Aura",
+        "Blinded",
+        "Vaulting",
+        "Window"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Coup de Grâce",
+    "id": "coup-de-grace",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, you earn [2] Tokens, up to [5]."
+        },
+        {
+            "type": "text",
+            "content": "Whemever you lunge-attack, spend [1] Token to make it [80%] longer."
+        }
+    ],
+    "tags": [
+        "Basic Attack",
+        "Generator",
+        "Token"
+    ]
+}

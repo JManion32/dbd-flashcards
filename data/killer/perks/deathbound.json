@@ -1,0 +1,30 @@
+{
+    "name": "Deathbound",
+    "id": "deathbound",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor finishes healing another, the healer screams. Then, until the healer takes damage, while you are at least [4m] away from the healed Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The healer gains [Oblivious].",
+                "The healer sees the healed Survivor's Aura."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "This can only apply to one Survivor at a time."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Healing",
+        "Oblivious",
+        "Scream"
+    ]
+}

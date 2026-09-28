@@ -1,0 +1,17 @@
+{
+    "name": "Distressing",
+    "id": "distressing",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Your Terror Radius is [30%] larger."
+        }
+    ],
+    "quote": "\"Bask in their fear.\"",
+    "tags": [
+        "Terror Radius"
+    ]
+}

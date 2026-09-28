@@ -1,0 +1,25 @@
+{
+    "name": "Coulrophobia",
+    "id": "coulrophobia",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within your Terror Radius:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Heal [30%] slower.",
+                "Have Skill Checks that spin [50%] faster while healing."
+            ]
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Skill Check",
+        "Terror Radius"
+    ]
+}

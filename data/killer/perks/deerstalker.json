@@ -1,0 +1,20 @@
+{
+    "name": "Deerstalker",
+    "id": "deerstalker",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Every [30s], the Survivor with the least time in chase sees your Aura for [3s]."
+        },
+        {
+            "type": "text",
+            "content": "While a Survivor sees your Aura, you see their Aura."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}
