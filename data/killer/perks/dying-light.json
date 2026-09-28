@@ -1,0 +1,45 @@
+{
+    "name": "Dying Light",
+    "id": "dying-light",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you hook a Survivor that is not the Obsession, gain [1] token."
+        },
+        {
+            "type": "text",
+            "content": "While the Obsession is alive, for each Token:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Other Survivors heal [3%] slower.",
+                "Other Survivors repair [3%] slower.",
+                "Other Survivors sabotage Hooks [3%] slower"
+            ]  
+        },
+        {
+            "type": "text",
+            "content": "The Obsession:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Heals other Survivors [33%] faster.",
+                "Unhooks other Survivors [33%] faster."
+            ]  
+        }
+    ],
+    "quote": "\"This isn't a man...\" -Dr. Sam Loomis",
+    "tags": [
+        "Healing",
+        "Obsession",
+        "Repairing",
+        "Sabotaging",
+        "Token",
+        "Unhooking"
+    ]
+}

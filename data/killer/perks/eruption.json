@@ -1,0 +1,31 @@
+{
+    "name": "Eruption",
+    "id": "eruption",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator, when you down a Survivor, all Generators damaged this way:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Explode, lose [10%] progress and start regressing.",
+                "Survivors repairing them scream, then you see their Auras for [12s]."
+            ]  
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "\"It can use weapons?\" -Jill Valentine",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Regression",
+        "Scream"
+    ]
+}

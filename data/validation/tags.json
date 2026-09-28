@@ -4,6 +4,7 @@
     "Blocked",
     "Blinded",
     "Blindness",
+    "Boon",
     "Carrying",
     "Chase",
     "Chest",
@@ -11,6 +12,7 @@
     "End Game",
     "Exhaustion",
     "Exit Gate",
+    "Exposed",
     "Falling",
     "Generator",
     "Haste",
@@ -25,6 +27,8 @@
     "Obsession",
     "Pallet",
     "Regression",
+    "Repairing",
+    "Sabotaging",
     "Scratch Marks",
     "Scream",
     "Skill Check",
@@ -32,6 +36,7 @@
     "Token",
     "Totem",
     "Undetectable",
+    "Unhooking",
     "Vaulting",
     "Window"
 ]

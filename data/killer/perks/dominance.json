@@ -1,0 +1,19 @@
+{
+    "name": "Dominance",
+    "id": "dominance",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time each Chest is being unlocked and each Totem is being blessed or cleansed by a Survivor, it is blocked for [16s]."
+        }
+    ],
+    "quote": "\"Tragic, is it not? How powerless you must feel.\" -Dracula",
+    "tags": [
+        "Blocked",
+        "Chest",
+        "Totem"
+    ]
+}
