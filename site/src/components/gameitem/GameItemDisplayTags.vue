@@ -20,6 +20,7 @@ defineProps<{
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 .game-item-tag {
