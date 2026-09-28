@@ -19,7 +19,7 @@
                 "Other Survivors heal [3%] slower.",
                 "Other Survivors repair [3%] slower.",
                 "Other Survivors sabotage Hooks [3%] slower"
-            ]  
+            ]
         },
         {
             "type": "text",
@@ -30,7 +30,7 @@
             "items": [
                 "Heals other Survivors [33%] faster.",
                 "Unhooks other Survivors [33%] faster."
-            ]  
+            ]
         }
     ],
     "quote": "\"This isn't a man...\" -Dr. Sam Loomis",
