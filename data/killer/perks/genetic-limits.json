@@ -7,25 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you Hook a Survivor that is not the Obsession:"
-        },
-        {
-            "type": "list",
-            "items": [
-                "The Obsession gains [Exposed] for [20s].",
-                "You see the Obsession's Aura for [10s]."
-            ]
-        },
-        {
-            "type": "text",
-            "content": "Whenever you Hook the Obsession, another Survivor:"
-        },
-        {
-            "type": "list",
-            "items": [
-                "Screams, then you are alerted.",
-                "Becomes the Obsession."
-            ]
+            "content": "Whenever a Survivor loses a health state by any means, they suffer from [Exhausted] for [8s]."
         }
     ],
     "quote": "\"THE ORGANIC BODY IS SO LIMITED.\" -HUX-A7-13",
