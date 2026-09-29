@@ -1,0 +1,27 @@
+{
+    "name": "Game Afoot",
+    "id": "game-afoot",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "While chasing the Obsession, whenever you basic-break Pallets or Breakable Walls, or damage Generators, you gain [7%] [Haste] for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you damage the Survivor with the most chase time with a basic-attack, they become the Obsession."
+        }
+    ],
+    "quote": "\"This one might actually be a challenge...\" -Adriana Imai",
+    "tags": [
+        "Aura",
+        "Basic Attack",
+        "Chase",
+        "Generator",
+        "Haste",
+        "Obsession",
+        "Pallet"
+    ]
+}

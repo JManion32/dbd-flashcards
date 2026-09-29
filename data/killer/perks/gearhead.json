@@ -1,0 +1,19 @@
+{
+    "name": "Gearhead",
+    "id": "gearhead",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor takes damage, for the next [30s], whenever a Survivor repairing a Generator hits a good basic Skill Check, you see their Aura for [8s]."
+        }
+    ],
+    "quote": "\"Sometimes a man's best work is what puts him in the grave.\" -The prison warden",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Skill Check"
+    ]
+}

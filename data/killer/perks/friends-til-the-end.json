@@ -1,0 +1,38 @@
+{
+    "name": "Friends 'Til the End",
+    "id": "friends-til-the-end",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you Hook a Survivor that is not the Obsession:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The Obsession gains [Exposed] for [20s].",
+                "You see the Obsession's Aura for [10s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Whenever you Hook the Obsession, another Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Screams, then you are alerted.",
+                "Becomes the Obsession."
+            ]
+        }
+    ],
+    "quote": "\"I got some fresh meat lined up, and I'm not gonna let you spoil it, not this time!\" -Chucky",
+    "tags": [
+        "Aura",
+        "Hooking",
+        "Obsession",
+        "Scream"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Furtive Chase",
+    "id": "furtive-chase",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you hook the Obsession:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [10%] [Haste] for [18s].",
+                "You gain [Undetectable] for [18s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Whenever the Obsession is unhooked, the Survivor who unhooked them becomes the Obsession."
+        }
+    ],
+    "quote": "\"You have no idea what I have planned for you. It'll be in the news for weeks: I'll make sure of it.\" -The Ghost Face",
+    "tags": [
+        "Aura",
+        "Haste",
+        "Hooking",
+        "Obsession",
+        "Undetectable"
+    ]
+}

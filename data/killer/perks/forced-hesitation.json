@@ -1,0 +1,21 @@
+{
+    "name": "Forced Hesitation",
+    "id": "forced-hesitation",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you down a Survivor, other Survivors with [16m] of the downed Survivor gain [20%] [Hindered] for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "\"THE ORGANIC MIND'S CAPACITY FOR EMPATHY GOES BEYOND HINDERANCE.\" -HUX-A7-13r",
+    "tags": [
+        "Hinder"
+    ]
+}

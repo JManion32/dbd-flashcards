@@ -1,0 +1,33 @@
+{
+    "name": "Fire Up",
+    "id": "fire-up",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, earn [1] Token, up to [5]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You basic-break Pallets and Breakable Walls [6%] faster.",
+                "You damage Generators [6%] faster.",
+                "You pick-up and drop Survivors [6%] faster.",
+                "You basic-vault Windows [6%] faster."
+            ]
+        }
+    ],
+    "quote": "\"Now why don't you just fucking die?\" -Freddy Krueger",
+    "tags": [
+        "Generator",
+        "Pallet",
+        "Token",
+        "Vaulting"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Forever Entwined",
+    "id": "forever-entwined",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor takes damage, you earn [1] Token, up to [8]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You hook Survivors [4%] faster.",
+                "You pick-up and drop Survivors [4%] faster."
+            ]
+        }
+    ],
+    "quote": "\"You tried to devour me so you have no room to complain if I eat you, do you?\" -Ken Kaneki",
+    "tags": [
+        "Hooking",
+        "Token"
+    ]
+}

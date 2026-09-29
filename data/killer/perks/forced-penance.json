@@ -1,0 +1,17 @@
+{
+    "name": "Forced Penance",
+    "id": "forced-penance",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor takes a protection hit, they gain [Broken] for [80s]."
+        }
+    ],
+    "tags": [
+        "Broken",
+        "Protection Hit"
+    ]
+}
