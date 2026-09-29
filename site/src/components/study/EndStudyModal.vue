@@ -60,7 +60,16 @@ const resultMsg = computed(() => {
             </p>
             <hr />
 
-            <h3>Still Learning ({{ props.incorrect }}):</h3>
+            <div class="still-learning-header-container">
+                <h3>Still Learning</h3>
+                <button
+                    v-if="props.stillLearning.length > 0"
+                    class="retry-study-btn"
+                    @click="emit('retry')"
+                >
+                    Retry ({{ props.incorrect }})
+                </button>
+            </div>
             <div class="still-learning-container">
                 <StillLearningCard
                     v-for="gameItem in stillLearning"
@@ -76,19 +85,18 @@ const resultMsg = computed(() => {
             </div>
             <hr />
             <div class="end-study-btn-container">
-                <button
-                    v-if="props.stillLearning.length > 0"
-                    @click="emit('retry')"
-                >
-                    Retry <i>(Still Learning)</i>
-                </button>
-                <button @click="emit('restart')">Restart <i>(Same Configuration)</i></button>
                 <RouterLink
                     to="/"
-                    class="end-study-btn"
+                    class="home-btn"
                 >
                     Home
                 </RouterLink>
+                <button
+                    class="study-btn"
+                    @click="emit('restart')"
+                >
+                    Restart
+                </button>
             </div>
         </div>
     </Modal>
@@ -101,25 +109,24 @@ const resultMsg = computed(() => {
 .highlight-metric {
     font-weight: 800;
 }
-.end-study-btn {
-    width: 50%;
-}
 .end-study-btn-container {
     margin-top: 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 4rem;
 }
 .end-study-btn-container i {
     margin-left: 0.5rem;
 }
-.end-study-btn-container button,
-.end-study-btn {
-    width: var(--end-btn-width);
-    padding: 0.5rem;
+.home-btn,
+.retry-study-btn {
+    box-sizing: border-box;
+    appearance: none;
+    font: inherit;
+
     border-radius: 0.5rem;
     border: none;
     color: var(--standard-white);
@@ -131,19 +138,27 @@ const resultMsg = computed(() => {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 0.5rem 1.5rem;
 }
-.end-study-btn-container button:hover,
-.end-study-btn:hover {
+.home-btn:hover,
+.retry-study-btn:hover {
     cursor: pointer;
     background: var(--dark-333);
 }
+.still-learning-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .still-learning-container {
     margin-top: 1rem;
-    min-height: 16rem;
+    height: 20rem;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.6rem;
     padding-right: 0.5rem;
 }
 .still-learning-container > * {

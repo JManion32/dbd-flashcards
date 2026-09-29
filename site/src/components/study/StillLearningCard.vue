@@ -21,7 +21,7 @@ const props = defineProps<{
     width: 100%;
     border-radius: 1rem;
     background: var(--dark-222);
-    height: 4rem;
+    height: 3.5rem;
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
@@ -29,8 +29,8 @@ const props = defineProps<{
     gap: 2rem;
 }
 .still-learning-card img {
-    height: 3rem;
-    width: 3rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border: none;
 }
 .still-learning-card span {
