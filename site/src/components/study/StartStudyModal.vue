@@ -11,7 +11,7 @@ import Modal from '@/components/Modal.vue';
 const visible = ref(false);
 const router = useRouter();
 
-const config = ref<StudyConfig>(StudyConfigDefault);
+const config = ref<StudyConfig>({ ...StudyConfigDefault });
 
 function setConfig<K extends keyof StudyConfig>(key: K, value: StudyConfig[K]) {
     config.value[key] = value;
@@ -29,7 +29,7 @@ function startStudy() {
 }
 
 function restoreDefaults() {
-    config.value = StudyConfigDefault;
+    config.value = { ...StudyConfigDefault };
 }
 </script>
 <template>
@@ -46,101 +46,112 @@ function restoreDefaults() {
     >
         <div class="modal-content">
             <h2>Start Flashcards</h2>
-            <p>
+            <p style="margin-bottom: 3rem">
                 <i> Configure your study session, then begin! </i>
             </p>
-            <h3 style="margin-top: 3rem">Side</h3>
-            <div class="selection-container">
-                <button
-                    :class="{ active: config.side === 'Killer' }"
-                    @click="setConfig('side', 'Killer')"
-                >
-                    Killer
-                </button>
-                <button
-                    :class="{ active: config.side === 'Survivor' }"
-                    @click="setConfig('side', 'Survivor')"
-                >
-                    Survivor
-                </button>
-                <button
-                    :class="{ active: config.side === 'All' }"
-                    @click="setConfig('side', 'All')"
-                >
-                    All
-                </button>
+            <div
+                class="selection-container"
+                style="margin-top: 1rem"
+            >
+                <h3>Side:</h3>
+                <div class="selection-btns-container">
+                    <button
+                        :class="{ active: config.side === 'Killer' }"
+                        @click="setConfig('side', 'Killer')"
+                    >
+                        Killer
+                    </button>
+                    <button
+                        :class="{ active: config.side === 'Survivor' }"
+                        @click="setConfig('side', 'Survivor')"
+                    >
+                        Survivor
+                    </button>
+                    <button
+                        :class="{ active: config.side === 'All' }"
+                        @click="setConfig('side', 'All')"
+                    >
+                        All
+                    </button>
+                </div>
             </div>
             <hr />
-            <h3>Type</h3>
             <div class="selection-container">
-                <button
-                    :class="{ active: config.type === 'Perk' }"
-                    @click="setConfig('type', 'Perk')"
-                >
-                    Perks
-                </button>
-                <button
-                    :class="{ active: config.type === 'Add-On' }"
-                    @click="setConfig('type', 'Add-On')"
-                >
-                    Add-Ons
-                </button>
+                <h3>Type:</h3>
+                <div class="selection-btns-container">
+                    <button
+                        :class="{ active: config.type === 'Perk' }"
+                        @click="setConfig('type', 'Perk')"
+                    >
+                        Perks
+                    </button>
+                    <button
+                        :class="{ active: config.type === 'Add-On' }"
+                        @click="setConfig('type', 'Add-On')"
+                    >
+                        Add-Ons
+                    </button>
+                </div>
             </div>
             <hr />
-            <h3>Presets</h3>
             <div class="selection-container">
-                <button
-                    :class="{ active: config.preset === 'Names / Icons' }"
-                    @click="setConfig('preset', 'Names / Icons')"
-                >
-                    Icons and Names
-                </button>
-                <button
-                    :class="{ active: config.preset === 'Icons' }"
-                    @click="setConfig('preset', 'Icons')"
-                >
-                    Icons Only
-                </button>
-                <button
-                    :class="{ active: config.preset === 'Descriptions' }"
-                    @click="setConfig('preset', 'Descriptions')"
-                >
-                    Description Only
-                </button>
+                <h3>Preset:</h3>
+                <div class="selection-btns-container">
+                    <button
+                        :class="{ active: config.preset === 'Names / Icons' }"
+                        @click="setConfig('preset', 'Names / Icons')"
+                    >
+                        Icons and Names
+                    </button>
+                    <button
+                        :class="{ active: config.preset === 'Icons' }"
+                        @click="setConfig('preset', 'Icons')"
+                    >
+                        Icons Only
+                    </button>
+                    <button
+                        :class="{ active: config.preset === 'Descriptions' }"
+                        @click="setConfig('preset', 'Descriptions')"
+                    >
+                        Description Only
+                    </button>
+                </div>
             </div>
             <hr />
-            <h3>Length</h3>
             <div class="selection-container">
-                <button
-                    :class="{ active: config.length === 10 }"
-                    @click="setConfig('length', 10)"
-                >
-                    10
-                </button>
-                <button
-                    :class="{ active: config.length === 25 }"
-                    @click="setConfig('length', 25)"
-                >
-                    25
-                </button>
-                <button
-                    :class="{ active: config.length === 50 }"
-                    @click="setConfig('length', 50)"
-                >
-                    50
-                </button>
-                <button
-                    :class="{ active: config.length === 100 }"
-                    @click="setConfig('length', 100)"
-                >
-                    100
-                </button>
-                <button
-                    :class="{ active: config.length === 'All' }"
-                    @click="setConfig('length', 'All')"
-                >
-                    All
-                </button>
+                <h3>Length:</h3>
+                <div class="selection-btns-container">
+                    <button
+                        :class="{ active: config.length === 10 }"
+                        @click="setConfig('length', 10)"
+                    >
+                        10
+                    </button>
+                    <button
+                        :class="{ active: config.length === 25 }"
+                        @click="setConfig('length', 25)"
+                    >
+                        25
+                    </button>
+                    <button
+                        :class="{ active: config.length === 50 }"
+                        @click="setConfig('length', 50)"
+                    >
+                        50
+                    </button>
+                    <button
+                        :class="{ active: config.length === 100 }"
+                        @click="setConfig('length', 100)"
+                    >
+                        100
+                    </button>
+                    <button
+                        :class="{ active: config.length === 'All' }"
+                        @click="setConfig('length', 'All')"
+                    >
+                        All
+                    </button>
+                </div>
             </div>
             <hr />
             <div class="study-actions-container">
@@ -188,17 +199,23 @@ function restoreDefaults() {
     gap: 2rem;
     width: 100%;
     justify-content: right;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     padding-bottom: 1rem;
 }
 .selection-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    align-items: center;
+}
+.selection-btns-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
 }
-.selection-container button {
+.selection-btns-container button {
     border-radius: 0.75rem;
     border: none;
     font-size: 1.25rem;

@@ -16,8 +16,8 @@
     --home-section-search: 12rem;
 
     /* Modal */
-    --modal-width: 29rem;
     --modal-padding: 1rem;
+    --modal-width: 95%;
 
     /* LinkCard */
     --link-card-width: 100%;
