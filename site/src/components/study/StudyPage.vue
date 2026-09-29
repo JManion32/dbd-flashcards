@@ -128,7 +128,6 @@ function handleRestart() {
     justify-content: center;
     gap: 1.5rem;
     width: 100%;
-    height: 85vh;
-    margin-top: 1rem;
+    height: 100%;
 }
 </style>
