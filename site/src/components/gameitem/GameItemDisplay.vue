@@ -14,7 +14,6 @@ import type { GameItem } from '@/types/GameItem.ts';
 
 const props = defineProps<{
     gameItem: GameItem;
-    flashcard?: boolean;
 }>();
 </script>
 <template>
@@ -56,12 +55,12 @@ const props = defineProps<{
         </div>
         <h3>Description</h3>
         <GameItemDisplayDesc :desc="props.gameItem.description" />
-        <div v-if="props.gameItem.tags.length > 0 && !props.flashcard">
+        <div v-if="props.gameItem.tags.length > 0">
             <h3>Tags</h3>
             <GameItemDisplayTags :tags="props.gameItem.tags" />
         </div>
         <p
-            v-if="props.gameItem.quote && !props.flashcard"
+            v-if="props.gameItem.quote"
             class="game-item-display-quote"
         >
             {{ props.gameItem.quote }}

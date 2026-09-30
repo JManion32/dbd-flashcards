@@ -34,13 +34,14 @@ const props = defineProps<{
 
 .result-split-container > div:first-child {
     justify-self: start;
+    display: flex;
 }
 
 .remaining-cards {
     justify-self: center;
     color: var(--standard-white);
     font-weight: 800;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
 }
 
 .result-split-container > div:last-child {
@@ -75,7 +76,7 @@ const props = defineProps<{
 }
 .incorrect-score-txt,
 .correct-score-txt {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
     font-style: italic;
 }

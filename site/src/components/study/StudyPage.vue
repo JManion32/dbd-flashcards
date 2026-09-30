@@ -64,7 +64,19 @@ const isFinished = computed(() => {
 
 const stillLearning = ref<GameItem[]>([]);
 
+function handleCorrect() {
+    if (isFinished.value) {
+        return;
+    }
+
+    correct.value++;
+}
+
 function handleIncorrect() {
+    if (isFinished.value) {
+        return;
+    }
+
     stillLearning.value.push(studyGameItems.value[completed.value]);
     incorrect.value++;
 }
@@ -115,7 +127,7 @@ function handleRestart() {
             :completed="completed"
         />
         <Choice
-            @correct="correct++"
+            @correct="handleCorrect()"
             @incorrect="handleIncorrect()"
         />
     </div>

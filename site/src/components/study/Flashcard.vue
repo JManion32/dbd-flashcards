@@ -2,9 +2,8 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 
 import type { GameItem } from '@/types/GameItem';
-import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
-import FlashcardTop from '@/components/study/FlashcardTop.vue';
 import type { StudyConfig } from '@/types/StudyConfig';
+import FlashcardContent from '@/components/study/FlashcardContent.vue';
 const props = defineProps<{
     gameItems: GameItem[];
     config: StudyConfig;
@@ -116,17 +115,19 @@ onUnmounted(() => {
                 >
                     <!-- FRONT -->
                     <div class="flashcard-side flashcard-front">
-                        <FlashcardTop
+                        <FlashcardContent
                             :game-item="currentItem"
                             :config="props.config"
+                            side="front"
                         />
                     </div>
 
                     <!-- BACK -->
                     <div class="flashcard-side flashcard-back">
-                        <GameItemDisplay
+                        <FlashcardContent
                             :game-item="currentItem"
-                            flashcard
+                            :config="props.config"
+                            side="back"
                         />
                     </div>
                 </div>
@@ -147,17 +148,19 @@ onUnmounted(() => {
                 >
                     <!-- FRONT -->
                     <div class="flashcard-side flashcard-front">
-                        <FlashcardTop
+                        <FlashcardContent
                             :game-item="exitingItem"
                             :config="props.config"
+                            side="front"
                         />
                     </div>
 
                     <!-- BACK -->
                     <div class="flashcard-side flashcard-back">
-                        <GameItemDisplay
+                        <FlashcardContent
                             :game-item="exitingItem"
-                            flashcard
+                            :config="props.config"
+                            side="back"
                         />
                     </div>
                 </div>

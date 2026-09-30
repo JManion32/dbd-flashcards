@@ -85,7 +85,7 @@ const visible = ref(false);
             />
             <hr />
             <!--TODO: Hook this into page edits.-->
-            <p class="modal-last-updated">Last updated: 09-06-2026</p>
+            <p class="modal-last-updated">Last updated: 09-29-2026</p>
         </div>
     </Modal>
 </template>

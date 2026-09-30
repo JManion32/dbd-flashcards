@@ -131,16 +131,20 @@ const resultMsg = computed(() => {
     border: none;
     color: var(--standard-white);
     font-weight: 700;
-    font-size: 1rem;
     background: var(--dark-222);
     transition: var(--site-transition);
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 1.25rem;
     font-weight: 800;
     padding: 0.5rem 1.5rem;
+}
+.home-btn {
+    font-size: 1.25rem;
+}
+.retry-study-btn {
+    font-size: 1.05rem;
 }
 .home-btn:hover,
 .retry-study-btn:hover {

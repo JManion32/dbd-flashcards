@@ -191,7 +191,6 @@ function restoreDefaults() {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 1rem;
 }
 .selection-btns-container button {

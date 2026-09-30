@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from 'vue';
+import { onMounted, onUnmounted } from 'vue';
 
 const emit = defineEmits<{
     correct: [];
@@ -17,6 +17,10 @@ function handleKeydown(event: KeyboardEvent) {
 
 onMounted(() => {
     window.addEventListener('keydown', handleKeydown);
+});
+
+onUnmounted(() => {
+    window.removeEventListener('keydown', handleKeydown);
 });
 </script>
 <template>

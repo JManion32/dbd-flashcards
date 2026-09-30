@@ -32,7 +32,6 @@ const visible = ref(false);
                 collect information such as your device and browser type, pages visited, and approximate location.
             </p>
             <hr />
-            <hr />
             <h3>Third-Party Links</h3>
             <p>
                 The site may contain links to third-party websites such as GitHub and Twitch. Those websites have their
