@@ -1,0 +1,30 @@
+{
+    "name": "Hex: Haunted Ground",
+    "id": "hex-haunted-ground",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, [2] Dull Totems ignite."
+        },
+        {
+            "type": "text",
+            "content": "When either of those Hex Totems is blessed or cleansed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "All Survivors gain [Exposed] for [60s].",
+                "The other Totem is extinguished."
+            ]
+        }
+    ],
+    "quote": "\"Her home became profane.\"",
+    "tags": [
+        "Exposed",
+        "Hex",
+        "Totem"
+    ]
+}

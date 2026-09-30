@@ -1,0 +1,37 @@
+{
+    "name": "Grim Embrace",
+    "id": "grim-embrace",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you Hook a Survivor for the first time, earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you move [16m] away from the hooked Survivor all Generators are blocked for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "After reaching [4] Tokens, when you move [16m] away from the hooked Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "All Generators are blocked for [40s].",
+                "You see the Obsession's Aura for [10s]."
+            ]
+        }
+    ],
+    "quote": "\"Are we nothing but prisoners to our sorrow?\" -Carmina Mora",
+    "tags": [
+        "Aura",
+        "Blocked",
+        "Generator",
+        "Hooking",
+        "Obsession",
+        "Token"
+    ]
+}

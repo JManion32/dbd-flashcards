@@ -1,0 +1,24 @@
+{
+    "name": "Hex: Blood Favor",
+    "id": "hex-blood-favor",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you damage a Survivor, Upright Pallets within [32m] of them are blocked for [15s]."
+        }
+    ],
+    "quote": "\"It would be no leap of the imagination to suggest that the trials are a biological response of sorts.\" -Journal of Talbot Grimes",
+    "tags": [
+        "Blocked",
+        "Hex",
+        "Pallet",
+        "Totem"
+    ]
+}

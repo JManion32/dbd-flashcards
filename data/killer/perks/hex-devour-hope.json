@@ -1,0 +1,35 @@
+{
+    "name": "Hex: Devour Hope",
+    "id": "hex-devour-hope",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor is unhooked while you are at least [24m] away, earn [1] Token, up to [5]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[2] Tokens | [10s] after hooking a Survivor, gain [5%] [Haste] for [10s].",
+                "[3] Tokens | Survivors gain [Exposed].",
+                "[5] Tokens | You can Kill downed Survivors."
+            ]
+        }
+    ],
+    "quote": "\"If you do nothing, you have their blood on your hands. If you save them, her hunger grows.\"",
+    "tags": [
+        "Exposed",
+        "Haste",
+        "Hex",
+        "Hooking",
+        "Token",
+        "Totem",
+        "Unhooking"
+    ]
+}

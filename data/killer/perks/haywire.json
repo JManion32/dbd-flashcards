@@ -1,0 +1,23 @@
+{
+    "name": "Haywire",
+    "id": "haywire",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Exit Gate Switches with at least [80%] progress regress at [100%] speed."
+        },
+        {
+            "type": "text",
+            "content": "While they are regressing, Survivors see the Exit Gate Lights flicker randomly"
+        }
+    ],
+    "quote": "\"There will be no redemption for you.\" -Springtrap",
+    "tags": [
+        "End Game",
+        "Exit Gate",
+        "Regression"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Hex: Plaything",
+    "id": "hex-plaything",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time you hook each Survivor, they are hexed and a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "For [90s], the Hex Totem is blocked to other Survivors."
+        },
+        {
+            "type": "text",
+            "content": "The hexed Survivors:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gain [Oblivious].",
+                "Within [16m] of the Hex Totem, they see its Aura."
+            ]
+        }
+    ],
+    "quote": "\"We came. Now you must come with us. Taste our pleasures.\" -Pinhead",
+    "tags": [
+        "Aura",
+        "Blocked",
+        "Hex",
+        "Hooking",
+        "Oblivious",
+        "Totem"
+    ]
+}

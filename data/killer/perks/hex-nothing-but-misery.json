@@ -1,0 +1,24 @@
+{
+    "name": "Hex: Nothing but Misery",
+    "id": "hex-nothing-but-misery",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you damage Survivors with a basic-attack [8] times, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you damage a Survivor with a basic-attack, they gain [5%] [Hindered] for [15s]."
+        }
+    ],
+    "quote": "\"All of the liabilities of this world are due to the inadequacies of the person involved.\" -Ken Kaneki",
+    "tags": [
+        "Basic Attack",
+        "Hex",
+        "Hinder",
+        "Totem"
+    ]
+}

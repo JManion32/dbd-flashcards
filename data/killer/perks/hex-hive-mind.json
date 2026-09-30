@@ -1,0 +1,37 @@
+{
+    "name": "Hex: Hive Mind",
+    "id": "hex-hive-mind",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time you hook a Survivor, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "The Auras of Generators show their progress."
+        },
+        {
+            "type": "text",
+            "content": "When [1] Generator remains:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "All Generators explode, lose [10%] progress, and start regressing.",
+                "The Hex Totem is extinguished."
+            ]
+        }
+    ],
+    "quote": "\"You... let us in. And now, you are going to have to let us stay.\" -Henry Creel",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Hex",
+        "Hooking",
+        "Regression",
+        "Totem"
+    ]
+}

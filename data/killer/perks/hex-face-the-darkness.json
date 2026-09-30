@@ -1,0 +1,31 @@
+{
+    "name": "Hex: Face the Darkness",
+    "id": "hex-face-the-darkness",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Survivor, they are hexed and a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "Every [25s], other Survivors not within your Terror Radius scream, then you see their Auras for [2s]."
+        },
+        {
+            "type": "text",
+            "content": "When the hexed Survivor is downed pr becomes healthy, the Hex Totem is extinguished."
+        }
+    ],
+    "quote": "\"I shall make an example of one. These mewling worms will never know peace.\" -Tarhos Kovács",
+    "tags": [
+        "Aura",
+        "Hex",
+        "Scream",
+        "Terror Radius",
+        "Token",
+        "Totem",
+        "Vaulting"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Hex: Crowd Control",
+    "id": "hex-crowd-control",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time a Survivor medium or fast-vaults a Window, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "The last [6] Windows Survivors medium or fast-vault are blocked."
+        },
+        {
+            "type": "text",
+            "content": "You basic-vault blocked Windows [15%] faster."
+        },
+        {
+            "type": "text",
+            "content": "You see the Auras of blocked Windows within [24m]."
+        }
+    ],
+    "quote": "\"You have no control. People like you never did.\" -Hak Ji-woon",
+    "tags": [
+        "Blocked",
+        "Hex",
+        "Totem",
+        "Vaulting",
+        "Window"
+    ]
+}

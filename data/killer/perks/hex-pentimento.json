@@ -1,0 +1,36 @@
+{
+    "name": "Hex: Pentimento",
+    "id": "hex-pentimento",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of cleansed Totems, and can rekindle each once."
+        },
+        {
+            "type": "text",
+            "content": "Within [16m], Survivors see the Auras of Rekindled Totems."
+        },
+        {
+            "type": "text",
+            "content": "While a Totem is rekindled, Survivors heal and repair [20%] slower, plus [3%] for each additional Rekindled Totem."
+        },
+        {
+            "type": "text",
+            "content": "When all [5] Totems are rekindled at once, they are blocked."
+        }
+    ],
+    "quote": "\"A pentimento is concealed art. There is often a desire to see that which is beyond.\" -A Guide to Art & Process",
+    "tags": [
+        "Aura",
+        "Blocked",
+        "Exposed",
+        "Haste",
+        "Healing",
+        "Hex",
+        "Repairing",
+        "Totem"
+    ]
+}

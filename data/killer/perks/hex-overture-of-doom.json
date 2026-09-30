@@ -1,0 +1,36 @@
+{
+    "name": "Hex: Overture of Doom",
+    "id": "hex-overture-of-doom",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, a Dull Totem ignites and hexes the farthest Generator from it."
+        },
+        {
+            "type": "text",
+            "content": "After a Survivor repairs the hexed Generator for [5s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [Undetectable] for [30s].",
+                "For that time, your Terror Radius is set to that Generator."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When the hexed Generator is repaired, the next farthest Generator is hexed."
+        }
+    ],
+    "quote": "\"From salvation's ruin, be warned/death comes from all around.\" -Giovanni Serrata's Fog Hill",
+    "tags": [
+        "Generator",
+        "Hex",
+        "Terror Radius",
+        "Totem",
+        "Undetectable"
+    ]
+}
