@@ -24,7 +24,7 @@ defineProps<{
     gap: 1rem;
 }
 .game-item-tag {
-    background: var(--secondary-bg);
+    background: var(--standard-black);
     border-radius: 1rem;
     border: none;
     color: var(--standard-white);
