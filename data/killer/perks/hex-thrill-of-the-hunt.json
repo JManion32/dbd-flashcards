@@ -1,0 +1,26 @@
+{
+    "name": "Hex: Thrill of the Hunt",
+    "id": "hex-thrill-of-the-hunt",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "For each Dull and Hex Totem remaining, you have [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "For each Token, Survivors bless and cleanse totems [10%] slower."
+        }
+    ],
+    "tags": [
+        "Hex",
+        "Token",
+        "Totem"
+    ]
+}

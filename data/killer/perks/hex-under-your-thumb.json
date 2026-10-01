@@ -1,0 +1,28 @@
+{
+    "name": "Hex: Under your Thumb",
+    "id": "hex-under-your-thumb",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time a Survivor gains a Hook State, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a running Survivor gains [Haste] within [32m] of you, you alerted."
+        },
+        {
+            "type": "text",
+            "content": "Running Survivors cannot gain more than [15%] [Haste] at a time."
+        }
+    ],
+    "quote": "\"They will run, but Judgment will make the very ground they tread turn to ash and smoke.\" (Visions of Gerhardt, ch. 1)",
+    "tags": [
+        "Aura",
+        "Hex",
+        "Token",
+        "Totem"
+    ]
+}

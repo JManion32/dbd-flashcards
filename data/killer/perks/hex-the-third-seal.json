@@ -1,0 +1,24 @@
+{
+    "name": "Hex: The Third Seal",
+    "id": "hex-the-third-seal",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you damage a Survivor with a basic or special-attack, they gain [Blindness]."
+        }
+    ],
+    "quote": "\"She touched your skin, you bear the witch's mark!\"",
+    "tags": [
+        "Basic Attack",
+        "Blindness",
+        "Hex",
+        "Totem"
+    ]
+}

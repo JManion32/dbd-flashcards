@@ -1,0 +1,27 @@
+{
+    "name": "Hex: Undying",
+    "id": "hex-undying",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Blight",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "When another Hex Totem is blessed or cleansed, it replaces this one and keeps any Tokens it had."
+        },
+        {
+            "type": "text",
+            "content": "You see the Auras of Survivors within [4m] of Dull Totems."
+        }
+    ],
+    "tags": [
+        "Blind",
+        "Hex",
+        "Stun",
+        "Totem"
+    ]
+}

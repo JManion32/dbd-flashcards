@@ -1,0 +1,24 @@
+{
+    "name": "Hex: Two Can Play",
+    "id": "hex-two-can-play",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "While this Hex is dull, each time you are blinded or stunned by a Survivor [2] times, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you are blinded or stunned by a Survivor you are not carrying, they are blinded for [1.5s]."
+        }
+    ],
+    "quote": "\"From now on, no more Mr. Good Guy.\" -Chucky",
+    "tags": [
+        "Blind",
+        "Hex",
+        "Stun",
+        "Totem"
+    ]
+}

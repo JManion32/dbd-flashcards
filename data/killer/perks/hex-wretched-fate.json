@@ -1,0 +1,32 @@
+{
+    "name": "Hex: Wretched Fate",
+    "id": "hex-wretched-fate",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time a Generator is completed, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "The Obsession:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Repairs [33%] slower.",
+                "Sees the Hex Totem's Aura within [12m]."
+            ]
+        }
+    ],
+    "quote": "\"So toil, mortal, toil! Your effort will be for naught!\" -Dracula",
+    "tags": [
+        "Aura",
+        "Hex",
+        "Repairing",
+        "Stun",
+        "Totem"
+    ]
+}

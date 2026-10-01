@@ -1,0 +1,22 @@
+{
+    "name": "Hubris",
+    "id": "hubris",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you are stunned by a Survivor, they gain [Exposed] for [30s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [20s]."
+        }
+    ],
+    "quote": "\"You have made a grave mistake, standing in opposition to me this day.\" -Tarhos Kovács",
+    "tags": [
+        "Exposed",
+        "Stun"
+    ]
+}

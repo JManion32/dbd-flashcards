@@ -1,0 +1,23 @@
+{
+    "name": "I'm All Ears",
+    "id": "im-all-ears",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor fast-enters or fast-exits a Locker, or medium or fast-vaults within [48m] of you, you see their Aura for [8s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "\"There is no need to worry. I've been preparing my whole life for this.\" -The Ghost Face",
+    "tags": [
+        "Aura",
+        "Locker",
+        "Vaulting"
+    ]
+}

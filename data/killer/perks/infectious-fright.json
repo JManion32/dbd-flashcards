@@ -1,0 +1,18 @@
+{
+    "name": "Infectious Fright",
+    "id": "infectious-fright",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor is downed, Survivors within your Terror Radius scream and you are alerted for [6s]."
+        }
+    ],
+    "quote": "\"Horror overcomes the heart of infidels who cry at the feet of the fallen.\" (Hymm of Praise, 11. 4)",
+    "tags": [
+        "Scream",
+        "Terror Radius"
+    ]
+}

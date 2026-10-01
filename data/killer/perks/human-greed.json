@@ -1,0 +1,22 @@
+{
+    "name": "Human Greed",
+    "id": "human-greed",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you are stunned by a Survivor, they gain [Exposed] for [30s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [20s]."
+        }
+    ],
+    "quote": "\"Come running, one and all, and see what fortune awaits you.\" -Dracula",
+    "tags": [
+        "Aura",
+        "Chest"
+    ]
+}

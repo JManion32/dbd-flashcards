@@ -1,0 +1,24 @@
+{
+    "name": "Hex: Ruin",
+    "id": "hex-ruin",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "While a Generator is not being repaired, it regresses at [150%] speed."
+        }
+    ],
+    "quote": "\"A curse is upon you. It will be your ruin.\"",
+    "tags": [
+        "Generator",
+        "Hex",
+        "Regression",
+        "Totem"
+    ]
+}

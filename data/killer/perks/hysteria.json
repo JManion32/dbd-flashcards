@@ -1,0 +1,21 @@
+{
+    "name": "Hysteria",
+    "id": "hysteria",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a healthy Survivor becomes injured, all injured Survivors gain [Oblivious] for [40s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [20s]."
+        }
+    ],
+    "quote": "\"Sorry I got a little jumpy there. Didn't know quite what to expect.\" -Robert Kendo",
+    "tags": [
+        "Oblivious"
+    ]
+}

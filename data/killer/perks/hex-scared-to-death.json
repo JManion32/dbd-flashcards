@@ -1,0 +1,34 @@
+{
+    "name": "Hex: Scared to Death",
+    "id": "hex-scared-to-death",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, a Dull Totem ignites."
+        },
+        {
+            "type": "text",
+            "content": "While chasing a Survivor, whenever you basic-break a Pallet, Survivors within [13m]."
+        },
+        {
+            "type": "list",
+            "items": [
+                "Scream.",
+                "Gain [13%] [Hindered] for [3s]."
+            ]
+        }
+    ],
+    "quote": "\"There was a scream from the forest. Like someone was attacking her.\" -Mount Ormond Missing Person Report",
+    "tags": [
+        "Generator",
+        "Hex",
+        "Hinder",
+        "Hooking",
+        "Pallet",
+        "Scream",
+        "Totem"
+    ]
+}
