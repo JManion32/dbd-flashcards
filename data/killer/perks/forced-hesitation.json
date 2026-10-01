@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you down a Survivor, other Survivors with [16m] of the downed Survivor gain [20%] [Hindered] for [10s]."
+            "content": "Whenever you down a Survivor, all other Survivors within [16m] of them suffer [20%] [Hindered] for [10s]."
         },
         {
             "type": "text",

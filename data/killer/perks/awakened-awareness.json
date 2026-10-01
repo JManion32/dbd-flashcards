@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "While carrying another Survivor, see the Auras of other Survivors within [20m] of you."
+            "content": "While carrying a Survivor, see the Auras of other Survivors within [20m]."
         }
     ],
     "tags": [

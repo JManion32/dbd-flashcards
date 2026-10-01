@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "content": "While that Generator is being repaired by at least [2] Survivors, you see its Aura. When it is no longer being repaired by at least [2[ Survivors, this ends after [4s]."
+            "content": "While at least [2] Survivors are repairing that Generator, you see its Aura. The Aura remains visible for [4s] after fewer than [2] Survivors are repairing it."
         }
     ],
     "quote": "\"Smartasses get killed. We always see to that.\" -The Legion",
