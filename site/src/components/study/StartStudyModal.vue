@@ -4,14 +4,58 @@ import '@/styles/modal.css';
 import type { StudyConfig } from '@/types/StudyConfig.ts';
 import { StudyConfigDefault } from '@/types/StudyConfig.ts';
 
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import Modal from '@/components/Modal.vue';
+import { useData } from '@/stores/useData';
 
 const visible = ref(false);
 const router = useRouter();
+const { combinedGameItems } = useData();
 
 const config = ref<StudyConfig>({ ...StudyConfigDefault });
+
+const sideOptions: { value: StudyConfig['side']; label: string; icon?: string }[] = [
+    { value: 'Killer', label: 'Killer' },
+    { value: 'Survivor', label: 'Survivor' },
+    { value: 'All', label: 'Both' },
+];
+
+const typeOptions: { value: StudyConfig['type']; label: string }[] = [
+    { value: 'Perk', label: 'Perks' },
+    { value: 'Add-On', label: 'Add-Ons' },
+];
+
+// `hint` describes what each side of the card shows: front → back
+const presetOptions: { value: StudyConfig['preset']; label: string; hint: string }[] = [
+    { value: 'Names / Icons', label: 'Names & Icons', hint: 'Name → Description' },
+    { value: 'Icons', label: 'Icons', hint: 'Icon → Name' },
+    { value: 'Descriptions', label: 'Descriptions', hint: 'Description → Name' },
+];
+
+const lengthOptions: StudyConfig['length'][] = [10, 25, 50, 100, 'All'];
+
+// Same filter StudyPage applies, so the summary matches the session
+const poolSize = computed(() => {
+    return combinedGameItems.value.filter((gameItem) => {
+        if (gameItem.side !== config.value.side && config.value.side !== 'All') {
+            return false;
+        }
+
+        return gameItem.type === config.value.type;
+    }).length;
+});
+
+const sessionSize = computed(() => {
+    return config.value.length === 'All' ? poolSize.value : Math.min(config.value.length, poolSize.value);
+});
+
+const sessionSummary = computed(() => {
+    const typeLabel = config.value.type === 'Perk' ? 'perks' : 'add-ons';
+    const sideLabel = config.value.side === 'All' ? '' : `${config.value.side.toLowerCase()} `;
+
+    return `${sessionSize.value} of ${poolSize.value} ${sideLabel}${typeLabel}`;
+});
 
 function setConfig<K extends keyof StudyConfig>(key: K, value: StudyConfig[K]) {
     config.value[key] = value;
@@ -46,114 +90,74 @@ function restoreDefaults() {
     >
         <div class="modal-content">
             <h2>Start Flashcards</h2>
-            <p style="margin-bottom: 3rem">
-                <i> Configure your study session, then begin! </i>
+            <p class="start-study-subtitle">
+                <i>Configure your study session, then begin!</i>
             </p>
-            <div
-                class="selection-container"
-                style="margin-top: 1rem"
-            >
-                <h3>Side:</h3>
-                <div class="selection-btns-container">
-                    <button
-                        :class="{ active: config.side === 'Killer' }"
-                        @click="setConfig('side', 'Killer')"
-                    >
-                        Killer
-                    </button>
-                    <button
-                        :class="{ active: config.side === 'Survivor' }"
-                        @click="setConfig('side', 'Survivor')"
-                    >
-                        Survivor
-                    </button>
-                    <button
-                        :class="{ active: config.side === 'All' }"
-                        @click="setConfig('side', 'All')"
-                    >
-                        All
-                    </button>
+
+            <div class="option-groups">
+                <div class="option-group">
+                    <span class="option-label">Side</span>
+                    <div class="segmented">
+                        <button
+                            v-for="option in sideOptions"
+                            :key="option.value"
+                            :class="{ active: config.side === option.value }"
+                            :aria-pressed="config.side === option.value"
+                            @click="setConfig('side', option.value)"
+                        >
+                            {{ option.label }}
+                        </button>
+                    </div>
+                </div>
+
+                <div class="option-group">
+                    <span class="option-label">Type</span>
+                    <div class="segmented">
+                        <button
+                            v-for="option in typeOptions"
+                            :key="option.value"
+                            :class="{ active: config.type === option.value }"
+                            :aria-pressed="config.type === option.value"
+                            @click="setConfig('type', option.value)"
+                        >
+                            {{ option.label }}
+                        </button>
+                    </div>
+                </div>
+
+                <div class="option-group">
+                    <span class="option-label">Card Front</span>
+                    <div class="segmented">
+                        <button
+                            v-for="option in presetOptions"
+                            :key="option.value"
+                            class="segment-with-hint"
+                            :class="{ active: config.preset === option.value }"
+                            :aria-pressed="config.preset === option.value"
+                            @click="setConfig('preset', option.value)"
+                        >
+                            {{ option.label }}
+                            <span class="segment-hint">{{ option.hint }}</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="option-group">
+                    <span class="option-label">Cards</span>
+                    <div class="segmented">
+                        <button
+                            v-for="option in lengthOptions"
+                            :key="option"
+                            :class="{ active: config.length === option }"
+                            :aria-pressed="config.length === option"
+                            @click="setConfig('length', option)"
+                        >
+                            {{ option }}
+                        </button>
+                    </div>
                 </div>
             </div>
-            <hr />
-            <div class="selection-container">
-                <h3>Type:</h3>
-                <div class="selection-btns-container">
-                    <button
-                        :class="{ active: config.type === 'Perk' }"
-                        @click="setConfig('type', 'Perk')"
-                    >
-                        Perks
-                    </button>
-                    <button
-                        :class="{ active: config.type === 'Add-On' }"
-                        @click="setConfig('type', 'Add-On')"
-                    >
-                        Add-Ons
-                    </button>
-                </div>
-            </div>
-            <hr />
-            <div class="selection-container">
-                <h3>Preset:</h3>
-                <div class="selection-btns-container">
-                    <button
-                        :class="{ active: config.preset === 'Names / Icons' }"
-                        @click="setConfig('preset', 'Names / Icons')"
-                    >
-                        Icons and Names
-                    </button>
-                    <button
-                        :class="{ active: config.preset === 'Icons' }"
-                        @click="setConfig('preset', 'Icons')"
-                    >
-                        Icons Only
-                    </button>
-                    <button
-                        :class="{ active: config.preset === 'Descriptions' }"
-                        @click="setConfig('preset', 'Descriptions')"
-                    >
-                        Description Only
-                    </button>
-                </div>
-            </div>
-            <hr />
-            <div class="selection-container">
-                <h3>Length:</h3>
-                <div class="selection-btns-container">
-                    <button
-                        :class="{ active: config.length === 10 }"
-                        @click="setConfig('length', 10)"
-                    >
-                        10
-                    </button>
-                    <button
-                        :class="{ active: config.length === 25 }"
-                        @click="setConfig('length', 25)"
-                    >
-                        25
-                    </button>
-                    <button
-                        :class="{ active: config.length === 50 }"
-                        @click="setConfig('length', 50)"
-                    >
-                        50
-                    </button>
-                    <button
-                        :class="{ active: config.length === 100 }"
-                        @click="setConfig('length', 100)"
-                    >
-                        100
-                    </button>
-                    <button
-                        :class="{ active: config.length === 'All' }"
-                        @click="setConfig('length', 'All')"
-                    >
-                        All
-                    </button>
-                </div>
-            </div>
-            <hr />
+
             <div class="study-actions-container">
                 <button
                     class="clear-selection-btn"
@@ -161,8 +165,10 @@ function restoreDefaults() {
                 >
                     Restore Defaults
                 </button>
+                <span class="session-summary">{{ sessionSummary }}</span>
                 <button
                     class="study-btn"
+                    :disabled="sessionSize === 0"
                     @click="startStudy()"
                 >
                     Start!
@@ -172,49 +178,117 @@ function restoreDefaults() {
     </Modal>
 </template>
 <style scoped>
-.study-actions-container {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    width: 100%;
-    justify-content: right;
-    margin-top: 2.5rem;
-    padding-bottom: 1rem;
-}
-.selection-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
-    align-items: center;
-}
-.selection-btns-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-.selection-btns-container button {
-    border-radius: 0.75rem;
-    border: none;
-    font-size: 1.25rem;
-    font-weight: 900;
-    padding: 0.35rem 0.85rem;
-    background: none;
-    border: 2px solid var(--dark-333);
+.modal-content .start-study-subtitle {
+    margin: 0.25rem 0 0;
     color: var(--standard-dim);
+}
+.option-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2.5rem 0 2rem 0;
+}
+.option-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+.option-label {
+    color: var(--inactive-text);
+    font-size: 0.95rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+/* One connected track per option; each choice sized to its content */
+.segmented {
+    display: flex;
+    gap: 0.35rem;
+    padding: 0.35rem;
+    border-radius: 0.85rem;
+    background: var(--site-bg);
+    border: 1px solid var(--dark-222);
+}
+.segmented button {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+
+    padding: 0.45rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    background: none;
+
+    color: var(--standard-dim);
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 800;
     transition: var(--site-transition);
 }
-.selection-container button:hover {
+.segmented button:not(.segment-with-hint) {
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.segmented button:hover {
     cursor: pointer;
     color: var(--standard-white);
-    background: #191919;
+    background: var(--secondary-bg);
 }
-.selection-container button.active {
+.segmented button.active {
     color: var(--standard-white);
     background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
     border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
 }
+.segment-icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    object-fit: contain;
+    opacity: 0.6;
+    transition: var(--site-transition);
+}
+.segmented button:hover .segment-icon,
+.segmented button.active .segment-icon {
+    opacity: 1;
+}
+.segment-hint {
+    color: var(--inactive-text);
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+.segmented button.active .segment-hint {
+    color: var(--standard-dim);
+}
+
+.study-actions-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    margin-top: auto;
+    padding: 1.5rem 0 0;
+}
+.session-summary {
+    margin-left: auto;
+    color: var(--inactive-text);
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: italic;
+}
+.study-actions-container .study-btn:disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
 .clear-selection-btn {
+    padding: 0;
     background: none;
     color: var(--standard-dim);
     font-style: italic;
@@ -228,5 +302,23 @@ function restoreDefaults() {
     cursor: pointer;
     text-shadow: var(--small-text-glow);
     color: var(--standard-white);
+}
+
+@media (width < 510px) {
+    .segment-hint {
+        display: none;
+    }
+    .study-actions-container {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .session-summary {
+        order: -1;
+        width: 100%;
+        margin-left: 0;
+    }
+    .study-actions-container .study-btn {
+        margin-left: auto;
+    }
 }
 </style>
