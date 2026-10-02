@@ -1,0 +1,33 @@
+{
+    "name": "No Way Out",
+    "id": "no-way-out",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time you Hook each Survivor, you earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "When all Generators are completed and a Survivor starts opening an Exit Gate:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "It is blocked for [12s], plus [12s] for each Token.",
+                "You are alerted."
+            ]
+        }
+    ],
+    "quote": "\"That sound when you bleed...let me hear it again.\" -Hak Ji-woon",
+    "tags": [
+        "Blocked",
+        "End Game",
+        "Exit Gate",
+        "Generator",
+        "Hooking",
+        "Token"
+    ]
+}

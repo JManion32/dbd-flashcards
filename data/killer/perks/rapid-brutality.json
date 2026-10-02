@@ -1,0 +1,23 @@
+{
+    "name": "Rapid Brutality",
+    "id": "rapid-brutality",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Survivor with a basic-attack, you gain [5%] [Haste] for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "While chasing a Survivor, you cannot gain Bloodlust."
+        }
+    ],
+    "quote": "\"Catch it, put it in the airlock, get rid of it.\" -Dallas",
+    "tags": [
+        "Basic Attack",
+        "Chase",
+        "Haste"
+    ]
+}

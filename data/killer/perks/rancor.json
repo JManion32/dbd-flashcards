@@ -1,0 +1,38 @@
+{
+    "name": "Rancor",
+    "id": "rancor",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You are alerted to the position of all Survivors for [3s].",
+                "The Obsession sees your Aura for [3s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When all Generators are completed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The Obsession gains [Exposed].",
+                "You can Kill the Obsession."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "End Game",
+        "Exposed",
+        "Generator",
+        "Obsession"
+    ]
+}

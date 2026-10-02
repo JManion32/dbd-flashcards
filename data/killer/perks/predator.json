@@ -1,0 +1,23 @@
+{
+    "name": "Predator",
+    "id": "predator",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you stop chasing a Survivor, you see their Aura for [4s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [40s]."
+        }
+    ],
+    "quote": "\"Never stop moving and hope you're always two steps ahead of the beast.\" -Notebook",
+    "tags": [
+        "Generator",
+        "Hooking",
+        "Regression"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Overwhelming Presence",
+    "id": "overwhelming-presence",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor uses an item within [32m] of you, they gain Exhausted for [15s]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor within [32m] of you becomes [Exhausted], you see the Aura of the closest [Exhausted] Survivor for [4s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [25s]."
+        }
+    ],
+    "quote": "\"Shit!! I dropped the gauze!\"",
+    "tags": [
+        "Generator",
+        "Regression",
+        "Skill Check"
+    ]
+}

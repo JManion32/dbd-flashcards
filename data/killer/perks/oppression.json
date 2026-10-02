@@ -1,0 +1,22 @@
+{
+    "name": "Oppression",
+    "id": "oppression",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator, up to [4] other Generators start regressing. Survivors repairing them get a special Skill Check."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [35s]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Regression",
+        "Skill Check"
+    ]
+}

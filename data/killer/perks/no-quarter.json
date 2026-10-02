@@ -1,0 +1,19 @@
+{
+    "name": "No Quarter",
+    "id": "no-quarter",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "While self-healing, whenever a Survivor has [75%] progress, they get special Skill Checks. If they miss one of these or stop healing, they gain [Broken] for [30s]."
+        }
+    ],
+    "quote": "\"Fire another broadside! Don't stop until the sea takes them!\" -Portia Maye",
+    "tags": [
+        "Broken",
+        "Healing",
+        "Skill Check"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Rampage",
+    "id": "rampage",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you basic-break a Pallet or Breakable Wall, you ear [1] Token, up to [13]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you are blinded or Pallet-stunned, for the next [13s] you gain [1%] [Haste] for each Token."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [20s]."
+        }
+    ],
+    "quote": "\"Signs of a pursuit led deep into the woods where the victim's body was found.\" -Port Henly Herald",
+    "tags": [
+        "Blind",
+        "Haste",
+        "Pallet",
+        "Token"
+    ]
+}

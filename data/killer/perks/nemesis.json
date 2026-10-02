@@ -1,0 +1,32 @@
+{
+    "name": "Nemesis",
+    "id": "nemesis",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor blinds you, Locker-stuns, or Pallet-stuns you, they become the Obsession."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor becomes the Obsession:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [Oblivious] for [60s].",
+                "You see their Aura for [8s]."
+            ]
+        }
+    ],
+    "quote": "\"Only a fool would spit in a demon's face and declare victory.\" -Renjiro's Doctrine 4:9",
+    "tags": [
+        "Aura",
+        "Oblivious",
+        "Obsession",
+        "Pallet",
+        "Stun"
+    ]
+}

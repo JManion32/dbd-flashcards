@@ -1,0 +1,26 @@
+{
+    "name": "Overcharge",
+    "id": "overcharge",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Its regression speed will go from [85%] to [130%] over the next [30s].",
+                "The next Survivor who starts repairing it gets a special Skill Check. If they miss it, they lose [4%] more progress."
+            ]
+        }
+    ],
+    "quote": "\"It is a trap. But a trap one must step in...\" -The Doctor",
+    "tags": [
+        "Generator",
+        "Regression",
+        "Skill Check"
+    ]
+}

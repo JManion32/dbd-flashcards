@@ -1,0 +1,34 @@
+{
+    "name": "None are Free",
+    "id": "none-are-free",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time you hook each Survivor, earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "When all Generators are completed, for each Token:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Upright Pallets are blocked for [16s].",
+                "Windows are blocked for [16s]."
+            ]
+        }
+    ],
+    "quote": "\"I'm not wrong. What's wrong is this messed-up world!\" -Ken Kaneki",
+    "tags": [
+        "Blocked",
+        "End Game",
+        "Generator",
+        "Hooking",
+        "Pallet",
+        "Token",
+        "Window"
+    ]
+}

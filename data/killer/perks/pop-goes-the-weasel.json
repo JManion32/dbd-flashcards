@@ -1,0 +1,18 @@
+{
+    "name": "Pop Goes The Weasel",
+    "id": "pop-goes-the-weasel",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you hook a Survivor, for the next [45s], when you damage a Generator, it explodes and loses [15%] more progress."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Hooking",
+        "Regression"
+    ]
+}

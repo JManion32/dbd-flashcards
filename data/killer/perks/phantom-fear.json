@@ -1,0 +1,23 @@
+{
+    "name": "Phantom Fear",
+    "id": "phantom-fear",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor within your Terror Radius looks at you, they scream, then you see their Aura for [2s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [60s]."
+        }
+    ],
+    "quote": "\"Excellent. Your screams please me.\" -Springtrap",
+    "tags": [
+        "Aura",
+        "Scream",
+        "Terror Radius"
+    ]
+}

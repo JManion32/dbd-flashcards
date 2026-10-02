@@ -1,0 +1,27 @@
+{
+    "name": "Play With Your Food",
+    "id": "play-with-your-food",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you stop chasing the Obsession, you earn [1] Token, up to [3]. Cooldown: [10s]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token, gain [5%] [Haste]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you attack, lose [1] Token."
+        }
+    ],
+    "quote": "\"You've fooled them, haven't you Michael? But not me.\" -Dr. Sam Loomis",
+    "tags": [
+        "Haste",
+        "Obsession",
+        "Token"
+    ]
+}
