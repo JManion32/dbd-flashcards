@@ -243,17 +243,6 @@ function restoreDefaults() {
     background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
     border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
 }
-.segment-icon {
-    width: 1.35rem;
-    height: 1.35rem;
-    object-fit: contain;
-    opacity: 0.6;
-    transition: var(--site-transition);
-}
-.segmented button:hover .segment-icon,
-.segmented button.active .segment-icon {
-    opacity: 1;
-}
 .segment-hint {
     color: var(--inactive-text);
     font-size: 0.85rem;
