@@ -38,7 +38,7 @@
     --footer-padding: 1.75rem 1rem;
 
     /* GameItemDisplay */
-    --game-item-h2-size: 1.75rem;
+    --game-item-h2-size: 2rem;
     --game-item-h3-size: 1.35rem;
     --gd-desc-size: 1.15rem;
 
@@ -111,7 +111,6 @@
         /* GameItemDisplay */
         --game-item-h2-size: 2.5rem;
         --game-item-h3-size: 1.6rem;
-        --gd-desc-size: 1.25rem;
 
         /* GameItemFilter */
         --filter-container-dir: row;

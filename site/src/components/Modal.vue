@@ -87,7 +87,7 @@ onUnmounted(() => {
 }
 .modal-container {
     width: var(--modal-width);
-    background: var(--site-bg);
+    background: var(--modal-bg);
     border-radius: 1rem;
     padding: var(--modal-padding);
     display: flex;

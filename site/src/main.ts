@@ -1,3 +1,5 @@
+import '@fontsource-variable/inter';
+
 import { createApp } from 'vue';
 import { createWebHistory, createRouter } from 'vue-router';
 import { useData } from '@/stores/useData';

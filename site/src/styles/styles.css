@@ -1,5 +1,5 @@
 :root {
-    --site-font: 'Archivo Black', sans-serif;
+    --site-font: 'Inter Variable', sans-serif;
     --site-transition-time: 0.25s;
     --site-transition: all var(--site-transition-time) ease;
     --small-text-glow: 0 0 10px #ffffff75;
