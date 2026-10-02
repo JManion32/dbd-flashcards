@@ -1,0 +1,29 @@
+{
+    "name": "Make Your Choice",
+    "id": "make-your-choice",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor unhooks another or themselves while you are at least [32m] away:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They scream.",
+                "They gain [Exposed] for [60s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [60s]."
+        }
+    ],
+    "quote": "\"There's no getting out of this now. We're too good at it.\" -The Legion",
+    "tags": [
+        "Exposed",
+        "Scream"
+    ]
+}

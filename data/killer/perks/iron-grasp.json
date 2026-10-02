@@ -1,0 +1,23 @@
+{
+    "name": "Iron Grasp",
+    "id": "iron-grasp",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "While carrying a Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They wiggle [12%] slower.",
+                "Their wiggle is [75%] weaker."
+            ]
+        }
+    ],
+    "tags": [
+        "Carrying"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Monitor and Abuse",
+    "id": "monitor-and-abuse",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "While chasing a Survivor, your Terror Radius is [15%] larger."
+        },
+        {
+            "type": "text",
+            "content": "While not chasing a Survivor, your Terror Radius is [25%] smaller."
+        }
+    ],
+    "quote": "\"It's time for your treatment!\" -The Doctor",
+    "tags": [
+        "Chase",
+        "Terror Radius"
+    ]
+}

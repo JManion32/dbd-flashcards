@@ -1,0 +1,22 @@
+{
+    "name": "Lay Waste",
+    "id": "lay-waste",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator, for each Charge it has, it regresses [2%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [45s]."
+        }
+    ],
+    "quote": "\"They built hypercomputers and skyscrapers and quantum networks, but all of those things trembled and fell under the power of Judgment's light.\" (Witness to Koenrad, ch. 8)",
+    "tags": [
+        "Generator",
+        "Regression"
+    ]
+}

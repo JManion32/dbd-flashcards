@@ -1,0 +1,25 @@
+{
+    "name": "Mad Grit",
+    "id": "mad-grit",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "While carrying another Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Whenever you miss a basic-attack, your cooldown is [100%] shorter.",
+                "Whenever you damage a Survivor with a basic-attack, the carried Survivor gains no wiggle progress for [4s]."
+            ]
+        }
+    ],
+    "quote": "\"There's no getting out of this now. We're too good at it.\" -The Legion",
+    "tags": [
+        "Basic Attack",
+        "Carrying"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Machine Learning",
+    "id": "machine-learning",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator, it becomes compromised."
+        },
+        {
+            "type": "text",
+            "content": "When that Generator is completed by Survivors:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [8%] [Haste] for [60s].",
+                "You gain [Undetectable] for [60s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Only one Generator can be compromised at a time."
+        }
+    ],
+    "quote": "\"YOU WILL HOLD NO DOMINION OVER ME.\" -HUX-A7-13",
+    "tags": [
+        "Generator",
+        "Haste",
+        "Undetectable"
+    ]
+}

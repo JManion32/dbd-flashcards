@@ -1,0 +1,22 @@
+{
+    "name": "Languid Touch",
+    "id": "languid-touch",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor within [36m] of you scares a Crow, they gain [Exhausted] for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [5s]."
+        }
+    ],
+    "quote": "\"Submit to me. It is inevitable.\" -Vecna",
+    "tags": [
+        "Crow",
+        "Exhaustion"
+    ]
+}

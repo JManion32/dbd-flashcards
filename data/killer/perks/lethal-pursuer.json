@@ -1,0 +1,21 @@
+{
+    "name": "Lethal Pursuer",
+    "id": "lethal-pursuer",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, you see the Auras of all Survivors for [9s]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you see a Survivor's Aura for a duration, it is [2s] longer."
+        }
+    ],
+    "quote": "\"...it knows what it wants and won't stop till it gets it.\" -Carlos Oliveira",
+    "tags": [
+        "Aura"
+    ]
+}

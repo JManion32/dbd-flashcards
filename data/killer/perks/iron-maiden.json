@@ -1,0 +1,29 @@
+{
+    "name": "Iron Maiden",
+    "id": "iron-maiden",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor exits a Locker:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [Exposed] for [30s].",
+                "They scream, then you are alerted to their location for [4s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "You open Lockers [50%] faster."
+        }
+    ],
+    "quote": "\"This is no place for cowards.\" -The Legion",
+    "tags": [
+        "Exposed",
+        "Locker"
+    ]
+}

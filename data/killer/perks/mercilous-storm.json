@@ -1,0 +1,19 @@
+{
+    "name": "Mercilous Storm",
+    "id": "mercilous-storm",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time each Generator reaches [90%] progress, Survivors repairing it receive special Skill Checks. If they fail one or stop repairing, that Generator is blocked for [20s]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Generator",
+        "Repairing",
+        "Skill Check"
+    ]
+}

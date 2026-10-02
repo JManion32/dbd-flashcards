@@ -1,0 +1,30 @@
+{
+    "name": "Mindbreaker",
+    "id": "mindbreaker",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "While Survivors are repairing a Generator:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [Blindness].",
+                "They. gain [Exhausted]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "This ends [5s] after they stop repairing the Generator."
+        }
+    ],
+    "quote": "\"The specimen's apparent telepathic ability can evoke feelings of dread and fatigue in nearby individuals.\" -Hawkins National Laboratory",
+    "tags": [
+        "Blindness",
+        "Exhaustion",
+        "Generator"
+    ]
+}

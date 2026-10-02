@@ -1,0 +1,16 @@
+{
+    "name": "Insidious",
+    "id": "insidious",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "After being idle for [1s], you gain [Undetectable] until you act."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

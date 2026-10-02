@@ -1,0 +1,18 @@
+{
+    "name": "Leverage",
+    "id": "leverage",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor unhooks another or themselves, they heal [30%] slower for [60s]."
+        }
+    ],
+    "quote": "\"Good. Now we can move in for the kill.\" -Adriana Imai",
+    "tags": [
+        "Healing",
+        "Unhooking"
+    ]
+}

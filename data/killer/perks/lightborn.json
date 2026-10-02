@@ -1,0 +1,22 @@
+{
+    "name": "Lightborn",
+    "id": "lightborn",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor attempts to blind you, you see their Aura for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "You cannot be blinded."
+        }
+    ],
+    "quote": "\"These monsters... they adapt! They emerge with strange new abilities.\" -Vigo's Journal",
+    "tags": [
+        "Aura",
+        "Blind"
+    ]
+}
