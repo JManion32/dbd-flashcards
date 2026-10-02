@@ -1,0 +1,23 @@
+{
+    "name": "Scourge Hook: Floods of Rage",
+    "id": "scourge-hook-floods-of-rage",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, [4] random Hooks become Scourge Hooks."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor is unhooked from a Scourge Hook, you see the Auras of other Survivors for [7s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Hooking",
+        "Scourge Hook",
+        "Unhooking"
+    ]
+}

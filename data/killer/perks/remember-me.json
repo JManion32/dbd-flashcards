@@ -1,0 +1,23 @@
+{
+    "name": "Remember Me",
+    "id": "remember-me",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Obsession takes damage, you ear [1] Token, up to [5]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token, Survivors who are not the Obsession open Exit Gates [30%] slower."
+        }
+    ],
+    "quote": "\"You don't remember? You must. You're my number one, and you'll never wake up again.\" -Freddy Krueger",
+    "tags": [
+        "Exit Gate",
+        "Obsession",
+        "Token"
+    ]
+}

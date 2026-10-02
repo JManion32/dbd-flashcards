@@ -1,0 +1,31 @@
+{
+    "name": "Sloppy Butcher",
+    "id": "sloppy-butcher",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Survivor with a basic-attack:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [Hemorrhage for [90s].",
+                "They gain [Mangled] for [90s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When all Generators are completed, you gain [Undetectable]"
+        }
+    ],
+    "quote": "\"It's in its sadistic nature. There is no swift kill as it delights in the obscene spectable of our agonizing suffering.\"",
+    "tags": [
+        "Basic Attack",
+        "Hemorrhage",
+        "Mangled",
+        "Regression"
+    ]
+}

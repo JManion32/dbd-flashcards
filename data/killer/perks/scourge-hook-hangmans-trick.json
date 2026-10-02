@@ -1,0 +1,28 @@
+{
+    "name": "Scourge Hook: Hangman's Trick",
+    "id": "scourge-hook-gift-of-pain",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, [4] random Hooks become Scourge Hooks."
+        },
+        {
+            "type": "text",
+            "content": "While carrying a Survivor, you see the Auras of Survivors within [16m] of Scourge Hooks."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor starts sabotaging a Hook, you are alerted."
+        }
+    ],
+    "quote": "\"No excuses, no equivocations... No crying.\" -Amanda Young",
+    "tags": [
+        "Aura",
+        "Carrying",
+        "Sabotaging",
+        "Scourge Hook"
+    ]
+}

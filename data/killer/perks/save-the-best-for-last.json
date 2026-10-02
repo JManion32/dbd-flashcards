@@ -1,0 +1,31 @@
+{
+    "name": "Save The Best For Last",
+    "id": "save-the-best-for-last",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Survivor who is not the Obsession with a basic-attack, you earn [1] Token, up to [8]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token, your basic-attack cooldown is [5%] shorter."
+        },
+        {
+            "type": "text",
+            "content": "Whenever the Obsession takes damage, lose [2] Tokens."
+        },
+        {
+            "type": "text",
+            "content": "While the Obsession is dead, you cannot earn Tokens."
+        }
+    ],
+    "quote": "\"Death has come to your little town, sheriff.\" -Dr. Sam Loomis",
+    "tags": [
+        "Basic Attack",
+        "Obsession",
+        "Token"
+    ]
+}

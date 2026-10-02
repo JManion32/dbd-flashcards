@@ -1,0 +1,31 @@
+{
+    "name": "Septic Touch",
+    "id": "septic-touch",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "While a Survivor within your Terror Radius is healing:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [Blindness].",
+                "They gain [Exhausted]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When they stop healing, this ends after [30s]."
+        }
+    ],
+    "quote": "\"Do not admit to fear, or pain, or doubt. These are the seeds from which darkness grows.\" -Otto Stamper",
+    "tags": [
+        "Blindness",
+        "Exhaustion",
+        "Healing",
+        "Terror Radius"
+    ]
+}

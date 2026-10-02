@@ -1,0 +1,39 @@
+{
+    "name": "Scourge Hook: Pain Resonance",
+    "id": "scourge-hook-pain-resonance",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "4 random Hooks become Scourge Hooks.",
+                "You earn [4] Tokens."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "The first time each Survivor is hooked on a Scourge Hook, spend [1] Token, and the Generator with the most progress:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Explodes, loses [20%] progress and starts regressing.",
+                "Survivors repairing it scream."
+            ]
+        }
+    ],
+    "quote": "\"The pain spills beyond flesh/darkness staining the horizon.\" -Girl in the Shadow by Carmina Mora",
+    "tags": [
+        "Generator",
+        "Regression",
+        "Scourge Hook",
+        "Scream",
+        "Token"
+    ]
+}

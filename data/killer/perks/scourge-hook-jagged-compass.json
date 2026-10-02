@@ -1,0 +1,29 @@
+{
+    "name": "Scourge Hook: Jagged Compass",
+    "id": "scourge-hook-jagged-compass",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, [4] random Hooks become Scourge Hooks."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor is unhooked, the Hook becomes a Scourge Hook."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you hook a Survivor on a Scourge Hook, for [10s], you see the Aura of the Generator with the most progress."
+        }
+    ],
+    "quote": "\"Drop anchor! I will chart us a new course.\" -Portia Maye",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Hooking",
+        "Sabotaging",
+        "Unhooking"
+    ]
+}

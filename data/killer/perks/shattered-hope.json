@@ -1,0 +1,25 @@
+{
+    "name": "Shattered Hope",
+    "id": "shattered-hope",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you snuff a Boon Totem:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Auras of all Survivors within its range for [8s].",
+                "It is destroyed."
+            ]
+        }
+    ],
+    "quote": "\"Nothing is permanent here. Nothing except our endless perdition.\" -Unknown, Notebook",
+    "tags": [
+        "Aura",
+        "Boon"
+    ]
+}

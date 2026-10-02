@@ -1,0 +1,31 @@
+{
+    "name": "Ravenous",
+    "id": "ravenous",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time you hook each Survivor, you earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "When you have [4] Tokens, all Survivors:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Scream.",
+                "Gain [Exposed] for [60s]."
+            ]
+        }
+    ],
+    "quote": "\"Weeping Ginevra's blood streams/The devil smells the weak.\" -Fabbro Barone's Ginevra",
+    "tags": [
+        "Exposed",
+        "Hooking",
+        "Scream",
+        "Token"
+    ]
+}

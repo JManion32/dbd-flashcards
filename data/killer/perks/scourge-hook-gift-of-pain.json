@@ -1,0 +1,33 @@
+{
+    "name": "Scourge Hook: Gift of Pain",
+    "id": "scourge-hook-gift-of-pain",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, [4] random Hooks become Scourge Hooks."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor is unhooked from a Scourge Hook:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [Hemorrhage] for [90s].",
+                "They gain [Mangled] for [90s].",
+                "When they are healed, until they take damage, they heal and repair [16%] faster."
+            ]
+        }
+    ],
+    "quote": "\"We'll tear your soul apart.\" -Pinhead",
+    "tags": [
+        "Hemorrhage",
+        "Hooking",
+        "Mangled",
+        "Scourge Hook",
+        "Unhooking"
+    ]
+}
