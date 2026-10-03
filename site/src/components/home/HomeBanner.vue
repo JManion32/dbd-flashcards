@@ -16,12 +16,15 @@ import bannerBg from '@/assets/banner-bg.png';
             <p class="banner-desc">An unofficial Dead by Daylight study tool!</p>
         </div>
 
-        <div class="home-h-links">
+        <nav
+            class="home-h-links"
+            aria-label="Home page sections"
+        >
             <a href="#killer-perks">Killer Perks</a>
             <a href="#killer-addons">Killer Add-Ons</a>
             <a href="#survivor-perks">Survivor Perks</a>
             <a href="#survivor-addons">Survivor Add-Ons</a>
-        </div>
+        </nav>
     </section>
 </template>
 

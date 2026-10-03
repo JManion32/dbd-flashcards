@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /study
+
+Sitemap: https://dbdflashcards.com/sitemap.xml
