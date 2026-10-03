@@ -9,7 +9,7 @@
         {
             "type": "list",
             "items": [
-                "Decreases movement speed while [Rishing] by [15%].",
+                "Decreases movement speed while [Rushing] by [15%].",
                 "Gain [100%] bonus Bloodpoints on [Rush] score events."
             ]
         }

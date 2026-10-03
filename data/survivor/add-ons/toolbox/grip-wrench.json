@@ -8,8 +8,10 @@
     "description": [
         {
             "type": "text",
-            "content": "Sabotaged hooks take an extra [20s] to respawn."
+            "content": "Sabotaged Hooks take an extra [20s] to respawn."
         }
     ],
-    "tags": []
+    "tags": [
+        "Sabotaging"
+    ]
 }

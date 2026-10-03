@@ -10,8 +10,8 @@
             "type": "list",
             "items": [
                 "Increases maximum [Rush] tokens by [2].",
-                "Increases maximum look angle while Rushing by [20 degrees].",
-                "Decreases [Rush] turn rate by [55%]",
+                "Increases maximum look angle while [Rushing] by [20 degrees].",
+                "Decreases [Rush] turn rate by [55%].",
                 "Increases [Rush] speed by [5%]."
             ]
         }

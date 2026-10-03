@@ -8,8 +8,10 @@
     "description": [
         {
             "type": "text",
-            "content": "Prevents the Killer from being notified when sabotaging a hook."
+            "content": "Prevents the Killer from being notified when sabotaging a Hook."
         }
     ],
-    "tags": []
+    "tags": [
+        "Sabotaging"
+    ]
 }

@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "[3s] after a Survivor takes damage, for [20s], the next time a Survivor fast-vaults a Pallet while within your Terror Radius, it is detroyed."
+            "content": "[3s] after a Survivor takes damage, for [20s], the next time a Survivor fast-vaults a Pallet while within your Terror Radius, it is destroyed."
         }
     ],
     "quote": "\"The Garden shall be a place of perfect Joy; through Joy, nothing shall stand in our way.\" -Otto Stamper",

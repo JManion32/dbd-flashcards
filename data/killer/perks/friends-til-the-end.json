@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you Hook a Survivor that is not the Obsession:"
+            "content": "Whenever you hook a Survivor that is not the Obsession:"
         },
         {
             "type": "list",
@@ -18,7 +18,7 @@
         },
         {
             "type": "text",
-            "content": "Whenever you Hook the Obsession, another Survivor:"
+            "content": "Whenever you hook the Obsession, another Survivor:"
         },
         {
             "type": "list",

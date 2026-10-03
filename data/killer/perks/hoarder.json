@@ -11,10 +11,11 @@
         },
         {
             "type": "text",
-            "content": "Whenever a Survivor picks-up an Item or starts unlocking a Chest within [64m] of you, you are alerted."
+            "content": "Whenever a Survivor picks up an item or starts unlocking a Chest within [64m] of you, you are alerted."
         }
     ],
     "tags": [
-        "Chest"
+        "Chest",
+        "Items"
     ]
 }

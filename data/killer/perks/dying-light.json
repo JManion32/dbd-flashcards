@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you hook a Survivor that is not the Obsession, gain [1] token."
+            "content": "Whenever you hook a Survivor that is not the Obsession, gain [1] Token."
         },
         {
             "type": "text",
@@ -18,7 +18,7 @@
             "items": [
                 "Other Survivors heal [3%] slower.",
                 "Other Survivors repair [3%] slower.",
-                "Other Survivors sabotage Hooks [3%] slower"
+                "Other Survivors sabotage Hooks [3%] slower."
             ]
         },
         {
@@ -36,6 +36,7 @@
     "quote": "\"This isn't a man...\" -Dr. Sam Loomis",
     "tags": [
         "Healing",
+        "Hooking",
         "Obsession",
         "Repairing",
         "Sabotaging",

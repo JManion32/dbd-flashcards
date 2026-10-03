@@ -9,11 +9,13 @@
         {
             "type": "list",
             "items": [
-                "Using the key reveals the Killer to you, and you to the Killer.",
-                "Reduces aura reveal time by [6s].",
+                "Using the Key reveals the Killer to you, and you to the Killer.",
+                "Reduces Aura reveal time by [6s].",
                 "Reduces number of charges by [2]."
             ]
         }
     ],
-    "tags": []
+    "tags": [
+        "Aura"
+    ]
 }

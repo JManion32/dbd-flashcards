@@ -11,11 +11,11 @@
         },
         {
             "type": "text",
-            "content": "Within [16m], Survivors see the Auras of Rekindled Totems."
+            "content": "Within [16m], Survivors see the Auras of rekindled Totems."
         },
         {
             "type": "text",
-            "content": "While a Totem is rekindled, Survivors heal and repair [20%] slower, plus [3%] for each additional Rekindled Totem."
+            "content": "While a Totem is rekindled, Survivors heal and repair [20%] slower, plus [3%] for each additional rekindled Totem."
         },
         {
             "type": "text",
@@ -26,8 +26,6 @@
     "tags": [
         "Aura",
         "Blocked",
-        "Exposed",
-        "Haste",
         "Healing",
         "Hex",
         "Repairing",

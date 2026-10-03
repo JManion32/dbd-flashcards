@@ -12,20 +12,15 @@
         {
             "type": "list",
             "items": [
-                "They gain [Hemorrhage for [90s].",
+                "They gain [Hemorrhage] for [90s].",
                 "They gain [Mangled] for [90s]."
             ]
-        },
-        {
-            "type": "text",
-            "content": "When all Generators are completed, you gain [Undetectable]"
         }
     ],
-    "quote": "\"It's in its sadistic nature. There is no swift kill as it delights in the obscene spectable of our agonizing suffering.\"",
+    "quote": "\"It's in its sadistic nature. There is no swift kill as it delights in the obscene spectacle of our agonizing suffering.\"",
     "tags": [
         "Basic Attack",
         "Hemorrhage",
-        "Mangled",
-        "Regression"
+        "Mangled"
     ]
 }

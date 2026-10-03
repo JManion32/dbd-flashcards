@@ -21,10 +21,10 @@
             "content": "Cooldown: [30s]."
         }
     ],
-    "quote": "\"The Hillbilly makes impressive tools out of scraps. Tools aimed at maiming us in creative ways...\" -Notebook",
     "tags": [
         "Aura",
         "Generator",
+        "Regression",
         "Undetectable"
     ]
 }

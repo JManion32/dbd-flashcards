@@ -1,5 +1,5 @@
 {
-    "name": "Hex: Under your Thumb",
+    "name": "Hex: Under Your Thumb",
     "id": "hex-under-your-thumb",
     "side": "Killer",
     "type": "Perk",
@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "content": "Whenever a running Survivor gains [Haste] within [32m] of you, you alerted."
+            "content": "Whenever a running Survivor gains [Haste] within [32m] of you, you are alerted."
         },
         {
             "type": "text",
@@ -20,9 +20,8 @@
     ],
     "quote": "\"They will run, but Judgment will make the very ground they tread turn to ash and smoke.\" (Visions of Gerhardt, ch. 1)",
     "tags": [
-        "Aura",
+        "Haste",
         "Hex",
-        "Token",
         "Totem"
     ]
 }

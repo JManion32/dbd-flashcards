@@ -7,11 +7,15 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you are stunned by a Survivor, they gain [Exposed] for [30s]."
+            "content": "Whenever a Survivor gets within [8m] of a locked Chest, you see their Aura for [5s]."
         },
         {
             "type": "text",
-            "content": "Cooldown: [20s]."
+            "content": "You can lock unlocked Chests. Cooldown: [10s]."
+        },
+        {
+            "type": "text",
+            "content": "You see the Auras of locked Chests."
         }
     ],
     "quote": "\"Come running, one and all, and see what fortune awaits you.\" -Dracula",

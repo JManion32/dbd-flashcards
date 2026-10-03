@@ -13,7 +13,7 @@
             "type": "list",
             "items": [
                 "You see the Auras of all Windows for [30s].",
-                "All Windows are blocked for Survivors for [30s]"
+                "All Windows are blocked for Survivors for [30s]."
             ]
         }
     ],

@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you pick=up a Survivor, all Generators not being repaired are blocked for [16s]."
+            "content": "Whenever you pick up a Survivor, all Generators not being repaired are blocked for [16s]."
         },
         {
             "type": "text",

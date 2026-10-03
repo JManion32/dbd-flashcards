@@ -16,7 +16,7 @@
         {
             "type": "list",
             "items": [
-                "The Generator loses [1%] progress..",
+                "The Generator loses [1%] progress.",
                 "The Generator is blocked for [1s]."
             ]
         },

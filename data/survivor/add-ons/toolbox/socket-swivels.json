@@ -11,5 +11,7 @@
             "content": "Increases repair speed by [30%]."
         }
     ],
-    "tags": []
+    "tags": [
+        "Repairing"
+    ]
 }

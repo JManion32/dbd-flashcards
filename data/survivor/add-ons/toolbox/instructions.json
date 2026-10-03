@@ -11,5 +11,8 @@
             "content": "Eliminates Skill Checks."
         }
     ],
-    "tags": []
+    "tags": [
+        "Repairing",
+        "Skill Check"
+    ]
 }

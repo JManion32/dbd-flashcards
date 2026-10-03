@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you Hook a Survivor for the first time, earn [1] Token."
+            "content": "Whenever you hook a Survivor for the first time, earn [1] Token."
         },
         {
             "type": "text",
-            "content": "Whenever you move [16m] away from the hooked Survivor all Generators are blocked for [10s]."
+            "content": "Whenever you move [16m] away from the hooked Survivor, all Generators are blocked for [10s]."
         },
         {
             "type": "text",

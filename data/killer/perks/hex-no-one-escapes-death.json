@@ -7,19 +7,18 @@
     "description": [
         {
             "type": "text",
-            "content": "The first time you hook a Survivor, a Dull Totem ignites."
+            "content": "When all Generators are completed, a Dull Totem ignites:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Survivors gain [Exposed].",
+                "You gain [4%] [Haste]."
+            ]
         },
         {
             "type": "text",
-            "content": "Whenever you hook a Survivor, earn [1] Token. For each Token, Basic Skill Check warnings appear later and good success zones are smaller."
-        },
-        {
-            "type": "text",
-            "content": "While you have [5] Tokens, Basic Skill Check warnings don't appear."
-        },
-        {
-            "type": "text",
-            "content": "Whenever a Survivor misses a Basic Skill Check, they lose [6%] more progress."
+            "content": "Within [4m], Survivors see the Hex Totem's Aura, expanding to [24m] over [30s]."
         }
     ],
     "quote": "\"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\"",

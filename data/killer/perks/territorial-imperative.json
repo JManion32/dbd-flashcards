@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever a Survivor enters the Basement while you are [24m] away from it, you see their Aura for [6s]."
+            "content": "Whenever a Survivor enters the Basement while you are at least [24m] away from it, you see their Aura for [6s]."
         },
         {
             "type": "text",

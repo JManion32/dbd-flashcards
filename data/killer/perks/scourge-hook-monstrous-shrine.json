@@ -1,9 +1,9 @@
 {
-    "name": "Scourge Hook: Pain Resonance",
-    "id": "scourge-hook-pain-resonance",
+    "name": "Scourge Hook: Monstrous Shrine",
+    "id": "scourge-hook-monstrous-shrine",
     "side": "Killer",
     "type": "Perk",
-    "owner": "The Artist",
+    "owner": "Universal",
     "description": [
         {
             "type": "text",
@@ -12,29 +12,18 @@
         {
             "type": "list",
             "items": [
-                "4 random Hooks become Scourge Hooks.",
-                "You earn [4] Tokens."
+                "[4] random Hooks become Scourge Hooks.",
+                "The Basement Hooks become Scourge Hooks."
             ]
         },
         {
             "type": "text",
-            "content": "The first time each Survivor is hooked on a Scourge Hook, spend [1] Token, and the Generator with the most progress:"
-        },
-        {
-            "type": "list",
-            "items": [
-                "Explodes, loses [20%] progress and starts regressing.",
-                "Survivors repairing it scream."
-            ]
+            "content": "While you are at least [24m] away from a Survivor on a Scourge Hook, they are sacrificed [20%] faster."
         }
     ],
-    "quote": "\"The pain spills beyond flesh/darkness staining the horizon.\" -Girl in the Shadow by Carmina Mora",
+    "quote": "\"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\"",
     "tags": [
         "Basement",
-        "Generator",
-        "Regression",
-        "Scourge Hook",
-        "Scream",
-        "Token"
+        "Scourge Hook"
     ]
 }

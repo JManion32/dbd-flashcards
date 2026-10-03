@@ -9,11 +9,14 @@
         {
             "type": "list",
             "items": [
-                "Use <Secondary Action> while healing with the Med-kit to use.",
+                "Use <Secondary Action> while healing with the Med-Kit to use.",
                 "The affected Survivor loses the [Exhausted] Status Effect upon use.",
-                "Consumes the Med-kit upon use."
+                "Consumes the Med-Kit upon use."
             ]
         }
     ],
-    "tags": []
+    "tags": [
+        "Exhaustion",
+        "Healing"
+    ]
 }

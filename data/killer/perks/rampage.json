@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you basic-break a Pallet or Breakable Wall, you ear [1] Token, up to [13]."
+            "content": "Whenever you basic-break a Pallet or Breakable Wall, you earn [1] Token, up to [13]."
         },
         {
             "type": "text",
@@ -23,6 +23,7 @@
         "Blind",
         "Haste",
         "Pallet",
+        "Stun",
         "Token"
     ]
 }

@@ -10,8 +10,8 @@
             "content": "While not carrying a Survivor, Pallet-stuns are [50%] shorter."
         }
     ],
-    "quote": "\"Such potential in this compound... even the slightest trace causes unnatural effects.\"",
     "tags": [
-        "Pallet"
+        "Pallet",
+        "Stun"
     ]
 }

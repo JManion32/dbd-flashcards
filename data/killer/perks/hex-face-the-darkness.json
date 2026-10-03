@@ -15,7 +15,7 @@
         },
         {
             "type": "text",
-            "content": "When the hexed Survivor is downed pr becomes healthy, the Hex Totem is extinguished."
+            "content": "When the hexed Survivor is downed or becomes healthy, the Hex Totem is extinguished."
         }
     ],
     "quote": "\"I shall make an example of one. These mewling worms will never know peace.\" -Tarhos Kovács",
@@ -24,8 +24,6 @@
         "Hex",
         "Scream",
         "Terror Radius",
-        "Token",
-        "Totem",
-        "Vaulting"
+        "Totem"
     ]
 }

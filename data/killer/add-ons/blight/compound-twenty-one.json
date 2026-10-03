@@ -8,8 +8,10 @@
     "description": [
         {
             "type": "text",
-            "content": "Reveals the auras of all Survivors within [8m] for [3s] after a [Slam]."
+            "content": "Reveals the Auras of all Survivors within [8m] for [3s] after a [Slam]."
         }
     ],
-    "tags": []
+    "tags": [
+        "Aura"
+    ]
 }

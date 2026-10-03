@@ -1,6 +1,6 @@
 {
-    "name": "Unforseen",
-    "id": "unforseen",
+    "name": "Unforeseen",
+    "id": "unforeseen",
     "side": "Killer",
     "type": "Perk",
     "owner": "The Unknown",
@@ -12,7 +12,7 @@
         {
             "type": "list",
             "items": [
-                "Your Terror Radius is set to that Generator for [30s] and its redius is [32m].",
+                "Your Terror Radius is set to that Generator for [30s] and its radius is [32m].",
                 "You gain [Undetectable] for that time."
             ]
         },

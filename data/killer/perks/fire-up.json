@@ -18,7 +18,7 @@
             "items": [
                 "You basic-break Pallets and Breakable Walls [6%] faster.",
                 "You damage Generators [6%] faster.",
-                "You pick-up and drop Survivors [6%] faster.",
+                "You pick up and drop Survivors [6%] faster.",
                 "You basic-vault Windows [6%] faster."
             ]
         }
@@ -28,6 +28,7 @@
         "Generator",
         "Pallet",
         "Token",
-        "Vaulting"
+        "Vaulting",
+        "Window"
     ]
 }

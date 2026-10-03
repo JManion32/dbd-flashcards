@@ -22,12 +22,13 @@
         },
         {
             "type": "text",
-            "content": "Whenever a Survivor picks-up an item, they gain [Oblivious] for [30s]."
+            "content": "Whenever a Survivor picks up an item, they gain [Oblivious] for [30s]."
         }
     ],
-    "quote": "A drop does not satiate/when a river is needed.\" -Elliot Campbell's Grandeur of Samuel",
+    "quote": "\"No number of novelties will protect you from me!\" -Vecna",
     "tags": [
         "Aura",
+        "Items",
         "Oblivious"
     ]
 }

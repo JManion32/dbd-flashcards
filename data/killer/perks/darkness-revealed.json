@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you search a Locker, you see the Auras of Survivors with [8m] of all Lockers for [8s]."
+            "content": "Whenever you search a Locker, you see the Auras of Survivors within [8m] of all Lockers for [8s]."
         },
         {
             "type": "text",

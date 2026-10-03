@@ -12,7 +12,7 @@
         {
             "type": "list",
             "items": [
-                "You gain [18%] [Haste]",
+                "You gain [18%] [Haste].",
                 "Your Terror Radius is [12m] larger."
             ]
         }
@@ -20,6 +20,7 @@
     "quote": "\"At some point, the excitement of hooking one of us becomes more important than the desire to kill us.\"",
     "tags": [
         "Carrying",
+        "Haste",
         "Terror Radius"
     ]
 }

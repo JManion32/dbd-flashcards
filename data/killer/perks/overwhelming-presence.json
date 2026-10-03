@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever a Survivor uses an item within [32m] of you, they gain Exhausted for [15s]."
+            "content": "Whenever a Survivor uses an item within [32m] of you, they gain [Exhausted] for [15s]."
         },
         {
             "type": "text",
@@ -20,8 +20,8 @@
     ],
     "quote": "\"Shit!! I dropped the gauze!\"",
     "tags": [
-        "Generator",
-        "Regression",
-        "Skill Check"
+        "Aura",
+        "Exhaustion",
+        "Items"
     ]
 }

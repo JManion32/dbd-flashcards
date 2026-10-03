@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "content": "While chasing a Survivor, whenever you basic-break a Pallet, Survivors within [13m]."
+            "content": "While chasing a Survivor, whenever you basic-break a Pallet, Survivors within [13m]:"
         },
         {
             "type": "list",
@@ -23,10 +23,9 @@
     ],
     "quote": "\"There was a scream from the forest. Like someone was attacking her.\" -Mount Ormond Missing Person Report",
     "tags": [
-        "Generator",
+        "Chase",
         "Hex",
         "Hinder",
-        "Hooking",
         "Pallet",
         "Scream",
         "Totem"

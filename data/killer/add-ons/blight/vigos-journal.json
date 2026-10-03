@@ -8,9 +8,11 @@
     "description": [
         {
             "type": "text",
-            "content": "Grants [Undetectable] while Rushing."
+            "content": "Grants [Undetectable] while [Rushing]."
         }
     ],
     "quote": "\"In a wasteland of forgotten dreams and endless routine, the man with a way out is God.\" -Talbot Grimes",
-    "tags": []
+    "tags": [
+        "Undetectable"
+    ]
 }

@@ -8,8 +8,11 @@
     "description": [
         {
             "type": "text",
-            "content": "All totems within range are revealed."
+            "content": "All Totems within range are revealed."
         }
     ],
-    "tags": []
+    "tags": [
+        "Aura",
+        "Totem"
+    ]
 }

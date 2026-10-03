@@ -11,5 +11,7 @@
             "content": "Increases sabotage speed by [20%]."
         }
     ],
-    "tags": []
+    "tags": [
+        "Sabotaging"
+    ]
 }

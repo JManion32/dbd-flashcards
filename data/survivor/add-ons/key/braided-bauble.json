@@ -11,5 +11,7 @@
             "content": "Increases Aura reveal duration by [2s]."
         }
     ],
-    "tags": []
+    "tags": [
+        "Aura"
+    ]
 }

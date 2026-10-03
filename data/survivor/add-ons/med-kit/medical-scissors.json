@@ -11,5 +11,7 @@
             "content": "Increases healing speed by [10%]."
         }
     ],
-    "tags": []
+    "tags": [
+        "Healing"
+    ]
 }

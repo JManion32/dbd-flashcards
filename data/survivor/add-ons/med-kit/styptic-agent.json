@@ -11,5 +11,7 @@
             "content": "Increases self-healing speed by [15%]."
         }
     ],
-    "tags": []
+    "tags": [
+        "Healing"
+    ]
 }

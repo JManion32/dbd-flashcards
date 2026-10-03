@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you hook a Survivor, you gain [Undetectable] for [13s]."
+            "content": "Whenever you hook a Survivor, you gain [Undetectable]. for [13s]."
         },
         {
             "type": "text",
-            "content": "When all Generators are completed, you gain [Undetectable]"
+            "content": "When all Generators are completed, you gain [Undetectable]."
         }
     ],
     "quote": "\"Did you see him or not? I can't put out an APB for a bad feeling.\" -Sgt. Reyes, Greenville Police",
