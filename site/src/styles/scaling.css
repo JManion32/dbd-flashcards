@@ -45,8 +45,6 @@
     /* GameItemFilter */
     --filter-container-dir: column;
     --filter-hr-top: 2rem;
-    --quick-select-btn-padding: 0.5rem 0.75rem;
-    --quick-select-btn-size: 1.25rem;
 
     /* Study */
     --flashcard-width: 90%;
@@ -115,8 +113,6 @@
         /* GameItemFilter */
         --filter-container-dir: row;
         --filter-hr-top: 1rem;
-        --quick-select-btn-padding: 0.35rem 0.75rem;
-        --quick-select-btn-size: 1.1rem;
 
         /* Study */
         --flashcard-width: 80%;

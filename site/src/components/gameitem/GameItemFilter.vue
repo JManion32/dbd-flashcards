@@ -195,8 +195,8 @@ const emit = defineEmits<{
     color: var(--standard-dim);
     background: transparent;
     transition: var(--site-transition);
-    padding: var(--quick-select-btn-padding);
-    font-size: var(--quick-select-btn-size);
+    padding: 0.5rem 1rem;
+    font-size: 16px;
     border-radius: 0.5rem;
     border: none;
     font-weight: 700;

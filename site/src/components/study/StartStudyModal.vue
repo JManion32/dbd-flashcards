@@ -27,10 +27,10 @@ const typeOptions: { value: StudyConfig['type']; label: string }[] = [
 ];
 
 // `hint` describes what each side of the card shows: front → back
-const presetOptions: { value: StudyConfig['preset']; label: string; hint: string }[] = [
-    { value: 'Names / Icons', label: 'Names & Icons', hint: 'Name → Description' },
-    { value: 'Icons', label: 'Icons', hint: 'Icon → Name' },
-    { value: 'Descriptions', label: 'Descriptions', hint: 'Description → Name' },
+const presetOptions: { value: StudyConfig['preset']; label: string }[] = [
+    { value: 'Names / Icons', label: 'Name/Icon' },
+    { value: 'Icons', label: 'Icon' },
+    { value: 'Descriptions', label: 'Desc' },
 ];
 
 const lengthOptions: StudyConfig['length'][] = [10, 25, 50, 100, 'All'];
@@ -137,13 +137,15 @@ function restoreDefaults() {
                             @click="setConfig('preset', option.value)"
                         >
                             {{ option.label }}
-                            <span class="segment-hint">{{ option.hint }}</span>
                         </button>
                     </div>
                 </div>
 
                 <div class="option-group">
-                    <span class="option-label">Cards</span>
+                    <div class="card-header-container">
+                        <span class="option-label">Cards</span>
+                        <span class="session-summary">{{ sessionSummary }}</span>
+                    </div>
                     <div class="segmented">
                         <button
                             v-for="option in lengthOptions"
@@ -165,7 +167,6 @@ function restoreDefaults() {
                 >
                     Restore Defaults
                 </button>
-                <span class="session-summary">{{ sessionSummary }}</span>
                 <button
                     class="study-btn"
                     :disabled="sessionSize === 0"
@@ -185,7 +186,7 @@ function restoreDefaults() {
 .option-groups {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
     margin: 2.5rem 0 2rem 0;
 }
 .option-group {
@@ -243,16 +244,7 @@ function restoreDefaults() {
     background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
     border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
 }
-.segment-hint {
-    color: var(--inactive-text);
-    font-size: 0.85rem;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
-}
-.segmented button.active .segment-hint {
+.segmented button.active {
     color: var(--standard-dim);
 }
 
@@ -260,6 +252,7 @@ function restoreDefaults() {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     gap: 1.5rem;
     width: 100%;
     margin-top: auto;
@@ -268,7 +261,7 @@ function restoreDefaults() {
 .session-summary {
     margin-left: auto;
     color: var(--inactive-text);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     font-style: italic;
 }
@@ -292,22 +285,9 @@ function restoreDefaults() {
     text-shadow: var(--small-text-glow);
     color: var(--standard-white);
 }
-
-@media (width < 510px) {
-    .segment-hint {
-        display: none;
-    }
-    .study-actions-container {
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-    .session-summary {
-        order: -1;
-        width: 100%;
-        margin-left: 0;
-    }
-    .study-actions-container .study-btn {
-        margin-left: auto;
-    }
+.card-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 </style>
