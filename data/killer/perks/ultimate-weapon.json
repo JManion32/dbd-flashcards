@@ -1,0 +1,30 @@
+{
+    "name": "Ultimate Weapon",
+    "id": "ultimate-weapon",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you search a Locker, Survivors within [40m]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gain [Blindness] for [30s].",
+                "Scream."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [45s]."
+        }
+    ],
+    "quote": "\"I can't lie to you about your chances, but... you have my sympathies.\" -Ash",
+    "tags": [
+        "Blindness",
+        "Locker",
+        "Scream"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Unnerving Presence",
+    "id": "unnerving-presence",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within your Terror Radius get [10%] more basic Skill Checks."
+        },
+        {
+            "type": "text",
+            "content": "The good zone of basic Skill Checks is [60%] smaller."
+        }
+    ],
+    "quote": "\"Its presence befalls us.\"",
+    "tags": [
+        "Skill Check",
+        "Terror Radius"
+    ]
+}

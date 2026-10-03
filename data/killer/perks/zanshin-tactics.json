@@ -1,0 +1,23 @@
+{
+    "name": "Zanshin Tactics",
+    "id": "zanshin-tactics",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Within [32m], you see the Auras of Pallets and Windows."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor drops a Pallet, you see their Aura for [5s]."
+        }
+    ],
+    "quote": "Within your enemy's strength is weakness.\" -Renjiro's Doctrine 12:5",
+    "tags": [
+        "Aura",
+        "Pallet",
+        "Window"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Unbound",
+    "id": "unbound",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a healthy Survivor becomes injured, for the next [30s], whenever you basic-vault a Window, gain [7%] [Haste] for [10s]."
+        }
+    ],
+    "quote": "\"I heard it. Running. It was getting closer!\" -Anonymous Testimony, 09/09/1979",
+    "tags": [
+        "Haste",
+        "Vaulting",
+        "Window"
+    ]
+}

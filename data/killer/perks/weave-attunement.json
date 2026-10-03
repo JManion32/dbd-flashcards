@@ -1,0 +1,33 @@
+{
+    "name": "Weave Attunement",
+    "id": "weave-attunement",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time each item is depleted, it is dropped."
+        },
+        {
+            "type": "text",
+            "content": "While a Survivor is within [12m] of a dropped item:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see their Aura.",
+                "They see the item's Aura."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor picks-up an item, they gain [Oblivious] for [30s]."
+        }
+    ],
+    "quote": "A drop does not satiate/when a river is needed.\" -Elliot Campbell's Grandeur of Samuel",
+    "tags": [
+        "Aura",
+        "Oblivious"
+    ]
+}

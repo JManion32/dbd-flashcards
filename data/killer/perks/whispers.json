@@ -1,0 +1,18 @@
+{
+    "name": "Whispers",
+    "id": "whispers",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "While within [32m] of a Survivor, you randomly hear whispers."
+        }
+    ],
+    "quote": "It's unclear as to the motivations of The Fog, but it is undeniable that it often takes the beast's side.\" -Notebook",
+    "tags": [
+        "Aura",
+        "Oblivious"
+    ]
+}

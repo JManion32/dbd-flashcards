@@ -1,0 +1,30 @@
+{
+    "name": "Unforseen",
+    "id": "unforseen",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your Terror Radius is set to that Generator for [30s] and its redius is [32m].",
+                "You gain [Undetectable] for that time."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "\"Mom, if you find this, I'm sorry...\" -Final Journal Entry, 07/12/1991",
+    "tags": [
+        "Generator",
+        "Terror Radius",
+        "Undetectable"
+    ]
+}

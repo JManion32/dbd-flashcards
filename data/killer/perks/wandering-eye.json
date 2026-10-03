@@ -1,0 +1,22 @@
+{
+    "name": "Wandering Eye",
+    "id": "wandering-eye",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you start chasing a Survivor, for the next [5s], you see the Auras of all injured Survivors within [20m]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "A drop does not satiate/when a river is needed.\" -Elliot Campbell's Grandeur of Samuel",
+    "tags": [
+        "Aura",
+        "Chase"
+    ]
+}

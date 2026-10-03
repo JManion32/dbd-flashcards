@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "After hooking a Survivor, for the next [60s], use <Activate ability 1> to make a target Generator you can see within [20m] explode, lose [10%] progress and start regressing."
+            "content": "After hooking a Survivor, for the next [60s], use <Activate Ability 1> while looking at a Generator within [20m] to make it explode, lose [10%] progress, and start regressing."
         }
     ],
     "quote": "\"Nothing will happen to you... Nothing that you don't deserve!\" -Henry Creel",
