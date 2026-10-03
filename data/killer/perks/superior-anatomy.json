@@ -1,0 +1,20 @@
+{
+    "name": "Superior Anatomy",
+    "id": "superior-anatomy",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor fast-vaults within [12m] of you, the next time you basic-vault a Window, it is [40%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [25s]."
+        }
+    ],
+    "tags": [
+        "Vaulting"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Territorial Imperative",
+    "id": "territorial-imperative",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor enters the Basement while you are [24m] away from it, you see their Aura for [6s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [45s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Basement"
+    ]
+}

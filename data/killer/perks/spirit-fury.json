@@ -1,0 +1,18 @@
+{
+    "name": "Spirit Fury",
+    "id": "spirit-fury",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you break [2] Pallets, when you are Pallet-stunned, the Pallet is destroyed."
+        }
+    ],
+    "quote": "\"Fury is her blood.\"",
+    "tags": [
+        "Pallet",
+        "Stun"
+    ]
+}

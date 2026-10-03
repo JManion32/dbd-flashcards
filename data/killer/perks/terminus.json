@@ -1,0 +1,22 @@
+{
+    "name": "Terminus",
+    "id": "terminus",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "When all Generators are completed: all injured, downed, and hooked Survivors gain [Broken]."
+        },
+        {
+            "type": "text",
+            "content": "This ends [45s] after an Exit Gate is opened."
+        }
+    ],
+    "tags": [
+        "Broken",
+        "End Game",
+        "Exit Gate"
+    ]
+}

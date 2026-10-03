@@ -1,0 +1,21 @@
+{
+    "name": "Spies from the Shadows",
+    "id": "spies-from-the-shadows",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor scares a Crow within [36m] of you, you are alerted."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [5s]."
+        }
+    ],
+    "quote": "\"In the shadows they torment, scarring our minds with each scream.\"",
+    "tags": [
+        "Crow"
+    ]
+}

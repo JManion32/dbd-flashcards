@@ -1,0 +1,22 @@
+{
+    "name": "Thrilling Tremors",
+    "id": "thrilling-tremors",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you pick=up a Survivor, all Generators not being repaired are blocked for [16s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "\"The night assists me and it's endless here.\" -The Ghost Face",
+    "tags": [
+        "Blocked",
+        "Generator"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Stridor",
+    "id": "stridor",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors' breathing noises are [25%] louder and their Grunts of Pain are [50%] louder."
+        }
+    ],
+    "quote": "\"If you don't stop and catch your breath... she will.\"",
+    "tags": []
+}

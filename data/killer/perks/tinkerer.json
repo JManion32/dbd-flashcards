@@ -1,0 +1,25 @@
+{
+    "name": "Tinkerer",
+    "id": "tinkerer",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time each Generator has [70%] progress:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [Undetectable] for [16s].",
+                "You are alerted."
+            ]
+        }
+    ],
+    "quote": "\"The Hillbilly makes impressive tools out of scraps. Tools aimed at maiming us in creative ways...\" -Notebook",
+    "tags": [
+        "Generator",
+        "Undetectable"
+    ]
+}

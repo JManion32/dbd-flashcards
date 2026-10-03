@@ -1,0 +1,30 @@
+{
+    "name": "Trail of Torment",
+    "id": "trail-of-torment",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator, until it stops regressing:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [Undetectable].",
+                "Survivors see that Generator's Aura."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "\"The Hillbilly makes impressive tools out of scraps. Tools aimed at maiming us in creative ways...\" -Notebook",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Undetectable"
+    ]
+}

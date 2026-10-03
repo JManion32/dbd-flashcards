@@ -1,0 +1,30 @@
+{
+    "name": "Thanatophobia",
+    "id": "thanatophobia",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "For each injured, downed, or hooked Survivor, all Survivors:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Cleanse Totems [2%] slower.",
+                "Repair [2%] slower.",
+                "Sabotage Hooks [2%] slower."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "While [4] Survivors are either injured, downed, or hooked, all above actions are additionally [12%] slower."
+        }
+    ],
+    "quote": "\"She plays with us and revels in our pain.\"",
+    "tags": [
+        "Repairing",
+        "Sabotaging"
+    ]
+}

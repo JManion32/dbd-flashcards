@@ -1,0 +1,27 @@
+{
+    "name": "Surge",
+    "id": "surge",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you down a Survivor with a basic-attack, Generators within [32m]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Explode, lose [8%] progress and start regressing.",
+                "Survivors repairing them scream."
+            ]
+        }
+    ],
+    "quote": "\"The creature appears to have some unknown influence over electricity and nearby electronics.\" -Hawkins National Laboratory",
+    "tags": [
+        "Basic Attack",
+        "Generator",
+        "Regression",
+        "Scream"
+    ]
+}

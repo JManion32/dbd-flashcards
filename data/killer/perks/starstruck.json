@@ -1,0 +1,30 @@
+{
+    "name": "Starstruck",
+    "id": "starstruck",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "While carrying a Survivor, Survivors within your Terror Radius gain [Exposed]. This ends [30s] after:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They leave your Terror Radius.",
+                "You drop or Hook the carried Survivor."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [60s]."
+        }
+    ],
+    "quote": "\"Enjoy this moment, few get so close.\" -Hak Ji-woon",
+    "tags": [
+        "Carrying",
+        "Exposed",
+        "Terror Radius"
+    ]
+}

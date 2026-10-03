@@ -1,0 +1,27 @@
+{
+    "name": "Surveillance",
+    "id": "surveillance",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of regressing Generators."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Generator stops regressing, you see its Aura for [16s]."
+        },
+        {
+            "type": "text",
+            "content": "Generator repair noises can be heard from [8m] farther away."
+        }
+    ],
+    "quote": "\"Are you gonna behave?\" -Amanda Young",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Regression"
+    ]
+}

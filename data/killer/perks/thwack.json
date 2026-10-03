@@ -1,0 +1,28 @@
+{
+    "name": "THWACK!",
+    "id": "thwack",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, you earn [3] Tokens, up to [3]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you hook a Survivor, you earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "Wenever you break a Pallet or Breakable Wall, spend [1] Token. Then, all Survivors within [36m] scream and you see their Auras for [6s]."
+        }
+    ],
+    "quote": "\"All those who stood in her path feared her mighty THWACK!\" -Sonhadores Sombrios, Issue #3",
+    "tags": [
+        "Aura",
+        "Pallet",
+        "Scream",
+        "Token"
+    ]
+}
