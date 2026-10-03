@@ -66,11 +66,11 @@ const props = defineProps<{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 .flashcard-content-container img {
-    height: 12rem;
-    width: 12rem;
+    height: 14rem;
+    width: 14rem;
 }
 .flashcard-content-container h2 {
     color: var(--standard-white);

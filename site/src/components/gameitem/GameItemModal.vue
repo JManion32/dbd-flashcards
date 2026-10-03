@@ -40,7 +40,6 @@ const visible = ref(false);
 .display-card {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
     align-items: center;
     width: 12rem;
     height: 10rem;
@@ -57,8 +56,8 @@ const visible = ref(false);
     opacity: 100%;
 }
 .display-card-img {
-    width: 5rem;
-    height: 5rem;
+    width: 5.5rem;
+    height: 5.5rem;
     object-fit: contain;
 }
 .display-card-title {
