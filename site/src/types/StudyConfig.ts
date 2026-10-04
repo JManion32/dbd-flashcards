@@ -9,5 +9,5 @@ export const StudyConfigDefault: StudyConfig = {
     side: 'All',
     type: 'Perk',
     preset: 'Names / Icons',
-    length: 50,
+    length: 25,
 };

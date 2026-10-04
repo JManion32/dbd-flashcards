@@ -29,7 +29,6 @@ const visible = ref(false);
     <Modal
         :visible="visible"
         transition="scale"
-        height="short"
         @close="visible = false"
     >
         <!-- A little prop drilling never hurt anyone right? -->
@@ -52,7 +51,6 @@ const visible = ref(false);
 }
 .display-card:hover {
     cursor: pointer;
-    scale: 1.05;
     opacity: 100%;
 }
 .display-card-img {

@@ -29,6 +29,7 @@ onUnmounted(() => {
             class="incorrect-btn"
             aria-label="Mark as Still Learning"
             title="Mark as Still Learning"
+            @mousedown.prevent
             @click="emit('incorrect')"
         >
             <svg
@@ -43,6 +44,7 @@ onUnmounted(() => {
             class="correct-btn"
             aria-label="Mark as Known"
             title="Mark as Known"
+            @mousedown.prevent
             @click="emit('correct')"
         >
             <svg

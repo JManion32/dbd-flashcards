@@ -4,7 +4,6 @@ import { onMounted, onUnmounted, watch } from 'vue';
 const props = defineProps<{
     visible: boolean;
     transition: 'slide-up' | 'fade' | 'scale';
-    height?: string;
     required?: boolean;
 }>();
 const emit = defineEmits<{
@@ -55,10 +54,7 @@ onUnmounted(() => {
                 class="modal-backdrop"
                 @click.self="emitClose()"
             >
-                <div
-                    class="modal-container"
-                    :style="{ height: props.height === 'short' ? '42rem' : '50rem' }"
-                >
+                <div class="modal-container">
                     <div class="modal-close-container">
                         <button
                             v-if="!props.required"
@@ -93,6 +89,8 @@ onUnmounted(() => {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    min-height: 30rem;
+    max-height: 50rem;
 }
 .modal-close-container {
     display: flex;

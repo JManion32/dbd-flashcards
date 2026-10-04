@@ -199,7 +199,7 @@ const emit = defineEmits<{
     font-size: 16px;
     border-radius: 0.5rem;
     border: none;
-    font-weight: 700;
+    font-weight: 800;
     align-items: center;
 }
 .quick-select-btn:hover {

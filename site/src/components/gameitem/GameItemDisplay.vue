@@ -76,7 +76,8 @@ const props = defineProps<{
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    flex: 1;
+    min-height: 0;
     overflow-y: scroll;
     padding: 0.5rem 2rem 0.5rem 1rem;
 }

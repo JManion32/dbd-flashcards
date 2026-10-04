@@ -86,9 +86,18 @@ function flipCard() {
 }
 
 function handleKeydown(event: KeyboardEvent) {
-    if (event.key === ' ') {
-        flipCard();
+    if (event.key !== ' ') {
+        return;
     }
+
+    // A focused button already treats Space as a click, so flipping too would double up.
+    if (event.target instanceof HTMLElement && event.target.closest('button, a, input, select, textarea')) {
+        return;
+    }
+
+    // Space would otherwise also scroll the page.
+    event.preventDefault();
+    flipCard();
 }
 
 onMounted(() => {

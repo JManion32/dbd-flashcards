@@ -72,9 +72,11 @@ function startStudy() {
     });
 }
 
+/*
 function restoreDefaults() {
     config.value = { ...StudyConfigDefault };
 }
+*/
 </script>
 <template>
     <button
@@ -142,10 +144,7 @@ function restoreDefaults() {
                 </div>
 
                 <div class="option-group">
-                    <div class="card-header-container">
-                        <span class="option-label">Cards</span>
-                        <span class="session-summary">{{ sessionSummary }}</span>
-                    </div>
+                    <span class="option-label">Cards</span>
                     <div class="segmented">
                         <button
                             v-for="option in lengthOptions"
@@ -159,14 +158,16 @@ function restoreDefaults() {
                     </div>
                 </div>
             </div>
-
             <div class="study-actions-container">
+                <!--
                 <button
                     class="clear-selection-btn"
                     @click="restoreDefaults()"
                 >
                     Restore Defaults
                 </button>
+                -->
+                <span class="session-summary">{{ sessionSummary }}</span>
                 <button
                     class="study-btn"
                     :disabled="sessionSize === 0"
@@ -259,9 +260,8 @@ function restoreDefaults() {
     padding: 1.5rem 0 0;
 }
 .session-summary {
-    margin-left: auto;
     color: var(--inactive-text);
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 700;
     font-style: italic;
 }
@@ -284,10 +284,5 @@ function restoreDefaults() {
     cursor: pointer;
     text-shadow: var(--small-text-glow);
     color: var(--standard-white);
-}
-.card-header-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 </style>
