@@ -7,11 +7,18 @@
     "description": [
         {
             "type": "text",
-            "content": "After you damage Survivors with a basic-attack [8] times, a Dull Totem ignites."
+            "content": "After you damage Survivors with a basic-attack [4] times, a Dull Totem ignites."
         },
         {
             "type": "text",
-            "content": "Whenever you damage a Survivor with a basic-attack, they gain [5%] [Hindered] for [15s]."
+            "content": "Whenever you damage a Survivor with a basic-attack:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [5%] [Hindered] for [15s].",
+                "They vault [10%] slower for [15%]."
+            ]
         }
     ],
     "quote": "\"All of the liabilities of this world are due to the inadequacies of the person involved.\" -Ken Kaneki",
@@ -19,6 +26,7 @@
         "Basic Attack",
         "Hex",
         "Hinder",
-        "Totem"
+        "Totem",
+        "Vaulting"
     ]
 }

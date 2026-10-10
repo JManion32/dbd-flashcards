@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "Every [30s], the Survivor with the least time in chase sees your Aura for [3s]."
+            "content": "Every [30s], the Survivor with the least time in chase sees your Aura for [4s]."
         },
         {
             "type": "text",
-            "content": "While a Survivor sees your Aura, you see their Aura."
+            "content": "While a Survivor sees your Aura, you see theirs."
         }
     ],
     "tags": [

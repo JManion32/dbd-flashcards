@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever a healthy Survivor becomes injured, for the next [30s], whenever you basic-vault a Window, gain [7%] [Haste] for [10s]."
+            "content": "Whenever a healthy Survivor becomes injured, for the next [30s], whenever you basic-vault a Window, gain [5%] [Haste] for [25s]."
         }
     ],
     "quote": "\"I heard it. Running. It was getting closer!\" -Anonymous Testimony, 09/09/1979",

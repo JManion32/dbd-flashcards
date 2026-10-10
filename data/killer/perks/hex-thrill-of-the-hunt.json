@@ -7,20 +7,17 @@
     "description": [
         {
             "type": "text",
-            "content": "When the trial starts, a Dull Totem ignites."
+            "content": "The first time you hook a Survivor, a Dull Totem ignites."
         },
         {
             "type": "text",
-            "content": "For each Dull and Hex Totem remaining, you have [1] Token."
-        },
-        {
-            "type": "text",
-            "content": "For each Token, Survivors bless and cleanse Totems [10%] slower."
+            "content": "When you hook a Survivor, block all Hex Totems for [6s] for each lit Hex Totem."
         }
     ],
     "tags": [
+        "Blocked",
         "Hex",
-        "Token",
+        "Hooking",
         "Totem"
     ]
 }

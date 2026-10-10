@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever a Survivor misses a basic Skill Check, earn [3] Tokens, up to [30]."
+            "content": "Whenever you hook a Survivor, earn [1] Token, up to [3]."
         },
         {
             "type": "text",
@@ -16,24 +16,16 @@
         {
             "type": "list",
             "items": [
-                "The Generator loses [1%] progress.",
-                "The Generator is blocked for [1s]."
+                "The Generator loses [10%] more progress.",
+                "The Generator is blocked for [10s]."
             ]
-        },
-        {
-            "type": "text",
-            "content": "When that Generator is unblocked, it begins regressing."
-        },
-        {
-            "type": "text",
-            "content": "Cooldown: [60s]."
         }
     ],
     "quote": "\"Erratic behavior in machinery could be related to [REDACTED], further testing required.\" -OSS Report, 12/02/1943",
     "tags": [
         "Blocked",
         "Generator",
-        "Regression",
-        "Skill Check"
+        "Hooking",
+        "Regression"
     ]
 }

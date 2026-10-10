@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "When a Survivor fast-vaults within [12m] of you, the next time you basic-vault a Window, it is [40%] faster."
+            "content": "When a Survivor medium or fast-vaults within [12m] of you, the next time you basic-vault a Window, it is [40%] faster for [10s]."
         },
         {
             "type": "text",
-            "content": "Cooldown: [25s]."
+            "content": "Cooldown: [20s]."
         }
     ],
     "tags": [

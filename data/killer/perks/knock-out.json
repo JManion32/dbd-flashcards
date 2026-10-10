@@ -7,7 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever a Survivor drops a Pallet, for the next [6s], if they move [6m] away from it, they gain [5%] [Hindered] for [5s]."
+            "content": "Whenever a Survivor drops a Pallet, for the next [6s], if they move [10m] away from it, they gain [20%] [Hindered] for [4s]."
+        },
+        {
+            "type": "text",
+            "content": "This ends early if the Pallet is broken."
         }
     ],
     "quote": "\"Oh, that gun's no good. The old way... with a sledge! You see, that way's better. They die better that way.\" -Nubbins Sawyer",

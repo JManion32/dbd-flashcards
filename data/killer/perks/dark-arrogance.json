@@ -11,11 +11,16 @@
         },
         {
             "type": "text",
-            "content": "Whenever you are blinded or Pallet-stunned, the duration is [15%] longer."
+            "content": "Your missed basic-attack cooldown is [25%] shorter."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you are blinded or Pallet-stunned, the duration is [25%] longer."
         }
     ],
     "quote": "\"Run all you want. I will not be denied.\" -Vecna",
     "tags": [
+        "Basic Attack",
         "Blind",
         "Pallet",
         "Stun",

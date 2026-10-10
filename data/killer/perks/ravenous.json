@@ -11,19 +11,32 @@
         },
         {
             "type": "text",
+            "content": "For each Token:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gain [4%] [Haste] while carrying a Survivor.",
+                "Hook Survivors [4%] faster."
+            ]
+        },
+        {
+            "type": "text",
             "content": "When you have [4] Tokens, all Survivors:"
         },
         {
             "type": "list",
             "items": [
                 "Scream.",
-                "Gain [Exposed] for [60s]."
+                "Gain [Exposed] for [90s]."
             ]
         }
     ],
     "quote": "\"Weeping Ginevra's blood streams/The devil smells the weak.\" -Fabbro Barone's Ginevra",
     "tags": [
+        "Carrying",
         "Exposed",
+        "Haste",
         "Hooking",
         "Scream",
         "Token"

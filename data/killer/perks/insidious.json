@@ -7,7 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "After being idle for [1s], you gain [Undetectable] until you act."
+            "content": "After being idle for [2s], gain [Undetectable]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you act, this ends after [8s]."
         }
     ],
     "tags": [

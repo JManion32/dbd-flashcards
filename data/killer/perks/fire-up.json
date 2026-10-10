@@ -16,10 +16,10 @@
         {
             "type": "list",
             "items": [
-                "You basic-break Pallets and Breakable Walls [6%] faster.",
-                "You damage Generators [6%] faster.",
-                "You pick up and drop Survivors [6%] faster.",
-                "You basic-vault Windows [6%] faster."
+                "You basic-break Pallets and Breakable Walls [8%] faster.",
+                "You damage Generators [8%] faster.",
+                "You pick up and drop Survivors [8%] faster.",
+                "You basic-vault Windows [8%] faster."
             ]
         }
     ],

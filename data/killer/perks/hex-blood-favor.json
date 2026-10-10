@@ -11,11 +11,12 @@
         },
         {
             "type": "text",
-            "content": "Whenever you damage a Survivor, Upright Pallets within [32m] of them are blocked for [15s]."
+            "content": "Whenever you injure a Survivor with your basic-attack, Upright Pallets within [32m] of them are blocked for [15s]."
         }
     ],
     "quote": "\"It would be no leap of the imagination to suggest that the trials are a biological response of sorts.\" -Journal of Talbot Grimes",
     "tags": [
+        "Basic Attack",
         "Blocked",
         "Hex",
         "Pallet",

@@ -11,16 +11,25 @@
         },
         {
             "type": "text",
-            "content": "When that Generator is completed by Survivors, your basic-attack cooldowns are [25%] shorter for [60s]."
+            "content": "When any compromised Generator is completed by Survivors:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your successful basic-attack cooldowns are [25%] shorter for [90s].",
+                "Generators not being repaired regress at [150%] speed for [90s].",
+                "Other Generators lose compromised."
+            ]
         },
         {
             "type": "text",
-            "content": "Only [1] Generator can be compromised at a time."
+            "content": "Up to [3] Generators can be compromised at a time."
         }
     ],
     "quote": "\"You only think you are in control...\" -Springtrap",
     "tags": [
         "Basic Attack",
-        "Generator"
+        "Generator",
+        "Regression"
     ]
 }

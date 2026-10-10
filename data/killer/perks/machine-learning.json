@@ -11,18 +11,19 @@
         },
         {
             "type": "text",
-            "content": "When that Generator is completed by Survivors:"
+            "content": "When any compromised Generator is completed by Survivors:"
         },
         {
             "type": "list",
             "items": [
                 "You gain [8%] [Haste] for [60s].",
-                "You gain [Undetectable] for [60s]."
+                "You gain [Undetectable] for [60s].",
+                "Other Generators lose compromised."
             ]
         },
         {
             "type": "text",
-            "content": "Only one Generator can be compromised at a time."
+            "content": "Up to [3] Generators can be compromised at a time."
         }
     ],
     "quote": "\"YOU WILL HOLD NO DOMINION OVER ME.\" -HUX-A7-13",

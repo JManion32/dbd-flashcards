@@ -7,19 +7,26 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you snuff a Boon Totem:"
+            "content": "Whenever you snuff a Boon Totem, it is destroyed."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Totem is blessed, cleansed, or destroyed:"
         },
         {
             "type": "list",
             "items": [
-                "You see the Auras of all Survivors within its range for [8s].",
-                "It is destroyed."
+                "Dull Totems are blocked for [20s].",
+                "Hex Totems are blocked for [20s].",
+                "See Boon Totems' Auras for [20s]."
             ]
         }
     ],
     "quote": "\"Nothing is permanent here. Nothing except our endless perdition.\" -Unknown, Notebook",
     "tags": [
         "Aura",
-        "Boon"
+        "Blocked",
+        "Boon",
+        "Totem"
     ]
 }

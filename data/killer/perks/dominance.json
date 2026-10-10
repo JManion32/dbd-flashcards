@@ -7,13 +7,22 @@
     "description": [
         {
             "type": "text",
-            "content": "The first time each Chest is being unlocked and each Totem is being blessed or cleansed by a Survivor, it is blocked for [16s]."
+            "content": "The first time each Totem is being blessed or cleansed by a Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "It is blocked for [25s].",
+                "They scream.",
+                "You see their Aura for [5s]."
+            ]
         }
     ],
     "quote": "\"Tragic, is it not? How powerless you must feel.\" -Dracula",
     "tags": [
+        "Aura",
         "Blocked",
-        "Chest",
+        "Scream",
         "Totem"
     ]
 }

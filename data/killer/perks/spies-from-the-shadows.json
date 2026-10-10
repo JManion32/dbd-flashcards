@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever a Survivor scares a Crow within [36m] of you, you are alerted."
+            "content": "Whenever a Survivor scares a Crow within [40m] of you, you are alerted."
         },
         {
             "type": "text",
-            "content": "Cooldown: [5s]."
+            "content": "Cooldown: [3s]."
         }
     ],
     "quote": "\"In the shadows they torment, scarring our minds with each scream.\"",

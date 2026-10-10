@@ -7,11 +7,16 @@
     "description": [
         {
             "type": "text",
+            "content": "Survivors within your Terror Radius repair [8%] slower."
+        },
+        {
+            "type": "text",
             "content": "Your Terror Radius is [30%] larger."
         }
     ],
     "quote": "\"Bask in their fear.\"",
     "tags": [
+        "Repairing",
         "Terror Radius"
     ]
 }

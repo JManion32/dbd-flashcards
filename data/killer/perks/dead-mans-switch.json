@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "When you hook a Survivor, the first time a Survivor stops repairing a Generator, it is blocked for [35s]."
+            "content": "When you hook a Survivor, the next time any Survivor stops repairing a Generator for more than [2s], it is blocked for [40s]."
         },
         {
             "type": "text",
-            "content": "Cooldown: [35s]."
+            "content": "Cooldown: [40s]."
         }
     ],
     "quote": "\"I've seen the look on a man's face when he realizes he's going to die.\" -Caleb Quinn",

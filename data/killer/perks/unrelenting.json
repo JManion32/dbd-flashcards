@@ -7,7 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you miss a basic-attack, your cooldown is [30%] shorter."
+            "content": "Your missed basic-attack cooldown is [40%] shorter."
+        },
+        {
+            "type": "text",
+            "content": "Your successful basic-attack cooldown is [10%] shorter."
         }
     ],
     "tags": [

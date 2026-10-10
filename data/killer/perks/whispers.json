@@ -7,9 +7,15 @@
     "description": [
         {
             "type": "text",
-            "content": "While within [32m] of a Survivor, you randomly hear whispers."
+            "content": "While within [24m] of a Survivor, you randomly hear whispers."
+        },
+        {
+            "type": "text",
+            "content": "While more than [24m] away from a Survivor, gain [5%] [Haste]."
         }
     ],
     "quote": "\"It's unclear as to the motivations of The Fog, but it is undeniable that it often takes the beast's side.\" -Notebook",
-    "tags": []
+    "tags": [
+        "Haste"
+    ]
 }

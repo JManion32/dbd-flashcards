@@ -18,12 +18,14 @@
         },
         {
             "type": "text",
-            "content": "While you are at least [24m] away from a Survivor on a Scourge Hook, they are sacrificed [20%] faster."
+            "content": "While you are at least [24m] away from a Survivor on a Scourge Hook, any Generator that isn't being repaired regresses at [200%] speed."
         }
     ],
     "quote": "\"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\"",
     "tags": [
         "Basement",
+        "Generator",
+        "Regression",
         "Scourge Hook"
     ]
 }
