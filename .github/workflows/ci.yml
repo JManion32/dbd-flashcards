@@ -235,6 +235,9 @@ jobs:
 
         steps:
             - uses: actions/checkout@v4
+              with:
+                  # Full history so the build can read each data file's last-updated date
+                  fetch-depth: 0
 
             - uses: actions/setup-node@v4
               with:

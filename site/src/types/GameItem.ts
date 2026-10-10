@@ -18,4 +18,5 @@ export interface GameItem {
     description: DescriptionBlock[];
     quote: string;
     tags: Array<string>;
+    lastUpdated?: string;
 }

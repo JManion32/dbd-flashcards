@@ -65,6 +65,12 @@ const props = defineProps<{
         >
             {{ props.gameItem.quote }}
         </p>
+        <p
+            v-if="props.gameItem.lastUpdated"
+            class="game-item-display-date"
+        >
+            Last Updated: {{ props.gameItem.lastUpdated }}
+        </p>
         <img
             class="gid-side-icon"
             :src="props.gameItem.side === 'Killer' ? killerIcon : survivorIcon"
@@ -136,8 +142,14 @@ const props = defineProps<{
 .game-item-display-quote {
     margin-top: 3rem;
     color: var(--standard-dim);
-    font-weight: 700%;
     font-style: italic;
+}
+.game-item-display-date {
+    margin-top: 2.5rem;
+    color: var(--standard-dim);
+    font-weight: 700;
+    align-self: center;
+    font-size: 0.85rem;
 }
 .gid-side-icon {
     height: 20rem;
