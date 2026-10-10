@@ -1,0 +1,14 @@
+{
+    "name": "Do No Harm",
+    "id": "do-no-harm",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Orela Rose",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

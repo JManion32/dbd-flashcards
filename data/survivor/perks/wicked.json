@@ -1,0 +1,14 @@
+{
+    "name": "Wicked",
+    "id": "wicked",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Sable Ward",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

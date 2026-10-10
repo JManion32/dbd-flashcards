@@ -1,0 +1,22 @@
+{
+    "name": "Dance With Me",
+    "id": "dance-with-me",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Kate Denson",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you fast-vault or fast-exit a Locker, you leave no Scratch Marks for [3s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [60s]."
+        }
+    ],
+    "tags": [
+        "Locker",
+        "Scratch Marks",
+        "Vaulting"
+    ]
+}

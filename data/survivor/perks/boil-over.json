@@ -1,0 +1,32 @@
+{
+    "name": "Boil Over",
+    "id": "boil-over",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Kate Denson",
+    "description": [
+        {
+            "type": "text",
+            "content": "While the Killer is carrying you:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Whenever the Killer falls from at least [1.25m], you gain [33%] of your current wiggle progress",
+                "Your wiggling moves the Killer [80%] more.",
+                "The Killer cannot see the Auras of Hooks within [16m] of you."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Whenever the Killer falls while carrying you, you gain [33%] wiggle progress."
+        }
+    ],
+    "quote": "\"Buck and Wild/ Swing to be free/Your hands just can't keep ahold of me.\" -Kate Denson's Boil Over",
+    "tags": [
+        "Aura",
+        "Carrying",
+        "Falling",
+        "Hooking"
+    ]
+}

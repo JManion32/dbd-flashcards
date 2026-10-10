@@ -1,0 +1,24 @@
+{
+    "name": "Breakout",
+    "id": "breakout",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Yui Kimura",
+    "description": [
+        {
+            "type": "text",
+            "content": "While within [6m] of a carried Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [5%] [Haste].",
+                "They wiggle [20%] faster."
+            ]
+        }
+    ],
+    "tags": [
+        "Carrying",
+        "Haste"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Champion of Light",
+    "id": "champion-of-light",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Alan Wake",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

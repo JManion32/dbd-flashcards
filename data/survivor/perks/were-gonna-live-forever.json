@@ -1,0 +1,16 @@
+{
+    "name": "We're Gonna Live Forever",
+    "id": "were-gonna-live-forever",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "David King",
+    "description": [
+        {
+            "type": "text",
+            "content": "You heal dying Survivors [100%] faster."
+        }
+    ],
+    "tags": [
+        "Healing"
+    ]
+}

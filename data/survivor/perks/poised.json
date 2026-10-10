@@ -1,0 +1,17 @@
+{
+    "name": "Poised",
+    "id": "poised",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jane Romero",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, you leave no Scratch Marks for [6s]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Scratch Marks"
+    ]
+}

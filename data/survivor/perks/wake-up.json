@@ -1,0 +1,26 @@
+{
+    "name": "Wake Up!",
+    "id": "wake-up",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Quentin Smith",
+    "description": [
+        {
+            "type": "text",
+            "content": "When all Generators are completed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Auras of the Exit Gates.",
+                "You open Exit Gates [15%] faster.",
+                "When you open an Exit Gate, all other Survivors see its Aura."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "End Game",
+        "Exit Gate"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Red Herring",
+    "id": "red-herring",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Zarina Kassir",
+    "description": [
+        {
+            "type": "text",
+            "content": "After repairing a Generator for [3s], you see its Aura."
+        },
+        {
+            "type": "text",
+            "content": "When you enter a Locker, that Generator makes a loud noise."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator",
+        "Locker",
+        "Repairing"
+    ]
+}

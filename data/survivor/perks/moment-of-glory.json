@@ -1,0 +1,14 @@
+{
+    "name": "Moment of Glory",
+    "id": "moment-of-glory",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Trevor Belmont",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

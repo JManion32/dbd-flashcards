@@ -1,0 +1,16 @@
+{
+    "name": "Reassurance",
+    "id": "reassurance",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rebecca Chambers",
+    "description": [
+        {
+            "type": "text",
+            "content": "Use <Active Ability> within [6m] of a hooked Survivor to pause their Hook timer for [30s]."
+        }
+    ],
+    "tags": [
+        "Hooking"
+    ]
+}

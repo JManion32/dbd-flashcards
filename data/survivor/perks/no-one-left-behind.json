@@ -1,0 +1,26 @@
+{
+    "name": "No One Left Behind",
+    "id": "no-one-left-behind",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the Exit Gates are powered:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You heal and unhook other Survivors [50%] faster.",
+                "You see the Auras of all other Survivors."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "End Game",
+        "Healing",
+        "Unhooking"
+    ]
+}

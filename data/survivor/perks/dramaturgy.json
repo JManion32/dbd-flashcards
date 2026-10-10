@@ -1,0 +1,27 @@
+{
+    "name": "Dramaturgy",
+    "id": "dramaturgy",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nicolas Cage",
+    "description": [
+        {
+            "type": "text",
+            "content": "While running, use <Active Ability> to gain [25%] [Haste] for [2s], then one random effect:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [Exposed] for [12s].",
+                "You scream.",
+                "You gain a random Item."
+            ]
+        }
+    ],
+    "tags": [
+        "Exposed",
+        "Haste",
+        "Items",
+        "Scream"
+    ]
+}

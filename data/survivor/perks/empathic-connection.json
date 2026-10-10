@@ -1,0 +1,21 @@
+{
+    "name": "Empathic Connection",
+    "id": "empathic-connection",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Yoichi Asakawa",
+    "description": [
+        {
+            "type": "text",
+            "content": "Injured Survivors see your Aura within [96m]."
+        },
+        {
+            "type": "text",
+            "content": "You heal other Survivors [20%] faster."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Healing"
+    ]
+}

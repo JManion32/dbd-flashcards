@@ -1,0 +1,20 @@
+{
+    "name": "Flashbang",
+    "id": "flashbang",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Leon S. Kennedy",
+    "description": [
+        {
+            "type": "text",
+            "content": "After repairing Generators for [50%], use <Active Ability> while in a Locker empty-handed to craft a Flashbang."
+        }
+    ],
+    "tags": [
+        "Blind",
+        "Generator",
+        "Items",
+        "Locker",
+        "Repairing"
+    ]
+}

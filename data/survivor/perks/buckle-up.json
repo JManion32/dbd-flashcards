@@ -1,0 +1,21 @@
+{
+    "name": "Buckle Up",
+    "id": "buckle-up",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ashley J. Williams",
+    "description": [
+        {
+            "type": "text",
+            "content": "You can see how much recovery progress dying Survivors have."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you heal a dying Survivor, you both see the Killer's Aura for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Healing"
+    ]
+}

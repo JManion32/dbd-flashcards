@@ -1,0 +1,23 @@
+{
+    "name": "Chemical Trap",
+    "id": "chemical-trap",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ellen Ripley",
+    "description": [
+        {
+            "type": "text",
+            "content": "After repairing Generators for [50%], you can trap a dropped Pallet for [100s]."
+        },
+        {
+            "type": "text",
+            "content": "When the Killer breaks or vaults a trapped Pallet, they gain [50%] [Hindered] for [4s]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Hinder",
+        "Pallet",
+        "Repairing"
+    ]
+}

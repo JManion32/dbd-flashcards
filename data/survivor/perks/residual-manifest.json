@@ -1,0 +1,17 @@
+{
+    "name": "Residual Manifest",
+    "id": "residual-manifest",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Haddie Kaur",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you blind the Killer, they gain [Blindness] for [30s]."
+        }
+    ],
+    "tags": [
+        "Blind",
+        "Blindness"
+    ]
+}

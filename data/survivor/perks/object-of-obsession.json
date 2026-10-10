@@ -1,0 +1,17 @@
+{
+    "name": "Object of Obsession",
+    "id": "object-of-obsession",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Laurie Strode",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you see the Killer's Aura, they see your Aura."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Obsession"
+    ]
+}

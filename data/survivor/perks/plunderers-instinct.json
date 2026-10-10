@@ -1,0 +1,22 @@
+{
+    "name": "Plunderer's Instinct",
+    "id": "plunderers-instinct",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of unopened Chests and Items on the ground within [32m]."
+        },
+        {
+            "type": "text",
+            "content": "Chests give you rarer Items."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Chest",
+        "Items"
+    ]
+}

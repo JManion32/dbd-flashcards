@@ -1,0 +1,16 @@
+{
+    "name": "Small Game",
+    "id": "small-game",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you look toward a Dull or Hex Totem within [8m], you hear a sound cue."
+        }
+    ],
+    "tags": [
+        "Totem"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Strength in Shadows",
+    "id": "strength-in-shadows",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Sable Ward",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in the Basement, you can heal yourself without a Med-Kit."
+        },
+        {
+            "type": "text",
+            "content": "After you do, you see the Killer's Aura for [10s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Basement",
+        "Healing"
+    ]
+}

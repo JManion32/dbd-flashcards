@@ -1,0 +1,22 @@
+{
+    "name": "Deliverance",
+    "id": "deliverance",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Adam Francis",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you safely unhook another Survivor, you can unhook yourself the next time you are hooked."
+        },
+        {
+            "type": "text",
+            "content": "When you do, you gain [Broken] for [60s]."
+        }
+    ],
+    "tags": [
+        "Broken",
+        "Hooking",
+        "Unhooking"
+    ]
+}

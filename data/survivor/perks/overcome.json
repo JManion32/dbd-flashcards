@@ -1,0 +1,24 @@
+{
+    "name": "Overcome",
+    "id": "overcome",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jonah Vasquez",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you become injured:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [75%] [Haste] for [2s].",
+                "You gain [Exhausted] for [40s]."
+            ]
+        }
+    ],
+    "tags": [
+        "Exhaustion",
+        "Haste"
+    ]
+}

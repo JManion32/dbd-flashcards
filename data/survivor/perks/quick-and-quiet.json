@@ -1,0 +1,21 @@
+{
+    "name": "Quick & Quiet",
+    "id": "quick-and-quiet",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Meg Thomas",
+    "description": [
+        {
+            "type": "text",
+            "content": "Your fast-vaults and fast Locker entries make no noise."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "tags": [
+        "Locker",
+        "Vaulting"
+    ]
+}

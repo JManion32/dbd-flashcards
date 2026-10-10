@@ -1,0 +1,23 @@
+{
+    "name": "Overzealous",
+    "id": "overzealous",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Haddie Kaur",
+    "description": [
+        {
+            "type": "text",
+            "content": "After cleansing a Totem, you repair Generators [8%] faster, or [16%] if it was a Hex Totem."
+        },
+        {
+            "type": "text",
+            "content": "This ends when you lose a Health State."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Hex",
+        "Repairing",
+        "Totem"
+    ]
+}

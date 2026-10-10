@@ -1,0 +1,20 @@
+{
+    "name": "Unbreakable",
+    "id": "unbreakable",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Bill Overbeck",
+    "description": [
+        {
+            "type": "text",
+            "content": "Once per trial, you can fully recover from the dying state."
+        },
+        {
+            "type": "text",
+            "content": "You recover [25%] faster."
+        }
+    ],
+    "tags": [
+        "Healing"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Teamwork: Collective Stealth",
+    "id": "teamwork-collective-stealth",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Renato Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

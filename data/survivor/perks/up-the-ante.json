@@ -1,0 +1,16 @@
+{
+    "name": "Up the Ante",
+    "id": "up-the-ante",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ace Visconti",
+    "description": [
+        {
+            "type": "text",
+            "content": "For each other Survivor alive, all Survivors gain [3%] Luck."
+        }
+    ],
+    "tags": [
+        "Luck"
+    ]
+}

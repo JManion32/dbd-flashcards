@@ -1,0 +1,21 @@
+{
+    "name": "Plot Twist",
+    "id": "plot-twist",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nicolas Cage",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, use <Active Ability> while crouched to enter the dying state silently. You can fully recover."
+        },
+        {
+            "type": "text",
+            "content": "When you do, you are healed and gain [50%] [Haste] for [4s]."
+        }
+    ],
+    "tags": [
+        "Haste",
+        "Healing"
+    ]
+}

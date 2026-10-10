@@ -1,0 +1,14 @@
+{
+    "name": "Mirrored Illusion",
+    "id": "mirrored-illusion",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Aestri Yazar",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

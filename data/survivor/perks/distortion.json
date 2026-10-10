@@ -1,0 +1,27 @@
+{
+    "name": "Distortion",
+    "id": "distortion",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jeff Johansen",
+    "description": [
+        {
+            "type": "text",
+            "content": "You start the trial with [3] Tokens."
+        },
+        {
+            "type": "text",
+            "content": "Whenever the Killer would see your Aura, spend [1] Token to hide it and leave no Scratch Marks for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "For every [30s] in chase, earn [1] Token."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Chase",
+        "Scratch Marks",
+        "Token"
+    ]
+}

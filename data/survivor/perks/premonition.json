@@ -1,0 +1,18 @@
+{
+    "name": "Premonition",
+    "id": "premonition",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you look toward the Killer within [36m], you hear a sound cue."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Built to Last",
+    "id": "built-to-last",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Felix Richter",
+    "description": [
+        {
+            "type": "text",
+            "content": "After hiding in a Locker for [4s] with a depleted item, it recharges [99%]."
+        },
+        {
+            "type": "text",
+            "content": "Each time this triggers, the recharge is [33%] lower."
+        }
+    ],
+    "tags": [
+        "Items",
+        "Locker"
+    ]
+}

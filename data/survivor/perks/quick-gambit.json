@@ -1,0 +1,14 @@
+{
+    "name": "Quick Gambit",
+    "id": "quick-gambit",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Vittorio Toscano",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

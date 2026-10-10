@@ -1,0 +1,24 @@
+{
+    "name": "Fast Track",
+    "id": "fast-track",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Lee Yun-Jin",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever another Survivor is hooked, earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you hit a good Skill Check while repairing, spend all Tokens to gain [1%] progress for each."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Hooking",
+        "Repairing",
+        "Skill Check",
+        "Token"
+    ]
+}

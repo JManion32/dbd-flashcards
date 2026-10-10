@@ -1,0 +1,16 @@
+{
+    "name": "Self-Care",
+    "id": "self-care",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Claudette Morel",
+    "description": [
+        {
+            "type": "text",
+            "content": "You can heal yourself without a Med-Kit at [50%] speed."
+        }
+    ],
+    "tags": [
+        "Healing"
+    ]
+}

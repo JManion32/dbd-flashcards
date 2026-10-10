@@ -1,0 +1,18 @@
+{
+    "name": "Hardened",
+    "id": "hardened",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Lara Croft",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you are unhooked or unhook yourself, whenever you would scream, you don't. Instead, you see the Killer's Aura for [3s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Scream",
+        "Unhooking"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Scavenger",
+    "id": "scavenger",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Gabriel Soma",
+    "description": [
+        {
+            "type": "text",
+            "content": "While holding an empty Toolbox, whenever you hit a great Skill Check while repairing, earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "At [5] Tokens, your Toolbox is recharged."
+        }
+    ],
+    "tags": [
+        "Items",
+        "Repairing",
+        "Skill Check",
+        "Token"
+    ]
+}

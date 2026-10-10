@@ -1,0 +1,17 @@
+{
+    "name": "We'll Make It",
+    "id": "well-make-it",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you unhook a Survivor, you heal other Survivors [100%] faster for [30s]."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Unhooking"
+    ]
+}

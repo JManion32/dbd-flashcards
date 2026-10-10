@@ -1,0 +1,14 @@
+{
+    "name": "Exultation",
+    "id": "exultation",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Trevor Belmont",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

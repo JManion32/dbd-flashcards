@@ -1,0 +1,17 @@
+{
+    "name": "Parental Guidance",
+    "id": "parental-guidance",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Yoichi Asakawa",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Killer is stunned, you leave no Scratch Marks, Pools of Blood, or Grunts of Pain for [7s]."
+        }
+    ],
+    "tags": [
+        "Scratch Marks",
+        "Stun"
+    ]
+}

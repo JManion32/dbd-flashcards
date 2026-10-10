@@ -1,0 +1,14 @@
+{
+    "name": "Invocation: Treacherous Crows",
+    "id": "invocation-treacherous-crows",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Taurie Cain",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

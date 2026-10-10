@@ -1,0 +1,24 @@
+{
+    "name": "Borrowed Time",
+    "id": "borrowed-time",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Bill Overbeck",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you unhook a Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They gain [Endurance] for [10s].",
+                "They gain [10%] [Haste] for [10s]."
+            ]
+        }
+    ],
+    "tags": [
+        "Haste",
+        "Unhooking"
+    ]
+}

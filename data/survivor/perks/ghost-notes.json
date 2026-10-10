@@ -1,0 +1,14 @@
+{
+    "name": "Ghost Notes",
+    "id": "ghost-notes",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Vee Boonyasak",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

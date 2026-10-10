@@ -1,0 +1,14 @@
+{
+    "name": "Still Sight",
+    "id": "still-sight",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Aestri Yazar",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

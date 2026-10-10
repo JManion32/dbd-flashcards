@@ -1,0 +1,18 @@
+{
+    "name": "Power Struggle",
+    "id": "power-struggle",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Élodie Rakoto",
+    "description": [
+        {
+            "type": "text",
+            "content": "While carried, after reaching [15%] wiggle progress, you can drop a nearby Pallet to stun the Killer."
+        }
+    ],
+    "tags": [
+        "Carrying",
+        "Pallet",
+        "Stun"
+    ]
+}

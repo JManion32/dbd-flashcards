@@ -1,0 +1,14 @@
+{
+    "name": "Eyes of Belmont",
+    "id": "eyes-of-belmont",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Trevor Belmont",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

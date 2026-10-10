@@ -1,0 +1,14 @@
+{
+    "name": "Teamwork: Power of Two",
+    "id": "teamwork-power-of-two",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Thalita Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

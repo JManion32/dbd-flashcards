@@ -1,0 +1,20 @@
+{
+    "name": "Dead Hard",
+    "id": "dead-hard",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "David King",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, use <Active Ability> while running to become immune to damage for [0.5s]."
+        },
+        {
+            "type": "text",
+            "content": "You gain [Exhausted] for [40s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Better Together",
+    "id": "better-together",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nancy Wheeler",
+    "description": [
+        {
+            "type": "text",
+            "content": "While you repair a Generator, all other Survivors see its Aura."
+        },
+        {
+            "type": "text",
+            "content": "Whenever the Killer downs a Survivor while you are repairing, you see the Auras of all other Survivors for [30s]."
+        }
+    ],
+    "quote": "\"Let's burn that lab to the ground.\" -Nancy Wheeler",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Repairing"
+    ]
+}

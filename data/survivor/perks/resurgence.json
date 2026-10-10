@@ -1,0 +1,17 @@
+{
+    "name": "Resurgence",
+    "id": "resurgence",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jill Valentine",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you are unhooked, you gain [50%] healing progress."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Unhooking"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Camaraderie",
+    "id": "camaraderie",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Steve Harrington",
+    "description": [
+        {
+            "type": "text",
+            "content": "Once per trial, while you are in the struggle phase and another Survivor is within [16m] of your Hook, your Hook timer pauses for [26s]."
+        }
+    ],
+    "tags": [
+        "Hooking"
+    ]
+}

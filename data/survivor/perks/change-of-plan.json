@@ -1,0 +1,14 @@
+{
+    "name": "Change of Plan",
+    "id": "change-of-plan",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dustin Henderson",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

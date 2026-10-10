@@ -1,0 +1,21 @@
+{
+    "name": "Botany Knowledge",
+    "id": "botany-knowledge",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Claudette Morel",
+    "description": [
+        {
+            "type": "text",
+            "content": "You heal [50%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Med-Kits are [20%] less efficient."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Items"
+    ]
+}

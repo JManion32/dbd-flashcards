@@ -1,0 +1,24 @@
+{
+    "name": "Leader",
+    "id": "leader",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dwight Fairfield",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [8m] of you heal, sabotage, unhook, cleanse, bless, open Exit Gates, and unlock [20%] faster."
+        },
+        {
+            "type": "text",
+            "content": "This lingers for [15s] after they leave your range."
+        }
+    ],
+    "tags": [
+        "Exit Gate",
+        "Healing",
+        "Sabotaging",
+        "Totem",
+        "Unhooking"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Soul Guard",
+    "id": "soul-guard",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Cheryl Mason",
+    "description": [
+        {
+            "type": "text",
+            "content": "After being healed or recovering from the dying state, you gain [Endurance] for [4s]."
+        },
+        {
+            "type": "text",
+            "content": "While a Hex Totem stands, you can fully recover from the dying state."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Hex"
+    ]
+}

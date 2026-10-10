@@ -1,0 +1,25 @@
+{
+    "name": "Off the Record",
+    "id": "off-the-record",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Zarina Kassir",
+    "description": [
+        {
+            "type": "text",
+            "content": "For [80s] after being unhooked:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The Killer cannot see your Aura.",
+                "Your Grunts of Pain are [100%] quieter.",
+                "You gain [Endurance]."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Unhooking"
+    ]
+}

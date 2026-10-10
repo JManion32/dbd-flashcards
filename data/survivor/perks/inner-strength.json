@@ -1,0 +1,18 @@
+{
+    "name": "Inner Strength",
+    "id": "inner-strength",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nancy Wheeler",
+    "description": [
+        {
+            "type": "text",
+            "content": "After cleansing a Totem, the next time you are injured and hide in a Locker for [10s], you are healed."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Locker",
+        "Totem"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Shoulder the Burden",
+    "id": "shoulder-the-burden",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Taurie Cain",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

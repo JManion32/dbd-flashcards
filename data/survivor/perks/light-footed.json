@@ -1,0 +1,14 @@
+{
+    "name": "Light-Footed",
+    "id": "light-footed",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ellen Ripley",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healthy, your running footsteps are silent."
+        }
+    ],
+    "tags": []
+}

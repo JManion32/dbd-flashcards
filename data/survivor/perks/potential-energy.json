@@ -1,0 +1,22 @@
+{
+    "name": "Potential Energy",
+    "id": "potential-energy",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Vittorio Toscano",
+    "description": [
+        {
+            "type": "text",
+            "content": "While repairing, use <Active Ability> to earn Tokens instead of progress, up to [3]."
+        },
+        {
+            "type": "text",
+            "content": "When you repair another Generator, spend [1] Token to add [20%] progress."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Token"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Road Life",
+    "id": "road-life",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rick Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

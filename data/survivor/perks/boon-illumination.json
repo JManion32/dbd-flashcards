@@ -1,0 +1,23 @@
+{
+    "name": "Boon: Illumination",
+    "id": "boon-illumination",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Alan Wake",
+    "description": [
+        {
+            "type": "text",
+            "content": "Bless a Dull or Hex Totem to create a Boon Totem with a [24m] range."
+        },
+        {
+            "type": "text",
+            "content": "Survivors within range see the Auras of all Chests."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Boon",
+        "Chest",
+        "Totem"
+    ]
+}

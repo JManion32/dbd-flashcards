@@ -1,0 +1,23 @@
+{
+    "name": "Corrective Action",
+    "id": "corrective-action",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jonah Vasquez",
+    "description": [
+        {
+            "type": "text",
+            "content": "You start the trial with [5] Tokens."
+        },
+        {
+            "type": "text",
+            "content": "Whenever another Survivor repairing the same Generator as you misses a Skill Check, spend [1] Token to turn it into a good Skill Check."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Skill Check",
+        "Token"
+    ]
+}

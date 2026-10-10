@@ -1,0 +1,22 @@
+{
+    "name": "Wiretap",
+    "id": "wiretap",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ada Wong",
+    "description": [
+        {
+            "type": "text",
+            "content": "After repairing Generators for [35%], use <Active Ability> while repairing to trap that Generator for [120s]."
+        },
+        {
+            "type": "text",
+            "content": "While the Killer is within [14m] of a trapped Generator, all Survivors see their Aura."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator",
+        "Repairing"
+    ]
+}

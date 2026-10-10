@@ -1,0 +1,16 @@
+{
+    "name": "Solidarity",
+    "id": "solidarity",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jane Romero",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, whenever you heal another Survivor without a Med-Kit, you also heal yourself at [50%] speed."
+        }
+    ],
+    "tags": [
+        "Healing"
+    ]
+}

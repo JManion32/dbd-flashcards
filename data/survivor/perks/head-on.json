@@ -1,0 +1,22 @@
+{
+    "name": "Head On",
+    "id": "head-on",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jane Romero",
+    "description": [
+        {
+            "type": "text",
+            "content": "After standing in a Locker for [3s], use <Active Ability> when the Killer is nearby to stun them for [3s]."
+        },
+        {
+            "type": "text",
+            "content": "You gain [Exhausted] for [60s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion",
+        "Locker",
+        "Stun"
+    ]
+}

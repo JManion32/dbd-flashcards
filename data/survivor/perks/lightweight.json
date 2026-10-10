@@ -1,0 +1,16 @@
+{
+    "name": "Lightweight",
+    "id": "lightweight",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Your Scratch Marks disappear [3s] sooner."
+        }
+    ],
+    "tags": [
+        "Scratch Marks"
+    ]
+}

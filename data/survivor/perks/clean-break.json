@@ -1,0 +1,14 @@
+{
+    "name": "Clean Break",
+    "id": "clean-break",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Taurie Cain",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

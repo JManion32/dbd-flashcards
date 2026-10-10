@@ -1,0 +1,14 @@
+{
+    "name": "Come and Get Me!",
+    "id": "come-and-get-me",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Michonne Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Counterforce",
+    "id": "counterforce",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jill Valentine",
+    "description": [
+        {
+            "type": "text",
+            "content": "You cleanse Totems [20%] faster, plus [20%] for each Totem you cleanse."
+        },
+        {
+            "type": "text",
+            "content": "After cleansing a Totem, you see the Aura of the farthest Totem for [4s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Totem"
+    ]
+}

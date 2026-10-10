@@ -1,0 +1,23 @@
+{
+    "name": "Saboteur",
+    "id": "saboteur",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jake Park",
+    "description": [
+        {
+            "type": "text",
+            "content": "You can sabotage Hooks without a Toolbox."
+        },
+        {
+            "type": "text",
+            "content": "While carried, you see the Auras of Hooks within [56m]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Carrying",
+        "Hooking",
+        "Sabotaging"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Boon: Dark Theory",
+    "id": "boon-dark-theory",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Yoichi Asakawa",
+    "description": [
+        {
+            "type": "text",
+            "content": "Bless a Dull or Hex Totem to create a Boon Totem with a [24m] range."
+        },
+        {
+            "type": "text",
+            "content": "Survivors within range gain [2%] [Haste]. This lingers for [4s] after they leave its range."
+        }
+    ],
+    "tags": [
+        "Boon",
+        "Haste",
+        "Totem"
+    ]
+}

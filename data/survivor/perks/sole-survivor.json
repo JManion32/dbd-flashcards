@@ -1,0 +1,16 @@
+{
+    "name": "Sole Survivor",
+    "id": "sole-survivor",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Laurie Strode",
+    "description": [
+        {
+            "type": "text",
+            "content": "For each dead Survivor, the Killer cannot see your Aura within a larger range."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

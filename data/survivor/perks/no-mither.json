@@ -1,0 +1,24 @@
+{
+    "name": "No Mither",
+    "id": "no-mither",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "David King",
+    "description": [
+        {
+            "type": "text",
+            "content": "You are permanently injured and leave no Pools of Blood."
+        },
+        {
+            "type": "text",
+            "content": "Your Grunts of Pain are [50%] quieter."
+        },
+        {
+            "type": "text",
+            "content": "You can fully recover from the dying state."
+        }
+    ],
+    "tags": [
+        "Healing"
+    ]
+}

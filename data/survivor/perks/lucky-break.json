@@ -1,0 +1,14 @@
+{
+    "name": "Lucky Break",
+    "id": "lucky-break",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Yui Kimura",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, you leave no Pools of Blood, for up to [180s] in total."
+        }
+    ],
+    "tags": []
+}

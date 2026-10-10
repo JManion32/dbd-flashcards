@@ -1,0 +1,25 @@
+{
+    "name": "Breakdown",
+    "id": "breakdown",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jeff Johansen",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you are unhooked, or unhook yourself:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The Hook breaks for [180s].",
+                "You see the Killer's Aura for [6s]."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Hooking",
+        "Unhooking"
+    ]
+}

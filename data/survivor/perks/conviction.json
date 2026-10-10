@@ -1,0 +1,14 @@
+{
+    "name": "Conviction",
+    "id": "conviction",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Michonne Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

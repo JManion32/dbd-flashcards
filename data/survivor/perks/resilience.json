@@ -1,0 +1,21 @@
+{
+    "name": "Resilience",
+    "id": "resilience",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, you repair, sabotage, heal, unhook, vault, cleanse, bless, open Exit Gates, and unlock [9%] faster."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Repairing",
+        "Sabotaging",
+        "Totem",
+        "Unhooking",
+        "Vaulting"
+    ]
+}

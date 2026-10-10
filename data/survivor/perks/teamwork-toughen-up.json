@@ -1,0 +1,14 @@
+{
+    "name": "Teamwork: Toughen Up",
+    "id": "teamwork-toughen-up",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rick Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

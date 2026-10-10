@@ -1,0 +1,27 @@
+{
+    "name": "Hyperfocus",
+    "id": "hyperfocus",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rebecca Chambers",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you hit a great Skill Check while repairing or healing, earn [1] Token, up to [6]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token, Skill Checks are [4%] more likely, their needle is [4%] faster, and great Skill Checks give [30%] more bonus progress."
+        },
+        {
+            "type": "text",
+            "content": "Missing a Skill Check or stopping loses all Tokens."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Repairing",
+        "Skill Check",
+        "Token"
+    ]
+}

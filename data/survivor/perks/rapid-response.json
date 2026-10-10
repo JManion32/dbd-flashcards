@@ -1,0 +1,14 @@
+{
+    "name": "Rapid Response",
+    "id": "rapid-response",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Orela Rose",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

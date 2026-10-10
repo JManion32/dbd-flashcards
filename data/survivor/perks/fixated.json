@@ -1,0 +1,20 @@
+{
+    "name": "Fixated",
+    "id": "fixated",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nancy Wheeler",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see your own Scratch Marks."
+        },
+        {
+            "type": "text",
+            "content": "You walk [20%] faster."
+        }
+    ],
+    "tags": [
+        "Scratch Marks"
+    ]
+}

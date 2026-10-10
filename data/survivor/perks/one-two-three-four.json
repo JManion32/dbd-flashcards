@@ -1,0 +1,14 @@
+{
+    "name": "One-Two-Three-Four!",
+    "id": "one-two-three-four",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Vee Boonyasak",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Deception",
+    "id": "deception",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Élodie Rakoto",
+    "description": [
+        {
+            "type": "text",
+            "content": "While running, interacting with a Locker without entering it makes a loud noise, and you leave no Scratch Marks for [3s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "tags": [
+        "Locker",
+        "Scratch Marks"
+    ]
+}

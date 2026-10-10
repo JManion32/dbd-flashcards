@@ -1,0 +1,16 @@
+{
+    "name": "Streetwise",
+    "id": "streetwise",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nea Karlsson",
+    "description": [
+        {
+            "type": "text",
+            "content": "Your Items, and those of Survivors within [8m] of you, use [25%] fewer charges."
+        }
+    ],
+    "tags": [
+        "Items"
+    ]
+}

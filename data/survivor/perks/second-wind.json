@@ -1,0 +1,18 @@
+{
+    "name": "Second Wind",
+    "id": "second-wind",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Steve Harrington",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you heal another Survivor, the next time you are unhooked, you gain [Broken], then are healed after [28s]."
+        }
+    ],
+    "tags": [
+        "Broken",
+        "Healing",
+        "Unhooking"
+    ]
+}

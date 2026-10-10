@@ -1,0 +1,14 @@
+{
+    "name": "Specialist",
+    "id": "specialist",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Lara Croft",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

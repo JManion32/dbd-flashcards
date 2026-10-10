@@ -1,0 +1,17 @@
+{
+    "name": "Desperate Measures",
+    "id": "desperate-measures",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Felix Richter",
+    "description": [
+        {
+            "type": "text",
+            "content": "For each injured, hooked, or dying Survivor, you heal and unhook [14%] faster, up to [56%]."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Unhooking"
+    ]
+}

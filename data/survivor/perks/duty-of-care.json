@@ -1,0 +1,14 @@
+{
+    "name": "Duty of Care",
+    "id": "duty-of-care",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Orela Rose",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

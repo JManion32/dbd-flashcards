@@ -1,0 +1,20 @@
+{
+    "name": "Tenacity",
+    "id": "tenacity",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Detective Tapp",
+    "description": [
+        {
+            "type": "text",
+            "content": "You crawl [30%] faster and can recover while crawling."
+        },
+        {
+            "type": "text",
+            "content": "Your Grunts of Pain are silent while dying."
+        }
+    ],
+    "tags": [
+        "Healing"
+    ]
+}

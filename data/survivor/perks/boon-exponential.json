@@ -1,0 +1,22 @@
+{
+    "name": "Boon: Exponential",
+    "id": "boon-exponential",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jonah Vasquez",
+    "description": [
+        {
+            "type": "text",
+            "content": "Bless a Dull or Hex Totem to create a Boon Totem with a [24m] range."
+        },
+        {
+            "type": "text",
+            "content": "Survivors within range recover from the dying state [100%] faster and can fully recover."
+        }
+    ],
+    "tags": [
+        "Boon",
+        "Healing",
+        "Totem"
+    ]
+}

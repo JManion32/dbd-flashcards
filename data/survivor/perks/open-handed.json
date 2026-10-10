@@ -1,0 +1,16 @@
+{
+    "name": "Open-Handed",
+    "id": "open-handed",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ace Visconti",
+    "description": [
+        {
+            "type": "text",
+            "content": "All Survivors see Auras [8m] farther."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

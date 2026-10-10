@@ -1,0 +1,14 @@
+{
+    "name": "Spine Chill",
+    "id": "spine-chill",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Killer is within [36m] and looking at you, you are alerted."
+        }
+    ],
+    "tags": []
+}

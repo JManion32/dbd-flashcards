@@ -1,0 +1,14 @@
+{
+    "name": "Urban Evasion",
+    "id": "urban-evasion",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nea Karlsson",
+    "description": [
+        {
+            "type": "text",
+            "content": "You move [90%] faster while crouched."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Teamwork: Soft Spoken",
+    "id": "teamwork-soft-spoken",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Vee Boonyasak",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

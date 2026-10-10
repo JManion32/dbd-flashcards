@@ -1,0 +1,14 @@
+{
+    "name": "Teamwork: Throwdown",
+    "id": "teamwork-throwdown",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Michonne Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

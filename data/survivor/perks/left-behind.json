@@ -1,0 +1,17 @@
+{
+    "name": "Left Behind",
+    "id": "left-behind",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Bill Overbeck",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you are the last Survivor remaining, you see the Aura of the Hatch within [32m]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "End Game"
+    ]
+}

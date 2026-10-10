@@ -1,0 +1,16 @@
+{
+    "name": "Low Profile",
+    "id": "low-profile",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ada Wong",
+    "description": [
+        {
+            "type": "text",
+            "content": "When all other Survivors are dying, hooked, or dead, you leave no Scratch Marks or Pools of Blood."
+        }
+    ],
+    "tags": [
+        "Scratch Marks"
+    ]
+}

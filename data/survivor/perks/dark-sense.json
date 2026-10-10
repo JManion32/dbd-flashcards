@@ -1,0 +1,17 @@
+{
+    "name": "Dark Sense",
+    "id": "dark-sense",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, you see the Killer's Aura for [10s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator"
+    ]
+}

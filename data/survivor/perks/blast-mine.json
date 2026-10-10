@@ -1,0 +1,32 @@
+{
+    "name": "Blast Mine",
+    "id": "blast-mine",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jill Valentine",
+    "description": [
+        {
+            "type": "text",
+            "content": "After repairing Generators for [40%], use <Active Ability> to trap a Generator for [120s]. Survivors see the Auras of trapped Generators."
+        },
+        {
+            "type": "text",
+            "content": "When the Killer damages a trapped Generator, it explodes, then:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They are stunned for [4s].",
+                "Everyone nearby looking at the detonation is blinded."
+            ]
+        }
+    ],
+    "quote": "\"You want S.T.A.R.S.? I'll give you S.T.A.R.S.!\" -Jill Valentine",
+    "tags": [
+        "Aura",
+        "Blind",
+        "Generator",
+        "Repairing",
+        "Stun"
+    ]
+}

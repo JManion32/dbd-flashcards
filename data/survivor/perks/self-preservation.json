@@ -1,0 +1,16 @@
+{
+    "name": "Self-Preservation",
+    "id": "self-preservation",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Lee Yun-Jin",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever another Survivor within [16m] is hit by the Killer, you leave no Scratch Marks, Pools of Blood, or Grunts of Pain for [10s]."
+        }
+    ],
+    "tags": [
+        "Scratch Marks"
+    ]
+}

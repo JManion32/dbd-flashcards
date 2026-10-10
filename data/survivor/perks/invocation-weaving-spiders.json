@@ -1,0 +1,22 @@
+{
+    "name": "Invocation: Weaving Spiders",
+    "id": "invocation-weaving-spiders",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Sable Ward",
+    "description": [
+        {
+            "type": "text",
+            "content": "In the Basement, you can perform an Invocation."
+        },
+        {
+            "type": "text",
+            "content": "When it is completed, all Generators need [10%] less progress, and you gain [Broken] for the rest of the trial."
+        }
+    ],
+    "tags": [
+        "Basement",
+        "Broken",
+        "Generator"
+    ]
+}

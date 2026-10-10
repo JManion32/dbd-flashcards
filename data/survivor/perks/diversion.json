@@ -1,0 +1,16 @@
+{
+    "name": "Diversion",
+    "id": "diversion",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Adam Francis",
+    "description": [
+        {
+            "type": "text",
+            "content": "After being in the Killer's Terror Radius for [30s] without being chased, use <Active Ability> while crouched and still to throw a pebble that makes a loud noise [20m] away."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Windows of Opportunity",
+    "id": "windows-of-opportunity",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Kate Denson",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of Pallets, Breakable Walls, and Windows within [24m]."
+        },
+        {
+            "type": "text",
+            "content": "After a chase ends, this deactivates for [20s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Chase",
+        "Pallet",
+        "Window"
+    ]
+}

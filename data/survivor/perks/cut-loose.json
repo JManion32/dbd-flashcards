@@ -1,0 +1,14 @@
+{
+    "name": "Cut Loose",
+    "id": "cut-loose",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Thalita Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

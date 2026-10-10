@@ -1,0 +1,20 @@
+{
+    "name": "Vigil",
+    "id": "vigil",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Quentin Smith",
+    "description": [
+        {
+            "type": "text",
+            "content": "You and Survivors within [8m] of you recover from [Blindness], [Broken], [Exhausted], [Hemorrhage], and [Mangled] [20%] faster."
+        }
+    ],
+    "tags": [
+        "Blindness",
+        "Broken",
+        "Exhaustion",
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

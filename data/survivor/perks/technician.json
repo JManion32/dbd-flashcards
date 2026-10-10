@@ -1,0 +1,23 @@
+{
+    "name": "Technician",
+    "id": "technician",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Feng Min",
+    "description": [
+        {
+            "type": "text",
+            "content": "Your Generator repair noises are [8m] quieter."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you miss a Skill Check while repairing, the Generator does not explode, but loses [5%] more progress."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Regression",
+        "Repairing",
+        "Skill Check"
+    ]
+}

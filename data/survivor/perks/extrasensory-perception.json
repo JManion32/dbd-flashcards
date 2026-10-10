@@ -1,0 +1,14 @@
+{
+    "name": "Extrasensory Perception",
+    "id": "extrasensory-perception",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Eleven",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

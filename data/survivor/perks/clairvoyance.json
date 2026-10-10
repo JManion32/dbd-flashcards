@@ -1,0 +1,20 @@
+{
+    "name": "Clairvoyance",
+    "id": "clairvoyance",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Mikaela Reid",
+    "description": [
+        {
+            "type": "text",
+            "content": "After cleansing a Totem, use <Active Ability> while holding nothing to see the Auras of Chests, Exit Gates, the Hatch, and Generators within [64m] for [10s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Chest",
+        "Exit Gate",
+        "Generator",
+        "Totem"
+    ]
+}

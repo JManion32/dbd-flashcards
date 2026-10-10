@@ -1,0 +1,14 @@
+{
+    "name": "We See You",
+    "id": "we-see-you",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Eleven",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

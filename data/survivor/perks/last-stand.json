@@ -1,0 +1,14 @@
+{
+    "name": "Last Stand",
+    "id": "last-stand",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Eleven",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

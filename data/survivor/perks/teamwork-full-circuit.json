@@ -1,0 +1,14 @@
+{
+    "name": "Teamwork: Full Circuit",
+    "id": "teamwork-full-circuit",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dustin Henderson",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,21 @@
+{
+    "name": "For the People",
+    "id": "for-the-people",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Zarina Kassir",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healthy, use <Active Ability> while healing a dying Survivor without a Med-Kit to instantly heal them to injured."
+        },
+        {
+            "type": "text",
+            "content": "You gain [Broken] for [110s]."
+        }
+    ],
+    "tags": [
+        "Broken",
+        "Healing"
+    ]
+}

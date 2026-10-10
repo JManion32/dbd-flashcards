@@ -1,0 +1,18 @@
+{
+    "name": "Friendly Competition",
+    "id": "friendly-competition",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Thalita Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you and another Survivor complete a Generator together, you both gain [5%] [Haste] for [45s]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Haste",
+        "Repairing"
+    ]
+}

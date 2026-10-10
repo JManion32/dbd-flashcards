@@ -1,0 +1,23 @@
+{
+    "name": "Decisive Strike",
+    "id": "decisive-strike",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Laurie Strode",
+    "description": [
+        {
+            "type": "text",
+            "content": "For [60s] after being unhooked, if the Killer picks you up, hit a Skill Check to escape and stun them for [5s]."
+        },
+        {
+            "type": "text",
+            "content": "This deactivates if you repair, heal, sabotage, cleanse, bless, or unhook."
+        }
+    ],
+    "tags": [
+        "Carrying",
+        "Skill Check",
+        "Stun",
+        "Unhooking"
+    ]
+}

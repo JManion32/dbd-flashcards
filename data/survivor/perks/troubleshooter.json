@@ -1,0 +1,14 @@
+{
+    "name": "Troubleshooter",
+    "id": "troubleshooter",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Gabriel Soma",
+    "description": [
+        {
+            "type": "text",
+            "content": "TODO"
+        }
+    ],
+    "tags": []
+}

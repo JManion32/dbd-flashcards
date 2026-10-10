@@ -1,0 +1,23 @@
+{
+    "name": "Boon: Shadow Step",
+    "id": "boon-shadow-step",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Mikaela Reid",
+    "description": [
+        {
+            "type": "text",
+            "content": "Bless a Dull or Hex Totem to create a Boon Totem with a [24m] range."
+        },
+        {
+            "type": "text",
+            "content": "Survivors within range leave no Scratch Marks and the Killer cannot see their Auras. This lingers for [4s] after they leave its range."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Boon",
+        "Scratch Marks",
+        "Totem"
+    ]
+}

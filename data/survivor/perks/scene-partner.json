@@ -1,0 +1,22 @@
+{
+    "name": "Scene Partner",
+    "id": "scene-partner",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nicolas Cage",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you look at the Killer within their Terror Radius, you scream and see their Aura for [3s]."
+        },
+        {
+            "type": "text",
+            "content": "You have a chance to scream again, which extends this by [2s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Scream",
+        "Terror Radius"
+    ]
+}

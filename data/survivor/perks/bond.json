@@ -1,0 +1,17 @@
+{
+    "name": "Bond",
+    "id": "bond",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dwight Fairfield",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of other Survivors within [36m]."
+        }
+    ],
+    "quote": "We have to work as a team, I need you to survive so that I can survive!\" -Dwight",
+    "tags": [
+        "Aura"
+    ]
+}

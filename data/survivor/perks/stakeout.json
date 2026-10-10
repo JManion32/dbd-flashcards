@@ -1,0 +1,22 @@
+{
+    "name": "Stakeout",
+    "id": "stakeout",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Detective Tapp",
+    "description": [
+        {
+            "type": "text",
+            "content": "For every [15s] within the Killer's Terror Radius without being chased, earn [1] Token, up to [4]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you hit a good Skill Check, spend [1] Token to make it a great Skill Check."
+        }
+    ],
+    "tags": [
+        "Skill Check",
+        "Terror Radius",
+        "Token"
+    ]
+}

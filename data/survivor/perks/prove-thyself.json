@@ -1,0 +1,17 @@
+{
+    "name": "Prove Thyself",
+    "id": "prove-thyself",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dwight Fairfield",
+    "description": [
+        {
+            "type": "text",
+            "content": "You repair [15%] faster for each other Survivor within [4m] of you."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Repairing"
+    ]
+}

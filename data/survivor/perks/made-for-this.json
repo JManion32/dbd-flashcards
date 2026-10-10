@@ -1,0 +1,21 @@
+{
+    "name": "Made for This",
+    "id": "made-for-this",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Gabriel Soma",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, you gain [3%] [Haste]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you finish healing another Survivor, you gain [Endurance] for [10s]."
+        }
+    ],
+    "tags": [
+        "Haste",
+        "Healing"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Detective's Hunch",
+    "id": "detectives-hunch",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Detective Tapp",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, you see the Auras of Chests, Generators, and Totems within [64m] for [10s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Chest",
+        "Generator",
+        "Totem"
+    ]
+}

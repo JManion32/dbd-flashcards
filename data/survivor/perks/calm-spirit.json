@@ -1,0 +1,21 @@
+{
+    "name": "Calm Spirit",
+    "id": "calm-spirit",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jake Park",
+    "description": [
+        {
+            "type": "text",
+            "content": "You do not scream."
+        },
+        {
+            "type": "text",
+            "content": "Crows are [80%] less likely to be scared by you."
+        }
+    ],
+    "tags": [
+        "Crow",
+        "Scream"
+    ]
+}

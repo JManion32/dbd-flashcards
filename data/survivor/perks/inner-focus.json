@@ -1,0 +1,21 @@
+{
+    "name": "Inner Focus",
+    "id": "inner-focus",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Haddie Kaur",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Scratch Marks of other Survivors."
+        },
+        {
+            "type": "text",
+            "content": "Whenever another Survivor loses a Health State, you see the Killer's Aura for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Scratch Marks"
+    ]
+}

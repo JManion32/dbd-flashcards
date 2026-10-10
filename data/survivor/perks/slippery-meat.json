@@ -1,0 +1,22 @@
+{
+    "name": "Slippery Meat",
+    "id": "slippery-meat",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "You have [3%] more Luck when trying to unhook yourself."
+        },
+        {
+            "type": "text",
+            "content": "You wiggle [15%] faster."
+        }
+    ],
+    "tags": [
+        "Hooking",
+        "Luck",
+        "Unhooking"
+    ]
+}
