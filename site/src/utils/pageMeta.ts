@@ -1,12 +1,6 @@
 /* Keeps the title, description, and canonical URL in sync with the current route for search engines. */
 
-const SITE_URL = 'https://dbdflashcards.com';
-
-export interface PageMeta {
-    title: string;
-    description: string;
-    noindex?: boolean;
-}
+import { SITE_URL, type PageMeta } from '@/routeMeta';
 
 function setMetaTag(attr: 'name' | 'property', key: string, content: string) {
     let tag = document.head.querySelector<HTMLMetaElement>(`meta[${attr}="${key}"]`);
