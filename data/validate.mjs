@@ -15,6 +15,7 @@ import {
     assertLowerKebabCase,
     validateList,
     assertAlphabeticalList,
+    assertBalancedBrackets,
 } from './validation/validate-helper.mjs';
 import validateFieldOrder from './validation/validateFieldOrder.mjs';
 
@@ -58,6 +59,9 @@ for (const file of jsonFiles) {
         hasErrors = true;
     }
     if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+        hasErrors = true;
+    }
+    if (assertBalancedBrackets(file, parsedFile)) {
         hasErrors = true;
     }
 

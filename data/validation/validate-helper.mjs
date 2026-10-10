@@ -110,3 +110,43 @@ export function assertAlphabeticalList(file, field, list) {
     }
     return false;
 }
+
+const closingBrackets = { '(': ')', '[': ']', '{': '}', '<': '>' };
+const openingBrackets = { ')': '(', ']': '[', '}': '{', '>': '<' };
+
+// Every string value (descriptions, list items, quotes, etc.) must open and close its brackets in order.
+export function assertBalancedBrackets(file, value, field = '') {
+    if (Array.isArray(value)) {
+        return value.map((item, i) => assertBalancedBrackets(file, item, `${field}[${i}]`)).some(Boolean);
+    }
+    if (value && typeof value === 'object') {
+        return Object.entries(value)
+            .map(
+                ([
+                    key,
+                    item,
+                ]) => assertBalancedBrackets(file, item, field ? `${field}.${key}` : key)
+            )
+            .some(Boolean);
+    }
+    if (typeof value !== 'string') {
+        return false;
+    }
+
+    const stack = [];
+    for (const char of value) {
+        if (char in closingBrackets) {
+            stack.push(char);
+        } else if (char in openingBrackets) {
+            if (stack.pop() !== openingBrackets[char]) {
+                console.error(`\n❌ ${file}: Unexpected "${char}" in ${field}: "${value}"`);
+                return true;
+            }
+        }
+    }
+    if (stack.length > 0) {
+        console.error(`\n❌ ${file}: Unclosed "${stack.at(-1)}" in ${field}: "${value}"`);
+        return true;
+    }
+    return false;
+}
