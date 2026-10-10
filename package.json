@@ -1,5 +1,11 @@
 {
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.3.1"
-  }
+    "name": "dbd-flashcards",
+    "private": true,
+    "scripts": {
+        "lint-check": "npm --prefix site run lint-check && npm --prefix data run lint-check",
+        "lint-fix": "npm --prefix site run lint-fix && npm --prefix data run lint-fix",
+        "validate": "npm --prefix data run validate",
+        "check": "npm run lint-check && npm run validate",
+        "all": "npm run validate && npm run lint-fix"
+    }
 }
