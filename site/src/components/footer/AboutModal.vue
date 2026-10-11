@@ -33,7 +33,8 @@ const visible = ref(false);
             </p>
             <p>
                 DBD Flashcards takes you back to the joy of studying for a high school science test. Become a Dead by
-                Daylight expert in no time with quick feedback and repetition across more than 1,200 perks and add-ons.
+                Daylight expert in no time with quick feedback and repetition across more than 1,200 up-to-date perks
+                and add-ons.
             </p>
             <hr />
             <h3>Contributing</h3>
@@ -55,25 +56,6 @@ const visible = ref(false);
                 color="#24292E"
             />
             <hr />
-            <h3>Coming Soon</h3>
-            <p>DBD Flashcards is just getting started! A few potential features:</p>
-            <ul>
-                <li>Advanced filtering on the Perks / Add-Ons pages.</li>
-                <li>More configuration options for flashcards.</li>
-                <li>Persistent storage of study sessions.</li>
-                <li>Alternative quiz modes such as multiple choice.</li>
-                <li>Standing up an API for the perks / add-ons data.</li>
-            </ul>
-            <hr />
-            <h3>Disclaimer</h3>
-            <p>
-                <i
-                    >Dead by Daylight Flashcards is an unofficial, fan-made project and is not affiliated with, endorsed
-                    by, or sponsored by Behaviour Interactive. Dead by Daylight and related trademarks and assets are
-                    the property of their respective owners.</i
-                >
-            </p>
-            <hr />
             <h3>Connect</h3>
             <p>Have ideas or feedback? Enjoy Dead by Daylight? Consider checking out my Twitch!</p>
             <LinkCard
@@ -84,8 +66,15 @@ const visible = ref(false);
                 color="#9146FF"
             />
             <hr />
-            <!--TODO: Hook this into page edits.-->
-            <p class="modal-last-updated">Last updated: 09-29-2026</p>
+            <p>
+                <i
+                    >Dead by Daylight Flashcards is an unofficial, fan-made project and is not affiliated with, endorsed
+                    by, or sponsored by Behaviour Interactive. Dead by Daylight and related trademarks and assets are
+                    the property of their respective owners.</i
+                >
+            </p>
+            <hr />
+            <p class="modal-last-updated">Last updated: 2026-10-11</p>
         </div>
     </Modal>
 </template>

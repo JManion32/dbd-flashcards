@@ -41,7 +41,7 @@ const visible = ref(false);
             <h3>Changes</h3>
             <p>This policy may be updated if the site's features or data practices change.</p>
             <hr />
-            <p class="modal-last-updated">Last updated: 09-27-2026</p>
+            <p class="modal-last-updated">Last updated: 2026-09-27</p>
         </div>
     </Modal>
 </template>

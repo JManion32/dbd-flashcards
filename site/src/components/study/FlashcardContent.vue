@@ -55,7 +55,6 @@ const props = defineProps<{
         <h2>
             {{ props.gameItem.name }}
         </h2>
-        <GameItemDisplayDesc :desc="gameItem.description" />
     </div>
 </template>
 <style scoped>

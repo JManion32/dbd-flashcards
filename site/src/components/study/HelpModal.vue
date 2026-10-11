@@ -24,18 +24,18 @@ const visible = ref(false);
             <h2>Help</h2>
             <p>The front of the flashcard is one of the following presets:</p>
             <ul>
-                <li>Icon Only</li>
                 <li>Name and Icon</li>
+                <li>Icon Only</li>
                 <li>Description Only</li>
             </ul>
-            <p>Click on the flashcard to flip it. The back will contain name, icon, description, and other metadata.</p>
+            <p>Click on the flashcard to flip it. The back will contain the missing information.</p>
             <p>
                 If you knew the answer, click the check button beneath the flashcard to mark it as "Known". If you
                 didn't, click the x button to mark it as "Still Learning".
             </p>
             <p>
                 You will have the option to retry all flashcards marked as "Still Learning" at the end of the current
-                session.
+                session. You can also choose to restart with a new set and the same configuration.
             </p>
             <hr />
             <h3>Hotkeys</h3>
@@ -47,7 +47,7 @@ const visible = ref(false);
             <p>
                 Please note that reloading the page at any time will discard all progress in your current session, and
                 start a new session with the default study configuration. This is by design, and may be reevaluated in
-                the futue.
+                the future.
             </p>
         </div>
     </Modal>
