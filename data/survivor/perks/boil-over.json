@@ -16,10 +16,6 @@
                 "Your wiggling moves the Killer [80%] more.",
                 "The Killer cannot see the Auras of Hooks within [16m] of you."
             ]
-        },
-        {
-            "type": "text",
-            "content": "Whenever the Killer falls while carrying you, you gain [33%] wiggle progress."
         }
     ],
     "quote": "\"Buck and Wild/ Swing to be free/Your hands just can't keep ahold of me.\" -Kate Denson's Boil Over",

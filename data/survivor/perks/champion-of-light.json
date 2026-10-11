@@ -7,8 +7,21 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "While you are using a Flashlight, you gain [50%] [Haste]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you blind the Killer, they gain [20%] [Hindered] for [6s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [40s]."
         }
     ],
-    "tags": []
+    "quote": "\"I squeezed the flashlight like my life depended on it, willing it to stop coming any closer.\" -Departure",
+    "tags": [
+        "Blind",
+        "Haste",
+        "Hinder"
+    ]
 }

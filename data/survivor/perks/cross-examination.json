@@ -1,0 +1,23 @@
+{
+    "name": "Cross-Examination",
+    "id": "cross-examination",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Shane Wiigwaas",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in the Killer's Terror Radius and not being chased by the Killer, they leave Light Marks that last for [10s] that you can see. While on the Killer's Light Marks, you gain [Elusive]."
+        },
+        {
+            "type": "text",
+            "content": "This ends after [5s]."
+        }
+    ],
+    "quote": "\"The witness has said enough, Your Honor. No further questions.\" -Shane Wiigwaas",
+    "tags": [
+        "Aura",
+        "Elusive",
+        "Terror Radius"
+    ]
+}

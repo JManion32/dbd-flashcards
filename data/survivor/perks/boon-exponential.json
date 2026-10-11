@@ -11,11 +11,20 @@
         },
         {
             "type": "text",
-            "content": "Survivors within range recover from the dying state [100%] faster and can fully recover."
+            "content": "Survivors within range:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Recover from the dying state [100%] faster.",
+                "Can fully recover."
+            ]
         }
     ],
+    "quote": "\"It's not our time to die... probably.\" -Jonah Vasquez",
     "tags": [
         "Boon",
+        "Dying State",
         "Healing",
         "Totem"
     ]

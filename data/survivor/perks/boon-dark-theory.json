@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "content": "Survivors within range gain [2%] [Haste]. This lingers for [4s] after they leave its range."
+            "content": "Survivors within range gain [3%] [Haste]. This lingers for [4s] after they leave its range."
         }
     ],
     "tags": [

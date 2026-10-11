@@ -16,11 +16,12 @@
         {
             "type": "list",
             "items": [
-                "Heal [40%] faster.",
-                "See the Auras of injured Survivors."
+                "Heal others [100%] faster without a Med-Kit.",
+                "While injured, other Survivors see their Aura."
             ]
         }
     ],
+    "quote": "\"Try this, it's better than anything you'll find in a pharmacy.\" -Mikaela Reid",
     "tags": [
         "Aura",
         "Boon",

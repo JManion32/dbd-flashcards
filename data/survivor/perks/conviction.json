@@ -7,8 +7,16 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "After you finish healing [1] other Survivor, while downed with at least [25%] recorvery, use <aCtivate Ability> to recover instantly."
+        },
+        {
+            "type": "text",
+            "content": "You gain [Broken], then, after [30s], you are downed instantly."
         }
     ],
-    "tags": []
+    "quote": "\"It's enough to keep going. Keep trying. Keep fighting. Keep dreaming.\" -Michonne Grimes",
+    "tags": [
+        "Broken",
+        "Dying State"
+    ]
 }

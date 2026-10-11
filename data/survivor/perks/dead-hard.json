@@ -7,14 +7,21 @@
     "description": [
         {
             "type": "text",
-            "content": "While injured, use <Active Ability> while running to become immune to damage for [0.5s]."
+            "content": "Whenever you are unhooked, while injured and running, use <Activate Ability>:"
         },
         {
-            "type": "text",
-            "content": "You gain [Exhausted] for [40s]."
+            "type": "list",
+            "items": [
+                "You gain [Endurance] for [0.5s].",
+                "You gain [Exhausted] for [40s]."
+            ]
         }
     ],
+    "quote": "\"I thought to myself, 'Gonna 'ave some fun 'ere lads, let's get stuck in!' It were a right dust up, I swear down!\" -David King",
     "tags": [
-        "Exhaustion"
+        "Endurance",
+        "Exhaustion",
+        "Injured State",
+        "Unhooking"
     ]
 }

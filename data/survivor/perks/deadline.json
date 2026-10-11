@@ -7,12 +7,23 @@
     "description": [
         {
             "type": "text",
-            "content": "While injured, Skill Checks while repairing or healing appear in random places, but you repair and heal [6%] faster."
+            "content": "While injured, basic Skill Checks:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Are [10%] more likely to appear.",
+                "Appear in random places."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Whenever you miss a basic Skill Check, you lose [50%] less progress."
         }
     ],
+    "quote": "\"The night had been one desperate situation after another.\" -Departure",
     "tags": [
-        "Healing",
-        "Repairing",
+        "Injured State",
         "Skill Check"
     ]
 }

@@ -1,0 +1,37 @@
+{
+    "name": "Boon: Steadfast",
+    "id": "boon-steadfast",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Aurora Stardotter",
+    "description": [
+        {
+            "type": "text",
+            "content": "Bless a Dull or Hex Totem to create a Boon Totem with a [24m] range."
+        },
+        {
+            "type": "text",
+            "content": "Generators within the Boon's range:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Regress [50%] slower.",
+                "Survivors repair them [10%] faster."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Survivors within the Boon's range see the Auras of affected Generators."
+        }
+    ],
+    "quote": "\"That which tine hands deliver shall prosper, for thine hands are guided by faith.\" (Enlightenments, 2:10)",
+    "tags": [
+        "Aura",
+        "Boon",
+        "Generator",
+        "Regression",
+        "Repairing",
+        "Totem"
+    ]
+}

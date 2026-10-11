@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Until all Generators are completed, whenever you are unhooked, for the next [60s], while [Exhausted], use <Activate Ability 1> to lose [Exhausted] instantly."
+            "content": "Until all Generators are completed, whenever you are unhooked, for the next [60s], while [Exhausted], use <Activate Ability> to lose [Exhausted] instantly."
         },
         {
             "type": "text",

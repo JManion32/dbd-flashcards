@@ -11,9 +11,14 @@
         },
         {
             "type": "text",
-            "content": "Survivors within range leave no Scratch Marks and the Killer cannot see their Auras. This lingers for [4s] after they leave its range."
+            "content": "Survivors within range leave no Scratch Marks and the Killer cannot see their Auras."
+        },
+        {
+            "type": "text",
+            "content": "This lingers for [4s] after they leave its range."
         }
     ],
+    "quote": "\"Stick to the shadows and cover your tracks.\" -Mikaela Reid",
     "tags": [
         "Aura",
         "Boon",

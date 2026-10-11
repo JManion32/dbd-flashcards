@@ -7,16 +7,17 @@
     "description": [
         {
             "type": "text",
-            "content": "While within [6m] of a carried Survivor:"
+            "content": "Within [5m] of a carried Survivor:"
         },
         {
             "type": "list",
             "items": [
-                "You gain [5%] [Haste].",
-                "They wiggle [20%] faster."
+                "You gain [10%] [Haste].",
+                "They wiggle [25%] faster."
             ]
         }
     ],
+    "quote": "\"Come, we're going to rip our way out of this.\" -Yui Kimura",
     "tags": [
         "Carrying",
         "Haste"

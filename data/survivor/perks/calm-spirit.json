@@ -7,15 +7,17 @@
     "description": [
         {
             "type": "text",
-            "content": "You do not scream."
+            "content": "You do not scare crows or scream."
         },
         {
             "type": "text",
-            "content": "Crows are [80%] less likely to be scared by you."
+            "content": "You bless/cleanse totems and unlock Chests silently and [10%] faster."
         }
     ],
     "tags": [
+        "Chest",
         "Crow",
-        "Scream"
+        "Scream",
+        "Totem"
     ]
 }

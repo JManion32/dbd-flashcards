@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "After repairing Generators for [40%], use <Active Ability> to trap a Generator for [120s]. Survivors see the Auras of trapped Generators."
+            "content": "After repairing [40%] of Generators, use <Active Ability> to trap a Generator for [120s]. All Survivors see the Auras of trapped Generators."
         },
         {
             "type": "text",

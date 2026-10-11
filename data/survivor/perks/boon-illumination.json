@@ -11,13 +11,19 @@
         },
         {
             "type": "text",
-            "content": "Survivors within range see the Auras of all Chests."
+            "content": "Survivors within range see the Auras of all Chests and Generators."
+        },
+        {
+            "type": "text",
+            "content": "While you have a Boon Totem, you bless [200%] faster."
         }
     ],
+    "quote": "\"A shift in reality. Heavy with hidden meanings.\" -Return",
     "tags": [
         "Aura",
         "Boon",
         "Chest",
+        "Generator",
         "Totem"
     ]
 }

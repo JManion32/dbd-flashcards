@@ -7,16 +7,27 @@
     "description": [
         {
             "type": "text",
-            "content": "You start the trial with [5] Tokens."
+            "content": "When the trial starts, you earn [3] Tokens, up to [5]."
         },
         {
             "type": "text",
-            "content": "Whenever another Survivor repairing the same Generator as you misses a Skill Check, spend [1] Token to turn it into a good Skill Check."
+            "content": "Whenever you hit a great basic Skill Check, earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "Whenever another Survivor misses a basic Skill Check, spend [1] Token:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The missed Skill Check becomes a good Skill Check.",
+                "You see that Survivor's Aura for [6s]."
+            ]
         }
     ],
+    "quote": "\"Can't hurt to have another set of eyes on the problem.\" -Jonah Vasquez",
     "tags": [
         "Generator",
-        "Repairing",
         "Skill Check",
         "Token"
     ]

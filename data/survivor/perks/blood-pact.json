@@ -18,6 +18,10 @@
         },
         {
             "type": "text",
+            "content": "While you are the Obsession, if you are hooked, another Survivor becomes the Obsession."
+        },
+        {
+            "type": "text",
             "content": "When the trial starts, you are less likely to be the Obsession."
         }
     ],

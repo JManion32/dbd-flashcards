@@ -8,12 +8,9 @@
         {
             "type": "text",
             "content": "You heal [50%] faster."
-        },
-        {
-            "type": "text",
-            "content": "Med-Kits are [20%] less efficient."
         }
     ],
+    "quote": "\"Basic botany knowledge could save your life someday.\" -Claudette Morel",
     "tags": [
         "Healing",
         "Items"

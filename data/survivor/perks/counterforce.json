@@ -7,13 +7,18 @@
     "description": [
         {
             "type": "text",
-            "content": "You cleanse Totems [20%] faster, plus [20%] for each Totem you cleanse."
+            "content": "When the trial starts, you earn [1] Token."
         },
         {
             "type": "text",
-            "content": "After cleansing a Totem, you see the Aura of the farthest Totem for [4s]."
+            "content": "Whenever you cleanse a Totem, earn [1] Token, then, you see the Aura of the farthest Totem for [14s]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token, you cleanse Totems [25%] faster."
         }
     ],
+    "quote": "\"I don't mind a little detective work.\" -Jill Valentine",
     "tags": [
         "Aura",
         "Totem"
