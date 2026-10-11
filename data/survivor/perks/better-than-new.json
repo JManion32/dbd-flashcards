@@ -12,9 +12,9 @@
         {
             "type": "list",
             "items": [
-                "They bless and cleanse Totems [16%] faster.",
-                "They heal [16%] faster.",
-                "They unlock Chests [16%] faster."
+                "They bless and cleanse Totems [50%] faster.",
+                "They heal [50%] faster.",
+                "They unlock Chests [50%] faster."
             ]
         }
     ],
