@@ -4,8 +4,8 @@ import '@/styles/modal.css';
 import GameItemDisplayDesc from '@/components/gameitem/GameItemDisplayDesc.vue';
 import { getGameItemImage } from '@/utils/resolveGameItemImg';
 
-import type { GameItem } from '@/types/GameItem.ts';
-import type { StudyConfig } from '@/types/StudyConfig.ts';
+import type { GameItem } from '@/types/gameItem';
+import type { StudyConfig } from '@/types/studyConfig';
 
 const props = defineProps<{
     gameItem: GameItem;

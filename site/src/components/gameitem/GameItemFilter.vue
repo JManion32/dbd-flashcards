@@ -1,25 +1,23 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import type GameItemFilter from '@/types/GameItemFilter.ts';
-
-// import survivorIcon from '@/assets/survivor-icon.webp';
-// import killerIcon from '@/assets/killer-icon.webp';
+import type { GameItemFilter } from '@/types/gameItemFilter';
+import GameItemFilterModal from '@/components/gameitem/GameItemFilterModal.vue';
 
 const props = defineProps<{
     type: 'perks' | 'add-ons';
+    filter: GameItemFilter;
 }>();
-function getDefaultFilter(): GameItemFilter {
-    return {
-        side: 'All',
-        search: '',
-        tags: [],
-    };
-}
 
-const filter = ref<GameItemFilter>(getDefaultFilter());
+const filter = ref<GameItemFilter>({ ...props.filter });
 
 function updateFilter() {
     emit('filter', filter.value);
+}
+
+// The modal sends back a whole new filter (side, survivors, killers, tags)
+function applyModalFilter(newFilter: GameItemFilter) {
+    filter.value = newFilter;
+    updateFilter();
 }
 
 function clearSearch() {
@@ -46,19 +44,6 @@ const emit = defineEmits<{
                 >
                     Killer
                 </button>
-                <!--
-                <button
-                    class="qsb-mobile"
-                    :class="{ active: filter.side === 'Killer' }"
-                    @click="
-                        filter.side = 'Killer';
-                        updateFilter();
-                    "
-                >
-                    <img :src="killerIcon" />
-                </button>
-                -->
-
                 <button
                     class="quick-select-btn"
                     :class="{ active: filter.side === 'Survivor' }"
@@ -69,18 +54,6 @@ const emit = defineEmits<{
                 >
                     Survivor
                 </button>
-                <!--
-                <button
-                    class="qsb-mobile"
-                    :class="{ active: filter.side === 'Survivor' }"
-                    @click="
-                        filter.side = 'Survivor';
-                        updateFilter();
-                    "
-                >
-                    <img :src="survivorIcon" />
-                </button>
-                -->
                 <button
                     class="quick-select-btn"
                     :class="{ active: filter.side === 'All' }"
@@ -93,6 +66,11 @@ const emit = defineEmits<{
                 </button>
             </div>
             <div class="right-filter-container">
+                <GameItemFilterModal
+                    :type="props.type"
+                    :filter="filter"
+                    @selected="applyModalFilter"
+                />
                 <div class="search-field">
                     <input
                         v-model="filter.search"
@@ -139,12 +117,31 @@ const emit = defineEmits<{
 .left-filter-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 1rem;
 }
 .right-filter-container {
     display: flex;
+    flex-direction: var(--right-container-dir);
+    gap: 1.5rem;
+}
+.advanced-filters-container {
+    display: flex;
     flex-direction: row;
-    gap: 0.75rem;
+    gap: 1rem;
+    align-items: center;
+}
+.clear-filters-btn {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--standard-dim);
+    font-weight: 700;
+    transition: var(--site-transition);
+
+    &:hover {
+        color: var(--standard-white);
+        cursor: pointer;
+    }
 }
 .search-field {
     position: relative;

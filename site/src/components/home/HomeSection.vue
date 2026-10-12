@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
-import type { GameItem } from '@/types/GameItem';
+import type { GameItem } from '@/types/gameItem.ts';
 import GameItemCarousel from '../gameitem/GameItemCarousel.vue';
 
 const props = defineProps<{

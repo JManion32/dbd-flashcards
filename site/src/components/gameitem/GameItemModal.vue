@@ -5,7 +5,7 @@ import { ref } from 'vue';
 import Modal from '@/components/Modal.vue';
 import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
 
-import type { GameItem } from '@/types/GameItem.ts';
+import type { GameItem } from '@/types/gameItem';
 
 import { getGameItemImage } from '@/utils/resolveGameItemImg';
 

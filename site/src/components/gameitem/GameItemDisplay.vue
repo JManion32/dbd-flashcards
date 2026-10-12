@@ -10,7 +10,7 @@ import GameItemDisplayTags from '@/components/gameitem/GameItemDisplayTags.vue';
 import { getRarityColor } from '@/utils/formatGameItem';
 import { getGameItemImage } from '@/utils/resolveGameItemImg';
 
-import type { GameItem } from '@/types/GameItem.ts';
+import type { GameItem } from '@/types/gameItem';
 
 const props = defineProps<{
     gameItem: GameItem;

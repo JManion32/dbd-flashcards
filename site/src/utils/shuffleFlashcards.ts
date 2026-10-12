@@ -1,6 +1,6 @@
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
-import type { GameItem } from '@/types/GameItem.ts';
+import type { GameItem } from '@/types/gameItem';
 
 export function shuffle(arr: GameItem[]): GameItem[] {
     let currentIndex = arr.length;

@@ -1,5 +1,9 @@
-import type { GameItem } from '@/types/GameItem.ts';
+import type { GameItem } from '@/types/gameItem';
 import lastUpdatedDates from 'virtual:last-updated';
+import tagList from '../../../data/validation/tags.json';
+import killerList from '../../../data/validation/killers.json';
+import survivorList from '../../../data/validation/survivors.json';
+import itemList from '../../../data/validation/items.json';
 
 // Glob keys are relative to this file ('../../../data/...'); git dates are keyed from the repo root ('data/...')
 function withLastUpdated(modules: Record<string, unknown>): GameItem[] {
@@ -36,3 +40,10 @@ const killerAddOnModules = import.meta.glob('../../../data/killer/add-ons/**/*.j
     import: 'default',
 });
 export const killerAddOns = withLastUpdated(killerAddOnModules);
+
+const alphabetical = (list: string[]) => [...list].sort((a, b) => a.localeCompare(b));
+
+export const tags = alphabetical(tagList);
+export const killers = alphabetical(killerList);
+export const survivors = alphabetical(survivorList);
+export const items = alphabetical(itemList);

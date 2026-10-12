@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 
-import type { GameItem } from '@/types/GameItem';
-import type { StudyConfig } from '@/types/StudyConfig';
+import type { GameItem } from '@/types/gameItem';
+import type { StudyConfig } from '@/types/studyConfig';
 import FlashcardContent from '@/components/study/FlashcardContent.vue';
 const props = defineProps<{
     gameItems: GameItem[];

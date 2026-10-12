@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import GameItemDisplayText from '@/components/gameitem/GameItemDisplayText.vue';
 
-import type { DescriptionBlock } from '@/types/GameItem.ts';
+import type { DescriptionBlock } from '@/types/gameItem';
 
 defineProps<{
     desc: DescriptionBlock[];

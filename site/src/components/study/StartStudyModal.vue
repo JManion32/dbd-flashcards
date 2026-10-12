@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import '@/styles/footer.css';
 import '@/styles/modal.css';
-import type { StudyConfig } from '@/types/StudyConfig.ts';
-import { StudyConfigDefault } from '@/types/StudyConfig.ts';
+import type { StudyConfig } from '@/types/studyConfig';
+import type { Option } from '@/types/options';
+import { StudyConfigDefault } from '@/types/studyConfig';
 
 import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import Modal from '@/components/Modal.vue';
+import OptionSelector from '@/components/OptionSelector.vue';
 import { useData } from '@/stores/useData';
 
 const visible = ref(false);
@@ -15,25 +17,31 @@ const { combinedGameItems } = useData();
 
 const config = ref<StudyConfig>({ ...StudyConfigDefault });
 
-const sideOptions: { value: StudyConfig['side']; label: string; icon?: string }[] = [
+const sideOptions: Option<StudyConfig['side']>[] = [
     { value: 'Killer', label: 'Killer' },
     { value: 'Survivor', label: 'Survivor' },
     { value: 'All', label: 'Both' },
 ];
 
-const typeOptions: { value: StudyConfig['type']; label: string }[] = [
+const typeOptions: Option<StudyConfig['type']>[] = [
     { value: 'Perk', label: 'Perks' },
     { value: 'Add-On', label: 'Add-Ons' },
 ];
 
 // `hint` describes what each side of the card shows: front → back
-const presetOptions: { value: StudyConfig['preset']; label: string }[] = [
+const presetOptions: Option<StudyConfig['preset']>[] = [
     { value: 'Names / Icons', label: 'Name/Icon' },
     { value: 'Icons', label: 'Icon' },
     { value: 'Descriptions', label: 'Desc' },
 ];
 
-const lengthOptions: StudyConfig['length'][] = [10, 25, 50, 100, 'All'];
+const lengthOptions: Option<StudyConfig['length']>[] = [
+    { value: 10, label: '10' },
+    { value: 25, label: '25' },
+    { value: 50, label: '50' },
+    { value: 100, label: '100' },
+    { value: 'All', label: 'All' },
+];
 
 // Same filter StudyPage applies, so the summary matches the session
 const poolSize = computed(() => {
@@ -97,66 +105,30 @@ function restoreDefaults() {
             </p>
 
             <div class="option-groups">
-                <div class="option-group">
-                    <span class="option-label">Side</span>
-                    <div class="segmented">
-                        <button
-                            v-for="option in sideOptions"
-                            :key="option.value"
-                            :class="{ active: config.side === option.value }"
-                            :aria-pressed="config.side === option.value"
-                            @click="setConfig('side', option.value)"
-                        >
-                            {{ option.label }}
-                        </button>
-                    </div>
-                </div>
-
-                <div class="option-group">
-                    <span class="option-label">Type</span>
-                    <div class="segmented">
-                        <button
-                            v-for="option in typeOptions"
-                            :key="option.value"
-                            :class="{ active: config.type === option.value }"
-                            :aria-pressed="config.type === option.value"
-                            @click="setConfig('type', option.value)"
-                        >
-                            {{ option.label }}
-                        </button>
-                    </div>
-                </div>
-
-                <div class="option-group">
-                    <span class="option-label">Card Front</span>
-                    <div class="segmented">
-                        <button
-                            v-for="option in presetOptions"
-                            :key="option.value"
-                            class="segment-with-hint"
-                            :class="{ active: config.preset === option.value }"
-                            :aria-pressed="config.preset === option.value"
-                            @click="setConfig('preset', option.value)"
-                        >
-                            {{ option.label }}
-                        </button>
-                    </div>
-                </div>
-
-                <div class="option-group">
-                    <span class="option-label">Cards</span>
-                    <div class="segmented">
-                        <button
-                            v-for="option in lengthOptions"
-                            :key="option"
-                            :class="{ active: config.length === option }"
-                            :aria-pressed="config.length === option"
-                            @click="setConfig('length', option)"
-                        >
-                            {{ option }}
-                        </button>
-                    </div>
-                </div>
+                <OptionSelector
+                    label="Side"
+                    :options="sideOptions"
+                    :active-value="config.side"
+                    @selected="(newValue) => setConfig('side', newValue)"
+                />
+                <OptionSelector
+                    label="Type"
+                    :options="typeOptions"
+                    :active-value="config.type"
+                    @selected="(newValue) => setConfig('type', newValue)"
+                />
+                <OptionSelector
+                    label="Card Front"
+                    :options="presetOptions"
+                    :active-value="config.preset"
+                    @selected="(newValue) => setConfig('preset', newValue)"
+                />
+                <OptionSelector
+                    label="Card Count"
+                    :options="lengthOptions"
+                    :active-value="config.length"
+                    @selected="(newValue) => setConfig('length', newValue)"
+                />
             </div>
             <div class="study-actions-container">
                 <!--
@@ -190,65 +162,6 @@ function restoreDefaults() {
     gap: 2rem;
     margin: 2.5rem 0 2rem 0;
 }
-.option-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.45rem;
-}
-.option-label {
-    color: var(--inactive-text);
-    font-size: 0.95rem;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-}
-
-/* One connected track per option; each choice sized to its content */
-.segmented {
-    display: flex;
-    gap: 0.35rem;
-    padding: 0.35rem;
-    border-radius: 0.85rem;
-    background: var(--site-bg);
-    border: 1px solid var(--dark-222);
-}
-.segmented button {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.15rem;
-
-    padding: 0.45rem 1rem;
-    border: 1px solid transparent;
-    border-radius: 0.6rem;
-    background: none;
-
-    color: var(--standard-dim);
-    font-family: inherit;
-    font-size: 1.2rem;
-    font-weight: 800;
-    transition: var(--site-transition);
-}
-.segmented button:not(.segment-with-hint) {
-    flex-direction: row;
-    gap: 0.5rem;
-}
-.segmented button:hover {
-    cursor: pointer;
-    color: var(--standard-white);
-    background: var(--secondary-bg);
-}
-.segmented button.active {
-    color: var(--standard-white);
-    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
-    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
-}
-.segmented button.active {
-    color: var(--standard-dim);
-}
-
 .study-actions-container {
     display: flex;
     flex-direction: row;

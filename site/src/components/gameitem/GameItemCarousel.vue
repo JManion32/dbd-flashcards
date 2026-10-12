@@ -2,7 +2,7 @@
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
 
 import GameItemModal from '@/components/gameitem/GameItemModal.vue';
-import type { GameItem } from '@/types/GameItem.ts';
+import type { GameItem } from '@/types/gameItem';
 
 const props = defineProps<{
     gameItems: GameItem[];

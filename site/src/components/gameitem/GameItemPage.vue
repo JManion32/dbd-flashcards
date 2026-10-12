@@ -4,23 +4,16 @@ import GameItemModal from '@/components/gameitem/GameItemModal.vue';
 import cursedImage from '@/assets/cursed-image.png';
 
 import { ref, computed } from 'vue';
-import type GameItemFilterType from '@/types/GameItemFilter.ts';
-import type { GameItem } from '@/types/GameItem.ts';
+import { GameItemFilterDefault } from '@/types/gameItemFilter';
+import type { GameItemFilter as GameItemFilterType } from '@/types/gameItemFilter';
+import type { GameItem } from '@/types/gameItem';
 
 const props = defineProps<{
     type: 'perks' | 'add-ons';
     gameItems: GameItem[];
 }>();
 
-function getDefaultFilter(): GameItemFilterType {
-    return {
-        side: 'All',
-        search: '',
-        tags: [],
-    };
-}
-
-const filter = ref<GameItemFilterType>(getDefaultFilter());
+const filter = ref<GameItemFilterType>({ ...GameItemFilterDefault });
 
 function updateFilter(newFilter: GameItemFilterType) {
     filter.value = newFilter;
@@ -30,6 +23,22 @@ const filteredGameItems = computed(() => {
     return props.gameItems.filter((gameItem) => {
         // Filter by side.
         if (filter.value.side !== 'All' && gameItem.side !== filter.value.side) {
+            return false;
+        }
+
+        // Filter by owner. Each list only matches its own side, so 'Universal' in one doesn't pull in the other.
+        // Survivor perks belong to survivors, survivor add-ons to items; only the list shown for this page counts.
+        const { killers, tags } = filter.value;
+        const survivorOwners = props.type === 'perks' ? filter.value.survivors : filter.value.items;
+        if (survivorOwners.length || killers.length) {
+            const owners = gameItem.side === 'Survivor' ? survivorOwners : killers;
+            if (!owners.includes(gameItem.owner)) {
+                return false;
+            }
+        }
+
+        // Filter by tags: matches items that have every selected tag.
+        if (!tags.every((tag) => gameItem.tags.includes(tag))) {
             return false;
         }
 
@@ -67,6 +76,7 @@ const filteredGameItems = computed(() => {
     <div class="card-displays-container">
         <GameItemFilter
             :type="props.type"
+            :filter="filter"
             @filter="updateFilter"
         />
         <div class="display-cards-container">

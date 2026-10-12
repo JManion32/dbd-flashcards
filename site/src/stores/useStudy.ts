@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import type { StudyConfig } from '@/types/StudyConfig';
+import type { StudyConfig } from '@/types/studyConfig';
 
 const studyConfig = ref<StudyConfig | null>(null);
 

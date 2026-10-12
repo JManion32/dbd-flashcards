@@ -2,7 +2,7 @@
 import '@/styles/footer.css';
 import '@/styles/modal.css';
 import { computed } from 'vue';
-import type { GameItem } from '@/types/GameItem.ts';
+import type { GameItem } from '@/types/gameItem';
 import Modal from '@/components/Modal.vue';
 import StillLearningCard from '@/components/study/StillLearningCard.vue';
 

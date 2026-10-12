@@ -7,9 +7,9 @@ import Choice from '@/components/study/Choice.vue';
 import ProgressBar from '@/components/study/ProgressBar.vue';
 import EndStudyModal from '@/components/study/EndStudyModal.vue';
 
-import type { GameItem } from '@/types/GameItem';
-import type { StudyConfig } from '@/types/StudyConfig';
-import { StudyConfigDefault } from '@/types/StudyConfig';
+import type { GameItem } from '@/types/gameItem';
+import type { StudyConfig } from '@/types/studyConfig';
+import { StudyConfigDefault } from '@/types/studyConfig';
 import { useData } from '@/stores/useData';
 import { useStudy } from '@/stores/useStudy';
 import { shuffle } from '@/utils/shuffleFlashcards';
