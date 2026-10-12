@@ -134,6 +134,7 @@ function toggleItem(item: string) {
 .chips {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.4rem;
     padding: 0.5rem;
     border-radius: 0.85rem;
