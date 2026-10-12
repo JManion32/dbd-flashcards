@@ -7,9 +7,10 @@
     "description": [
         {
             "type": "text",
-            "content": "For each injured, hooked, or dying Survivor, you heal and unhook [14%] faster, up to [56%]."
+            "content": "For each injured, hooked, or dying Survivor, you heal and unhook [20%] faster."
         }
     ],
+    "quote": "\"When they come with a wrecking ball, build stronger walls.\" -Felix Richter",
     "tags": [
         "Healing",
         "Unhooking"

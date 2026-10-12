@@ -7,11 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "You see the Auras of the [3] Generators closest to each other."
-        },
-        {
-            "type": "text",
-            "content": "You repair those Generators [6%] faster."
+            "content": "You see the Auras of the [3] Generators closest to each other and repair them [6%] faster."
         }
     ],
     "tags": [

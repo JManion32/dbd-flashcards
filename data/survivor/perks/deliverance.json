@@ -11,9 +11,10 @@
         },
         {
             "type": "text",
-            "content": "When you do, you gain [Broken] for [60s]."
+            "content": "When you do, you gain [Broken] for [120s]."
         }
     ],
+    "quote": "\"I was raised by a strict man who taught me how to make the best of a bad situation.\" -Adam Francis",
     "tags": [
         "Broken",
         "Hooking",

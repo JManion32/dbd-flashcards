@@ -7,17 +7,21 @@
     "description": [
         {
             "type": "text",
-            "content": "You start the trial with [3] Tokens."
+            "content": "When the trial starts, and after being chased for [15s], you earn [1] Token, up to [2]."
         },
         {
             "type": "text",
-            "content": "Whenever the Killer would see your Aura, spend [1] Token to hide it and leave no Scratch Marks for [10s]."
+            "content": "While not downed, whenever the Killer attempts to see your Aura, spend [1] Token. Then, for the next [12s]:"
         },
         {
-            "type": "text",
-            "content": "For every [30s] in chase, earn [1] Token."
+            "type": "list",
+            "items": [
+                "The Killer cannot see your Aura.",
+                "You leave no Scratch Marks."
+            ]
         }
     ],
+    "quote": "\"Exploration of Norse mythology: bravery can conceal your flaws, even at your most vulnerable.\" -Jeff, pencil on toned paper",
     "tags": [
         "Aura",
         "Chase",
