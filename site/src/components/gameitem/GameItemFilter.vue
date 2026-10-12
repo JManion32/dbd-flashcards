@@ -156,7 +156,7 @@ const emit = defineEmits<{
     padding: 0.5rem 2.5rem 0.5rem 0.75rem;
     font-weight: 700;
     font-size: 16px;
-    width: 20rem;
+    width: 18rem;
 }
 .filter-search::placeholder {
     font-style: italic;
