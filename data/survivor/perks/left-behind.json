@@ -7,11 +7,13 @@
     "description": [
         {
             "type": "text",
-            "content": "When you are the last Survivor remaining, you see the Aura of the Hatch within [32m]."
+            "content": "When all other Survivors are dead, while within [32m] of the Hatch, you see its Aura."
         }
     ],
+    "quote": "\"I'm not horseshittin' around. I'm doing this alone!\" -Bill",
     "tags": [
         "Aura",
-        "End Game"
+        "End Game",
+        "Hatch"
     ]
 }

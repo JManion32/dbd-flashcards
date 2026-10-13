@@ -11,9 +11,10 @@
         },
         {
             "type": "text",
-            "content": "Cooldown: [20s]."
+            "content": "Cooldown: [30s]."
         }
     ],
+    "quote": "\"Just need to push myself a bit further.\" -Lara Croft",
     "tags": [
         "Vaulting"
     ]

@@ -11,9 +11,14 @@
         },
         {
             "type": "text",
-            "content": "Afterward, while you are more than [12m] from the Killer, they see your Aura until you are healed."
+            "content": "When you become healthy, while you are at least [16m] from the Killer, they see your Aura."
+        },
+        {
+            "type": "text",
+            "content": "When the trial starts, you are more likely to be the Obsession."
         }
     ],
+    "quote": "\"Evil has a bullsye on my back the size of Tiger Stadium.\" -Ash Williams",
     "tags": [
         "Aura",
         "Protection Hit"

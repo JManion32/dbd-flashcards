@@ -7,8 +7,16 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "Whenever a Generator is completed, you see the Killer's Aura for [3s]."
+        },
+        {
+            "type": "text",
+            "content": "Whenver you see the Killer's Aura for a duration, it is [2s] longer."
         }
     ],
-    "tags": []
+    "quote": "\"Ha! Your secret has been revealed!\" -Trevor",
+    "tags": [
+        "Aura",
+        "Generator"
+    ]
 }

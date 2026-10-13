@@ -7,8 +7,16 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "While you have [Exhausted], your Scratch Marks disappear [50%] faster."
+        },
+        {
+            "type": "text",
+            "content": "You lose [Exhausted] [10%] faster."
         }
     ],
-    "tags": []
+    "quote": "\"Let's take it to the bridge!\" -Vee Boonyasak",
+    "tags": [
+        "Exhaustion",
+        "Scratch Marks"
+    ]
 }

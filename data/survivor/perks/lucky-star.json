@@ -7,16 +7,29 @@
     "description": [
         {
             "type": "text",
-            "content": "While you hide in a Locker, you leave no Pools of Blood and make no Grunts of Pain."
+            "content": "While hiding in a Locker, you make no Grunts of Pain."
         },
         {
             "type": "text",
-            "content": "When you exit, you see the Auras of the closest Generator and Chest for [10s]."
+            "content": "Whenever you exit a Locker, for [30s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Aura of the closest Generator.",
+                "You see the Auras of other Survivors.",
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [25s]."
         }
     ],
+    "quote": "\"You are my... lucky star...\" -Ellen Ripley",
     "tags": [
         "Aura",
-        "Chest",
         "Generator",
         "Locker"
     ]

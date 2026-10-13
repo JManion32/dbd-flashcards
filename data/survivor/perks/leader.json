@@ -7,14 +7,15 @@
     "description": [
         {
             "type": "text",
-            "content": "Survivors within [8m] of you heal, sabotage, unhook, cleanse, bless, open Exit Gates, and unlock [20%] faster."
+            "content": "Survivors within [10m] of you cleanse Totems, heal, open Exit Gates, sabotage Hooks, unhook Survivors, and unlock Chests [30%] faster."
         },
         {
             "type": "text",
-            "content": "This lingers for [15s] after they leave your range."
+            "content": "This lingers for [20s] after they leave your range."
         }
     ],
     "tags": [
+        "Chest",
         "Exit Gate",
         "Healing",
         "Sabotaging",

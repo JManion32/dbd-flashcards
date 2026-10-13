@@ -7,13 +7,14 @@
     "description": [
         {
             "type": "text",
-            "content": "You see the Scratch Marks of other Survivors."
+            "content": "Whenever the Killer damages another Survivor, you see the Killer's Aura for [10s]."
         },
         {
             "type": "text",
-            "content": "Whenever another Survivor loses a Health State, you see the Killer's Aura for [5s]."
+            "content": "You see other Survivors' Scratch Marks"
         }
     ],
+    "quote": "\"The death, the trauma, the fear... it all leads here. The Overlap.\" -Haddie Kaur, Ravages of the Abyss Episode 11",
     "tags": [
         "Aura",
         "Scratch Marks"

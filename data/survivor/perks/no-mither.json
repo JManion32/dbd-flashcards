@@ -7,18 +7,23 @@
     "description": [
         {
             "type": "text",
-            "content": "You are permanently injured and leave no Pools of Blood."
+            "content": "When the trail starts, you become injured, then:"
         },
         {
-            "type": "text",
-            "content": "Your Grunts of Pain are [50%] quieter."
-        },
-        {
-            "type": "text",
-            "content": "You can fully recover from the dying state."
+            "type": "list",
+            "items": [
+                "You gain [Broken].",
+                "Your Grunts of Pain are [100%] quieter.",
+                "You leave no Pools of Blood.",
+                "You recover [25%] faster.",
+                "You can fully recover."
+            ]
         }
     ],
+    "quote": "\"I lost it and lamped him one. Had a few pints afterwards, moved on. Couldn't be mithered with it. Can't be arsed.\" -David King",
     "tags": [
-        "Healing"
+        "Broken",
+        "Healing",
+        "Injured State"
     ]
 }

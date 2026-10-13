@@ -7,12 +7,12 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you and another Survivor complete a Generator together, you both gain [5%] [Haste] for [45s]."
+            "content": "Whenever you finish repairing a Generator with at least [1] other Survivor, Survivors who finished repairing it repair [10%] faster for [90s]."
         }
     ],
+    "quote": "\"C'mon, let's do this.\" -Thalita Lyra",
     "tags": [
         "Generator",
-        "Haste",
         "Repairing"
     ]
 }

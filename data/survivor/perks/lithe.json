@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you fast-vault:"
+            "content": "Whenever you medium or fast-vault:"
         },
         {
             "type": "list",
@@ -17,6 +17,7 @@
             ]
         }
     ],
+    "quote": "\"U mad?\" -Feng Min",
     "tags": [
         "Exhaustion",
         "Haste",

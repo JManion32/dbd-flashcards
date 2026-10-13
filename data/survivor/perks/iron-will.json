@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "While injured, your Grunts of Pain are [100%] quieter."
+            "content": "While injured and not [Exhausted], your Grunts of Pain are [100%] quieter."
         }
     ],
     "tags": []

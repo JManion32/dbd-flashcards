@@ -7,8 +7,17 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "After you rummage or unlock [1] Chest, while not [Broken], when you become injured, gain [Broken]."
+        },
+        {
+            "type": "text",
+            "content": "After [60s], if you are not downed, you are instantly healed."
         }
     ],
-    "tags": []
+    "quote": "\"Never lose hope for a brighter tomorrow.\" -Trevor",
+    "tags": [
+        "Broken",
+        "Chest",
+        "Healing"
+    ]
 }

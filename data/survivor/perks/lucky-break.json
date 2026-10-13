@@ -7,8 +7,24 @@
     "description": [
         {
             "type": "text",
-            "content": "While injured, you leave no Pools of Blood, for up to [180s] in total."
+            "content": "While injured, for up to [60s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You leave no Pools of Blood.",
+                "You leave no Scratch Marks."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "For each second spent healing another Survivor, recharge the duration by [1s]."
         }
     ],
-    "tags": []
+    "quote": "\"That's not enough to beat me. Not even close.\" -Yui Kimura",
+    "tags": [
+        "Healing",
+        "Injured State",
+        "Scratch Marks"
+    ]
 }

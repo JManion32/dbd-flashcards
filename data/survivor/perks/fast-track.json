@@ -7,18 +7,19 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever another Survivor is hooked, earn [1] Token."
+            "content": "Whenever you unhook another Survivor, you earn [1] Token, up to [3]."
         },
         {
             "type": "text",
-            "content": "Whenever you hit a good Skill Check while repairing, spend all Tokens to gain [1%] progress for each."
+            "content": "While repairing, whenever you hit a great basic Skill Check, spend all Tokens. For each Token spent, the Generator gains [5%] permanent progress."
         }
     ],
+    "quote": "\"The weak are sacrificed first. It's nature, it's business... it's the truth most refuse to face.\" -Yun-jin",
     "tags": [
         "Generator",
-        "Hooking",
         "Repairing",
         "Skill Check",
-        "Token"
+        "Token",
+        "Unhooking"
     ]
 }

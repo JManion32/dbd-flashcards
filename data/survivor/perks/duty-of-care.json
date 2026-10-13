@@ -7,8 +7,12 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "While healthy, whenever you take a protection hit, other Survivors within [12m] gain [25%] [Haste] for [6s]."
         }
     ],
-    "tags": []
+    "quote": "\"Don't worry about me. I've got a knack for bouncing back.\" -Orela Rose",
+    "tags": [
+        "Haste",
+        "Protection Hit"
+    ]
 }

@@ -7,9 +7,10 @@
     "description": [
         {
             "type": "text",
-            "content": "While dying, [50%] of your recovery progress becomes wiggle progress when the Killer picks you up, up to [50%]."
+            "content": "While downed, [50%] of your recovery progress becomes wiggle progress, up to [50%]."
         }
     ],
+    "quote": "\"Catch ya on the flip-flop.\" -Ash Williams",
     "tags": [
         "Carrying"
     ]

@@ -7,10 +7,12 @@
     "description": [
         {
             "type": "text",
-            "content": "Your Scratch Marks disappear [3s] sooner."
+            "content": "Your Scratch Marks disappear [5s] faster and appear more spread out."
         }
     ],
+    "quote": "\"Take it slow, he knows where you've been... just like I've always said: live slow and die old.\" -Lost Tapes: Dylan",
     "tags": [
+        "Chase",
         "Scratch Marks"
     ]
 }

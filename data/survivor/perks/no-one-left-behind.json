@@ -7,16 +7,19 @@
     "description": [
         {
             "type": "text",
-            "content": "When the Exit Gates are powered:"
+            "content": "When all Generators are completed:"
         },
         {
             "type": "list",
             "items": [
-                "You heal and unhook other Survivors [50%] faster.",
-                "You see the Auras of all other Survivors."
+                "You heal other Survivors [100%] faster..",
+                "You unhook other Survivors [100%] faster.",
+                "Whenever you unhook a Survivor, they gain [10%] more [Haste].",
+                "You see the Auras of other Survivors."
             ]
         }
     ],
+    "quote": "\"Yeah, no shit. But we can outsmart and overthrow huim if we work together. Don't be predictable and selfish!\" -Lost Tapes: Clyde",
     "tags": [
         "Aura",
         "End Game",

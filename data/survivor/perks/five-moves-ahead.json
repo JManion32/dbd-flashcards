@@ -1,0 +1,31 @@
+{
+    "name": "Five Moves Ahead",
+    "id": "five-moves-ahead",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Kwon Tae-Young",
+    "description": [
+        {
+            "type": "text",
+            "content": "While you are in the Killer's Terror Radius or chased by the Killer:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Auras of the [5] closest Pallets.",
+                "After you drop a Pallet, you start moving [50%] earlier."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s] after dropping a Pallet."
+        }
+    ],
+    "quote": "\"Every problem has a solution. It's only a question of complexity.\" -Kwon Tae-Young",
+    "tags": [
+        "Aura",
+        "Chase",
+        "Pallet",
+        "Terror Radius"
+    ]
+}

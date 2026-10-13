@@ -7,14 +7,16 @@
     "description": [
         {
             "type": "text",
-            "content": "While injured, you gain [3%] [Haste]."
+            "content": "While injured, whenever you finish healing another Survivor, you gain [Endurance] for [10s]."
         },
         {
             "type": "text",
-            "content": "Whenever you finish healing another Survivor, you gain [Endurance] for [10s]."
+            "content": "While you are running and have [Deep Wound], you gain [3%] [Haste]."
         }
     ],
+    "quote": "\"I didn't come here to be robot food.\" -Gabriel Soma",
     "tags": [
+        "Endurance",
         "Haste",
         "Healing"
     ]

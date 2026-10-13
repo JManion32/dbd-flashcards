@@ -7,14 +7,25 @@
     "description": [
         {
             "type": "text",
-            "content": "After repairing Generators for [50%], use <Active Ability> while in a Locker empty-handed to craft a Flashbang."
+            "content": "After repairing [40%] of Generators, use <Active Ability> while in a Locker empty-handed to craft a Flashbang."
+        },
+        {
+            "type": "text",
+            "content": "When you use a Flashbang:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Everyone nearby looking at the detonation is blinded.",
+                "The Killer is alerted."
+            ]
         }
     ],
+    "quote": "\"Get outta my face!\" -Leon S. Kennedy",
     "tags": [
         "Blind",
         "Generator",
         "Items",
-        "Locker",
-        "Repairing"
+        "Locker"
     ]
 }

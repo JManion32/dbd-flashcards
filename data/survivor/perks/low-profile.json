@@ -7,7 +7,15 @@
     "description": [
         {
             "type": "text",
-            "content": "When all other Survivors are dying, hooked, or dead, you leave no Scratch Marks or Pools of Blood."
+            "content": "When all other Survivors are downed or hooked, for [90s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood.",
+                "You leave no Scratch Marks."
+            ]
         }
     ],
     "tags": [

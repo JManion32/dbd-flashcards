@@ -7,20 +7,26 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you hit a great Skill Check while repairing or healing, earn [1] Token, up to [6]."
+            "content": "Whenever you hit a great basic Skill Check, you earn [1] Token, up to [6]."
         },
         {
             "type": "text",
-            "content": "For each Token, Skill Checks are [4%] more likely, their needle is [4%] faster, and great Skill Checks give [30%] more bonus progress."
+            "content": "For each Token, basic Skill Checks:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Appear [4%] more often.",
+                "Spin [4%] faster.",
+                "Whenever you hit a great, give [30%] more progress."
+            ]
         },
         {
             "type": "text",
-            "content": "Missing a Skill Check or stopping loses all Tokens."
+            "content": "Whenever you miss a basic Skill Check, hit a good Skill Check, or stop healing or repairing, lose all Tokens."
         }
     ],
     "tags": [
-        "Healing",
-        "Repairing",
         "Skill Check",
         "Token"
     ]

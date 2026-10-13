@@ -7,13 +7,25 @@
     "description": [
         {
             "type": "text",
-            "content": "In the Basement, you can perform an Invocation."
+            "content": "While in the Basement next to the circle, use <Activate Ability> to invoke. While invoking, other Survivors see your Aura and can join in."
         },
         {
             "type": "text",
-            "content": "When it is completed, all Generators need [10%] less progress, and you gain [Broken] for the rest of the trial."
+            "content": "When the Invocation is completed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "All Generators gain [10] permanent charges.",
+                "You become injured and [Broken]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Each Invocation can only be completed once per trial."
         }
     ],
+    "quote": "\"I call upon the spirits of the night, to aid us in our desperate flight!\" -Sable",
     "tags": [
         "Basement",
         "Broken",

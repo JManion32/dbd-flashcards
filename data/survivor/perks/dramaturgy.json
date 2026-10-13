@@ -7,17 +7,23 @@
     "description": [
         {
             "type": "text",
-            "content": "While running, use <Active Ability> to gain [25%] [Haste] for [2s], then one random effect:"
+            "content": "While healthy and running, use <Active Ability> to gain [25%] [Haste] for [2s], [Exhausted] for [40s], and one random effect:"
         },
         {
             "type": "list",
             "items": [
+                "You gain [25%] [Haste] for [2s].",
                 "You gain [Exposed] for [12s].",
-                "You scream.",
-                "You gain a random Item."
+                "You gain a random rare item with random add-ons.",
+                "You scream, but nothing happens."
             ]
+        },
+        {
+            "type": "text",
+            "content": "The same effect cannot happen twice in a row."
         }
     ],
+    "quote": "\"Take the part. It's a good movie, he says. What's the worst that can happen?\" -Nicolas Cage",
     "tags": [
         "Exposed",
         "Haste",

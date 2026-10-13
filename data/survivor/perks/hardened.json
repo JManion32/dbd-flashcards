@@ -7,12 +7,14 @@
     "description": [
         {
             "type": "text",
-            "content": "After you are unhooked or unhook yourself, whenever you would scream, you don't. Instead, you see the Killer's Aura for [3s]."
+            "content": "When you have blessed or cleansed a Totem and unlocked a Chest, whenever you would scream, you see the Killer's Aura for [5s] instead."
         }
     ],
+    "quote": "\"Got to keep quiet. The thing is still out there.\" -Lara Croft",
     "tags": [
         "Aura",
+        "Chest",
         "Scream",
-        "Unhooking"
+        "Totem"
     ]
 }
