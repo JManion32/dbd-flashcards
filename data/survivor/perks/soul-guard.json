@@ -1,0 +1,26 @@
+{
+    "name": "Soul Guard",
+    "id": "soul-guard",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Cheryl Mason",
+    "description": [
+        {
+            "type": "text",
+            "content": "While hexed, you can fully recover."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you fully recover, you gain [Endurance] for [8s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "tags": [
+        "Endurance",
+        "Healing",
+        "Hex"
+    ]
+}

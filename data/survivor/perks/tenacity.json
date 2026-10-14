@@ -1,0 +1,29 @@
+{
+    "name": "Tenacity",
+    "id": "tenacity",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Detective Tapp",
+    "description": [
+        {
+            "type": "text",
+            "content": "While downed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [50%] [Haste].",
+                "You can crawl and recover at the same time.",
+                "Your Grunts of Pain are [75%] quieter.",
+                "The Killer cannot see your Aura."
+            ]
+        }
+    ],
+    "quote": "\"What the hell is this? I'm taking this bastard down!\" -Detective David Tapp",
+    "tags": [
+        "Aura",
+        "Dying State",
+        "Haste",
+        "Healing"
+    ]
+}

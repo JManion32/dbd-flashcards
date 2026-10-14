@@ -1,0 +1,22 @@
+{
+    "name": "Built to Last",
+    "id": "built-to-last",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Felix Richter",
+    "description": [
+        {
+            "type": "text",
+            "content": "While holding a depleted item, after hiding in a Locker for [10s], it is recharged to [99%]."
+        },
+        {
+            "type": "text",
+            "content": "Each time this triggers, the recharge has [33%] fewer charges."
+        }
+    ],
+    "quote": "\"Architecture is the soul of civilization.\" -Felix Richter",
+    "tags": [
+        "Items",
+        "Locker"
+    ]
+}

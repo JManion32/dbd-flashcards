@@ -1,0 +1,33 @@
+{
+    "name": "For the People",
+    "id": "for-the-people",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Zarina Kassir",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healthy and healing another Survivor without a Med-Kit, use <Activate Ability> to heal them instantly:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You become injured.",
+                "You gain [Broken] for [60s].",
+                "You become the Obsession."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When the trial starts, you are less likely to be the Obsession."
+        }
+    ],
+    "quote": "\"We can write our own story and decide how it really ends.\" -Zarina Kassir",
+    "tags": [
+        "Broken",
+        "Dying State",
+        "Healing",
+        "Injured State",
+        "Obsession"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Residual Manifest",
+    "id": "residual-manifest",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Haddie Kaur",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you blind the Killer, they gain [Blindness] for [30s]."
+        },
+        {
+            "type": "text",
+            "content": "You can rummage Chests [1] time. The first time you rummage a Chest, it will contain an uncommon Flashlight."
+        }
+    ],
+    "quote": "\"I'll never see what Haddie sees. But so long as I'm with her, I know I'm safe.\" -Jordan Rois, Ravages of the Abyss Episode 5",
+    "tags": [
+        "Blind",
+        "Blindness",
+        "Chest",
+        "Items"
+    ]
+}

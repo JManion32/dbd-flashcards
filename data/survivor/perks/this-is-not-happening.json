@@ -1,0 +1,16 @@
+{
+    "name": "This Is Not Happening",
+    "id": "this-is-not-happening",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Good basic Skill Check zones are [200%] bigger."
+        }
+    ],
+    "tags": [
+        "Skill Check"
+    ]
+}

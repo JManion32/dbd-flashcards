@@ -1,0 +1,18 @@
+{
+    "name": "Small Game",
+    "id": "small-game",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Within [12m] of a Totem, you see its Aura."
+        }
+    ],
+    "quote": "\"Nope.\" -Lost Tapes: Andy",
+    "tags": [
+        "Aura",
+        "Totem"
+    ]
+}

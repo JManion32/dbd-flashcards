@@ -1,0 +1,29 @@
+{
+    "name": "Technician",
+    "id": "technician",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Feng Min",
+    "description": [
+        {
+            "type": "text",
+            "content": "While repairing a Generator:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The range of Generator repair noises is [16m] shorter.",
+                "Whenever you miss a basic Skill Check, the Generator does not explode, but loses [2%] more progress.",
+                "You leave no Scratch Marks."
+            ]
+        }
+    ],
+    "quote": "\"I'm gonna stealth this one.\" -Feng Min",
+    "tags": [
+        "Generator",
+        "Regression",
+        "Repairing",
+        "Scratch Marks",
+        "Skill Check"
+    ]
+}

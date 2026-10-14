@@ -1,0 +1,24 @@
+{
+    "name": "Teamwork: Full Circuit",
+    "id": "teamwork-full-circuit",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dustin Henderson",
+    "description": [
+        {
+            "type": "text",
+            "content": "For each other Survivor repairing a Generator with you, good basic Skill Check zones are [25%] bigger."
+        },
+        {
+            "type": "text",
+            "content": "While repairing with at least [1] other Survivor, you repair [5%] faster."
+        }
+    ],
+    "quote": "\"How many times do I have to be right on the money before you guys just trust me?\" -Dustin Henderson",
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Skill Check",
+        "Teamwork"
+    ]
+}

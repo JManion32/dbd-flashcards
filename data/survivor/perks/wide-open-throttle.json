@@ -1,0 +1,31 @@
+{
+    "name": "Wide Open Throttle",
+    "id": "wide-open-throttle",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Shane Wiigwaas",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you fast-vault a Pallet:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [15%] [Haste] for [3s].",
+                "The Pallet is reset, blocked for [60s], and all Survivors see its Aura for that time."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [60s]."
+        }
+    ],
+    "quote": "\"Nothing but the open road. Just the way I like it.\" -Shane Wiigwaas",
+    "tags": [
+        "Aura",
+        "Blocked",
+        "Haste",
+        "Pallet"
+    ]
+}

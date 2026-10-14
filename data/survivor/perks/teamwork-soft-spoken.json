@@ -1,0 +1,23 @@
+{
+    "name": "Teamwork: Soft Spoken",
+    "id": "teamwork-soft-spoken",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Eleven",
+    "description": [
+        {
+            "type": "text",
+            "content": "For each other Survivor repairing a Generator with you, the range of Generator repair noises is [25%] smaller."
+        },
+        {
+            "type": "text",
+            "content": "While repairing with at least [1] other Survivor, you repair [5%] faster."
+        }
+    ],
+    "quote": "\"I make my own rules.\" -Eleven",
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Teamwork"
+    ]
+}

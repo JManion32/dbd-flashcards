@@ -1,0 +1,31 @@
+{
+    "name": "Extrasensory Perception",
+    "id": "extrasensory-perception",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Eleven",
+    "description": [
+        {
+            "type": "text",
+            "content": "After crouching for [4s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see Auras in an expanding radius up to [44m].",
+                "You gain [Elusive].",
+                "You gain [Oblivious]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [40s] after you stop crouching or [11s] have elapsed."
+        }
+    ],
+    "quote": "\"What is friend?\" -Eleven",
+    "tags": [
+        "Aura",
+        "Elusive",
+        "Oblivious"
+    ]
+}

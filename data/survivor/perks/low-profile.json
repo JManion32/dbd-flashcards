@@ -1,0 +1,24 @@
+{
+    "name": "Low Profile",
+    "id": "low-profile",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ada Wong",
+    "description": [
+        {
+            "type": "text",
+            "content": "When all other Survivors are downed or hooked, for [90s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood.",
+                "You leave no Scratch Marks."
+            ]
+        }
+    ],
+    "tags": [
+        "Scratch Marks"
+    ]
+}

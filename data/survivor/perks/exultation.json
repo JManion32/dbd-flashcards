@@ -1,0 +1,32 @@
+{
+    "name": "Exultation",
+    "id": "exultation",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Trevor Belmont",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you Pallet-stun the Killer:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your item rarity is upgraded to the next tier, if possible.",
+                "If the item was upgraded, it recharges [75%] charges.",
+                "You gain [Oblivious]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [20s]."
+        }
+    ],
+    "quote": "\"You will not take me this day!\" -Trevor",
+    "tags": [
+        "Items",
+        "Oblivious",
+        "Pallet",
+        "Stun"
+    ]
+}

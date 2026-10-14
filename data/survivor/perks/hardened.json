@@ -1,0 +1,20 @@
+{
+    "name": "Hardened",
+    "id": "hardened",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Lara Croft",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you have blessed or cleansed a Totem and unlocked a Chest, whenever you would scream, you see the Killer's Aura for [5s] instead."
+        }
+    ],
+    "quote": "\"Got to keep quiet. The thing is still out there.\" -Lara Croft",
+    "tags": [
+        "Aura",
+        "Chest",
+        "Scream",
+        "Totem"
+    ]
+}

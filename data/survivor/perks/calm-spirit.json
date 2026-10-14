@@ -1,0 +1,23 @@
+{
+    "name": "Calm Spirit",
+    "id": "calm-spirit",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jake Park",
+    "description": [
+        {
+            "type": "text",
+            "content": "You do not scare Crows or scream."
+        },
+        {
+            "type": "text",
+            "content": "You bless and cleanse Totems and unlock Chests silently and [10%] faster."
+        }
+    ],
+    "tags": [
+        "Chest",
+        "Crow",
+        "Scream",
+        "Totem"
+    ]
+}

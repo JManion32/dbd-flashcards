@@ -1,0 +1,19 @@
+{
+    "name": "Left Behind",
+    "id": "left-behind",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Bill Overbeck",
+    "description": [
+        {
+            "type": "text",
+            "content": "When all other Survivors are dead, while within [32m] of the Hatch, you see its Aura."
+        }
+    ],
+    "quote": "\"I'm not horseshittin' around. I'm doing this alone!\" -Bill",
+    "tags": [
+        "Aura",
+        "End Game",
+        "Hatch"
+    ]
+}

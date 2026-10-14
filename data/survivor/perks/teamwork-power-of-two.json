@@ -1,0 +1,23 @@
+{
+    "name": "Teamwork: Power of Two",
+    "id": "teamwork-power-of-two",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Thalita Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you finish healing another Survivor, while you stay within [16m] of each other, you both gain [5%] [Haste]."
+        },
+        {
+            "type": "text",
+            "content": "When either of you leaves the range, this ends after [4s]."
+        }
+    ],
+    "quote": "\"You good? Then keep up.\" -Thalita Lyra",
+    "tags": [
+        "Haste",
+        "Healing",
+        "Teamwork"
+    ]
+}

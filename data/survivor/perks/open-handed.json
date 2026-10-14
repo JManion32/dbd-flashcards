@@ -1,0 +1,17 @@
+{
+    "name": "Open-Handed",
+    "id": "open-handed",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ace Visconti",
+    "description": [
+        {
+            "type": "text",
+            "content": "All Survivors see Auras [16m] farther."
+        }
+    ],
+    "quote": "\"Paying attention is what kept me alive through the years. That, and my good looks of course.\" -Ace",
+    "tags": [
+        "Aura"
+    ]
+}

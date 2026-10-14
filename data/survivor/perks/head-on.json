@@ -1,0 +1,23 @@
+{
+    "name": "Head On",
+    "id": "head-on",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jane Romero",
+    "description": [
+        {
+            "type": "text",
+            "content": "After standing in a Locker for [3s], fast-exit to stun the Killer for [3s] if they are within [2.5m]."
+        },
+        {
+            "type": "text",
+            "content": "You gain [Exhausted] for [40s]."
+        }
+    ],
+    "quote": "\"People are remembered for what they overcome. You run or you face your fears and remind the world who you are.\" -Jane Romero",
+    "tags": [
+        "Exhaustion",
+        "Locker",
+        "Stun"
+    ]
+}

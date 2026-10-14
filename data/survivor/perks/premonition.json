@@ -1,0 +1,28 @@
+{
+    "name": "Premonition",
+    "id": "premonition",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "While not chased by the Killer, whenever you look in the Killer's direction within [32m]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You are notified.",
+                "You see the Killer's Aura for [3s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [45s]."
+        }
+    ],
+    "quote": "\"I have a bad feeling about this!\"",
+    "tags": [
+        "Aura"
+    ]
+}

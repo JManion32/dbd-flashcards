@@ -1,0 +1,22 @@
+{
+    "name": "Up the Ante",
+    "id": "up-the-ante",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ace Visconti",
+    "description": [
+        {
+            "type": "text",
+            "content": "For each other Survivor alive, all Survivors gain [3%] Luck."
+        },
+        {
+            "type": "text",
+            "content": "All Survivors can attempt to unhook themselves."
+        }
+    ],
+    "quote": "\"What can I say? I'm just a very lucky guy... I'm sure some of it will rub off on you.\" -Ace",
+    "tags": [
+        "Luck",
+        "Unhooking"
+    ]
+}

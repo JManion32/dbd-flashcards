@@ -1,0 +1,20 @@
+{
+    "name": "Fogwise",
+    "id": "fogwise",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Vittorio Toscano",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you hit a great Skill Check while repairing, you see the Killer's Aura for [6s]."
+        }
+    ],
+    "quote": "\"I have seen great cruelty... and I have also seen another way.\" -Vittorio Toscano",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Repairing",
+        "Skill Check"
+    ]
+}

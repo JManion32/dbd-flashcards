@@ -1,0 +1,22 @@
+{
+    "name": "Inner Focus",
+    "id": "inner-focus",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Haddie Kaur",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Killer damages another Survivor, you see the Killer's Aura for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "You see other Survivors' Scratch Marks."
+        }
+    ],
+    "quote": "\"The death, the trauma, the fear... it all leads here. The Overlap.\" -Haddie Kaur, Ravages of the Abyss Episode 11",
+    "tags": [
+        "Aura",
+        "Scratch Marks"
+    ]
+}

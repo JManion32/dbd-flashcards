@@ -1,0 +1,21 @@
+{
+    "name": "Quick & Quiet",
+    "id": "quick-and-quiet",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Meg Thomas",
+    "description": [
+        {
+            "type": "text",
+            "content": "You hide in Lockers and vault silently. The Killer is not alerted."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [15s]."
+        }
+    ],
+    "tags": [
+        "Locker",
+        "Vaulting"
+    ]
+}

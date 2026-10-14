@@ -1,0 +1,18 @@
+{
+    "name": "Duty of Care",
+    "id": "duty-of-care",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Orela Rose",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healthy, whenever you take a protection hit, other Survivors within [12m] gain [25%] [Haste] for [6s]."
+        }
+    ],
+    "quote": "\"Don't worry about me. I've got a knack for bouncing back.\" -Orela Rose",
+    "tags": [
+        "Haste",
+        "Protection Hit"
+    ]
+}

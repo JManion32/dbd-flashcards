@@ -1,0 +1,31 @@
+{
+    "name": "Troubleshooter",
+    "id": "troubleshooter",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Gabriel Soma",
+    "description": [
+        {
+            "type": "text",
+            "content": "While chased by the Killer:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Aura of the Generator with the most progress.",
+                "Whenever you drop a Pallet, you see the Killer's Aura for [6s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When the Killer stops chasing you, this ends after [10s]."
+        }
+    ],
+    "quote": "\"Nothing gets done around here if I don't do it.\" -Gabriel Soma",
+    "tags": [
+        "Aura",
+        "Chase",
+        "Generator",
+        "Pallet"
+    ]
+}

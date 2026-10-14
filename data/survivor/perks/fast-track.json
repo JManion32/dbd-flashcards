@@ -1,0 +1,25 @@
+{
+    "name": "Fast Track",
+    "id": "fast-track",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Lee Yun-Jin",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you unhook another Survivor, you earn [1] Token, up to [3]."
+        },
+        {
+            "type": "text",
+            "content": "While repairing, whenever you hit a great basic Skill Check, spend all Tokens. For each Token spent, the Generator gains [5%] permanent progress."
+        }
+    ],
+    "quote": "\"The weak are sacrificed first. It's nature, it's business... it's the truth most refuse to face.\" -Yun-jin",
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Skill Check",
+        "Token",
+        "Unhooking"
+    ]
+}

@@ -17,7 +17,7 @@
             "type": "list",
             "items": [
                 "They gain [5%] [Hindered] for [15s].",
-                "They vault [10%] slower for [15%]."
+                "They vault [10%] slower for [15s]."
             ]
         }
     ],

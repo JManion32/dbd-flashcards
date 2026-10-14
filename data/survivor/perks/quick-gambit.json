@@ -1,0 +1,31 @@
+{
+    "name": "Quick Gambit",
+    "id": "quick-gambit",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Vittorio Toscano",
+    "description": [
+        {
+            "type": "text",
+            "content": "While chased by the Killer:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Auras of other Survivors.",
+                "Other Survivors repair [5%] faster."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [40s] after taking damage."
+        }
+    ],
+    "quote": "\"We need not resort to violence. And I shall prove it.\" -Vittorio Toscano",
+    "tags": [
+        "Aura",
+        "Chase",
+        "Generator",
+        "Repairing"
+    ]
+}

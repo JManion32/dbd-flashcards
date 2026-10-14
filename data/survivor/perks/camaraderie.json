@@ -1,0 +1,17 @@
+{
+    "name": "Camaraderie",
+    "id": "camaraderie",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Steve Harrington",
+    "description": [
+        {
+            "type": "text",
+            "content": "While you are struggling on Hook, when another Survivor gets within [16m], the timer is paused for [34s]."
+        }
+    ],
+    "quote": "\"So, remember once you get in there... pretend like you don't care. There you go, you're learning my friend. You're learning.\" -Steve Harrington",
+    "tags": [
+        "Hooking"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Come and Get Me!",
+    "id": "come-and-get-me",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rick Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you unhook a Survivor, while crouched and idle, use <Activate Ability> to have injured and downed Survivors within [24m]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Make no Grunts of Pain for [15s].",
+                "Leave no Pools of Blood for [15s].",
+                "Leave no Scratch Marks for [15s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "You scream, then the Killer sees your Aura for [5s]."
+        }
+    ],
+    "quote": "\"We're the ones who live.\" -Rick Grimes",
+    "tags": [
+        "Aura",
+        "Scratch Marks",
+        "Scream"
+    ]
+}

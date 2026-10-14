@@ -1,0 +1,27 @@
+{
+    "name": "Mettle of Man",
+    "id": "mettle-of-man",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ashley J. Williams",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you take [3] protection hits, the next hit that would down you is ignored."
+        },
+        {
+            "type": "text",
+            "content": "When you become healthy, while you are at least [16m] from the Killer, they see your Aura."
+        },
+        {
+            "type": "text",
+            "content": "When the trial starts, you are more likely to be the Obsession."
+        }
+    ],
+    "quote": "\"Evil has a bullseye on my back the size of Tiger Stadium.\" -Ash Williams",
+    "tags": [
+        "Aura",
+        "Obsession",
+        "Protection Hit"
+    ]
+}

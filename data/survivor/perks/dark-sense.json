@@ -1,0 +1,28 @@
+{
+    "name": "Dark Sense",
+    "id": "dark-sense",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, when the Killer gets within [20m] of you, for [15s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Auras of Pallets and Windows within [32m].",
+                "You see the Auras of other Survivors.",
+                "You see the Killer's Aura."
+            ]
+        }
+    ],
+    "quote": "\"Slow down, don't rush and try not to worry as much! The best way to beat him is to know how he thinks.\" -Lost Tapes: Murf",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Pallet",
+        "Window"
+    ]
+}

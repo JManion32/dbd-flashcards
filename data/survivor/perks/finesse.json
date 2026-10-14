@@ -1,0 +1,21 @@
+{
+    "name": "Finesse",
+    "id": "finesse",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Lara Croft",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healthy, you fast-vault [20%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
+        }
+    ],
+    "quote": "\"Just need to push myself a bit further.\" -Lara Croft",
+    "tags": [
+        "Vaulting"
+    ]
+}

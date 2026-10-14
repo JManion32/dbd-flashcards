@@ -1,0 +1,19 @@
+{
+    "name": "Last Stand",
+    "id": "last-stand",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Michonne Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "After hiding for [90s] within the Killer's Terror Radius, when you fast-vault, once per trial, stun the Killer for [3s] if they are within [2.5m]."
+        }
+    ],
+    "quote": "\"Some bullies, you can live with. Others, you gotta fight.\" -Michonne Grimes",
+    "tags": [
+        "Stun",
+        "Terror Radius",
+        "Vaulting"
+    ]
+}

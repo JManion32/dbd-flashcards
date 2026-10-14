@@ -1,0 +1,18 @@
+{
+    "name": "Lend a Hand",
+    "id": "lend-a-hand",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Shane Wiigwaas",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you bless or cleanse [1] Totem, while healing another Survivor and once per Survivor, use <Activate Ability> to give them [4] permanent healing charges."
+        }
+    ],
+    "quote": "\"Walk it off, will you? We still have work to do.\" -Shane Wiigwaas",
+    "tags": [
+        "Healing",
+        "Totem"
+    ]
+}

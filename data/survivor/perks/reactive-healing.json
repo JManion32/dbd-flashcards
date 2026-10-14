@@ -1,0 +1,17 @@
+{
+    "name": "Reactive Healing",
+    "id": "reactive-healing",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ada Wong",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, whenever another Survivor within [32m] loses a Health State, you gain [50%] healing progress."
+        }
+    ],
+    "tags": [
+        "Healing",
+        "Injured State"
+    ]
+}

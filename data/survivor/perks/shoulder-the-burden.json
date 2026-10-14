@@ -1,0 +1,30 @@
+{
+    "name": "Shoulder the Burden",
+    "id": "shoulder-the-burden",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Taurie Cain",
+    "description": [
+        {
+            "type": "text",
+            "content": "Once per trial, if you have less than [2] Hook States, use <Activate Ability> to unhook a Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They lose [1] Hook State.",
+                "You gain [1] Hook State.",
+                "You scream.",
+                "You become injured.",
+                "You gain [Broken] for [120s]."
+            ]
+        }
+    ],
+    "quote": "\"It's not your time yet. Now go on!\" -Taurie Cain",
+    "tags": [
+        "Broken",
+        "Hooking",
+        "Scream",
+        "Unhooking"
+    ]
+}

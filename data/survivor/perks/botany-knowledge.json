@@ -1,0 +1,17 @@
+{
+    "name": "Botany Knowledge",
+    "id": "botany-knowledge",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Claudette Morel",
+    "description": [
+        {
+            "type": "text",
+            "content": "You heal [50%] faster."
+        }
+    ],
+    "quote": "\"Basic botany knowledge could save your life someday.\" -Claudette Morel",
+    "tags": [
+        "Healing"
+    ]
+}

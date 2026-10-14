@@ -1,0 +1,18 @@
+{
+    "name": "Déjà Vu",
+    "id": "deja-vu",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of the [3] Generators closest to each other and repair them [6%] faster."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator",
+        "Repairing"
+    ]
+}

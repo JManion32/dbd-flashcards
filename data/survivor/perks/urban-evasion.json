@@ -1,0 +1,17 @@
+{
+    "name": "Urban Evasion",
+    "id": "urban-evasion",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nea Karlsson",
+    "description": [
+        {
+            "type": "text",
+            "content": "While crouched, you gain [100%] [Haste]."
+        }
+    ],
+    "quote": "\"The paint is still fresh but I'm long gone.\" -Nea",
+    "tags": [
+        "Haste"
+    ]
+}

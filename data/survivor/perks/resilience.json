@@ -1,0 +1,25 @@
+{
+    "name": "Resilience",
+    "id": "resilience",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, you repair, sabotage, heal, unhook, vault, cleanse, bless, open Exit Gates, and unlock Chests [9%] faster."
+        }
+    ],
+    "quote": "\"Focus, even in these desperate times.\"",
+    "tags": [
+        "Chest",
+        "Exit Gate",
+        "Healing",
+        "Injured State",
+        "Repairing",
+        "Sabotaging",
+        "Totem",
+        "Unhooking",
+        "Vaulting"
+    ]
+}

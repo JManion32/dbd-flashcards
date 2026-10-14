@@ -1,0 +1,30 @@
+{
+    "name": "Deception",
+    "id": "deception",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Élodie Rakoto",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you attempt to fast-enter a Locker:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You do not enter the Locker.",
+                "The Killer is alerted.",
+                "You leave no Pools of Blood for [5s].",
+                "You leave no Scratch Marks for [5s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [15s]."
+        }
+    ],
+    "tags": [
+        "Locker",
+        "Scratch Marks"
+    ]
+}

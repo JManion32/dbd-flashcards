@@ -1,0 +1,32 @@
+{
+    "name": "Buckle Up",
+    "id": "buckle-up",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ashley J. Williams",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healing a downed Survivor, you both see the Killer's Aura."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you finish healing a downed Survivor or fully recover:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The Survivor gains [50%] [Haste] for [5s].",
+                "The Survivor leaves no Scratch Marks for [5s]."
+            ]
+        }
+    ],
+    "quote": "\"Ghost beaters never leave a man behind.\" -Ash Williams",
+    "tags": [
+        "Aura",
+        "Dying State",
+        "Haste",
+        "Healing",
+        "Scratch Marks"
+    ]
+}

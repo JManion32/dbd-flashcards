@@ -1,0 +1,31 @@
+{
+    "name": "Flashbang",
+    "id": "flashbang",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Leon S. Kennedy",
+    "description": [
+        {
+            "type": "text",
+            "content": "After repairing [40%] of Generators, use <Activate Ability> while in a Locker empty-handed to craft a Flashbang."
+        },
+        {
+            "type": "text",
+            "content": "When you use a Flashbang:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Everyone nearby looking at the detonation is blinded.",
+                "The Killer is alerted."
+            ]
+        }
+    ],
+    "quote": "\"Get outta my face!\" -Leon S. Kennedy",
+    "tags": [
+        "Blind",
+        "Generator",
+        "Items",
+        "Locker"
+    ]
+}

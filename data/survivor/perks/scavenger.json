@@ -1,0 +1,36 @@
+{
+    "name": "Scavenger",
+    "id": "scavenger",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Gabriel Soma",
+    "description": [
+        {
+            "type": "text",
+            "content": "While holding an empty Toolbox, whenever you hit a great Skill Check while repairing, earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "When you have [5] Tokens, spend them all:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your Toolbox is recharged instantly.",
+                "You repair [50%] slower for [30s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "You can rummage Chests [1] time. The first time you rummage a Chest, it will contain an uncommon Toolbox."
+        }
+    ],
+    "quote": "\"It's amazing what people will throw away around here.\" -Gabriel Soma",
+    "tags": [
+        "Chest",
+        "Items",
+        "Repairing",
+        "Skill Check",
+        "Token"
+    ]
+}

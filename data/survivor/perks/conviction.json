@@ -1,0 +1,22 @@
+{
+    "name": "Conviction",
+    "id": "conviction",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Michonne Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you finish healing [1] other Survivor, while downed with at least [25%] recovery, use <Activate Ability> to recover instantly."
+        },
+        {
+            "type": "text",
+            "content": "You gain [Broken], then, after [30s], you are downed instantly."
+        }
+    ],
+    "quote": "\"It's enough to keep going. Keep trying. Keep fighting. Keep dreaming.\" -Michonne Grimes",
+    "tags": [
+        "Broken",
+        "Dying State"
+    ]
+}

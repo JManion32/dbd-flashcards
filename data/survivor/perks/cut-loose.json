@@ -1,0 +1,30 @@
+{
+    "name": "Cut Loose",
+    "id": "cut-loose",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Thalita Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "While chased by the Killer, whenever you medium or fast-vault:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "For up to [6s], your medium and fast vaults are silent.",
+                "During that time, whenever you medium or fast-vault, the timer is reset."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [45s]."
+        }
+    ],
+    "quote": "\"I know how we can get out of here. Quick, this way.\" -Thalita Lyra",
+    "tags": [
+        "Chase",
+        "Vaulting",
+        "Window"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Object of Obsession",
+    "id": "object-of-obsession",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Laurie Strode",
+    "description": [
+        {
+            "type": "text",
+            "content": "While you are the Obsession, every [30s], the Killer sees your Aura for [4s]."
+        },
+        {
+            "type": "text",
+            "content": "While the Killer sees your Aura:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see their Aura.",
+                "You bless and cleanse Totems [10%] faster.",
+                "You heal [10%] faster.",
+                "You repair [10%] faster."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When the trial starts, you are more likely to be the Obsession."
+        }
+    ],
+    "quote": "\"He was watching me!\" -Laurie Strode",
+    "tags": [
+        "Aura",
+        "Healing",
+        "Obsession",
+        "Repairing"
+    ]
+}

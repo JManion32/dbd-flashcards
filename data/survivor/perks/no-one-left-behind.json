@@ -1,0 +1,30 @@
+{
+    "name": "No One Left Behind",
+    "id": "no-one-left-behind",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "When all Generators are completed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You heal other Survivors [100%] faster.",
+                "You unhook other Survivors [100%] faster.",
+                "Whenever you unhook a Survivor, they gain [10%] more [Haste].",
+                "You see the Auras of other Survivors."
+            ]
+        }
+    ],
+    "quote": "\"Yeah, no shit. But we can outsmart and overthrow him if we work together. Don't be predictable and selfish!\" -Lost Tapes: Clyde",
+    "tags": [
+        "Aura",
+        "End Game",
+        "Haste",
+        "Healing",
+        "Unhooking"
+    ]
+}

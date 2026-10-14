@@ -1,0 +1,20 @@
+{
+    "name": "Slippery Meat",
+    "id": "slippery-meat",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Other Survivors unhook you [100%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you are unhooked, you gain [5%] more [Haste]."
+        }
+    ],
+    "tags": [
+        "Unhooking"
+    ]
+}

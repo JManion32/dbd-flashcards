@@ -1,0 +1,23 @@
+{
+    "name": "Moment of Glory",
+    "id": "moment-of-glory",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Trevor Belmont",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you rummage or unlock [1] Chest, while not [Broken], when you become injured, gain [Broken]."
+        },
+        {
+            "type": "text",
+            "content": "After [60s], if you are not downed, you are instantly healed."
+        }
+    ],
+    "quote": "\"Never lose hope for a brighter tomorrow.\" -Trevor",
+    "tags": [
+        "Broken",
+        "Chest",
+        "Healing"
+    ]
+}

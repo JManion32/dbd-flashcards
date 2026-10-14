@@ -1,0 +1,25 @@
+{
+    "name": "Leader",
+    "id": "leader",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dwight Fairfield",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [10m] of you cleanse Totems, heal, open Exit Gates, sabotage Hooks, unhook Survivors, and unlock Chests [30%] faster."
+        },
+        {
+            "type": "text",
+            "content": "This lingers for [20s] after they leave your range."
+        }
+    ],
+    "tags": [
+        "Chest",
+        "Exit Gate",
+        "Healing",
+        "Sabotaging",
+        "Totem",
+        "Unhooking"
+    ]
+}

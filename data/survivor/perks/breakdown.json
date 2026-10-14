@@ -1,0 +1,27 @@
+{
+    "name": "Breakdown",
+    "id": "breakdown",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jeff Johansen",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you are unhooked:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The Hook breaks for [180s].",
+                "You see the Killer's Aura for [6s]."
+            ]
+        }
+    ],
+    "quote": "\"Named Belly of the Beast, this wood piece had a story to tell; it didn't waste its second chance.\" -Jeff (ink & oil wash on wood)",
+    "tags": [
+        "Aura",
+        "Hooking",
+        "Sabotaging",
+        "Unhooking"
+    ]
+}

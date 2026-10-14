@@ -1,0 +1,26 @@
+{
+    "name": "Stakeout",
+    "id": "stakeout",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Detective Tapp",
+    "description": [
+        {
+            "type": "text",
+            "content": "After hiding for [15s] within [24m] of the Killer, while in their Terror Radius, you earn [1] Token, up to [4]."
+        },
+        {
+            "type": "text",
+            "content": "While you have at least [1] Token, basic Skill Checks are replaced by special Skill Checks. Special Skill Checks grant [4%] more progress."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you hit or miss a special Skill Check, spend [1] Token."
+        }
+    ],
+    "tags": [
+        "Skill Check",
+        "Terror Radius",
+        "Token"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "No Mither",
+    "id": "no-mither",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "David King",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, you become injured, then:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [Broken].",
+                "Your Grunts of Pain are [100%] quieter.",
+                "You leave no Pools of Blood.",
+                "You recover [25%] faster.",
+                "You can fully recover."
+            ]
+        }
+    ],
+    "quote": "\"I lost it and lamped him one. Had a few pints afterwards, moved on. Couldn't be mithered with it. Can't be arsed.\" -David King",
+    "tags": [
+        "Broken",
+        "Healing",
+        "Injured State"
+    ]
+}

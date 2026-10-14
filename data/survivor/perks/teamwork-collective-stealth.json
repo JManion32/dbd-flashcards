@@ -1,0 +1,23 @@
+{
+    "name": "Teamwork: Collective Stealth",
+    "id": "teamwork-collective-stealth",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Renato Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever another Survivor finishes healing you, while within [16m] of each other, you both leave no Scratch Marks."
+        },
+        {
+            "type": "text",
+            "content": "When either of you leaves the range, this ends after [4s]."
+        }
+    ],
+    "quote": "\"I'm good, I'm good... but keep it down.\" -Renato Lyra",
+    "tags": [
+        "Healing",
+        "Scratch Marks",
+        "Teamwork"
+    ]
+}

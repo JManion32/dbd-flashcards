@@ -1,0 +1,48 @@
+{
+    "name": "Plot Twist",
+    "id": "plot-twist",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nicolas Cage",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, crouched and idle, use <Activate Ability> to be downed silently."
+        },
+        {
+            "type": "text",
+            "content": "While downed this way, once per trial:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood.",
+                "You recover [25%] faster.",
+                "You can fully recover."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Whenever you recover this way:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [50%] [Haste] for [4s].",
+                "You are healed instantly."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When all Generators are completed, you can use this ability again."
+        }
+    ],
+    "quote": "\"I think you'll find this shooting location... captivating.\" -Pauline Stamper",
+    "tags": [
+        "Dying State",
+        "Haste",
+        "Healing",
+        "Injured State"
+    ]
+}

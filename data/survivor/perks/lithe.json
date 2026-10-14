@@ -1,0 +1,26 @@
+{
+    "name": "Lithe",
+    "id": "lithe",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Feng Min",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you medium or fast-vault:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [50%] [Haste] for [3s].",
+                "You gain [Exhausted] for [40s]."
+            ]
+        }
+    ],
+    "quote": "\"U mad?\" -Feng Min",
+    "tags": [
+        "Exhaustion",
+        "Haste",
+        "Vaulting"
+    ]
+}

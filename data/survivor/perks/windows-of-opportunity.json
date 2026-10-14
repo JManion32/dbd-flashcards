@@ -1,0 +1,28 @@
+{
+    "name": "Windows of Opportunity",
+    "id": "windows-of-opportunity",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Kate Denson",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of Windows within [24m]."
+        },
+        {
+            "type": "text",
+            "content": "You vault Windows [10%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s] after vaulting a Window."
+        }
+    ],
+    "quote": "\"Carve your name/Value faith an' family, don't complain/Open your windows of opportunity.\" -Kate Denson's Windows of Opportunity",
+    "tags": [
+        "Aura",
+        "Chase",
+        "Vaulting",
+        "Window"
+    ]
+}

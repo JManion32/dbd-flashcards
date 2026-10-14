@@ -1,0 +1,23 @@
+{
+    "name": "Blood Rush",
+    "id": "blood-rush",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Renato Lyra",
+    "description": [
+        {
+            "type": "text",
+            "content": "Until all Generators are completed, whenever you are unhooked, for the next [60s], while [Exhausted], use <Activate Ability> to lose [Exhausted] instantly."
+        },
+        {
+            "type": "text",
+            "content": "This is disabled by conspicuous actions."
+        }
+    ],
+    "quote": "\"Just gotta... push through.\" -Renato Lyra",
+    "tags": [
+        "Conspicuous Action",
+        "Exhaustion",
+        "Unhooking"
+    ]
+}

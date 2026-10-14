@@ -1,0 +1,23 @@
+{
+    "name": "Change of Plan",
+    "id": "change-of-plan",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Dustin Henderson",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the trial starts, you earn [2] Tokens."
+        },
+        {
+            "type": "text",
+            "content": "While hiding in a Locker and holding a non-event Toolbox, use <Activate Ability> and spend [1] Token to transform your Toolbox and add-ons into a Med-Kit of the same rarity with [100%] charges and random add-ons of the same rarity."
+        }
+    ],
+    "quote": "\"Oh my god, oh my god, oh my god, oh my god.\" -Dustin Henderson",
+    "tags": [
+        "Items",
+        "Locker",
+        "Token"
+    ]
+}

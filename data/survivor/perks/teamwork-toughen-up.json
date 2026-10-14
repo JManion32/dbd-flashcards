@@ -1,0 +1,30 @@
+{
+    "name": "Teamwork: Toughen Up",
+    "id": "teamwork-toughen-up",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rick Grimes",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, whenever another Survivor within [24m] of you blinds or Pallet-stuns the Killer, for [30s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood.",
+                "You leave no Scratch Marks."
+            ]
+        }
+    ],
+    "quote": "\"They're fucking with the wrong people.\" -Rick Grimes",
+    "tags": [
+        "Blind",
+        "Injured State",
+        "Pallet",
+        "Scratch Marks",
+        "Stun",
+        "Teamwork"
+    ]
+}

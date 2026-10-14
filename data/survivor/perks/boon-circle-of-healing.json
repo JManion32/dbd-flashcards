@@ -1,0 +1,31 @@
+{
+    "name": "Boon: Circle of Healing",
+    "id": "boon-circle-of-healing",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Mikaela Reid",
+    "description": [
+        {
+            "type": "text",
+            "content": "Bless a Dull or Hex Totem to create a Boon Totem with a [24m] range."
+        },
+        {
+            "type": "text",
+            "content": "Survivors within range:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Heal others [100%] faster without a Med-Kit.",
+                "While injured, other Survivors see their Aura."
+            ]
+        }
+    ],
+    "quote": "\"Try this, it's better than anything you'll find in a pharmacy.\" -Mikaela Reid",
+    "tags": [
+        "Aura",
+        "Boon",
+        "Healing",
+        "Totem"
+    ]
+}

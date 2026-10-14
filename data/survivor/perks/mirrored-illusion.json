@@ -1,0 +1,20 @@
+{
+    "name": "Mirrored Illusion",
+    "id": "mirrored-illusion",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Aestri Yazar",
+    "description": [
+        {
+            "type": "text",
+            "content": "After repairing [20%] of Generators, while next to a Chest, Exit Gate Switch, Generator, or Totem, use <Activate Ability> to create a static illusion for [60s]."
+        }
+    ],
+    "quote": "\"Just... stay there... perfect!\" -Baermar",
+    "tags": [
+        "Chest",
+        "Exit Gate",
+        "Generator",
+        "Totem"
+    ]
+}

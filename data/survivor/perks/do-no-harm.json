@@ -1,0 +1,26 @@
+{
+    "name": "Do No Harm",
+    "id": "do-no-harm",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Orela Rose",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healing another Survivor, for each Hook State they have:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You heal [40%] faster.",
+                "Great basic Skill Checks grant [3%] more progress.",
+                "Basic Skill Checks are [5%] more likely to appear."
+            ]
+        }
+    ],
+    "quote": "\"Look at me. My name's Orela, and I'm gonna make sure you're all right.\" -Orela Rose",
+    "tags": [
+        "Healing",
+        "Skill Check"
+    ]
+}

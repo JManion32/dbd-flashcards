@@ -1,0 +1,34 @@
+{
+    "name": "Blood Pact",
+    "id": "blood-pact",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Cheryl Mason",
+    "description": [
+        {
+            "type": "text",
+            "content": "While you are not the Obsession:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "While you or the Obsession are injured, you see each other's Auras.",
+                "Whenever you finish healing the Obsession, or the Obsession finishes healing you, while within [16m] of each other, you both gain [7%] [Haste]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "While you are the Obsession, if you are hooked, another Survivor becomes the Obsession."
+        },
+        {
+            "type": "text",
+            "content": "When the trial starts, you are less likely to be the Obsession."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Haste",
+        "Healing",
+        "Obsession"
+    ]
+}

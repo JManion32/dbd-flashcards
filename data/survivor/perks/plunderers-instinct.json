@@ -1,0 +1,26 @@
+{
+    "name": "Plunderer's Instinct",
+    "id": "plunderers-instinct",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of Chests and items."
+        },
+        {
+            "type": "text",
+            "content": "You unlock Chests [200%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you unlock a Chest, you are [50%] more likely to find an item of higher rarity."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Chest",
+        "Items"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "We'll Make It",
+    "id": "well-make-it",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you unhook a Survivor, for [90s], you heal other Survivors [100%] faster."
+        }
+    ],
+    "quote": "\"I'm confident we can all escape in one piece if we help each other.\"",
+    "tags": [
+        "Healing",
+        "Unhooking"
+    ]
+}

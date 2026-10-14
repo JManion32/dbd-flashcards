@@ -1,0 +1,23 @@
+{
+    "name": "Saboteur",
+    "id": "saboteur",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jake Park",
+    "description": [
+        {
+            "type": "text",
+            "content": "While the Killer is carrying another Survivor, you see the Auras of Hooks within [56m] of where they were picked up."
+        },
+        {
+            "type": "text",
+            "content": "You can sabotage Hooks without a Toolbox. Cooldown: [60s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Carrying",
+        "Hooking",
+        "Sabotaging"
+    ]
+}

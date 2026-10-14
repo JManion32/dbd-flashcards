@@ -1,0 +1,27 @@
+{
+    "name": "Still Sight",
+    "id": "still-sight",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Aestri Yazar",
+    "description": [
+        {
+            "type": "text",
+            "content": "After being idle for [2s], within [24m], until you start moving:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Killer's Aura.",
+                "You see the Auras of Chests.",
+                "You see the Auras of Generators."
+            ]
+        }
+    ],
+    "quote": "\"Breathe in. Breathe out. Now open your eyes.\" -Baermar",
+    "tags": [
+        "Aura",
+        "Chest",
+        "Generator"
+    ]
+}

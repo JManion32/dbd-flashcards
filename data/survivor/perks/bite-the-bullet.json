@@ -1,0 +1,25 @@
+{
+    "name": "Bite the Bullet",
+    "id": "bite-the-bullet",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Leon S. Kennedy",
+    "description": [
+        {
+            "type": "text",
+            "content": "While healing, you and the Survivor you are healing make no noises or Grunts of Pain. Whenever you miss a basic Skill Check:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You lose only [1%] progress.",
+                "The Killer is not alerted."
+            ]
+        }
+    ],
+    "quote": "\"I can do this.\" -Leon S. Kennedy",
+    "tags": [
+        "Healing",
+        "Skill Check"
+    ]
+}

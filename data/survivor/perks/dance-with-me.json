@@ -1,0 +1,24 @@
+{
+    "name": "Dance With Me",
+    "id": "dance-with-me",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Kate Denson",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you fast-vault or fast-exit a Locker, you leave no Scratch Marks for [5s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [15s]."
+        }
+    ],
+    "quote": "\"Dance with me, there's a storm comin'/Follow my boots, try to keep up/Dance with me, until sun up.\" -Kate Denson's Dance With Me",
+    "tags": [
+        "Locker",
+        "Scratch Marks",
+        "Vaulting",
+        "Window"
+    ]
+}

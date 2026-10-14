@@ -1,0 +1,17 @@
+{
+    "name": "Iron Will",
+    "id": "iron-will",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jake Park",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured and not [Exhausted], your Grunts of Pain are [100%] quieter."
+        }
+    ],
+    "tags": [
+        "Exhaustion",
+        "Injured State"
+    ]
+}

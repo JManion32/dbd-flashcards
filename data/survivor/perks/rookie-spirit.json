@@ -1,0 +1,21 @@
+{
+    "name": "Rookie Spirit",
+    "id": "rookie-spirit",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Leon S. Kennedy",
+    "description": [
+        {
+            "type": "text",
+            "content": "After hitting [3] Skill Checks while repairing, you see the Auras of regressing Generators."
+        }
+    ],
+    "quote": "\"I'll stop this, lieutenant. I promise.\" -Leon S. Kennedy",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Regression",
+        "Repairing",
+        "Skill Check"
+    ]
+}

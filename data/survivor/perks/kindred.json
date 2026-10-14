@@ -1,0 +1,22 @@
+{
+    "name": "Kindred",
+    "id": "kindred",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Universal",
+    "description": [
+        {
+            "type": "text",
+            "content": "While you are hooked, all Survivors see each other's Auras, and the Killer's Aura within [16m] of your Hook."
+        },
+        {
+            "type": "text",
+            "content": "Whenever another Survivor is hooked, you see the Auras of all Survivors, and the Killer's Aura within [16m] of their Hook."
+        }
+    ],
+    "quote": "\"Be kind to one another. We're all in this together.\" -Lost Tapes: Sujan",
+    "tags": [
+        "Aura",
+        "Hooking"
+    ]
+}

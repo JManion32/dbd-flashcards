@@ -1,0 +1,22 @@
+{
+    "name": "Clean Break",
+    "id": "clean-break",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Taurie Cain",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you finish healing another Survivor, while being healed by another Survivor, use <Activate Ability> to gain [Broken]."
+        },
+        {
+            "type": "text",
+            "content": "After [45s], if you are not downed, you are instantly healed."
+        }
+    ],
+    "quote": "\"I'll be fine! Don't stick your neck out for me.\" -Taurie Cain",
+    "tags": [
+        "Broken",
+        "Healing"
+    ]
+}

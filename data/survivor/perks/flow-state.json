@@ -1,0 +1,29 @@
+{
+    "name": "Flow State",
+    "id": "flow-state",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Kwon Tae-Young",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, earn [1] Token, up to [5]. For each Token:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You bless and cleanse Totems [15%] faster.",
+                "You heal [15%] faster.",
+                "You unhook Survivors [15%] faster."
+            ]
+        }
+    ],
+    "quote": "\"I'm sorry... I didn't realize I was working so late.\" -Kwon Tae-Young",
+    "tags": [
+        "Generator",
+        "Healing",
+        "Token",
+        "Totem",
+        "Unhooking"
+    ]
+}

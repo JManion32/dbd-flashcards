@@ -1,0 +1,25 @@
+{
+    "name": "Diversion",
+    "id": "diversion",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Adam Francis",
+    "description": [
+        {
+            "type": "text",
+            "content": "After hiding for [20s] within the Killer's Terror Radius, while crouched and idle, use <Activate Ability> to throw a pebble [20m] away:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The Killer is alerted.",
+                "The pebble leaves Scratch Marks."
+            ]
+        }
+    ],
+    "quote": "\"There's what is easy and then there's what is right. If you confuse the two, there's no telling what you become.\" -Adam Francis",
+    "tags": [
+        "Scratch Marks",
+        "Terror Radius"
+    ]
+}

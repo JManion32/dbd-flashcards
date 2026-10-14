@@ -1,0 +1,27 @@
+{
+    "name": "Off the Record",
+    "id": "off-the-record",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Zarina Kassir",
+    "description": [
+        {
+            "type": "text",
+            "content": "Until all Generators are completed, whenever you are unhooked, for the next [40s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [Endurance].",
+                "Your Grunts of Pain are [100%] quieter.",
+                "The Killer cannot see your Aura."
+            ]
+        }
+    ],
+    "quote": "\"Trust me, I investigate thoroughly and discreetly.\" -Zarina Kassir",
+    "tags": [
+        "Aura",
+        "Endurance",
+        "Unhooking"
+    ]
+}

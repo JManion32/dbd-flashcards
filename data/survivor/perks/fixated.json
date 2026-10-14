@@ -1,0 +1,22 @@
+{
+    "name": "Fixated",
+    "id": "fixated",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nancy Wheeler",
+    "description": [
+        {
+            "type": "text",
+            "content": "While walking, you gain [20%] [Haste]."
+        },
+        {
+            "type": "text",
+            "content": "You can see your own Scratch Marks."
+        }
+    ],
+    "quote": "\"I wanna finish what we started. I want to kill it.\" -Nancy Wheeler",
+    "tags": [
+        "Haste",
+        "Scratch Marks"
+    ]
+}

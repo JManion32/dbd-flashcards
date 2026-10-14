@@ -1,0 +1,33 @@
+{
+    "name": "Hyperfocus",
+    "id": "hyperfocus",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rebecca Chambers",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you hit a great basic Skill Check, you earn [1] Token, up to [6]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token, basic Skill Checks:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Appear [4%] more often.",
+                "Spin [4%] faster.",
+                "Give [30%] more progress when you hit a great."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Whenever you miss a basic Skill Check, hit a good Skill Check, or stop healing or repairing, lose all Tokens."
+        }
+    ],
+    "tags": [
+        "Skill Check",
+        "Token"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Eyes of Belmont",
+    "id": "eyes-of-belmont",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Trevor Belmont",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, you see the Killer's Aura for [3s]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you see the Killer's Aura for a duration, it is [2s] longer."
+        }
+    ],
+    "quote": "\"Ha! Your secret has been revealed!\" -Trevor",
+    "tags": [
+        "Aura",
+        "Generator"
+    ]
+}

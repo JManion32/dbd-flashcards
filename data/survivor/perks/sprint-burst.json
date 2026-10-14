@@ -1,0 +1,24 @@
+{
+    "name": "Sprint Burst",
+    "id": "sprint-burst",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Meg Thomas",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you start running:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [50%] [Haste] for [2s].",
+                "You gain [Exhausted] for [40s]."
+            ]
+        }
+    ],
+    "tags": [
+        "Exhaustion",
+        "Haste"
+    ]
+}

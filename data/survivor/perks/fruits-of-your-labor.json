@@ -1,0 +1,32 @@
+{
+    "name": "Fruits of your Labor",
+    "id": "fruits-of-your-labor",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Aurora Stardotter",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed, you earn [1] Token."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you finish repairing a Generator, for each Token:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [5%] [Haste] for [2s].",
+                "You gain [20%] healing progress."
+            ]
+        }
+    ],
+    "quote": "\"And as the final brick was laid upon the walls of Stellantis, the people rejoiced.\" (Kelglen's Declaration, 9:9)",
+    "tags": [
+        "Generator",
+        "Haste",
+        "Healing",
+        "Repairing",
+        "Token"
+    ]
+}

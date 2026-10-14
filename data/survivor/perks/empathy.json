@@ -1,0 +1,18 @@
+{
+    "name": "Empathy",
+    "id": "empathy",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Claudette Morel",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of injured and dying Survivors within [128m]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Dying State",
+        "Injured State"
+    ]
+}

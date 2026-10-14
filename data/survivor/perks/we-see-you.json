@@ -1,0 +1,22 @@
+{
+    "name": "We See You",
+    "id": "we-see-you",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Eleven",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Killer sees your Aura, you earn [1] Token. Cooldown: [10s]."
+        },
+        {
+            "type": "text",
+            "content": "When you have [4] Tokens, spend them all. Then, all Survivors see the Killer's Aura for [15s]."
+        }
+    ],
+    "quote": "\"It is not me. It is you. You are the monster.\" -Eleven",
+    "tags": [
+        "Aura",
+        "Token"
+    ]
+}

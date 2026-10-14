@@ -1,0 +1,34 @@
+{
+    "name": "Invocation: Weaving Spiders",
+    "id": "invocation-weaving-spiders",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Sable Ward",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in the Basement next to the circle, use <Activate Ability> to invoke. While invoking, other Survivors see your Aura and can join in."
+        },
+        {
+            "type": "text",
+            "content": "When the Invocation is completed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "All Generators gain [10] permanent charges.",
+                "You become injured and [Broken]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Each Invocation can only be completed once per trial."
+        }
+    ],
+    "quote": "\"I call upon the spirits of the night, to aid us in our desperate flight!\" -Sable",
+    "tags": [
+        "Basement",
+        "Broken",
+        "Generator"
+    ]
+}

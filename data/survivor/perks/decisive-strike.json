@@ -1,0 +1,33 @@
+{
+    "name": "Decisive Strike",
+    "id": "decisive-strike",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Laurie Strode",
+    "description": [
+        {
+            "type": "text",
+            "content": "Until all Generators are completed, whenever you are unhooked, for the next [60s]: when the Killer picks you up, once per trial, hit a Special Skill Check:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Stun the Killer for [4s].",
+                "Become the Obsession."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "This is disabled by conspicuous actions. When the trial starts, you are more likely to be the Obsession."
+        }
+    ],
+    "quote": "\"There is nothing to be scared of.\" -Laurie Strode",
+    "tags": [
+        "Carrying",
+        "Conspicuous Action",
+        "Obsession",
+        "Skill Check",
+        "Stun",
+        "Unhooking"
+    ]
+}

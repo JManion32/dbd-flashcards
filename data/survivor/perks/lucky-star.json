@@ -1,0 +1,36 @@
+{
+    "name": "Lucky Star",
+    "id": "lucky-star",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Ellen Ripley",
+    "description": [
+        {
+            "type": "text",
+            "content": "While hiding in a Locker, you make no Grunts of Pain."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you exit a Locker, for [30s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Aura of the closest Generator.",
+                "You see the Auras of other Survivors.",
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [25s]."
+        }
+    ],
+    "quote": "\"You are my... lucky star...\" -Ellen Ripley",
+    "tags": [
+        "Aura",
+        "Generator",
+        "Locker"
+    ]
+}

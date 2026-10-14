@@ -1,0 +1,16 @@
+{
+    "name": "Reassurance",
+    "id": "reassurance",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Rebecca Chambers",
+    "description": [
+        {
+            "type": "text",
+            "content": "Once per Hook State, while within [6m] of a hooked Survivor, use <Activate Ability> to stop the sacrifice progress for [30s]."
+        }
+    ],
+    "tags": [
+        "Hooking"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Parental Guidance",
+    "id": "parental-guidance",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Yoichi Asakawa",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you stun the Killer, for [7s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood.",
+                "You leave no Scratch Marks."
+            ]
+        }
+    ],
+    "tags": [
+        "Scratch Marks",
+        "Stun"
+    ]
+}

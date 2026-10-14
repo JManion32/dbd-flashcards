@@ -1,0 +1,27 @@
+{
+    "name": "Dead Hard",
+    "id": "dead-hard",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "David King",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you are unhooked, while injured and running, use <Activate Ability>:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [Endurance] for [0.5s].",
+                "You gain [Exhausted] for [40s]."
+            ]
+        }
+    ],
+    "quote": "\"I thought to myself, 'Gonna 'ave some fun 'ere lads, let's get stuck in!' It were a right dust up, I swear down!\" -David King",
+    "tags": [
+        "Endurance",
+        "Exhaustion",
+        "Injured State",
+        "Unhooking"
+    ]
+}

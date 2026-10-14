@@ -1,0 +1,23 @@
+{
+    "name": "Streetwise",
+    "id": "streetwise",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Nea Karlsson",
+    "description": [
+        {
+            "type": "text",
+            "content": "The first time you deplete an item's charges, you see the Killer's Aura for [8s]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you loot an item from a Chest, it has [80%] more charges."
+        }
+    ],
+    "quote": "\"You're doing it wrong! Let me show you how it's done.\" -Nea",
+    "tags": [
+        "Aura",
+        "Chest",
+        "Items"
+    ]
+}

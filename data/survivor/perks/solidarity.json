@@ -1,0 +1,18 @@
+{
+    "name": "Solidarity",
+    "id": "solidarity",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Jane Romero",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured, whenever you heal another Survivor, you also heal yourself at [75%] speed."
+        }
+    ],
+    "quote": "\"Showing up when things get rough and supporting those in need; that's how you become stronger, that's how you grow.\" -Jane Romero",
+    "tags": [
+        "Healing",
+        "Injured State"
+    ]
+}

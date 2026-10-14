@@ -1,0 +1,22 @@
+{
+    "name": "Unbreakable",
+    "id": "unbreakable",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Bill Overbeck",
+    "description": [
+        {
+            "type": "text",
+            "content": "Once per trial, while downed by the Killer, you can fully recover."
+        },
+        {
+            "type": "text",
+            "content": "You recover [35%] faster."
+        }
+    ],
+    "quote": "\"Goddammit, I am seriously FUBAR!\" -Bill",
+    "tags": [
+        "Dying State",
+        "Healing"
+    ]
+}

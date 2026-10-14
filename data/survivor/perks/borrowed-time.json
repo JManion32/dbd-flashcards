@@ -1,0 +1,26 @@
+{
+    "name": "Borrowed Time",
+    "id": "borrowed-time",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Bill Overbeck",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you unhook a Survivor:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They retain their unhook [Endurance] for [10s] longer.",
+                "They retain their unhook [Haste] for [10s] longer."
+            ]
+        }
+    ],
+    "quote": "\"Probably stings like hell, but it ain't gonna kill ya. Up and at 'em soldier. Time to move!\" -Bill Overbeck",
+    "tags": [
+        "Endurance",
+        "Haste",
+        "Unhooking"
+    ]
+}

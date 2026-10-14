@@ -1,0 +1,29 @@
+{
+    "name": "Pharmacy",
+    "id": "pharmacy",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Quentin Smith",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you unlock a Chest, it will contain a rare Med-Kit."
+        },
+        {
+            "type": "text",
+            "content": "You unlock and rummage Chests [125%] faster."
+        },
+        {
+            "type": "text",
+            "content": "You can rummage each Chest [1] time."
+        },
+        {
+            "type": "text",
+            "content": "The range at which the Killer hears you unlocking Chests is [12m] shorter."
+        }
+    ],
+    "tags": [
+        "Chest",
+        "Items"
+    ]
+}
