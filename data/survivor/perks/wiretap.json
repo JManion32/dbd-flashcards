@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "After repairing Generators for [35%], use <Active Ability> while repairing to trap that Generator for [120s]."
+            "content": "After repairing [40%] of Generators, use <Activate Ability> while repairing to trap that Generator for [120s] or until the Killer damages it. All Survivors see that Generator's Aura for that time."
         },
         {
             "type": "text",
-            "content": "While the Killer is within [14m] of a trapped Generator, all Survivors see their Aura."
+            "content": "While the Killer is within [14m] of a trapped Generator, all Survivors see the Killer's Aura."
         }
     ],
     "tags": [

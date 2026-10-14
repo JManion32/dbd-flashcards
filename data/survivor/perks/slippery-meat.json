@@ -7,16 +7,14 @@
     "description": [
         {
             "type": "text",
-            "content": "You have [3%] more Luck when trying to unhook yourself."
+            "content": "Other Survivors unhook you [100%] faster."
         },
         {
             "type": "text",
-            "content": "You wiggle [15%] faster."
+            "content": "Whenever you are unhooked, you gain [5%] more [Haste]."
         }
     ],
     "tags": [
-        "Hooking",
-        "Luck",
         "Unhooking"
     ]
 }

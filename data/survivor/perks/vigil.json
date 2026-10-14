@@ -7,14 +7,15 @@
     "description": [
         {
             "type": "text",
-            "content": "You and Survivors within [8m] of you recover from [Blindness], [Broken], [Exhausted], [Hemorrhage], and [Mangled] [20%] faster."
+            "content": "All Survivors within [16m] of you lose [Exhausted] [30%] faster."
+        },
+        {
+            "type": "text",
+            "content": "This effect ends [15s] after they leave your range."
         }
     ],
+    "quote": "\"I'm gonna be here when you wake up. You're gonna make it.\" -Quentin Smith",
     "tags": [
-        "Blindness",
-        "Broken",
-        "Exhaustion",
-        "Hemorrhage",
-        "Mangled"
+        "Exhaustion"
     ]
 }

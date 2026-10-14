@@ -7,13 +7,18 @@
     "description": [
         {
             "type": "text",
-            "content": "After repairing a Generator for [3s], you see its Aura."
+            "content": "After repairing a Generator for at least [1s], you see its Aura."
         },
         {
             "type": "text",
-            "content": "When you enter a Locker, that Generator makes a loud noise."
+            "content": "When you enter a Locker, the Killer is alerted to the Generator."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [15s]."
         }
     ],
+    "quote": "\"The news edits out what is burdensome and complex, which is the truth.\" -Zarina Kassir",
     "tags": [
         "Aura",
         "Generator",

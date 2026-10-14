@@ -13,7 +13,7 @@
             "type": "list",
             "items": [
                 "You become injured.",
-                "Yoo gain [Broken] for [60s].",
+                "You gain [Broken] for [60s].",
                 "You become the Obsession."
             ]
         },

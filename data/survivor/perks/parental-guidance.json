@@ -7,7 +7,15 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever the Killer is stunned, you leave no Scratch Marks, Pools of Blood, or Grunts of Pain for [7s]."
+            "content": "Whenever you stun the Killer, for [7s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood.",
+                "You leave no Scratch Marks."
+            ]
         }
     ],
     "tags": [

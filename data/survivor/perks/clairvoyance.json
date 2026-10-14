@@ -7,10 +7,10 @@
     "description": [
         {
             "type": "text",
-            "content": "After cleansing a Totem, use <Active Ability> while holding no items to see the Auras of Chests, Exit Gate Switches, Generators, the Hatch, and Hooks within [64m] for up to [12s]."
+            "content": "After cleansing a Totem, use <Activate Ability> while holding no items to see the Auras of Chests, Exit Gate Switches, Generators, the Hatch, and Hooks within [64m] for up to [12s]."
         }
     ],
-    "quote": "\"Does anyone else see that? Just me? -Mikaela Reid\"",
+    "quote": "\"Does anyone else see that? Just me?\" -Mikaela Reid",
     "tags": [
         "Aura",
         "Chest",

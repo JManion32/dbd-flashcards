@@ -3,12 +3,30 @@
     "id": "road-life",
     "side": "Survivor",
     "type": "Perk",
-    "owner": "Rick Grimes",
+    "owner": "Vee Boonyasak",
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "While injured and repairing a Generator:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Whenever you hit a great basic Skill Check, you earn [1] Token.",
+                "Whenever you miss a basic Skill Check, you lose [1] Token."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When you have [4] Tokens, you can heal yourself. Spend all Tokens to heal yourself [10%] faster. When you stop healing, this ends after [4s]."
         }
     ],
-    "tags": []
+    "quote": "\"Remind me to teach you how to patch your own pedals, Krit.\" -Vee Boonyasak",
+    "tags": [
+        "Generator",
+        "Healing",
+        "Repairing",
+        "Skill Check",
+        "Token"
+    ]
 }

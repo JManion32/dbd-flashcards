@@ -1,0 +1,26 @@
+{
+    "name": "Salvation's Cry",
+    "id": "salvations-cry",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Aurora Stardotter",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever the Killer starts chasing you:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see the Auras of other Survivors for [3s].",
+                "Survivors not being chased see your Aura for [5s].",
+                "Survivors not being chased see the Killer's Aura for [5s]."
+            ]
+        }
+    ],
+    "quote": "\"May you see as the stars see.\" (Auroran Blessing)",
+    "tags": [
+        "Aura",
+        "Chase"
+    ]
+}

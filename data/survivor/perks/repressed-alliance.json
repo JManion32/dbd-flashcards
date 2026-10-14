@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "After repairing Generators for [80s], use <Active Ability> while repairing to block that Generator for [30s]."
+            "content": "After repairing Generators for [30s], while repairing a Generator alone, use <Activate Ability> to block it for [15s]."
         }
     ],
     "tags": [

@@ -7,8 +7,22 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "While idle, use <Activate Ability> to perform, empowering all Survivors within [16m] for up to [15s]. While performing, your Aura is revealed to other Survivors. Empowered Survivors are [20%] more likely to receive basic Skill Checks while healing or repairing."
+        },
+        {
+            "type": "text",
+            "content": "If you complete the performance, the effect ends after [90s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [90s]."
         }
     ],
-    "tags": []
+    "quote": "\"We are loud! We are heavy! WE ARE AXEKICK!\" -Vee Boonyasak",
+    "tags": [
+        "Aura",
+        "Healing",
+        "Repairing",
+        "Skill Check"
+    ]
 }

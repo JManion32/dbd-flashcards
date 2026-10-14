@@ -18,12 +18,14 @@
         },
         {
             "type": "text",
-            "content": "This is disabled by conspicuous actions. At the start of the trial, you are more likely to be the Obsession."
+            "content": "This is disabled by conspicuous actions. When the trial starts, you are more likely to be the Obsession."
         }
     ],
     "quote": "\"There is nothing to be scared of.\" -Laurie Strode",
     "tags": [
         "Carrying",
+        "Conspicuous Action",
+        "Obsession",
         "Skill Check",
         "Stun",
         "Unhooking"

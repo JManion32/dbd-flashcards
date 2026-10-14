@@ -7,8 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "You move [90%] faster while crouched."
+            "content": "While crouched, you gain [100%] [Haste]."
         }
     ],
-    "tags": []
+    "quote": "\"The paint is still fresh but I'm long gone.\" -Nea",
+    "tags": [
+        "Haste"
+    ]
 }

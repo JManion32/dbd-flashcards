@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "content": "Whenever a Generator is completed, this deactivates for [20s]."
+            "content": "Whenever a Generator is completed, this deactivates for [16s]."
         }
     ],
     "tags": [

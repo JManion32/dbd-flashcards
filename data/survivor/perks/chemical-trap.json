@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "After repairing [20%] of Generators, you can trap a dropped Pallet for [100s]. All Survivors see that Pallet's Aura for that time."
+            "content": "After repairing [20%] of Generators, you can trap a Dropped Pallet for [100s]. All Survivors see that Pallet's Aura for that time."
         },
         {
             "type": "text",
@@ -16,6 +16,7 @@
     ],
     "quote": "\"How do we kill it, Ash?\" -Ellen Ripley",
     "tags": [
+        "Aura",
         "Generator",
         "Hinder",
         "Pallet"

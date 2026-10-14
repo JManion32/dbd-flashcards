@@ -7,11 +7,15 @@
     "description": [
         {
             "type": "text",
-            "content": "You see the Auras of unopened Chests and Items on the ground within [32m]."
+            "content": "You see the Auras of Chests and items."
         },
         {
             "type": "text",
-            "content": "Chests give you rarer Items."
+            "content": "You unlock Chests [200%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you unlock a Chest, you are [50%] more likely to find an item of higher rarity."
         }
     ],
     "tags": [

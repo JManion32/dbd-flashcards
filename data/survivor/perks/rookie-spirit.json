@@ -7,9 +7,10 @@
     "description": [
         {
             "type": "text",
-            "content": "After hitting [5] good Skill Checks while repairing, you see the Auras of regressing Generators."
+            "content": "After hitting [3] Skill Checks while repairing, you see the Auras of regressing Generators."
         }
     ],
+    "quote": "\"I'll stop this, lieutenant. I promise.\" -Leon S. Kennedy",
     "tags": [
         "Aura",
         "Generator",

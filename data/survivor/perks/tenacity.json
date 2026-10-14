@@ -7,14 +7,23 @@
     "description": [
         {
             "type": "text",
-            "content": "You crawl [30%] faster and can recover while crawling."
+            "content": "While downed:"
         },
         {
-            "type": "text",
-            "content": "Your Grunts of Pain are silent while dying."
+            "type": "list",
+            "items": [
+                "You gain [50%] [Haste].",
+                "You can crawl and recover at the same time.",
+                "Your Grunts of Pain are [75%] quieter.",
+                "The Killer cannot see your Aura."
+            ]
         }
     ],
+    "quote": "\"What the hell is this? I'm taking this bastard down!\" -Detective David Tapp",
     "tags": [
+        "Aura",
+        "Dying State",
+        "Haste",
         "Healing"
     ]
 }

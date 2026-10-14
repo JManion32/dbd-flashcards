@@ -7,9 +7,14 @@
     "description": [
         {
             "type": "text",
-            "content": "After you heal another Survivor, the next time you are unhooked, you gain [Broken], then are healed after [28s]."
+            "content": "After you heal another Survivor, while not [Broken], when you are unhooked, you gain [Broken]."
+        },
+        {
+            "type": "text",
+            "content": "After [20s], if you are not downed, you are instantly healed."
         }
     ],
+    "quote": "\"Yeah, that's a no.\" -Steve Harrington",
     "tags": [
         "Broken",
         "Healing",

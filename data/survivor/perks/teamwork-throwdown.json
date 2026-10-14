@@ -7,8 +7,23 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "Whenever you blind or Pallet-stun the Killer, for [10s], other injured Survivors within [24m]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gain [Endurance].",
+                "See the Killer's Aura."
+            ]
         }
     ],
-    "tags": []
+    "quote": "\"Facing evil brings good people together.\" -Michonne Grimes",
+    "tags": [
+        "Aura",
+        "Blind",
+        "Endurance",
+        "Pallet",
+        "Stun",
+        "Teamwork"
+    ]
 }

@@ -7,8 +7,17 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "While in the Basement, you can unhook yourself."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you are unhooked, you see the Killer's Aura for [20s]."
         }
     ],
-    "tags": []
+    "quote": "\"I haven't let anyone get in my way before. You think I'm gonna start now?\" -Sable",
+    "tags": [
+        "Aura",
+        "Basement",
+        "Unhooking"
+    ]
 }

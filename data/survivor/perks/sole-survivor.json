@@ -7,10 +7,32 @@
     "description": [
         {
             "type": "text",
-            "content": "For each dead Survivor, the Killer cannot see your Aura within a larger range."
+            "content": "Whenever you are hooked or complete a Generator, you earn [1] Token, up to [6]."
+        },
+        {
+            "type": "text",
+            "content": "For each Token, other Survivors open Exit Gates [10%] faster."
+        },
+        {
+            "type": "text",
+            "content": "When you are the last Survivor, if you have at least [3] Tokens:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You can unlock the Hatch.",
+                "For each Token, the Killer cannot see your Aura for [10s]."
+            ]
         }
     ],
+    "quote": "\"It was the boogeyman.\" -Laurie Strode",
     "tags": [
-        "Aura"
+        "Aura",
+        "End Game",
+        "Exit Gate",
+        "Generator",
+        "Hatch",
+        "Hooking",
+        "Token"
     ]
 }

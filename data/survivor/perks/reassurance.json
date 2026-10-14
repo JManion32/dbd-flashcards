@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Use <Active Ability> within [6m] of a hooked Survivor to pause their Hook timer for [30s]."
+            "content": "Once per Hook State, while within [6m] of a hooked Survivor, use <Activate Ability> to stop the sacrifice progress for [30s]."
         }
     ],
     "tags": [

@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "After you finish healing [1] other Survivor, while downed with at least [25%] recorvery, use <aCtivate Ability> to recover instantly."
+            "content": "After you finish healing [1] other Survivor, while downed with at least [25%] recovery, use <Activate Ability> to recover instantly."
         },
         {
             "type": "text",

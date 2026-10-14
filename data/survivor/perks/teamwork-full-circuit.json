@@ -7,8 +7,18 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "For each other Survivor repairing a Generator with you, good basic Skill Check zones are [25%] bigger."
+        },
+        {
+            "type": "text",
+            "content": "While repairing with at least [1] other Survivor, you repair [5%] faster."
         }
     ],
-    "tags": []
+    "quote": "\"How many times do I have to be right on the money before you guys just trust me?\" -Dustin Henderson",
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Skill Check",
+        "Teamwork"
+    ]
 }

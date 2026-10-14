@@ -11,10 +11,23 @@
         },
         {
             "type": "text",
-            "content": "At [5] Tokens, your Toolbox is recharged."
+            "content": "When you have [5] Tokens, spend them all:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your Toolbox is recharged instantly.",
+                "You repair [50%] slower for [30s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "You can rummage Chests [1] time. The first time you rummage a Chest, it will contain an uncommon Toolbox."
         }
     ],
+    "quote": "\"It's amazing what people will throw away around here.\" -Gabriel Soma",
     "tags": [
+        "Chest",
         "Items",
         "Repairing",
         "Skill Check",

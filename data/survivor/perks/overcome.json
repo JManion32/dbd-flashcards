@@ -7,18 +7,20 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you become injured:"
+            "content": "Whenever you take damage:"
         },
         {
             "type": "list",
             "items": [
-                "You gain [75%] [Haste] for [2s].",
+                "You retain your speed boost for [2s] longer.",
                 "You gain [Exhausted] for [40s]."
             ]
         }
     ],
+    "quote": "\"After careful analysis, we're getting the hell out of here!\" -Jonah Vasquez",
     "tags": [
         "Exhaustion",
-        "Haste"
+        "Haste",
+        "Injured State"
     ]
 }

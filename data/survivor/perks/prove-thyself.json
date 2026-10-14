@@ -7,9 +7,10 @@
     "description": [
         {
             "type": "text",
-            "content": "You repair [15%] faster for each other Survivor within [4m] of you."
+            "content": "For each other Survivor within [4m] of you, all Survivors repair [10%] faster."
         }
     ],
+    "quote": "\"Show me what you can do!\" -Dwight",
     "tags": [
         "Generator",
         "Repairing"

@@ -7,8 +7,24 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever the Killer is within [36m] and looking at you, you are alerted."
+            "content": "Whenever the Killer looks at you within [40m]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You are notified.",
+                "You cannot scream for [12s].",
+                "You vault [10%] faster for [12s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
         }
     ],
-    "tags": []
+    "tags": [
+        "Chase",
+        "Scream",
+        "Vaulting"
+    ]
 }

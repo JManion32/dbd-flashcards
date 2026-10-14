@@ -7,12 +7,10 @@
     "description": [
         {
             "type": "text",
-            "content": "While injured, great Skill Checks while repairing or healing give [30%] more bonus progress."
+            "content": "Good basic Skill Check zones are [200%] bigger."
         }
     ],
     "tags": [
-        "Healing",
-        "Repairing",
         "Skill Check"
     ]
 }

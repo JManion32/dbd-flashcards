@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "While healthy and running, use <Active Ability> to gain [25%] [Haste] for [2s], [Exhausted] for [40s], and one random effect:"
+            "content": "While healthy and running, use <Activate Ability> to gain [25%] [Haste] for [2s], [Exhausted] for [40s], and one random effect:"
         },
         {
             "type": "list",
@@ -25,6 +25,7 @@
     ],
     "quote": "\"Take the part. It's a good movie, he says. What's the worst that can happen?\" -Nicolas Cage",
     "tags": [
+        "Exhaustion",
         "Exposed",
         "Haste",
         "Items",

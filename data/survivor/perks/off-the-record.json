@@ -7,19 +7,21 @@
     "description": [
         {
             "type": "text",
-            "content": "For [80s] after being unhooked:"
+            "content": "Until all Generators are completed, whenever you are unhooked, for the next [40s]:"
         },
         {
             "type": "list",
             "items": [
-                "The Killer cannot see your Aura.",
+                "You gain [Endurance].",
                 "Your Grunts of Pain are [100%] quieter.",
-                "You gain [Endurance]."
+                "The Killer cannot see your Aura."
             ]
         }
     ],
+    "quote": "\"Trust me, I investigate thoroughly and discreetly.\" -Zarina Kassir",
     "tags": [
         "Aura",
+        "Endurance",
         "Unhooking"
     ]
 }

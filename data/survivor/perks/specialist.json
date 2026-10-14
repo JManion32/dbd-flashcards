@@ -7,8 +7,18 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "Whenever you rummage or unlock a Chest, you earn [1] Token, up to [6]."
+        },
+        {
+            "type": "text",
+            "content": "While repairing a Generator, whenever you hit a great basic Skill Check, spend all Tokens. For each Token spent, the Generator gains [4%] permanent progress."
         }
     ],
-    "tags": []
+    "quote": "\"Well then. Doesn't this feel familiar?\" -Lara Croft",
+    "tags": [
+        "Chest",
+        "Generator",
+        "Skill Check",
+        "Token"
+    ]
 }

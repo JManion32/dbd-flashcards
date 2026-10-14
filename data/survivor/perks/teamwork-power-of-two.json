@@ -7,8 +7,17 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "Whenever you finish healing another Survivor, while you stay within [16m] of each other, you both gain [5%] [Haste]."
+        },
+        {
+            "type": "text",
+            "content": "When either of you leaves the range, this ends after [4s]."
         }
     ],
-    "tags": []
+    "quote": "\"You good? Then keep up.\" -Thalita Lyra",
+    "tags": [
+        "Haste",
+        "Healing",
+        "Teamwork"
+    ]
 }

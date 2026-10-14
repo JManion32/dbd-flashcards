@@ -3,12 +3,21 @@
     "id": "teamwork-soft-spoken",
     "side": "Survivor",
     "type": "Perk",
-    "owner": "Vee Boonyasak",
+    "owner": "Eleven",
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "For each other Survivor repairing a Generator with you, the range of Generator repair noises is [25%] smaller."
+        },
+        {
+            "type": "text",
+            "content": "While repairing with at least [1] other Survivor, you repair [5%] faster."
         }
     ],
-    "tags": []
+    "quote": "\"I make my own rules.\" -Eleven",
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Teamwork"
+    ]
 }

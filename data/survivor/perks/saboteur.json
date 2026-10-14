@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "You can sabotage Hooks without a Toolbox."
+            "content": "While the Killer is carrying another Survivor, you see the Auras of Hooks within [56m] of where they were picked up."
         },
         {
             "type": "text",
-            "content": "While carried, you see the Auras of Hooks within [56m]."
+            "content": "You can sabotage Hooks without a Toolbox. Cooldown: [60s]."
         }
     ],
     "tags": [

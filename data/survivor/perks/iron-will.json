@@ -10,5 +10,8 @@
             "content": "While injured and not [Exhausted], your Grunts of Pain are [100%] quieter."
         }
     ],
-    "tags": []
+    "tags": [
+        "Exhaustion",
+        "Injured State"
+    ]
 }

@@ -7,11 +7,14 @@
     "description": [
         {
             "type": "text",
-            "content": "While healing, you and the Survivor you are healing make no noise."
+            "content": "While healing, you and the Survivor you are healing make no noises or Grunts of Pain. Whenever you miss a basic Skill Check:"
         },
         {
-            "type": "text",
-            "content": "Missed healing Skill Checks do not alert the Killer and lose [1%] less progress."
+            "type": "list",
+            "items": [
+                "You lose only [1%] progress.",
+                "The Killer is not alerted."
+            ]
         }
     ],
     "quote": "\"I can do this.\" -Leon S. Kennedy",

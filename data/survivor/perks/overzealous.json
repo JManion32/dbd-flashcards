@@ -7,15 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "After cleansing a Totem, you repair Generators [8%] faster, or [16%] if it was a Hex Totem."
-        },
-        {
-            "type": "text",
-            "content": "This ends when you lose a Health State."
+            "content": "Whenever you bless or cleanse a Totem, until you take damage, you repair [10%] faster. If that Totem was a Hex Totem, the effect is doubled."
         }
     ],
+    "quote": "\"The Ravage senses us. We need to work fast.\" -Haddie Kaur, Ravages of the Abyss Episode 9",
     "tags": [
-        "Generator",
         "Hex",
         "Repairing",
         "Totem"

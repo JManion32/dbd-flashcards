@@ -7,11 +7,11 @@
     "description": [
         {
             "type": "text",
-            "content": "Your fast-vaults and fast Locker entries make no noise."
+            "content": "You hide in Lockers and vault silently. The Killer is not alerted."
         },
         {
             "type": "text",
-            "content": "Cooldown: [30s]."
+            "content": "Cooldown: [15s]."
         }
     ],
     "tags": [

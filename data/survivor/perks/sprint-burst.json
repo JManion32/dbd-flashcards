@@ -12,7 +12,7 @@
         {
             "type": "list",
             "items": [
-                "You gain [50%] [Haste] for [3s].",
+                "You gain [50%] [Haste] for [2s].",
                 "You gain [Exhausted] for [40s]."
             ]
         }

@@ -7,13 +7,21 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you look at the Killer within their Terror Radius, you scream and see their Aura for [3s]."
+            "content": "Whenever you look at the Killer within their Terror Radius:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Scream, then see the Killer's Aura for [6s].",
+                "There is a [50%] chance you will scream again. If you do, you see the Killer's Aura for [2s] more."
+            ]
         },
         {
             "type": "text",
-            "content": "You have a chance to scream again, which extends this by [2s]."
+            "content": "Cooldown: [40s]."
         }
     ],
+    "quote": "\"This is not in the script!\" -Nicolas Cage",
     "tags": [
         "Aura",
         "Scream",

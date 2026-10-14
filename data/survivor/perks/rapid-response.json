@@ -7,8 +7,16 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "Whenever you fast-exit a Locker, you gain [Exhausted] for [20s]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you gain [Exhausted], you see the Killer's Aura for [2s]."
         }
     ],
-    "tags": []
+    "quote": "\"All right. You got this. 3... 2... 1... go!\" -Orela Rose",
+    "tags": [
+        "Exhaustion",
+        "Locker"
+    ]
 }

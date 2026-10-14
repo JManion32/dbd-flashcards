@@ -7,10 +7,12 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you look toward a Dull or Hex Totem within [8m], you hear a sound cue."
+            "content": "Within [12m] of a Totem, you see its Aura."
         }
     ],
+    "quote": "\"Nope.\" -Lost Tapes: Andy",
     "tags": [
+        "Aura",
         "Totem"
     ]
 }

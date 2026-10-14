@@ -12,9 +12,9 @@
         {
             "type": "list",
             "items": [
-                "You see the Auras of the Exit Gates.",
-                "You open Exit Gates [15%] faster.",
-                "When you open an Exit Gate, all other Survivors see its Aura."
+                "You see the Auras of Exit Gate Switches.",
+                "While opening an Exit Gate, all other Survivors see your Aura.",
+                "You open Exit Gates [10%] faster, and an additional [20%] faster for each other Survivor alive."
             ]
         }
     ],

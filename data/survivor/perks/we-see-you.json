@@ -7,8 +7,16 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "Whenever the Killer sees your Aura, you earn [1] Token. Cooldown: [10s]."
+        },
+        {
+            "type": "text",
+            "content": "When you have [4] Tokens, spend them all. Then, all Survivors see the Killer's Aura for [15s]."
         }
     ],
-    "tags": []
+    "quote": "\"It is not me. It is you. You are the monster.\" -Eleven",
+    "tags": [
+        "Aura",
+        "Token"
+    ]
 }

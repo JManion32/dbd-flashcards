@@ -7,10 +7,12 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever another Survivor within [16m] is hit by the Killer, you leave no Scratch Marks, Pools of Blood, or Grunts of Pain for [10s]."
+            "content": "Whenever another Survivor is hooked, you gain [Elusive] for [15s]."
         }
     ],
+    "quote": "\"Something I learned in the industry: when the axe is swinging, keep your head down.\" -Yun-jin",
     "tags": [
-        "Scratch Marks"
+        "Elusive",
+        "Hooking"
     ]
 }

@@ -8,9 +8,15 @@
         {
             "type": "text",
             "content": "While carried, after reaching [15%] wiggle progress, you can drop a nearby Pallet to stun the Killer."
+        },
+        {
+            "type": "text",
+            "content": "While downed, you see the Auras of Upright Pallets."
         }
     ],
+    "quote": "\"I relied on others to protect me once and I lost everything. Never again.\" -Élodie Rakoto",
     "tags": [
+        "Aura",
         "Carrying",
         "Pallet",
         "Stun"

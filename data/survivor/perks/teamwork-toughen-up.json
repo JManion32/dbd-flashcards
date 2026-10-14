@@ -7,8 +7,24 @@
     "description": [
         {
             "type": "text",
-            "content": "TODO"
+            "content": "While injured, whenever another Survivor within [24m] of you blinds or Pallet-stuns the Killer, for [30s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You make no Grunts of Pain.",
+                "You leave no Pools of Blood.",
+                "You leave no Scratch Marks."
+            ]
         }
     ],
-    "tags": []
+    "quote": "\"They're fucking with the wrong people.\" -Rick Grimes",
+    "tags": [
+        "Blind",
+        "Injured State",
+        "Pallet",
+        "Scratch Marks",
+        "Stun",
+        "Teamwork"
+    ]
 }

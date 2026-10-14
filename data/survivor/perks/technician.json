@@ -7,17 +7,23 @@
     "description": [
         {
             "type": "text",
-            "content": "Your Generator repair noises are [8m] quieter."
+            "content": "While repairing a Generator:"
         },
         {
-            "type": "text",
-            "content": "Whenever you miss a Skill Check while repairing, the Generator does not explode, but loses [5%] more progress."
+            "type": "list",
+            "items": [
+                "The range of Generator repair noises is [16m] shorter.",
+                "Whenever you miss a basic Skill Check, the Generator does not explode, but loses [2%] more progress.",
+                "You leave no Scratch Marks."
+            ]
         }
     ],
+    "quote": "\"I'm gonna stealth this one.\" -Feng Min",
     "tags": [
         "Generator",
         "Regression",
         "Repairing",
+        "Scratch Marks",
         "Skill Check"
     ]
 }

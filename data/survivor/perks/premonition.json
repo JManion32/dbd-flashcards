@@ -7,12 +7,22 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you look toward the Killer within [36m], you hear a sound cue."
+            "content": "While not chased by the Killer, whenever you look in the Killer's direction within [32m]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You are notified.",
+                "You see the Killer's Aura for [3s]."
+            ]
         },
         {
             "type": "text",
-            "content": "Cooldown: [30s]."
+            "content": "Cooldown: [45s]."
         }
     ],
-    "tags": []
+    "quote": "\"I have a bad feeling about this!\"",
+    "tags": [
+        "Aura"
+    ]
 }

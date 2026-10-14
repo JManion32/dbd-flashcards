@@ -7,10 +7,21 @@
     "description": [
         {
             "type": "text",
-            "content": "You heal dying Survivors [100%] faster."
+            "content": "You heal downed Survivors [100%] faster."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you finish healing a downed Survivor, they gain [Endurance] for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [30s]."
         }
     ],
+    "quote": "\"Come on then, let's 'ave it! I don't give a shit pal.\" -David King",
     "tags": [
+        "Dying State",
+        "Endurance",
         "Healing"
     ]
 }

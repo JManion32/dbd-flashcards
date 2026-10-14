@@ -7,13 +7,18 @@
     "description": [
         {
             "type": "text",
-            "content": "While repairing, use <Active Ability> to earn Tokens instead of progress, up to [3]."
+            "content": "While repairing, use <Activate Ability> to earn Tokens instead of progress, up to [20]."
         },
         {
             "type": "text",
-            "content": "When you repair another Generator, spend [1] Token to add [20%] progress."
+            "content": "When you repair another Generator, use <Activate Ability> to spend all Tokens and gain [1%] progress for each Token spent."
+        },
+        {
+            "type": "text",
+            "content": "Whenever you take damage, lose all Tokens."
         }
     ],
+    "quote": "\"When you look a layer deeper, you realize... everything is connected.\" -Vittorio Toscano",
     "tags": [
         "Generator",
         "Repairing",
