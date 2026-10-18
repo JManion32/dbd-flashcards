@@ -16,7 +16,9 @@ const splashText = generateSplashText();
         <div class="banner-content">
             <h1 class="banner-header">DBD Flashcards</h1>
 
-            <p class="banner-desc">{{ splashText }}</p>
+            <p class="banner-desc">
+                {{ splashText }}
+            </p>
         </div>
 
         <nav
