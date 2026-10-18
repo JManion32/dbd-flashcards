@@ -25,9 +25,9 @@ const visible = ref(false);
             <!--TODO: Populate this by pulling from a changelog txt/json file.-->
             <div class="updates-container">
                 <UpdateBlock
-                    title="Hello!"
-                    desc="Welcome to DBD Flashcards!"
-                    date="09-06-2026"
+                    title="Welcome to DBD Flashcards!"
+                    desc="Featuring ALL killer and survivor perks as of version 10.2.0. Killer add-ons are coming soon!"
+                    date="2026-10-15"
                 />
             </div>
         </div>
