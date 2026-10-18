@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import bannerBg from '@/assets/banner-bg.png';
+import { generateSplashText } from '@/utils/generateSplashText';
+
+const splashText = generateSplashText();
 </script>
 
 <template>
@@ -13,7 +16,7 @@ import bannerBg from '@/assets/banner-bg.png';
         <div class="banner-content">
             <h1 class="banner-header">DBD Flashcards</h1>
 
-            <p class="banner-desc">An unofficial Dead by Daylight study tool!</p>
+            <p class="banner-desc">{{ splashText }}</p>
         </div>
 
         <nav
