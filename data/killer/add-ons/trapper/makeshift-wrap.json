@@ -1,0 +1,18 @@
+{
+    "name": "Makeshift Wrap",
+    "id": "makeshift-wrap",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "You cannot be caught in your own [Bear Traps].",
+                "Stepping on a [Bear Trap] disarms it."
+            ]
+        }
+    ],
+    "tags": []
+}

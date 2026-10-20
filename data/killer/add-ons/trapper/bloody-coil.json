@@ -1,0 +1,17 @@
+{
+    "name": "Bloody Coil",
+    "id": "bloody-coil",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a healthy Survivor disarms a [Bear Trap], they become injured."
+        }
+    ],
+    "tags": [
+        "Injured State"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Coffee Grounds",
+    "id": "coffee-grounds",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Haste] gained after setting a [Bear Trap] by [5%]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

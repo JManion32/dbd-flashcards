@@ -1,0 +1,15 @@
+{
+    "name": "Tension Spring",
+    "id": "tension-spring",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "A [Bear Trap] automatically resets [2s] after a Survivor escapes from it."
+        }
+    ],
+    "tags": []
+}

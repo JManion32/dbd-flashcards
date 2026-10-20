@@ -1,0 +1,17 @@
+{
+    "name": "Rusted Jaws",
+    "id": "rusted-jaws",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Bear Traps] inflict [Mangled] on trapped Survivors for [70s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

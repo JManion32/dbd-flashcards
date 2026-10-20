@@ -1,0 +1,15 @@
+{
+    "name": "Wax Brick",
+    "id": "wax-brick",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time required to rescue a Survivor or escape from a [Bear Trap] by [33%]."
+        }
+    ],
+    "tags": []
+}

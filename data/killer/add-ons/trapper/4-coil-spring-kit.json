@@ -1,0 +1,15 @@
+{
+    "name": "4-Coil Spring Kit",
+    "id": "4-coil-spring-kit",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time required for Survivors to disarm [Bear Traps] by [33%]."
+        }
+    ],
+    "tags": []
+}

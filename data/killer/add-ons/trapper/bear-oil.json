@@ -1,0 +1,15 @@
+{
+    "name": "Bear Oil",
+    "id": "bear-oil",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Setting a [Bear Trap] is silent."
+        }
+    ],
+    "tags": []
+}

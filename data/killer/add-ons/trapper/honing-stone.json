@@ -1,0 +1,17 @@
+{
+    "name": "Honing Stone",
+    "id": "honing-stone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who free themselves from a [Bear Trap] are put into the dying state instead of the injured state."
+        }
+    ],
+    "tags": [
+        "Dying State"
+    ]
+}

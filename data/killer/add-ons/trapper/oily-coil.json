@@ -1,0 +1,17 @@
+{
+    "name": "Oily Coil",
+    "id": "oily-coil",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Resetting a [Bear Trap] reveals the Aura of the last Survivor to disarm it for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

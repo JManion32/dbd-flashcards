@@ -1,0 +1,18 @@
+{
+    "name": "Serrated Jaws",
+    "id": "serrated-jaws",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Bear Traps] inflict [Hemorrhage] on trapped Survivors until they are fully healed."
+        }
+    ],
+    "quote": "\"Like a predatory beast, it can smell and track blood.\"",
+    "tags": [
+        "Hemorrhage"
+    ]
+}

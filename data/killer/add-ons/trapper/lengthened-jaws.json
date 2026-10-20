@@ -1,0 +1,15 @@
+{
+    "name": "Lengthened Jaws",
+    "id": "lengthened-jaws",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trapper",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who escape a [Bear Trap] gain [Deep Wound]."
+        }
+    ],
+    "tags": []
+}
