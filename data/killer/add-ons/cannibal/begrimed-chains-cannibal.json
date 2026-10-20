@@ -1,0 +1,17 @@
+{
+    "name": "Begrimed Chains",
+    "id": "begrimed-chains-cannibal",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit by the [Chainsaw] drop their Item."
+        }
+    ],
+    "tags": [
+        "Items"
+    ]
+}

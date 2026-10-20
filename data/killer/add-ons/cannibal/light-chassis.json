@@ -1,0 +1,17 @@
+{
+    "name": "Light Chassis",
+    "id": "light-chassis",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "While revving the [Chainsaw], the Auras of Survivors within [8m] are revealed."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

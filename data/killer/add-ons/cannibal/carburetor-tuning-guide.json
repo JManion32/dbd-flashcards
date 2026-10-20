@@ -1,0 +1,19 @@
+{
+    "name": "Carburetor Tuning Guide",
+    "id": "carburetor-tuning-guide",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Triggering a [Chainsaw Sweep] automatically consumes all charges.",
+                "Increases [Chainsaw Sweep] duration by [0.5s].",
+                "Decreases [Chainsaw Sweep] movement speed by [2%]."
+            ]
+        }
+    ],
+    "tags": []
+}

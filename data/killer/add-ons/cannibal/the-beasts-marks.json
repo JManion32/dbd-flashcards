@@ -1,0 +1,18 @@
+{
+    "name": "The Beast's Marks",
+    "id": "the-beasts-marks",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases [Chainsaw Sweep] movement speed by [2%].",
+                "Increases [Chainsaw] charge time by [12%]."
+            ]
+        }
+    ],
+    "tags": []
+}

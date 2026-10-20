@@ -1,0 +1,15 @@
+{
+    "name": "Primer Bulb",
+    "id": "primer-bulb",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the time required to replenish a [Chainsaw] charge by [1s]."
+        }
+    ],
+    "tags": []
+}

@@ -10,7 +10,7 @@
             "type": "list",
             "items": [
                 "[Blinking] past a Survivor causes them to scream and reveal their location.",
-                "You are awarded [200] Bloodpoints for each Survivor spooked this way."
+                "Gain [200] Bloodpoints for each Survivor spooked this way."
             ]
         }
     ],

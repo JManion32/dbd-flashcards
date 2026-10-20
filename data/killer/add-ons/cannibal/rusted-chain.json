@@ -1,0 +1,17 @@
+{
+    "name": "Rusted Chain",
+    "id": "rusted-chain",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Chainsaw] hits inflict [Broken] for [90s]."
+        }
+    ],
+    "tags": [
+        "Broken"
+    ]
+}

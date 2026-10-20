@@ -1,0 +1,15 @@
+{
+    "name": "Vegetable Oil",
+    "id": "vegetable-oil",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Chainsaw] cooldown by [0.3s]."
+        }
+    ],
+    "tags": []
+}

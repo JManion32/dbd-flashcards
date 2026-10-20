@@ -1,0 +1,16 @@
+{
+    "name": "Award-Winning Chili",
+    "id": "award-winning-chili",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases maximum [Chainsaw Sweep] duration by [0.2s] per charge spent."
+        }
+    ],
+    "quote": "\"The secret's in the meat.\" -Drayton Sawyer",
+    "tags": []
+}

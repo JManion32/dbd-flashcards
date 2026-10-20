@@ -1,0 +1,17 @@
+{
+    "name": "Grisly Chain",
+    "id": "grisly-chain",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Chainsaw] hits inflict [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

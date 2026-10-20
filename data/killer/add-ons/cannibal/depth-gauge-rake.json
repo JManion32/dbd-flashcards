@@ -1,0 +1,19 @@
+{
+    "name": "Depth Gauge Rake",
+    "id": "depth-gauge-rake",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Grants [1] additional [Chainsaw] charge.",
+                "Increases [Chainsaw] charge time by [22%].",
+                "Decreases [Chainsaw Sweep] movement speed by [2%]."
+            ]
+        }
+    ],
+    "tags": []
+}

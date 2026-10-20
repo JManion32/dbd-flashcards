@@ -1,0 +1,15 @@
+{
+    "name": "Long Guide Bar",
+    "id": "long-guide-bar",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time the [Chainsaw] can be revved before triggering a [Tantrum] by [2s]."
+        }
+    ],
+    "tags": []
+}

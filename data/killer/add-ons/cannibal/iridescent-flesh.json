@@ -1,0 +1,19 @@
+{
+    "name": "Iridescent Flesh",
+    "id": "iridescent-flesh",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Cannibal",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Hitting a Survivor with the [Chainsaw] replenishes all of its charges.",
+                "Limits maximum [Tantrum] duration to [3s]."
+            ]
+        }
+    ],
+    "quote": "\"There are moments when we cannot believe that what is happening is really true. Pinch yourself and you might find out that it is.\" -Pam Jones",
+    "tags": []
+}
