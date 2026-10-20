@@ -1,0 +1,15 @@
+{
+    "name": "\"Swift Hunt\" - White",
+    "id": "swift-hunt-white",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Uncloaking] speed by [10%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,18 @@
+{
+    "name": "\"All Seeing\" - Spirit",
+    "id": "all-seeing-spirit",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Cloaked], Generator Auras show their current repair progress through their intensity."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator"
+    ]
+}

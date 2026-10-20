@@ -1,0 +1,18 @@
+{
+    "name": "\"The Serpent\" - Soot",
+    "id": "the-serpent-soot",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Cloaked], you automatically [Uncloak] whenever you break a Pallet or Breakable Wall, or damage a Generator."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet"
+    ]
+}

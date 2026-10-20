@@ -1,0 +1,18 @@
+{
+    "name": "\"Blind Warrior\" - White",
+    "id": "blind-warrior-white",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Surprise Attacks] inflict [Hemorrhage] and [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

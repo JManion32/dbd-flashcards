@@ -1,0 +1,15 @@
+{
+    "name": "\"The Hound\" - Soot",
+    "id": "the-hound-soot",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Cloaked], Pools of Blood are brighter than normal."
+        }
+    ],
+    "tags": []
+}

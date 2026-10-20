@@ -1,0 +1,17 @@
+{
+    "name": "\"All Seeing\" - Blood",
+    "id": "all-seeing-blood",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Cloaked], the auras of Survivors within [8m] are revealed to you."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

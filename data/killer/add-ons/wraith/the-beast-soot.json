@@ -1,0 +1,20 @@
+{
+    "name": "\"The Beast\" - Soot",
+    "id": "the-beast-soot",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Your Terror Radius is no longer suppressed while [Cloaked].",
+                "Gain [100%] bonus Bloodpoints for Stalking and [Surprise Attack] score events."
+            ]
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "\"The Ghost\" - Soot",
+    "id": "the-ghost-soot",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "After [Uncloaking], your Terror Radius and Red Stain remain suppressed for [6s]."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

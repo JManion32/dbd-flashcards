@@ -1,0 +1,15 @@
+{
+    "name": "\"Windstorm\" - Blood",
+    "id": "windstorm-blood",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases movement speed while [Cloaked] by [9%]."
+        }
+    ],
+    "tags": []
+}

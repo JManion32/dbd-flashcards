@@ -1,0 +1,19 @@
+{
+    "name": "\"Shadow Dance\" - White",
+    "id": "shadow-dance-white",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Wraith",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Cloaked], you basic-vault Windows, break Pallets and Breakable Walls, and damage Generators [40%] faster."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet",
+        "Window"
+    ]
+}
