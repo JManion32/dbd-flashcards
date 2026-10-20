@@ -1,0 +1,15 @@
+{
+    "name": "Tear Soaked Tenugui",
+    "id": "tear-soaked-tenugui",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Blood Fury] consumption when downing a Survivor by [4s]."
+        }
+    ],
+    "tags": []
+}

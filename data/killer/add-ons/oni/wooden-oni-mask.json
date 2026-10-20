@@ -1,0 +1,24 @@
+{
+    "name": "Wooden Oni Mask",
+    "id": "wooden-oni-mask",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the frequency of [Blood Orbs] dropped by Survivors by [14%].",
+                "Survivors drop an additional [Blood Orb] whenever they vault, throw down a Pallet, exit a Locker, crouch, or fail a Skill Check."
+            ]
+        }
+    ],
+    "quote": "\"It is no coincidence that man is so familiar with demons.\" -Renjiro's Doctrine 3:8",
+    "tags": [
+        "Locker",
+        "Pallet",
+        "Skill Check",
+        "Vaulting"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Splintered Hull",
+    "id": "splintered-hull",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the frequency of [Blood Orbs] dropped by Survivors by [33%].",
+                "Survivors drop an additional [Blood Orb] whenever they vault, throw down a Pallet, exit a Locker, crouch, or fail a Skill Check."
+            ]
+        }
+    ],
+    "quote": "\"To plan subterfuge, begin with a counsel of none.\" -Renjiro's Doctrine 7:9",
+    "tags": [
+        "Locker",
+        "Pallet",
+        "Skill Check",
+        "Vaulting"
+    ]
+}

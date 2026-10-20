@@ -1,0 +1,15 @@
+{
+    "name": "Akito's Crutch",
+    "id": "akitos-crutch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Demon Dash] movement speed by [13%]."
+        }
+    ],
+    "tags": []
+}

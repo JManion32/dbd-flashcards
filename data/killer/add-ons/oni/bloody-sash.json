@@ -1,0 +1,15 @@
+{
+    "name": "Bloody Sash",
+    "id": "bloody-sash",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases movement speed while absorbing [Blood Orbs] by [0.7 m/s]."
+        }
+    ],
+    "tags": []
+}

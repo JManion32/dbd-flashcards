@@ -1,0 +1,17 @@
+{
+    "name": "Child's Wooden Sword",
+    "id": "childs-wooden-sword",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Blood Orb] Aura reading range by [3m]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

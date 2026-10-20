@@ -1,0 +1,16 @@
+{
+    "name": "Blackened Toenail",
+    "id": "blackened-toenail",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases movement speed while absorbing [Blood Orbs] by [0.4 m/s]."
+        }
+    ],
+    "quote": "\"If a father sacrifices not for his children, then who does he father?\" -Renjiro's Doctrine 11:12",
+    "tags": []
+}

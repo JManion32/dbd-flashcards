@@ -1,0 +1,15 @@
+{
+    "name": "Shattered Wakizashi",
+    "id": "shattered-wakizashi",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the passive charge rate of [Yamaoka's Wrath] by [100%]."
+        }
+    ],
+    "tags": []
+}

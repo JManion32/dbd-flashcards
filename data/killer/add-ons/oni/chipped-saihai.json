@@ -1,0 +1,15 @@
+{
+    "name": "Chipped Saihai",
+    "id": "chipped-saihai",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Blood Fury] duration by [6s]."
+        }
+    ],
+    "tags": []
+}

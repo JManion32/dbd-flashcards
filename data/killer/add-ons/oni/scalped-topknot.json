@@ -1,0 +1,15 @@
+{
+    "name": "Scalped Topknot",
+    "id": "scalped-topknot",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Oni",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Demon Dash] activation time by [0.5s]."
+        }
+    ],
+    "tags": []
+}
