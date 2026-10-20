@@ -1,0 +1,17 @@
+{
+    "name": "Vanity Mirror",
+    "id": "vanity-mirror",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "When [Evil Incarnate] ends, the Auras of all Survivors are revealed for [4s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Judith's Tombstone",
+    "id": "judiths-tombstone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Hooking a Survivor during [Evil Incarnate] refreshes its duration.",
+                "Limits [Evil Incarnate] duration to [40s]."
+            ]
+        }
+    ],
+    "quote": "\"Here lies our beloved daughter.\"",
+    "tags": [
+        "Hooking"
+    ]
+}

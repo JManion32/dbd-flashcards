@@ -1,0 +1,17 @@
+{
+    "name": "Judith's Journal",
+    "id": "judiths-journal",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Stalk Meter] fill rate on the Obsession by [40%]."
+        }
+    ],
+    "tags": [
+        "Obsession"
+    ]
+}

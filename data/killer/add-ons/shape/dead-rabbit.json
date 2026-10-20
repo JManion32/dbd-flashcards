@@ -1,0 +1,20 @@
+{
+    "name": "Dead Rabbit",
+    "id": "dead-rabbit",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Decreases your Terror Radius in [Pursuer] mode by [25%].",
+                "Increases your Terror Radius in [Evil Incarnate] mode by [25%]."
+            ]
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

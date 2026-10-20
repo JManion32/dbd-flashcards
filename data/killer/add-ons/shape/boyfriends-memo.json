@@ -1,0 +1,16 @@
+{
+    "name": "Boyfriend's Memo",
+    "id": "boyfriends-memo",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Stalk] range by [8m]."
+        }
+    ],
+    "quote": "\"The note is signed: D.\"",
+    "tags": []
+}

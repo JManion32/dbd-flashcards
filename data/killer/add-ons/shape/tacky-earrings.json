@@ -1,0 +1,15 @@
+{
+    "name": "Tacky Earrings",
+    "id": "tacky-earrings",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases movement speed while [Stalking] by [20%]."
+        }
+    ],
+    "tags": []
+}

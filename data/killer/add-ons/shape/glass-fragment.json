@@ -1,0 +1,18 @@
+{
+    "name": "Glass Fragment",
+    "id": "glass-fragment",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases [Slaughtering Strike] movement speed by [5%].",
+                "Decreases [Slaughtering Strike] charge speed by [10%]."
+            ]
+        }
+    ],
+    "tags": []
+}

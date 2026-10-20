@@ -9,7 +9,7 @@
         {
             "type": "list",
             "items": [
-                "After using all of your [Blinks] and before succumbing to [Fatigue], use <Activate Ability> to [Blink] back to your original position.",
+                "After using all of your [Blinks] and before succumbing to [Fatigue], you can [Blink] back to your original position.",
                 "After returning, you have [1] [Blink] charge ready."
             ]
         }

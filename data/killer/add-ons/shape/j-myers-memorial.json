@@ -1,0 +1,17 @@
+{
+    "name": "J.Myers Memorial",
+    "id": "j-myers-memorial",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "In [Evil Incarnate], pick-up and hooking speeds are increased by [40%]."
+        }
+    ],
+    "tags": [
+        "Hooking"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Reflective Fragment",
+    "id": "reflective-fragment",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Hitting a Survivor with [Slaughtering Strike] adds [20s] to [Evil Incarnate]'s duration.",
+                "[Slaughtering Strike] only deals a single health State of damage."
+            ]
+        }
+    ],
+    "tags": []
+}

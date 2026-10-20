@@ -1,0 +1,15 @@
+{
+    "name": "Lock of Hair",
+    "id": "lock-of-hair",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Evil Incarnate] is active, you can end it early and retain [50%] of the remaining duration as [Stalk] progress."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Blonde Hair",
+    "id": "blonde-hair",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "text",
+            "content": "In [Stalker] mode, Scratch Marks and Pools of Blood last [100%] longer."
+        }
+    ],
+    "tags": [
+        "Scratch Marks"
+    ]
+}

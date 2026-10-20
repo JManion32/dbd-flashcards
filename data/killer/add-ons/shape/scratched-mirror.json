@@ -1,0 +1,21 @@
+{
+    "name": "Scratched Mirror",
+    "id": "scratched-mirror",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Shape",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "While [Stalking], the Auras of Survivors within [32m] are revealed.",
+                "You cannot leave [Stalker Mode].",
+                "Hit score events grant [100%] more Brutality and [200%] more Deviousness Bloodpoints."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}
