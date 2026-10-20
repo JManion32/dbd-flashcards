@@ -1,0 +1,29 @@
+{
+    "name": "\"Calm\" - Carter's Notes",
+    "id": "calm-carters-notes",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases your Terror Radius by [8m] while [Static Blast] is ready, and decreases it by [8m] while [Static Blast] is on cooldown."
+        },
+        {
+            "type": "text",
+            "content": "Survivors with [Madness] suffer from the [Affliction of Calm]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[Madness II]: Intermittently hear a distant illusionary Terror Radius.",
+                "[Madness III]: Constantly hear a distant illusionary Terror Radius."
+            ]
+        }
+    ],
+    "quote": "\"Higher quality seizures trigger catatonia. At least it gives me peace for the time it lasts.\" -H. Carter",
+    "tags": [
+        "Terror Radius"
+    ]
+}

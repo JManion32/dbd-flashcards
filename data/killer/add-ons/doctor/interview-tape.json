@@ -1,0 +1,15 @@
+{
+    "name": "Interview Tape",
+    "id": "interview-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Changes [Shock Therapy] from a cone to a beam with a [24m] range and a [2m] width."
+        }
+    ],
+    "tags": []
+}

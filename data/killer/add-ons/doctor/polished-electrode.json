@@ -1,0 +1,15 @@
+{
+    "name": "Polished Electrode",
+    "id": "polished-electrode",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Shock Therapy] range by [3m]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "High Stimulus Electrode",
+    "id": "high-stimulus-electrode",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Shock Therapy] range by [4m]."
+        }
+    ],
+    "tags": []
+}

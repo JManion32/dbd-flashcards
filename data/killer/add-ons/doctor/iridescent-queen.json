@@ -1,0 +1,20 @@
+{
+    "name": "Iridescent Queen",
+    "id": "iridescent-queen",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Survivors hit by [Shock Therapy] or [Static Blast] gain a lingering [Static Charge] until it is discharged.",
+                "Survivors hit by the same [Shock Therapy] or [Static Blast] within [4m] of each other do not gain a [Static Charge].",
+                "Whenever a Survivor comes within [4m] of a Survivor with a [Static Charge], they are both shocked as if by [Shock Therapy], and the [Static Charge] is discharged."
+            ]
+        }
+    ],
+    "quote": "\"Once we have established an effective method of treatment, we can focus on its efficient means of delivery.\" -H. Carter",
+    "tags": []
+}

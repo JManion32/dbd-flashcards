@@ -1,0 +1,33 @@
+{
+    "name": "\"Order\" - Class II",
+    "id": "order-class-ii",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Static Blast] cooldown by [2.5s]."
+        },
+        {
+            "type": "text",
+            "content": "Survivors with [Madness] suffer from the [Affliction of Order]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Broken Pallets may appear replaced by illusionary Pallets that persist until approached.",
+                "A new illusionary Pallet appears at a random broken Pallet every [20s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "You can see the Auras of illusionary Pallets."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Pallet"
+    ]
+}

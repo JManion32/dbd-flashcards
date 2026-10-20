@@ -1,0 +1,29 @@
+{
+    "name": "\"Calm\" - Class II",
+    "id": "calm-class-ii",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases your Terror Radius by [6m] while [Static Blast] is ready, and decreases it by [6m] while [Static Blast] is on cooldown."
+        },
+        {
+            "type": "text",
+            "content": "Survivors with [Madness] suffer from the [Affliction of Calm]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[Madness II]: Intermittently hear a distant illusionary Terror Radius.",
+                "[Madness III]: Constantly hear a distant illusionary Terror Radius."
+            ]
+        }
+    ],
+    "quote": "\"Electroconvulsive therapy is one of the safest medical procedures.\" -Léry's Memorial Institute",
+    "tags": [
+        "Terror Radius"
+    ]
+}

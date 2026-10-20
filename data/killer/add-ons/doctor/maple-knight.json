@@ -1,0 +1,15 @@
+{
+    "name": "Maple Knight",
+    "id": "maple-knight",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Reveals the area of effect of [Shock Therapy]."
+        }
+    ],
+    "tags": []
+}

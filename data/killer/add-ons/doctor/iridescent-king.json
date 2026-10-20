@@ -1,0 +1,34 @@
+{
+    "name": "Iridescent King",
+    "id": "iridescent-king",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors with [Madness] suffer from the [Afflictions] of Calm, Discipline, Order, and Restraint:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "They hear a distant illusionary Terror Radius, intermittently in [Madness II] and constantly in [Madness III].",
+                "While in a chase, they perceive an illusionary Red Stain and Terror Radius as though you were directly behind them. This persists for [6s] after the chase ends in [Madness II], and is constantly active in [Madness III].",
+                "Broken Pallets may appear replaced by illusionary Pallets that persist until approached. A new one appears at a random broken Pallet every [20s].",
+                "Increases the duration of illusionary Doctor hallucinations by [6s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "You can see illusionary Red Stains, as well as the Auras of illusionary Doctors and illusionary Pallets."
+        }
+    ],
+    "quote": "\"Gazing into the iridescent glass is plunging one's self into madness.\" -Unsigned Notes",
+    "tags": [
+        "Aura",
+        "Chase",
+        "Pallet",
+        "Terror Radius"
+    ]
+}

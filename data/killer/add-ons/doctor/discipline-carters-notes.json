@@ -1,0 +1,34 @@
+{
+    "name": "\"Discipline\" - Carter's Notes",
+    "id": "discipline-carters-notes",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the detonation delay of [Shock Therapy] by [0.1s]."
+        },
+        {
+            "type": "text",
+            "content": "Survivors with [Madness] suffer from the [Affliction of Discipline]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[Madness II]: While in a chase, they perceive an illusionary Red Stain and Terror Radius as though you were directly behind them. This persists for [6s] after the chase ends.",
+                "[Madness III]: The illusionary Red Stain and Terror Radius are constantly active."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "You can also see the illusionary Red Stain."
+        }
+    ],
+    "quote": "\"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions.\" -H. Carter",
+    "tags": [
+        "Chase",
+        "Terror Radius"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Moldy Electrode",
+    "id": "moldy-electrode",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Doctor",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Shock Therapy] range by [2m]."
+        }
+    ],
+    "tags": []
+}
