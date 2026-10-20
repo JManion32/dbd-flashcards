@@ -1,0 +1,15 @@
+{
+    "name": "Thermal Casing",
+    "id": "thermal-casing",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the [Overdrive] meter dissipation speed while not using the [Chainsaw] by [20%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Greased Throttle",
+    "id": "greased-throttle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases recovery time after using the [Chainsaw] by [5%] while not in [Overdrive]."
+        }
+    ],
+    "tags": []
+}

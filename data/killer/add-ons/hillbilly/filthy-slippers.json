@@ -1,0 +1,17 @@
+{
+    "name": "Filthy Slippers",
+    "id": "filthy-slippers",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "After maintaining a [Chainsaw Sprint] for [2s], gain [Undetectable] until the [Chainsaw Sprint] ends."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

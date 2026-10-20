@@ -1,0 +1,20 @@
+{
+    "name": "Lo Pro Chains",
+    "id": "lo-pro-chains",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Breaking a Pallet or Breakable Wall with the [Chainsaw] continues the [Chainsaw Sprint].",
+                "Within [5s] of breaking one, healthy Survivors hit with the [Chainsaw] are only damaged by a single Health State, and injured Survivors gain [Deep Wound] instead."
+            ]
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Begrimed Chains",
+    "id": "begrimed-chains",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit with the [Chainsaw] gain [Hemorrhage] and [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

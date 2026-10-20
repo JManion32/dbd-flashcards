@@ -1,0 +1,15 @@
+{
+    "name": "Off-Brand Motor Oil",
+    "id": "off-brand-motor-oil",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Overdrive] meter charge rate by [15%]."
+        }
+    ],
+    "tags": []
+}

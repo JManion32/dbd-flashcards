@@ -1,0 +1,15 @@
+{
+    "name": "Ragged Engine",
+    "id": "ragged-engine",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the [Overdrive] meter dissipation speed while not using the [Chainsaw] by [30%]."
+        }
+    ],
+    "tags": []
+}

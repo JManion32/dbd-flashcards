@@ -1,0 +1,15 @@
+{
+    "name": "Counterweight",
+    "id": "counterweight",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the initial [Chainsaw Sprint] turn rate by [70%]."
+        }
+    ],
+    "tags": []
+}

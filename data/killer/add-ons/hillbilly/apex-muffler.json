@@ -1,0 +1,17 @@
+{
+    "name": "Apex Muffler",
+    "id": "apex-muffler",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "The [Chainsaw] is silent for Survivors outside your Terror Radius."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

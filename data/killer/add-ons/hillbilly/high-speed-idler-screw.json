@@ -1,0 +1,15 @@
+{
+    "name": "High-Speed Idler Screw",
+    "id": "high-speed-idler-screw",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time before the [Overdrive] meter starts dissipating by [30%]."
+        }
+    ],
+    "tags": []
+}

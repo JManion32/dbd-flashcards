@@ -1,0 +1,18 @@
+{
+    "name": "Tuned Carburetor",
+    "id": "tuned-carburetor",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Hillbilly",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases [Chainsaw] charge speed by [20%].",
+                "Decreases your base movement speed to [4.4 m/s]."
+            ]
+        }
+    ],
+    "tags": []
+}
