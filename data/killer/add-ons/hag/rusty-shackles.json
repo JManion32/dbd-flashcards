@@ -1,0 +1,15 @@
+{
+    "name": "Rusty Shackles",
+    "id": "rusty-shackles",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors receive no indication of triggering a [Phantasm Trap], and no [Mud Phantasm] spawns."
+        }
+    ],
+    "tags": []
+}

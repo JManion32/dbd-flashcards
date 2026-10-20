@@ -1,0 +1,15 @@
+{
+    "name": "Bloodied Mud",
+    "id": "bloodied-mud",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Phantasm Trap] trigger range by [30%]."
+        }
+    ],
+    "tags": []
+}

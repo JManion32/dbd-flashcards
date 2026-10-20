@@ -1,0 +1,15 @@
+{
+    "name": "Cypress Necklet",
+    "id": "cypress-necklet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Phantasm Trap] setting speed by [15%]."
+        }
+    ],
+    "tags": []
+}

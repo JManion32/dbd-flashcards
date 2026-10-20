@@ -1,0 +1,17 @@
+{
+    "name": "Pussy Willow Catkins",
+    "id": "pussy-willow-catkins",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "The aura of survivors who trigger a [Phantasm Trap] is revealed to you for [3s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

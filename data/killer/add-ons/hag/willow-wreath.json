@@ -1,0 +1,17 @@
+{
+    "name": "Willow Wreath",
+    "id": "willow-wreath",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "The aura of survivors who trigger a [Phantasm Trap] is revealed to you for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

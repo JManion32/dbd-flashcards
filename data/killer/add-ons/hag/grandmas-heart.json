@@ -1,0 +1,21 @@
+{
+    "name": "Grandma's Heart",
+    "id": "grandmas-heart",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Decreases your Terror Radius to [0m] while a Survivor has triggered a [Phantasm Trap].",
+                "Increases the Terror Radius of [Mud Phantasms] by [16m]."
+            ]
+        }
+    ],
+    "quote": "\"Bring me another slice of the girl.\" -Grandma",
+    "tags": [
+        "Terror Radius"
+    ]
+}

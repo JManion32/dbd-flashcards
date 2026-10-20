@@ -1,0 +1,15 @@
+{
+    "name": "Half Eggshell",
+    "id": "half-eggshell",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases triggered [Phantasm Trap] duration by [25%]."
+        }
+    ],
+    "tags": []
+}

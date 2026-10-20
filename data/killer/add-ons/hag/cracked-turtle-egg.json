@@ -1,0 +1,15 @@
+{
+    "name": "Cracked Turtle Egg",
+    "id": "cracked-turtle-egg",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases triggered [Phantasm Trap] duration by [30%]."
+        }
+    ],
+    "tags": []
+}

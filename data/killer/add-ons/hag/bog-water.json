@@ -1,0 +1,15 @@
+{
+    "name": "Bog Water",
+    "id": "bog-water",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Phantasm Trap] trigger range by [10%]."
+        }
+    ],
+    "tags": []
+}

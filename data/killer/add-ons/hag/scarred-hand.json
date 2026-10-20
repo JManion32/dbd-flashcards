@@ -1,0 +1,20 @@
+{
+    "name": "Scarred Hand",
+    "id": "scarred-hand",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Mud Phantasms] become solid and block Survivors.",
+                "You can no longer teleport to [Phantasm Traps].",
+                "Gain [300%] bonus Deviousness Bloodpoints."
+            ]
+        }
+    ],
+    "quote": "\"...\" -The Butcher",
+    "tags": []
+}

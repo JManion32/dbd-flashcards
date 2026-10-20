@@ -1,0 +1,15 @@
+{
+    "name": "Powdered Eggshell",
+    "id": "powdered-eggshell",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases triggered [Phantasm Trap] duration by [20%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Dried Cicada",
+    "id": "dried-cicada",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Hag",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases teleport range by [15%]."
+        }
+    ],
+    "tags": []
+}
