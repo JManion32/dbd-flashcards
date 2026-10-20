@@ -1,0 +1,15 @@
+{
+    "name": "Pocket Watch",
+    "id": "pocket-watch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time before you succumb to [Fatigue] after a [Blink] by [20%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,21 @@
+{
+    "name": "\"Bad Man's\" Last Breath",
+    "id": "bad-mans-last-breath",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a Survivor with a [Blink Attack] grants [Undetectable] for [25s]."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [45s]."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

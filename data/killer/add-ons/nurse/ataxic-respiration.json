@@ -1,0 +1,15 @@
+{
+    "name": "Ataxic Respiration",
+    "id": "ataxic-respiration",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases base [Fatigue] duration by [7%]."
+        }
+    ],
+    "tags": []
+}

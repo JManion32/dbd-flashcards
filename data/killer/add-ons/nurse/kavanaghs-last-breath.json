@@ -1,0 +1,17 @@
+{
+    "name": "Kavanagh's Last Breath",
+    "id": "kavanaghs-last-breath",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you succumb to [Fatigue], Survivors within [8m] gain [Blindness] for [60s]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

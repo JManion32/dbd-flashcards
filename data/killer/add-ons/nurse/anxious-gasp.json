@@ -1,0 +1,20 @@
+{
+    "name": "Anxious Gasp",
+    "id": "anxious-gasp",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Blinking] past a Survivor causes them to scream and reveal their location.",
+                "You are awarded [200] Bloodpoints for each Survivor spooked this way."
+            ]
+        }
+    ],
+    "tags": [
+        "Scream"
+    ]
+}

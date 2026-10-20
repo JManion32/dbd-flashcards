@@ -1,0 +1,15 @@
+{
+    "name": "Dark Cincture",
+    "id": "dark-cincture",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases movement speed after a [Blink] and before the following [Fatigue] by [30%]."
+        }
+    ],
+    "tags": []
+}

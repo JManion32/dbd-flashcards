@@ -1,0 +1,18 @@
+{
+    "name": "White Nit Comb",
+    "id": "white-nit-comb",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Decreases [Blink Attack] lunge length by [50%].",
+                "Gain [100%] bonus Bloodpoints on [Blink Attack] score events."
+            ]
+        }
+    ],
+    "tags": []
+}

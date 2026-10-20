@@ -1,0 +1,18 @@
+{
+    "name": "Jenner's Last Breath",
+    "id": "jenners-last-breath",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "After using all of your [Blinks] and before succumbing to [Fatigue], use <Activate Ability> to [Blink] back to your original position.",
+                "After returning, you have [1] [Blink] charge ready."
+            ]
+        }
+    ],
+    "tags": []
+}

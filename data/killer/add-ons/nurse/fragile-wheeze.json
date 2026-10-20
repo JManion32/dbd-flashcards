@@ -1,0 +1,17 @@
+{
+    "name": "Fragile Wheeze",
+    "id": "fragile-wheeze",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Blink Attacks] inflict [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

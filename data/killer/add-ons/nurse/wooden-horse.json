@@ -1,0 +1,15 @@
+{
+    "name": "Wooden Horse",
+    "id": "wooden-horse",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the extra [Fatigue] from missed [Blink Attacks] by [50%]."
+        }
+    ],
+    "tags": []
+}

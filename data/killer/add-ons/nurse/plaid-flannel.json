@@ -1,0 +1,15 @@
+{
+    "name": "Plaid Flannel",
+    "id": "plaid-flannel",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "Displays the target location of a [Blink]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Matchbox",
+    "id": "matchbox",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Sets the maximum number of [Blink] charges to [1].",
+                "Increases your base movement speed to [4.4 m/s]."
+            ]
+        }
+    ],
+    "tags": []
+}

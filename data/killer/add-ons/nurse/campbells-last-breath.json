@@ -1,0 +1,15 @@
+{
+    "name": "Campbell's Last Breath",
+    "id": "campbells-last-breath",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nurse",
+    "description": [
+        {
+            "type": "text",
+            "content": "After reappearing from a fully charged [Blink], you immediately [Blink] at full charge in the direction you are facing, if you have a [Blink] charge remaining."
+        }
+    ],
+    "tags": []
+}
