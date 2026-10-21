@@ -1,0 +1,18 @@
+{
+    "name": "Wooden Fox",
+    "id": "wooden-fox",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "After reloading [Hatchets], gain [Undetectable] for [30s]."
+        }
+    ],
+    "tags": [
+        "Locker",
+        "Undetectable"
+    ]
+}

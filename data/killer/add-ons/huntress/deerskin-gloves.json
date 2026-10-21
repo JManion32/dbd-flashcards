@@ -1,0 +1,17 @@
+{
+    "name": "Deerskin Gloves",
+    "id": "deerskin-gloves",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the time required to reload [Hatchets] at a Locker by [20%]."
+        }
+    ],
+    "tags": [
+        "Locker"
+    ]
+}

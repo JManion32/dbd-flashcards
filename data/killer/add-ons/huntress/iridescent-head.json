@@ -1,0 +1,21 @@
+{
+    "name": "Iridescent Head",
+    "id": "iridescent-head",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Successful [Hatchet] hits put healthy Survivors into the dying state.",
+                "Sets the maximum number of carried [Hatchets] to [1]."
+            ]
+        }
+    ],
+    "quote": "\"The iridescent glass cuts through flesh and soul.\"",
+    "tags": [
+        "Dying State"
+    ]
+}

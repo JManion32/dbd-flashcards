@@ -1,0 +1,15 @@
+{
+    "name": "Flower Babushka",
+    "id": "flower-babushka",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Hatchet] wind-up time by [10%]."
+        }
+    ],
+    "tags": []
+}

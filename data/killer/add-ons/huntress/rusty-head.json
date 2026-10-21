@@ -1,0 +1,17 @@
+{
+    "name": "Rusty Head",
+    "id": "rusty-head",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Hatchets] inflict [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

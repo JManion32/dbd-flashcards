@@ -1,0 +1,15 @@
+{
+    "name": "Weighted Head",
+    "id": "weighted-head",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Hatchets] inflict [Incapacitated] for [10s]."
+        }
+    ],
+    "tags": []
+}

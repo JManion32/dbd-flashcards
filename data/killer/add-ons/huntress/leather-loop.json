@@ -1,0 +1,17 @@
+{
+    "name": "Leather Loop",
+    "id": "leather-loop",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Hatchet] hits grant [2%] [Haste] for [5s]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

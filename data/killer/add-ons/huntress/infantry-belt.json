@@ -1,0 +1,17 @@
+{
+    "name": "Infantry Belt",
+    "id": "infantry-belt",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Hatchet] hits grant [3%] [Haste] for [5s]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

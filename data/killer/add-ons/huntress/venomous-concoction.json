@@ -1,0 +1,17 @@
+{
+    "name": "Venomous Concoction",
+    "id": "venomous-concoction",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Hatchets] inflict [Exhausted] for [5s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Glowing Concoction",
+    "id": "glowing-concoction",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "Reveals the auras of Survivors hit by [Hatchets] for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

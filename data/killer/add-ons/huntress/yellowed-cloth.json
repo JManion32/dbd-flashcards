@@ -1,0 +1,15 @@
+{
+    "name": "Yellowed Cloth",
+    "id": "yellowed-cloth",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases thrown [Hatchet] speed by [10%]."
+        }
+    ],
+    "tags": []
+}

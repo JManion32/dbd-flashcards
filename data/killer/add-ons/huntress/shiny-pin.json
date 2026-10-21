@@ -1,0 +1,15 @@
+{
+    "name": "Shiny Pin",
+    "id": "shiny-pin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Huntress",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases your movement speed while aiming or throwing a [Hatchet] by [5%]."
+        }
+    ],
+    "tags": []
+}
