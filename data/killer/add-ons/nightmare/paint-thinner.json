@@ -1,0 +1,18 @@
+{
+    "name": "Paint Thinner",
+    "id": "paint-thinner",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Survivors who drop a [Dream Pallet] are revealed by [Killer Instinct] for [6s].",
+                "While they are revealed, you can use [Dream Projection] on them, with [100%] faster charge speed."
+            ]
+        }
+    ],
+    "tags": []
+}

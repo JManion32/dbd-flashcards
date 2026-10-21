@@ -1,0 +1,15 @@
+{
+    "name": "Wool Shirt",
+    "id": "wool-shirt",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the delay before [Dream Pallets] rupture by [10%]."
+        }
+    ],
+    "tags": []
+}

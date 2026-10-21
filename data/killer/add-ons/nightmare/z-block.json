@@ -1,0 +1,17 @@
+{
+    "name": "\"Z\" Block",
+    "id": "z-block",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "The Auras of Survivors hit by a [Dream Snare] or [Dream Pallet] are revealed to you for [3s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

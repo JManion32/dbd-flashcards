@@ -1,0 +1,15 @@
+{
+    "name": "Nancy's Sketch",
+    "id": "nancys-sketch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases Sleep immunity after a Survivor uses an Alarm Clock by [20%]."
+        }
+    ],
+    "tags": []
+}

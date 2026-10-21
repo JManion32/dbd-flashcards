@@ -1,0 +1,15 @@
+{
+    "name": "Sheep Block",
+    "id": "sheep-block",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases Alarm Clock cooldown by [10%]."
+        }
+    ],
+    "tags": []
+}

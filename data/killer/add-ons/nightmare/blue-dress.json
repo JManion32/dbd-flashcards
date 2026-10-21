@@ -1,0 +1,19 @@
+{
+    "name": "Blue Dress",
+    "id": "blue-dress",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Dream Snares] no longer move.",
+                "[Dream Snares] remain active for [8s].",
+                "Only [1] [Dream Snare] can be placed at a time."
+            ]
+        }
+    ],
+    "tags": []
+}

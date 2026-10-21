@@ -1,0 +1,21 @@
+{
+    "name": "Class Photo",
+    "id": "class-photo",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Survivors in the [Dream World] are revealed by [Killer Instinct] while opening an Exit Gate.",
+                "You can use [Dream Projection] to teleport to Exit Gates."
+            ]
+        }
+    ],
+    "tags": [
+        "End Game",
+        "Exit Gate"
+    ]
+}

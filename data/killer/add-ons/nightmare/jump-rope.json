@@ -1,0 +1,17 @@
+{
+    "name": "Jump Rope",
+    "id": "jump-rope",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Hindered] from [Dream Snares] by [11%]."
+        }
+    ],
+    "tags": [
+        "Hinder"
+    ]
+}

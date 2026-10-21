@@ -1,0 +1,15 @@
+{
+    "name": "Pill Bottle",
+    "id": "pill-bottle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Each time a Survivor wakes up, their [Sleep Meter] fills [10%] faster, up to a maximum of [50%]."
+        }
+    ],
+    "tags": []
+}

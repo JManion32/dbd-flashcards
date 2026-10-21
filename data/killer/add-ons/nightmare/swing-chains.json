@@ -1,0 +1,18 @@
+{
+    "name": "Swing Chains",
+    "id": "swing-chains",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "After using [Dream Projection], all Windows within [16m] are blocked for [6s]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Window"
+    ]
+}

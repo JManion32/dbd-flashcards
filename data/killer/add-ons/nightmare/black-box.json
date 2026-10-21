@@ -1,0 +1,23 @@
+{
+    "name": "Black Box",
+    "id": "black-box",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "When an Exit Gate is opened, it is blocked for sleeping Survivors for [15s]."
+        },
+        {
+            "type": "text",
+            "content": "This lingers for [3s] after they wake up by any means."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "End Game",
+        "Exit Gate"
+    ]
+}

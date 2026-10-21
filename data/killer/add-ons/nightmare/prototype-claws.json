@@ -1,0 +1,15 @@
+{
+    "name": "Prototype Claws",
+    "id": "prototype-claws",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Nightmare",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Dream Snare] charge time by [10%]."
+        }
+    ],
+    "tags": []
+}
