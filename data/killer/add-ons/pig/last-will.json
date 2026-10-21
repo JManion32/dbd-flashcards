@@ -1,0 +1,18 @@
+{
+    "name": "Last Will",
+    "id": "last-will",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases [Ambush] attack movement speed by [5%].",
+                "Increases [Ambush] attack charge time by [10%]."
+            ]
+        }
+    ],
+    "tags": []
+}

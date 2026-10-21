@@ -1,0 +1,15 @@
+{
+    "name": "Tampered Timer",
+    "id": "tampered-timer",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the [Reverse Bear Trap] death timer by [20s]."
+        }
+    ],
+    "tags": []
+}

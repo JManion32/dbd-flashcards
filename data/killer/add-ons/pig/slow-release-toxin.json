@@ -1,0 +1,17 @@
+{
+    "name": "Slow-Release Toxin",
+    "id": "slow-release-toxin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Reverse Bear Traps] inflict [Exhausted] until removed."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

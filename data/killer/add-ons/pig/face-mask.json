@@ -1,0 +1,21 @@
+{
+    "name": "Face Mask",
+    "id": "face-mask",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Reverse Bear Traps] inflict [Blindness] until removed."
+        },
+        {
+            "type": "text",
+            "content": "This does not affect the Auras of [Jigsaw Boxes]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Combat Straps",
+    "id": "combat-straps",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases crouching and uncrouching speed by [10%]."
+        }
+    ],
+    "tags": []
+}

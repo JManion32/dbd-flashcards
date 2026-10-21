@@ -1,0 +1,21 @@
+{
+    "name": "Jigsaw's Annotated Plan",
+    "id": "jigsaws-annotated-plan",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases available [Reverse Bear Traps] by [1].",
+                "Increases the [Reverse Bear Trap] death timer by [10s].",
+                "Whenever a Generator is completed, [10s] is removed from the death timer of all active [Reverse Bear Traps]."
+            ]
+        }
+    ],
+    "tags": [
+        "Generator"
+    ]
+}

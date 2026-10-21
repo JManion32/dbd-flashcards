@@ -1,0 +1,21 @@
+{
+    "name": "Amanda's Letter",
+    "id": "amandas-letter",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "While crouched, the Auras of Survivors are revealed within [16m].",
+                "Decreases available [Reverse Bear Traps] by [2]."
+            ]
+        }
+    ],
+    "quote": "\"Amanda, you were with Cecil the night Jill lost Gideon. You killed their child. You know it and I know it.\" -Amanda's Letter",
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Rusty Attachments",
+    "id": "rusty-attachments",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Reverse Bear Traps] inflict [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

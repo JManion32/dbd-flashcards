@@ -1,0 +1,15 @@
+{
+    "name": "Video Tape",
+    "id": "video-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors start the Trial with [Reverse Bear Traps] installed."
+        }
+    ],
+    "tags": []
+}

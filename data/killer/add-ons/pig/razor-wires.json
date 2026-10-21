@@ -1,0 +1,21 @@
+{
+    "name": "Razor Wires",
+    "id": "razor-wires",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Jigsaw Box] Skill Check success zones are smaller.",
+                "Healthy Survivors who fail a [Jigsaw Box] Skill Check become injured."
+            ]
+        }
+    ],
+    "tags": [
+        "Injured State",
+        "Skill Check"
+    ]
+}

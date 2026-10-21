@@ -1,0 +1,15 @@
+{
+    "name": "Workshop Grease",
+    "id": "workshop-grease",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Ambush] attack charge speed by [50%]."
+        }
+    ],
+    "tags": []
+}

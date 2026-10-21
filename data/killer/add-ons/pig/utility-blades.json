@@ -1,0 +1,17 @@
+{
+    "name": "Utility Blades",
+    "id": "utility-blades",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Pig",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Reverse Bear Traps] inflict [Hemorrhage] when the Survivor is injured by any means."
+        }
+    ],
+    "tags": [
+        "Hemorrhage"
+    ]
+}
