@@ -1,0 +1,18 @@
+{
+    "name": "Party Bottle",
+    "id": "party-bottle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Bottles emit confetti when they break, in addition to their usual gas effect.",
+                "Hitting a Survivor directly with a bottle awards [100] bonus Deviousness Bloodpoints."
+            ]
+        }
+    ],
+    "tags": []
+}

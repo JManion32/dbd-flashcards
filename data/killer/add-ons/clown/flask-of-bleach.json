@@ -1,0 +1,17 @@
+{
+    "name": "Flask of Bleach",
+    "id": "flask-of-bleach",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Hindered] penalty from [Intoxication] by an additional [2%]."
+        }
+    ],
+    "tags": [
+        "Hinder"
+    ]
+}

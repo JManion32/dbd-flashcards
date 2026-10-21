@@ -1,0 +1,15 @@
+{
+    "name": "Spirit of Hartshorn",
+    "id": "spirit-of-hartshorn",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the size and spread of [Afterpiece Antidote] gas clouds by [20%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Cigar Box",
+    "id": "cigar-box",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "While you or a Survivor are [Invigorated], you see the Auras of all other Survivors and Killers within [6m]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

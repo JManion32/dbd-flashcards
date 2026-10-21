@@ -1,0 +1,17 @@
+{
+    "name": "Sulfuric Acid Vial",
+    "id": "sulfuric-acid-vial",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Intoxication] inflicts [Mangled] on injured Survivors for [70s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Redhead's Pinky Finger",
+    "id": "redheads-pinky-finger",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Direct hits with an [Afterpiece Tonic] bottle inflict [Exposed] until [Intoxication] ends.",
+                "Sets the maximum number of carried bottles to [1]."
+            ]
+        }
+    ],
+    "tags": [
+        "Exposed"
+    ]
+}

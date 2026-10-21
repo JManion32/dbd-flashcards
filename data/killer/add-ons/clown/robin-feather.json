@@ -1,0 +1,15 @@
+{
+    "name": "Robin Feather",
+    "id": "robin-feather",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases bottle throw cooldown by [40%]."
+        }
+    ],
+    "tags": []
+}

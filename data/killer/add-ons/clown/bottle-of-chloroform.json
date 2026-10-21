@@ -1,0 +1,15 @@
+{
+    "name": "Bottle of Chloroform",
+    "id": "bottle-of-chloroform",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the size and spread of [Afterpiece Tonic] gas clouds by [20%]."
+        }
+    ],
+    "tags": []
+}

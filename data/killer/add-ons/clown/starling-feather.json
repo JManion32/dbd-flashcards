@@ -1,0 +1,15 @@
+{
+    "name": "Starling Feather",
+    "id": "starling-feather",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases bottle throw cooldown by [50%]."
+        }
+    ],
+    "tags": []
+}

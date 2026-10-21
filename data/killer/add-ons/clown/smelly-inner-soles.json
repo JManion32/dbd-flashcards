@@ -1,0 +1,15 @@
+{
+    "name": "Smelly Inner Soles",
+    "id": "smelly-inner-soles",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases movement speed while reloading bottles by [15%]."
+        }
+    ],
+    "tags": []
+}

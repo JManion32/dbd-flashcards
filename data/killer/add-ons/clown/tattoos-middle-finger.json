@@ -1,0 +1,17 @@
+{
+    "name": "Tattoo's Middle Finger",
+    "id": "tattoos-middle-finger",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "The Auras of [Intoxicated] or [Invigorated] Survivors are revealed to you for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

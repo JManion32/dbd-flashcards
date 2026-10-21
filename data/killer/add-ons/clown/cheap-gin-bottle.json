@@ -1,0 +1,17 @@
+{
+    "name": "Cheap Gin Bottle",
+    "id": "cheap-gin-bottle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Clown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Haste] you gain from [Invigoration] by [3%]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}
