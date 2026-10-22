@@ -1,0 +1,17 @@
+{
+    "name": "Night Vision Monocular",
+    "id": "night-vision-monocular",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who reveal you suffer [Exhausted] for [10s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

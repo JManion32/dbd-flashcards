@@ -1,0 +1,19 @@
+{
+    "name": "Outdoor Security Camera",
+    "id": "outdoor-security-camera",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of all Survivors for [7s] when a [Marked] Survivor is put into the Dying State."
+        }
+    ],
+    "quote": "\"An image is worth a thousand words.\" -The Ghost Face",
+    "tags": [
+        "Aura",
+        "Dying State"
+    ]
+}

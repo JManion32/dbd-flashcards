@@ -1,0 +1,16 @@
+{
+    "name": "Drop-Leg Knife Sheath",
+    "id": "drop-leg-knife-sheath",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [10%] movement speed for [5s] after Marking a Survivor."
+        }
+    ],
+    "quote": "\"Gotta get ready like a scout— without the stupid patches. What I get is much better.\" -The Ghost Face",
+    "tags": []
+}

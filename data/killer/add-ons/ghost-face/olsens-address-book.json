@@ -1,0 +1,17 @@
+{
+    "name": "Olsen's Address Book",
+    "id": "olsens-address-book",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of [Marked] Survivors for [5s] when they perform rushed actions."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

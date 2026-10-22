@@ -1,0 +1,18 @@
+{
+    "name": "Victim's Detailed Routine",
+    "id": "victims-detailed-routine",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors suffer [Exhausted] for [5s] after being Marked."
+        }
+    ],
+    "quote": "\"I have been watching you for a while. I wanted this to be special; the kind of headlines that people do not forget.\" -The Ghost Face",
+    "tags": [
+        "Exhaustion"
+    ]
+}

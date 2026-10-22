@@ -1,0 +1,17 @@
+{
+    "name": "Cinch Straps",
+    "id": "cinch-straps",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Night Shroud] remains active after a failed basic attack."
+        }
+    ],
+    "tags": [
+        "Basic Attack"
+    ]
+}

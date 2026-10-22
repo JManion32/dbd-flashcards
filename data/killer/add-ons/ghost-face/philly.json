@@ -1,0 +1,16 @@
+{
+    "name": "\"Philly\"",
+    "id": "philly",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the time required to Mark a Survivor by [10%]."
+        }
+    ],
+    "quote": "\"Gotta love Philly: keeps giving and giving and I don't wanna forget any of it.\" -The Ghost Face",
+    "tags": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Lasting Perfume",
+    "id": "lasting-perfume",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors on a hook take [3s] to reveal you."
+        }
+    ],
+    "tags": [
+        "Hooking"
+    ]
+}

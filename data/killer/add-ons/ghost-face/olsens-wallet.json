@@ -1,0 +1,17 @@
+{
+    "name": "Olsen's Wallet",
+    "id": "olsens-wallet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Instantly recharges [Night Shroud] when you basic-break a Pallet or Breakable Wall."
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

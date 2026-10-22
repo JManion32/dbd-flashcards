@@ -1,0 +1,17 @@
+{
+    "name": "Olsen's Journal",
+    "id": "olsens-journal",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Marked] Survivors suffer [Oblivious] until the Mark expires."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

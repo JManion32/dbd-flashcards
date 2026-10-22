@@ -1,0 +1,15 @@
+{
+    "name": "Leather Knife Sheath",
+    "id": "leather-knife-sheath",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases your crouched movement speed by [10%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Knife Belt Clip",
+    "id": "knife-belt-clip",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases your Terror Radius by [12m] while crouching."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

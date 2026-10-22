@@ -1,0 +1,19 @@
+{
+    "name": "\"Ghost Face Caught on Tape\"",
+    "id": "ghost-face-caught-on-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Instantly recharges [Night Shroud] after a basic attack puts a Survivor into the Dying State."
+        }
+    ],
+    "quote": "\"In this footage, a dark figure is seen entering a house late at night in Northern Roseville, Florida. The police were called the next morning to report a murder in the area. Lock your doors: a killer is in our midst, roaming freely, like a Ghost in the night.\" -The Roseville Gazette",
+    "tags": [
+        "Basic Attack",
+        "Dying State"
+    ]
+}

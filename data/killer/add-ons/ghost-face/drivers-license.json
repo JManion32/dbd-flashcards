@@ -1,0 +1,24 @@
+{
+    "name": "Driver's License",
+    "id": "drivers-license",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you Mark a Survivor repairing a Generator, the Generator explodes, loses [20%] progress, and is blocked for [15s]."
+        },
+        {
+            "type": "text",
+            "content": "When you Mark multiple Survivors at once, the progress loss only applies once."
+        }
+    ],
+    "quote": "\"They all want to know who The Ghost Face is. But what they should ask is: who's next.\" -The Ghost Face",
+    "tags": [
+        "Blocked",
+        "Generator",
+        "Regression"
+    ]
+}

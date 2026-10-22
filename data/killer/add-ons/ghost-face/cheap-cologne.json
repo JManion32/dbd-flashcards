@@ -1,0 +1,15 @@
+{
+    "name": "Cheap Cologne",
+    "id": "cheap-cologne",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Ghost Face",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Marked] duration by [10s]."
+        }
+    ],
+    "tags": []
+}
