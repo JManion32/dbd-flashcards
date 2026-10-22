@@ -1,0 +1,17 @@
+{
+    "name": "Joey's Mix Tape",
+    "id": "joeys-mix-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who self-mend a [Deep Wound] from [Feral Frenzy] suffer [Hemorrhage] until fully healed."
+        }
+    ],
+    "tags": [
+        "Hemorrhage"
+    ]
+}

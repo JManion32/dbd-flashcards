@@ -1,0 +1,25 @@
+{
+    "name": "Iridescent Button",
+    "id": "iridescent-button",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in [Feral Frenzy]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Pallets you special-vault are special-broken.",
+                "You cannot be blinded during a special-vault."
+            ]
+        }
+    ],
+    "quote": "\"The youth consumed by the iridescent glass magnifies and widens the reach of The Entity.\"",
+    "tags": [
+        "Pallet"
+    ]
+}

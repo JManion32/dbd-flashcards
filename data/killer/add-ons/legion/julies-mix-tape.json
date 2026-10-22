@@ -1,0 +1,17 @@
+{
+    "name": "Julie's Mix Tape",
+    "id": "julies-mix-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "If you are stunned during [Feral Frenzy], your Power gauge refills when the stun ends."
+        }
+    ],
+    "tags": [
+        "Stun"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Frank's Mix Tape",
+    "id": "franks-mix-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Feral Frenzy]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Damage Generators [20%] faster.",
+                "Break walls [30%] faster.",
+                "Your Power gauge pauses while damaging a Generator or breaking a wall."
+            ]
+        }
+    ],
+    "tags": [
+        "Generator"
+    ]
+}

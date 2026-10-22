@@ -1,0 +1,17 @@
+{
+    "name": "Smiley Face Pin",
+    "id": "smiley-face-pin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who self-mend a [Deep Wound] from [Feral Frenzy] suffer [Blindness] for [60s]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

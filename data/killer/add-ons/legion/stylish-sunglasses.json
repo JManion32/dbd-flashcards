@@ -1,0 +1,17 @@
+{
+    "name": "Stylish Sunglasses",
+    "id": "stylish-sunglasses",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "See the Auras of Survivors mending within [24m]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

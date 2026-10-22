@@ -1,0 +1,17 @@
+{
+    "name": "Defaced Smiley Pin",
+    "id": "defaced-smiley-pin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who self-mend a [Deep Wound] from [Feral Frenzy] suffer [Mangled] for [60s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

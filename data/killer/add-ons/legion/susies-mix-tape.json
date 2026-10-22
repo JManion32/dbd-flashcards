@@ -1,0 +1,15 @@
+{
+    "name": "Susie's Mix Tape",
+    "id": "susies-mix-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Killer Instinct] detection range by [20m]."
+        }
+    ],
+    "tags": []
+}

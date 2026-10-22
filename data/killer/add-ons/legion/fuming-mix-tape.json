@@ -1,0 +1,26 @@
+{
+    "name": "Fuming Mix Tape",
+    "id": "fuming-mix-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in [Feral Frenzy]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Generator repair progress is shown by the intensity of their Auras.",
+                "Generators not being repaired regress at [100%] speed."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator",
+        "Regression"
+    ]
+}

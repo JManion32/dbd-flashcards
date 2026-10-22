@@ -1,0 +1,32 @@
+{
+    "name": "BFFs",
+    "id": "bffs",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "Earn [Tokens] for chained hits during [Feral Frenzy]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Second chained hit: [2 tokens]",
+                "Third chained hit: [3 tokens]",
+                "Fourth chained hit: [4 tokens]",
+                "Fifth chained hit: [5 tokens]"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Once the gates are powered, if [15] or more tokens have been collected, gain [6%] [Haste] when not using [Feral Frenzy]."
+        }
+    ],
+    "tags": [
+        "End Game",
+        "Haste",
+        "Token"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Stolen Sketch Book",
+    "id": "stolen-sketch-book",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "From the second chained hit during [Feral Frenzy] onward, hit Survivors drop their item."
+        }
+    ],
+    "tags": [
+        "Items"
+    ]
+}

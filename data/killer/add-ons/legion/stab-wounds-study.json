@@ -1,0 +1,17 @@
+{
+    "name": "Stab Wounds Study",
+    "id": "stab-wounds-study",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Legion",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of Survivors who self-mend a [Deep Wound] from [Feral Frenzy] for [4s] afterward."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}
