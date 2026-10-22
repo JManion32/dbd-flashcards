@@ -25,6 +25,11 @@ const visible = ref(false);
             <!--TODO: Populate this by pulling from a changelog txt/json file.-->
             <div class="updates-container">
                 <UpdateBlock
+                    title="Added Colors!"
+                    desc="Purple for perks (we don't do tiers 1 or 2), variable for add-ons. We are up to 16/44 Killer Add-On sets! Once complete, I will be adding  more sorting options, advanced quiz settings, and Killer powers."
+                    date="2026-10-22"
+                />
+                <UpdateBlock
                     title="Welcome to DBD Flashcards!"
                     desc="Featuring ALL killer and survivor perks as of version 10.2.0. Killer add-ons are coming soon!"
                     date="2026-10-15"

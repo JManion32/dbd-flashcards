@@ -4,6 +4,7 @@ import { ref } from 'vue';
 
 import Modal from '@/components/Modal.vue';
 import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
+import { getRarityColor } from '@/utils/formatGameItem';
 
 import type { GameItem } from '@/types/gameItem';
 
@@ -18,6 +19,12 @@ const visible = ref(false);
 <template>
     <div
         class="display-card"
+        :style="{
+            background: props.gameItem.rarity
+                ? `color-mix(in srgb, ${getRarityColor(props.gameItem.rarity)} 30%, var(--standard-black))`
+                : undefined,
+            border: props.gameItem.rarity ? `1px solid ${getRarityColor(props.gameItem.rarity)}` : undefined,
+        }"
         @click="visible = true"
     >
         <img
@@ -46,8 +53,11 @@ const visible = ref(false);
     border-radius: 1rem;
     transition: var(--site-transition);
     overflow: hidden;
-    opacity: 60%;
+    opacity: 70%;
     padding: 1rem;
+
+    border: 1px solid var(--very-rare-rarity);
+    background: color-mix(in srgb, var(--very-rare-rarity) 30%, var(--standard-black) 100%);
 }
 .display-card:hover {
     cursor: pointer;
