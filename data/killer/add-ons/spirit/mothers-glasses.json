@@ -1,0 +1,15 @@
+{
+    "name": "Mother's Glasses",
+    "id": "mothers-glasses",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [2m] of your [Husk] are revealed by [Killer Instinct]."
+        }
+    ],
+    "tags": []
+}

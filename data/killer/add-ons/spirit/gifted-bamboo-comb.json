@@ -1,0 +1,15 @@
+{
+    "name": "Gifted Bamboo Comb",
+    "id": "gifted-bamboo-comb",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Yamaoka's Haunting] charge speed by [15%]."
+        }
+    ],
+    "tags": []
+}

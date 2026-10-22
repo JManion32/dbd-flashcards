@@ -1,0 +1,20 @@
+{
+    "name": "Dried Cherry Blossom",
+    "id": "dried-cherry-blossom",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Survivors within [3m] of you while phasing are revealed by [Killer Instinct].",
+                "Scratch Marks are no longer visible during [Yamaoka's Haunting]."
+            ]
+        }
+    ],
+    "tags": [
+        "Scratch Marks"
+    ]
+}

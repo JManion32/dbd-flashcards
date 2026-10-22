@@ -1,0 +1,15 @@
+{
+    "name": "White Hair Ribbon",
+    "id": "white-hair-ribbon",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Yamaoka's Haunting] charge speed by [20%]."
+        }
+    ],
+    "tags": []
+}

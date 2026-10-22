@@ -1,0 +1,17 @@
+{
+    "name": "Kintsugi Teacup",
+    "id": "kintsugi-teacup",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Instantly recharges [Yamaoka's Haunting] when you break a Pallet or Breakable Wall."
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

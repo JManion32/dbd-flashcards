@@ -1,0 +1,15 @@
+{
+    "name": "Kaiun Talisman",
+    "id": "kaiun-talisman",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Yamaoka's Haunting] duration by [25%]."
+        }
+    ],
+    "tags": []
+}

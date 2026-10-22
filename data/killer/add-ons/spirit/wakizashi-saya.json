@@ -1,0 +1,15 @@
+{
+    "name": "Wakizashi Saya",
+    "id": "wakizashi-saya",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "During [Yamaoka's Haunting], use <Activate Ability> to return to your [Husk] and end the haunting."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Mother-Daughter Ring",
+    "id": "mother-daughter-ring",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases [Yamaoka's Haunting] movement speed by [25%].",
+                "Scratch Marks are no longer visible during [Yamaoka's Haunting]."
+            ]
+        }
+    ],
+    "tags": [
+        "Scratch Marks"
+    ]
+}

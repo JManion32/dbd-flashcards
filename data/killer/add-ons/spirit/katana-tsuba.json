@@ -1,0 +1,18 @@
+{
+    "name": "Katana Tsuba",
+    "id": "katana-tsuba",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases [Yamaoka's Haunting] reappearance duration by [20%].",
+                "Increases [Yamaoka's Haunting] reappearance movement speed by [5%]."
+            ]
+        }
+    ],
+    "tags": []
+}

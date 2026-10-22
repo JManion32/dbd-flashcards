@@ -1,0 +1,15 @@
+{
+    "name": "Rusty Flute",
+    "id": "rusty-flute",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Yamaoka's Haunting] recharge rate by [40%]."
+        }
+    ],
+    "tags": []
+}

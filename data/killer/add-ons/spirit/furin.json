@@ -1,0 +1,15 @@
+{
+    "name": "Furin",
+    "id": "furin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Spirit",
+    "description": [
+        {
+            "type": "text",
+            "content": "All Survivors can hear the phasing sound."
+        }
+    ],
+    "tags": []
+}
