@@ -8,7 +8,7 @@
     "description": [
         {
             "type": "text",
-            "content": "See the Auras of Survivors mending within [24m]."
+            "content": "You see the Auras of Survivors mending within [24m]."
         }
     ],
     "tags": [

@@ -1,0 +1,15 @@
+{
+    "name": "Hematite Seal",
+    "id": "hematite-seal",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases object infection duration by [30s]."
+        }
+    ],
+    "tags": []
+}

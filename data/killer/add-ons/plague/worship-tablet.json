@@ -1,0 +1,18 @@
+{
+    "name": "Worship Tablet",
+    "id": "worship-tablet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the speed of ingesting corruption at a [Pool of Devotion] by [100%].",
+                "Increases your movement speed while holding [Corrupt Purge] by [4.5%]."
+            ]
+        }
+    ],
+    "tags": []
+}

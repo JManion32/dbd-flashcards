@@ -1,0 +1,15 @@
+{
+    "name": "Exorcism Amulet",
+    "id": "exorcism-amulet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Corrupt Purge] duration by [10s]."
+        }
+    ],
+    "tags": []
+}

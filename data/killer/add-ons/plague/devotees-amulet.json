@@ -1,0 +1,15 @@
+{
+    "name": "Devotee's Amulet",
+    "id": "devotees-amulet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Corrupt Purge] duration by [20s]."
+        }
+    ],
+    "tags": []
+}

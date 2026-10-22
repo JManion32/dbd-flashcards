@@ -1,0 +1,15 @@
+{
+    "name": "Vile Emetic",
+    "id": "vile-emetic",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Vile Purge] and [Corrupt Purge] projectile velocity by [10%]."
+        }
+    ],
+    "tags": []
+}

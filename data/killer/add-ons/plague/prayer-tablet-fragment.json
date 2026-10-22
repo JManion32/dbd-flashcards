@@ -1,0 +1,20 @@
+{
+    "name": "Prayer Tablet Fragment",
+    "id": "prayer-tablet-fragment",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Vile Purge] no longer affects Survivors.",
+                "Increases object infection duration by [40s].",
+                "Increases infection from infected objects by [100%].",
+                "Increases Devious Bloodpoints by [100%]."
+            ]
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Black Incense",
+    "id": "black-incense",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of Survivors for [3s] when they vomit."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

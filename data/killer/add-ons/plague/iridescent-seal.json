@@ -1,0 +1,20 @@
+{
+    "name": "Iridescent Seal",
+    "id": "iridescent-seal",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "[Corrupt Purge] activates every time a Generator is completed.",
+                "Decreases [Corrupt Purge] duration by [20s]."
+            ]
+        }
+    ],
+    "tags": [
+        "Generator"
+    ]
+}

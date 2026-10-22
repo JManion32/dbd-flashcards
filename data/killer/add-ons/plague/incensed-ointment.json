@@ -1,0 +1,18 @@
+{
+    "name": "Incensed Ointment",
+    "id": "incensed-ointment",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Ingesting corruption at a [Pool of Devotion] causes all Survivors within your Terror Radius to scream and reveal their locations."
+        }
+    ],
+    "tags": [
+        "Scream",
+        "Terror Radius"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Infected Emetic",
+    "id": "infected-emetic",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the effectiveness of [Vile Purge] by [40%]."
+        }
+    ],
+    "tags": []
+}

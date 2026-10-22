@@ -1,0 +1,15 @@
+{
+    "name": "Severed Toe",
+    "id": "severed-toe",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the infection rate of Survivors performing interactions by [50%]."
+        }
+    ],
+    "tags": []
+}

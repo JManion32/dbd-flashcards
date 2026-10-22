@@ -1,0 +1,15 @@
+{
+    "name": "Blessed Apple",
+    "id": "blessed-apple",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "Start the Trial with [1] additional [Pool of Devotion] already corrupted."
+        }
+    ],
+    "tags": []
+}

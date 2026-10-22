@@ -1,0 +1,17 @@
+{
+    "name": "Olibanum Incense",
+    "id": "olibanum-incense",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Plague",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of Survivors who cleanse at a [Pool of Devotion] for [4s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}
