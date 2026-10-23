@@ -7,11 +7,12 @@
     "owner": "The Huntress",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Successful [Hatchet] hits put healthy Survivors into the dying state.",
-                "Sets the maximum number of carried [Hatchets] to [1]."
-            ]
+            "type": "text",
+            "content": "Successful [Hatchet] hits put healthy Survivors into the dying state."
+        },
+        {
+            "type": "text",
+            "content": "Sets the maximum number of carried [Hatchets] to [1]."
         }
     ],
     "quote": "\"The iridescent glass cuts through flesh and soul.\"",

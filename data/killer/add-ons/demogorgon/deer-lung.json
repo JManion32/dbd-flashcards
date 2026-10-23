@@ -7,11 +7,12 @@
     "owner": "The Demogorgon",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Upside Down] traversal speed by [30%].",
-                "Decreases the number of available [Portals] by [2]."
-            ]
+            "type": "text",
+            "content": "Increases [Upside Down] traversal speed by [30%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the number of available [Portals] by [2]."
         }
     ],
     "tags": []

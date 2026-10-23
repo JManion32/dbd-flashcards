@@ -7,11 +7,12 @@
     "owner": "The Trapper",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "You cannot be caught in your own [Bear Traps].",
-                "Stepping on a [Bear Trap] disarms it."
-            ]
+            "type": "text",
+            "content": "You cannot be caught in your own [Bear Traps]."
+        },
+        {
+            "type": "text",
+            "content": "Stepping on a [Bear Trap] disarms it."
         }
     ],
     "tags": []

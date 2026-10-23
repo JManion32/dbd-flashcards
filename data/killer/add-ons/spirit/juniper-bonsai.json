@@ -7,11 +7,12 @@
     "owner": "The Spirit",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Passive Phasing] frequency by [20%].",
-                "Increases [Passive Phasing] duration by [50%]."
-            ]
+            "type": "text",
+            "content": "Increases [Passive Phasing] frequency by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Passive Phasing] duration by [50%]."
         }
     ],
     "tags": []

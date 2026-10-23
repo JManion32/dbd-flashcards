@@ -7,11 +7,12 @@
     "owner": "The Spirit",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Yamaoka's Haunting] movement speed by [25%].",
-                "Scratch Marks are no longer visible during [Yamaoka's Haunting]."
-            ]
+            "type": "text",
+            "content": "Increases [Yamaoka's Haunting] movement speed by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "Scratch Marks are no longer visible during [Yamaoka's Haunting]."
         }
     ],
     "tags": [

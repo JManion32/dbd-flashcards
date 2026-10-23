@@ -7,11 +7,12 @@
     "owner": "The Cannibal",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Chainsaw] hits only inflict one health state of damage.",
-                "Gain [100%] bonus Bloodpoints on [Chainsaw] hit score events."
-            ]
+            "type": "text",
+            "content": "[Chainsaw] hits only inflict one health state of damage."
+        },
+        {
+            "type": "text",
+            "content": "Gain [100%] bonus Bloodpoints on [Chainsaw] hit score events."
         }
     ],
     "tags": [

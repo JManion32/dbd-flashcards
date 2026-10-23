@@ -7,11 +7,12 @@
     "owner": "The Hag",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "You can teleport to any [Phantasm Trap] on the map.",
-                "Cooldown: [10s]."
-            ]
+            "type": "text",
+            "content": "You can teleport to any [Phantasm Trap] on the map."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [10s]."
         }
     ],
     "tags": []

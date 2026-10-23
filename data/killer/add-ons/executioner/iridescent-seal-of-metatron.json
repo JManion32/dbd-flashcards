@@ -7,12 +7,16 @@
     "owner": "The Executioner",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Decreases [Punishment of the Damned] range by [50%].",
-                "Creating [Rites of Judgment] trails increases [Punishment of the Damned] range, up to a maximum of [200%].",
-                "This resets when [Punishment of the Damned] hits a Survivor."
-            ]
+            "type": "text",
+            "content": "Decreases [Punishment of the Damned] range by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Creating [Rites of Judgment] trails increases [Punishment of the Damned] range, up to a maximum of [200%]."
+        },
+        {
+            "type": "text",
+            "content": "This resets when [Punishment of the Damned] hits a Survivor."
         }
     ],
     "quote": "\"This magic square, with strong protective and dispelling properties, is called the 'Virun VII Crest' or the 'Seal of Metatron'.\"",

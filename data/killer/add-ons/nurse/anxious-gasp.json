@@ -7,11 +7,12 @@
     "owner": "The Nurse",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Blinking] past a Survivor causes them to scream and reveal their location.",
-                "Gain [200] Bloodpoints for each Survivor spooked this way."
-            ]
+            "type": "text",
+            "content": "[Blinking] past a Survivor causes them to scream and reveal their location."
+        },
+        {
+            "type": "text",
+            "content": "Gain [200] Bloodpoints for each Survivor spooked this way."
         }
     ],
     "tags": [

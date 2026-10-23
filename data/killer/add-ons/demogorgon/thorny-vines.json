@@ -7,11 +7,12 @@
     "owner": "The Demogorgon",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases the time Survivors need to seal [Portals] by [8%].",
-                "Increases the distance from [Portals] at which [Of the Abyss] detects Survivors by [1m]."
-            ]
+            "type": "text",
+            "content": "Increases the time Survivors need to seal [Portals] by [8%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the distance from [Portals] at which [Of the Abyss] detects Survivors by [1m]."
         }
     ],
     "tags": []

@@ -7,11 +7,12 @@
     "owner": "The Nurse",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Decreases maximum [Blink] distance by [20%].",
-                "Gain [100%] bonus Bloodpoints on Precise [Blink] score events."
-            ]
+            "type": "text",
+            "content": "Decreases maximum [Blink] distance by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "Gain [100%] bonus Bloodpoints on Precise [Blink] score events."
         }
     ],
     "tags": []

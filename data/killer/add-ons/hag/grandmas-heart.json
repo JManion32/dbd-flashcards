@@ -7,11 +7,12 @@
     "owner": "The Hag",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Decreases your Terror Radius to [0m] while a Survivor has triggered a [Phantasm Trap].",
-                "Increases the Terror Radius of [Mud Phantasms] by [16m]."
-            ]
+            "type": "text",
+            "content": "Decreases your Terror Radius to [0m] while a Survivor has triggered a [Phantasm Trap]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the Terror Radius of [Mud Phantasms] by [16m]."
         }
     ],
     "quote": "\"Bring me another slice of the girl.\" -Grandma",

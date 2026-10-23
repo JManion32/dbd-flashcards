@@ -7,11 +7,12 @@
     "owner": "The Trickster",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases maximum carried [Blades] by [8].",
-                "Start the Trial with [8] additional [Blades]."
-            ]
+            "type": "text",
+            "content": "Increases maximum carried [Blades] by [8]."
+        },
+        {
+            "type": "text",
+            "content": "Start the Trial with [8] additional [Blades]."
         }
     ],
     "tags": []

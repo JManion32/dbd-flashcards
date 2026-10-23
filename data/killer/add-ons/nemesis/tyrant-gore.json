@@ -1,0 +1,19 @@
+{
+    "name": "Tyrant Gore",
+    "id": "tyrant-gore",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Mutation Rate] gained from destroying [Zombies] with [Tentacle Strike] by [75%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Zombie] respawn time by [7.5s]."
+        }
+    ],
+    "tags": []
+}

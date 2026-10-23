@@ -7,11 +7,12 @@
     "owner": "The Pig",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Reverse Bear Trap] setting speed by [50%].",
-                "Increases the time required to search a [Jigsaw Box] by [17%]."
-            ]
+            "type": "text",
+            "content": "Increases [Reverse Bear Trap] setting speed by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the time required to search a [Jigsaw Box] by [17%]."
         }
     ],
     "tags": []

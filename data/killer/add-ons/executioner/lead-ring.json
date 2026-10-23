@@ -7,11 +7,12 @@
     "owner": "The Executioner",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Punishment of the Damned] range by [25%].",
-                "Decreases [Punishment of the Damned] width by [25%]."
-            ]
+            "type": "text",
+            "content": "Increases [Punishment of the Damned] range by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Punishment of the Damned] width by [25%]."
         }
     ],
     "tags": []

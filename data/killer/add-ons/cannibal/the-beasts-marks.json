@@ -7,11 +7,12 @@
     "owner": "The Cannibal",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Chainsaw Sweep] movement speed by [2%].",
-                "Increases [Chainsaw] charge time by [12%]."
-            ]
+            "type": "text",
+            "content": "Increases [Chainsaw Sweep] movement speed by [2%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Chainsaw] charge time by [12%]."
         }
     ],
     "tags": []

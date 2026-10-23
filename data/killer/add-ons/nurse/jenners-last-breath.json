@@ -7,11 +7,12 @@
     "owner": "The Nurse",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "After using all of your [Blinks] and before succumbing to [Fatigue], you can [Blink] back to your original position.",
-                "After returning, you have [1] [Blink] charge ready."
-            ]
+            "type": "text",
+            "content": "After using all of your [Blinks] and before succumbing to [Fatigue], you can [Blink] back to your original position."
+        },
+        {
+            "type": "text",
+            "content": "After returning, you have [1] [Blink] charge ready."
         }
     ],
     "tags": []

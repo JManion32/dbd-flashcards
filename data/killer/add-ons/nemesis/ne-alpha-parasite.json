@@ -1,0 +1,17 @@
+{
+    "name": "NE-α Parasite",
+    "id": "ne-alpha-parasite",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Becoming [Contaminated] inflicts [Oblivious] for [60s], or until the Survivor uses a [Vaccine]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

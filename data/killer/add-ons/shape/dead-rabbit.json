@@ -7,11 +7,12 @@
     "owner": "The Shape",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Decreases your Terror Radius in [Pursuer] mode by [25%].",
-                "Increases your Terror Radius in [Evil Incarnate] mode by [25%]."
-            ]
+            "type": "text",
+            "content": "Decreases your Terror Radius in [Pursuer] mode by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases your Terror Radius in [Evil Incarnate] mode by [25%]."
         }
     ],
     "tags": [

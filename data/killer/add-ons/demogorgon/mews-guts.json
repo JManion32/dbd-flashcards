@@ -7,11 +7,12 @@
     "owner": "The Demogorgon",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases the number of available [Portals] by [1].",
-                "Decreases [Shred] miss cooldown by [11%]."
-            ]
+            "type": "text",
+            "content": "Increases the number of available [Portals] by [1]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Shred] miss cooldown by [11%]."
         }
     ],
     "tags": []

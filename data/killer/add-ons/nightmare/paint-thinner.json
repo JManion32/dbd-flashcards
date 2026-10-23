@@ -7,11 +7,12 @@
     "owner": "The Nightmare",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Survivors who drop a [Dream Pallet] are revealed by [Killer Instinct] for [6s].",
-                "While they are revealed, you can use [Dream Projection] on them, with [100%] faster charge speed."
-            ]
+            "type": "text",
+            "content": "Survivors who drop a [Dream Pallet] are revealed by [Killer Instinct] for [6s]."
+        },
+        {
+            "type": "text",
+            "content": "While they are revealed, you can use [Dream Projection] on them, with [100%] faster charge speed."
         }
     ],
     "tags": []

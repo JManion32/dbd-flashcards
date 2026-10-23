@@ -7,12 +7,16 @@
     "owner": "The Trapper",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Bear Traps] do not inflict damage on trapped Survivors.",
-                "Negates the effects of [Serrated Jaws] and [Rusted Jaws].",
-                "Gain [100%] bonus Bloodpoints for trapping Survivors."
-            ]
+            "type": "text",
+            "content": "[Bear Traps] do not inflict damage on trapped Survivors."
+        },
+        {
+            "type": "text",
+            "content": "Negates the effects of [Serrated Jaws] and [Rusted Jaws]."
+        },
+        {
+            "type": "text",
+            "content": "Gain [100%] bonus Bloodpoints for trapping Survivors."
         }
     ],
     "tags": []

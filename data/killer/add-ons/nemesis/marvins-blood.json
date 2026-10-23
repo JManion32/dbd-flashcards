@@ -1,0 +1,23 @@
+{
+    "name": "Marvin's Blood",
+    "id": "marvins-blood",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Mutation Rate] gained from hitting Survivors with [Tentacle Strike]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Uncontaminated Survivors: [16%]",
+                "[Contaminated] Survivors: [50%]"
+            ]
+        }
+    ],
+    "quote": "\"All you need to know is that this place will eat you alive if you're not careful.\" -Marvin Branagh",
+    "tags": []
+}

@@ -7,12 +7,16 @@
     "owner": "The Nightmare",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Dream Snares] no longer move.",
-                "[Dream Snares] remain active for [8s].",
-                "Only [1] [Dream Snare] can be placed at a time."
-            ]
+            "type": "text",
+            "content": "[Dream Snares] no longer move."
+        },
+        {
+            "type": "text",
+            "content": "[Dream Snares] remain active for [8s]."
+        },
+        {
+            "type": "text",
+            "content": "Only [1] [Dream Snare] can be placed at a time."
         }
     ],
     "tags": []

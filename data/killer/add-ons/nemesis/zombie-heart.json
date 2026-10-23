@@ -1,0 +1,16 @@
+{
+    "name": "Zombie Heart",
+    "id": "zombie-heart",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Mutation Rate] gained from destroying [Zombies] with [Tentacle Strike] by [75%]."
+        }
+    ],
+    "quote": "\"Words won't work on this thing.\" -Leon Scott Kennedy",
+    "tags": []
+}

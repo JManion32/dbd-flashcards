@@ -7,11 +7,12 @@
     "owner": "The Trapper",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "You start the Trial with [1] extra [Bear Trap].",
-                "You can carry [1] extra [Bear Trap]."
-            ]
+            "type": "text",
+            "content": "You start the Trial with [1] extra [Bear Trap]."
+        },
+        {
+            "type": "text",
+            "content": "You can carry [1] extra [Bear Trap]."
         }
     ],
     "tags": []

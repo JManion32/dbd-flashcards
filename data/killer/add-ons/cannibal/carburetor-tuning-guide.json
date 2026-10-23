@@ -7,12 +7,16 @@
     "owner": "The Cannibal",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Triggering a [Chainsaw Sweep] automatically consumes all charges.",
-                "Increases [Chainsaw Sweep] duration by [0.5s].",
-                "Decreases [Chainsaw Sweep] movement speed by [2%]."
-            ]
+            "type": "text",
+            "content": "Triggering a [Chainsaw Sweep] automatically consumes all charges."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Chainsaw Sweep] duration by [0.5s]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Chainsaw Sweep] movement speed by [2%]."
         }
     ],
     "tags": []

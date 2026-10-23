@@ -1,0 +1,15 @@
+{
+    "name": "Brian's Intestine",
+    "id": "brians-intestine",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Zombie] movement speed by [25%]."
+        }
+    ],
+    "tags": []
+}

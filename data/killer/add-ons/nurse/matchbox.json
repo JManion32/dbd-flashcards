@@ -7,11 +7,12 @@
     "owner": "The Nurse",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Sets the maximum number of [Blink] charges to [1].",
-                "Increases your base movement speed to [4.4 m/s]."
-            ]
+            "type": "text",
+            "content": "Sets the maximum number of [Blink] charges to [1]."
+        },
+        {
+            "type": "text",
+            "content": "Increases your base movement speed to [4.4 m/s]."
         }
     ],
     "tags": []

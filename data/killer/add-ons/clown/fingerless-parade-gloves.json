@@ -7,11 +7,12 @@
     "owner": "The Clown",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases bottle throw speed by [25%].",
-                "Decreases bottle throw angle by [15 degrees]."
-            ]
+            "type": "text",
+            "content": "Increases bottle throw speed by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases bottle throw angle by [15 degrees]."
         }
     ],
     "tags": []

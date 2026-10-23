@@ -7,11 +7,12 @@
     "owner": "The Spirit",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Yamaoka's Haunting] duration by [70%].",
-                "Decreases [Yamaoka's Haunting] movement speed by [15%]."
-            ]
+            "type": "text",
+            "content": "Increases [Yamaoka's Haunting] duration by [70%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Yamaoka's Haunting] movement speed by [15%]."
         }
     ],
     "tags": []

@@ -7,11 +7,12 @@
     "owner": "The Pig",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Jigsaw Box] Skill Check success zones are smaller.",
-                "Healthy Survivors who fail a [Jigsaw Box] Skill Check become injured."
-            ]
+            "type": "text",
+            "content": "[Jigsaw Box] Skill Check success zones are smaller."
+        },
+        {
+            "type": "text",
+            "content": "Healthy Survivors who fail a [Jigsaw Box] Skill Check become injured."
         }
     ],
     "tags": [

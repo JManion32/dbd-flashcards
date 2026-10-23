@@ -7,12 +7,16 @@
     "owner": "The Legion",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Your base movement speed during [Feral Frenzy] is [4.6 m/s].",
-                "Increases [Feral Frenzy] duration by [10s].",
-                "Gain [100] to [500] bonus Bloodpoints for each successive hit during [Feral Frenzy]."
-            ]
+            "type": "text",
+            "content": "Your base movement speed during [Feral Frenzy] is [4.6 m/s]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Feral Frenzy] duration by [10s]."
+        },
+        {
+            "type": "text",
+            "content": "Gain [100] to [500] bonus Bloodpoints for each successive hit during [Feral Frenzy]."
         }
     ],
     "tags": []

@@ -7,11 +7,12 @@
     "owner": "The Clown",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Bottles emit confetti when they break, in addition to their usual gas effect.",
-                "Hitting a Survivor directly with a bottle awards [100] bonus Deviousness Bloodpoints."
-            ]
+            "type": "text",
+            "content": "Bottles emit confetti when they break, in addition to their usual gas effect."
+        },
+        {
+            "type": "text",
+            "content": "Hitting a Survivor directly with a bottle awards [100] bonus Deviousness Bloodpoints."
         }
     ],
     "tags": []

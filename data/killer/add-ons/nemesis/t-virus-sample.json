@@ -1,0 +1,15 @@
+{
+    "name": "T-Virus Sample",
+    "id": "t-virus-sample",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Mutation Rate] gained from destroying [Zombies] with [Tentacle Strike] by [100%]."
+        }
+    ],
+    "tags": []
+}

@@ -7,11 +7,12 @@
     "owner": "The Wraith",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Your Terror Radius is no longer suppressed while [Cloaked].",
-                "Gain [100%] bonus Bloodpoints for Stalking and [Surprise Attack] score events."
-            ]
+            "type": "text",
+            "content": "Your Terror Radius is no longer suppressed while [Cloaked]."
+        },
+        {
+            "type": "text",
+            "content": "Gain [100%] bonus Bloodpoints for Stalking and [Surprise Attack] score events."
         }
     ],
     "tags": [

@@ -7,11 +7,12 @@
     "owner": "The Trapper",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "All [Bear Traps] start the Trial in your inventory instead of spawning on the map.",
-                "[Bear Traps] cannot be picked up."
-            ]
+            "type": "text",
+            "content": "All [Bear Traps] start the Trial in your inventory instead of spawning on the map."
+        },
+        {
+            "type": "text",
+            "content": "[Bear Traps] cannot be picked up."
         }
     ],
     "tags": []

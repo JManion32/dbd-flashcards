@@ -7,11 +7,12 @@
     "owner": "The Shape",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Slaughtering Strike] base duration by [0.25s].",
-                "Decreases [Slaughtering Strike] charge speed by [25%]."
-            ]
+            "type": "text",
+            "content": "Increases [Slaughtering Strike] base duration by [0.25s]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Slaughtering Strike] charge speed by [25%]."
         }
     ],
     "tags": []

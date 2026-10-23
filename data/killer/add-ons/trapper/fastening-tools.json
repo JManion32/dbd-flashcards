@@ -7,11 +7,12 @@
     "owner": "The Trapper",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Bear Trap] setting speed by [50%].",
-                "Increases the time required to rescue a Survivor or escape from a [Bear Trap] by [25%]."
-            ]
+            "type": "text",
+            "content": "Increases [Bear Trap] setting speed by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the time required to rescue a Survivor or escape from a [Bear Trap] by [25%]."
         }
     ],
     "tags": []

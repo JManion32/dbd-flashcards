@@ -1,0 +1,17 @@
+{
+    "name": "S.T.A.R.S. Field Combat Manual",
+    "id": "stars-field-combat-manual",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Zombies]' Auras turn yellow for [6s] after they hit a Survivor."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

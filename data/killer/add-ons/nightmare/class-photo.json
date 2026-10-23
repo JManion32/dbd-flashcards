@@ -7,11 +7,12 @@
     "owner": "The Nightmare",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Survivors in the [Dream World] are revealed by [Killer Instinct] while opening an Exit Gate.",
-                "You can use [Dream Projection] to teleport to Exit Gates."
-            ]
+            "type": "text",
+            "content": "Survivors in the [Dream World] are revealed by [Killer Instinct] while opening an Exit Gate."
+        },
+        {
+            "type": "text",
+            "content": "You can use [Dream Projection] to teleport to Exit Gates."
         }
     ],
     "tags": [

@@ -7,11 +7,12 @@
     "owner": "The Hillbilly",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Survivors hit with the [Chainsaw] are only damaged by a single Health State.",
-                "Increases [Overdrive] meter charge rate by [15%]."
-            ]
+            "type": "text",
+            "content": "Survivors hit with the [Chainsaw] are only damaged by a single Health State."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Overdrive] meter charge rate by [15%]."
         }
     ],
     "tags": []

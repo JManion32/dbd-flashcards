@@ -7,11 +7,12 @@
     "owner": "The Hillbilly",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Chainsaw] charge speed by [20%].",
-                "Decreases your base movement speed to [4.4 m/s]."
-            ]
+            "type": "text",
+            "content": "Increases [Chainsaw] charge speed by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases your base movement speed to [4.4 m/s]."
         }
     ],
     "tags": []

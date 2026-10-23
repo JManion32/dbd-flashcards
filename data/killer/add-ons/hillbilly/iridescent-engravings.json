@@ -7,11 +7,12 @@
     "owner": "The Hillbilly",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Chainsaw Sprint] movement speed by [20%].",
-                "Increases [Chainsaw] charge time by [12%]."
-            ]
+            "type": "text",
+            "content": "Increases [Chainsaw Sprint] movement speed by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Chainsaw] charge time by [12%]."
         }
     ],
     "tags": []

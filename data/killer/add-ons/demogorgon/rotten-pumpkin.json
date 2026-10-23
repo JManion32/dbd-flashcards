@@ -7,11 +7,12 @@
     "owner": "The Demogorgon",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "When traversing the [Upside Down], the [Portal] you enter is destroyed.",
-                "Gain [200] bonus Bloodpoints for the traversal."
-            ]
+            "type": "text",
+            "content": "When traversing the [Upside Down], the [Portal] you enter is destroyed."
+        },
+        {
+            "type": "text",
+            "content": "Gain [200] bonus Bloodpoints for the traversal."
         }
     ],
     "tags": []

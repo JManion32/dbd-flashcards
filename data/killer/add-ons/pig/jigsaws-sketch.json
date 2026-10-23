@@ -7,11 +7,12 @@
     "owner": "The Pig",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases available [Reverse Bear Traps] by [1].",
-                "Whenever a Survivor with a [Reverse Bear Trap] is repairing a Generator, that Generator's Aura is revealed to you."
-            ]
+            "type": "text",
+            "content": "Increases available [Reverse Bear Traps] by [1]."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor with a [Reverse Bear Trap] is repairing a Generator, that Generator's Aura is revealed to you."
         }
     ],
     "tags": [

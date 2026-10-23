@@ -7,11 +7,12 @@
     "owner": "The Spirit",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Survivors within [3m] of you while phasing are revealed by [Killer Instinct].",
-                "Scratch Marks are no longer visible during [Yamaoka's Haunting]."
-            ]
+            "type": "text",
+            "content": "Survivors within [3m] of you while phasing are revealed by [Killer Instinct]."
+        },
+        {
+            "type": "text",
+            "content": "Scratch Marks are no longer visible during [Yamaoka's Haunting]."
         }
     ],
     "tags": [

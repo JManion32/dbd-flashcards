@@ -1,0 +1,16 @@
+{
+    "name": "Broken Recovery Coin",
+    "id": "broken-recovery-coin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Removes [1] [Supply Case] from the Trial."
+        }
+    ],
+    "quote": "\"This is not how I imagined my first day.\" -Leon S. Kennedy",
+    "tags": []
+}

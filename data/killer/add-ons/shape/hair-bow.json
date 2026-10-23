@@ -7,11 +7,12 @@
     "owner": "The Shape",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Evil Incarnate] duration by [20s].",
-                "Decreases the [Stalk Meter] fill rate by [20%]."
-            ]
+            "type": "text",
+            "content": "Increases [Evil Incarnate] duration by [20s]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the [Stalk Meter] fill rate by [20%]."
         }
     ],
     "tags": []

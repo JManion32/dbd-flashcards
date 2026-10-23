@@ -1,0 +1,27 @@
+{
+    "name": "Depleted Ink Ribbon",
+    "id": "depleted-ink-ribbon",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Zombie] respawn time by [5s]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Zombie] movement speed by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "[Zombies] destroyed after all Generators are repaired will respawn in an exit area."
+        }
+    ],
+    "quote": "\"Look, just so you know... this is the last fucking time.\" -Jill Valentine",
+    "tags": [
+        "End Game",
+        "Exit Gate"
+    ]
+}

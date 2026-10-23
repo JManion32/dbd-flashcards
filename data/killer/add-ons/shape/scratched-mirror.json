@@ -7,12 +7,16 @@
     "owner": "The Shape",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "While [Stalking], the Auras of Survivors within [32m] are revealed.",
-                "You cannot leave [Stalker Mode].",
-                "Hit score events grant [100%] more Brutality and [200%] more Deviousness Bloodpoints."
-            ]
+            "type": "text",
+            "content": "While [Stalking], the Auras of Survivors within [32m] are revealed."
+        },
+        {
+            "type": "text",
+            "content": "You cannot leave [Stalker Mode]."
+        },
+        {
+            "type": "text",
+            "content": "Hit score events grant [100%] more Brutality and [200%] more Deviousness Bloodpoints."
         }
     ],
     "tags": [

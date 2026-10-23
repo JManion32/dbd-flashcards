@@ -7,11 +7,12 @@
     "owner": "The Executioner",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Survivors affected by [Torment] spawn [Rites of Judgment] trails while sprinting, which last [5s].",
-                "You no longer see the Auras of [Rites of Judgment] trails."
-            ]
+            "type": "text",
+            "content": "Survivors affected by [Torment] spawn [Rites of Judgment] trails while sprinting, which last [5s]."
+        },
+        {
+            "type": "text",
+            "content": "You no longer see the Auras of [Rites of Judgment] trails."
         }
     ],
     "quote": "\"I've never been so scared in my whole life! You couldn't care less about me... could you?\" -Maria",

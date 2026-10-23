@@ -7,12 +7,16 @@
     "owner": "The Blight",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Rush] cannot be performed more than [3] times.",
-                "Increases maximum [Rush] look angle by [20 degrees].",
-                "Increases [Rush] speed by [10%]."
-            ]
+            "type": "text",
+            "content": "[Rush] cannot be performed more than [3] times."
+        },
+        {
+            "type": "text",
+            "content": "Increases maximum [Rush] look angle by [20 degrees]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Rush] speed by [10%]."
         }
     ],
     "quote": "\"Progress requires drastic change.\" -Talbot Grimes",

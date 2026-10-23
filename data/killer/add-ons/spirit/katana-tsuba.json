@@ -7,11 +7,12 @@
     "owner": "The Spirit",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases [Yamaoka's Haunting] reappearance duration by [20%].",
-                "Increases [Yamaoka's Haunting] reappearance movement speed by [5%]."
-            ]
+            "type": "text",
+            "content": "Increases [Yamaoka's Haunting] reappearance duration by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Yamaoka's Haunting] reappearance movement speed by [5%]."
         }
     ],
     "tags": []

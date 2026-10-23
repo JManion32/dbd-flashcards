@@ -7,12 +7,16 @@
     "owner": "The Hag",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Mud Phantasms] become solid and block Survivors.",
-                "You can no longer teleport to [Phantasm Traps].",
-                "Gain [300%] bonus Deviousness Bloodpoints."
-            ]
+            "type": "text",
+            "content": "[Mud Phantasms] become solid and block Survivors."
+        },
+        {
+            "type": "text",
+            "content": "You can no longer teleport to [Phantasm Traps]."
+        },
+        {
+            "type": "text",
+            "content": "Gain [300%] bonus Deviousness Bloodpoints."
         }
     ],
     "quote": "\"...\" -The Butcher",

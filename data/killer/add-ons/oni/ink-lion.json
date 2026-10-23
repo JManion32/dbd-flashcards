@@ -7,12 +7,16 @@
     "owner": "The Oni",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Decreases [Blood Fury] activation time by [0.5s].",
-                "Decreases [Blood Fury] cooldown by [0.5s].",
-                "Decreases [Blood Fury] consumption when downing a Survivor by [2s]."
-            ]
+            "type": "text",
+            "content": "Decreases [Blood Fury] activation time by [0.5s]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Blood Fury] cooldown by [0.5s]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Blood Fury] consumption when downing a Survivor by [2s]."
         }
     ],
     "tags": []

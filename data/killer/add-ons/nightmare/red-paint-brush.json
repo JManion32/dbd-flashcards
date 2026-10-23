@@ -7,11 +7,12 @@
     "owner": "The Nightmare",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Reveals the Auras of Survivors in the [Dream World] who are farther than [32m] from you.",
-                "Increases each Survivor's [Sleep Meter] by [50%]."
-            ]
+            "type": "text",
+            "content": "Reveals the Auras of Survivors in the [Dream World] who are farther than [32m] from you."
+        },
+        {
+            "type": "text",
+            "content": "Increases each Survivor's [Sleep Meter] by [50%]."
         }
     ],
     "tags": [

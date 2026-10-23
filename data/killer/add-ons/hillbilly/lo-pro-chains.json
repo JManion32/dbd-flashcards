@@ -7,11 +7,12 @@
     "owner": "The Hillbilly",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Breaking a Pallet or Breakable Wall with the [Chainsaw] continues the [Chainsaw Sprint].",
-                "Within [5s] of breaking one, healthy Survivors hit with the [Chainsaw] are only damaged by a single Health State, and injured Survivors gain [Deep Wound] instead."
-            ]
+            "type": "text",
+            "content": "Breaking a Pallet or Breakable Wall with the [Chainsaw] continues the [Chainsaw Sprint]."
+        },
+        {
+            "type": "text",
+            "content": "Within [5s] of breaking one, healthy Survivors hit with the [Chainsaw] are only damaged by a single Health State, and injured Survivors gain [Deep Wound] instead."
         }
     ],
     "tags": [

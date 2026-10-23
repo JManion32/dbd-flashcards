@@ -7,11 +7,12 @@
     "owner": "The Shape",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Hitting a Survivor with [Slaughtering Strike] adds [20s] to [Evil Incarnate]'s duration.",
-                "[Slaughtering Strike] only deals a single health State of damage."
-            ]
+            "type": "text",
+            "content": "Hitting a Survivor with [Slaughtering Strike] adds [20s] to [Evil Incarnate]'s duration."
+        },
+        {
+            "type": "text",
+            "content": "[Slaughtering Strike] only deals a single health State of damage."
         }
     ],
     "tags": []

@@ -7,12 +7,16 @@
     "owner": "The Blight",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Rush] cannot be performed more than [5] times.",
-                "Increases [Rush] turn rate by [11%].",
-                "Increases [Rush] duration by [11%]."
-            ]
+            "type": "text",
+            "content": "[Rush] cannot be performed more than [5] times."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Rush] turn rate by [11%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Rush] duration by [11%]."
         }
     ],
     "quote": "\"Time is scarce. Let this be the one...\" -Talbot Grimes",

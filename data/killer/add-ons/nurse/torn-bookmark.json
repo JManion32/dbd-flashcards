@@ -7,11 +7,12 @@
     "owner": "The Nurse",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Adds [1] [Blink] charge.",
-                "Increases [Blink] recharge time by [30%]."
-            ]
+            "type": "text",
+            "content": "Adds [1] [Blink] charge."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Blink] recharge time by [30%]."
         }
     ],
     "tags": []

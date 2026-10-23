@@ -7,11 +7,12 @@
     "owner": "The Plague",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Start the Trial with [1] additional [Pool of Devotion] already corrupted.",
-                "Increases the number of [Pools of Devotion] in the Trial by [1]."
-            ]
+            "type": "text",
+            "content": "Start the Trial with [1] additional [Pool of Devotion] already corrupted."
+        },
+        {
+            "type": "text",
+            "content": "Increases the number of [Pools of Devotion] in the Trial by [1]."
         }
     ],
     "tags": []

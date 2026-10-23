@@ -7,11 +7,12 @@
     "owner": "The Demogorgon",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "You see the Auras of all Survivors while traversing the [Upside Down].",
-                "After emerging from a [Portal], you see the Auras of all Survivors within [16m] of an active [Portal] for [3s]."
-            ]
+            "type": "text",
+            "content": "You see the Auras of all Survivors while traversing the [Upside Down]."
+        },
+        {
+            "type": "text",
+            "content": "After emerging from a [Portal], you see the Auras of all Survivors within [16m] of an active [Portal] for [3s]."
         }
     ],
     "quote": "\"One small dose can cause severe hallucinations.\" -Hawkins National Laboratory",

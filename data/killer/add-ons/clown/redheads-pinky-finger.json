@@ -7,11 +7,12 @@
     "owner": "The Clown",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Direct hits with an [Afterpiece Tonic] bottle inflict [Exposed] until [Intoxication] ends.",
-                "Sets the maximum number of carried bottles to [1]."
-            ]
+            "type": "text",
+            "content": "Direct hits with an [Afterpiece Tonic] bottle inflict [Exposed] until [Intoxication] ends."
+        },
+        {
+            "type": "text",
+            "content": "Sets the maximum number of carried bottles to [1]."
         }
     ],
     "tags": [

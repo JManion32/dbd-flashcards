@@ -7,11 +7,12 @@
     "owner": "The Plague",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases the speed of ingesting corruption at a [Pool of Devotion] by [100%].",
-                "Increases your movement speed while holding [Corrupt Purge] by [4.5%]."
-            ]
+            "type": "text",
+            "content": "Increases the speed of ingesting corruption at a [Pool of Devotion] by [100%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases your movement speed while holding [Corrupt Purge] by [4.5%]."
         }
     ],
     "tags": []

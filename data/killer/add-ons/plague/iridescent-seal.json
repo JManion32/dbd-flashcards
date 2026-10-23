@@ -7,11 +7,12 @@
     "owner": "The Plague",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Corrupt Purge] activates every time a Generator is completed.",
-                "Decreases [Corrupt Purge] duration by [20s]."
-            ]
+            "type": "text",
+            "content": "[Corrupt Purge] activates every time a Generator is completed."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Corrupt Purge] duration by [20s]."
         }
     ],
     "tags": [

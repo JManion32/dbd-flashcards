@@ -7,13 +7,20 @@
     "owner": "The Plague",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "[Vile Purge] no longer affects Survivors.",
-                "Increases object infection duration by [40s].",
-                "Increases infection from infected objects by [100%].",
-                "Increases Devious Bloodpoints by [100%]."
-            ]
+            "type": "text",
+            "content": "[Vile Purge] no longer affects Survivors."
+        },
+        {
+            "type": "text",
+            "content": "Increases object infection duration by [40s]."
+        },
+        {
+            "type": "text",
+            "content": "Increases infection from infected objects by [100%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases Devious Bloodpoints by [100%]."
         }
     ],
     "tags": []

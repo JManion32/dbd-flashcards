@@ -7,11 +7,12 @@
     "owner": "The Shape",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Increases the [Stalk Meter] fill rate by [30%].",
-                "Decreases [Stalk] range by [16m]."
-            ]
+            "type": "text",
+            "content": "Increases the [Stalk Meter] fill rate by [30%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases [Stalk] range by [16m]."
         }
     ],
     "tags": []

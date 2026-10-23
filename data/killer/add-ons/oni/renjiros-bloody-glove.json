@@ -7,11 +7,12 @@
     "owner": "The Oni",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "All Survivors can see [Blood Orbs] from the same distance as you.",
-                "Whenever a Survivor touches a [Blood Orb], their Aura is revealed to you for [2s]."
-            ]
+            "type": "text",
+            "content": "All Survivors can see [Blood Orbs] from the same distance as you."
+        },
+        {
+            "type": "text",
+            "content": "Whenever a Survivor touches a [Blood Orb], their Aura is revealed to you for [2s]."
         }
     ],
     "quote": "\"When all else spills out, cling only to your honor.\" -Renjiro's Doctrine 14:12",

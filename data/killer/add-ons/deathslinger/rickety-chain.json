@@ -7,11 +7,12 @@
     "owner": "The Deathslinger",
     "description": [
         {
-            "type": "list",
-            "items": [
-                "Grants [50%] bonus Bloodpoints for Speared score events.",
-                "Survivors break free [33%] faster."
-            ]
+            "type": "text",
+            "content": "Grants [50%] bonus Bloodpoints for Speared score events."
+        },
+        {
+            "type": "text",
+            "content": "Survivors break free [33%] faster."
         }
     ],
     "tags": []

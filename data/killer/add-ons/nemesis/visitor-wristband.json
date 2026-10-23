@@ -1,0 +1,19 @@
+{
+    "name": "Visitor Wristband",
+    "id": "visitor-wristband",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Nemesis",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Zombie] detection range by [2m]."
+        },
+        {
+            "type": "text",
+            "content": "Increases [Zombie] field of view by [10 degrees]."
+        }
+    ],
+    "tags": []
+}
