@@ -1,0 +1,17 @@
+{
+    "name": "Rusted Needle",
+    "id": "rusted-needle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Crushing [Victor] while he is latched on inflicts [Hemorrhage] until healed."
+        }
+    ],
+    "tags": [
+        "Hemorrhage"
+    ]
+}

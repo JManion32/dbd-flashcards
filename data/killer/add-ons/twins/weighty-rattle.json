@@ -1,0 +1,17 @@
+{
+    "name": "Weighty Rattle",
+    "id": "weighty-rattle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Crushing [Victor] while he is latched on inflicts [Broken] for [20s]."
+        }
+    ],
+    "tags": [
+        "Broken"
+    ]
+}

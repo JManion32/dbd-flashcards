@@ -1,0 +1,16 @@
+{
+    "name": "Madeleine's Scarf",
+    "id": "madeleines-scarf",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Victor]'s movement speed by [0.3 m/s]."
+        }
+    ],
+    "quote": "\"...shall hereby be recorded as a service to the greater good and the extermination of evil.\" -Inquiry into the Death of Madeleine Deshayes",
+    "tags": []
+}

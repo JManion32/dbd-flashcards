@@ -1,0 +1,18 @@
+{
+    "name": "Drop of Perfume",
+    "id": "drop-of-perfume",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [Victor]'s alert range while he is dormant suffer [Oblivious]."
+        }
+    ],
+    "quote": "\"Beware the deceit of witches, for they exploit the goodness in men's hearts.\" -A History of Witches and Demons (1602)",
+    "tags": [
+        "Oblivious"
+    ]
+}

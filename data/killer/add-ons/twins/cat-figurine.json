@@ -1,0 +1,15 @@
+{
+    "name": "Cat Figurine",
+    "id": "cat-figurine",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Displays the target location of a [Pounce]."
+        }
+    ],
+    "tags": []
+}

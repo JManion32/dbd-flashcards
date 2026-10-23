@@ -1,0 +1,15 @@
+{
+    "name": "Bloody Black Hood",
+    "id": "bloody-black-hood",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Charlotte]'s waking time by [0.5s]."
+        }
+    ],
+    "tags": []
+}

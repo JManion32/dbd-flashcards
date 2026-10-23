@@ -1,0 +1,15 @@
+{
+    "name": "Tiny Fingernail",
+    "id": "tiny-fingernail",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Twins",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Victor]'s [Unbind] time by [33%]."
+        }
+    ],
+    "tags": []
+}
