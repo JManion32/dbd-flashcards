@@ -7,6 +7,7 @@ import { GameItemFilterDefault, type GameItemFilter } from '@/types/gameItemFilt
 import Modal from '@/components/Modal.vue';
 import OptionSelector from '@/components/OptionSelector.vue';
 import ManyOptionSelector from '@/components/ManyOptionSelector.vue';
+import { SlidersHorizontal } from 'lucide-vue-next';
 
 const props = defineProps<{
     type: 'perks' | 'add-ons';
@@ -46,10 +47,16 @@ function clearFilters() {
 </script>
 <template>
     <button
-        class="filter-btn"
+        class="filter-btn open-filter-btn"
         @click="visible = true"
     >
-        Filter<span v-if="activeCount"> ({{ activeCount }})</span>
+        <SlidersHorizontal :size="18" />
+        <span
+            v-if="activeCount"
+            class="filter-count"
+        >
+            {{ activeCount }}
+        </span>
     </button>
     <Modal
         :visible="visible"
@@ -128,6 +135,32 @@ function clearFilters() {
         background: var(--dark-333);
         cursor: pointer;
     }
+}
+.open-filter-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.filter-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40%, -40%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.25rem;
+    height: 1.25rem;
+    padding: 0 0.3rem;
+    border-radius: 999px;
+
+    background: var(--standard-white);
+    color: var(--standard-black);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1;
 }
 .filter-choices-container {
     display: flex;

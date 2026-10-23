@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import type { GameItemFilter } from '@/types/gameItemFilter';
 import GameItemFilterModal from '@/components/gameitem/GameItemFilterModal.vue';
+import { Search } from 'lucide-vue-next';
 
 const props = defineProps<{
     type: 'perks' | 'add-ons';
@@ -66,12 +67,11 @@ const emit = defineEmits<{
                 </button>
             </div>
             <div class="right-filter-container">
-                <GameItemFilterModal
-                    :type="props.type"
-                    :filter="filter"
-                    @selected="applyModalFilter"
-                />
                 <div class="search-field">
+                    <Search
+                        class="search-icon"
+                        :size="18"
+                    />
                     <input
                         v-model="filter.search"
                         class="filter-search"
@@ -87,6 +87,11 @@ const emit = defineEmits<{
                         X
                     </button>
                 </div>
+                <GameItemFilterModal
+                    :type="props.type"
+                    :filter="filter"
+                    @selected="applyModalFilter"
+                />
             </div>
         </div>
         <hr />
@@ -118,7 +123,10 @@ const emit = defineEmits<{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 0.75rem;
+
+    background: #1a1a1a;
+    border-radius: 0.75rem;
 }
 .right-filter-container {
     display: flex;
@@ -153,10 +161,16 @@ const emit = defineEmits<{
     border: none;
     color: var(--standard-white);
     background: var(--dark-222);
-    padding: 0.5rem 2.5rem 0.5rem 0.75rem;
-    font-weight: 700;
+    padding: 0.5rem 2.5rem 0.5rem 2.8rem;
+    font-weight: 600;
     font-size: 16px;
     width: 18rem;
+}
+.search-icon {
+    position: absolute;
+    left: 0.75rem;
+    color: var(--standard-dim);
+    pointer-events: none;
 }
 .filter-search::placeholder {
     font-style: italic;
@@ -192,7 +206,7 @@ const emit = defineEmits<{
     color: var(--standard-dim);
     background: transparent;
     transition: var(--site-transition);
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     font-size: 16px;
     border-radius: 0.5rem;
     border: none;
