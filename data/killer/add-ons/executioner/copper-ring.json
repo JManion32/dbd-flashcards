@@ -1,0 +1,16 @@
+{
+    "name": "Copper Ring",
+    "id": "copper-ring",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the maximum duration of [Rites of Judgment] by [5s]."
+        }
+    ],
+    "quote": "\"I was locked up inside the basement's basement. It was so small and dark, and I was so afraid. I dropped my precious ring. But I'll never, ever go back there.\"",
+    "tags": []
+}

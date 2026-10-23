@@ -1,0 +1,15 @@
+{
+    "name": "Dead Butterfly",
+    "id": "dead-butterfly",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Rites of Judgment]'s recharge rate by [10%]."
+        }
+    ],
+    "tags": []
+}

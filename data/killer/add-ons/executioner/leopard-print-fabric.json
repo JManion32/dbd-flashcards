@@ -1,0 +1,18 @@
+{
+    "name": "Leopard-Print Fabric",
+    "id": "leopard-print-fabric",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases stun duration by [15%] while using [Rites of Judgment]."
+        }
+    ],
+    "quote": "\"It doesn't matter who I am. I'm here for you, James.\" -Maria",
+    "tags": [
+        "Stun"
+    ]
+}

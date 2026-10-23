@@ -1,0 +1,17 @@
+{
+    "name": "Valtiel Sect Photograph",
+    "id": "valtiel-sect-photograph",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases your Terror Radius by [2m] for each Survivor affected by [Torment]."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

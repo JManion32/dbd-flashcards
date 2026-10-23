@@ -1,0 +1,16 @@
+{
+    "name": "Rust-Colored Egg",
+    "id": "rust-colored-egg",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Injuring a Survivor with [Punishment of the Damned] increases [Rites of Judgment] charge by [30%]."
+        }
+    ],
+    "quote": "\"James... you made me happy.\" -Mary",
+    "tags": []
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Obsidian Goblet",
+    "id": "obsidian-goblet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "You can special-break Pallets and Breakable Walls with [Punishment of the Damned].",
+                "Increases [Punishment of the Damned] cooldown by [20%]."
+            ]
+        }
+    ],
+    "quote": "\"Forgive me for waking you. But without you, I just can't go on.\" -James Sunderland",
+    "tags": [
+        "Pallet"
+    ]
+}

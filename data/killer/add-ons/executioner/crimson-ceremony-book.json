@@ -1,0 +1,19 @@
+{
+    "name": "Crimson Ceremony Book",
+    "id": "crimson-ceremony-book",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors damaged by [Punishment of the Damned] suffer [Hemorrhage] and [Mangled] for [80s]."
+        }
+    ],
+    "quote": "\"Speak. I am the Crimson One. The lies and the mist are not they, but I.\"",
+    "tags": [
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

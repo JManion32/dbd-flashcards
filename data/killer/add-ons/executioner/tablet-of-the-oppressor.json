@@ -1,0 +1,17 @@
+{
+    "name": "Tablet of the Oppressor",
+    "id": "tablet-of-the-oppressor",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "While using [Rites of Judgment], you gain [Undetectable]."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

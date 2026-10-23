@@ -1,0 +1,18 @@
+{
+    "name": "Lost Memories Book",
+    "id": "lost-memories-book",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors injured by [Punishment of the Damned] suffer [Oblivious] for [80s]."
+        }
+    ],
+    "quote": "\"They called this place 'The Place of the Silent Spirits'.\"",
+    "tags": [
+        "Oblivious"
+    ]
+}

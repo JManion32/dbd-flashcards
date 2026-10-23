@@ -1,0 +1,18 @@
+{
+    "name": "Misty Day, Remains of Judgment",
+    "id": "misty-day-remains-of-judgment",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "Injuring a Survivor with [Punishment of the Damned] reveals their Aura for [8s]."
+        }
+    ],
+    "quote": "\"It's him...\"",
+    "tags": [
+        "Aura"
+    ]
+}

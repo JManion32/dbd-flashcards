@@ -1,0 +1,17 @@
+{
+    "name": "Burning Man Painting",
+    "id": "burning-man-painting",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you miss [Punishment of the Damned], you see the Auras of Survivors within [3m] for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

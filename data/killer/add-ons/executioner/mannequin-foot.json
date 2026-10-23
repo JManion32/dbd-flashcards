@@ -1,0 +1,17 @@
+{
+    "name": "Mannequin Foot",
+    "id": "mannequin-foot",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Executioner",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Rites of Judgment] trails inflict [Exhausted] for [10s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}
