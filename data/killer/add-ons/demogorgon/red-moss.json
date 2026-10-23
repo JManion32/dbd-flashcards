@@ -1,0 +1,22 @@
+{
+    "name": "Red Moss",
+    "id": "red-moss",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases the time required to emerge from a [Portal] by [15%].",
+                "Increases the duration of [Undetectable] gained when emerging from a [Portal] by [8s].",
+                "Emerging from [Portals] is silent."
+            ]
+        }
+    ],
+    "quote": "\"Consuming its leaf enhances athletic performance and causes euphoria.\" -Hawkins National Laboratory",
+    "tags": [
+        "Undetectable"
+    ]
+}

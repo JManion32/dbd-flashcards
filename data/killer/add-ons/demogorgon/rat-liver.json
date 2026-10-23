@@ -1,0 +1,15 @@
+{
+    "name": "Rat Liver",
+    "id": "rat-liver",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases your movement speed while charging [Of the Abyss] by [3.5%]."
+        }
+    ],
+    "tags": []
+}

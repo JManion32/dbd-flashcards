@@ -1,0 +1,18 @@
+{
+    "name": "Vermillion Webcap",
+    "id": "vermillion-webcap",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Undetectable] gained when emerging from a [Portal] by [3s]."
+        }
+    ],
+    "quote": "\"Still experimenting with this specimen, so far our results are inconsistent.\" -Hawkins National Laboratory",
+    "tags": [
+        "Undetectable"
+    ]
+}

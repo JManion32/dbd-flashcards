@@ -1,0 +1,17 @@
+{
+    "name": "Barb's Glasses",
+    "id": "barbs-glasses",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [Shred] cooldown by [10%] when you special-break a Pallet or Breakable Wall."
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

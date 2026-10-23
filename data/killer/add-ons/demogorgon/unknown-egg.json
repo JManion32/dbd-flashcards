@@ -1,0 +1,16 @@
+{
+    "name": "Unknown Egg",
+    "id": "unknown-egg",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown after traversing the [Upside Down] by [2.5s]."
+        }
+    ],
+    "quote": "\"A large egg was sighted in the Upside Down, but no sample survived the trip to the lab for proper examination.\" -Hawkins National Laboratory",
+    "tags": []
+}

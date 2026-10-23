@@ -1,0 +1,18 @@
+{
+    "name": "Deer Lung",
+    "id": "deer-lung",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "list",
+            "items": [
+                "Increases [Upside Down] traversal speed by [30%].",
+                "Decreases the number of available [Portals] by [2]."
+            ]
+        }
+    ],
+    "tags": []
+}

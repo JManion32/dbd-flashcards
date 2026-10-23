@@ -1,0 +1,18 @@
+{
+    "name": "Brass Case Lighter",
+    "id": "brass-case-lighter",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors near a [Portal] suffer [Blindness], which persists for [60s] after they leave it."
+        }
+    ],
+    "quote": "\"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" -Hawkins National Laboratory",
+    "tags": [
+        "Blindness"
+    ]
+}

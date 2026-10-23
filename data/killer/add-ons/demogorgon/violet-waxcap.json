@@ -1,0 +1,17 @@
+{
+    "name": "Violet Waxcap",
+    "id": "violet-waxcap",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Undetectable] gained when emerging from a [Portal] by [1s]."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

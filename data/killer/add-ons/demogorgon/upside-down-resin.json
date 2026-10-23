@@ -1,0 +1,16 @@
+{
+    "name": "Upside Down Resin",
+    "id": "upside-down-resin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time Survivors need to seal [Portals] by [20%]."
+        }
+    ],
+    "quote": "\"A sample taken from a tree that concealed a Portal to another plane. Studies on its effects are inconclusive.\" -Hawkins National Laboratory",
+    "tags": []
+}

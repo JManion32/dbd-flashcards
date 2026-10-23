@@ -13,10 +13,10 @@
         {
             "type": "list",
             "items": [
-                "Second chained hit: [2 tokens]",
-                "Third chained hit: [3 tokens]",
-                "Fourth chained hit: [4 tokens]",
-                "Fifth chained hit: [5 tokens]"
+                "Second chained hit: [2] tokens",
+                "Third chained hit: [3] tokens",
+                "Fourth chained hit: [4] tokens",
+                "Fifth chained hit: [5] tokens"
             ]
         },
         {

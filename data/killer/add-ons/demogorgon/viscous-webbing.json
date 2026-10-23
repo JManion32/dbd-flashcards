@@ -1,0 +1,15 @@
+{
+    "name": "Viscous Webbing",
+    "id": "viscous-webbing",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time Survivors need to seal [Portals] by [10%]."
+        }
+    ],
+    "tags": []
+}

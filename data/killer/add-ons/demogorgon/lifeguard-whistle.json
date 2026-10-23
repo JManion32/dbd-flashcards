@@ -1,0 +1,16 @@
+{
+    "name": "Lifeguard Whistle",
+    "id": "lifeguard-whistle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Demogorgon",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the number of available [Portals] by [2]."
+        }
+    ],
+    "quote": "\"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" -Hawkins National Laboratory",
+    "tags": []
+}
