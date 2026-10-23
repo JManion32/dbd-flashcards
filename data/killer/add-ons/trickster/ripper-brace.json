@@ -1,0 +1,20 @@
+{
+    "name": "Ripper Brace",
+    "id": "ripper-brace",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "For each [Style Rank], you basic-vault Windows, basic-break Pallets and Breakable Walls, and damage Generators [6%] faster."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet",
+        "Vaulting",
+        "Window"
+    ]
+}

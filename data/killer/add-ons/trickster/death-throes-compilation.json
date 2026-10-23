@@ -1,0 +1,16 @@
+{
+    "name": "Death Throes Compilation",
+    "id": "death-throes-compilation",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Refills [Blades] by [75%] of the maximum when [Main Event] ends."
+        }
+    ],
+    "quote": "\"Please, no... don't make it hurt... I can't... I...\" -Unidentified Voice",
+    "tags": []
+}

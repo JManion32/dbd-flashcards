@@ -1,0 +1,16 @@
+{
+    "name": "Edge of Revival Album",
+    "id": "edge-of-revival-album",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Blade] hits from more than [20m] away deal [100%] more [Laceration]."
+        }
+    ],
+    "quote": "\"Your whisper on me-- Warm as can be-- Burning each breath-- Till I can't breathe\" -The Trickster's \"Whispers of Warmth\"",
+    "tags": []
+}

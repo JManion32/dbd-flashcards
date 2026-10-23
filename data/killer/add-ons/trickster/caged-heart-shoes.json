@@ -1,0 +1,18 @@
+{
+    "name": "Caged Heart Shoes",
+    "id": "caged-heart-shoes",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you basic-break a Pallet or Breakable Wall or damage a Generator, the next time you enter the [Throw State], your movement speed in it is increased by [5%] for [10s]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet"
+    ]
+}

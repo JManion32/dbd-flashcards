@@ -1,0 +1,16 @@
+{
+    "name": "Cut Thru U Single",
+    "id": "cut-thru-u-single",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you reach [A-Rank], Survivors within [32m] are revealed by [Killer Instinct] for [4.4s]."
+        }
+    ],
+    "quote": "\"Can't stop this love-- That's tearing your heart-- Wherever you go-- I will cut you apart\" -NO SPIN's\"Cut Thru U\"",
+    "tags": []
+}

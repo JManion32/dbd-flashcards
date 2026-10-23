@@ -1,0 +1,15 @@
+{
+    "name": "Ji-woon's Autograph",
+    "id": "ji-woons-autograph",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Main Event] duration by [44%]."
+        }
+    ],
+    "tags": []
+}

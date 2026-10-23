@@ -1,0 +1,29 @@
+{
+    "name": "Trick Blades",
+    "id": "trick-blades",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Blades] can ricochet off the environment once."
+        },
+        {
+            "type": "text",
+            "content": "On every eighth [Blade] hit after a ricochet, gain one of these bonuses at random:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[100%] increased [Laceration].",
+                "You see the Auras of Survivors within [12m] for [4.4s].",
+                "An additional [Style Point]."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Melodious Murder",
+    "id": "melodious-murder",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Blades] reload speed at Lockers by [25%]."
+        }
+    ],
+    "tags": [
+        "Locker"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Lucky Blade",
+    "id": "lucky-blade",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "On every eighth [Blade] hit, gain one of these bonuses at random:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Increased throw speed by [5%] for [5s].",
+                "[3%] [Haste] for [6s].",
+                "An additional [Style Point]."
+            ]
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

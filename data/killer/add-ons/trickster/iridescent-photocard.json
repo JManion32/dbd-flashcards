@@ -1,0 +1,32 @@
+{
+    "name": "Iridescent Photocard",
+    "id": "iridescent-photocard",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Main Event] duration by [100%]."
+        },
+        {
+            "type": "text",
+            "content": "When [Main Event] activates:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your Aura is revealed to all Survivors.",
+                "You see the Auras of all Survivors.",
+                "All Generators are blocked for [6s]."
+            ]
+        }
+    ],
+    "quote": "\"It's okay, scream my name. Let me hear everything the pain awakens...\" -Hak Ji-woon",
+    "tags": [
+        "Aura",
+        "Blocked",
+        "Generator"
+    ]
+}

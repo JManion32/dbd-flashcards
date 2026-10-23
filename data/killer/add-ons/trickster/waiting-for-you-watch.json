@@ -1,0 +1,18 @@
+{
+    "name": "Waiting for You Watch",
+    "id": "waiting-for-you-watch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor's [Laceration] meter fully decays, you see their Aura for [10s]."
+        }
+    ],
+    "quote": "\"Don't run away-- Don't say we're through-- No way to escape this-- I'll be waiting for you\" -NO SPIN's \"I'll Be Waiting for You",
+    "tags": [
+        "Aura"
+    ]
+}

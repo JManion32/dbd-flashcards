@@ -1,0 +1,15 @@
+{
+    "name": "Bloody Boa",
+    "id": "bloody-boa",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Trickster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the speed at which [Laceration] decays by [75%]."
+        }
+    ],
+    "tags": []
+}
