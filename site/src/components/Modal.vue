@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, watch } from 'vue';
+import { getTintStyle } from '@/utils/tintStyle';
 
 const props = defineProps<{
     visible: boolean;
+    color?: string;
     transition: 'slide-up' | 'fade' | 'scale';
     required?: boolean;
 }>();
@@ -54,7 +56,10 @@ onUnmounted(() => {
                 class="modal-backdrop"
                 @click.self="emitClose()"
             >
-                <div class="modal-container">
+                <div
+                    class="modal-container"
+                    :style="getTintStyle(props.color)"
+                >
                     <div class="modal-close-container">
                         <button
                             v-if="!props.required"

@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import '@/styles/modal.css';
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
 import Modal from '@/components/Modal.vue';
 import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
 import { getRarityColor } from '@/utils/formatGameItem';
+import { getTintStyle } from '@/utils/tintStyle';
 
 import type { GameItem } from '@/types/gameItem';
 
@@ -15,16 +16,15 @@ const props = defineProps<{
 }>();
 
 const visible = ref(false);
+// Perks have no rarity, so they keep the default card and modal colors
+const rarityColor = computed(() =>
+    props.gameItem.rarity ? getRarityColor(props.gameItem.rarity) : 'var(--very-rare-rarity)'
+);
 </script>
 <template>
     <div
         class="display-card"
-        :style="{
-            background: props.gameItem.rarity
-                ? `color-mix(in srgb, ${getRarityColor(props.gameItem.rarity)} 30%, var(--standard-black))`
-                : undefined,
-            border: props.gameItem.rarity ? `1px solid ${getRarityColor(props.gameItem.rarity)}` : undefined,
-        }"
+        :style="getTintStyle(rarityColor)"
         @click="visible = true"
     >
         <img
@@ -35,6 +35,7 @@ const visible = ref(false);
     </div>
     <Modal
         :visible="visible"
+        :color="rarityColor"
         transition="scale"
         @close="visible = false"
     >
@@ -55,9 +56,6 @@ const visible = ref(false);
     overflow: hidden;
     opacity: 70%;
     padding: 1rem;
-
-    border: 1px solid var(--very-rare-rarity);
-    background: color-mix(in srgb, var(--very-rare-rarity) 30%, var(--standard-black) 100%);
 }
 .display-card:hover {
     cursor: pointer;
