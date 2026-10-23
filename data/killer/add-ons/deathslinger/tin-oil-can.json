@@ -1,0 +1,15 @@
+{
+    "name": "Tin Oil Can",
+    "id": "tin-oil-can",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases [The Redeemer]'s miss cooldown by [0.5s]."
+        }
+    ],
+    "tags": []
+}

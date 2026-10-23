@@ -1,0 +1,18 @@
+{
+    "name": "Gold Creek Whiskey",
+    "id": "gold-creek-whiskey",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases your Terror Radius by [8m] while aiming down [The Redeemer]'s sights."
+        }
+    ],
+    "quote": "\"A smooth taste for the rugged frontier.\" -Gold Creek Advertisement, 1876",
+    "tags": [
+        "Terror Radius"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Poison Oak Leaves",
+    "id": "poison-oak-leaves",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time Survivors need to mend by [1.5s]."
+        }
+    ],
+    "tags": []
+}

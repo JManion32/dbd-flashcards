@@ -1,0 +1,17 @@
+{
+    "name": "Honey Locust Thorns",
+    "id": "honey-locust-thorns",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who break free from the spear suffer [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

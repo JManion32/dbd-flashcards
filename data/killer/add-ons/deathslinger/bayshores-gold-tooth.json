@@ -1,0 +1,16 @@
+{
+    "name": "Bayshore's Gold Tooth",
+    "id": "bayshores-gold-tooth",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [The Redeemer]'s reeling speed by [5%]."
+        }
+    ],
+    "quote": "\"Know your place, boy. Know you damn place.\" -Henry Bayshore",
+    "tags": []
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Wanted Poster",
+    "id": "wanted-poster",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases your movement speed by [3%] while aiming down [The Redeemer]'s sights."
+        }
+    ],
+    "quote": "\"You'll be met with a fierce reckoning, swear it on my mum's grave.\" -Caleb Quinn",
+    "tags": []
+}

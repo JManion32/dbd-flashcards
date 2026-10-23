@@ -1,0 +1,15 @@
+{
+    "name": "Snake Oil",
+    "id": "snake-oil",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [The Redeemer]'s reeling speed by [2.5%]."
+        }
+    ],
+    "tags": []
+}

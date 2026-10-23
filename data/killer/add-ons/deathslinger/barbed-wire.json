@@ -1,0 +1,16 @@
+{
+    "name": "Barbed Wire",
+    "id": "barbed-wire",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time Survivors need to mend by [3.5s]."
+        }
+    ],
+    "quote": "\"There won't be nothing to fear soon. Till then, fear me.\" -Caleb Quinn",
+    "tags": []
+}

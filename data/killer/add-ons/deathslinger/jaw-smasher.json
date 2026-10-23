@@ -1,0 +1,16 @@
+{
+    "name": "Jaw Smasher",
+    "id": "jaw-smasher",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases your movement speed by [1.5%] while aiming down [The Redeemer]'s sights."
+        }
+    ],
+    "quote": "\"You called death to your door the instant you done me wrong.\" -Caleb Quinn",
+    "tags": []
+}

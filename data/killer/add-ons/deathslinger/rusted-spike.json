@@ -1,0 +1,17 @@
+{
+    "name": "Rusted Spike",
+    "id": "rusted-spike",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a Survivor with [The Redeemer] while they are being reeled in inflicts [Mangled] for [60s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Prison Chain",
+    "id": "prison-chain",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Deathslinger",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time Survivors need to break free from the spear by [10%]."
+        }
+    ],
+    "quote": "\"Inmates working beyond the prison yard must be affixed with a steel ball of no less than 18 pounds.\" -Hellshire Penitentiary Guard Book",
+    "tags": []
+}
