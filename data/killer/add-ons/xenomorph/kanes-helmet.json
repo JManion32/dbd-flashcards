@@ -1,0 +1,17 @@
+{
+    "name": "Kane's Helmet",
+    "id": "kanes-helmet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit by a [Tail Attack] suffer [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Mangled"
+    ]
+}

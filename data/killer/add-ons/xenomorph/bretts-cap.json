@@ -1,0 +1,17 @@
+{
+    "name": "Brett's Cap",
+    "id": "bretts-cap",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Destroying a [Turret] causes all Survivors within [16m] to suffer [Blindness] for [25s]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

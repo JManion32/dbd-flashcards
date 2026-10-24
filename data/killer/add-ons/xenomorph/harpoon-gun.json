@@ -1,0 +1,17 @@
+{
+    "name": "Harpoon Gun",
+    "id": "harpoon-gun",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a Survivor within [30s] of exiting the [Tunnels] causes all Survivors farther than [16m] from you to scream and reveal their location."
+        }
+    ],
+    "tags": [
+        "Scream"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Lambert's Star Map",
+    "id": "lamberts-star-map",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the flame range of [Turrets] by [2m]."
+        }
+    ],
+    "tags": []
+}

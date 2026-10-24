@@ -1,0 +1,15 @@
+{
+    "name": "Drinking Bird",
+    "id": "drinking-bird",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Killer Instinct] after exiting the [Tunnels] by [3s]."
+        }
+    ],
+    "tags": []
+}

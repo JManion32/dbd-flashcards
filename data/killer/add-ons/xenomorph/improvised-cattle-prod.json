@@ -1,0 +1,19 @@
+{
+    "name": "Improvised Cattle Prod",
+    "id": "improvised-cattle-prod",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Each time a Generator is completed, a [15s] timer starts. You see the Aura of any Survivor who comes within [10m] of a [Control Station] for the rest of the timer."
+        }
+    ],
+    "quote": "\"It shouldn't damage the little bastard, unless its skin thinner than ours.\" -Brett",
+    "tags": [
+        "Aura",
+        "Generator"
+    ]
+}

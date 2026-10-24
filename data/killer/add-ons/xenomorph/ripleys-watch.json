@@ -1,0 +1,15 @@
+{
+    "name": "Ripley's Watch",
+    "id": "ripleys-watch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Turrets] are automatically destroyed when they knock you out of [Crawler Mode]."
+        }
+    ],
+    "tags": []
+}

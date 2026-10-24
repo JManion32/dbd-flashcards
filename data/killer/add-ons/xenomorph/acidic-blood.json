@@ -1,0 +1,27 @@
+{
+    "name": "Acidic Blood",
+    "id": "acidic-blood",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor stuns you with a Pallet within [20s] of you exiting the [Tunnels] in [Crawler Mode]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Healthy Survivors take damage.",
+                "Injured Survivors suffer [Deep Wound]."
+            ]
+        }
+    ],
+    "quote": "\"I think we oughta discuss the bonus situation.\" -Parker",
+    "tags": [
+        "Injured State",
+        "Pallet",
+        "Stun"
+    ]
+}

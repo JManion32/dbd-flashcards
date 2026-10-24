@@ -1,0 +1,18 @@
+{
+    "name": "Semiotic Keyboard",
+    "id": "semiotic-keyboard",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "The Aura intensity of Generators within [16m] of a [Turret] shows their repair progress."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator"
+    ]
+}

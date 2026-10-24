@@ -1,0 +1,17 @@
+{
+    "name": "Multipurpose Hatchet",
+    "id": "multipurpose-hatchet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit by a [Tail Attack] suffer [Hemorrhage]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage"
+    ]
+}

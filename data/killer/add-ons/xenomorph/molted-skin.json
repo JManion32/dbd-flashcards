@@ -1,0 +1,17 @@
+{
+    "name": "Molted Skin",
+    "id": "molted-skin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors suffer [Exhausted] for [30s] after deploying a [Turret]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

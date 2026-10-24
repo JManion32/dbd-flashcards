@@ -1,0 +1,17 @@
+{
+    "name": "Parker's Headband",
+    "id": "parkers-headband",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Xenomorph",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [5%] [Haste] for [3s] after exiting the [Tunnels]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}
