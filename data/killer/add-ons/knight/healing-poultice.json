@@ -1,0 +1,17 @@
+{
+    "name": "Healing Poultice",
+    "id": "healing-poultice",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "After summoning [The Assassin], you see the Auras of Survivors within [8m] of his starting position for [8s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Map of the Realm",
+    "id": "map-of-the-realm",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the detection range of [Guards] on [Patrol] by [2m]."
+        }
+    ],
+    "tags": []
+}

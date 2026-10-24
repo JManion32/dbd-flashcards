@@ -1,0 +1,15 @@
+{
+    "name": "Treated Blade",
+    "id": "treated-blade",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown after summoning [The Assassin] by [20%]."
+        }
+    ],
+    "tags": []
+}

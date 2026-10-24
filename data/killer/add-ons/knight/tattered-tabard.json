@@ -1,0 +1,15 @@
+{
+    "name": "Tattered Tabard",
+    "id": "tattered-tabard",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Patrol] duration of all [Guards] by [8s]."
+        }
+    ],
+    "tags": []
+}

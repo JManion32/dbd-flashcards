@@ -1,0 +1,17 @@
+{
+    "name": "Grim Iron Mask",
+    "id": "grim-iron-mask",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors detected by a [Guard] suffer [Blindness] for [75s]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Battleaxe Head",
+    "id": "battleaxe-head",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown after summoning [The Carnifex] by [20%]."
+        }
+    ],
+    "tags": []
+}

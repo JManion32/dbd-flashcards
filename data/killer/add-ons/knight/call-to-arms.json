@@ -1,0 +1,19 @@
+{
+    "name": "Call To Arms",
+    "id": "call-to-arms",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the maximum length of a [Patrol Path] by [4m]."
+        },
+        {
+            "type": "text",
+            "content": "Increases your movement speed while creating a [Patrol Path] by [7%]."
+        }
+    ],
+    "tags": []
+}

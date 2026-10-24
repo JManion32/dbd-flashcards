@@ -1,0 +1,31 @@
+{
+    "name": "Iridescent Company Banner",
+    "id": "iridescent-company-banner",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "While a Survivor is [Hunted] by a [Guard]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The Exit Gates are blocked for the [Hunted] Survivor.",
+                "Vault locations they vault are blocked for all Survivors."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Vault locations passed through while creating a [Patrol Path] are blocked for [25s] after summoning a [Guard]."
+        }
+    ],
+    "quote": "\"They huddle in their villages like parasites! They have lost the drive for power.\" -Tarhos Kovács",
+    "tags": [
+        "Blocked",
+        "Exit Gate",
+        "Vaulting"
+    ]
+}

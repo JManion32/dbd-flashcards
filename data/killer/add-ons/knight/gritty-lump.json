@@ -1,0 +1,15 @@
+{
+    "name": "Gritty Lump",
+    "id": "gritty-lump",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the movement speed of [Guards] while on [Patrol] by [9%]."
+        }
+    ],
+    "tags": []
+}

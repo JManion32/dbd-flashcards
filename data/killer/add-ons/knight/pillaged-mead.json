@@ -1,0 +1,18 @@
+{
+    "name": "Pillaged Mead",
+    "id": "pillaged-mead",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Guards] break Pallets and Breakable Walls and damage Generators [10%] faster."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet"
+    ]
+}

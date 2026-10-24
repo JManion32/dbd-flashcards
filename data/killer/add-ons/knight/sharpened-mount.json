@@ -1,0 +1,15 @@
+{
+    "name": "Sharpened Mount",
+    "id": "sharpened-mount",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time it takes for the [Standard] to spawn by [15%]."
+        }
+    ],
+    "tags": []
+}

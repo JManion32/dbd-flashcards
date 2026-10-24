@@ -1,0 +1,17 @@
+{
+    "name": "Ironworker's Tongs",
+    "id": "ironworkers-tongs",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who escape a [Guard] [Hunt] suffer [Oblivious] for [60s]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

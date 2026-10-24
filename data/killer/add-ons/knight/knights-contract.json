@@ -1,0 +1,16 @@
+{
+    "name": "Knight's Contract",
+    "id": "knights-contract",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "After completing an [Order], the [Guard] remains for an extra [8s] and starts a [Hunt] if he detects a Survivor."
+        }
+    ],
+    "quote": "\"I fear he has left me here to die.\" -Vittorio Toscano",
+    "tags": []
+}

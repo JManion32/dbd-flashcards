@@ -1,0 +1,17 @@
+{
+    "name": "Town Watch's Torch",
+    "id": "town-watchs-torch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "You gain [Undetectable] while a [Guard] is [Hunting] a Survivor."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

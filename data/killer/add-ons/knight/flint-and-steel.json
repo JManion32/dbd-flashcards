@@ -1,0 +1,18 @@
+{
+    "name": "Flint and Steel",
+    "id": "flint-and-steel",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "After summoning [The Carnifex], you see the Auras of Survivors within [24m] of dropped Pallets for [8s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Pallet"
+    ]
+}

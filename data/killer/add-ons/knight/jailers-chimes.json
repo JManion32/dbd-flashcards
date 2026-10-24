@@ -1,0 +1,17 @@
+{
+    "name": "Jailer's Chimes",
+    "id": "jailers-chimes",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "After summoning [The Jailer], you see the Auras of Survivors who cross his [Patrol Path] for [8s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

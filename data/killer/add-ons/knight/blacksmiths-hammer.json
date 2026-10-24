@@ -1,0 +1,17 @@
+{
+    "name": "Blacksmith's Hammer",
+    "id": "blacksmiths-hammer",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Knight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors damaged by a [Guard] suffer [Broken] for [60s]."
+        }
+    ],
+    "tags": [
+        "Broken"
+    ]
+}
