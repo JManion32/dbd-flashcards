@@ -1,0 +1,18 @@
+{
+    "name": "Party Noisemaker",
+    "id": "party-noisemaker",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Breaking a Pallet or Breakable Wall with a [Jump Scare] reveals the Auras of Survivors farther than [28m] for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Pallet"
+    ]
+}

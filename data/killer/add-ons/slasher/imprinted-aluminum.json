@@ -1,0 +1,18 @@
+{
+    "name": "Imprinted Aluminum",
+    "id": "imprinted-aluminum",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Injuring a healthy Survivor with a [Spike] inflicts [Hemorrhage] and [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

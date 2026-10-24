@@ -1,0 +1,17 @@
+{
+    "name": "Sauna Rock",
+    "id": "sauna-rock",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "After a [Jump Scare], all Survivors within [Killer Instinct] detection range suffer [Exhausted] for [3s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

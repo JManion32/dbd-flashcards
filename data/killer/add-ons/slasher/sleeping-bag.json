@@ -1,0 +1,15 @@
+{
+    "name": "Sleeping Bag",
+    "id": "sleeping-bag",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "After grabbing a [Hook Spike] while in [Omnipresent Evil], you see the locations of Survivors within [10m] of Hooks."
+        }
+    ],
+    "tags": []
+}

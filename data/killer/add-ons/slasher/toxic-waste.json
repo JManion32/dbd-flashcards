@@ -1,0 +1,17 @@
+{
+    "name": "Toxic Waste",
+    "id": "toxic-waste",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "After a [Jump Scare], Survivors within [10m] of a Hook or [Scrap Pile] suffer [Oblivious] for [13s]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

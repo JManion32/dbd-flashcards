@@ -1,0 +1,25 @@
+{
+    "name": "Dirty Money",
+    "id": "dirty-money",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [2] [Tokens] whenever a Generator is completed."
+        },
+        {
+            "type": "text",
+            "content": "If you are not holding a [Spike] when vaulting a Window or breaking a Pallet or Breakable Wall, spend [1] [Token] to gain a [Spike]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet",
+        "Token",
+        "Vaulting",
+        "Window"
+    ]
+}

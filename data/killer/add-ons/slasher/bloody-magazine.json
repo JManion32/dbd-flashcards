@@ -1,0 +1,18 @@
+{
+    "name": "Bloody Magazine",
+    "id": "bloody-magazine",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a [Hook Spike] misses, all Survivors within [8m] of the impact scream and reveal their Auras for [3s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Scream"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Bent Wheel",
+    "id": "bent-wheel",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the range at which you can trigger a [Jump Scare] by [4m]."
+        }
+    ],
+    "tags": []
+}

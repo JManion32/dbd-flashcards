@@ -1,0 +1,22 @@
+{
+    "name": "Iridescent Boat Motor",
+    "id": "iridescent-boat-motor",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Passing through Windows while in [Omnipresent Evil] marks them for [13s]."
+        },
+        {
+            "type": "text",
+            "content": "Performing a [Jump Scare] blocks all marked Windows for [13s]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Window"
+    ]
+}

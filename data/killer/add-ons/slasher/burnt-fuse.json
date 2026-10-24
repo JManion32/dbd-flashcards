@@ -1,0 +1,19 @@
+{
+    "name": "Burnt Fuse",
+    "id": "burnt-fuse",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "While a Survivor is [Impaled] and for [5s] after they extract the [Spike], the Exit Gates are blocked for them and any Survivors within [13m]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "End Game",
+        "Exit Gate"
+    ]
+}

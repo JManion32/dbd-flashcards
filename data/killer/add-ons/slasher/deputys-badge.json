@@ -1,0 +1,23 @@
+{
+    "name": "Deputy's Badge",
+    "id": "deputys-badge",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in [Omnipresent Evil], passing within [2m] of a Generator causes it to explode, losing [5%] progress and starting to regress."
+        },
+        {
+            "type": "text",
+            "content": "If Survivors are repairing the Generator, it does not explode, but they get a special Skill Check."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Regression",
+        "Skill Check"
+    ]
+}

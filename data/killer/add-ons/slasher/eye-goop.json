@@ -1,0 +1,17 @@
+{
+    "name": "Eye Goop",
+    "id": "eye-goop",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [Undetectable] for [13s] after grabbing a [Hook Spike]."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Knitting Needle",
+    "id": "knitting-needle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time it takes injured [Impaled] Survivors to extract the [Spike] from themselves by [20%]."
+        }
+    ],
+    "tags": [
+        "Injured State"
+    ]
+}

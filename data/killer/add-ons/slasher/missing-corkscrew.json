@@ -1,0 +1,22 @@
+{
+    "name": "Missing Corkscrew",
+    "id": "missing-corkscrew",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Impaled] Survivors emit a [32m] Terror Radius until the [Spike] is extracted."
+        },
+        {
+            "type": "text",
+            "content": "Gain [Undetectable] while a Survivor is [Impaled] and for [13s] after they extract the [Spike]."
+        }
+    ],
+    "tags": [
+        "Terror Radius",
+        "Undetectable"
+    ]
+}

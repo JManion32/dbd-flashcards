@@ -1,0 +1,17 @@
+{
+    "name": "Mirror Shards",
+    "id": "mirror-shards-slasher",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Impaled] Survivors suffer [Broken] for [40s] after extracting the [Spike]."
+        }
+    ],
+    "tags": [
+        "Broken"
+    ]
+}

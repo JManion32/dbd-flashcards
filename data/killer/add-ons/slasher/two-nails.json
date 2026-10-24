@@ -1,0 +1,17 @@
+{
+    "name": "Two Nails",
+    "id": "two-nails",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Aura of Survivors who come within [1m] of a [Spike] for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

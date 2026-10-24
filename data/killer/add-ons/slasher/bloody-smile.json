@@ -1,0 +1,15 @@
+{
+    "name": "Bloody Smile",
+    "id": "bloody-smile",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the Survivor detection range of [Jump Scare] and [Omnipresent Evil] by [4m]."
+        }
+    ],
+    "tags": []
+}

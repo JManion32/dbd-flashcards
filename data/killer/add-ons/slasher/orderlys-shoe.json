@@ -1,0 +1,17 @@
+{
+    "name": "Orderly's Shoe",
+    "id": "orderlys-shoe",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Haste] after a [Jump Scare] by [5s]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

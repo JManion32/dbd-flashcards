@@ -1,0 +1,21 @@
+{
+    "name": "Coroner's Coffee",
+    "id": "coroners-coffee",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Slasher",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the distance Survivors are pushed by [Spikes] by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "Gain [13%] [Haste] for [3s] after injuring a Survivor with a [Spike] if they do not collide with the environment."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}
