@@ -1,0 +1,17 @@
+{
+    "name": "Spyglass",
+    "id": "spyglass",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see a Survivor's Aura for [3s] when their [Houndsense] ends."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

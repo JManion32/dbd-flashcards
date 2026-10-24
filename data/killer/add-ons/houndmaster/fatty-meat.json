@@ -1,0 +1,17 @@
+{
+    "name": "Fatty Meat",
+    "id": "fatty-meat",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors affected by [Houndsense] scream every [15s] without revealing their location."
+        }
+    ],
+    "tags": [
+        "Scream"
+    ]
+}

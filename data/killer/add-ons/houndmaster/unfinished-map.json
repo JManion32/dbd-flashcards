@@ -1,0 +1,17 @@
+{
+    "name": "Unfinished Map",
+    "id": "unfinished-map",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors revealed by [Killer Instinct] when entering the [Houndsense] radius also suffer [Exhausted] for [15s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

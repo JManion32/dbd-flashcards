@@ -1,0 +1,18 @@
+{
+    "name": "Gunpowder Tin",
+    "id": "gunpowder-tin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "For [20s] after a Survivor becomes affected by [Houndsense], you break Pallets and Breakable Walls and damage Generators [30%] faster."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet"
+    ]
+}

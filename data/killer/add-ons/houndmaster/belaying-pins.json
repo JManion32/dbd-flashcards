@@ -1,0 +1,17 @@
+{
+    "name": "Belaying Pins",
+    "id": "belaying-pins",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors revealed by [Killer Instinct] when entering the [Houndsense] radius also suffer [Oblivious] for [20s]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

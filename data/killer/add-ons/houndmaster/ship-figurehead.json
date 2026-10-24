@@ -1,0 +1,21 @@
+{
+    "name": "Ship Figurehead",
+    "id": "ship-figurehead",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases your Terror Radius by [8m] while the [Dog] is following you."
+        },
+        {
+            "type": "text",
+            "content": "Decreases your Terror Radius by [8m] while the [Dog] is away from you."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

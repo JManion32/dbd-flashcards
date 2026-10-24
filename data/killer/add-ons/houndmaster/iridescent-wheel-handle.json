@@ -1,0 +1,22 @@
+{
+    "name": "Iridescent Wheel Handle",
+    "id": "iridescent-wheel-handle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time the [Dog] lingers at a [Search] destination by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "You gain [Undetectable] while the [Dog] is running to and from the [Search] destination. Standing on the [Search Path] removes it."
+        }
+    ],
+    "quote": "\"I fear no obstacle, be it man or storm.\" -Portia Maye",
+    "tags": [
+        "Undetectable"
+    ]
+}

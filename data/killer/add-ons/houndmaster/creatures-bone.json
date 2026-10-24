@@ -1,0 +1,17 @@
+{
+    "name": "Creature's Bone",
+    "id": "creatures-bone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the [Dog's] stun duration by [50%]."
+        }
+    ],
+    "tags": [
+        "Stun"
+    ]
+}

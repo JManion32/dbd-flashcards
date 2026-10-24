@@ -1,0 +1,15 @@
+{
+    "name": "Waterskin",
+    "id": "waterskin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Dog's] [Chase Redirect] distance by [20%]."
+        }
+    ],
+    "tags": []
+}

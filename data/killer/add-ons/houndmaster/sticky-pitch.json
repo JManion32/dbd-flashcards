@@ -1,0 +1,15 @@
+{
+    "name": "Sticky Pitch",
+    "id": "sticky-pitch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the bonus movement speed you gain while on the [Search Path] by [2%]."
+        }
+    ],
+    "tags": []
+}

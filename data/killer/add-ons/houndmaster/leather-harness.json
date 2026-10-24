@@ -1,0 +1,21 @@
+{
+    "name": "Leather Harness",
+    "id": "leather-harness",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Dog's] [Chase] speed by [20%] for [30s] after a Generator is completed."
+        },
+        {
+            "type": "text",
+            "content": "This bonus becomes permanent once all Generators are completed."
+        }
+    ],
+    "tags": [
+        "Generator"
+    ]
+}

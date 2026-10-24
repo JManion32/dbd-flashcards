@@ -1,0 +1,17 @@
+{
+    "name": "Knotted Rope",
+    "id": "knotted-rope",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown of Basic Attacks against Survivors injured while in the [Dog's] [Grab] by [2%]."
+        }
+    ],
+    "tags": [
+        "Basic Attack"
+    ]
+}

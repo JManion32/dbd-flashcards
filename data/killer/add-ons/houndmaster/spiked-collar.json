@@ -1,0 +1,18 @@
+{
+    "name": "Spiked Collar",
+    "id": "spiked-collar",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors injured while in the [Dog's] [Grab] suffer [Hemorrhage] and [Mangled] for [60s]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

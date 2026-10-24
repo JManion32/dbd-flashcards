@@ -1,0 +1,15 @@
+{
+    "name": "Marlinspike",
+    "id": "marlinspike",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [20m] of a Survivor in the [Dog's] [Grab] become afflicted with [Houndsense]."
+        }
+    ],
+    "tags": []
+}

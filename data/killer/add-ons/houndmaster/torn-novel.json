@@ -1,0 +1,22 @@
+{
+    "name": "Torn Novel",
+    "id": "torn-novel",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Houndmaster",
+    "description": [
+        {
+            "type": "text",
+            "content": "While aiming the [Chase Redirect], you see the Auras of Survivors within [10m] of the [Dog]."
+        },
+        {
+            "type": "text",
+            "content": "These Auras remain revealed for an additional [2s] after you retake control of The Houndmaster."
+        }
+    ],
+    "quote": "\"I'll find out who they are... and they'll pay. Every last one.\" -Portia Maye",
+    "tags": [
+        "Aura"
+    ]
+}
