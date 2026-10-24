@@ -1,0 +1,17 @@
+{
+    "name": "Yardstick",
+    "id": "yardstick",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Performing a [Scamper] reveals the Auras of Survivors within [16m] for [3s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

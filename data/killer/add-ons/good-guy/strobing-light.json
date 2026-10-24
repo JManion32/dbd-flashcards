@@ -1,0 +1,17 @@
+{
+    "name": "Strobing Light",
+    "id": "strobing-light",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases your Terror Radius by [8m] while [Hidey-Ho Mode] is on cooldown."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

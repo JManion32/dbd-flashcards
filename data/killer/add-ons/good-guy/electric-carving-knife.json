@@ -1,0 +1,15 @@
+{
+    "name": "Electric Carving Knife",
+    "id": "electric-carving-knife",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown after missing a [Slice & Dice] by [5%]."
+        }
+    ],
+    "tags": []
+}

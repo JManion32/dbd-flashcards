@@ -1,0 +1,17 @@
+{
+    "name": "Running Shoes",
+    "id": "running-shoes",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [2%] [Haste] for [5s] after performing a [Scamper]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

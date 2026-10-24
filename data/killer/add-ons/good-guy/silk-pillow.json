@@ -1,0 +1,21 @@
+{
+    "name": "Silk Pillow",
+    "id": "silk-pillow",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases your Terror Radius by [6m]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the charge time of [Slice & Dice] by [50%]."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

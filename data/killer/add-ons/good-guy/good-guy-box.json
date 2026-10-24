@@ -1,0 +1,15 @@
+{
+    "name": "Good Guy Box",
+    "id": "good-guy-box",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown after hitting a [Slice & Dice] by [7%]."
+        }
+    ],
+    "tags": []
+}

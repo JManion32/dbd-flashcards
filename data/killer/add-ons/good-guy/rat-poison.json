@@ -1,0 +1,17 @@
+{
+    "name": "Rat Poison",
+    "id": "rat-poison",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "While performing a [Slice & Dice], you see the Auras of Survivors within [6m] for [2.5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

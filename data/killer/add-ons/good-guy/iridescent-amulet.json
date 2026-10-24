@@ -1,0 +1,22 @@
+{
+    "name": "Iridescent Amulet",
+    "id": "iridescent-amulet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Hidey-Ho Mode] by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Basic Attacks immediately end [Hidey-Ho Mode]."
+        }
+    ],
+    "quote": "\"If I don't get out of this body soon, I'm screwed.\" -Chucky",
+    "tags": [
+        "Basic Attack"
+    ]
+}

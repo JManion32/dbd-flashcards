@@ -1,0 +1,19 @@
+{
+    "name": "Doll Eyes",
+    "id": "doll-eyes",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in [Hidey-Ho Mode], you see the Auras of all Windows and dropped Pallets within [20m]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Pallet",
+        "Window"
+    ]
+}

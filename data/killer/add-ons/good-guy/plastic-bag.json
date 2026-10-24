@@ -1,0 +1,17 @@
+{
+    "name": "Plastic Bag",
+    "id": "plastic-bag",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who walk through an [Illusory Footfall] suffer [Exhausted] for [15s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

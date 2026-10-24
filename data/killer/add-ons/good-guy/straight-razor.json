@@ -1,0 +1,18 @@
+{
+    "name": "Straight Razor",
+    "id": "straight-razor",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit by [Slice & Dice] suffer [Hemorrhage] and [Mangled] for [80s]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

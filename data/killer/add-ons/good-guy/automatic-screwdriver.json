@@ -1,0 +1,15 @@
+{
+    "name": "Automatic Screwdriver",
+    "id": "automatic-screwdriver",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "Missing a [Slice & Dice] decreases the cooldown of [Hidey-Ho Mode] by [8%]."
+        }
+    ],
+    "tags": []
+}

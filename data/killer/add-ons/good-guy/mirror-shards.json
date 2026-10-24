@@ -1,0 +1,15 @@
+{
+    "name": "Mirror Shards",
+    "id": "mirror-shards",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Good Guy",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the [Illusory Footfalls] around Survivors."
+        }
+    ],
+    "tags": []
+}
