@@ -1,0 +1,15 @@
+{
+    "name": "Orderly ID",
+    "id": "orderly-id",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "While out of [Worldbreaker Mode], the aiming range of [Vine Attack] is increased by [2m]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Electroshock Collar",
+    "id": "electroshock-collar",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "Coming out of the [Upside Down] blocks all Windows within [32m] for [12s]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Window"
+    ]
+}

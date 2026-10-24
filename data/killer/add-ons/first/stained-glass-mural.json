@@ -1,0 +1,17 @@
+{
+    "name": "Stained Glass Mural",
+    "id": "stained-glass-mural",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Upside Down] traversal is on cooldown, breaking a Pallet or Breakable Wall decreases the cooldown by [12s]."
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

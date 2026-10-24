@@ -1,0 +1,18 @@
+{
+    "name": "Neck Tendril",
+    "id": "neck-tendril",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in [Worldbreaker Mode], Survivors hit by [Vine Attack] suffer [Hemorrhage] and [Mangled] for [70s]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

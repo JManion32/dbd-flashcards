@@ -1,0 +1,21 @@
+{
+    "name": "Rabbit Remains",
+    "id": "rabbit-remains",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors standing in or entering the [Undergate Attack] radius suffer [Exhausted] while inside and for [10s] after."
+        },
+        {
+            "type": "text",
+            "content": "Increases the cooldown of [Upside Down] traversal by [5s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

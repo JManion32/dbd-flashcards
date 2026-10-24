@@ -1,0 +1,30 @@
+{
+    "name": "Iridescent Soteria Chip",
+    "id": "iridescent-soteria-chip",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "When [Worldbreaker] activates:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You gain [Undetectable].",
+                "You see the Auras of Survivors with at least [1] [Worldbreaker Token] when they come within [12m] of you."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "These effects last until you perform a [Vine Attack], enter the [Upside Down], or [Worldbreaker] ends."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Token",
+        "Undetectable"
+    ]
+}

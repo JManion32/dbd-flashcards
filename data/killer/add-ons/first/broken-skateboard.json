@@ -1,0 +1,27 @@
+{
+    "name": "Broken Skateboard",
+    "id": "broken-skateboard",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "For [65s] after [Worldbreaker Mode] starts:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You vault Windows [30%] faster.",
+                "You see the Auras of Pallets and Windows within [32m]."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Pallet",
+        "Vaulting",
+        "Window"
+    ]
+}

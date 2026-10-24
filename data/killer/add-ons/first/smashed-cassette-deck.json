@@ -1,0 +1,26 @@
+{
+    "name": "Smashed Cassette Deck",
+    "id": "smashed-cassette-deck",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "All Survivors scream at the start of the Trial."
+        },
+        {
+            "type": "text",
+            "content": "All Survivors start with [1] [Worldbreaker Token], which they lose when [Worldbreaker] activates for the first time."
+        },
+        {
+            "type": "text",
+            "content": "[1] fewer [Grandfather Clock] appears in the Trial."
+        }
+    ],
+    "tags": [
+        "Scream",
+        "Token"
+    ]
+}

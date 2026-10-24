@@ -1,0 +1,17 @@
+{
+    "name": "Gutted Supercom",
+    "id": "gutted-supercom",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "While out of [Worldbreaker Mode], you see the Auras of Survivors hit by [Vine Attack] for [1.5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

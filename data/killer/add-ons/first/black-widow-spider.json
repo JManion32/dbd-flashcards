@@ -1,0 +1,15 @@
+{
+    "name": "Black Widow Spider",
+    "id": "black-widow-spider",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "Entering the [Upside Down] while in [Worldbreaker Mode] reveals the location of the farthest Survivor more than [36m] away for [3s]."
+        }
+    ],
+    "tags": []
+}

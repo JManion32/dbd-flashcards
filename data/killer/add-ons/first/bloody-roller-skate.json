@@ -1,0 +1,17 @@
+{
+    "name": "Bloody Roller Skate",
+    "id": "bloody-roller-skate",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [20%] [Haste] for [1.5s] when exiting an [Undergate Attack]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

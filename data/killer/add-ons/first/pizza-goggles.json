@@ -1,0 +1,19 @@
+{
+    "name": "Pizza Goggles",
+    "id": "pizza-goggles",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the area of effect of [Undergate Attack] by [90%] and its cooldown by [25s]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases your exit cooldown after an [Undergate Attack] by [80%]."
+        }
+    ],
+    "tags": []
+}

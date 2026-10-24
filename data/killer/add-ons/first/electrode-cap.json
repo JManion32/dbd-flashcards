@@ -1,0 +1,17 @@
+{
+    "name": "Electrode Cap",
+    "id": "electrode-cap",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The First",
+    "description": [
+        {
+            "type": "text",
+            "content": "At the start of the second phase of [Worldbreaker Mode], you see the Auras of Survivors more than [26m] away for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}
