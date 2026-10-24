@@ -1,0 +1,17 @@
+{
+    "name": "Chica's Bib",
+    "id": "chicas-bib",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within the [Axe's] area of effect suffer [Exhausted] for [5s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

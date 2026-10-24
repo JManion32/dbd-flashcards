@@ -1,0 +1,15 @@
+{
+    "name": "Rotten Pizza",
+    "id": "rotten-pizza",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Killer Instinct] from the [Axe's] area of effect by [100%]."
+        }
+    ],
+    "tags": []
+}

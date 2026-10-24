@@ -1,0 +1,27 @@
+{
+    "name": "Office Phone",
+    "id": "office-phone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [24m] of a Survivor with an embedded [Axe]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Suffer [Oblivious], and [Broken] if injured.",
+                "See the Aura of the [Axe].",
+                "Remove the [Axe] from the other Survivor [50%] faster."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Broken",
+        "Oblivious"
+    ]
+}

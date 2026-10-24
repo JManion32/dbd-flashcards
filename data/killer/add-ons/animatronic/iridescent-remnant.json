@@ -1,0 +1,18 @@
+{
+    "name": "Iridescent Remnant",
+    "id": "iridescent-remnant",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you start moving to a [Security Door], upright Pallets within [32m] of the destination [Security Door] are blocked for [12s]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Pallet"
+    ]
+}

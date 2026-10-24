@@ -1,0 +1,28 @@
+{
+    "name": "Access Panel",
+    "id": "access-panel",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Your [Axe] can travel through [Security Doors], exiting straight through the connected [Security Door]."
+        },
+        {
+            "type": "text",
+            "content": "While aiming your [Axe]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gain Killer Instinct on Survivors within [6m] of any Security Door.",
+                "You see the Auras of all [Security Door] numbers."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

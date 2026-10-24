@@ -1,0 +1,23 @@
+{
+    "name": "Bonnie's Guitar Strings",
+    "id": "bonnies-guitar-strings",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "While moving between [Security Doors], the Aura intensity of Generators shows their repair progress."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the duration of [Undetectable] gained when exiting a [Security Door] by [100%]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator",
+        "Undetectable"
+    ]
+}

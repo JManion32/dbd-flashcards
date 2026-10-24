@@ -1,0 +1,18 @@
+{
+    "name": "Endo CPU",
+    "id": "endo-cpu",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Within the [Axe's] area of effect, you break Pallets and Breakable Walls and damage Generators [40%] faster. This effect lingers for [5s] after leaving the area."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Restaurant Menu",
+    "id": "restaurant-menu",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the minimum time required to retrieve an [Axe] embedded in the environment by [10%]."
+        }
+    ],
+    "tags": []
+}

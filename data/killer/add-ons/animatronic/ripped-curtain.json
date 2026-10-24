@@ -1,0 +1,18 @@
+{
+    "name": "Ripped Curtain",
+    "id": "ripped-curtain",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit by the [Axe] suffer [Hemorrhage] and [Mangled] for [60s]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Purple Guy Drawing",
+    "id": "purple-guy-drawing",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "While a Survivor has an [Axe] embedded in them, you see their Aura:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "For [3s] whenever they perform a rushed action.",
+                "For [6s] when they remove the [Axe] themselves."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Help Wanted Ad",
+    "id": "help-wanted-ad",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "While winding up an [Axe] throw, you see a preview of its starting trajectory."
+        }
+    ],
+    "tags": []
+}

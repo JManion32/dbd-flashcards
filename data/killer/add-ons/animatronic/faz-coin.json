@@ -1,0 +1,22 @@
+{
+    "name": "Faz-Coin",
+    "id": "faz-coin",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Throwing the [Axe] gives it a [24m] Terror Radius until it is retrieved."
+        },
+        {
+            "type": "text",
+            "content": "You gain [Undetectable] for [10s] when you throw the [Axe]."
+        }
+    ],
+    "tags": [
+        "Terror Radius",
+        "Undetectable"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Foxy's Hook",
+    "id": "foxys-hook",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "All players within the [Axe's] area of effect gain [7%] [Haste] for [6s]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

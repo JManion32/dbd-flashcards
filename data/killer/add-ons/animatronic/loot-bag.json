@@ -1,0 +1,19 @@
+{
+    "name": "Loot Bag",
+    "id": "loot-bag",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "While a Survivor has an [Axe] embedded in them, the Exit Gates are blocked for them and any Survivors within [12m]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "End Game",
+        "Exit Gate"
+    ]
+}

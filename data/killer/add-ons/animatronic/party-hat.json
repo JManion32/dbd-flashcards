@@ -1,0 +1,22 @@
+{
+    "name": "Party Hat",
+    "id": "party-hat",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "When an [Axe] is embedded in the environment:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Its area of effect grows to [250%] of its radius over [3s].",
+                "Decreases the duration of its area of effect by [20%]."
+            ]
+        }
+    ],
+    "tags": []
+}

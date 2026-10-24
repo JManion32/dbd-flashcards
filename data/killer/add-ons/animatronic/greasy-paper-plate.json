@@ -1,0 +1,15 @@
+{
+    "name": "Greasy Paper Plate",
+    "id": "greasy-paper-plate",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Animatronic",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time it takes Survivors to remove the [Axe] by [15%]."
+        }
+    ],
+    "tags": []
+}
