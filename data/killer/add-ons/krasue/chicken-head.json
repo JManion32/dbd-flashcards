@@ -1,0 +1,19 @@
+{
+    "name": "Chicken Head",
+    "id": "chicken-head",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "All Survivors start the Trial with [Leeched I]."
+        },
+        {
+            "type": "text",
+            "content": "[2] additional [Glowing Fungi] spawn at the start of the Trial."
+        }
+    ],
+    "tags": []
+}

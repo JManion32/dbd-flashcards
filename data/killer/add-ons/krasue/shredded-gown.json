@@ -1,0 +1,17 @@
+{
+    "name": "Shredded Gown",
+    "id": "shredded-gown",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Corporeal Weave] lets you see the Auras of all Survivors within [8m] of a [Glowing Fungus] or holding one for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

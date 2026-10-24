@@ -1,0 +1,15 @@
+{
+    "name": "Wriggling Parasite",
+    "id": "wriggling-parasite",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the passive growth rate to [Leeched II] by [16%]."
+        }
+    ],
+    "tags": []
+}

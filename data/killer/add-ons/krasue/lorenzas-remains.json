@@ -1,0 +1,22 @@
+{
+    "name": "Lorenza's Remains",
+    "id": "lorenzas-remains",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Leeched I] additionally inflicts [Blindness]."
+        },
+        {
+            "type": "text",
+            "content": "[Leeched II] additionally inflicts [4%] [Hindered]."
+        }
+    ],
+    "tags": [
+        "Blindness",
+        "Hinder"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Luckless Mouse",
+    "id": "luckless-mouse",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the charges of [Headlong Flight] by [2]."
+        }
+    ],
+    "tags": []
+}

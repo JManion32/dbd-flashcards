@@ -1,0 +1,17 @@
+{
+    "name": "Pig's Eye",
+    "id": "pigs-eye",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor eats a [Glowing Fungus] from further than [40m] away, their Aura is revealed to you for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

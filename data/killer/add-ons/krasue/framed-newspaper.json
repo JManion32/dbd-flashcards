@@ -1,0 +1,19 @@
+{
+    "name": "Framed Newspaper",
+    "id": "framed-newspaper",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the charges of [Headlong Flight] by [6] and its recharge rate by [15%]."
+        },
+        {
+            "type": "text",
+            "content": "[Headlong Flight] must be at least half-charged to activate."
+        }
+    ],
+    "tags": []
+}

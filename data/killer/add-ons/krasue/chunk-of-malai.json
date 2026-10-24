@@ -1,0 +1,15 @@
+{
+    "name": "Chunk of Malai",
+    "id": "chunk-of-malai",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cleanse rate of [Glowing Fungus] by [8%] for each [Leeched] Survivor."
+        }
+    ],
+    "tags": []
+}

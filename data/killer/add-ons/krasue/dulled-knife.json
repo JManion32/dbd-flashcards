@@ -1,0 +1,22 @@
+{
+    "name": "Dulled Knife",
+    "id": "dulled-knife",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the charge consumption of [Headlong Flight] by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "[Glowing Fungus] grants Survivors [10%] [Haste] for [5s] while preventing Scratch Marks, Pools of Blood, grunts of pain, and Aura reveals."
+        }
+    ],
+    "tags": [
+        "Haste",
+        "Scratch Marks"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Janjira's Hand",
+    "id": "janjiras-hand",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Generator is completed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gain [2] [Headlong Flight] charges.",
+                "The recharge rate of [Headlong Flight] is increased by [25%] for [15s]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "When all Generators are completed, [Headlong Flight] is fully charged and its recharge rate is permanently increased by [25%]."
+        }
+    ],
+    "tags": [
+        "Generator"
+    ]
+}

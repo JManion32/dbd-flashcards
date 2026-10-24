@@ -1,0 +1,17 @@
+{
+    "name": "Broken Tiara",
+    "id": "broken-tiara",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors under the effect of [Glowing Fungus] suffer [Oblivious]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

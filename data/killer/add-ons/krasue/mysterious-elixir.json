@@ -1,0 +1,23 @@
+{
+    "name": "Mysterious Elixir",
+    "id": "mysterious-elixir",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a Window with a [Leeching Gland] marks it. Vaulting the marked Window blocks it for [10s], then the mark is removed."
+        },
+        {
+            "type": "text",
+            "content": "Only one Window can be marked at a time."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Vaulting",
+        "Window"
+    ]
+}

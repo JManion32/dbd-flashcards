@@ -1,0 +1,17 @@
+{
+    "name": "First Libretto",
+    "id": "first-libretto",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hooking a [Leeched] Survivor decreases the consumption rate of [Headlong Flight] by [30%] for [15s]."
+        }
+    ],
+    "tags": [
+        "Hooking"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Theater Binoculars",
+    "id": "theater-binoculars",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a non-[Leeched] Survivor with [Intestinal Whip] reveals the Auras of other Survivors within [24m] for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

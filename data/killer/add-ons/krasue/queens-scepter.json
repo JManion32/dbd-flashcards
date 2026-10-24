@@ -1,0 +1,15 @@
+{
+    "name": "Queen's Scepter",
+    "id": "queens-scepter",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a Survivor with [Intestinal Whip] causes a [Leeching Gland] to spatter near them."
+        }
+    ],
+    "tags": []
+}

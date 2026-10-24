@@ -1,0 +1,26 @@
+{
+    "name": "Spattered Handkerchief",
+    "id": "spattered-handkerchief",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "When the Exit Gates are powered:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "All Survivors suffer [Leeched I].",
+                "[Glowing Fungi] begin to decay.",
+                "[Corporeal Weave] no longer creates new [Glowing Fungi]."
+            ]
+        }
+    ],
+    "tags": [
+        "End Game",
+        "Exit Gate"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Rotten Swine",
+    "id": "rotten-swine",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Krasue",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a Generator, dropped Pallet, or Breakable Wall with a [Leeching Gland] marks it. You damage or break the marked object [15%] faster, then the mark is removed."
+        },
+        {
+            "type": "text",
+            "content": "Only one object can be marked at a time."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet"
+    ]
+}
