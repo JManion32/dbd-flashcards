@@ -1,0 +1,15 @@
+{
+    "name": "Clump of Hair",
+    "id": "clump-of-hair",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the range at which you are visible while [Demanifested] by [6m]."
+        }
+    ],
+    "tags": []
+}

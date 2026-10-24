@@ -1,0 +1,17 @@
+{
+    "name": "Yoichi's Fishing Net",
+    "id": "yoichis-fishing-net",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors with at least [4] stacks of [Condemned] suffer [Blindness]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

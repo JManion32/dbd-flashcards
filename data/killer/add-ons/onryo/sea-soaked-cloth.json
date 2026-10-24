@@ -1,0 +1,17 @@
+{
+    "name": "Sea-Soaked Cloth",
+    "id": "sea-soaked-cloth",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [8m] of a powered [TV] suffer [Blindness] until [7s] after the [TV] is turned off."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

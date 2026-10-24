@@ -1,0 +1,17 @@
+{
+    "name": "Ring Drawing",
+    "id": "ring-drawing",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you hook a Survivor carrying a [VHS Tape], all other Survivors gain [1] stack of [Condemned]."
+        }
+    ],
+    "tags": [
+        "Hooking"
+    ]
+}

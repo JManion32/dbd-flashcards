@@ -1,0 +1,15 @@
+{
+    "name": "Videotape Copy",
+    "id": "videotape-copy",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the range at which Survivors gain [Condemned] from [Projection] by [2m]."
+        }
+    ],
+    "tags": []
+}

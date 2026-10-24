@@ -1,0 +1,17 @@
+{
+    "name": "Well Water",
+    "id": "well-water",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Undetectable] gained when [Manifesting] by any means by [2s]."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

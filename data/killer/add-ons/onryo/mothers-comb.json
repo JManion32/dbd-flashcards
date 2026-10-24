@@ -1,0 +1,21 @@
+{
+    "name": "Mother's Comb",
+    "id": "mothers-comb",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Turning off a [TV] triggers a Loud Noise Notification."
+        },
+        {
+            "type": "text",
+            "content": "You see the Auras of [TVs] that are turned off by any means."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

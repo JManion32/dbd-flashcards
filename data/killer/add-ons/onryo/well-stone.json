@@ -1,0 +1,15 @@
+{
+    "name": "Well Stone",
+    "id": "well-stone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the time it takes for a [TV] to turn back on after a Survivor turns it off by [7s]."
+        }
+    ],
+    "tags": []
+}

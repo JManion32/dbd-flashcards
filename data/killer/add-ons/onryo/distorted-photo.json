@@ -1,0 +1,19 @@
+{
+    "name": "Distorted Photo",
+    "id": "distorted-photo",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [16m] who witness you [Manifest] scream, and you see their Auras for [4s]."
+        }
+    ],
+    "quote": "\"Why is it only you were saved?\" -Sadako Yamamura",
+    "tags": [
+        "Aura",
+        "Scream"
+    ]
+}

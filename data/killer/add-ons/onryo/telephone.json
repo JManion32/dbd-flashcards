@@ -1,0 +1,18 @@
+{
+    "name": "Telephone",
+    "id": "telephone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Manifesting] causes Survivors within [7m] to gain [3%] [Hindered] for [3s]."
+        }
+    ],
+    "quote": "\"I saw a weird video the other day... after it ended, someone called us. Some kind of prank call.\" -Tomoko Oishi",
+    "tags": [
+        "Hinder"
+    ]
+}

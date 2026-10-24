@@ -1,0 +1,15 @@
+{
+    "name": "Reiko's Watch",
+    "id": "reikos-watch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the invisibility duration while [Demanifested] by [25%]."
+        }
+    ],
+    "tags": []
+}

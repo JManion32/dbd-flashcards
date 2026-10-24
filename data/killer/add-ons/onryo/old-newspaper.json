@@ -1,0 +1,15 @@
+{
+    "name": "Old Newspaper",
+    "id": "old-newspaper",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the invisibility duration after [Manifesting] by [33%]."
+        }
+    ],
+    "tags": []
+}

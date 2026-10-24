@@ -1,0 +1,18 @@
+{
+    "name": "Remote Control",
+    "id": "remote-control",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "After using [Projection], you see the Auras of Survivors within [12m] of a powered [TV] for [7s]."
+        }
+    ],
+    "quote": "\"She killed a man just by willing him dead. That's power of a different order from her mother.\" -Ryuji Takayama",
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Rickety Pinwheel",
+    "id": "rickety-pinwheel",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [8m] of a powered [TV] suffer [Oblivious] until [7s] after the [TV] is turned off."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

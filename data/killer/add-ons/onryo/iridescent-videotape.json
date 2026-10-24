@@ -1,0 +1,20 @@
+{
+    "name": "Iridescent Videotape",
+    "id": "iridescent-videotape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Projection] does not turn off [TVs] and does not apply [Condemned]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the time it takes for a [TV] to turn back on after a Survivor turns it off by [20%]."
+        }
+    ],
+    "quote": "\"That video... It's not of this world. It's Sadako's rage.\" -Ryuji Takayama",
+    "tags": []
+}

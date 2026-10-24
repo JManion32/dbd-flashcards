@@ -1,0 +1,22 @@
+{
+    "name": "Tape Editing Deck",
+    "id": "tape-editing-deck",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Each Survivor starts the Trial with a [VHS Tape], and their target [TV] is the one farthest from their location."
+        },
+        {
+            "type": "text",
+            "content": "You see a Survivor's Aura for [6s] after they insert a [VHS Tape] into their target [TV]."
+        }
+    ],
+    "quote": "\"Frolic in brine, goblins be thine.\" -Message hidden in Sadako's Tape",
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Bloody Fingernails",
+    "id": "bloody-fingernails",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Onryō",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of the movement speed bonus after [Projection] by [50%]."
+        }
+    ],
+    "tags": []
+}
