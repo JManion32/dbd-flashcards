@@ -1,0 +1,15 @@
+{
+    "name": "Force of Echo",
+    "id": "force-of-echo",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the spawn rate of [Scent Orbs] by [10%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Moonstone Necklace",
+    "id": "moonstone-necklace",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases your Terror Radius in [Vampire Form] and [Wolf Form] by [8m]."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Cerberus Talon",
+    "id": "cerberus-talon",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the reveal distance of [Scent Orbs] by [100%]."
+        }
+    ],
+    "tags": []
+}

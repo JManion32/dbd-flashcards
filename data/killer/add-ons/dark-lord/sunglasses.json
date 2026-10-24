@@ -1,0 +1,19 @@
+{
+    "name": "Sunglasses",
+    "id": "sunglasses",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Hellfire] has [1] extra pillar."
+        },
+        {
+            "type": "text",
+            "content": "Increases the charge time of [Hellfire] by [25%]."
+        }
+    ],
+    "tags": []
+}

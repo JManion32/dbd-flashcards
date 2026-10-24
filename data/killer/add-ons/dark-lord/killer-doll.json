@@ -1,0 +1,15 @@
+{
+    "name": "Killer Doll",
+    "id": "killer-doll",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Pounce] cooldown reduction from [Scent Orbs] by [30%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Alucard's Shield",
+    "id": "alucards-shield",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "When an Exit Gate is opened, [Hellfire] pillars continuously spawn inside it."
+        }
+    ],
+    "quote": "\"Oh, but this world invited me. Your own kind called me forth with praise and tribute.\" -Dracula",
+    "tags": [
+        "End Game",
+        "Exit Gate"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Iridescent Ring of Vlad",
+    "id": "iridescent-ring-of-vlad",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Hellfire] pillars home in on nearby Survivors."
+        }
+    ],
+    "quote": "\"Enough talk... have at you!\" -Dracula",
+    "tags": []
+}

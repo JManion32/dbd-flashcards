@@ -1,0 +1,17 @@
+{
+    "name": "Warg's Fang",
+    "id": "wargs-fang",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever [Pounce] becomes available, you see the Auras of all Survivors whose [Scent Orbs] you collected for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

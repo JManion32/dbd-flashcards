@@ -1,0 +1,17 @@
+{
+    "name": "Cube of Zoe",
+    "id": "cube-of-zoe",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Generator is completed, [Hellfire] pillars spawn around you for [10s]."
+        }
+    ],
+    "tags": [
+        "Generator"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Medusa's Hair",
+    "id": "medusas-hair",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [8m] of your [Teleport] destination suffer [8%] [Hindered] for [4s]."
+        }
+    ],
+    "tags": [
+        "Hinder"
+    ]
+}

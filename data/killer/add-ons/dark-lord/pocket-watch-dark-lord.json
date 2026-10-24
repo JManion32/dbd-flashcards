@@ -1,0 +1,17 @@
+{
+    "name": "Pocket Watch",
+    "id": "pocket-watch-dark-lord",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Breaking a Pallet or Breakable Wall instantly recharges [Teleport]."
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

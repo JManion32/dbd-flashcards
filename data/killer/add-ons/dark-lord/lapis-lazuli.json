@@ -1,0 +1,18 @@
+{
+    "name": "Lapis Lazuli",
+    "id": "lapis-lazuli",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "After [Teleporting] to a Window, it is blocked [8s]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Window"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Sylph Feather",
+    "id": "sylph-feather",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Dark Lord",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [1] [Token] each time you break a Pallet, up to [5]."
+        },
+        {
+            "type": "text",
+            "content": "Each [Token] the cooldown of [Hellfire] is decreased by [5%]."
+        }
+    ],
+    "tags": [
+        "Pallet",
+        "Token"
+    ]
+}
