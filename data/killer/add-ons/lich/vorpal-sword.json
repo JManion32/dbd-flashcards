@@ -1,0 +1,24 @@
+{
+    "name": "Vorpal Sword",
+    "id": "vorpal-sword",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Injured Survivors who enter a [Dispelling Sphere] scream and suffer [Broken] for [30s]."
+        },
+        {
+            "type": "text",
+            "content": "Casting [Mage Hand] on a dropped Pallet breaks it after [4s]."
+        }
+    ],
+    "quote": "\"Only one has ever crossed me and lived to regret it.\" -Vecna",
+    "tags": [
+        "Broken",
+        "Pallet",
+        "Scream"
+    ]
+}

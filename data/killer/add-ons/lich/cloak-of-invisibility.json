@@ -1,0 +1,17 @@
+{
+    "name": "Cloak of Invisibility",
+    "id": "cloak-of-invisibility",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [Undetectable] for [20s] each time all of your [Spells] are on cooldown at the same time."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

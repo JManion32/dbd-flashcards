@@ -1,0 +1,17 @@
+{
+    "name": "Pearl of Power",
+    "id": "pearl-of-power",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Landing a Basic Attack decreases the remaining cooldown of your [Spells] by [2s]."
+        }
+    ],
+    "tags": [
+        "Basic Attack"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Trickster's Glove",
+    "id": "tricksters-glove",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time [Mage Hand] holds a Pallet up by [0.3s]."
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Dragontooth Dagger",
+    "id": "dragontooth-dagger",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors it by a Basic Attack while holding a [Magic Item] suffer [Hemorrhage] and [Mangled] for [60s]."
+        }
+    ],
+    "tags": [
+        "Basic Attack",
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

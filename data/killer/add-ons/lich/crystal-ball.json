@@ -1,0 +1,15 @@
+{
+    "name": "Crystal Ball",
+    "id": "crystal-ball",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Killer Instinct] when [Dispelling Sphere] reveals a Survivor by [1s]."
+        }
+    ],
+    "tags": []
+}

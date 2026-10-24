@@ -1,0 +1,17 @@
+{
+    "name": "Staff of Withering",
+    "id": "staff-of-withering",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who enter the radius of [Dispelling Sphere] suffer [Exhausted] for [30s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

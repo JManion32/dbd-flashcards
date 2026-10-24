@@ -1,0 +1,17 @@
+{
+    "name": "Boots of Speed",
+    "id": "boots-of-speed",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Casting [Mage Hand] grants [3%] [Haste] for [2s]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}

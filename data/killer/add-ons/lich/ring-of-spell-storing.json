@@ -1,0 +1,15 @@
+{
+    "name": "Ring of Spell Storing",
+    "id": "ring-of-spell-storing",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown of all [Spells] by [1s]."
+        }
+    ],
+    "tags": []
+}

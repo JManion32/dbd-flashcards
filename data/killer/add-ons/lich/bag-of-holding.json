@@ -1,0 +1,22 @@
+{
+    "name": "Bag of Holding",
+    "id": "bag-of-holding",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "[2] [Treasure Chests] are guaranteed to roll a [1] on their dice roll."
+        },
+        {
+            "type": "text",
+            "content": "Survivors who open a [Treasure Chest] suffer [Oblivious] for [15s]."
+        }
+    ],
+    "tags": [
+        "Chest",
+        "Oblivious"
+    ]
+}

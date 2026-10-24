@@ -1,0 +1,24 @@
+{
+    "name": "Iridescent Book of Vile Darkness",
+    "id": "iridescent-book-of-vile-darkness",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Passing through a vault location with [Fly] blocks it for Survivors for [45s]."
+        },
+        {
+            "type": "text",
+            "content": "[Flight of the Damned] creates [3] fewer entities, and they fly lower to the ground."
+        }
+    ],
+    "quote": "\"What chance do you have against my centuries of preparation?\" -Vecna",
+    "tags": [
+        "Blocked",
+        "Vaulting",
+        "Window"
+    ]
+}

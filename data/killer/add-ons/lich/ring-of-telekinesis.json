@@ -1,0 +1,19 @@
+{
+    "name": "Ring of Telekinesis",
+    "id": "ring-of-telekinesis",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "For [10s] after casting [Mage Hand] on an upright Pallet, you vault Windows [10%] faster."
+        }
+    ],
+    "tags": [
+        "Pallet",
+        "Vaulting",
+        "Window"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Potion of Speed",
+    "id": "potion-of-speed",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the time you cannot attack after casting [Fly] by [0.1s]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Tattered Headband",
+    "id": "tattered-headband",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Lich",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the travel distance of [Flight of the Damned] entities by [4m]."
+        }
+    ],
+    "tags": []
+}
