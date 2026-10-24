@@ -1,0 +1,17 @@
+{
+    "name": "Heavy Water",
+    "id": "heavy-water",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the Aura reveal range of [Supply Cases] by [8m]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

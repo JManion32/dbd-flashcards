@@ -1,0 +1,15 @@
+{
+    "name": "Kid's Ball Glove",
+    "id": "kids-ball-glove",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Overclock Mode] by [8%]."
+        }
+    ],
+    "tags": []
+}

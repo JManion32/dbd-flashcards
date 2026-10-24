@@ -1,0 +1,15 @@
+{
+    "name": "Diagnostic Tool (Repair)",
+    "id": "diagnostic-tool-repair",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the targeting range while in a [Biopod] by [4m]."
+        }
+    ],
+    "tags": []
+}

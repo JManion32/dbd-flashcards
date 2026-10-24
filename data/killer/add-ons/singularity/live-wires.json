@@ -1,0 +1,17 @@
+{
+    "name": "Live Wires",
+    "id": "live-wires",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors cleansed of [Slipstream] scream and are interrupted."
+        }
+    ],
+    "tags": [
+        "Scream"
+    ]
+}

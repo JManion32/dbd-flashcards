@@ -1,0 +1,17 @@
+{
+    "name": "Ultrasonic Sensor",
+    "id": "ultrasonic-sensor",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Exiting a [Biopod] within [2s] of [Slipstreaming] a Survivor decreases your Terror Radius by [12m] for [12s]."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

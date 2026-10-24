@@ -1,0 +1,17 @@
+{
+    "name": "Hyperawareness Spray",
+    "id": "hyperawareness-spray",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Slipstreamed] Survivors hear your Terror Radius as if you were nearby."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

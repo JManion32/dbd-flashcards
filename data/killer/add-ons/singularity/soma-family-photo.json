@@ -1,0 +1,18 @@
+{
+    "name": "Soma Family Photo",
+    "id": "soma-family-photo",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Slipstreaming] a Survivor using a [Biopod] causes them to gain [3%] [Hindered] for [6s]."
+        }
+    ],
+    "quote": "\"YOUR ATTACHMENT TO ILLUSIONS IS WEAKNESS.\" -Hux",
+    "tags": [
+        "Hinder"
+    ]
+}

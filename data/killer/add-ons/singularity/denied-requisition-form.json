@@ -1,0 +1,19 @@
+{
+    "name": "Denied Requisition Form",
+    "id": "denied-requisition-form",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "At the start of the Trial, [EMPs] take [30s] longer to generate."
+        },
+        {
+            "type": "text",
+            "content": "All Survivors start the Trial [Slipstreamed]."
+        }
+    ],
+    "tags": []
+}

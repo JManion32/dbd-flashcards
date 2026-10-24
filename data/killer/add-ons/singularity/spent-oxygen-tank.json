@@ -1,0 +1,17 @@
+{
+    "name": "Spent Oxygen Tank",
+    "id": "spent-oxygen-tank",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors suffer [Exhausted] for [6s] when they become [Slipstreamed]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

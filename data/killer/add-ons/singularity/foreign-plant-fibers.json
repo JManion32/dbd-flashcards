@@ -1,0 +1,19 @@
+{
+    "name": "Foreign Plant Fibers",
+    "id": "foreign-plant-fibers",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the duration of [Hindered] after being stunned by a Pallet during [Overclock Mode] by [20%]."
+        }
+    ],
+    "tags": [
+        "Hinder",
+        "Pallet",
+        "Stun"
+    ]
+}

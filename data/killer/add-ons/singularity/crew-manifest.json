@@ -1,0 +1,21 @@
+{
+    "name": "Crew Manifest",
+    "id": "crew-manifest",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see a [Slipstreamed] Survivor's Aura for [8s] when they infect another Survivor."
+        },
+        {
+            "type": "text",
+            "content": "Increases the range at which [Slipstream] spreads between Survivors by [2m]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

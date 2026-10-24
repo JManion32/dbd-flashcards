@@ -1,0 +1,17 @@
+{
+    "name": "Hologram Generator",
+    "id": "hologram-generator",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "After you teleport to a [Slipstreamed] Survivor from a [Biopod], they suffer [Oblivious] for [60s]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

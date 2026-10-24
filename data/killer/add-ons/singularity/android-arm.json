@@ -1,0 +1,19 @@
+{
+    "name": "Android Arm",
+    "id": "android-arm",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the range at which [Slipstream] spreads between Survivors by [2m]."
+        },
+        {
+            "type": "text",
+            "content": "[Slipstream] spreads between Survivors [25%] faster."
+        }
+    ],
+    "tags": []
+}

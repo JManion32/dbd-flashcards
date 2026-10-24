@@ -1,0 +1,15 @@
+{
+    "name": "Nutritional Slurry",
+    "id": "nutritional-slurry",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Singularity",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [2] additional [Biopods]."
+        }
+    ],
+    "tags": []
+}
