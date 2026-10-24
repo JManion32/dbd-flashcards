@@ -1,0 +1,17 @@
+{
+    "name": "Velvet Fabric",
+    "id": "velvet-fabric",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Aura of a [Swarm] for an additional [1.5s] after a Survivor starts repelling it."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

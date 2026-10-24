@@ -1,0 +1,18 @@
+{
+    "name": "Matias' Baby Shoes",
+    "id": "matias-baby-shoes",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of Survivors within [5m] of an idle [Dire Crow] for [3s]."
+        }
+    ],
+    "quote": "\"See you soon, Matias.\" -Carmina Mora",
+    "tags": [
+        "Aura"
+    ]
+}

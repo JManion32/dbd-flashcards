@@ -1,0 +1,21 @@
+{
+    "name": "Charcoal Stick",
+    "id": "charcoal-stick",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "The Aura of [Dire Crows] is no longer visible while in flight."
+        },
+        {
+            "type": "text",
+            "content": "The Aura of [Dire Crows] is visible for [0.5s] when summoned."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

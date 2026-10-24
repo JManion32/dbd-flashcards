@@ -1,0 +1,22 @@
+{
+    "name": "Iridescent Feather",
+    "id": "iridescent-feather",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "You gain [Undetectable] while [Birds of Torment] is on cooldown and you hold no [Dire Crows]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the maximum capacity of [Dire Crows] by [1]."
+        }
+    ],
+    "quote": "\"They saved me when I couldn't save myself.\" -Carmina Mora",
+    "tags": [
+        "Undetectable"
+    ]
+}

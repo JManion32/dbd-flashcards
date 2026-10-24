@@ -1,0 +1,20 @@
+{
+    "name": "Ink Egg",
+    "id": "ink-egg",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the maximum capacity of [Dire Crows] by [1]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the time [Dire Crows] stay idle before disintegrating by [2s]."
+        }
+    ],
+    "quote": "\"Perhaps, covered in darkness as I was, they saw me as one of their own.\" -Carmina Mora",
+    "tags": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "O Grief, O Lover",
+    "id": "o-grief-o-lover",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors swarmed by [Dire Crows] suffer [Exhausted]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

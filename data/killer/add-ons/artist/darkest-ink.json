@@ -1,0 +1,17 @@
+{
+    "name": "Darkest Ink",
+    "id": "darkest-ink",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors swarmed by [Dire Crows] suffer [Blindness] until [15s] after they repel the [Swarm]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

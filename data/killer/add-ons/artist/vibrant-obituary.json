@@ -1,0 +1,15 @@
+{
+    "name": "Vibrant Obituary",
+    "id": "vibrant-obituary",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Killer Instinct] from [Dire Crows] by [3s]."
+        }
+    ],
+    "tags": []
+}

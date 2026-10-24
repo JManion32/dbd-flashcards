@@ -1,0 +1,16 @@
+{
+    "name": "Severed Hands",
+    "id": "severed-hands",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [3m] of a Survivor being swarmed by [Dire Crows] are also swarmed."
+        }
+    ],
+    "quote": "\"How are you going to paint now?\" -Hooded Man",
+    "tags": []
+}

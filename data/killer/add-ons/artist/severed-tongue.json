@@ -1,0 +1,16 @@
+{
+    "name": "Severed Tongue",
+    "id": "severed-tongue",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the duration of your slowdown when [Dire Crows] take flight by [0.5s]."
+        }
+    ],
+    "quote": "\"How are you going to tell poems now?\" -Hooded Man",
+    "tags": []
+}

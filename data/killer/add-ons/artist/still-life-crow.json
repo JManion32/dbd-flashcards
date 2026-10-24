@@ -1,0 +1,15 @@
+{
+    "name": "Still Life Crow",
+    "id": "still-life-crow",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time [Dire Crows] stay idle before disintegrating by [4s]."
+        }
+    ],
+    "tags": []
+}

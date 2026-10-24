@@ -1,0 +1,17 @@
+{
+    "name": "Untitled Agony",
+    "id": "untitled-agony",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors swarmed by [Dire Crows] gain [15%] [Hindered] for [1.5s]."
+        }
+    ],
+    "tags": [
+        "Hinder"
+    ]
+}

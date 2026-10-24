@@ -1,0 +1,17 @@
+{
+    "name": "Silver Bell",
+    "id": "silver-bell",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Artist",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors swarmed by [Dire Crows] suffer [Oblivious]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}
