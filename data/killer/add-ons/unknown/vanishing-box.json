@@ -1,0 +1,21 @@
+{
+    "name": "Vanishing Box",
+    "id": "vanishing-box",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who complete a Generator become [Weakened]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the [Hallucination] spawn time by [120%]."
+        }
+    ],
+    "tags": [
+        "Generator"
+    ]
+}

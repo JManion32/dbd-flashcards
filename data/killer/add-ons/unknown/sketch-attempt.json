@@ -1,0 +1,17 @@
+{
+    "name": "Sketch Attempt",
+    "id": "sketch-attempt",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit by the [Blast Area] of [UVX] suffer [Oblivious] for [20s]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

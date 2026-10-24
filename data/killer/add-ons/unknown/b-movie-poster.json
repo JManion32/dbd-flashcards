@@ -1,0 +1,17 @@
+{
+    "name": "B-Movie Poster",
+    "id": "b-movie-poster",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors damaged by the [Blast Area] of [UVX] suffer [Broken] for [30s]."
+        }
+    ],
+    "tags": [
+        "Broken"
+    ]
+}

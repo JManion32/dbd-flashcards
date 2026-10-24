@@ -1,0 +1,17 @@
+{
+    "name": "Homemade Mask",
+    "id": "homemade-mask",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who [Dispel] a [Hallucination] suffer [Blindness] for [60s]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

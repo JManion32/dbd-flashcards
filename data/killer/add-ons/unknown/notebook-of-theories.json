@@ -1,0 +1,17 @@
+{
+    "name": "Notebook of Theories",
+    "id": "notebook-of-theories",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit by airborne [UVX] suffer [Hindered] for an additional [2s]."
+        }
+    ],
+    "tags": [
+        "Hinder"
+    ]
+}

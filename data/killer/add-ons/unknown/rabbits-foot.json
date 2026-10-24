@@ -1,0 +1,21 @@
+{
+    "name": "Rabbit's Foot",
+    "id": "rabbits-foot",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Pools of Blood are brighter while charging [UVX]."
+        },
+        {
+            "type": "text",
+            "content": "Survivors injured by [UVX] suffer [Hemorrhage] for [45s]."
+        }
+    ],
+    "tags": [
+        "Hemorrhage"
+    ]
+}

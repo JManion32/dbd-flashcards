@@ -1,0 +1,17 @@
+{
+    "name": "Front-Page Article",
+    "id": "front-page-article",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Breaking a Pallet or Breakable Wall decreases the time until the next [Hallucination] spawns by [50%]."
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

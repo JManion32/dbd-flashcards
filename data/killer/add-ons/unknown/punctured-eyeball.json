@@ -1,0 +1,17 @@
+{
+    "name": "Punctured Eyeball",
+    "id": "punctured-eyeball",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Weakened] and injured Survivors suffer [Deep Wound] when they [Dispel] a [Hallucination]."
+        }
+    ],
+    "tags": [
+        "Injured State"
+    ]
+}

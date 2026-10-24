@@ -1,0 +1,15 @@
+{
+    "name": "Discarded Milk Carton",
+    "id": "discarded-milk-carton",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Doubles the bounce strength of the [UVX] projectile."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Obscure Game Cartridge",
+    "id": "obscure-game-cartridge",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "For [20s] after [Teleporting], you break dropped Pallets and Breakable Walls, damage Generators, and vault Windows [30%] faster."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet",
+        "Vaulting",
+        "Window"
+    ]
+}

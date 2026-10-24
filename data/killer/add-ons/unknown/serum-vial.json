@@ -1,0 +1,17 @@
+{
+    "name": "Serum Vial",
+    "id": "serum-vial",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who enter the Aura range of a [Hallucination] suffer [Exhausted] for [15s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

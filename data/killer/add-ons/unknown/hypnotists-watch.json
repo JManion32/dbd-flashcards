@@ -1,0 +1,17 @@
+{
+    "name": "Hypnotist's Watch",
+    "id": "hypnotists-watch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors hit by airborne [UVX] suffer [Exhausted] for [15s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Captured by the Dark",
+    "id": "captured-by-the-dark",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors start the Trial [Weakened]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the maximum number of [Hallucinations] by [1]."
+        }
+    ],
+    "tags": []
+}

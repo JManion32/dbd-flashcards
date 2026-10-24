@@ -1,0 +1,25 @@
+{
+    "name": "Iridescent OSS Report",
+    "id": "iridescent-oss-report",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown of [Teleport] by [5s]."
+        },
+        {
+            "type": "text",
+            "content": "[Decoys] last [10s] longer."
+        },
+        {
+            "type": "text",
+            "content": "[Decoys] have your Terror Radius and Red Stain."
+        }
+    ],
+    "tags": [
+        "Terror Radius"
+    ]
+}

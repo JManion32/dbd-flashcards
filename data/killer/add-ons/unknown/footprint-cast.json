@@ -1,0 +1,15 @@
+{
+    "name": "Footprint Cast",
+    "id": "footprint-cast",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Unknown",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor becomes [Weakened], the time until the next [Hallucination] spawns is decreased by [15s]."
+        }
+    ],
+    "tags": []
+}
