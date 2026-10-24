@@ -1,0 +1,17 @@
+{
+    "name": "Wooden Plank",
+    "id": "wooden-plank",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Nightfall] charge gained when a Survivor is hooked by [25%]."
+        }
+    ],
+    "tags": [
+        "Hooking"
+    ]
+}

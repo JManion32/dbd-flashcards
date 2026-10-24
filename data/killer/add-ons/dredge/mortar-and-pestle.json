@@ -1,0 +1,15 @@
+{
+    "name": "Mortar and Pestle",
+    "id": "mortar-and-pestle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "You emerge from the [Remnant] facing the direction you were facing when [Teleport] was activated, instead of the direction you were facing when the [Remnant] was placed."
+        }
+    ],
+    "tags": []
+}

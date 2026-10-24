@@ -1,0 +1,20 @@
+{
+    "name": "Tilling Blade",
+    "id": "tilling-blade",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors injured from full health during [Nightfall] suffer [Blindness], [Hemorrhage], and [Mangled] for [80s]."
+        }
+    ],
+    "quote": "\"Like a predatory beast, it can smell and track blood.\"",
+    "tags": [
+        "Blindness",
+        "Hemorrhage",
+        "Mangled"
+    ]
+}

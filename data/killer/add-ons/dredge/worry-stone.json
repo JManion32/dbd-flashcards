@@ -1,0 +1,18 @@
+{
+    "name": "Worry Stone",
+    "id": "worry-stone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see a Survivor's Aura for [6s] after they lock a Locker."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Locker"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Air Freshener",
+    "id": "air-freshener",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Adds [1] additional [Power Token] for [Teleporting]."
+        }
+    ],
+    "tags": [
+        "Token"
+    ]
+}

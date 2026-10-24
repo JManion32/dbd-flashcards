@@ -1,0 +1,17 @@
+{
+    "name": "Haddie's Calendar",
+    "id": "haddies-calendar",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the time it takes to exit a locked Locker by [0.4s]."
+        }
+    ],
+    "tags": [
+        "Locker"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Destroyed Pillow",
+    "id": "destroyed-pillow",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown of [Teleport] by [2.5s] during [Nightfall]."
+        }
+    ],
+    "tags": []
+}

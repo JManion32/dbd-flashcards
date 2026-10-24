@@ -1,0 +1,26 @@
+{
+    "name": "Field Recorder",
+    "id": "field-recorder",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Nightfall] is active at the start of the Trial."
+        },
+        {
+            "type": "text",
+            "content": "[Nightfall] is automatically triggered when the last Generator is repaired."
+        },
+        {
+            "type": "text",
+            "content": "Survivors who come into contact with a [Remnant] suffer [Exhausted] for [15s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion",
+        "Generator"
+    ]
+}

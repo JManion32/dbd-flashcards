@@ -1,0 +1,23 @@
+{
+    "name": "Lavalier Microphone",
+    "id": "lavalier-microphone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of all Survivors for [3s] when using the last [Teleport] token."
+        },
+        {
+            "type": "text",
+            "content": "When you enter a Locker using [Teleport], other Lockers within [6m] of Survivors open and slam their doors."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Locker",
+        "Token"
+    ]
+}

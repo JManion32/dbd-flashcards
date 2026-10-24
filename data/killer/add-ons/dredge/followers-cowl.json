@@ -1,0 +1,15 @@
+{
+    "name": "Follower's Cowl",
+    "id": "followers-cowl",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Teleporting] to the [Remnant] activates [Killer Instinct] even when not in [Nightfall]."
+        }
+    ],
+    "tags": []
+}

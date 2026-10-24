@@ -1,0 +1,20 @@
+{
+    "name": "Sacrificial Knife",
+    "id": "sacrificial-knife",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Exiting a Locker during [Nightfall] blocks all vault locations within [16m] for [5s]."
+        }
+    ],
+    "quote": "\"There are imposters amongst you! They intend to destroy our perfect home with dark thoughts. Find them and bring them to me!\" -Otto Stamper",
+    "tags": [
+        "Blocked",
+        "Locker",
+        "Vaulting"
+    ]
+}

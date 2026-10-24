@@ -1,0 +1,23 @@
+{
+    "name": "Boat Key",
+    "id": "boat-key",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases [Teleport] speed by [16%] while not in [Nightfall]."
+        },
+        {
+            "type": "text",
+            "content": "When the Exit Gates are powered, all active locks are instantly broken."
+        }
+    ],
+    "tags": [
+        "End Game",
+        "Exit Gate",
+        "Locker"
+    ]
+}

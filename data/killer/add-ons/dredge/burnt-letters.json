@@ -1,0 +1,15 @@
+{
+    "name": "Burnt Letters",
+    "id": "burnt-letters",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Dredge",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Nightfall] charges gained when injuring a Survivor by [25%]."
+        }
+    ],
+    "tags": []
+}
