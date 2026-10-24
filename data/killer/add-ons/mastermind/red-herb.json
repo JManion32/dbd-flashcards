@@ -1,0 +1,17 @@
+{
+    "name": "Red Herb",
+    "id": "red-herb",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time it takes Survivors to use a [First Aid Spray] by [2s]."
+        }
+    ],
+    "tags": [
+        "Healing"
+    ]
+}

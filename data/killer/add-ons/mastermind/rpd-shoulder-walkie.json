@@ -1,0 +1,19 @@
+{
+    "name": "R.P.D. Shoulder Walkie",
+    "id": "rpd-shoulder-walkie",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the initial [Virulent Bound] distance by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the subsequent [Virulent Bound] distance by [20%]."
+        }
+    ],
+    "tags": []
+}

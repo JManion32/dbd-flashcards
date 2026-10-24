@@ -1,0 +1,15 @@
+{
+    "name": "Green Herb",
+    "id": "green-herb",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Infection] applied when grabbing a Survivor during a [Virulent Bound] by [30%]."
+        }
+    ],
+    "tags": []
+}

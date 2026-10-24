@@ -1,0 +1,15 @@
+{
+    "name": "Video Conference Device",
+    "id": "video-conference-device",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the passive [Infection] gain rate by [30%]."
+        }
+    ],
+    "tags": []
+}

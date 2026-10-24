@@ -1,0 +1,17 @@
+{
+    "name": "Maiden Medallion",
+    "id": "maiden-medallion",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who become fully [Infected] suffer [Blindness] for [60s]."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

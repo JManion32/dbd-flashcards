@@ -1,0 +1,17 @@
+{
+    "name": "Dark Sunglasses",
+    "id": "dark-sunglasses",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor becomes fully [Infected], you gain [Undetectable] for [20s]."
+        }
+    ],
+    "tags": [
+        "Undetectable"
+    ]
+}

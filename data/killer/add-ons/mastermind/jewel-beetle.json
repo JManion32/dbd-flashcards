@@ -1,0 +1,19 @@
+{
+    "name": "Jewel Beetle",
+    "id": "jewel-beetle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the [Virulent Bound] extension when grabbing a Survivor mid-Bound by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Gain [100%] bonus Bloodpoints for [Virulent Bound] score events."
+        }
+    ],
+    "tags": []
+}

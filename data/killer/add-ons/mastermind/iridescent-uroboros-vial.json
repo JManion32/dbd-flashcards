@@ -1,0 +1,22 @@
+{
+    "name": "Iridescent Uroboros Vial",
+    "id": "iridescent-uroboros-vial",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors start the Trial [Infected]."
+        },
+        {
+            "type": "text",
+            "content": "Survivors suffer [Exposed] for [30s] when they become fully [Infected]."
+        }
+    ],
+    "quote": "\"The entire world will be infected. A new Genesis is at hand and I will be the creator!\" -Albert Wesker",
+    "tags": [
+        "Exposed"
+    ]
+}

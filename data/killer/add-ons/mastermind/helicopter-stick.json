@@ -1,0 +1,17 @@
+{
+    "name": "Helicopter Stick",
+    "id": "helicopter-stick",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see a Survivor's Aura for [8s] after they use a [First Aid Spray]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

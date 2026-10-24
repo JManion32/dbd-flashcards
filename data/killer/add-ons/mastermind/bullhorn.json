@@ -1,0 +1,17 @@
+{
+    "name": "Bullhorn",
+    "id": "bullhorn",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who use [First Aid Spray] suffer [Oblivious] for [30s]."
+        }
+    ],
+    "tags": [
+        "Oblivious"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Portable Safe",
+    "id": "portable-safe",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors injured by [Virulent Bound] suffer [Hemorrhage] until fully healed."
+        }
+    ],
+    "tags": [
+        "Hemorrhage"
+    ]
+}

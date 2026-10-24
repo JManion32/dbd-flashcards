@@ -1,0 +1,15 @@
+{
+    "name": "Egg (Gold)",
+    "id": "egg-gold",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of the additional [Virulent Bound] window by [20%]."
+        }
+    ],
+    "tags": []
+}

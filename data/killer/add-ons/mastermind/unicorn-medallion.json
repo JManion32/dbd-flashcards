@@ -1,0 +1,19 @@
+{
+    "name": "Unicorn Medallion",
+    "id": "unicorn-medallion",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the initial [Virulent Bound] distance by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the subsequent [Virulent Bound] distance by [20%]."
+        }
+    ],
+    "tags": []
+}

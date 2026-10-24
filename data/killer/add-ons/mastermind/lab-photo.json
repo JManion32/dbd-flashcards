@@ -1,0 +1,22 @@
+{
+    "name": "Lab Photo",
+    "id": "lab-photo",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Virulent Bound] can break Pallets and Breakable Walls."
+        },
+        {
+            "type": "text",
+            "content": "You can no longer vault Pallets using [Virulent Bound]."
+        }
+    ],
+    "quote": "\"Only a handful of humans truly matter. Everyone else is just so much chaff. So now I have to separate this chaff from the wheat.\" -Albert Wesker",
+    "tags": [
+        "Pallet"
+    ]
+}

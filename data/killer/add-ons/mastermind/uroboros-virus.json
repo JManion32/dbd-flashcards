@@ -1,0 +1,18 @@
+{
+    "name": "Uroboros Virus",
+    "id": "uroboros-virus",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Mastermind",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see a Survivor's Aura for [4s] when they become fully [Infected]."
+        }
+    ],
+    "quote": "\"The balance of the world is changing… and you're completely oblivious to it.\" -Ricardo Irving",
+    "tags": [
+        "Aura"
+    ]
+}
