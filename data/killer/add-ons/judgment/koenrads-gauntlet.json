@@ -1,0 +1,19 @@
+{
+    "name": "Koenrad's Gauntlet",
+    "id": "koenrads-gauntlet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the maximum time you can control [Divine Light] before it is [Cast] by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the maximum speed of controlled [Divine Light] by [10%]."
+        }
+    ],
+    "tags": []
+}

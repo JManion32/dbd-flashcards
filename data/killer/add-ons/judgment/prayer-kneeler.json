@@ -1,0 +1,15 @@
+{
+    "name": "Prayer Kneeler",
+    "id": "prayer-kneeler",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "While controlling [Divine Light] that is slowed by a tall obstruction, its maximum speed is further decreased by [99%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Holy Winged Icon",
+    "id": "holy-winged-icon",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "While controlling [Divine Light], use <Activate Ability> to [Cast] it back towards yourself."
+        },
+        {
+            "type": "text",
+            "content": "When [Cast] this way:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Its minimum delay before becoming lethal is set to [0.4s].",
+                "Its maximum speed is increaed by [10%].",
+                "It only damages [Heretics]."
+            ]
+        }
+    ],
+    "tags": []
+}

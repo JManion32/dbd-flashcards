@@ -1,0 +1,17 @@
+{
+    "name": "Searcher's Skull",
+    "id": "searchers-skull",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor blinds you, they gain [Heresy]. If they were already a [Heretic], they are blinded for [2.5s]."
+        }
+    ],
+    "tags": [
+        "Blind"
+    ]
+}

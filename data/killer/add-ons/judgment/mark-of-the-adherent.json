@@ -1,0 +1,15 @@
+{
+    "name": "Mark of the Adherent",
+    "id": "mark-of-the-adherent",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "While not [Zealous], the radius of [Divine Light] is increased by [10%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Aurora's Telereceptor",
+    "id": "auroras-telereceptor",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor gains [Heresy], for [4s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You see their Aura.",
+                "They see your Aura."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Whenever a [Heretic] sees your Aura for a duration, they see it for [2s] longer."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Obsidian Feather",
+    "id": "obsidian-feather",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "You can no longer manually [Cast] or cancel controlled [Divine Light]; it is automatically [Cast] when it would otherwise time out."
+        },
+        {
+            "type": "text",
+            "content": "You move [100%] faster while controlling [Divine Light], but the maximum time you can control it is decreased by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "You recover [10%] slower and move [30%] slower while casting [Divine Light]."
+        },
+        {
+            "type": "text",
+            "content": "Negates the effects of [Holy Winged Icon]."
+        }
+    ],
+    "tags": []
+}

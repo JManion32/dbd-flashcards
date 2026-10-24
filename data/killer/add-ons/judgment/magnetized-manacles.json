@@ -1,0 +1,21 @@
+{
+    "name": "Magnetized Manacles",
+    "id": "magnetized-manacles",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain a [Token] whenever you [Exile] a Survivor with the fewest Hook States, up to [5]."
+        },
+        {
+            "type": "text",
+            "content": "Each [Token] increases the duration of [Zealous] by [10%]."
+        }
+    ],
+    "tags": [
+        "Token"
+    ]
+}

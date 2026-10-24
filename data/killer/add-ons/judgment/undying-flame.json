@@ -1,0 +1,25 @@
+{
+    "name": "Undying Flame",
+    "id": "undying-flame",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Zealous]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The maximum lifetime of [Cast] [Divine Light] is increased by [200%].",
+                "The radius of [Divine Light] is decreased by [20%].",
+                "The range at which Survivors can see the Aura of [Divine Light] is increased by [200%]."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

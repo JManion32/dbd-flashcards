@@ -1,0 +1,20 @@
+{
+    "name": "Eyes of Gerhardt",
+    "id": "eyes-of-gerhardt",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a [Heretic] completes a Generator, opens an Exit Gate, or exits a Locker, the Auras of all [Heretics] are revealed for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Exit Gate",
+        "Generator",
+        "Locker"
+    ]
+}

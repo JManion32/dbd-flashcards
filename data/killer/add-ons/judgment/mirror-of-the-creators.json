@@ -1,0 +1,19 @@
+{
+    "name": "Mirror of the Creators",
+    "id": "mirror-of-the-creators",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "A [Cast] [Divine Light] reflects off the first [2] tall obstructions it would otherwise pass through."
+        },
+        {
+            "type": "text",
+            "content": "When reflecting, it pauses for [0.4s] before being [Cast] again."
+        }
+    ],
+    "tags": []
+}

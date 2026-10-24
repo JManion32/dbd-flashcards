@@ -1,0 +1,24 @@
+{
+    "name": "Chains of the Heretic",
+    "id": "chains-of-the-heretic",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "While [Zealous]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The minimum delay before [Divine Light] becomes lethal is set to [0.35s].",
+                "The maximum speed of [Controlled] [Divine Light] is increaed by [100%].",
+                "The maximum speed of [Cast] [Divine Light] is increased by [50%].",
+                "[Cast] [Divine Light] is always directed towards you."
+            ]
+        }
+    ],
+    "tags": []
+}

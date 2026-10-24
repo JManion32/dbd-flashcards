@@ -1,0 +1,15 @@
+{
+    "name": "Order of Inquisition",
+    "id": "order-of-inquisition",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "When [Divine Light] is [Cast], its radius starts [25%] smaller, then grows to [50%] larger over [1s]."
+        }
+    ],
+    "tags": []
+}

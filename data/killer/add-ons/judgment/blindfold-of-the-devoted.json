@@ -1,0 +1,17 @@
+{
+    "name": "Blindfold of the Devoted",
+    "id": "blindfold-of-the-devoted",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you [Exile] a Survivor with the fewest Hook States, you see the Auras of all other Survivors with the fewest Hook States farther than [32m] for [5s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

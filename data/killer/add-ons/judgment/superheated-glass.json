@@ -1,0 +1,26 @@
+{
+    "name": "Superheated Glass",
+    "id": "superheated-glass",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the duration of [Zealous] by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "While [Zealous], [Cast] [Divine Light] breaks all Breakable Walls and dropped Pallets it passes through."
+        },
+        {
+            "type": "text",
+            "content": "Survivors within [12m] of an object broken this way gain [Heresy] and scream."
+        }
+    ],
+    "tags": [
+        "Pallet",
+        "Scream"
+    ]
+}

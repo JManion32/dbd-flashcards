@@ -1,0 +1,19 @@
+{
+    "name": "Electric Torch",
+    "id": "electric-torch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the maximum speed of [Controlled] [Divine Light] by [25%]."
+        },
+        {
+            "type": "text",
+            "content": "You move [10%] faster while controlling [Divine Light]."
+        }
+    ],
+    "tags": []
+}

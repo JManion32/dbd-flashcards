@@ -1,0 +1,17 @@
+{
+    "name": "Confessor's War Horn",
+    "id": "confessors-war-horn",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors who gain [Heresy] also suffer [Exhausted] for [10s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

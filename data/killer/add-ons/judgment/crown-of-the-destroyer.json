@@ -1,0 +1,26 @@
+{
+    "name": "Crown of the Destroyer",
+    "id": "crown-of-the-destroyer",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever a Survivor [Liberates] another Survivor from [Exile], for [20s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your Terror Radius is decreased by [70%].",
+                "Your Terror Radius is copied to every [Shrine of Judgment].",
+                "You gain [Undetectable]."
+            ]
+        }
+    ],
+    "tags": [
+        "Terror Radius",
+        "Undetectable"
+    ]
+}

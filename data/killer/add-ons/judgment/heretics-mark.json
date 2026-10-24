@@ -1,0 +1,16 @@
+{
+    "name": "Heretic's Mark",
+    "id": "heretics-mark",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "When [Cast] [Divine Light] passes within [1m] of a Survivor without hitting them, they are revealed by [Killer Instinct] for [2s]."
+        }
+    ],
+    "quote": "\"Those who stray from the path shall never escape ostracization once they receive the mark.\" -III On Heresy, ch. 3",
+    "tags": []
+}

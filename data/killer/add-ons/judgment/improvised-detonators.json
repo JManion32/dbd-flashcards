@@ -1,0 +1,23 @@
+{
+    "name": "Improvised Detonators",
+    "id": "improvised-detonators",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Judgment",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you [Exile] a Survivor with the fewest Hook States while no Survivors are dead, gain a [Token]."
+        },
+        {
+            "type": "text",
+            "content": "If you then have [4] or more [Tokens], the Generator with the most progress explodes and instantly regresses by [20%] of its total progress."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Regression",
+        "Token"
+    ]
+}
