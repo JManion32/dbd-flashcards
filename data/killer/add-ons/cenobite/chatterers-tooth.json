@@ -1,0 +1,29 @@
+{
+    "name": "Chatterer's Tooth",
+    "id": "chatterers-tooth",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Aura of the [Lament Configuration]."
+        },
+        {
+            "type": "text",
+            "content": "Picking up the [Lament Configuration]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Deactivates [Chain Hunts].",
+                "Grants [Undetectable] for [25s]."
+            ]
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Undetectable"
+    ]
+}

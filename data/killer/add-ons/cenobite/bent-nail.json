@@ -1,0 +1,19 @@
+{
+    "name": "Bent Nail",
+    "id": "bent-nail",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [100%] bonus Bloodpoints when binding a Survivor with a [Possessed Chain]."
+        },
+        {
+            "type": "text",
+            "content": "Hitting a Survivor with a [Possessed Chain] only spawns [1] additional [Chain]."
+        }
+    ],
+    "tags": []
+}

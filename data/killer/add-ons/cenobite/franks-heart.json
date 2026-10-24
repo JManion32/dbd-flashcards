@@ -1,0 +1,16 @@
+{
+    "name": "Frank's Heart",
+    "id": "franks-heart",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the maximum casting range of the [Gateway] by [8] meters."
+        }
+    ],
+    "quote": "\"Nobody escapes us.\" -Pinhead",
+    "tags": []
+}

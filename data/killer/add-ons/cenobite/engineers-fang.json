@@ -1,0 +1,26 @@
+{
+    "name": "Engineer's Fang",
+    "id": "engineers-fang",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Possessed Chains] injure healthy Survivors, but do not bind them or spawn additional [Chains]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the time to close the [Gateway] after hitting a healthy Survivor with a [Possessed Chain] by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Hitting an injured Survivor with a [Possessed Chain] only spawns [1] additional [Chain]."
+        }
+    ],
+    "quote": "\"We have such sights to show you.\" -Pinhead",
+    "tags": [
+        "Injured State"
+    ]
+}

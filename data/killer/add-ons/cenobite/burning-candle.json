@@ -1,0 +1,15 @@
+{
+    "name": "Burning Candle",
+    "id": "burning-candle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the time for [Chain Hunts] to activate by [3s]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Greasy Black Lens",
+    "id": "greasy-black-lens",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "You see the Auras of Survivors hit by a [Possessed Chain] for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

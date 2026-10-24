@@ -1,0 +1,15 @@
+{
+    "name": "Liquified Gore",
+    "id": "liquified-gore",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time it takes Survivors to solve the [Lament Configuration] by [1s]."
+        }
+    ],
+    "tags": []
+}

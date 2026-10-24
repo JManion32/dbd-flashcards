@@ -1,0 +1,15 @@
+{
+    "name": "Larry's Blood",
+    "id": "larrys-blood",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the maximum travel distance of [Possessed Chains] by [4] meters."
+        }
+    ],
+    "tags": []
+}

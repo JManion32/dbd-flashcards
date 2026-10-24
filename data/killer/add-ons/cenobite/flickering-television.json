@@ -1,0 +1,15 @@
+{
+    "name": "Flickering Television",
+    "id": "flickering-television",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the maximum casting range of the [Gateway] by [4] meters."
+        }
+    ],
+    "tags": []
+}

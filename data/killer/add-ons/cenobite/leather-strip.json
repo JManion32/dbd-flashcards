@@ -1,0 +1,15 @@
+{
+    "name": "Leather Strip",
+    "id": "leather-strip",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown of [Summons of Pain] after possessing a [Chain] by [3%]."
+        }
+    ],
+    "tags": []
+}

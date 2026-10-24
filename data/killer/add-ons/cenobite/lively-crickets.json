@@ -1,0 +1,15 @@
+{
+    "name": "Lively Crickets",
+    "id": "lively-crickets",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the turn rate of [Possessed Chains] by [10%]."
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Impaling Wire",
+    "id": "impaling-wire",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor uses the environment to break a [Chain], an additional [Chain] targets them."
+        }
+    ],
+    "tags": []
+}

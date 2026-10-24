@@ -1,0 +1,18 @@
+{
+    "name": "Slice of Frank",
+    "id": "slice-of-frank",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors carrying the [Lament Configuration] suffer [Exhausted]."
+        }
+    ],
+    "quote": "\"The Cenobites gave me an experience beyond limits. Pain and pleasure, indivisible.\" -Frank Cotton",
+    "tags": [
+        "Exhaustion"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Skewered Rat",
+    "id": "skewered-rat",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the cooldown of [Summons of Pain] after possessing a [Chain] by [9%]."
+        }
+    ],
+    "tags": []
+}

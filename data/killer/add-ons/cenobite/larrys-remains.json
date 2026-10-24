@@ -1,0 +1,16 @@
+{
+    "name": "Larry's Remains",
+    "id": "larrys-remains",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Cenobite",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time it takes Survivors to solve the [Lament Configuration] by [2s]."
+        }
+    ],
+    "quote": "\"We want the man who did this.\" -Pinhead",
+    "tags": []
+}
