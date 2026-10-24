@@ -1,0 +1,26 @@
+{
+    "name": "Iridescent Unpublished Manuscript",
+    "id": "iridescent-unpublished-manuscript",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a [Drone] is [Disabled], for [15s]:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "The [Drone] gains a [32m] Terror Radius.",
+                "You gain [Undetectable]."
+            ]
+        }
+    ],
+    "quote": "\"When evil is on the loose, it cannot escape from Adi Valente!\" -Quote on the cover of Adi Valente #1",
+    "tags": [
+        "Terror Radius",
+        "Undetectable"
+    ]
+}

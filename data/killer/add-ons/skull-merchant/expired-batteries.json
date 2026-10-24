@@ -1,0 +1,19 @@
+{
+    "name": "Expired Batteries",
+    "id": "expired-batteries",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "All Survivors start the Trial with a [Claw Trap] that has [50%] less battery life."
+        },
+        {
+            "type": "text",
+            "content": "[Claw Trap] battery life increases by [10%] for each [Claw Trap] received, up to [150%]."
+        }
+    ],
+    "tags": []
+}

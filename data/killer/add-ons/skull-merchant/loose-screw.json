@@ -1,0 +1,17 @@
+{
+    "name": "Loose Screw",
+    "id": "loose-screw",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors with a [Claw Trap] suffer [Exhausted] for [6s]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

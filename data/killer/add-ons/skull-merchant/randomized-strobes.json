@@ -1,0 +1,17 @@
+{
+    "name": "Randomized Strobes",
+    "id": "randomized-strobes",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the duration of [Hindered] gained by Survivors with a [Claw Trap] when detected by a [Drone] by [1s]."
+        }
+    ],
+    "tags": [
+        "Hinder"
+    ]
+}

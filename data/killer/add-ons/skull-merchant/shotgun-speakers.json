@@ -1,0 +1,17 @@
+{
+    "name": "Shotgun Speakers",
+    "id": "shotgun-speakers",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors with a [Claw Trap] receive no Skill Check warning until the [Claw Trap] is removed."
+        }
+    ],
+    "tags": [
+        "Skill Check"
+    ]
+}

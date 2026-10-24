@@ -1,0 +1,17 @@
+{
+    "name": "Infrared Upgrade",
+    "id": "infrared-upgrade",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "After a Survivor removes a [Claw Trap], you see their Aura for [4s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Geographical Readout",
+    "id": "geographical-readout",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "For [8s] after deploying a [Drone], you vault Windows, break Pallets and Breakable Walls, and damage Generators [20%] faster."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Pallet",
+        "Vaulting",
+        "Window"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Advanced Movement Prediction",
+    "id": "advanced-movement-prediction",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor receives a [Claw Trap], you see their Aura for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ]
+}

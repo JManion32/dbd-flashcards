@@ -1,0 +1,17 @@
+{
+    "name": "Adi Valente #1",
+    "id": "adi-valente-1",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors with a [Claw Trap] have [20%] smaller Skill Checks until the [Claw Trap] is removed."
+        }
+    ],
+    "tags": [
+        "Skill Check"
+    ]
+}

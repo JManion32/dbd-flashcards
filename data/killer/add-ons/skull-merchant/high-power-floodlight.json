@@ -1,0 +1,17 @@
+{
+    "name": "High-Power Floodlight",
+    "id": "high-power-floodlight",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors with a [Claw Trap] suffer [Blindness] until the [Claw Trap] is removed."
+        }
+    ],
+    "tags": [
+        "Blindness"
+    ]
+}

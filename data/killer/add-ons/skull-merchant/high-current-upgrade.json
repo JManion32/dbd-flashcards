@@ -1,0 +1,15 @@
+{
+    "name": "High Current Upgrade",
+    "id": "high-current-upgrade",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Skull Merchant",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the time Survivors appear on the [Radar] when detected by [1s]."
+        }
+    ],
+    "tags": []
+}
