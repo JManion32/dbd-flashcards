@@ -1,0 +1,18 @@
+{
+    "name": "Aogiri Tree Robe",
+    "id": "aogiri-tree-robe",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [Undetectable] for [20s] when a Generator is completed while you are in [Enraged Mode]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Undetectable"
+    ]
+}

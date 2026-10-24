@@ -1,0 +1,15 @@
+{
+    "name": "Blood-Stained Handkerchief",
+    "id": "blood-stained-handkerchief",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the reach of the [Kagune] by [1m]."
+        }
+    ],
+    "tags": []
+}

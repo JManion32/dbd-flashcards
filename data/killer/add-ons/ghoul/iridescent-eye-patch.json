@@ -1,0 +1,17 @@
+{
+    "name": "Iridescent Eye Patch",
+    "id": "iridescent-eye-patch",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in [Enraged Mode], Pallets you vault on your third consecutive [Kagune Leap] break."
+        }
+    ],
+    "tags": [
+        "Pallet"
+    ]
+}

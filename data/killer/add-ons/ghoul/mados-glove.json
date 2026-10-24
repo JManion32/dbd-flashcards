@@ -1,0 +1,17 @@
+{
+    "name": "Mado's Glove",
+    "id": "mados-glove",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors suffer [Exhausted] for [15s] after removing [Kagune Mark]."
+        }
+    ],
+    "tags": [
+        "Exhaustion"
+    ]
+}

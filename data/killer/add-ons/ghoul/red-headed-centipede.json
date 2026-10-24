@@ -1,0 +1,19 @@
+{
+    "name": "Red-Headed Centipede",
+    "id": "red-headed-centipede",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "While in [Enraged Mode], Windows you vault are blocked for [10s]."
+        }
+    ],
+    "tags": [
+        "Blocked",
+        "Vaulting",
+        "Window"
+    ]
+}

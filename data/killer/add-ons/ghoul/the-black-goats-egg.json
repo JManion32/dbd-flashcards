@@ -1,0 +1,15 @@
+{
+    "name": "The Black Goat's Egg",
+    "id": "the-black-goats-egg",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Perfectly timed [Grab-Attacks] grant [100%] bonus Bloodpoints."
+        }
+    ],
+    "tags": []
+}

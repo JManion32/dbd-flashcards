@@ -1,0 +1,15 @@
+{
+    "name": "Anteiku Apron",
+    "id": "anteiku-apron",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the slide after a [Kagune Leap] by [50%]."
+        }
+    ],
+    "tags": []
+}

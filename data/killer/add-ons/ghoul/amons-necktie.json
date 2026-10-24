@@ -1,0 +1,19 @@
+{
+    "name": "Amon's Necktie",
+    "id": "amons-necktie",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "While aiming mid-Leap, you see the Auras of Pallets and Windows within [32m]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Pallet",
+        "Window"
+    ]
+}

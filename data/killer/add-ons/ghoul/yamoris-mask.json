@@ -1,0 +1,18 @@
+{
+    "name": "Yamori's Mask",
+    "id": "yamoris-mask",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hooking a Survivor while in [Enraged Mode] causes all Survivors farther than [40m] to scream and reveal their location for [3s]."
+        }
+    ],
+    "tags": [
+        "Hooking",
+        "Scream"
+    ]
+}

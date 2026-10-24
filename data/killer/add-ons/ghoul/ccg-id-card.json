@@ -1,0 +1,18 @@
+{
+    "name": "CCG ID Card",
+    "id": "ccg-id-card",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you vault with [Kagune Leap], you see the Auras of all Survivors with [Kagune Mark] within [24m] for [3s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Vaulting"
+    ]
+}

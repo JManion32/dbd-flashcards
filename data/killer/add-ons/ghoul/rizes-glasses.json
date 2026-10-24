@@ -1,0 +1,19 @@
+{
+    "name": "Rize's Glasses",
+    "id": "rizes-glasses",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "When you enter [Enraged Mode], you see the Auras of healthy Survivors repairing Generators for [8s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator",
+        "Repairing"
+    ]
+}

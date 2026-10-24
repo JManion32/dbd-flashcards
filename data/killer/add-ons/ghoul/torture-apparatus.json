@@ -1,0 +1,17 @@
+{
+    "name": "Torture Apparatus",
+    "id": "torture-apparatus",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "The Ghoul",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gain [5%] [Haste] for [6s] when [Enraged Mode] ends."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ]
+}
