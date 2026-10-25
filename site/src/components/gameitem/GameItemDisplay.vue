@@ -53,10 +53,14 @@ const props = defineProps<{
                 :src="getGameItemImage(props.gameItem.id)"
             />
         </div>
-        <h3>Description</h3>
-        <GameItemDisplayDesc :desc="props.gameItem.description" />
-        <div v-if="props.gameItem.tags.length > 0">
-            <h3>Tags</h3>
+        <GameItemDisplayDesc
+            :desc="props.gameItem.description"
+            style="margin-top: 1.25rem"
+        />
+        <div
+            v-if="props.gameItem.tags.length > 0"
+            style="margin-top: 1.25rem"
+        >
             <GameItemDisplayTags :tags="props.gameItem.tags" />
         </div>
         <p
@@ -145,7 +149,8 @@ const props = defineProps<{
     font-style: italic;
 }
 .game-item-display-date {
-    margin-top: 2.5rem;
+    margin-top: auto;
+    padding-top: 2.5rem;
     color: var(--standard-dim);
     font-weight: 700;
     align-self: center;
