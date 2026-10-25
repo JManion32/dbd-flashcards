@@ -31,7 +31,17 @@ const rarityColor = computed(() =>
             class="display-card-img"
             :src="getGameItemImage(props.gameItem.id)"
         />
-        <span class="display-card-title">{{ props.gameItem.name }}</span>
+        <!--TODO: Something more robust... It's only these 2 Skull Merchant Add-Ons tho...-->
+        <span
+            class="display-card-title"
+            :class="{
+                'display-card-title-long': [
+                    'Advanced Movement Prediction',
+                    'Iridescent Unpublished Manuscript',
+                ].includes(gameItem.name),
+            }"
+            >{{ props.gameItem.name }}</span
+        >
     </div>
     <Modal
         :visible="visible"
@@ -70,6 +80,10 @@ const rarityColor = computed(() =>
     color: var(--standard-white);
     font-weight: 800;
     text-align: center;
+    font-size: 1rem;
+}
+.display-card-title-long {
+    font-size: 0.85rem;
 }
 .card-modal-content {
     display: flex;
