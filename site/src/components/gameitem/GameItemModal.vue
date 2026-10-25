@@ -4,7 +4,7 @@ import { computed, ref } from 'vue';
 
 import Modal from '@/components/Modal.vue';
 import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
-import { getRarityColor } from '@/utils/formatGameItem';
+import getRarityColor from '@/utils/getRarityColor';
 import { getTintStyle } from '@/utils/tintStyle';
 
 import type { GameItem } from '@/types/gameItem';

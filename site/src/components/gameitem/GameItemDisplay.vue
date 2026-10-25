@@ -7,7 +7,7 @@ import killerIcon from '@/assets/killer-icon.webp';
 import GameItemDisplayDesc from '@/components/gameitem/GameItemDisplayDesc.vue';
 import GameItemDisplayTags from '@/components/gameitem/GameItemDisplayTags.vue';
 
-import { getRarityColor } from '@/utils/formatGameItem';
+import getRarityColor from '@/utils/getRarityColor';
 import { getGameItemImage } from '@/utils/resolveGameItemImg';
 
 import type { GameItem } from '@/types/gameItem';

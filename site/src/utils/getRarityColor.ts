@@ -1,6 +1,6 @@
 /* For translating the JSON into a clean GameItem display */
 
-export function getRarityColor(rarity: string | undefined) {
+export default function getRarityColor(rarity: string | undefined) {
     if (rarity === 'Common') {
         return 'var(--common-rarity)';
     }
