@@ -4,7 +4,7 @@ import { ArrowDownAZ, ArrowDownZA, ArrowUp, ArrowDown, SquareUserRound } from 'l
 import type { GameItemSort } from '@/types/gameItemSort';
 const props = defineProps<{
     filteredCount: number;
-    type: 'perks' | 'add-ons';
+    type: 'perk' | 'add-on';
     sort: GameItemSort;
 }>();
 
@@ -41,7 +41,9 @@ function handleSortEmit(btn: string) {
 
 <template>
     <div class="sort-cards-container">
-        <span class="sort-amount">{{ props.filteredCount }} {{ props.type }}</span>
+        <span class="sort-amount"
+            >{{ props.filteredCount }} {{ props.type }}{{ props.filteredCount === 1 ? '' : 's' }}</span
+        >
         <div class="sort-card-btns-container">
             <!-- Rarity -->
             <button

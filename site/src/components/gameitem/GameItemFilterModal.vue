@@ -10,7 +10,7 @@ import ManyOptionSelector from '@/components/ManyOptionSelector.vue';
 import { SlidersHorizontal } from 'lucide-vue-next';
 
 const props = defineProps<{
-    type: 'perks' | 'add-ons';
+    type: 'perk' | 'add-on';
     filter: GameItemFilter;
 }>();
 
@@ -76,14 +76,14 @@ function clearFilters() {
                     @selected="(newValue) => setFilter('side', newValue)"
                 />
                 <ManyOptionSelector
-                    v-if="props.type === 'perks' && (props.filter.side === 'All' || props.filter.side === 'Survivor')"
+                    v-if="props.type === 'perk' && (props.filter.side === 'All' || props.filter.side === 'Survivor')"
                     label="Survivors"
                     :items="survivors"
                     :active-values="props.filter.survivors"
                     @selected="(newValues) => setFilter('survivors', newValues)"
                 />
                 <ManyOptionSelector
-                    v-if="props.type === 'add-ons'"
+                    v-if="props.type === 'add-on'"
                     label="Items"
                     :items="items"
                     :active-values="props.filter.items"

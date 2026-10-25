@@ -5,7 +5,7 @@ import GameItemFilterModal from '@/components/gameitem/GameItemFilterModal.vue';
 import { Search } from 'lucide-vue-next';
 
 const props = defineProps<{
-    type: 'perks' | 'add-ons';
+    type: 'perk' | 'add-on';
     filter: GameItemFilter;
 }>();
 
@@ -75,7 +75,7 @@ const emit = defineEmits<{
                     <input
                         v-model="filter.search"
                         class="filter-search"
-                        :placeholder="`Search ${props.type}...`"
+                        :placeholder="`Search ${props.type}s...`"
                         @input="emit('filter', filter)"
                     />
                     <button

@@ -11,7 +11,7 @@ import { GameItemSortDefault, type GameItemSort as GameItemSortType } from '@/ty
 import type { GameItem } from '@/types/gameItem';
 
 const props = defineProps<{
-    type: 'perks' | 'add-ons';
+    type: 'perk' | 'add-on';
     gameItems: GameItem[];
 }>();
 
@@ -54,7 +54,7 @@ const filteredGameItems = computed(() => {
         // Filter by owner. Each list only matches its own side, so 'Universal' in one doesn't pull in the other.
         // Survivor perks belong to survivors, survivor add-ons to items; only the list shown for this page counts.
         const { killers, tags } = filter.value;
-        const survivorOwners = props.type === 'perks' ? filter.value.survivors : filter.value.items;
+        const survivorOwners = props.type === 'perk' ? filter.value.survivors : filter.value.items;
         if (survivorOwners.length || killers.length) {
             const owners = gameItem.side === 'Survivor' ? survivorOwners : killers;
             if (!owners.includes(gameItem.owner)) {

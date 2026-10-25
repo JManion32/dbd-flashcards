@@ -7,7 +7,7 @@ const props = defineProps<{
     title: string;
     id: string;
     side?: string;
-    type: string;
+    type: 'perk' | 'add-on';
     gameItems: GameItem[];
 }>();
 
@@ -51,9 +51,9 @@ onUnmounted(() => {
             </h2>
             <RouterLink
                 class="full-page-link"
-                :to="{ path: `/${props.type}`, query: props.side ? { side: props.side } : {} }"
+                :to="{ path: `/${props.type}s`, query: props.side ? { side: props.side } : {} }"
             >
-                {{ `See all ${props.side} ${props.type} ➞` }}
+                {{ `See all ${props.side} ${props.type}s ➞` }}
             </RouterLink>
         </div>
         <GameItemCarousel :game-items="props.gameItems" />
