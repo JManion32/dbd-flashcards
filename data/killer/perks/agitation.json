@@ -3,7 +3,7 @@
     "id": "agitation",
     "side": "Killer",
     "type": "Perk",
-    "owner": "The Trapper",
+    "owner": "Trapper",
     "description": [
         {
             "type": "text",

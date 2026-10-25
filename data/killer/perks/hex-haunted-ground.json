@@ -3,7 +3,7 @@
     "id": "hex-haunted-ground",
     "side": "Killer",
     "type": "Perk",
-    "owner": "The Spirit",
+    "owner": "Spirit",
     "description": [
         {
             "type": "text",

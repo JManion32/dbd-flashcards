@@ -3,7 +3,7 @@
     "id": "hex-face-the-darkness",
     "side": "Killer",
     "type": "Perk",
-    "owner": "The Knight",
+    "owner": "Knight",
     "description": [
         {
             "type": "text",

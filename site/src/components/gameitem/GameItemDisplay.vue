@@ -11,10 +11,16 @@ import getRarityColor from '@/utils/getRarityColor';
 import { getGameItemImage } from '@/utils/resolveGameItemImg';
 
 import type { GameItem } from '@/types/gameItem';
+import { computed } from 'vue';
 
 const props = defineProps<{
     gameItem: GameItem;
 }>();
+
+const ownerLabel = computed(() => {
+    const { side, owner } = props.gameItem;
+    return side === 'Killer' && owner !== 'Universal' ? `The ${owner}` : owner;
+});
 </script>
 <template>
     <div class="game-item-display-container">
@@ -28,7 +34,7 @@ const props = defineProps<{
                         v-if="props.gameItem.owner"
                         class="metadata-text"
                     >
-                        {{ props.gameItem.owner }}
+                        {{ ownerLabel }}
                     </span>
                     <span class="metadata-text"> • </span>
                     <span class="metadata-text">

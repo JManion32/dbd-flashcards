@@ -3,7 +3,7 @@
     "id": "predator",
     "side": "Killer",
     "type": "Perk",
-    "owner": "The Wraith",
+    "owner": "Wraith",
     "description": [
         {
             "type": "text",

@@ -3,7 +3,7 @@
     "id": "a-nurses-calling",
     "side": "Killer",
     "type": "Perk",
-    "owner": "The Nurse",
+    "owner": "Nurse",
     "description": [
         {
             "type": "text",

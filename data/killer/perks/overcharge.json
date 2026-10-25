@@ -3,7 +3,7 @@
     "id": "overcharge",
     "side": "Killer",
     "type": "Perk",
-    "owner": "The Doctor",
+    "owner": "Doctor",
     "description": [
         {
             "type": "text",

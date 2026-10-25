@@ -3,7 +3,7 @@
     "id": "rancor",
     "side": "Killer",
     "type": "Perk",
-    "owner": "The Spirit",
+    "owner": "Spirit",
     "description": [
         {
             "type": "text",
