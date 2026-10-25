@@ -127,11 +127,12 @@ const emit = defineEmits<{
 
     background: #1a1a1a;
     border-radius: 0.75rem;
+    padding: 0.25rem;
 }
 .right-filter-container {
     display: flex;
     flex-direction: var(--right-container-dir);
-    gap: 1.5rem;
+    gap: 1rem;
 }
 .advanced-filters-container {
     display: flex;
@@ -164,7 +165,7 @@ const emit = defineEmits<{
     padding: 0.5rem 2.5rem 0.5rem 2.8rem;
     font-weight: 600;
     font-size: 16px;
-    width: 18rem;
+    width: 20rem;
 }
 .search-icon {
     position: absolute;
@@ -174,6 +175,7 @@ const emit = defineEmits<{
 }
 .filter-search::placeholder {
     font-style: italic;
+    color: var(--inactive-text);
 }
 .filter-search:focus {
     outline: none;
@@ -221,6 +223,6 @@ const emit = defineEmits<{
 }
 .quick-select-btn.active {
     color: var(--standard-white);
-    background: var(--dark-5);
+    background: var(--filter-selected-btn);
 }
 </style>

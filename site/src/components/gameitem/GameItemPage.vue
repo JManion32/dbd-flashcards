@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import GameItemFilter from '@/components/gameitem/GameItemFilter.vue';
+import GameItemSort from '@/components/gameitem/GameItemSort.vue';
 import GameItemModal from '@/components/gameitem/GameItemModal.vue';
 import cursedImage from '@/assets/cursed-image.png';
 
 import { ref, computed, watch } from 'vue';
 import { useRoute } from 'vue-router';
-import { GameItemFilterDefault } from '@/types/gameItemFilter';
-import type { GameItemFilter as GameItemFilterType } from '@/types/gameItemFilter';
+import { GameItemFilterDefault, type GameItemFilter as GameItemFilterType } from '@/types/gameItemFilter';
+import { GameItemSortDefault, type GameItemSort as GameItemSortType } from '@/types/gameItemSort';
 import type { GameItem } from '@/types/gameItem';
 
 const props = defineProps<{
@@ -24,8 +25,9 @@ function initialFilter(): GameItemFilterType {
         side: side === 'Killer' || side === 'Survivor' ? side : 'All',
     };
 }
-
 const filter = ref<GameItemFilterType>(initialFilter());
+
+const sort = ref<GameItemSortType>({ ...GameItemSortDefault });
 
 // The router reuses this page when only the query changes (e.g. /perks?side=Killer -> /perks),
 // so reset the filter and remount GameItemFilter, which only copies its filter prop on creation.
@@ -94,6 +96,42 @@ const filteredGameItems = computed(() => {
         return true;
     });
 });
+
+function updateSort(newSort: GameItemSortType) {
+    sort.value = newSort;
+}
+
+// Ascending rarity runs Common -> Visceral. Perks have no rarity, so they all tie.
+const RARITY_ORDER = ['Common', 'Uncommon', 'Rare', 'Very Rare', 'Visceral'];
+
+function rarityRank(gameItem: GameItem) {
+    return gameItem.rarity ? RARITY_ORDER.indexOf(gameItem.rarity) : -1;
+}
+
+// Sorts are layered: group by owner first, then rarity within that, then name as the tiebreaker.
+// Anything switched off ties, so the store's original (alphabetical) order shows through.
+const filteredAndSortedGameItems = computed(() => {
+    const { alphaAsc, rarityAsc, rarityDesc, groupByOwner } = sort.value;
+
+    return [...filteredGameItems.value].sort((a, b) => {
+        if (groupByOwner) {
+            const byOwner = a.owner.localeCompare(b.owner);
+            if (byOwner !== 0) {
+                return byOwner;
+            }
+        }
+
+        if (rarityAsc || rarityDesc) {
+            const byRarity = rarityRank(a) - rarityRank(b);
+            if (byRarity !== 0) {
+                return rarityAsc ? byRarity : -byRarity;
+            }
+        }
+
+        const byName = a.name.localeCompare(b.name);
+        return alphaAsc ? byName : -byName;
+    });
+});
 </script>
 <template>
     <div class="card-displays-container">
@@ -102,6 +140,12 @@ const filteredGameItems = computed(() => {
             :type="props.type"
             :filter="filter"
             @filter="updateFilter"
+        />
+        <GameItemSort
+            :filtered-count="filteredGameItems.length"
+            :type="props.type"
+            :sort="sort"
+            @sort="updateSort"
         />
         <div class="display-cards-container">
             <div
@@ -115,7 +159,7 @@ const filteredGameItems = computed(() => {
                 <p class="no-matches">No results found...</p>
             </div>
             <GameItemModal
-                v-for="gameItem in filteredGameItems"
+                v-for="gameItem in filteredAndSortedGameItems"
                 :key="gameItem.id"
                 :game-item="gameItem"
             />

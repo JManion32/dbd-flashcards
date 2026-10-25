@@ -19,6 +19,8 @@
     --dim-text: #c2c2c2;
     --outline-gray: #565656;
     --modal-close: #777;
+    --filter-count: #a70000;
+    --filter-selected-btn: color-mix(in srgb, var(--standard-gold) 25%, var(--dark-2));
 
     /* Rarities */
     --common-rarity: #ab713c;
