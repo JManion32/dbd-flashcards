@@ -1,15 +1,20 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
     tags: string[];
+    color: string;
 }>();
 </script>
 
 <template>
     <div class="game-item-tags">
         <button
-            v-for="tag in tags"
+            v-for="tag in props.tags"
             :key="tag"
             class="game-item-tag"
+            :style="{
+                background: `color-mix(in srgb, ${props.color} 18%, transparent)`,
+                color: `color-mix(in srgb, ${props.color} 35%, var(--standard-white))`,
+            }"
         >
             {{ tag }}
         </button>

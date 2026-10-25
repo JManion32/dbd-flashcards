@@ -61,7 +61,10 @@ const props = defineProps<{
             v-if="props.gameItem.tags.length > 0"
             style="margin-top: 1.25rem"
         >
-            <GameItemDisplayTags :tags="props.gameItem.tags" />
+            <GameItemDisplayTags
+                :tags="props.gameItem.tags"
+                :color="getRarityColor(props.gameItem.rarity)"
+            />
         </div>
         <p
             v-if="props.gameItem.quote"
