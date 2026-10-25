@@ -70,9 +70,9 @@ const props = defineProps<{
     color: var(--standard-gold);
 }
 .incorrect-score-btn {
-    background: color-mix(in srgb, var(--standard-dim) 10%, transparent);
-    border: 1px solid var(--standard-dim);
-    color: var(--standard-dim);
+    background: color-mix(in srgb, var(--dim-text) 10%, transparent);
+    border: 1px solid var(--dim-text);
+    color: var(--dim-text);
 }
 .incorrect-score-txt,
 .correct-score-txt {
@@ -84,6 +84,6 @@ const props = defineProps<{
     color: var(--standard-gold);
 }
 .incorrect-score-txt {
-    color: var(--standard-dim);
+    color: var(--dim-text);
 }
 </style>

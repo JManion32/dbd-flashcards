@@ -73,7 +73,7 @@ onUnmounted(() => {
     border: none;
     display: flex;
     align-items: center;
-    background: var(--dark-222);
+    background: var(--dark-4);
 }
 .correct-btn svg,
 .incorrect-btn svg {
@@ -88,13 +88,13 @@ onUnmounted(() => {
 .correct-btn:hover,
 .incorrect-btn:hover {
     cursor: pointer;
-    background: var(--dark-333);
+    background: var(--dark-5);
     scale: 1.02;
 }
 .correct-btn {
     color: var(--standard-gold);
 }
 .incorrect-btn {
-    color: var(--standard-dim);
+    color: var(--dim-text);
 }
 </style>

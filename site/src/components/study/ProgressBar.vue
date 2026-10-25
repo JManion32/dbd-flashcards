@@ -25,7 +25,7 @@ const progress = computed(() => {
     margin-bottom: var(--progress-bottom);
     width: var(--flashcard-width);
     height: 0.3rem;
-    background: var(--dark-222);
+    background: var(--dark-4);
     border-radius: 1rem;
     overflow: visible;
 }

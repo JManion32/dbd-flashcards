@@ -1,23 +1,24 @@
 :root {
-    /* Index */
-    --site-bg: #111;
-    --secondary-bg: #191919;
-    --modal-bg: #141414;
+    /* Standard */
     --standard-white: #fff;
-    --standard-off-white: #ddd;
-    --standard-gray: #565656;
-    --standard-dim: #c2c2c2;
     --standard-black: #000;
     --standard-gold: #ffd700;
-    --inactive-text: #999;
-    --scroll-thumb: #232323;
-    --dark-222: #222;
-    --dark-333: #333;
 
-    /* Header / Footer */
+    /* Site Theme */
+    --dark-0: #111;
+    --dark-1: #141414;
+    --dark-2: #171717;
+    --dark-3: #191919;
+    --dark-4: #222;
+    --dark-5: #333;
+
+    /* Ad-hoc */
     --header-bg: #0a0a0a;
-    --nav-link-hover-bg: #171717;
-    --nav-link-active-bg: #222222;
+    --scroll-thumb: #232323;
+    --inactive-text: #999;
+    --dim-text: #c2c2c2;
+    --outline-gray: #565656;
+    --modal-close: #777;
 
     /* Rarities */
     --common-rarity: #ab713c;

@@ -104,12 +104,12 @@ const { studyConfig } = useStudy();
 }
 .nav-link:hover {
     color: var(--standard-white);
-    background: var(--nav-link-hover-bg);
+    background: var(--dark-2);
     text-shadow: var(--small-text-glow);
 }
 .nav-link.router-link-exact-active {
     color: var(--standard-white);
-    background: var(--nav-link-active-bg);
+    background: var(--dark-4);
     text-shadow: var(--small-text-glow);
 }
 .study-info {

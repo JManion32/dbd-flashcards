@@ -405,13 +405,11 @@ function onCardClickCapture(event: MouseEvent, offset: number) {
     overflow: hidden;
     cursor: grab;
     touch-action: pan-y;
-    outline: none;
 }
 .carousel-viewport.dragging {
     cursor: grabbing;
 }
 .carousel-viewport:focus-visible {
-    outline: 2px solid var(--standard-gray);
     outline-offset: 4px;
     border-radius: 1rem;
 }
@@ -438,7 +436,7 @@ function onCardClickCapture(event: MouseEvent, offset: number) {
     inset: 0;
     z-index: 1;
     border-radius: 1rem; /* matches .display-card */
-    background: var(--site-bg);
+    background: var(--dark-0);
     opacity: var(--card-dim, 0);
 
     /* Only fires when a card changes slot, which is the whole point: the value
@@ -491,15 +489,15 @@ function onCardClickCapture(event: MouseEvent, offset: number) {
     padding: 0;
     border: none;
     border-radius: 50%;
-    background: var(--dark-222);
-    color: var(--standard-dim);
+    background: var(--dark-4);
+    color: var(--dim-text);
     font-size: 2rem;
     line-height: 1;
     transition: var(--site-transition);
     cursor: pointer;
 }
 .carousel-btn:hover {
-    background: var(--dark-333);
+    background: var(--dark-5);
     color: var(--standard-white);
     scale: 1.08;
 }

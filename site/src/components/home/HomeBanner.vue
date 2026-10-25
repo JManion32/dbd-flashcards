@@ -46,7 +46,7 @@ const splashText = generateSplashText();
     justify-content: center;
 
     overflow: hidden;
-    background: #111;
+    background: var(--dark-0);
 }
 
 .banner-bg {
@@ -69,7 +69,7 @@ const splashText = generateSplashText();
     inset: 0;
 
     background:
-        linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgba(17, 17, 17, 0.65)),
+        linear-gradient(to bottom, color-mix(in srgb, var(--dark-0) 10%, transparent), rgba(17, 17, 17, 0.65)),
         radial-gradient(circle at center, transparent 30%, rgba(0, 0, 0, 0.6) 100%);
 
     pointer-events: none;

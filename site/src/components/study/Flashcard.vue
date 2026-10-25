@@ -247,7 +247,7 @@ onUnmounted(() => {
     padding: var(--flashcard-side-padding);
 
     border-radius: 2rem;
-    background: var(--secondary-bg);
+    background: var(--dark-3);
 
     backface-visibility: hidden;
 }
@@ -266,7 +266,7 @@ onUnmounted(() => {
 /* --- Answer feedback --- */
 
 .flashcard-layer-incorrect {
-    --answer-color: var(--standard-dim);
+    --answer-color: var(--dim-text);
 }
 
 .flashcard-layer-exit .flashcard-side {
@@ -289,7 +289,7 @@ onUnmounted(() => {
     padding: 0.75rem 2.25rem;
     border: 0.2rem solid var(--answer-color);
     border-radius: 1rem;
-    background: var(--site-bg);
+    background: var(--dark-0);
 
     color: var(--answer-color);
     font-size: 2rem;

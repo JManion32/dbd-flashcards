@@ -147,7 +147,7 @@ const filteredGameItems = computed(() => {
     width: 20rem;
 }
 .no-matches {
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-style: italic;
     font-size: 1.2rem;
     font-weight: 700;

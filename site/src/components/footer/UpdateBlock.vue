@@ -22,7 +22,7 @@ const props = defineProps<{
 </template>
 <style scoped>
 .update-block-container {
-    border-bottom: 1px solid var(--secondary-bg);
+    border-bottom: 1px solid var(--dark-3);
     width: 100%;
     padding-bottom: 1.5rem;
     margin-top: 2rem;

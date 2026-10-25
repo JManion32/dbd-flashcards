@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import '@/styles/footer.css';
 import '@/styles/modal.css';
+import '@/styles/study-btn.css';
 import { computed } from 'vue';
 import type { GameItem } from '@/types/gameItem';
 import Modal from '@/components/Modal.vue';
@@ -131,7 +132,7 @@ const resultMsg = computed(() => {
     border: none;
     color: var(--standard-white);
     font-weight: 700;
-    background: var(--dark-222);
+    background: var(--dark-4);
     transition: var(--site-transition);
     display: flex;
     align-items: center;
@@ -149,7 +150,7 @@ const resultMsg = computed(() => {
 .home-btn:hover,
 .retry-study-btn:hover {
     cursor: pointer;
-    background: var(--dark-333);
+    background: var(--dark-5);
 }
 .still-learning-header-container {
     display: flex;
@@ -170,7 +171,7 @@ const resultMsg = computed(() => {
 }
 .nothing-left {
     font-style: italic;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-weight: 700;
     margin: 3rem auto;
 }

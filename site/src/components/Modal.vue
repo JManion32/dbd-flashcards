@@ -88,7 +88,7 @@ onUnmounted(() => {
 }
 .modal-container {
     width: var(--modal-width);
-    background: var(--modal-bg);
+    background: var(--dark-1);
     border-radius: 1rem;
     padding: var(--modal-padding);
     display: flex;
@@ -108,7 +108,7 @@ onUnmounted(() => {
     height: 1.5rem;
     width: 1.5rem;
     font-weight: 600;
-    color: #777;
+    color: var(--modal-close);
     transition: var(--site-transition);
     background: none;
     border: none;
@@ -118,7 +118,7 @@ onUnmounted(() => {
 .modal-close-btn:hover {
     cursor: pointer;
     scale: 1.05;
-    color: #888;
+    color: color-mix(in srgb, var(--modal-close) 50%, var(--standard-white));
 }
 
 /* Slide up */

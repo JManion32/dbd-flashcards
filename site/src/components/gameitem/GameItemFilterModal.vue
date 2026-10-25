@@ -122,7 +122,7 @@ function clearFilters() {
 </template>
 <style scoped>
 .filter-btn {
-    background: var(--dark-222);
+    background: var(--dark-4);
     transition: var(--site-transition);
     color: var(--standard-white);
     border-radius: 0.5rem;
@@ -132,7 +132,7 @@ function clearFilters() {
     padding: 0.5rem 1rem;
 
     &:hover {
-        background: var(--dark-333);
+        background: var(--dark-5);
         cursor: pointer;
     }
 }
@@ -181,7 +181,7 @@ function clearFilters() {
 .clear-selection-btn {
     padding: 0;
     background: none;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-style: italic;
     border: none;
     font-size: 1rem;

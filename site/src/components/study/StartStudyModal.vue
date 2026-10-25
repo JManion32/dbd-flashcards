@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import '@/styles/footer.css';
 import '@/styles/modal.css';
+import '@/styles/study-btn.css';
+
 import type { StudyConfig } from '@/types/studyConfig';
 import type { Option } from '@/types/options';
 import { StudyConfigDefault } from '@/types/studyConfig';
@@ -154,7 +156,7 @@ function restoreDefaults() {
 <style scoped>
 .modal-content .start-study-subtitle {
     margin: 0.25rem 0 0;
-    color: var(--standard-dim);
+    color: var(--dim-text);
 }
 .option-groups {
     display: flex;
@@ -185,7 +187,7 @@ function restoreDefaults() {
 .clear-selection-btn {
     padding: 0;
     background: none;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-style: italic;
     border: none;
     font-size: 1rem;

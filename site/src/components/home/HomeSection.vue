@@ -97,7 +97,7 @@ onUnmounted(() => {
     font-weight: 700;
     font-size: 1rem;
     transition: var(--site-transition);
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-style: italic;
 }
 .full-page-link:hover {

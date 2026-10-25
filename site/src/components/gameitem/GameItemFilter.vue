@@ -110,7 +110,7 @@ const emit = defineEmits<{
     width: 100%;
     border: none;
     margin-top: var(--filter-hr-top);
-    border-bottom: solid 1px var(--dark-333);
+    border-bottom: solid 1px var(--dark-5);
 }
 .filter-container {
     display: flex;
@@ -142,7 +142,7 @@ const emit = defineEmits<{
 .clear-filters-btn {
     font-size: 16px;
     font-style: italic;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-weight: 700;
     transition: var(--site-transition);
 
@@ -160,7 +160,7 @@ const emit = defineEmits<{
     border-radius: 0.5rem;
     border: none;
     color: var(--standard-white);
-    background: var(--dark-222);
+    background: var(--dark-4);
     padding: 0.5rem 2.5rem 0.5rem 2.8rem;
     font-weight: 600;
     font-size: 16px;
@@ -169,7 +169,7 @@ const emit = defineEmits<{
 .search-icon {
     position: absolute;
     left: 0.75rem;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     pointer-events: none;
 }
 .filter-search::placeholder {
@@ -191,7 +191,7 @@ const emit = defineEmits<{
     border: none;
     background: none;
 
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-size: 16px;
     font-weight: 900;
     line-height: 1;
@@ -203,7 +203,7 @@ const emit = defineEmits<{
     color: var(--standard-white);
 }
 .quick-select-btn {
-    color: var(--standard-dim);
+    color: var(--dim-text);
     background: transparent;
     transition: var(--site-transition);
     padding: 0.5rem 1.5rem;
@@ -217,10 +217,10 @@ const emit = defineEmits<{
     color: var(--standard-white);
     text-shadow: var(--small-text-shadow);
     cursor: pointer;
-    background: var(--dark-222);
+    background: var(--dark-4);
 }
 .quick-select-btn.active {
     color: var(--standard-white);
-    background: var(--dark-333);
+    background: var(--dark-5);
 }
 </style>

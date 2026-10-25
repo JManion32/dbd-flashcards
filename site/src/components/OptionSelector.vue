@@ -47,8 +47,8 @@ const emit = defineEmits<{
     gap: 0.35rem;
     padding: 0.35rem;
     border-radius: 0.85rem;
-    background: var(--site-bg);
-    border: 1px solid var(--dark-222);
+    background: var(--dark-0);
+    border: 1px solid var(--dark-4);
 }
 .segmented button {
     flex: 1 1 auto;
@@ -63,7 +63,7 @@ const emit = defineEmits<{
     border-radius: 0.6rem;
     background: none;
 
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-family: inherit;
     font-size: 1.2rem;
     font-weight: 800;
@@ -76,7 +76,7 @@ const emit = defineEmits<{
 .segmented button:hover {
     cursor: pointer;
     color: var(--standard-white);
-    background: var(--secondary-bg);
+    background: var(--dark-3);
 }
 .segmented button.active {
     color: var(--standard-white);
@@ -84,6 +84,6 @@ const emit = defineEmits<{
     border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
 }
 .segmented button.active {
-    color: var(--standard-dim);
+    color: var(--dim-text);
 }
 </style>

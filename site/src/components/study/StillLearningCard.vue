@@ -20,7 +20,7 @@ const props = defineProps<{
 .still-learning-card {
     width: 100%;
     border-radius: 1rem;
-    background: var(--dark-222);
+    background: var(--dark-4);
     height: 3.5rem;
     padding: 0.5rem;
     display: flex;

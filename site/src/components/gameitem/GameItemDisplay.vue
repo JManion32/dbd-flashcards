@@ -137,7 +137,7 @@ const props = defineProps<{
 }
 .metadata-text {
     font-style: italic;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-weight: 700;
     font-size: 1rem;
 }
@@ -148,13 +148,13 @@ const props = defineProps<{
 }
 .game-item-display-quote {
     margin-top: 3rem;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-style: italic;
 }
 .game-item-display-date {
     margin-top: auto;
     padding-top: 2.5rem;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-weight: 700;
     align-self: center;
     font-size: 0.85rem;

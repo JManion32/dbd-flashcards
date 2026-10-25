@@ -120,7 +120,7 @@ function toggleItem(item: string) {
     padding: 0;
     border: none;
     background: none;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-family: inherit;
     font-size: 0.95rem;
     font-weight: 700;
@@ -138,15 +138,15 @@ function toggleItem(item: string) {
     gap: 0.4rem;
     padding: 0.5rem;
     border-radius: 0.85rem;
-    background: var(--site-bg);
-    border: 1px solid var(--dark-222);
+    background: var(--dark-0);
+    border: 1px solid var(--dark-4);
 }
 .chip {
     padding: 0.35rem 0.75rem;
     border: 1px solid transparent;
     border-radius: 0.6rem;
     background: none;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-family: inherit;
     font-size: 1rem;
     font-weight: 700;
@@ -155,7 +155,7 @@ function toggleItem(item: string) {
 .chip:hover {
     cursor: pointer;
     color: var(--standard-white);
-    background: var(--secondary-bg);
+    background: var(--dark-3);
 }
 .chip.active {
     color: var(--standard-white);

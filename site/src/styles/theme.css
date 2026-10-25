@@ -1,8 +1,9 @@
+/* Non-color, non-responsive design tokens. */
 :root {
     --site-font: 'Inter Variable', sans-serif;
     --site-transition-time: 0.25s;
     --site-transition: all var(--site-transition-time) ease;
     --small-text-glow: 0 0 10px #ffffff75;
     --large-text-glow: 0 0 10px #ffffff50;
-    --home-banner-text-shadow: 0px 0px 20px #000000;
+    --home-banner-text-shadow: 0px 0px 20px var(--standard-black);
 }

@@ -1,3 +1,4 @@
+/* Element defaults and resets. No classes here; tokens live in theme/colors/scaling. */
 html,
 body,
 #app {
@@ -20,7 +21,7 @@ main {
 body {
     min-height: 100vh;
     width: 100%;
-    background: #111111;
+    background: var(--dark-0);
 }
 
 body,
@@ -58,24 +59,7 @@ html {
     background-clip: content-box;
 }
 
-/* The glowy gold button */
-.study-btn {
-    border: 2px solid var(--standard-gold);
-    background: color-mix(in srgb, var(--standard-gold) 5%, transparent);
-    color: var(--standard-gold);
-    box-shadow: 1px 1px 10px color-mix(in srgb, var(--standard-gold) 70%, transparent);
-    text-decoration: none;
-    border-radius: 0.5rem;
-    font-size: 1.25rem;
-    font-weight: 900;
-    padding: 0.5rem 1.5rem;
-    transition: var(--site-transition);
-}
-
-.study-btn:hover {
-    background: var(--standard-gold);
-    color: var(--standard-black);
-    box-shadow: 0 0 20px var(--standard-gold);
-    cursor: pointer;
-    scale: 1.08;
+/* Site-wide keyboard focus ring. :focus-visible skips mouse/touch focus. */
+:focus-visible {
+    outline: 2px solid var(--outline-gray);
 }

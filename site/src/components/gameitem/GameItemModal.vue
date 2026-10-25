@@ -30,6 +30,7 @@ const rarityColor = computed(() =>
         <img
             class="display-card-img"
             :src="getGameItemImage(props.gameItem.id)"
+            draggable="false"
         />
         <!--TODO: Something more robust... It's only these 2 Skull Merchant Add-Ons tho...-->
         <span
@@ -60,12 +61,13 @@ const rarityColor = computed(() =>
     align-items: center;
     width: 12rem;
     height: 10rem;
-    background: var(--secondary-bg);
+    background: var(--dark-3);
     border-radius: 1rem;
     transition: var(--site-transition);
     overflow: hidden;
     opacity: 70%;
     padding: 1rem;
+    user-select: none;
 }
 .display-card:hover {
     cursor: pointer;
@@ -120,7 +122,7 @@ const rarityColor = computed(() =>
 }
 .metadata-text {
     font-style: italic;
-    color: var(--standard-dim);
+    color: var(--dim-text);
     font-weight: 700;
 }
 .card-rarity {
