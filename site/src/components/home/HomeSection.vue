@@ -6,6 +6,7 @@ import GameItemCarousel from '../gameitem/GameItemCarousel.vue';
 const props = defineProps<{
     title: string;
     id: string;
+    side?: string;
     type: string;
     gameItems: GameItem[];
 }>();
@@ -50,9 +51,9 @@ onUnmounted(() => {
             </h2>
             <RouterLink
                 class="full-page-link"
-                :to="`/${props.type}`"
+                :to="{ path: `/${props.type}`, query: props.side ? { side: props.side } : {} }"
             >
-                {{ `See all ${props.type} ➞` }}
+                {{ `See all ${props.side} ${props.type} ➞` }}
             </RouterLink>
         </div>
         <GameItemCarousel :game-items="props.gameItems" />

@@ -12,24 +12,28 @@ const { killerPerks, killerAddOns, survivorPerks, survivorAddOns } = useData();
         <HomeSection
             id="killer-perks"
             title="Killer Perks"
+            side="Killer"
             type="perks"
             :game-items="killerPerks"
         />
         <HomeSection
             id="killer-addons"
             title="Killer Add-Ons"
+            side="Killer"
             type="add-ons"
             :game-items="killerAddOns"
         />
         <HomeSection
             id="survivor-perks"
             title="Survivor Perks"
+            side="Survivor"
             type="perks"
             :game-items="survivorPerks"
         />
         <HomeSection
             id="survivor-addons"
             title="Survivor Add-Ons"
+            side="Survivor"
             type="add-ons"
             :game-items="survivorAddOns"
         />

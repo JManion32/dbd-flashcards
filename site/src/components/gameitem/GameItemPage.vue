@@ -3,7 +3,8 @@ import GameItemFilter from '@/components/gameitem/GameItemFilter.vue';
 import GameItemModal from '@/components/gameitem/GameItemModal.vue';
 import cursedImage from '@/assets/cursed-image.png';
 
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
+import { useRoute } from 'vue-router';
 import { GameItemFilterDefault } from '@/types/gameItemFilter';
 import type { GameItemFilter as GameItemFilterType } from '@/types/gameItemFilter';
 import type { GameItem } from '@/types/gameItem';
@@ -13,7 +14,29 @@ const props = defineProps<{
     gameItems: GameItem[];
 }>();
 
-const filter = ref<GameItemFilterType>({ ...GameItemFilterDefault });
+const route = useRoute();
+
+// Links can preselect a side with ?side=Killer or ?side=Survivor.
+function initialFilter(): GameItemFilterType {
+    const side = route.query.side;
+    return {
+        ...GameItemFilterDefault,
+        side: side === 'Killer' || side === 'Survivor' ? side : 'All',
+    };
+}
+
+const filter = ref<GameItemFilterType>(initialFilter());
+
+// The router reuses this page when only the query changes (e.g. /perks?side=Killer -> /perks),
+// so reset the filter and remount GameItemFilter, which only copies its filter prop on creation.
+const filterKey = ref(0);
+watch(
+    () => route.query.side,
+    () => {
+        filter.value = initialFilter();
+        filterKey.value++;
+    }
+);
 
 function updateFilter(newFilter: GameItemFilterType) {
     filter.value = newFilter;
@@ -75,6 +98,7 @@ const filteredGameItems = computed(() => {
 <template>
     <div class="card-displays-container">
         <GameItemFilter
+            :key="filterKey"
             :type="props.type"
             :filter="filter"
             @filter="updateFilter"
