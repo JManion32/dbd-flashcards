@@ -1,9 +1,9 @@
 import { computed } from 'vue';
 import {
     survivorPerks,
-    survivorAddOns,
+    survivorAddOns as rawSurvivorAddOns,
     killerPerks,
-    killerAddOns,
+    killerAddOns as rawKillerAddOns,
     tags,
     killers,
     survivors,
@@ -16,10 +16,19 @@ export function useData() {
     });
 
     const combinedAddOns = computed(() => {
-        return [...survivorAddOns, ...killerAddOns].sort((a, b) => a.name.localeCompare(b.name));
+        return [...rawSurvivorAddOns, ...rawKillerAddOns].sort((a, b) => a.name.localeCompare(b.name));
     });
+
+    const survivorAddOns = computed(() => {
+        return [...rawSurvivorAddOns].sort((a, b) => a.name.localeCompare(b.name));
+    });
+
+    const killerAddOns = computed(() => {
+        return [...rawKillerAddOns].sort((a, b) => a.name.localeCompare(b.name));
+    });
+
     const combinedGameItems = computed(() => {
-        return [...survivorPerks, ...survivorAddOns, ...killerPerks, ...killerAddOns].sort((a, b) =>
+        return [...survivorPerks, ...rawSurvivorAddOns, ...killerPerks, ...rawKillerAddOns].sort((a, b) =>
             a.name.localeCompare(b.name)
         );
     });
