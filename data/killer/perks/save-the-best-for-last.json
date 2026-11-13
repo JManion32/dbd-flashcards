@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "content": "For each Token, your basic-attack cooldown is [5%] shorter."
+            "content": "For each Token, your successful basic-attack cooldown is [5%] shorter."
         },
         {
             "type": "text",

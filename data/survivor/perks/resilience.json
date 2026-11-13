@@ -7,7 +7,20 @@
     "description": [
         {
             "type": "text",
-            "content": "While injured, you repair, sabotage, heal, unhook, vault, cleanse, bless, open Exit Gates, and unlock Chests [9%] faster."
+            "content": "While injured:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "You bless and cleanse Totems [9%] faster.",
+                "You heal [9%] faster.",
+                "You open Exit Gates [9%] faster.",
+                "You repair [9%] faster.",
+                "You sabotage Hooks [9%] faster.",
+                "You unhook Survivors [9%] faster.",
+                "You unlock chests [9%] faster.",
+                "You vault [9%] faster."
+            ]
         }
     ],
     "quote": "\"Focus, even in these desperate times.\"",

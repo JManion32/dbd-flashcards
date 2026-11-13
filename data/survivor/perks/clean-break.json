@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you finish healing another Survivor, while being healed by another Survivor, use <Activate Ability> to gain [Broken]."
+            "content": "Whenever you finish healing a Survivor, while being healed, use <Activate Ability> to gain [Broken]."
         },
         {
             "type": "text",

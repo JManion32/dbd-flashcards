@@ -13,8 +13,7 @@
             "type": "list",
             "items": [
                 "The range of Generator repair noises is [16m] shorter.",
-                "Whenever you miss a basic Skill Check, the Generator does not explode, but loses [2%] more progress.",
-                "You leave no Scratch Marks."
+                "Whenever you miss a basic Skill Check, the Generator does not explode, but loses [2%] more progress."
             ]
         }
     ],

@@ -1,6 +1,6 @@
 {
-    "name": "Teamwork: Throwdown",
-    "id": "teamwork-throwdown",
+    "name": "Teamwork: Throw Down",
+    "id": "teamwork-throw-down",
     "side": "Survivor",
     "type": "Perk",
     "owner": "Michonne Grimes",
@@ -13,7 +13,7 @@
             "type": "list",
             "items": [
                 "Gain [Endurance].",
-                "You see the Killer's Aura."
+                "See the Killer's Aura."
             ]
         }
     ],

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { ArrowDownAZ, ArrowDownZA, ArrowUp, ArrowDown, SquareUserRound } from 'lucide-vue-next';
+import { ArrowDownAZ, ArrowUpAZ, ArrowUp, ArrowDown, SquareUserRound } from 'lucide-vue-next';
 import type { GameItemSort } from '@/types/gameItemSort';
 const props = defineProps<{
     filteredCount: number;
@@ -63,7 +63,7 @@ function handleSortEmit(btn: string) {
                 @click="handleSortEmit('alpha')"
             >
                 <ArrowDownAZ v-if="props.sort.alphaAsc" />
-                <ArrowDownZA v-if="!props.sort.alphaAsc" />
+                <ArrowUpAZ v-if="!props.sort.alphaAsc" />
             </button>
             <!-- Group by Owner -->
             <button

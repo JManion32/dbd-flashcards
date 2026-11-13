@@ -7,13 +7,13 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you damage a Generator, when you down a Survivor, all Generators damaged this way:"
+            "content": "After damaging a Generator, when you down a Survivor, all Generators damaged this way:"
         },
         {
             "type": "list",
             "items": [
                 "Explode, lose [10%] progress and start regressing.",
-                "Survivors repairing them scream, then you see their Auras for [12s]."
+                "Survivors repairing them scream, and you see their Auras for [12s]."
             ]
         },
         {
