@@ -83,7 +83,7 @@ onUnmounted(() => {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(0 0 0 / 95%);
+    background: rgb(0 0 0 / 88%);
     z-index: 1000;
 }
 .modal-container {

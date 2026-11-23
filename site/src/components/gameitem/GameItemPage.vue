@@ -2,10 +2,14 @@
 import GameItemFilter from '@/components/gameitem/GameItemFilter.vue';
 import GameItemSort from '@/components/gameitem/GameItemSort.vue';
 import GameItemModal from '@/components/gameitem/GameItemModal.vue';
+import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
+import Modal from '@/components/Modal.vue';
 import cursedImage from '@/assets/cursed-image.png';
 
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
-import { useRoute } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
+import getRarityColor from '@/utils/getRarityColor';
+import { gameItemBasePath, gameItemPath } from '@/utils/gameItemSeo';
 import { GameItemFilterDefault, type GameItemFilter as GameItemFilterType } from '@/types/gameItemFilter';
 import { GameItemSortDefault, type GameItemSort as GameItemSortType } from '@/types/gameItemSort';
 import type { GameItem } from '@/types/gameItem';
@@ -13,9 +17,47 @@ import type { GameItem } from '@/types/gameItem';
 const props = defineProps<{
     type: 'perk' | 'add-on';
     gameItems: GameItem[];
+    // From the URL: /perks/agitation opens Agitation over the list
+    openId?: string | string[];
 }>();
 
 const route = useRoute();
+const router = useRouter();
+
+/* --- Item modal -----------------------------------------------------------
+   Each perk and add-on has its own URL so search engines can index it. Clicking a card
+   navigates there and this one modal shows whatever the URL names, which also lets a
+   shared or searched link open straight onto an item that isn't in the rendered batch. */
+const listPath = gameItemBasePath(props.type === 'perk' ? 'Perk' : 'Add-On');
+const openGameItem = computed(() => props.gameItems.find((gameItem) => gameItem.id === props.openId));
+
+// Kept after closing so the modal still has content while its leave transition plays
+const shownGameItem = ref<GameItem | undefined>(openGameItem.value);
+watch(openGameItem, (gameItem) => {
+    if (gameItem) {
+        shownGameItem.value = gameItem;
+    }
+});
+// Perks have no rarity, so they keep the default modal color
+const shownColor = computed(() =>
+    shownGameItem.value?.rarity ? getRarityColor(shownGameItem.value.rarity) : 'var(--very-rare-rarity)'
+);
+
+// Keeps the query (?side=Killer), which the filter is reset from whenever it changes
+function cardLink(gameItem: GameItem) {
+    return { path: gameItemPath(gameItem), query: route.query };
+}
+
+function closeGameItem() {
+    // Opened from the list in this tab: step back, so the browser's Back doesn't reopen it.
+    // Arrived on the item's URL directly: swap to the list without leaving the site.
+    const back = window.history.state?.back;
+    if (typeof back === 'string' && router.resolve(back).path === listPath) {
+        router.back();
+    } else {
+        router.replace({ path: listPath, query: route.query });
+    }
+}
 
 // Links can preselect a side with ?side=Killer or ?side=Survivor.
 function initialFilter(): GameItemFilterType {
@@ -207,12 +249,24 @@ onUnmounted(() => {
                 v-for="gameItem in renderedGameItems"
                 :key="gameItem.id"
                 :game-item="gameItem"
+                :to="cardLink(gameItem)"
             />
         </div>
         <div
             ref="sentinel"
             class="render-sentinel"
         />
+        <Modal
+            :visible="!!openGameItem"
+            :color="shownColor"
+            transition="scale"
+            @close="closeGameItem"
+        >
+            <GameItemDisplay
+                v-if="shownGameItem"
+                :game-item="shownGameItem"
+            />
+        </Modal>
     </div>
 </template>
 <style scoped>

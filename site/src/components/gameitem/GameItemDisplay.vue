@@ -171,7 +171,7 @@ const ownerLabel = computed(() => {
     position: absolute;
     bottom: 0;
     right: 0;
-    opacity: 1%;
+    opacity: 1.5%;
     pointer-events: none;
 }
 </style>

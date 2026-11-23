@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import '@/styles/modal.css';
 import { computed, ref } from 'vue';
+import { RouterLink, type RouteLocationRaw } from 'vue-router';
 
 import Modal from '@/components/Modal.vue';
 import GameItemDisplay from '@/components/gameitem/GameItemDisplay.vue';
@@ -13,11 +14,17 @@ import { getGameItemImage } from '@/utils/resolveGameItemImg';
 
 const props = defineProps<{
     gameItem: GameItem;
+    // When set, the card is a link to the item's own page and the parent shows the modal for that
+    // URL. Without it (e.g. the home carousel) the card opens its own modal in place.
+    to?: RouteLocationRaw;
 }>();
 
 const visible = ref(false);
 const opened = ref(false);
 function open() {
+    if (props.to) {
+        return;
+    }
     opened.value = true;
     visible.value = true;
 }
@@ -27,7 +34,9 @@ const rarityColor = computed(() =>
 );
 </script>
 <template>
-    <div
+    <component
+        :is="props.to ? RouterLink : 'div'"
+        v-bind="props.to ? { to: props.to } : {}"
         class="display-card"
         :style="getTintStyle(rarityColor)"
         @click="open"
@@ -50,9 +59,9 @@ const rarityColor = computed(() =>
             }"
             >{{ props.gameItem.name }}</span
         >
-    </div>
+    </component>
     <Modal
-        v-if="opened"
+        v-if="opened && !props.to"
         :visible="visible"
         :color="rarityColor"
         transition="scale"
@@ -64,6 +73,7 @@ const rarityColor = computed(() =>
 </template>
 <style scoped>
 .display-card {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
