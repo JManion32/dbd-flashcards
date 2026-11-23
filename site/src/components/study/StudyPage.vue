@@ -13,6 +13,7 @@ import { StudyConfigDefault } from '@/types/studyConfig';
 import { useData } from '@/stores/useData';
 import { useStudy } from '@/stores/useStudy';
 import { shuffle } from '@/utils/shuffleFlashcards';
+import { filterStudyPool } from '@/utils/filterStudyPool';
 
 const { combinedGameItems } = useData();
 const props = withDefaults(
@@ -28,19 +29,7 @@ const { studyConfig } = useStudy();
 
 studyConfig.value = props.config;
 
-const filteredGameItems = computed(() => {
-    return combinedGameItems.value.filter((gameItem) => {
-        if (gameItem.side !== props.config.side && props.config.side !== 'All') {
-            return false;
-        }
-
-        if (gameItem.type !== props.config.type) {
-            return false;
-        }
-
-        return true;
-    });
-});
+const filteredGameItems = computed(() => filterStudyPool(combinedGameItems.value, props.config));
 
 const shuffledGameItems = shuffle([...filteredGameItems.value]);
 

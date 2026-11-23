@@ -5,6 +5,7 @@ import { createWebHistory, createRouter } from 'vue-router';
 import { useData } from '@/stores/useData';
 import { applyPageMeta } from '@/utils/pageMeta';
 import { routeMeta, type PageMeta } from '@/routeMeta';
+import { StudyConfigDefault } from '@/types/studyConfig';
 
 import HomePage from '@/components/home/HomePage.vue';
 import StudyPage from '@/components/study/StudyPage.vue';
@@ -23,7 +24,8 @@ const routes = [
     {
         path: '/study',
         component: StudyPage,
-        props: () => ({ config: history.state?.config }),
+        // Fill in defaults so a config saved in history before a field existed still works.
+        props: () => ({ config: history.state?.config && { ...StudyConfigDefault, ...history.state.config } }),
         meta: routeMeta['/study'],
     },
     {

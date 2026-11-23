@@ -5,6 +5,8 @@ const props = defineProps<{
     label: string;
     items: string[];
     activeValues: string[];
+    // Start expanded, e.g. when already tucked inside another collapsible section
+    defaultOpen?: boolean;
 }>();
 
 const emit = defineEmits<{
@@ -12,7 +14,7 @@ const emit = defineEmits<{
 }>();
 
 // Collapsed by default; these lists are long
-const open = ref(false);
+const open = ref(props.defaultOpen ?? false);
 
 function toggleItem(item: string) {
     const values = props.activeValues.includes(item)

@@ -3,6 +3,10 @@ export interface StudyConfig {
     type: 'Perk' | 'Add-On';
     preset: 'Names / Icons' | 'Icons' | 'Descriptions';
     length: number | 'All';
+    // Owner picks; empty means everyone. Survivor perks use `survivors`, survivor add-ons use `items`.
+    survivors: string[];
+    killers: string[];
+    items: string[];
 }
 
 export const StudyConfigDefault: StudyConfig = {
@@ -10,4 +14,7 @@ export const StudyConfigDefault: StudyConfig = {
     type: 'Perk',
     preset: 'Names / Icons',
     length: 25,
+    survivors: [],
+    killers: [],
+    items: [],
 };

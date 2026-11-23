@@ -11,11 +11,15 @@ import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import Modal from '@/components/Modal.vue';
 import OptionSelector from '@/components/OptionSelector.vue';
+import ManyOptionSelector from '@/components/ManyOptionSelector.vue';
+import { filterStudyPool } from '@/utils/filterStudyPool';
 import { useData } from '@/stores/useData';
 
 const visible = ref(false);
+// Owner pickers live in a collapsed section so the main options don't shift as Side/Type change
+const advancedOpen = ref(false);
 const router = useRouter();
-const { combinedGameItems } = useData();
+const { combinedGameItems, survivors, killers, items } = useData();
 
 const config = ref<StudyConfig>({ ...StudyConfigDefault });
 
@@ -46,15 +50,7 @@ const lengthOptions: Option<StudyConfig['length']>[] = [
 ];
 
 // Same filter StudyPage applies, so the summary matches the session
-const poolSize = computed(() => {
-    return combinedGameItems.value.filter((gameItem) => {
-        if (gameItem.side !== config.value.side && config.value.side !== 'All') {
-            return false;
-        }
-
-        return gameItem.type === config.value.type;
-    }).length;
-});
+const poolSize = computed(() => filterStudyPool(combinedGameItems.value, config.value).length);
 
 const sessionSize = computed(() => {
     return config.value.length === 'All' ? poolSize.value : Math.min(config.value.length, poolSize.value);
@@ -64,8 +60,21 @@ const sessionSummary = computed(() => {
     const typeLabel = config.value.type === 'Perk' ? 'perks' : 'add-ons';
     const sideLabel = config.value.side === 'All' ? '' : `${config.value.side.toLowerCase()} `;
 
-    return `${sessionSize.value} of ${poolSize.value} ${sideLabel}${typeLabel}`;
+    const ownerCount = selectedOwners.value.length;
+    const ownerLabel = ownerCount ? ` from ${ownerCount === 1 ? selectedOwners.value[0] : `${ownerCount} picks`}` : '';
+
+    return `${sessionSize.value} of ${poolSize.value} ${sideLabel}${typeLabel}${ownerLabel}`;
 });
+
+// Only the lists whose selector is showing count, matching filterStudyPool
+const showSurvivors = computed(() => config.value.type === 'Perk' && config.value.side !== 'Killer');
+const showItems = computed(() => config.value.type === 'Add-On' && config.value.side !== 'Killer');
+const showKillers = computed(() => config.value.side !== 'Survivor');
+const selectedOwners = computed(() => [
+    ...(showSurvivors.value ? config.value.survivors : []),
+    ...(showItems.value ? config.value.items : []),
+    ...(showKillers.value ? config.value.killers : []),
+]);
 
 function setConfig<K extends keyof StudyConfig>(key: K, value: StudyConfig[K]) {
     config.value[key] = value;
@@ -76,8 +85,14 @@ function startStudy() {
 
     router.push({
         path: '/study',
+        // history.state is structured-cloned, which rejects Vue's reactive arrays, so copy them out
         state: {
-            config: { ...config.value },
+            config: {
+                ...config.value,
+                survivors: [...config.value.survivors],
+                killers: [...config.value.killers],
+                items: [...config.value.items],
+            },
         },
     });
 }
@@ -101,11 +116,7 @@ function restoreDefaults() {
         @close="visible = false"
     >
         <div class="modal-content">
-            <h2>Start Flashcards</h2>
-            <p class="start-study-subtitle">
-                <i>Configure your study session, then begin!</i>
-            </p>
-
+            <h2 style="font-size: 2.5rem">Start Flashcards</h2>
             <div class="option-groups">
                 <OptionSelector
                     label="Side"
@@ -131,6 +142,54 @@ function restoreDefaults() {
                     :active-value="config.length"
                     @selected="(newValue) => setConfig('length', newValue)"
                 />
+                <div class="advanced">
+                    <button
+                        class="advanced-toggle"
+                        :aria-expanded="advancedOpen"
+                        @click="advancedOpen = !advancedOpen"
+                    >
+                        <span
+                            class="chevron"
+                            :class="{ open: advancedOpen }"
+                            >&#9656;</span
+                        >
+                        <span class="advanced-label">Advanced</span>
+                        <span
+                            v-if="selectedOwners.length"
+                            class="advanced-count"
+                            >{{ selectedOwners.length }} selected</span
+                        >
+                    </button>
+                    <div
+                        v-if="advancedOpen"
+                        class="advanced-options"
+                    >
+                        <ManyOptionSelector
+                            v-if="showSurvivors"
+                            label="Survivors"
+                            default-open
+                            :items="survivors"
+                            :active-values="config.survivors"
+                            @selected="(newValues) => setConfig('survivors', newValues)"
+                        />
+                        <ManyOptionSelector
+                            v-if="showItems"
+                            label="Items"
+                            default-open
+                            :items="items"
+                            :active-values="config.items"
+                            @selected="(newValues) => setConfig('items', newValues)"
+                        />
+                        <ManyOptionSelector
+                            v-if="showKillers"
+                            label="Killers"
+                            default-open
+                            :items="killers"
+                            :active-values="config.killers"
+                            @selected="(newValues) => setConfig('killers', newValues)"
+                        />
+                    </div>
+                </div>
             </div>
             <div class="study-actions-container">
                 <!--
@@ -162,7 +221,54 @@ function restoreDefaults() {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin: 2.5rem 0 2rem 0;
+    margin: 1.75rem 0;
+}
+.advanced {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.advanced-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.chevron {
+    color: var(--inactive-text);
+    font-size: 1rem;
+    transition: var(--site-transition);
+}
+.chevron.open {
+    rotate: 90deg;
+}
+.advanced-label {
+    color: var(--inactive-text);
+    font-size: 0.95rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    transition: var(--site-transition);
+}
+.advanced-toggle:hover .advanced-label,
+.advanced-toggle:hover .chevron {
+    color: var(--standard-white);
+}
+.advanced-count {
+    color: var(--standard-gold);
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-style: italic;
+}
+.advanced-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-left: 1.6rem;
 }
 .study-actions-container {
     display: flex;
