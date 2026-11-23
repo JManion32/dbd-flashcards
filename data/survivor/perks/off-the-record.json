@@ -16,11 +16,16 @@
                 "Your Grunts of Pain are [100%] quieter.",
                 "The Killer cannot see your Aura."
             ]
+        },
+        {
+            "type": "text",
+            "content": "This is disabled by conspicuous actions."
         }
     ],
     "quote": "\"Trust me, I investigate thoroughly and discreetly.\" -Zarina Kassir",
     "tags": [
         "Aura",
+        "Conspicuous Action",
         "Endurance",
         "Unhooking"
     ]

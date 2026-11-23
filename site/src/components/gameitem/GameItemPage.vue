@@ -4,7 +4,7 @@ import GameItemSort from '@/components/gameitem/GameItemSort.vue';
 import GameItemModal from '@/components/gameitem/GameItemModal.vue';
 import cursedImage from '@/assets/cursed-image.png';
 
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { GameItemFilterDefault, type GameItemFilter as GameItemFilterType } from '@/types/gameItemFilter';
 import { GameItemSortDefault, type GameItemSort as GameItemSortType } from '@/types/gameItemSort';
@@ -132,6 +132,51 @@ const filteredAndSortedGameItems = computed(() => {
         return alphaAsc ? byName : -byName;
     });
 });
+
+// Render a batch at a time instead of all at once.
+const BATCH_SIZE = 60;
+const renderCount = ref(BATCH_SIZE);
+const renderedGameItems = computed(() => filteredAndSortedGameItems.value.slice(0, renderCount.value));
+const hasMore = computed(() => renderCount.value < filteredAndSortedGameItems.value.length);
+
+// A new filter or sort starts back at the first batch.
+watch(filteredAndSortedGameItems, () => {
+    renderCount.value = BATCH_SIZE;
+});
+
+const sentinel = ref<HTMLElement | null>(null);
+let observer: IntersectionObserver | null = null;
+
+onMounted(() => {
+    observer = new IntersectionObserver(
+        (entries) => {
+            if (entries.some((entry) => entry.isIntersecting) && hasMore.value) {
+                renderCount.value += BATCH_SIZE;
+            }
+        },
+        { rootMargin: '0px 0px 1200px 0px' }
+    );
+    if (sentinel.value) {
+        observer.observe(sentinel.value);
+    }
+});
+
+// The observer only fires on a change, so if the sentinel is still in range after a batch
+// renders (tall screens, short cards), re-observe to get a fresh callback and keep filling.
+watch(
+    renderCount,
+    () => {
+        if (observer && sentinel.value) {
+            observer.unobserve(sentinel.value);
+            observer.observe(sentinel.value);
+        }
+    },
+    { flush: 'post' }
+);
+
+onUnmounted(() => {
+    observer?.disconnect();
+});
 </script>
 <template>
     <div class="card-displays-container">
@@ -159,11 +204,15 @@ const filteredAndSortedGameItems = computed(() => {
                 <p class="no-matches">No results found...</p>
             </div>
             <GameItemModal
-                v-for="gameItem in filteredAndSortedGameItems"
+                v-for="gameItem in renderedGameItems"
                 :key="gameItem.id"
                 :game-item="gameItem"
             />
         </div>
+        <div
+            ref="sentinel"
+            class="render-sentinel"
+        />
     </div>
 </template>
 <style scoped>
@@ -179,6 +228,9 @@ const filteredAndSortedGameItems = computed(() => {
     gap: 0.8rem;
     width: 100%;
     justify-content: center;
+}
+.render-sentinel {
+    height: 1px;
 }
 .no-match-container {
     margin-top: 3rem;

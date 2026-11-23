@@ -16,6 +16,11 @@ const props = defineProps<{
 }>();
 
 const visible = ref(false);
+const opened = ref(false);
+function open() {
+    opened.value = true;
+    visible.value = true;
+}
 // Perks have no rarity, so they keep the default card and modal colors
 const rarityColor = computed(() =>
     props.gameItem.rarity ? getRarityColor(props.gameItem.rarity) : 'var(--very-rare-rarity)'
@@ -25,11 +30,13 @@ const rarityColor = computed(() =>
     <div
         class="display-card"
         :style="getTintStyle(rarityColor)"
-        @click="visible = true"
+        @click="open"
     >
         <img
             class="display-card-img"
             :src="getGameItemImage(props.gameItem.id)"
+            loading="lazy"
+            decoding="async"
             draggable="false"
         />
         <!--TODO: Something more robust... It's only these 2 Skull Merchant Add-Ons tho...-->
@@ -45,6 +52,7 @@ const rarityColor = computed(() =>
         >
     </div>
     <Modal
+        v-if="opened"
         :visible="visible"
         :color="rarityColor"
         transition="scale"
