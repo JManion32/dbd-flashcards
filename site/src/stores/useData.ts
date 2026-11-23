@@ -8,6 +8,8 @@ import {
     killers,
     survivors,
     items,
+    killersByRelease,
+    survivorsByRelease,
 } from '@/utils/loadData';
 
 export function useData() {
@@ -45,5 +47,7 @@ export function useData() {
         killers,
         survivors,
         items,
+        killersByRelease,
+        survivorsByRelease,
     };
 }

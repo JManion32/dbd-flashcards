@@ -19,7 +19,7 @@ const visible = ref(false);
 // Owner pickers live in a collapsed section so the main options don't shift as Side/Type change
 const advancedOpen = ref(false);
 const router = useRouter();
-const { combinedGameItems, survivors, killers, items } = useData();
+const { combinedGameItems, survivors, killers, items, survivorsByRelease, killersByRelease } = useData();
 
 const config = ref<StudyConfig>({ ...StudyConfigDefault });
 
@@ -169,6 +169,7 @@ function restoreDefaults() {
                             label="Survivors"
                             default-open
                             :items="survivors"
+                            :release-items="survivorsByRelease"
                             :active-values="config.survivors"
                             @selected="(newValues) => setConfig('survivors', newValues)"
                         />
@@ -185,6 +186,7 @@ function restoreDefaults() {
                             label="Killers"
                             default-open
                             :items="killers"
+                            :release-items="killersByRelease"
                             :active-values="config.killers"
                             @selected="(newValues) => setConfig('killers', newValues)"
                         />

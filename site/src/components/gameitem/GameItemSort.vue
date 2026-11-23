@@ -106,7 +106,7 @@ function handleSortEmit(btn: string) {
     color: var(--standard-white);
     padding: 0.25rem 0.75rem;
     background: var(--dark-4);
-    border: none;
+    border: 1px solid transparent;
     border-radius: 0.5rem;
     transition: var(--site-transition);
 
@@ -115,7 +115,9 @@ function handleSortEmit(btn: string) {
         background: var(--dark-5);
     }
 }
+/* Same highlight as the selectors in the modals */
 .sort-btn.selected {
-    background: var(--filter-selected-btn);
+    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
 }
 </style>

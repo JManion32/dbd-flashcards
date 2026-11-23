@@ -123,11 +123,13 @@ const emit = defineEmits<{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.35rem;
 
-    background: #1a1a1a;
-    border-radius: 0.75rem;
-    padding: 0.25rem;
+    /* Same track and highlight as OptionSelector in the modals */
+    background: var(--dark-0);
+    border: 1px solid var(--dark-4);
+    border-radius: 0.85rem;
+    padding: 0.35rem;
 }
 .right-filter-container {
     display: flex;
@@ -210,8 +212,8 @@ const emit = defineEmits<{
     transition: var(--site-transition);
     padding: 0.5rem 1.5rem;
     font-size: 16px;
-    border-radius: 0.5rem;
-    border: none;
+    border-radius: 0.6rem;
+    border: 1px solid transparent;
     font-weight: 800;
     align-items: center;
 }
@@ -219,10 +221,11 @@ const emit = defineEmits<{
     color: var(--standard-white);
     text-shadow: var(--small-text-shadow);
     cursor: pointer;
-    background: var(--dark-4);
+    background: var(--dark-3);
 }
 .quick-select-btn.active {
     color: var(--standard-white);
-    background: var(--filter-selected-btn);
+    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
 }
 </style>

@@ -43,7 +43,17 @@ export const killerAddOns = withLastUpdated(killerAddOnModules);
 
 const alphabetical = (list: string[]) => [...list].sort((a, b) => a.localeCompare(b));
 
+// Universal isn't a character, so it stays at the front rather than sorting in among the U's
+const alphabeticalOwners = (list: string[]) => [
+    ...list.filter((owner) => owner === 'Universal'),
+    ...alphabetical(list.filter((owner) => owner !== 'Universal')),
+];
+
 export const tags = alphabetical(tagList);
-export const killers = alphabetical(killerList);
-export const survivors = alphabetical(survivorList);
+export const killers = alphabeticalOwners(killerList);
+export const survivors = alphabeticalOwners(survivorList);
 export const items = alphabetical(itemList);
+
+// The validation lists are kept in release order (Universal first), so these are used as-is
+export const killersByRelease = [...killerList];
+export const survivorsByRelease = [...survivorList];

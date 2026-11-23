@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
 const props = defineProps<{
     label: string;
@@ -7,6 +7,8 @@ const props = defineProps<{
     activeValues: string[];
     // Start expanded, e.g. when already tucked inside another collapsible section
     defaultOpen?: boolean;
+    // The same items in release order. When given, a toggle switches between it and `items` (A–Z).
+    releaseItems?: string[];
 }>();
 
 const emit = defineEmits<{
@@ -15,6 +17,10 @@ const emit = defineEmits<{
 
 // Collapsed by default; these lists are long
 const open = ref(props.defaultOpen ?? false);
+
+// Release order is the default wherever it's available
+const byRelease = ref(true);
+const displayedItems = computed(() => (props.releaseItems && byRelease.value ? props.releaseItems : props.items));
 
 function toggleItem(item: string) {
     const values = props.activeValues.includes(item)
@@ -44,20 +50,45 @@ function toggleItem(item: string) {
                     >{{ props.activeValues.length }} selected</span
                 >
             </button>
-            <button
-                v-if="props.activeValues.length"
-                class="clear-btn"
-                @click="emit('selected', [])"
-            >
-                Clear
-            </button>
+            <div class="header-actions">
+                <div
+                    v-if="open && props.releaseItems"
+                    class="sort-switch"
+                    role="group"
+                    aria-label="Sort order"
+                >
+                    <button
+                        class="sort-option"
+                        :class="{ active: byRelease }"
+                        :aria-pressed="byRelease"
+                        @click="byRelease = true"
+                    >
+                        Release
+                    </button>
+                    <button
+                        class="sort-option"
+                        :class="{ active: !byRelease }"
+                        :aria-pressed="!byRelease"
+                        @click="byRelease = false"
+                    >
+                        A–Z
+                    </button>
+                </div>
+                <button
+                    v-if="props.activeValues.length"
+                    class="header-btn"
+                    @click="emit('selected', [])"
+                >
+                    Clear
+                </button>
+            </div>
         </div>
         <div
             v-if="open"
             class="chips"
         >
             <button
-                v-for="item in props.items"
+                v-for="item in displayedItems"
                 :key="item"
                 class="chip"
                 :class="{ active: props.activeValues.includes(item) }"
@@ -118,7 +149,44 @@ function toggleItem(item: string) {
     font-weight: 700;
     font-style: italic;
 }
-.clear-btn {
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sort-switch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2rem;
+    padding: 0.2rem;
+    border-radius: 0.6rem;
+    background: var(--dark-0);
+    border: 1px solid var(--dark-4);
+}
+/* Same fade-in highlight as OptionSelector's segments, just smaller */
+.sort-option {
+    padding: 0.2rem 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.45rem;
+    background: none;
+    color: var(--dim-text);
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: var(--site-transition);
+    cursor: pointer;
+}
+.sort-option:hover {
+    color: var(--standard-white);
+    background: var(--dark-3);
+}
+.sort-option.active {
+    color: var(--standard-white);
+    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
+}
+.header-btn {
     padding: 0;
     border: none;
     background: none;
@@ -129,7 +197,7 @@ function toggleItem(item: string) {
     font-style: italic;
     transition: var(--site-transition);
 }
-.clear-btn:hover {
+.header-btn:hover {
     cursor: pointer;
     color: var(--standard-white);
 }

@@ -20,7 +20,7 @@ const emit = defineEmits<{
 }>();
 
 const visible = ref(false);
-const { tags, survivors, killers, items } = useData();
+const { tags, survivors, killers, items, survivorsByRelease, killersByRelease } = useData();
 
 const sideOptions: Option<GameItemFilter['side']>[] = [
     { value: 'Killer', label: 'Killer' },
@@ -79,6 +79,7 @@ function clearFilters() {
                     v-if="props.type === 'perk' && (props.filter.side === 'All' || props.filter.side === 'Survivor')"
                     label="Survivors"
                     :items="survivors"
+                    :release-items="survivorsByRelease"
                     :active-values="props.filter.survivors"
                     @selected="(newValues) => setFilter('survivors', newValues)"
                 />
@@ -93,6 +94,7 @@ function clearFilters() {
                     v-if="props.filter.side === 'All' || props.filter.side === 'Killer'"
                     label="Killers"
                     :items="killers"
+                    :release-items="killersByRelease"
                     :active-values="props.filter.killers"
                     @selected="(newValues) => setFilter('killers', newValues)"
                 />
