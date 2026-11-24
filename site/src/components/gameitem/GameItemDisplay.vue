@@ -78,12 +78,11 @@ const ownerLabel = computed(() => {
         >
             {{ props.gameItem.quote }}
         </p>
-        <p
-            v-if="props.gameItem.lastUpdated"
-            class="game-item-display-date"
-        >
-            Last Updated: {{ props.gameItem.lastUpdated }}
-        </p>
+        <div class="game-item-footer">
+            <span v-if="props.gameItem.lastUpdated"> Last Updated: {{ props.gameItem.lastUpdated }} </span>
+            <span>•</span>
+            <span> v{{ props.gameItem.version }} </span>
+        </div>
         <img
             class="gid-side-icon"
             :src="props.gameItem.side === 'Killer' ? killerIcon : survivorIcon"
@@ -157,12 +156,16 @@ const ownerLabel = computed(() => {
     color: var(--dim-text);
     font-style: italic;
 }
-.game-item-display-date {
+.game-item-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
     margin-top: auto;
     padding-top: 2.5rem;
+    align-self: center;
+
     color: var(--dim-text);
     font-weight: 700;
-    align-self: center;
     font-size: 0.85rem;
 }
 .gid-side-icon {
