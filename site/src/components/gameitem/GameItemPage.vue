@@ -203,10 +203,8 @@ onMounted(() => {
     }
 });
 
-// The observer only fires on a change, so if the sentinel is still in range after a batch
-// renders (tall screens, short cards), re-observe to get a fresh callback and keep filling.
 watch(
-    renderCount,
+    renderedGameItems,
     () => {
         if (observer && sentinel.value) {
             observer.unobserve(sentinel.value);
