@@ -1,42 +1,35 @@
 <script setup lang="ts">
-import siteLogo from '@/assets/logo-512.png';
+import Sidebar from '@/components/Sidebar.vue';
 import StartStudyModal from '@/components/study/StartStudyModal.vue';
 import { useStudy } from '@/stores/useStudy';
 
+import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 const route = useRoute();
 
 const { studyConfig } = useStudy();
+
+// Keyed by the first part of the path, so /perks/agitation still shows "Perks"
+const pageTitles: Record<string, string> = {
+    '/': 'Home',
+    '/killers': 'Killers',
+    '/survivors': 'Survivors',
+    '/perks': 'Perks',
+    '/add-ons': 'Add-Ons',
+    '/status-effects': 'Status Effects',
+    '/study': 'Study',
+};
+const pageTitle = computed(() => pageTitles['/' + route.path.split('/')[1]] ?? '');
 </script>
 
 <template>
     <div class="header-filler-container" />
     <div class="header-container">
         <div class="header-home-container">
-            <RouterLink to="/">
-                <img
-                    :src="siteLogo"
-                    class="site-logo"
-                    to="/"
-                />
-            </RouterLink>
-            <nav
-                v-if="route.path !== '/study'"
-                class="nav-link-container"
-            >
-                <RouterLink
-                    class="nav-link"
-                    to="/perks"
-                >
-                    Perks
-                </RouterLink>
-                <RouterLink
-                    class="nav-link"
-                    to="/add-ons"
-                >
-                    Add-Ons
-                </RouterLink>
-            </nav>
+            <Sidebar />
+            <p class="page-title">
+                {{ pageTitle }}
+            </p>
         </div>
         <StartStudyModal v-if="route.path !== '/study'" />
         <p
@@ -74,42 +67,17 @@ const { studyConfig } = useStudy();
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1.5rem;
+    gap: 0.75rem;
 }
 .header-header {
     color: var(--standard-white);
     margin: 0;
 }
-.site-logo {
-    height: 2.7rem;
-    transition: var(--site-transition);
-}
-.site-logo:hover {
-    scale: 1.1;
-    cursor: pointer;
-}
-.nav-link-container {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-.nav-link {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: var(--inactive-text);
-    font-weight: 800;
-    transition: var(--site-transition);
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
-}
-.nav-link:hover {
+.page-title {
     color: var(--standard-white);
-    background: var(--dark-2);
-    text-shadow: var(--small-text-glow);
-}
-.nav-link.router-link-exact-active {
-    color: var(--standard-white);
-    background: var(--dark-4);
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 900;
     text-shadow: var(--small-text-glow);
 }
 .study-info {
