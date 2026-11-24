@@ -7,14 +7,15 @@
     "description": [
         {
             "type": "text",
-            "content": "Other Survivors unhook you [100%] faster."
+            "content": "Other Survivors unhook you [75%] faster."
         },
         {
             "type": "text",
-            "content": "Whenever you are unhooked, you gain [5%] more [Haste]."
+            "content": "Whenever you are unhooked, you gain [7%] more [Haste]."
         }
     ],
     "tags": [
+        "Haste",
         "Unhooking"
     ],
     "version": "10.3.0"

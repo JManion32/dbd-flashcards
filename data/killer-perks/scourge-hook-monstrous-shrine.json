@@ -19,6 +19,10 @@
         {
             "type": "text",
             "content": "While you are at least [24m] away from a Survivor on a Scourge Hook, any Generator that isn't being repaired regresses at [200%] speed."
+        },
+        {
+            "type": "text",
+            "content": "When the Survivor is no longer hooked this effect ends in [30s]."
         }
     ],
     "quote": "\"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\"",

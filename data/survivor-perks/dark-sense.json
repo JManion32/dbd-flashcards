@@ -7,12 +7,16 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever a Generator is completed, when the Killer gets within [20m] of you, for [15s]:"
+            "content": "When the trial starts, and after a Generator is completed, you earn [1] Token, up to [5]."
+        },
+        {
+            "type": "text",
+            "content": "When the Killer gets within [20m] of you, spend [1] Token. Then, for the next [15s]:"
         },
         {
             "type": "list",
             "items": [
-                "You see the Auras of Pallets and Windows within [32m].",
+                "You see the Aura of Pallets and Windows within [32m].",
                 "You see the Auras of other Survivors.",
                 "You see the Killer's Aura."
             ]
@@ -23,6 +27,7 @@
         "Aura",
         "Generator",
         "Pallet",
+        "Token",
         "Window"
     ],
     "version": "10.3.0"
