@@ -1,0 +1,20 @@
+{
+    "name": "Elusive",
+    "id": "elusive",
+    "side": "Survivor",
+    "type": "Buff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Affected Survivors:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Leave no Scratch Marks, Pools of Blood, or Grunts of Pain.",
+                "Their Aura cannot be revealed to the Killer."
+            ]
+        }
+    ],
+    "version": "10.3.0"
+}

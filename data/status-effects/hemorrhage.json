@@ -1,0 +1,13 @@
+{
+    "name": "Hemorrhage",
+    "id": "hemorrhage",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Affected Survivors leave more Pools of Blood, and their partial healing progress regresses at [7%] per second."
+        }
+    ],
+    "version": "10.3.0"
+}

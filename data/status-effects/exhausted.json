@@ -1,0 +1,13 @@
+{
+    "name": "Exhausted",
+    "id": "exhausted",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Prevents affected Survivors from using [Exhaustion] Perks. Recovers only while they are not running."
+        }
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Haste",
+    "id": "haste",
+    "side": "All",
+    "type": "Buff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the movement speed of affected Players. The amount depends on the source."
+        }
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Undetectable",
+    "id": "undetectable",
+    "side": "Killer",
+    "type": "Buff",
+    "description": [
+        {
+            "type": "text",
+            "content": "While Killers are affected:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Their Terror Radius and Red Stain are suppressed.",
+                "Their Aura cannot be revealed to Survivors."
+            ]
+        }
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Mangled",
+    "id": "mangled",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Affected Survivors take [25%] longer to heal."
+        }
+    ],
+    "version": "10.3.0"
+}

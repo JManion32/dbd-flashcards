@@ -1,0 +1,24 @@
+{
+    "name": "Deep Wound",
+    "id": "deep-wound",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "A [20s] timer drains while affected Survivors are not running. When it runs out, or if they take any damage, they are put into the [Dying State]."
+        },
+        {
+            "type": "text",
+            "content": "Survivors must Mend to remove it:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[10s] on their own",
+                "[6s] when mended by another Survivor"
+            ]
+        }
+    ],
+    "version": "10.3.0"
+}

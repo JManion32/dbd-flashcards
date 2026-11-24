@@ -162,7 +162,7 @@ export function assertBalancedBrackets(file, value, field = '') {
 }
 
 // The site looks images up by id, so each item needs images/<id>.webp (or .png) next to its JSON.
-export function assertImage(file, id) {
+export function assertImageExists(file, id) {
     const imageDir = path.join(path.dirname(file), 'images');
     if (
         ![

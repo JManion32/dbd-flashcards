@@ -1,0 +1,80 @@
+{
+    "type": "object",
+    "required": [
+        "name",
+        "id",
+        "side",
+        "type",
+        "description",
+        "version"
+    ],
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "side": {
+            "enum": [
+                "Survivor",
+                "Killer",
+                "All"
+            ]
+        },
+        "type": {
+            "enum": [
+                "Buff",
+                "Debuff"
+            ]
+        },
+        "description": {
+            "type": "array",
+            "items": {
+                "oneOf": [
+                    {
+                        "type": "object",
+                        "required": [
+                            "type",
+                            "content"
+                        ],
+                        "properties": {
+                            "type": {
+                                "const": "text"
+                            },
+                            "content": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": false
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "type",
+                            "items"
+                        ],
+                        "properties": {
+                            "type": {
+                                "const": "list"
+                            },
+                            "items": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "minItems": 1
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                ]
+            },
+            "minItems": 1
+        },
+        "version": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false
+}

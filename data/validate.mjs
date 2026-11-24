@@ -16,7 +16,7 @@ import {
     assertAlphabeticalList,
     assertSemanticVersion,
     assertBalancedBrackets,
-    assertImage,
+    assertImageExists,
     assertNoOrphanImages,
 } from './validation/validate-helper.mjs';
 import validateFieldOrder from './validation/validateFieldOrder.mjs';
@@ -43,6 +43,7 @@ const schemas = {
     'killer-add-ons': 'game-item-schema.json',
     'survivor-perks': 'game-item-schema.json',
     'survivor-add-ons': 'game-item-schema.json',
+    'status-effects': 'status-effect-schema.json',
 };
 
 // Create the validation function (for helper)
@@ -67,10 +68,9 @@ for (const [
 ] of jsonFiles.entries()) {
     const parsedFile = parsedFiles[i];
 
-    if (assertImage(file, parsedFile.id)) {
+    if (assertImageExists(file, parsedFile.id)) {
         hasErrors = true;
     }
-
     if (validateSchema(file, parsedFile)) {
         hasErrors = true;
     }
@@ -78,12 +78,6 @@ for (const [
         hasErrors = true;
     }
     if (assertLowerKebabCase(file, 'id', parsedFile.id)) {
-        hasErrors = true;
-    }
-    if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
-        hasErrors = true;
-    }
-    if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
         hasErrors = true;
     }
     if (assertBalancedBrackets(file, parsedFile)) {
@@ -95,6 +89,12 @@ for (const [
 
     switch (dataDir) {
         case 'survivor-perks': {
+            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+                hasErrors = true;
+            }
+            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+                hasErrors = true;
+            }
             if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
                 hasErrors = true;
             }
@@ -109,28 +109,32 @@ for (const [
         }
 
         case 'survivor-add-ons': {
+            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+                hasErrors = true;
+            }
+            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+                hasErrors = true;
+            }
             if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
                 hasErrors = true;
             }
             if (assertField(file, 'type', parsedFile.type, 'Add-On')) {
                 hasErrors = true;
             }
-            if (assertLowerKebabCase(file, 'id', parsedFile.id)) {
-                hasErrors = true;
-            }
-
             const allowedItems = getAllowList('items.json');
             if (validateField(file, 'item', parsedFile.owner, allowedItems)) {
-                hasErrors = true;
-            }
-            const allowedRarities = getAllowList('rarities.json');
-            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
                 hasErrors = true;
             }
             break;
         }
 
         case 'killer-perks': {
+            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+                hasErrors = true;
+            }
+            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+                hasErrors = true;
+            }
             if (assertField(file, 'side', parsedFile.side, 'Killer')) {
                 hasErrors = true;
             }
@@ -145,6 +149,12 @@ for (const [
         }
 
         case 'killer-add-ons': {
+            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+                hasErrors = true;
+            }
+            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+                hasErrors = true;
+            }
             if (assertField(file, 'side', parsedFile.side, 'Killer')) {
                 hasErrors = true;
             }
@@ -155,10 +165,11 @@ for (const [
             if (validateField(file, 'killer', parsedFile.owner, allowedCharacters)) {
                 hasErrors = true;
             }
-            const allowedRarities = getAllowList('rarities.json');
-            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
-                hasErrors = true;
-            }
+            break;
+        }
+
+        // side and type are checked by the schema enums
+        case 'status-effects': {
             break;
         }
 

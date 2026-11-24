@@ -1,0 +1,13 @@
+{
+    "name": "Hindered",
+    "id": "hindered",
+    "side": "All",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Decreases the movement speed of affected Players. The amount depends on the source."
+        }
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Endurance",
+    "id": "endurance",
+    "side": "Survivor",
+    "type": "Buff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Affected Survivors absorb a hit that would put them into the [Dying State], suffering from [Deep Wound] instead."
+        }
+    ],
+    "version": "10.3.0"
+}

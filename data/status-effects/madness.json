@@ -1,0 +1,25 @@
+{
+    "name": "Madness",
+    "id": "madness",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Applied to Survivors by The Doctor, increasing in tiers:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[Madness I]: [33%] of Skill Checks become Madness Skill Checks.",
+                "[Madness II]: Survivors also see Illusionary Doctors.",
+                "[Madness III]: Survivors scream periodically, revealing their Aura, and suffer from [Incapacitated]."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "At [Madness III], Survivors use <Snap Out of It> to return to [Madness I]."
+        }
+    ],
+    "version": "10.3.0"
+}

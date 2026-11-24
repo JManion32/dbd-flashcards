@@ -1,0 +1,13 @@
+{
+    "name": "Oblivious",
+    "id": "oblivious",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Affected Survivors cannot hear the Killer's Terror Radius or Heartbeat, and are unaffected by effects that require being inside it."
+        }
+    ],
+    "version": "10.3.0"
+}

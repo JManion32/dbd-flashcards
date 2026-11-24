@@ -1,0 +1,13 @@
+{
+    "name": "Exposed",
+    "id": "exposed",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Basic Attacks put affected Survivors directly into the [Dying State]."
+        }
+    ],
+    "version": "10.3.0"
+}

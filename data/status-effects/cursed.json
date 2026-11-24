@@ -1,0 +1,13 @@
+{
+    "name": "Cursed",
+    "id": "cursed",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Applied to Survivors while they are affected by an active [Hex Totem]."
+        }
+    ],
+    "version": "10.3.0"
+}

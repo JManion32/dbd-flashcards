@@ -1,0 +1,13 @@
+{
+    "name": "Revealed",
+    "id": "revealed",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "In 2v8, the Auras of affected Survivors are revealed to both Killers."
+        }
+    ],
+    "version": "10.3.0"
+}

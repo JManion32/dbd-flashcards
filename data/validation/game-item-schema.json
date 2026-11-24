@@ -18,13 +18,25 @@
             "type": "string"
         },
         "side": {
-            "type": "string"
+            "enum": [
+                "Survivor",
+                "Killer"
+            ]
         },
         "type": {
-            "type": "string"
+            "enum": [
+                "Perk",
+                "Add-On"
+            ]
         },
         "rarity": {
-            "type": "string"
+            "enum": [
+                "Visceral",
+                "Very Rare",
+                "Rare",
+                "Uncommon",
+                "Common"
+            ]
         },
         "owner": {
             "type": "string"

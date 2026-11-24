@@ -1,0 +1,13 @@
+{
+    "name": "Broken",
+    "id": "broken",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Prevents affected Survivors from being healed past the [Injured State]."
+        }
+    ],
+    "version": "10.3.0"
+}

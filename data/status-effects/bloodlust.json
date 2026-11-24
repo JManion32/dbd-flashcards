@@ -1,0 +1,25 @@
+{
+    "name": "Bloodlust",
+    "id": "bloodlust",
+    "side": "Killer",
+    "type": "Buff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Gained by Killers during a long chase, increasing their movement speed:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[Bloodlust I]: [+0.2] m/s after [15s] of chase.",
+                "[Bloodlust II]: [+0.4] m/s after [25s] of chase.",
+                "[Bloodlust III]: [+0.6] m/s after [35s] of chase."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Lost immediately when Killers hit a Survivor, break a Pallet, or use their Power. Regresses when the chase ends."
+        }
+    ],
+    "version": "10.3.0"
+}

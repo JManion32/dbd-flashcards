@@ -1,0 +1,13 @@
+{
+    "name": "Deafened",
+    "id": "deafened",
+    "side": "All",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Muffles all sounds and plays a ringing noise for affected Players."
+        }
+    ],
+    "version": "10.3.0"
+}

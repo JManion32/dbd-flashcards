@@ -1,0 +1,25 @@
+{
+    "name": "Incapacitated",
+    "id": "incapacitated",
+    "side": "Survivor",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Prevents affected Survivors from:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Repairing Generators.",
+                "Healing or mending.",
+                "Blessing or cleansing Totems.",
+                "Using Items.",
+                "Sabotaging Hooks.",
+                "Opening Chests.",
+                "Dropping Pallets."
+            ]
+        }
+    ],
+    "version": "10.3.0"
+}

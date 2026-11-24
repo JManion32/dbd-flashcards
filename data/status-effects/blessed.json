@@ -1,0 +1,13 @@
+{
+    "name": "Blessed",
+    "id": "blessed",
+    "side": "Survivor",
+    "type": "Buff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Applied to Survivors within the radius of an active [Boon Totem]."
+        }
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Blindness",
+    "id": "blindness",
+    "side": "All",
+    "type": "Debuff",
+    "description": [
+        {
+            "type": "text",
+            "content": "Prevents affected Players from seeing any Auras."
+        }
+    ],
+    "version": "10.3.0"
+}
