@@ -1,0 +1,25 @@
+{
+    "name": "Kill Spree",
+    "id": "kill-spree",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "When all Survivors have reached the second Hook Stage and all Generators are completed, you can kill Survivors."
+        },
+        {
+            "type": "text",
+            "content": "While killing a Survivor, both Exit Gate Switches are blocked. Whenever you finish killing a Survivor, this ends after [20s]."
+        }
+    ],
+    "quote": "\"He's killing them, one by one by one like cows.\" -Cat Lady",
+    "tags": [
+        "Blocked",
+        "End Game",
+        "Exit Gate",
+        "Hooking"
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Laughingstock",
+    "id": "laughingstock",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Survivors within [12m] of a completed Generator suffer from [Exhausted] and [Oblivious]. These effects linger for [5s]."
+        },
+        {
+            "type": "text",
+            "content": "You see the Auras of completed Generators."
+        }
+    ],
+    "quote": "\"Are you fucking kidding me? No, you're not fine, you are so completely far from fine right now.\" -Brooke",
+    "tags": [
+        "Aura",
+        "Exhaustion",
+        "Generator",
+        "Oblivious"
+    ],
+    "version": "10.3.0"
+}

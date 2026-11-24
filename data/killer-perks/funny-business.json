@@ -1,0 +1,38 @@
+{
+    "name": "Funny Business",
+    "id": "funny-business",
+    "side": "Killer",
+    "type": "Perk",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you damage a Generator, you gain [10%] [Haste] for [10s] and trigger one random effect:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Your [Haste] lasts [5s] longer.",
+                "You are stunned for [2s].",
+                "The Generator is blocked for [30s].",
+                "Confetti! But nothing happens."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "The same effect cannot happen twice in a row."
+        },
+        {
+            "type": "text",
+            "content": "Cooldown: [40s]."
+        }
+    ],
+    "quote": "\"Glass, insects, and razor blades—there's no telling what you might find.\" -Clown Cafe Announcer",
+    "tags": [
+        "Blocked",
+        "Generator",
+        "Haste",
+        "Stun"
+    ],
+    "version": "10.3.0"
+}

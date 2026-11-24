@@ -1,0 +1,39 @@
+{
+    "name": "Best Gift Ever",
+    "id": "best-gift-ever",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Sienna Shaw",
+    "description": [
+        {
+            "type": "text",
+            "content": "You start the Trial with [6] Tokens."
+        },
+        {
+            "type": "text",
+            "content": "The first time you drop an Item of each type, spend [1] Token to have The Entity consume it and gain an effect based on the Item:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Flashlight: Stunning the Killer inflicts them with [Blindness] for [2s].",
+                "Fog Vial: Fast-vaulting makes your Scratch Marks disappear [50%] faster for [5s].",
+                "Key: You can rummage through each Chest once.",
+                "Map: Auras you see for a duration last [1s] longer.",
+                "Med-Kit: Healing a Survivor also heals you at [25%] speed.",
+                "Toolbox: You see the Auras of the [3] closest Generators."
+            ]
+        }
+    ],
+    "quote": "\"If a demon enters this world in the flesh, a counterpoint must be appointed to stop it from becoming too powerful.\" -Jonathan Shaw",
+    "tags": [
+        "Aura",
+        "Blindness",
+        "Chest",
+        "Healing",
+        "Items",
+        "Scratch Marks",
+        "Token"
+    ],
+    "version": "10.3.0"
+}

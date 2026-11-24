@@ -1,0 +1,25 @@
+{
+    "name": "Shared Trauma",
+    "id": "shared-trauma",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Sienna Shaw",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you take a Protection Hit, all Survivors within [12m] recover from [Exhausted] while running for [40s]."
+        },
+        {
+            "type": "text",
+            "content": "You see the Auras of Survivors suffering from [Exhausted] within [32m]."
+        }
+    ],
+    "quote": "\"What? I like her scars. I think they're cool.\" -Gabbie Shaw",
+    "tags": [
+        "Aura",
+        "Exhaustion",
+        "Protection Hit",
+        "Teamwork"
+    ],
+    "version": "10.3.0"
+}

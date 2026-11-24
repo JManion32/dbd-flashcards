@@ -1,0 +1,20 @@
+{
+    "name": "Valkyrie's Rage",
+    "id": "valkyries-rage",
+    "side": "Survivor",
+    "type": "Perk",
+    "owner": "Sienna Shaw",
+    "description": [
+        {
+            "type": "text",
+            "content": "After being chased for [30s], the next time you pallet-stun the Killer, they are stunned for [75%] longer."
+        }
+    ],
+    "quote": "\"I hope that hurt, fucker!\" -Sienna Shaw",
+    "tags": [
+        "Chase",
+        "Pallet",
+        "Stun"
+    ],
+    "version": "10.3.0"
+}
