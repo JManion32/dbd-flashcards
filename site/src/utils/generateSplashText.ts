@@ -14,13 +14,11 @@ export function generateSplashText(): string {
 
         // Survivor jokes
         "Don't forget to cleanse your totems!",
-        'Pallet? I hardly know her!',
-        'Hit the great skill check!',
+        'Generator? I hardly know her!',
+        'The hardest skill check.',
         "Gens won't repair themselves!",
         'Unhook safely, please.',
         'Self-Care is self-love.',
-        'T-bag responsibly.',
-        'Hold W with confidence.',
         'Brought a flashlight. Forgot how to use it.',
         'The Entity is watching you study.',
         'Hiding in a locker, studying perks.',
@@ -33,10 +31,9 @@ export function generateSplashText(): string {
         'Hex: Flashcards.',
         'Thrill of the Study.',
         'Stridor can hear you not studying.',
-        "You can run, but you can't hide from the quiz.",
+        "You can run, but there's nowhere to hide from the quiz.",
 
         // Meta / community
-        'Leave a GG in the chat!',
         'Bloodpoints not included.',
         'Not affiliated with Behaviour Interactive.',
         'Fog-tested, Entity-approved.',
