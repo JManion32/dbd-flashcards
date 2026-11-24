@@ -137,7 +137,7 @@ jobs:
               run: npm ci
 
             - name: Run Validator
-              run: node ./validate.mjs killer perks
+              run: node ./validate.mjs killer-perks
 
 
     validate-killer-add-ons:
@@ -163,7 +163,7 @@ jobs:
               run: npm ci
 
             - name: Run Validator
-              run: node ./validate.mjs killer add-ons
+              run: node ./validate.mjs killer-add-ons
 
 
     validate-survivor-perks:
@@ -189,7 +189,7 @@ jobs:
               run: npm ci
 
             - name: Run Validator
-              run: node ./validate.mjs survivor perks
+              run: node ./validate.mjs survivor-perks
 
 
     validate-survivor-add-ons:
@@ -215,7 +215,7 @@ jobs:
               run: npm ci
 
             - name: Run Validator
-              run: node ./validate.mjs survivor add-ons
+              run: node ./validate.mjs survivor-add-ons
 
 
     deploy:

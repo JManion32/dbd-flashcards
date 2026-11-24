@@ -28,7 +28,7 @@ function gitDates() {
     return dates;
 }
 
-// Every perk and add-on JSON under data/<side>/<perks|add-ons>/, with its repo-relative path
+// Every perk and add-on JSON under data/<side>-<perks|add-ons>/, with its repo-relative path
 function readGameItems() {
     const files: string[] = [];
     const walk = (dir: string) => {
@@ -40,7 +40,7 @@ function readGameItems() {
     };
     for (const side of ['survivor', 'killer']) {
         for (const kind of ['perks', 'add-ons']) {
-            walk(join(repoRoot, 'data', side, kind));
+            walk(join(repoRoot, 'data', `${side}-${kind}`));
         }
     }
     return files.map((file) => ({

@@ -4,7 +4,7 @@ import Ajv from 'ajv';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const usage = `Usage: node validate <killer/survivor> <perks/add-ons>`;
+const usage = `Usage: node validate <killer-perks/killer-add-ons/survivor-perks/survivor-add-ons>`;
 
 const ajv = new Ajv({
     allErrors: true,
@@ -24,9 +24,9 @@ export function validateArgLength(actualArgs, expectedArgs) {
     }
 }
 
-export function validateArgContent(argNum, type, type1, type2) {
-    if (type !== type1 && type !== type2) {
-        console.error(`Error: Argument ${argNum} must be <${type1}> or <${type2}>.`);
+export function validateArgContent(argNum, type, allowedTypes) {
+    if (!allowedTypes.includes(type)) {
+        console.error(`Error: Argument ${argNum} must be one of <${allowedTypes.join('/')}>.`);
         console.error(usage);
         process.exit(1);
     }

@@ -14,28 +14,28 @@ function withLastUpdated(modules: Record<string, unknown>): GameItem[] {
 }
 
 // Survivor Perks
-const survivorPerkModules = import.meta.glob('../../../data/survivor/perks/**/*.json', {
+const survivorPerkModules = import.meta.glob('../../../data/survivor-perks/**/*.json', {
     eager: true,
     import: 'default',
 });
 export const survivorPerks = withLastUpdated(survivorPerkModules);
 
 // Survivor Add-Ons
-const survivorAddOnModules = import.meta.glob('../../../data/survivor/add-ons/**/*.json', {
+const survivorAddOnModules = import.meta.glob('../../../data/survivor-add-ons/**/*.json', {
     eager: true,
     import: 'default',
 });
 export const survivorAddOns = withLastUpdated(survivorAddOnModules);
 
 // Killer Perks
-const killerPerkModules = import.meta.glob('../../../data/killer/perks/**/*.json', {
+const killerPerkModules = import.meta.glob('../../../data/killer-perks/**/*.json', {
     eager: true,
     import: 'default',
 });
 export const killerPerks = withLastUpdated(killerPerkModules);
 
 // Killer Add-Ons
-const killerAddOnModules = import.meta.glob('../../../data/killer/add-ons/**/*.json', {
+const killerAddOnModules = import.meta.glob('../../../data/killer-add-ons/**/*.json', {
     eager: true,
     import: 'default',
 });

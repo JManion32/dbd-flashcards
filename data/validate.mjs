@@ -1,7 +1,6 @@
 /* Validate the perks and add-ons, ensuring all fields are correctly filled in. */
 
 import fs from 'node:fs';
-import path from 'node:path';
 
 import {
     createValidationFunction,
@@ -20,22 +19,32 @@ import {
 } from './validation/validate-helper.mjs';
 import validateFieldOrder from './validation/validateFieldOrder.mjs';
 
-validateArgLength(process.argv.length, 4);
+validateArgLength(process.argv.length, 3);
 
-const characterType = process.argv[2];
-validateArgContent(2, characterType, 'killer', 'survivor');
+const DATASET = [
+    'killer-powers',
+    'killer-perks',
+    'killer-add-ons',
+    'survivor-items',
+    'survivor-perks',
+    'survivor-add-ons',
+    'status-effects',
+];
 
-const itemType = process.argv[3];
-validateArgContent(3, itemType, 'perks', 'add-ons');
+// Location of data to be validated, also used for the switch statement.
+const dataDir = process.argv[2];
+validateArgContent(2, dataDir, DATASET);
 
-// For the switch statement.
-const dataSetType = `${characterType}_${itemType}`;
-
-// Location of data to be validated.
-const dataDir = path.join(`${characterType}/${itemType}`);
+// Which schema each folder is validated against
+const schemas = {
+    'killer-perks': 'game-item-schema.json',
+    'killer-add-ons': 'game-item-schema.json',
+    'survivor-perks': 'game-item-schema.json',
+    'survivor-add-ons': 'game-item-schema.json',
+};
 
 // Create the validation function (for helper)
-createValidationFunction(`schema.json`);
+createValidationFunction(schemas[dataDir]);
 
 // exhaustion, elusive, exposed, etc
 const allowedTags = getAllowList('tags.json');
@@ -69,8 +78,8 @@ for (const file of jsonFiles) {
         hasErrors = true;
     }
 
-    switch (dataSetType) {
-        case 'survivor_perks': {
+    switch (dataDir) {
+        case 'survivor-perks': {
             if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
                 hasErrors = true;
             }
@@ -84,7 +93,7 @@ for (const file of jsonFiles) {
             break;
         }
 
-        case 'survivor_add-ons': {
+        case 'survivor-add-ons': {
             if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
                 hasErrors = true;
             }
@@ -106,7 +115,7 @@ for (const file of jsonFiles) {
             break;
         }
 
-        case 'killer_perks': {
+        case 'killer-perks': {
             if (assertField(file, 'side', parsedFile.side, 'Killer')) {
                 hasErrors = true;
             }
@@ -120,7 +129,7 @@ for (const file of jsonFiles) {
             break;
         }
 
-        case 'killer_add-ons': {
+        case 'killer-add-ons': {
             if (assertField(file, 'side', parsedFile.side, 'Killer')) {
                 hasErrors = true;
             }
@@ -148,4 +157,4 @@ if (hasErrors) {
     process.exit(1);
 }
 
-console.log(`✅ All ${characterType} ${itemType} are valid.`);
+console.log(`✅ All ${dataDir.replace('-', ' ')} are valid.`);
