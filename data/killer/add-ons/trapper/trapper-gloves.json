@@ -11,5 +11,6 @@
             "content": "Increases [Bear Trap] setting speed by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

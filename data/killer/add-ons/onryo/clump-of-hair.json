@@ -11,5 +11,6 @@
             "content": "Decreases the range at which you are visible while [Demanifested] by [6m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases throw speed by [8%] for [10s] after gaining a [Style Rank]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

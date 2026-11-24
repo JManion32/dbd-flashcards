@@ -32,5 +32,6 @@
         "Terror Radius",
         "Totem",
         "Undetectable"
-    ]
+    ],
+    "version": "10.3.0"
 }

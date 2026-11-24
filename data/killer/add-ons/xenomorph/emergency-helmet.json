@@ -11,5 +11,6 @@
             "content": "Increases your resistance to [Turret] by [15%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

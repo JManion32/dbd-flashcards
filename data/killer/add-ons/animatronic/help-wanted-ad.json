@@ -11,5 +11,6 @@
             "content": "While winding up an [Axe] throw, you see a preview of its starting trajectory."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

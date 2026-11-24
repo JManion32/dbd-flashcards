@@ -11,5 +11,6 @@
             "content": "Increases triggered [Phantasm Trap] duration by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

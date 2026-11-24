@@ -11,5 +11,6 @@
             "content": "Increases the time it takes Survivors to perform the Wake Up action by [2s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Survivors receive no indication of triggering a [Phantasm Trap], and no [Mud Phantasm] spawns."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

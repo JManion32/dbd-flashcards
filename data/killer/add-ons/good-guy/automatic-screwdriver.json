@@ -11,5 +11,6 @@
             "content": "Missing a [Slice & Dice] decreases the cooldown of [Hidey-Ho Mode] by [8%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

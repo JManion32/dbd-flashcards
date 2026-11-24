@@ -11,5 +11,6 @@
             "content": "Decreases time to recharge a [Rush] token by [0.33s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

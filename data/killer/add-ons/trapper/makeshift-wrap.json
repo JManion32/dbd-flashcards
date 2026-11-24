@@ -15,5 +15,6 @@
             "content": "Stepping on a [Bear Trap] disarms it."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

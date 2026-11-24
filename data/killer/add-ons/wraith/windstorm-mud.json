@@ -11,5 +11,6 @@
             "content": "Increases movement speed while [Cloaked] by [5%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -15,5 +15,6 @@
             "content": "Survivors break free [33%] faster."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

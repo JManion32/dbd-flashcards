@@ -11,5 +11,6 @@
             "content": "Increases the invisibility duration after [Manifesting] by [33%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

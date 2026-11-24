@@ -11,5 +11,6 @@
             "content": "Increases the passive [Infection] gain rate by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

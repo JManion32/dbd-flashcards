@@ -11,5 +11,6 @@
             "content": "Decreases [Shred] hit cooldown by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

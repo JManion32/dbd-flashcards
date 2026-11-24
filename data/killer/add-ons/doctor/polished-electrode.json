@@ -11,5 +11,6 @@
             "content": "Increases [Shock Therapy] range by [3m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

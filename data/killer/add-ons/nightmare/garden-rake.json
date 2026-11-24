@@ -11,5 +11,6 @@
             "content": "Increases [Dream Snare] size by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

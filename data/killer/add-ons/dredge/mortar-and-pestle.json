@@ -11,5 +11,6 @@
             "content": "You emerge from the [Remnant] facing the direction you were facing when [Teleport] was activated, instead of the direction you were facing when the [Remnant] was placed."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

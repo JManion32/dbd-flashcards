@@ -15,5 +15,6 @@
             "content": "Increases [Blink] recharge time by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

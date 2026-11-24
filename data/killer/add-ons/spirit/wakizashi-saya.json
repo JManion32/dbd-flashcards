@@ -11,5 +11,6 @@
             "content": "During [Yamaoka's Haunting], use <Activate Ability> to return to your [Husk] and end the haunting."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

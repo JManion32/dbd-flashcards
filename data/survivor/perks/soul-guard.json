@@ -22,5 +22,6 @@
         "Endurance",
         "Healing",
         "Hex"
-    ]
+    ],
+    "version": "10.3.0"
 }

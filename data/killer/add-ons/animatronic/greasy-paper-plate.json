@@ -11,5 +11,6 @@
             "content": "Increases the time it takes Survivors to remove the [Axe] by [15%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -15,5 +15,6 @@
             "content": "[Slipstream] spreads between Survivors [25%] faster."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

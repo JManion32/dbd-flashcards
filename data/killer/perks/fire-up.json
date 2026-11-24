@@ -30,5 +30,6 @@
         "Token",
         "Vaulting",
         "Window"
-    ]
+    ],
+    "version": "10.3.0"
 }

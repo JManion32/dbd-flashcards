@@ -15,5 +15,6 @@
             "content": "[Hallucinations] can be destroyed by [UVX]. Doing so decreases the time until the next [Hallucination] spawns by [65%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Automatically face the nearest Survivor within [16m] after a [Slam]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

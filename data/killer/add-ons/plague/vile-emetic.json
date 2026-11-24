@@ -11,5 +11,6 @@
             "content": "Increases [Vile Purge] and [Corrupt Purge] projectile velocity by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

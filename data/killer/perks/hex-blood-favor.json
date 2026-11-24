@@ -21,5 +21,6 @@
         "Hex",
         "Pallet",
         "Totem"
-    ]
+    ],
+    "version": "10.3.0"
 }

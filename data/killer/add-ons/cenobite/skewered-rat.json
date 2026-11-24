@@ -11,5 +11,6 @@
             "content": "Decreases the cooldown of [Summons of Pain] after possessing a [Chain] by [9%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

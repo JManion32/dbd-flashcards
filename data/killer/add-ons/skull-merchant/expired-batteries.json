@@ -15,5 +15,6 @@
             "content": "[Claw Trap] battery life increases by [10%] for each [Claw Trap] received, up to [150%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Decreases Flashlight battery consumption by [24%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

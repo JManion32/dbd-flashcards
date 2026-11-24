@@ -14,5 +14,6 @@
         "Aura",
         "Dying State",
         "Injured State"
-    ]
+    ],
+    "version": "10.3.0"
 }

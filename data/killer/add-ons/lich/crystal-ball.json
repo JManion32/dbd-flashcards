@@ -11,5 +11,6 @@
             "content": "Increases the duration of [Killer Instinct] when [Dispelling Sphere] reveals a Survivor by [1s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Reveals the area of effect of [Shock Therapy]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

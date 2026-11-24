@@ -19,5 +19,6 @@
             "content": "Gain [100%] bonus Bloodpoints for trapping Survivors."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

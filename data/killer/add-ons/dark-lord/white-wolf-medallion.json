@@ -11,5 +11,6 @@
             "content": "While in [Wolf Form], increases the duration of [Killer Instinct] after Survivors complete rushed actions by [1s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

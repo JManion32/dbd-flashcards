@@ -23,5 +23,6 @@
         "Generator",
         "Repairing",
         "Token"
-    ]
+    ],
+    "version": "10.3.0"
 }

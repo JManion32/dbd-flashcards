@@ -11,5 +11,6 @@
             "content": "Decreases Sleep immunity after a Survivor uses an Alarm Clock by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

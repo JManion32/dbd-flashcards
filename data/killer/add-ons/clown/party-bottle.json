@@ -15,5 +15,6 @@
             "content": "Hitting a Survivor directly with a bottle awards [100] bonus Deviousness Bloodpoints."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

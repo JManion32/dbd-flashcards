@@ -11,5 +11,6 @@
             "content": "Increases [Blood Fury] duration by [8s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

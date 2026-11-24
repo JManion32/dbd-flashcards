@@ -11,5 +11,6 @@
             "content": "Decreases the time required to replenish a [Chainsaw] charge by [1s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

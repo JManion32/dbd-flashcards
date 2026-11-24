@@ -29,5 +29,6 @@
         "Skill Check",
         "Stun",
         "Unhooking"
-    ]
+    ],
+    "version": "10.3.0"
 }

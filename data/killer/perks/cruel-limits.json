@@ -23,5 +23,6 @@
         "Blocked",
         "Generator",
         "Window"
-    ]
+    ],
+    "version": "10.3.0"
 }

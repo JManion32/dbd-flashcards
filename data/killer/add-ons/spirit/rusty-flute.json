@@ -11,5 +11,6 @@
             "content": "Increases [Yamaoka's Haunting] recharge rate by [40%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

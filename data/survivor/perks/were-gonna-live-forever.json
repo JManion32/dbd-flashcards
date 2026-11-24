@@ -23,5 +23,6 @@
         "Dying State",
         "Endurance",
         "Healing"
-    ]
+    ],
+    "version": "10.3.0"
 }

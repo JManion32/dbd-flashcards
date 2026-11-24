@@ -11,5 +11,6 @@
             "content": "Survivors hit by a [Hatchet] have [50%] louder grunts of pain until healed."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

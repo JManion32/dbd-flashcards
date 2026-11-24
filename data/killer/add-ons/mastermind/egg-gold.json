@@ -11,5 +11,6 @@
             "content": "Increases the duration of the additional [Virulent Bound] window by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

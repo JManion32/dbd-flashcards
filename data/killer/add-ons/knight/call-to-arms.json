@@ -15,5 +15,6 @@
             "content": "Increases your movement speed while creating a [Patrol Path] by [7%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

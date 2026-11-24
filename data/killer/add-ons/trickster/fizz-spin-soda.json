@@ -11,5 +11,6 @@
             "content": "Decreases the number of [Blade] hrows required to increase throw speed by [2]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

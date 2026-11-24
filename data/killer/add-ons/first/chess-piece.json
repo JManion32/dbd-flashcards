@@ -11,5 +11,6 @@
             "content": "[Vine Attack] has [2] charges, but its attack radius is decreased by [40%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -22,5 +22,6 @@
         "Exhaustion",
         "Haste",
         "Injured State"
-    ]
+    ],
+    "version": "10.3.0"
 }

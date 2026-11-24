@@ -15,5 +15,6 @@
         "Aura",
         "Pallet",
         "Window"
-    ]
+    ],
+    "version": "10.3.0"
 }

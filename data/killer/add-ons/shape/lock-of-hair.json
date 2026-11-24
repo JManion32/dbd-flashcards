@@ -11,5 +11,6 @@
             "content": "While [Evil Incarnate] is active, you can end it early and retain [50%] of the remaining duration as [Stalk] progress."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

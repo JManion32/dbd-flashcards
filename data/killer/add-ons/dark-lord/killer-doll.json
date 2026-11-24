@@ -11,5 +11,6 @@
             "content": "Increases the [Pounce] cooldown reduction from [Scent Orbs] by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

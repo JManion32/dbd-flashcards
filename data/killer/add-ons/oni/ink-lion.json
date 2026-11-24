@@ -19,5 +19,6 @@
             "content": "Decreases [Blood Fury] consumption when downing a Survivor by [2s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

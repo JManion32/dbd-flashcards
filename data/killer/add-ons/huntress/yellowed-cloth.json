@@ -11,5 +11,6 @@
             "content": "Increases thrown [Hatchet] speed by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Decreases [Charlotte]'s waking time by [0.5s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

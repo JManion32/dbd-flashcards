@@ -11,5 +11,6 @@
             "content": "Survivors within [2m] of your [Husk] are revealed by [Killer Instinct]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

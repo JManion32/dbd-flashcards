@@ -26,5 +26,6 @@
         "Healing",
         "Oblivious",
         "Scream"
-    ]
+    ],
+    "version": "10.3.0"
 }

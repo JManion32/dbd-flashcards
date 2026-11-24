@@ -11,5 +11,6 @@
             "content": "Increases the Survivor detection range of [Jump Scare] and [Omnipresent Evil] by [4m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

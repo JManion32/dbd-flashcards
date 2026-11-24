@@ -11,5 +11,6 @@
             "content": "Increases the accuracy of the Flashlight beam by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

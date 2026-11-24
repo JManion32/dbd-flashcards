@@ -11,5 +11,6 @@
             "content": "Decreases recovery time after hitting an obstacle with the [Chainsaw] by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

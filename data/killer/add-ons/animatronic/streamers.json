@@ -11,5 +11,6 @@
             "content": "Increases the speed at which you travel through [Security Doors] by [15%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

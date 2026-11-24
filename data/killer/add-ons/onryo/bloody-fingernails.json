@@ -11,5 +11,6 @@
             "content": "Increases the duration of the movement speed bonus after [Projection] by [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

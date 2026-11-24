@@ -11,5 +11,6 @@
             "content": "Increases [Yamaoka's Haunting] movement speed by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

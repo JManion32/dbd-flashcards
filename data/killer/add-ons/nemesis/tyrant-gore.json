@@ -15,5 +15,6 @@
             "content": "Decreases [Zombie] respawn time by [7.5s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

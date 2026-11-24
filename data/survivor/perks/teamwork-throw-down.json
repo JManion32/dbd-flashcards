@@ -25,5 +25,6 @@
         "Pallet",
         "Stun",
         "Teamwork"
-    ]
+    ],
+    "version": "10.3.0"
 }

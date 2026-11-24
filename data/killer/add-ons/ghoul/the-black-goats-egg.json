@@ -11,5 +11,6 @@
             "content": "Perfectly timed [Grab-Attacks] grant [100%] bonus Bloodpoints."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

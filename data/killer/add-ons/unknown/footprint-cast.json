@@ -11,5 +11,6 @@
             "content": "When a Survivor becomes [Weakened], the time until the next [Hallucination] spawns is decreased by [15s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

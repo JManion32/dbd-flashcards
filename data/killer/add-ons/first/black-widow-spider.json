@@ -11,5 +11,6 @@
             "content": "Entering the [Upside Down] while in [Worldbreaker Mode] reveals the location of the farthest Survivor more than [36m] away for [3s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

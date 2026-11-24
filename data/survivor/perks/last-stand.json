@@ -15,5 +15,6 @@
         "Stun",
         "Terror Radius",
         "Vaulting"
-    ]
+    ],
+    "version": "10.3.0"
 }

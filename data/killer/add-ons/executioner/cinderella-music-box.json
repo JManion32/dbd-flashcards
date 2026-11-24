@@ -11,5 +11,6 @@
             "content": "Decreases [Punishment of the Damned] cooldown by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

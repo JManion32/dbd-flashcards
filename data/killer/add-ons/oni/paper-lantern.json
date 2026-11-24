@@ -11,5 +11,6 @@
             "content": "Increases [Blood Orb] absorption speed by [4 m/s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

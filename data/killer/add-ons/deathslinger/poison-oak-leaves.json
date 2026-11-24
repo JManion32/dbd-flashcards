@@ -11,5 +11,6 @@
             "content": "Increases the time Survivors need to mend by [1.5s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

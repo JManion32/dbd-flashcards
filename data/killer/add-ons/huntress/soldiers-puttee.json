@@ -11,5 +11,6 @@
             "content": "Your movement speed is [4.6 m/s] while you have no [Hatchets]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

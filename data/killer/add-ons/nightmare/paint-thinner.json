@@ -15,5 +15,6 @@
             "content": "While they are revealed, you can use [Dream Projection] on them, with [100%] faster charge speed."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

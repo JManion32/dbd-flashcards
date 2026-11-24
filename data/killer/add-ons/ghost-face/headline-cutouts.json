@@ -11,5 +11,6 @@
             "content": "Increases your movement speed while stalking by [40%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

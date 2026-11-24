@@ -15,5 +15,6 @@
             "content": "Gain [100%] bonus Bloodpoints on Precise [Blink] score events."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

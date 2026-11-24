@@ -11,5 +11,6 @@
             "content": "Decreases the initial [Chainsaw Sprint] turn rate by [70%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

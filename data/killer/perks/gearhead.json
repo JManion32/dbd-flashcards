@@ -15,5 +15,6 @@
         "Aura",
         "Generator",
         "Skill Check"
-    ]
+    ],
+    "version": "10.3.0"
 }

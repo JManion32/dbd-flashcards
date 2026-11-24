@@ -11,5 +11,6 @@
             "content": "Decreases the time it takes for a [TV] to turn back on after a Survivor turns it off by [7s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

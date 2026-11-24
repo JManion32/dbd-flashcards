@@ -11,5 +11,6 @@
             "content": "Increases the [Nightfall] charges gained when injuring a Survivor by [25%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

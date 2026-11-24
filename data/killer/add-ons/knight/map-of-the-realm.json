@@ -11,5 +11,6 @@
             "content": "Increases the detection range of [Guards] on [Patrol] by [2m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

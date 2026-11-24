@@ -11,5 +11,6 @@
             "content": "Increases the battery life of [Claw Traps] by [15%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

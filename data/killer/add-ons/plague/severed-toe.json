@@ -11,5 +11,6 @@
             "content": "Increases the infection rate of Survivors performing interactions by [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

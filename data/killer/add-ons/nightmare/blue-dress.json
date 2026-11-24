@@ -19,5 +19,6 @@
             "content": "Only [1] [Dream Snare] can be placed at a time."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

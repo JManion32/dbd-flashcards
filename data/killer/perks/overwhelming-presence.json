@@ -23,5 +23,6 @@
         "Aura",
         "Exhaustion",
         "Items"
-    ]
+    ],
+    "version": "10.3.0"
 }

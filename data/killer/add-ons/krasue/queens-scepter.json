@@ -11,5 +11,6 @@
             "content": "Hitting a Survivor with [Intestinal Whip] causes a [Leeching Gland] to spatter near them."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

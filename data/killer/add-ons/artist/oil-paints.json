@@ -11,5 +11,6 @@
             "content": "Increases the [Killer Instinct] detection range of [Dire Crows] by [1.5m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

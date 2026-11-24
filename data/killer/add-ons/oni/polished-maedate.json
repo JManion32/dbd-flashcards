@@ -11,5 +11,6 @@
             "content": "Increases the passive charge rate of [Yamaoka's Wrath] by [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

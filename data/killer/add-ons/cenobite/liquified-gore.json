@@ -11,5 +11,6 @@
             "content": "Increases the time it takes Survivors to solve the [Lament Configuration] by [1s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

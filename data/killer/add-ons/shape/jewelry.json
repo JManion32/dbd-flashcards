@@ -11,5 +11,6 @@
             "content": "Increases the [Stalk Meter] fill rate on stationary Survivors by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

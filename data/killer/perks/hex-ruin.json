@@ -20,5 +20,6 @@
         "Hex",
         "Regression",
         "Totem"
-    ]
+    ],
+    "version": "10.3.0"
 }

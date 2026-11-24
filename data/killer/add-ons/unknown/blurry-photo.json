@@ -11,5 +11,6 @@
             "content": "After [Teleporting], you regain full movement speed [7%] faster."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

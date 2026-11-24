@@ -11,5 +11,6 @@
             "content": "All Survivors can hear the phasing sound."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

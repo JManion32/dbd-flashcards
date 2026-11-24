@@ -18,5 +18,6 @@
     "tags": [
         "Exposed",
         "Stun"
-    ]
+    ],
+    "version": "10.3.0"
 }

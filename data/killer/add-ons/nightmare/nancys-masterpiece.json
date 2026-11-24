@@ -11,5 +11,6 @@
             "content": "After hitting a Survivor with a [Dream Snare] or [Dream Pallet], the [Dream Projection] cooldown is decreased by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

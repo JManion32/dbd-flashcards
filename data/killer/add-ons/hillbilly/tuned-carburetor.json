@@ -15,5 +15,6 @@
             "content": "Decreases your base movement speed to [4.4 m/s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

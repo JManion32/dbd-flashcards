@@ -27,5 +27,6 @@
         "Exhaustion",
         "Healing",
         "Terror Radius"
-    ]
+    ],
+    "version": "10.3.0"
 }

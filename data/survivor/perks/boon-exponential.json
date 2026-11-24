@@ -27,5 +27,6 @@
         "Dying State",
         "Healing",
         "Totem"
-    ]
+    ],
+    "version": "10.3.0"
 }

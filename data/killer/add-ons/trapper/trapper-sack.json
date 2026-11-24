@@ -15,5 +15,6 @@
             "content": "[Bear Traps] cannot be picked up."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

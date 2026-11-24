@@ -11,5 +11,6 @@
             "content": "Increases [Corrupt Purge] duration by [10s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

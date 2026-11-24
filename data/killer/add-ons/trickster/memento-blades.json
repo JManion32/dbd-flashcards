@@ -11,5 +11,6 @@
             "content": "Displays a reticle while aiming with [Blades]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

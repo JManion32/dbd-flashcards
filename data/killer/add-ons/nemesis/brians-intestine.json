@@ -11,5 +11,6 @@
             "content": "Increases [Zombie] movement speed by [25%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

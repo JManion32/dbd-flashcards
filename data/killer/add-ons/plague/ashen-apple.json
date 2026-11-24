@@ -15,5 +15,6 @@
             "content": "Increases the number of [Pools of Devotion] in the Trial by [1]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -15,5 +15,6 @@
             "content": "Decreases [Shred] miss cooldown by [11%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

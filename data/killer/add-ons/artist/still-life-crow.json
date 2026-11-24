@@ -11,5 +11,6 @@
             "content": "Increases the time [Dire Crows] stay idle before disintegrating by [4s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

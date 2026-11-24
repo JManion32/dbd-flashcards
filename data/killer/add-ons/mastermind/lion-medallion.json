@@ -11,5 +11,6 @@
             "content": "Increases the distance Survivors are thrown by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

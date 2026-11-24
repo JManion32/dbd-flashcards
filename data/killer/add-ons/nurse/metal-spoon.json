@@ -11,5 +11,6 @@
             "content": "Survivors hit by a [Blink Attack] have [50%] louder grunts of pain for [60s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

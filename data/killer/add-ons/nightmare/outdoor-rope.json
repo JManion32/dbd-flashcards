@@ -11,5 +11,6 @@
             "content": "While Survivors are in the [Dream World], the [Dream Snare] travel speed is increased by [15%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

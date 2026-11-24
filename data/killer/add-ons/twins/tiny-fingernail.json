@@ -11,5 +11,6 @@
             "content": "Decreases [Victor]'s [Unbind] time by [33%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

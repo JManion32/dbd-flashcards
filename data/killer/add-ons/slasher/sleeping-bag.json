@@ -11,5 +11,6 @@
             "content": "After grabbing a [Hook Spike] while in [Omnipresent Evil], you see the locations of Survivors within [10m] of Hooks."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

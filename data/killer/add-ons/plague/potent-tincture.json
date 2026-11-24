@@ -11,5 +11,6 @@
             "content": "Decreases [Vile Purge] and [Corrupt Purge] cooldown by [0.4s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

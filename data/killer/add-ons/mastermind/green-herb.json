@@ -11,5 +11,6 @@
             "content": "Increases the [Infection] applied when grabbing a Survivor during a [Virulent Bound] by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

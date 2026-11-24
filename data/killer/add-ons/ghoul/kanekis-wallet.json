@@ -11,5 +11,6 @@
             "content": "Increases the window to perform consecutive [Kagune Leaps] by [3s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

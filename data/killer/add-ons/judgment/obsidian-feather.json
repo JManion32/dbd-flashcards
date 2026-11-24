@@ -23,5 +23,6 @@
             "content": "Negates the effects of [Holy Winged Icon]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

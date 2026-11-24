@@ -11,5 +11,6 @@
             "content": "Decreases the cooldown of [Shapeshift] by [5%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

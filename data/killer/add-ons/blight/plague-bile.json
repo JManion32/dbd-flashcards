@@ -11,5 +11,6 @@
             "content": "Increases turn rate while [Rushing] by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

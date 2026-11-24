@@ -11,5 +11,6 @@
             "content": "Increases the duration of [Slice & Dice] by [8%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

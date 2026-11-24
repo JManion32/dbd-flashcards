@@ -15,5 +15,6 @@
             "content": "You can carry [1] extra [Bear Trap]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

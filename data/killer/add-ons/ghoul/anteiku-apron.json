@@ -11,5 +11,6 @@
             "content": "Decreases the slide after a [Kagune Leap] by [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Changes [Shock Therapy] from a cone to a beam with a [24m] range and a [2m] width."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

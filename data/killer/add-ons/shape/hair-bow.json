@@ -15,5 +15,6 @@
             "content": "Decreases the [Stalk Meter] fill rate by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases the time Survivors appear on the [Radar] when detected by [1s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

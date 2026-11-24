@@ -11,5 +11,6 @@
             "content": "Increases [Kagune Leap] speed by [14%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

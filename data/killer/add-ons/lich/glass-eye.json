@@ -15,5 +15,6 @@
             "content": "Increases the movement speed of [Dispelling Sphere] by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

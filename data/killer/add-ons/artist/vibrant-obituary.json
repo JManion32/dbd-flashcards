@@ -11,5 +11,6 @@
             "content": "Increases the duration of [Killer Instinct] from [Dire Crows] by [3s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -25,5 +25,6 @@
         "Dying State",
         "Haste",
         "Healing"
-    ]
+    ],
+    "version": "10.3.0"
 }

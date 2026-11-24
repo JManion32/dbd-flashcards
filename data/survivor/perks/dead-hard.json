@@ -23,5 +23,6 @@
         "Exhaustion",
         "Injured State",
         "Unhooking"
-    ]
+    ],
+    "version": "10.3.0"
 }

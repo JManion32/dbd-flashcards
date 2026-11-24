@@ -8,6 +8,7 @@ const expectedOrder = [
     'description',
     'quote',
     'tags',
+    'version',
 ];
 
 export default function validateFieldOrder(file, data) {

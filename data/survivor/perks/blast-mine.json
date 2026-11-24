@@ -28,5 +28,6 @@
         "Generator",
         "Repairing",
         "Stun"
-    ]
+    ],
+    "version": "10.3.0"
 }

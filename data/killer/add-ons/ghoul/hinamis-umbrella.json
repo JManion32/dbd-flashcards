@@ -11,5 +11,6 @@
             "content": "Increases the time added to the [Enraged Mode] countdown for each perfectly timed [Grab-Attack] by [10s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

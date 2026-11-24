@@ -11,5 +11,6 @@
             "content": "Increases the time to crush [Victor] while he is dormant by [0.2s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

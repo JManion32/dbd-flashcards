@@ -11,5 +11,6 @@
             "content": "Increases the duration of [Killer Instinct] after a [Jump Scare] by [2s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

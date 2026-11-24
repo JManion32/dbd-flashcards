@@ -11,5 +11,6 @@
             "content": "[Crawler Mode] recharges [25%] faster while outside the [Tunnels]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

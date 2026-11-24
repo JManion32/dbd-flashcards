@@ -23,5 +23,6 @@
             "content": "Increases Devious Bloodpoints by [100%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

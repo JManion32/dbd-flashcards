@@ -11,5 +11,6 @@
             "content": "Increases the targeting range while in a [Biopod] by [4m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

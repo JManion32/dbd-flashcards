@@ -11,5 +11,6 @@
             "content": "Increases the [Axe's] weight while thrown by [100%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

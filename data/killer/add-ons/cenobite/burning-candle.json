@@ -11,5 +11,6 @@
             "content": "Decreases the time for [Chain Hunts] to activate by [3s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Decreases [Dream Snare] charge time by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

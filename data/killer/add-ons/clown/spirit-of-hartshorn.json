@@ -11,5 +11,6 @@
             "content": "Increases the size and spread of [Afterpiece Antidote] gas clouds by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

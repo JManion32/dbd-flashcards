@@ -16,5 +16,6 @@
         "Exit Gate",
         "Generator",
         "Locker"
-    ]
+    ],
+    "version": "10.3.0"
 }

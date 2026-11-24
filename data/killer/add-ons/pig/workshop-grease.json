@@ -11,5 +11,6 @@
             "content": "Increases [Ambush] attack charge speed by [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

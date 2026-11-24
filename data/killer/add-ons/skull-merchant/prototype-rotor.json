@@ -11,5 +11,6 @@
             "content": "Increases the rotation speed of [Drones] by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases [Punishment of the Damned] range by [5%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

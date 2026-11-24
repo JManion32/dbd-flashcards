@@ -11,5 +11,6 @@
             "content": "Increases your movement speed between the first and second [Virulent Bounds] by [15%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

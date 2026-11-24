@@ -11,5 +11,6 @@
             "content": "Increases [Killer Instinct] detection range by [20m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

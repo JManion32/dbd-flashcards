@@ -32,5 +32,6 @@
         "Aura",
         "Generator",
         "Locker"
-    ]
+    ],
+    "version": "10.3.0"
 }

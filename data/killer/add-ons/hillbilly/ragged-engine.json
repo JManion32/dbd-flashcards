@@ -11,5 +11,6 @@
             "content": "Decreases the [Overdrive] meter dissipation speed while not using the [Chainsaw] by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

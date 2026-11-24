@@ -19,5 +19,6 @@
         "End Game",
         "Exit Gate",
         "Locker"
-    ]
+    ],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases [Main Event] duration by [44%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

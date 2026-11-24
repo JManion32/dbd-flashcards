@@ -11,5 +11,6 @@
             "content": "Increases the amount of Sleep gained from attacking with Dream Abilities by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

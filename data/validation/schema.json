@@ -7,7 +7,8 @@
         "type",
         "owner",
         "description",
-        "tags"
+        "tags",
+        "version"
     ],
     "properties": {
         "name": {
@@ -81,6 +82,9 @@
                 "type": "string"
             },
             "uniqueItems": true
+        },
+        "version": {
+            "type": "string"
         }
     },
     "additionalProperties": false

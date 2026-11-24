@@ -11,5 +11,6 @@
             "content": "Increases the spawn rate of [Scent Orbs] by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

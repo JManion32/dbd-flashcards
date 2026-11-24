@@ -27,5 +27,6 @@
         "Generator",
         "Items",
         "Locker"
-    ]
+    ],
+    "version": "10.3.0"
 }

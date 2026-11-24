@@ -29,5 +29,6 @@
         "Healing",
         "Injured State",
         "Obsession"
-    ]
+    ],
+    "version": "10.3.0"
 }

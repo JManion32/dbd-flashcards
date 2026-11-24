@@ -11,5 +11,6 @@
             "content": "Decreases the [Scan Line] immunity duration of Survivors by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

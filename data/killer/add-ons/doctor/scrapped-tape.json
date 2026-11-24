@@ -11,5 +11,6 @@
             "content": "Changes [Shock Therapy] to a ring [8m] in front of you, with a [4m] radius and a [1m] thickness."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

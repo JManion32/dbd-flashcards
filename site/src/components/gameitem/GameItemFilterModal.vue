@@ -158,8 +158,9 @@ function clearFilters() {
     padding: 0 0.3rem;
     border-radius: 999px;
 
-    background: var(--filter-selected-btn);
     color: var(--standard-white);
+    background: color-mix(in srgb, var(--standard-gold) 10%, var(--dark-2));
+    border: 1px solid color-mix(in srgb, var(--standard-gold) 60%, transparent);
     font-size: 12px;
     font-weight: 800;
     line-height: 1;

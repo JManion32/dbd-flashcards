@@ -11,5 +11,6 @@
             "content": "Increases [Overdrive] meter charge rate by [15%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

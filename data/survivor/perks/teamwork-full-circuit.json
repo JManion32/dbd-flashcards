@@ -20,5 +20,6 @@
         "Repairing",
         "Skill Check",
         "Teamwork"
-    ]
+    ],
+    "version": "10.3.0"
 }

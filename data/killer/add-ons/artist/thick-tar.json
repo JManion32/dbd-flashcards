@@ -11,5 +11,6 @@
             "content": "Increases the time it takes Survivors to repel a [Dire Crow] [Swarm] by [0.5s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

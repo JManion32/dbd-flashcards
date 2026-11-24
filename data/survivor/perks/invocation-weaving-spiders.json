@@ -30,5 +30,6 @@
         "Basement",
         "Broken",
         "Generator"
-    ]
+    ],
+    "version": "10.3.0"
 }

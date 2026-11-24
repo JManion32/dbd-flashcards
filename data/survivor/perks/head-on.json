@@ -19,5 +19,6 @@
         "Exhaustion",
         "Locker",
         "Stun"
-    ]
+    ],
+    "version": "10.3.0"
 }

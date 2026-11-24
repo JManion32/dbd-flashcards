@@ -11,5 +11,6 @@
             "content": "Increases [Uncloaking] speed by [12%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

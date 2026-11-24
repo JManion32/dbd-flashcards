@@ -24,5 +24,6 @@
         "Exhaustion",
         "Falling",
         "Haste"
-    ]
+    ],
+    "version": "10.3.0"
 }

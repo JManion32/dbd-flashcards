@@ -11,5 +11,6 @@
             "content": "Decreases [Tantrum] duration by [0.5s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

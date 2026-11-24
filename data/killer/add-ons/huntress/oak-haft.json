@@ -11,5 +11,6 @@
             "content": "Decreases [Hatchet] throw cooldown by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

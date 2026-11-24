@@ -15,5 +15,6 @@
             "content": "Gain [200] bonus Bloodpoints for the traversal."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

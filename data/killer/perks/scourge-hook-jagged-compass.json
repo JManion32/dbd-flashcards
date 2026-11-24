@@ -24,5 +24,6 @@
         "Generator",
         "Hooking",
         "Unhooking"
-    ]
+    ],
+    "version": "10.3.0"
 }

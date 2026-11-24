@@ -26,5 +26,6 @@
         "Exposed",
         "Generator",
         "Scream"
-    ]
+    ],
+    "version": "10.3.0"
 }

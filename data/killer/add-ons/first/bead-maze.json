@@ -11,5 +11,6 @@
             "content": "Increases the second phase of the [Worldbreaker] timer by [2.5s] for each living Survivor."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

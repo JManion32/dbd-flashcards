@@ -11,5 +11,6 @@
             "content": "Increases the [Enraged Mode] countdown by [5s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

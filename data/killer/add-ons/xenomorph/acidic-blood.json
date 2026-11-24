@@ -23,5 +23,6 @@
         "Injured State",
         "Pallet",
         "Stun"
-    ]
+    ],
+    "version": "10.3.0"
 }

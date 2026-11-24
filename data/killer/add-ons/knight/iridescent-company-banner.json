@@ -27,5 +27,6 @@
         "Blocked",
         "Exit Gate",
         "Vaulting"
-    ]
+    ],
+    "version": "10.3.0"
 }

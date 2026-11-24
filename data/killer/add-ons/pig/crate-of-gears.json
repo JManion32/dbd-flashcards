@@ -15,5 +15,6 @@
             "content": "Increases the time required to search a [Jigsaw Box] by [33%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Survivors within [20m] of a Survivor in the [Dog's] [Grab] become afflicted with [Houndsense]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

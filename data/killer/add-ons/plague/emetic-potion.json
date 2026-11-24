@@ -11,5 +11,6 @@
             "content": "Increases the effectiveness of [Vile Purge] by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

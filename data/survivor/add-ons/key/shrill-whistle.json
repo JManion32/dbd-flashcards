@@ -11,5 +11,6 @@
             "content": "Decreases channel time by [35%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

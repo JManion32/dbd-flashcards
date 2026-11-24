@@ -19,5 +19,6 @@
         "Exit Gate",
         "Obsession",
         "Token"
-    ]
+    ],
+    "version": "10.3.0"
 }

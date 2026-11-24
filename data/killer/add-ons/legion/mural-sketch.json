@@ -11,5 +11,6 @@
             "content": "Increases the speed bonus per hit during [Feral Frenzy] to [0.32 m/s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

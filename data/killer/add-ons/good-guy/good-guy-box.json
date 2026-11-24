@@ -11,5 +11,6 @@
             "content": "Decreases the cooldown after hitting a [Slice & Dice] by [7%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

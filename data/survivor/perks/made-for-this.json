@@ -19,5 +19,6 @@
         "Endurance",
         "Haste",
         "Healing"
-    ]
+    ],
+    "version": "10.3.0"
 }

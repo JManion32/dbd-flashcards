@@ -11,5 +11,6 @@
             "content": "Increases movement speed while crouched by [5%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

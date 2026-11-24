@@ -27,5 +27,6 @@
         "Blocked",
         "Haste",
         "Pallet"
-    ]
+    ],
+    "version": "10.3.0"
 }

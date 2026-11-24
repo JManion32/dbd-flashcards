@@ -15,5 +15,6 @@
             "content": "Increases the time required to rescue a Survivor or escape from a [Bear Trap] by [25%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

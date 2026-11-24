@@ -11,5 +11,6 @@
             "content": "Decreases the cooldown of [Birds of Torment] by [1.5s] after a [Dire Crow] disintegrates from inactivity."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

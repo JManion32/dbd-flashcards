@@ -11,5 +11,6 @@
             "content": "Increases [Feral Frenzy] lunge duration by [0.3s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

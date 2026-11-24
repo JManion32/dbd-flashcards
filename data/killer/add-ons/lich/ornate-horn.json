@@ -11,5 +11,6 @@
             "content": "Increases the number of entities created by [Flight of the Damned] by [1]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

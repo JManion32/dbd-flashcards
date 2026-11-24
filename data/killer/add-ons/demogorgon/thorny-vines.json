@@ -15,5 +15,6 @@
             "content": "Increases the distance from [Portals] at which [Of the Abyss] detects Survivors by [1m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

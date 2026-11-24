@@ -11,5 +11,6 @@
             "content": "Survivors who trigger a [Phantasm Trap] are deafened for [6s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases the downtime of [Turrets] after you exit the [Tunnels] by [3s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

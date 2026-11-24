@@ -11,5 +11,6 @@
             "content": "Adds [2s] of use to the Flashlight."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

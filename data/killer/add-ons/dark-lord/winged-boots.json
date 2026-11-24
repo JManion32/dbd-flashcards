@@ -11,5 +11,6 @@
             "content": "Increases the maximum distance of [Teleport] by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

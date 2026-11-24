@@ -15,5 +15,6 @@
             "content": "Increases [Chainsaw] charge time by [12%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -15,5 +15,6 @@
             "content": "Increases [Passive Phasing] duration by [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

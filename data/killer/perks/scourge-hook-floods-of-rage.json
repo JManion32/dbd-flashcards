@@ -19,5 +19,6 @@
         "Hooking",
         "Scourge Hook",
         "Unhooking"
-    ]
+    ],
+    "version": "10.3.0"
 }

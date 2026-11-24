@@ -11,5 +11,6 @@
             "content": "While in [S-Rank], each [Blade] hit increases [Main Event] duration by [0.5s], up to a maximum of [20s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

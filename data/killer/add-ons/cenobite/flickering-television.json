@@ -11,5 +11,6 @@
             "content": "Increases the maximum casting range of the [Gateway] by [4] meters."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

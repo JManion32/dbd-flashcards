@@ -11,5 +11,6 @@
             "content": "Decreases [Night Shroud] recovery time by [2s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

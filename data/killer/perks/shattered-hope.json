@@ -28,5 +28,6 @@
         "Blocked",
         "Boon",
         "Totem"
-    ]
+    ],
+    "version": "10.3.0"
 }

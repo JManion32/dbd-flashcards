@@ -11,5 +11,6 @@
             "content": "Decreases the speed at which [Laceration] decays by [75%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

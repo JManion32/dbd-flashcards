@@ -11,5 +11,6 @@
             "content": "Every [30s], a random closed [Bear Trap] is automatically set."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases the [Patrol] duration of all [Guards] by [8s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

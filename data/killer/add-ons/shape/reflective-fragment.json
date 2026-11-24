@@ -15,5 +15,6 @@
             "content": "[Slaughtering Strike] only deals a single health State of damage."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases [Demon Dash] movement speed by [13%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

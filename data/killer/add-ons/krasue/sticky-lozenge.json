@@ -11,5 +11,6 @@
             "content": "While charging [Regurgitate], you see a preview of the impact zone."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

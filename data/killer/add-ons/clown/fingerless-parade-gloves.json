@@ -15,5 +15,6 @@
             "content": "Decreases bottle throw angle by [15 degrees]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

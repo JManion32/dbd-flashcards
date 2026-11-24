@@ -11,5 +11,6 @@
             "content": "Gain [12] [Headlong Flight] charges when a Survivor is hit by a [Leeching Gland]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Decreases the minimum time required to retrieve an [Axe] embedded in the environment by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

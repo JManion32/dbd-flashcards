@@ -11,5 +11,6 @@
             "content": "Increases the [Mutation Rate] gained from destroying [Zombies] with [Tentacle Strike] by [100%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

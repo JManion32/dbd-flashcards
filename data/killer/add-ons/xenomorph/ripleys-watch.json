@@ -11,5 +11,6 @@
             "content": "[Turrets] are automatically destroyed when they knock you out of [Crawler Mode]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

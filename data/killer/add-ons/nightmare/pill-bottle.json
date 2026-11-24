@@ -11,5 +11,6 @@
             "content": "Each time a Survivor wakes up, their [Sleep Meter] fills [10%] faster, up to a maximum of [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -15,5 +15,6 @@
         "Basic Attack",
         "Hemorrhage",
         "Mangled"
-    ]
+    ],
+    "version": "10.3.0"
 }

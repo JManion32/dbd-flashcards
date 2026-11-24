@@ -11,5 +11,6 @@
             "content": "Increases the time the [Chainsaw] can be revved before triggering a [Tantrum] by [2s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

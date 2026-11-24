@@ -11,5 +11,6 @@
             "content": "Survivors who escape a [Bear Trap] gain [Deep Wound]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

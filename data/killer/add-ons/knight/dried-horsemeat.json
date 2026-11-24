@@ -11,5 +11,6 @@
             "content": "Increases the duration a [Guard] [Hunts] a Survivor by [4s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

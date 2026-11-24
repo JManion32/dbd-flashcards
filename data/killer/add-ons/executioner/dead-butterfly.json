@@ -11,5 +11,6 @@
             "content": "Increases [Rites of Judgment]'s recharge rate by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

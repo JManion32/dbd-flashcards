@@ -19,5 +19,6 @@
         "Aura",
         "Basic Attack",
         "Items"
-    ]
+    ],
+    "version": "10.3.0"
 }

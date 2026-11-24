@@ -11,5 +11,6 @@
             "content": "Decreases the cooldown after summoning [The Carnifex] by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -15,5 +15,6 @@
             "content": "Decreases the number of available [Portals] by [2]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

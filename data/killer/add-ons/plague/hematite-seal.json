@@ -11,5 +11,6 @@
             "content": "Increases object infection duration by [30s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -25,5 +25,6 @@
     "tags": [
         "Hooking",
         "Token"
-    ]
+    ],
+    "version": "10.3.0"
 }

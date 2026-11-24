@@ -27,5 +27,6 @@
         "Basic Attack",
         "Obsession",
         "Token"
-    ]
+    ],
+    "version": "10.3.0"
 }

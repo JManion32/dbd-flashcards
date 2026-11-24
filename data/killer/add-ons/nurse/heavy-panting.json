@@ -11,5 +11,6 @@
             "content": "Increases [Blink Attack] lunge length after more than one [Blink] by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

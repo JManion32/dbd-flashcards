@@ -11,5 +11,6 @@
             "content": "While controlling [Divine Light] that is slowed by a tall obstruction, its maximum speed is further decreased by [99%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

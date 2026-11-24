@@ -11,5 +11,6 @@
             "content": "Increases the reach of the [Kagune] by [1m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

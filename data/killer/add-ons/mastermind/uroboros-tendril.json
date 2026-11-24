@@ -11,5 +11,6 @@
             "content": "Increases your movement speed while charging [Virulent Bound] by [5%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

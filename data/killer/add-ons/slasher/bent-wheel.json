@@ -11,5 +11,6 @@
             "content": "Increases the range at which you can trigger a [Jump Scare] by [4m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases [Feral Frenzy] duration by [1s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

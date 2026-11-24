@@ -11,5 +11,6 @@
             "content": "When a Survivor successfully [Stares Down] The Unknown, you gain [Killer Instinct] for [3s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

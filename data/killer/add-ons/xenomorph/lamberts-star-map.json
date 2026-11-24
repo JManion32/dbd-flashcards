@@ -11,5 +11,6 @@
             "content": "Decreases the flame range of [Turrets] by [2m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

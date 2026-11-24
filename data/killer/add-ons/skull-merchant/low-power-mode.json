@@ -11,5 +11,6 @@
             "content": "Decreases the rotation speed of [Drones] by [100%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

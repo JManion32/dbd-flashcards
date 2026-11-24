@@ -11,5 +11,6 @@
             "content": "Increases [Dream Pallet] rupture radius by [14%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

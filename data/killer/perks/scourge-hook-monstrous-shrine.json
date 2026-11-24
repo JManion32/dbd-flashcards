@@ -27,5 +27,6 @@
         "Generator",
         "Regression",
         "Scourge Hook"
-    ]
+    ],
+    "version": "10.3.0"
 }

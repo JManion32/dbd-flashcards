@@ -11,5 +11,6 @@
             "content": "Increases the duration of [Killer Instinct] by [1.5s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

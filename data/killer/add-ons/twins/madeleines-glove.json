@@ -11,5 +11,6 @@
             "content": "Increases [Victor]'s alert range by [4m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

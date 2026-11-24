@@ -11,5 +11,6 @@
             "content": "Decreases bottle throw cooldown by [40%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

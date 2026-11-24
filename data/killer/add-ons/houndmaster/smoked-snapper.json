@@ -11,5 +11,6 @@
             "content": "Decreases your Power cooldown by [5%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

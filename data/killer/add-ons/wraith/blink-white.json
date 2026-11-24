@@ -11,5 +11,6 @@
             "content": "Increases [Cloaking] speed by [60%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

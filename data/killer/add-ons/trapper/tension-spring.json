@@ -11,5 +11,6 @@
             "content": "A [Bear Trap] automatically resets [2s] after a Survivor escapes from it."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

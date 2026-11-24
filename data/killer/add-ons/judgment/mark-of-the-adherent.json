@@ -11,5 +11,6 @@
             "content": "While not [Zealous], the radius of [Divine Light] is increased by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

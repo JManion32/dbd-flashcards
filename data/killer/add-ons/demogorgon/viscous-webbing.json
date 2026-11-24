@@ -11,5 +11,6 @@
             "content": "Increases the time Survivors need to seal [Portals] by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

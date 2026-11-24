@@ -15,5 +15,6 @@
             "content": "Increases [Ambush] attack charge time by [10%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

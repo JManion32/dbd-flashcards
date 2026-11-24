@@ -28,5 +28,6 @@
         "Repairing",
         "Skill Check",
         "Token"
-    ]
+    ],
+    "version": "10.3.0"
 }

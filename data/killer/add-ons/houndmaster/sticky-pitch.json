@@ -11,5 +11,6 @@
             "content": "Increases the bonus movement speed you gain while on the [Search Path] by [2%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

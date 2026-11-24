@@ -11,5 +11,6 @@
             "content": "After reappearing from a fully charged [Blink], you immediately [Blink] at full charge in the direction you are facing, if you have a [Blink] charge remaining."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

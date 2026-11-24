@@ -11,5 +11,6 @@
             "content": "Hitting a Survivor with a [Blink Attack] disables your ability to [Blink] and increases your base movement speed to [4.6 m/s] for [60s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -19,5 +19,6 @@
         "Carrying",
         "Hooking",
         "Sabotaging"
-    ]
+    ],
+    "version": "10.3.0"
 }

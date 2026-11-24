@@ -11,5 +11,6 @@
             "content": "Adds [2] charges."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "While out of [Worldbreaker Mode], the aiming range of [Vine Attack] is increased by [2m]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

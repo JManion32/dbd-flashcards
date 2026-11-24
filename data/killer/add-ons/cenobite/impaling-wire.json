@@ -11,5 +11,6 @@
             "content": "When a Survivor uses the environment to break a [Chain], an additional [Chain] targets them."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

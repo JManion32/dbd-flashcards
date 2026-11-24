@@ -25,5 +25,6 @@
         "Chest",
         "Generator",
         "Totem"
-    ]
+    ],
+    "version": "10.3.0"
 }

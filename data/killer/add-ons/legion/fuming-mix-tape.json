@@ -22,5 +22,6 @@
         "Aura",
         "Generator",
         "Regression"
-    ]
+    ],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Decreases the cooldown of [Kagune Leap] by [35%] while not [Enraged]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

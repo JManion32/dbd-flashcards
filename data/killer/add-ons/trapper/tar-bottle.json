@@ -11,5 +11,6 @@
             "content": "Darkens the appearance of [Bear Traps]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

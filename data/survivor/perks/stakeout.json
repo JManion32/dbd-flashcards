@@ -22,5 +22,6 @@
         "Skill Check",
         "Terror Radius",
         "Token"
-    ]
+    ],
+    "version": "10.3.0"
 }

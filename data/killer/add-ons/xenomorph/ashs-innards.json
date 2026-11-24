@@ -11,5 +11,6 @@
             "content": "Increases the time it takes destroyed [Turrets] to respawn by [15s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

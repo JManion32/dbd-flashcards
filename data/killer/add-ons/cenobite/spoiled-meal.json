@@ -11,5 +11,6 @@
             "content": "Increases the maximum travel distance of [Possessed Chains] by [2] meters."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

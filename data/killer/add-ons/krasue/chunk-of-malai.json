@@ -11,5 +11,6 @@
             "content": "Decreases the cleanse rate of [Glowing Fungus] by [8%] for each [Leeched] Survivor."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

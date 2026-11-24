@@ -21,5 +21,6 @@
         "Skill Check",
         "Token",
         "Unhooking"
-    ]
+    ],
+    "version": "10.3.0"
 }

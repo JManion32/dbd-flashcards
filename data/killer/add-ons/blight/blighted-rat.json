@@ -11,5 +11,6 @@
             "content": "Increases speed while [Rushing] by [2%] for each consecutive [Rush]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

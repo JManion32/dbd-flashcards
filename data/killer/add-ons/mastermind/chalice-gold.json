@@ -11,5 +11,6 @@
             "content": "Increases the [Virulent Bound] extension when grabbing a Survivor mid-Bound by [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

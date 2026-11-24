@@ -11,5 +11,6 @@
             "content": "Decreases [The Redeemer]'s reload time by [0.25s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

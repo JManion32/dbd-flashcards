@@ -15,5 +15,6 @@
             "content": "You move [10%] faster while controlling [Divine Light]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

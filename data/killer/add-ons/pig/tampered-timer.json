@@ -11,5 +11,6 @@
             "content": "Decreases the [Reverse Bear Trap] death timer by [20s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

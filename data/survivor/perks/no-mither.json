@@ -25,5 +25,6 @@
         "Broken",
         "Healing",
         "Injured State"
-    ]
+    ],
+    "version": "10.3.0"
 }

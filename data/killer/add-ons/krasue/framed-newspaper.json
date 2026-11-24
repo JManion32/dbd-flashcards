@@ -15,5 +15,6 @@
             "content": "[Headlong Flight] must be at least half-charged to activate."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

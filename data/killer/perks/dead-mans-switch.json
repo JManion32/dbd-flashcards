@@ -19,5 +19,6 @@
         "Blocked",
         "Generator",
         "Hooking"
-    ]
+    ],
+    "version": "10.3.0"
 }

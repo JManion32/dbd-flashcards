@@ -26,5 +26,6 @@
         "Generator",
         "Terror Radius",
         "Undetectable"
-    ]
+    ],
+    "version": "10.3.0"
 }

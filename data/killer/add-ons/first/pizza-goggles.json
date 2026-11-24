@@ -15,5 +15,6 @@
             "content": "Decreases your exit cooldown after an [Undergate Attack] by [80%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

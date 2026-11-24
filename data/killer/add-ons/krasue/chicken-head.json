@@ -15,5 +15,6 @@
             "content": "[2] additional [Glowing Fungi] spawn at the start of the Trial."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -111,6 +111,16 @@ export function assertAlphabeticalList(file, field, list) {
     return false;
 }
 
+const SEMVER_REGEX =
+    /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)[a-z]?(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/;
+export function assertSemanticVersion(file, field, version) {
+    if (!SEMVER_REGEX.test(version)) {
+        console.error(`❌ ${file}: Invalid ${field}: ${version}, must be <MAJOR>.<MINOR>.<PATCH>[letter].`);
+        return true;
+    }
+    return false;
+}
+
 const closingBrackets = { '(': ')', '[': ']', '{': '}', '<': '>' };
 const openingBrackets = { ')': '(', ']': '[', '}': '{', '>': '<' };
 

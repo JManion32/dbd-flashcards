@@ -11,5 +11,6 @@
             "content": "[Teleporting] to the [Remnant] activates [Killer Instinct] even when not in [Nightfall]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

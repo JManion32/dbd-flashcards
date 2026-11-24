@@ -11,5 +11,6 @@
             "content": "Increases the time before you succumb to [Fatigue] after a [Blink] by [20%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

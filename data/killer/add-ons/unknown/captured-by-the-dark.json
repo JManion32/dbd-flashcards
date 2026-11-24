@@ -15,5 +15,6 @@
             "content": "Decreases the maximum number of [Hallucinations] by [1]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

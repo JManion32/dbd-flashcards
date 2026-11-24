@@ -19,5 +19,6 @@
         "Broken",
         "Chest",
         "Healing"
-    ]
+    ],
+    "version": "10.3.0"
 }

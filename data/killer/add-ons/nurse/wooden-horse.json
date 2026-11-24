@@ -11,5 +11,6 @@
             "content": "Decreases the extra [Fatigue] from missed [Blink Attacks] by [50%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

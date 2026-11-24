@@ -11,5 +11,6 @@
             "content": "Using [Reign of Darkness] increases the [Nightfall] charge rate by an additional [15%] per second."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

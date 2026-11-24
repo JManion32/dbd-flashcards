@@ -11,5 +11,6 @@
             "content": "Survivors can no longer tell the distance or direction of the [Wailing Bell]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

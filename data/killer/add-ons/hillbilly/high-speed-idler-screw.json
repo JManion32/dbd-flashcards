@@ -11,5 +11,6 @@
             "content": "Increases the time before the [Overdrive] meter starts dissipating by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

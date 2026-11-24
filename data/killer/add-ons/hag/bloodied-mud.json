@@ -11,5 +11,6 @@
             "content": "Decreases [Phantasm Trap] trigger range by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

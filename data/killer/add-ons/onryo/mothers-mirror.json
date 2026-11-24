@@ -11,5 +11,6 @@
             "content": "Increases the intermittent visibility duration after [Manifesting] by [2s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

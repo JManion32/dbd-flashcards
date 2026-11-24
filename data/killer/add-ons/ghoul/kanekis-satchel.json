@@ -11,5 +11,6 @@
             "content": "Increases the speed of the third consecutive [Kagune Leap] by [30%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

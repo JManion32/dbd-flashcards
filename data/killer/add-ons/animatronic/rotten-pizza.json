@@ -11,5 +11,6 @@
             "content": "Increases the duration of [Killer Instinct] from the [Axe's] area of effect by [100%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

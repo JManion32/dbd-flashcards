@@ -11,5 +11,6 @@
             "content": "Setting a [Bear Trap] is silent."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

@@ -11,5 +11,6 @@
             "content": "Increases the reveal distance of [Scent Orbs] by [100%]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

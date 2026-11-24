@@ -19,5 +19,6 @@
             "content": "Gain [100] to [500] bonus Bloodpoints for each successive hit during [Feral Frenzy]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

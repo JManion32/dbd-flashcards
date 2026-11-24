@@ -11,5 +11,6 @@
             "content": "Decreases reload time by [0.5s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

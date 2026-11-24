@@ -29,5 +29,6 @@
         "Skill Check",
         "Token",
         "Totem"
-    ]
+    ],
+    "version": "10.3.0"
 }

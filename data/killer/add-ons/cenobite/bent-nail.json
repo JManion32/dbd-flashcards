@@ -15,5 +15,6 @@
             "content": "Hitting a Survivor with a [Possessed Chain] only spawns [1] additional [Chain]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

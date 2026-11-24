@@ -11,5 +11,6 @@
             "content": "Decreases the Fog Cloud's expansion time by [1s]."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

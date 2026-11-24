@@ -11,5 +11,6 @@
             "content": "Doubles the bounce strength of the [UVX] projectile."
         }
     ],
-    "tags": []
+    "tags": [],
+    "version": "10.3.0"
 }

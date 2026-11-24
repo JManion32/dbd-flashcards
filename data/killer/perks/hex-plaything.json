@@ -33,5 +33,6 @@
         "Hooking",
         "Oblivious",
         "Totem"
-    ]
+    ],
+    "version": "10.3.0"
 }
