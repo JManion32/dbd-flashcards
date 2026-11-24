@@ -12,6 +12,9 @@ import type { GameItem } from '@/types/gameItem';
 import HomePage from '@/components/home/HomePage.vue';
 import StudyPage from '@/components/study/StudyPage.vue';
 import GameItemPage from '@/components/gameitem/GameItemPage.vue';
+import StatusEffectPage from '@/components/status-effect/StatusEffectPage.vue';
+import KillersPage from '@/components/characters/KillersPage.vue';
+import SurvivorsPage from '@/components/characters/SurvivorsPage.vue';
 
 import App from '@/App.vue';
 
@@ -54,8 +57,23 @@ const routes = [
         props: () => ({ config: history.state?.config && { ...StudyConfigDefault, ...history.state.config } }),
         meta: routeMeta['/study'],
     },
+    {
+        path: '/killers',
+        component: KillersPage,
+        meta: routeMeta['/killers'],
+    },
+    {
+        path: '/survivors',
+        component: SurvivorsPage,
+        meta: routeMeta['/survivors'],
+    },
     gameItemRoute('/perks', 'perk', () => combinedPerks.value),
     gameItemRoute('/add-ons', 'add-on', () => combinedAddOns.value),
+    {
+        path: '/status-effects',
+        component: StatusEffectPage,
+        meta: routeMeta['/status-effects'],
+    },
 ];
 
 export const router = createRouter({

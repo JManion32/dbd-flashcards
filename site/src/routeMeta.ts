@@ -19,6 +19,19 @@ export const routeMeta = {
         description: 'Quiz yourself on Dead by Daylight perks and add-ons with flashcards.',
         noindex: true,
     },
+    '/killers': {
+        title: 'All Dead by Daylight Killers | DBD Flashcards',
+        description:
+            'Browse every Killer in Dead by Daylight, with their perks and add-ons. Study each Killer as flashcards.',
+        // Remove once the page has content, so search engines don't index an empty page
+        noindex: true,
+    },
+    '/survivors': {
+        title: 'All Dead by Daylight Survivors | DBD Flashcards',
+        description: 'Browse every Survivor in Dead by Daylight, with their perks. Study each Survivor as flashcards.',
+        // Remove once the page has content, so search engines don't index an empty page
+        noindex: true,
+    },
     '/perks': {
         title: 'All Dead by Daylight Perks | DBD Flashcards',
         description:
@@ -28,5 +41,12 @@ export const routeMeta = {
         title: 'All Dead by Daylight Add-Ons | DBD Flashcards',
         description:
             'Browse every Killer and Survivor add-on in Dead by Daylight, with rarities and effects. Filter by killer or item and study them as flashcards.',
+    },
+    '/status-effects': {
+        title: 'All Dead by Daylight Status Effects | DBD Flashcards',
+        description:
+            'Browse every Dead by Daylight status effect, from Exposed and Haste to Deep Wound and Blindness, with what each one does to Survivors and Killers.',
+        // Remove once the page has content, so search engines don't index an empty page
+        noindex: true,
     },
 } satisfies Record<string, PageMeta>;
