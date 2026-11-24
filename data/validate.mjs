@@ -16,6 +16,8 @@ import {
     assertAlphabeticalList,
     assertSemanticVersion,
     assertBalancedBrackets,
+    assertImage,
+    assertNoOrphanImages,
 } from './validation/validate-helper.mjs';
 import validateFieldOrder from './validation/validateFieldOrder.mjs';
 
@@ -53,8 +55,21 @@ const jsonFiles = getJsonFiles(dataDir);
 
 let hasErrors = false;
 
-for (const file of jsonFiles) {
-    const parsedFile = JSON.parse(fs.readFileSync(file, 'utf8'));
+const parsedFiles = jsonFiles.map((file) => JSON.parse(fs.readFileSync(file, 'utf8')));
+
+if (assertNoOrphanImages(jsonFiles, parsedFiles)) {
+    hasErrors = true;
+}
+
+for (const [
+    i,
+    file,
+] of jsonFiles.entries()) {
+    const parsedFile = parsedFiles[i];
+
+    if (assertImage(file, parsedFile.id)) {
+        hasErrors = true;
+    }
 
     if (validateSchema(file, parsedFile)) {
         hasErrors = true;

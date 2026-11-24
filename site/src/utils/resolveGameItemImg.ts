@@ -1,6 +1,6 @@
 import randomIcon from '@/assets/random.webp';
 
-const imageModules = import.meta.glob('@/assets/game-items/**/*.{png,webp}', {
+const imageModules = import.meta.glob('../../../data/**/images/*.{png,webp}', {
     eager: true,
     import: 'default',
 });

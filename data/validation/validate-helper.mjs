@@ -160,3 +160,47 @@ export function assertBalancedBrackets(file, value, field = '') {
     }
     return false;
 }
+
+// The site looks images up by id, so each item needs images/<id>.webp (or .png) next to its JSON.
+export function assertImage(file, id) {
+    const imageDir = path.join(path.dirname(file), 'images');
+    if (
+        ![
+            `${id}.webp`,
+            `${id}.png`,
+        ].some((image) => fs.existsSync(path.join(imageDir, image)))
+    ) {
+        console.error(`❌ ${file}: No image found at ${imageDir}/${id}.webp`);
+        return true;
+    }
+    return false;
+}
+
+// Every image should belong to an item in the folder above its images/ folder.
+export function assertNoOrphanImages(jsonFiles, parsedFiles) {
+    let hasErrors = false;
+    const idsByDir = new Map();
+    jsonFiles.forEach((file, i) => {
+        const dir = path.dirname(file);
+        if (!idsByDir.has(dir)) {
+            idsByDir.set(dir, new Set());
+        }
+        idsByDir.get(dir).add(parsedFiles[i].id);
+    });
+    for (const [
+        dir,
+        ids,
+    ] of idsByDir) {
+        const imageDir = path.join(dir, 'images');
+        if (!fs.existsSync(imageDir)) {
+            continue;
+        }
+        for (const image of fs.readdirSync(imageDir)) {
+            if (!ids.has(image.replace(/\.(png|webp)$/, ''))) {
+                console.error(`❌ ${imageDir}/${image}: No item with this id.`);
+                hasErrors = true;
+            }
+        }
+    }
+    return hasErrors;
+}
