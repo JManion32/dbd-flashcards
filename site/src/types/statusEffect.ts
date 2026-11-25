@@ -1,4 +1,4 @@
-import type { DescriptionBlock } from '@/types/gameItem';
+import type { DescriptionBlock } from './gameItem.ts';
 
 export interface StatusEffect {
     name: string;

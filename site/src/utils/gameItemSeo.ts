@@ -23,12 +23,12 @@ export function plainText(text: string) {
     return text.replace(/[[\]<>]/g, '');
 }
 
-function descriptionLines(description: DescriptionBlock[]) {
+export function descriptionLines(description: DescriptionBlock[]) {
     return description.flatMap((block) => (block.type === 'text' ? [block.content] : block.items)).map(plainText);
 }
 
 // Search results cut descriptions off around 155-160 characters, so end on a whole word before that
-function truncate(text: string, max = 155) {
+export function truncate(text: string, max = 155) {
     if (text.length <= max) {
         return text;
     }

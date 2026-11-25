@@ -1,20 +1,44 @@
 <script setup lang="ts">
 import GameItemDisplayDesc from '@/components/gameitem/GameItemDisplayDesc.vue';
 
+import { computed } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import { getGameItemImage } from '@/utils/resolveGameItemImg';
+import { STATUS_EFFECTS_PATH, statusEffectPath } from '@/utils/statusEffectSeo';
 import type { StatusEffect } from '@/types/statusEffect';
 
 const props = defineProps<{
     statusEffect: StatusEffect;
+    // Named in the URL (/status-effects/haste), so it's highlighted
+    open?: boolean;
 }>();
+
+const route = useRoute();
+const router = useRouter();
+
+// Clicking selects this status effect (its own URL) or, when it's already selected, goes back to the
+// plain list. Keeps the query (?side=Killer). Replaces rather than pushes, so Back leaves the page
+// instead of stepping through every highlight.
+const toggleLink = computed(() => ({
+    path: props.open ? STATUS_EFFECTS_PATH : statusEffectPath(props.statusEffect),
+    query: route.query,
+}));
+
+function toggle(event: MouseEvent) {
+    // The name link navigates on its own, and selecting text shouldn't count as a click
+    if ((event.target as HTMLElement).closest('a') || window.getSelection()?.toString()) return;
+    router.replace(toggleLink.value);
+}
 
 const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `${props.statusEffect.side}s`;
 </script>
 
 <template>
     <article
+        :id="`status-effect-${props.statusEffect.id}`"
         class="status-effect"
-        :class="`status-effect-${props.statusEffect.type.toLowerCase()}`"
+        :class="[`status-effect-${props.statusEffect.type.toLowerCase()}`, { open: props.open }]"
+        @click="toggle"
     >
         <img
             class="status-effect-icon"
@@ -24,7 +48,13 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
         <div class="status-effect-body">
             <div class="status-effect-header">
                 <h2 class="status-effect-name">
-                    {{ props.statusEffect.name }}
+                    <!-- Each status effect has its own URL so search engines can index it; keeps ?side= -->
+                    <RouterLink
+                        :to="toggleLink"
+                        replace
+                    >
+                        {{ props.statusEffect.name }}
+                    </RouterLink>
                 </h2>
                 <span class="status-effect-meta">
                     <span class="status-effect-type">{{ props.statusEffect.type }}</span>
@@ -50,6 +80,12 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     border: 1px solid var(--dark-5);
     border-left: 4px solid var(--accent);
     border-radius: 1rem;
+    transition: var(--site-transition);
+    cursor: pointer;
+}
+.status-effect.open {
+    border-color: var(--accent);
+    box-shadow: 0 0 1.25rem color-mix(in srgb, var(--accent) 35%, transparent);
 }
 .status-effect-debuff {
     --accent: var(--status-effect-debuff);
@@ -78,6 +114,15 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     font-weight: 900;
     font-size: var(--game-item-h3-size);
     text-shadow: var(--large-text-glow);
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 .status-effect-meta {
     display: flex;

@@ -6,7 +6,9 @@ import { fileURLToPath, URL } from 'node:url';
 import { defineConfig, type Plugin } from 'vite';
 import { routeMeta, SITE_URL, type PageMeta } from './src/routeMeta.ts';
 import { escapeHtml, gameItemHtml, gameItemMeta, gameItemPath } from './src/utils/gameItemSeo.ts';
+import { statusEffectHtml, statusEffectMeta, statusEffectPath } from './src/utils/statusEffectSeo.ts';
 import type { GameItem } from './src/types/gameItem.ts';
+import type { StatusEffect } from './src/types/statusEffect.ts';
 
 const repoRoot = fileURLToPath(new URL('..', import.meta.url));
 
@@ -47,6 +49,20 @@ function readGameItems() {
         path: relative(repoRoot, file),
         gameItem: JSON.parse(readFileSync(file, 'utf8')) as GameItem,
     }));
+}
+
+// Every status effect JSON under data/status-effects/, with its repo-relative path
+function readStatusEffects() {
+    const dir = join(repoRoot, 'data', 'status-effects');
+    return readdirSync(dir)
+        .filter((name) => name.endsWith('.json'))
+        .map((name) => {
+            const file = join(dir, name);
+            return {
+                path: relative(repoRoot, file),
+                statusEffect: JSON.parse(readFileSync(file, 'utf8')) as StatusEffect,
+            };
+        });
 }
 
 // Exposes `virtual:last-updated`: a map of repo-relative data file path -> last commit date (see gitDates)
@@ -91,11 +107,11 @@ function renderPage(html: string, path: string, meta: PageMeta, body = '') {
     return page;
 }
 
-// Writes `<route>.html` next to index.html for every non-root route and every perk and add-on
-// (`perks/<id>.html`, `add-ons/<id>.html`), with that page's title, description, and canonical baked
-// in. Crawlers read the raw HTML, so without this every route would claim to be the home page.
-// nginx serves them via `try_files $uri $uri.html`. Also writes sitemap.xml listing all of them, so
-// new perks and add-ons are picked up by search engines with no extra steps.
+// Writes `<route>.html` next to index.html for every non-root route, every perk and add-on
+// (`perks/<id>.html`, `add-ons/<id>.html`), and every status effect (`status-effects/<id>.html`), with
+// that page's title, description, and canonical baked in. Crawlers read the raw HTML, so without this
+// every route would claim to be the home page. nginx serves them via `try_files $uri $uri.html`. Also writes sitemap.xml listing all of them, so
+// new perks, add-ons, and status effects are picked up by search engines with no extra steps.
 function routeHtml(): Plugin {
     return {
         name: 'route-html',
@@ -126,6 +142,16 @@ function routeHtml(): Plugin {
                         type: 'asset',
                         fileName: `${path.slice(1)}.html`,
                         source: renderPage(html, path, gameItemMeta(gameItem), gameItemHtml(gameItem)),
+                    });
+                }
+
+                for (const { path: file, statusEffect } of readStatusEffects()) {
+                    const path = statusEffectPath(statusEffect);
+                    sitemap.push({ path, lastmod: dates[file] });
+                    this.emitFile({
+                        type: 'asset',
+                        fileName: `${path.slice(1)}.html`,
+                        source: renderPage(html, path, statusEffectMeta(statusEffect), statusEffectHtml(statusEffect)),
                     });
                 }
 

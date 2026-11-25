@@ -46,7 +46,5 @@ export const routeMeta = {
         title: 'All Dead by Daylight Status Effects | DBD Flashcards',
         description:
             'Browse every Dead by Daylight status effect, from Exposed and Haste to Deep Wound and Blindness, with what each one does to Survivors and Killers.',
-        // Remove once the page has content, so search engines don't index an empty page
-        noindex: true,
     },
 } satisfies Record<string, PageMeta>;
