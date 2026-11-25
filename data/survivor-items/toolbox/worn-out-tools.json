@@ -1,0 +1,33 @@
+{
+    "name": "Worn-Out Tools",
+    "id": "worn-out-tools",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Common",
+    "owner": "Toolbox",
+    "description": [
+        {
+            "type": "text",
+            "content": "Has [16] charges. Repairing a Generator requires [90] charges."
+        },
+        {
+            "type": "text",
+            "content": "Increases repair speed by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases Skill Check success zone size by [10%]."
+        },
+        {
+            "type": "text",
+            "content": "Unlocks the sabotage action. Sabotaging a Hook requires [6] charges."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Sabotaging",
+        "Skill Check"
+    ],
+    "version": "10.3.0"
+}

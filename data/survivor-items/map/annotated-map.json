@@ -1,0 +1,29 @@
+{
+    "name": "Annotated Map",
+    "id": "annotated-map",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Rare",
+    "owner": "Map",
+    "description": [
+        {
+            "type": "text",
+            "content": "Press <Use Item> to see the Auras of all Pallets and vaults within [40m] for [14s]."
+        },
+        {
+            "type": "text",
+            "content": "Use the secondary action to create a beam of light at your location. You see the Auras of Generators within [32m] of the beam."
+        },
+        {
+            "type": "text",
+            "content": "Has [6] charges."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Generator",
+        "Pallet",
+        "Window"
+    ],
+    "version": "10.3.0"
+}

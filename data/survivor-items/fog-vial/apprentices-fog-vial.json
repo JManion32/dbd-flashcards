@@ -1,0 +1,34 @@
+{
+    "name": "Apprentice's Fog Vial",
+    "id": "apprentices-fog-vial",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Common",
+    "owner": "Fog Vial",
+    "description": [
+        {
+            "type": "text",
+            "content": "Releases a Fog Cloud that lasts [8s] and expands up to [8m]."
+        },
+        {
+            "type": "text",
+            "content": "While inside a Fog Cloud:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Auras are suppressed.",
+                "Survivors leave no Scratch Marks and make no sound."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Has [4] charges, which recharge over [70s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Scratch Marks"
+    ],
+    "version": "10.3.0"
+}

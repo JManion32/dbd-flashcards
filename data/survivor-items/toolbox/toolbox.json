@@ -1,0 +1,32 @@
+{
+    "name": "Toolbox",
+    "id": "toolbox",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Uncommon",
+    "owner": "Toolbox",
+    "description": [
+        {
+            "type": "text",
+            "content": "Has [20] charges. Repairing a Generator requires [90] charges."
+        },
+        {
+            "type": "text",
+            "content": "Increases repair speed by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Unlocks the sabotage action. Sabotaging a Hook requires [6] charges."
+        },
+        {
+            "type": "text",
+            "content": "Increases sabotage speed by [15%]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Sabotaging"
+    ],
+    "version": "10.3.0"
+}

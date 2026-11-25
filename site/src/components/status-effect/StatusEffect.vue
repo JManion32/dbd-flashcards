@@ -2,7 +2,7 @@
 import GameItemDisplayDesc from '@/components/gameitem/GameItemDisplayDesc.vue';
 
 import { computed } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
+import { useRoute } from 'vue-router';
 import { getGameItemImage } from '@/utils/resolveGameItemImg';
 import { STATUS_EFFECTS_PATH, statusEffectPath } from '@/utils/statusEffectSeo';
 import type { StatusEffect } from '@/types/statusEffect';
@@ -16,36 +16,30 @@ const props = defineProps<{
 }>();
 
 const route = useRoute();
-const router = useRouter();
 
-// Clicking selects this status effect (its own URL) or, when it's already selected, goes back to the
-// plain list. Keeps the query (?side=Killer). Replaces rather than pushes, so Back leaves the page
-// instead of stepping through every highlight.
+// The whole card is a link. On the status effects page, clicking selects this status effect (its own
+// URL) or, when it's already selected, goes back to the plain list, keeping the query (?side=Killer).
+// It replaces rather than pushes there, so Back leaves the page instead of stepping through every
+// highlight. Compact cards (inside another display) just link to the status effect's page.
 const toggleLink = computed(() =>
     props.compact
         ? { path: statusEffectPath(props.statusEffect) }
         : { path: props.open ? STATUS_EFFECTS_PATH : statusEffectPath(props.statusEffect), query: route.query }
 );
 
-function toggle(event: MouseEvent) {
-    if (props.compact) return;
-    // The name link navigates on its own, and selecting text shouldn't count as a click
-    if ((event.target as HTMLElement).closest('a') || window.getSelection()?.toString()) return;
-    router.replace(toggleLink.value);
-}
-
 const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `${props.statusEffect.side}s`;
 </script>
 
 <template>
-    <article
+    <RouterLink
         :id="props.compact ? undefined : `status-effect-${props.statusEffect.id}`"
+        :to="toggleLink"
+        :replace="!props.compact"
         class="status-effect"
         :class="[
             `status-effect-${props.statusEffect.type.toLowerCase()}`,
             { open: props.open, compact: props.compact },
         ]"
-        @click="toggle"
     >
         <img
             class="status-effect-icon"
@@ -55,13 +49,7 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
         <div class="status-effect-body">
             <div class="status-effect-header">
                 <h2 class="status-effect-name">
-                    <!-- Each status effect has its own URL so search engines can index it; keeps ?side= -->
-                    <RouterLink
-                        :to="toggleLink"
-                        :replace="!props.compact"
-                    >
-                        {{ props.statusEffect.name }}
-                    </RouterLink>
+                    {{ props.statusEffect.name }}
                 </h2>
                 <span class="status-effect-meta">
                     <span class="status-effect-type">{{ props.statusEffect.type }}</span>
@@ -71,7 +59,7 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
             </div>
             <GameItemDisplayDesc :desc="props.statusEffect.description" />
         </div>
-    </article>
+    </RouterLink>
 </template>
 
 <style scoped>
@@ -87,8 +75,13 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     border: 1px solid var(--dark-5);
     border-left: 4px solid var(--accent);
     border-radius: 1rem;
+    color: inherit;
+    text-decoration: none;
     transition: var(--site-transition);
-    cursor: pointer;
+
+    &:hover {
+        background-color: var(--dark-3);
+    }
 }
 .status-effect.compact {
     --gd-desc-size: 0.9rem;
@@ -96,7 +89,6 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     gap: 1rem;
     padding: 0.75rem 1rem;
     border-radius: 0.75rem;
-    cursor: default;
 
     .status-effect-icon {
         height: 3.5rem;
@@ -138,15 +130,6 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     font-weight: 900;
     font-size: var(--game-item-h3-size);
     text-shadow: var(--large-text-glow);
-
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
 }
 .status-effect-meta {
     display: flex;

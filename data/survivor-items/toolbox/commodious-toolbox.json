@@ -1,0 +1,32 @@
+{
+    "name": "Commodious Toolbox",
+    "id": "commodious-toolbox",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Rare",
+    "owner": "Toolbox",
+    "description": [
+        {
+            "type": "text",
+            "content": "Has [32] charges. Repairing a Generator requires [90] charges."
+        },
+        {
+            "type": "text",
+            "content": "Increases repair speed by [50%]."
+        },
+        {
+            "type": "text",
+            "content": "Unlocks the sabotage action. Sabotaging a Hook requires [6] charges."
+        },
+        {
+            "type": "text",
+            "content": "Increases sabotage speed by [50%]."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Repairing",
+        "Sabotaging"
+    ],
+    "version": "10.3.0"
+}

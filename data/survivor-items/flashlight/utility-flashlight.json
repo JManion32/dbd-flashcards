@@ -1,0 +1,30 @@
+{
+    "name": "Utility Flashlight",
+    "id": "utility-flashlight",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Very Rare",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Has [12s] of use."
+        },
+        {
+            "type": "text",
+            "content": "Increases the brightness of the Flashlight beam by [30%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases Blindness duration by [15%]."
+        },
+        {
+            "type": "text",
+            "content": "Decreases the accuracy of the Flashlight beam by [20%]."
+        }
+    ],
+    "tags": [
+        "Blind"
+    ],
+    "version": "10.3.0"
+}

@@ -42,6 +42,7 @@ const schemas = {
     'killer-perks': 'game-item-schema.json',
     'killer-add-ons': 'game-item-schema.json',
     'survivor-perks': 'game-item-schema.json',
+    'survivor-items': 'game-item-schema.json',
     'survivor-add-ons': 'game-item-schema.json',
     'status-effects': 'status-effect-schema.json',
 };
@@ -51,6 +52,9 @@ createValidationFunction(schemas[dataDir]);
 
 // exhaustion, elusive, exposed, etc
 const allowedTags = getAllowList('tags.json');
+
+// Visceral, Very Rare, Rare, Uncommon, Common
+const allowedRarities = getAllowList('rarities.json');
 
 const jsonFiles = getJsonFiles(dataDir);
 
@@ -108,6 +112,29 @@ for (const [
             break;
         }
 
+        case 'survivor-items': {
+            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+                hasErrors = true;
+            }
+            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+                hasErrors = true;
+            }
+            if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
+                hasErrors = true;
+            }
+            if (assertField(file, 'type', parsedFile.type, 'Item')) {
+                hasErrors = true;
+            }
+            const allowedItems = getAllowList('items.json');
+            if (validateField(file, 'item', parsedFile.owner, allowedItems)) {
+                hasErrors = true;
+            }
+            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
+                hasErrors = true;
+            }
+            break;
+        }
+
         case 'survivor-add-ons': {
             if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
                 hasErrors = true;
@@ -123,6 +150,9 @@ for (const [
             }
             const allowedItems = getAllowList('items.json');
             if (validateField(file, 'item', parsedFile.owner, allowedItems)) {
+                hasErrors = true;
+            }
+            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
                 hasErrors = true;
             }
             break;
@@ -165,10 +195,12 @@ for (const [
             if (validateField(file, 'killer', parsedFile.owner, allowedCharacters)) {
                 hasErrors = true;
             }
+            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
+                hasErrors = true;
+            }
             break;
         }
 
-        // side and type are checked by the schema enums
         case 'status-effects': {
             break;
         }

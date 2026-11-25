@@ -1,0 +1,22 @@
+{
+    "name": "Broken Key",
+    "id": "broken-key",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Common",
+    "owner": "Key",
+    "description": [
+        {
+            "type": "text",
+            "content": "Consume a charge to hold <Use Item> to see the Auras of Survivors within [48m] for [8s]."
+        },
+        {
+            "type": "text",
+            "content": "Has [6] charges."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ],
+    "version": "10.3.0"
+}

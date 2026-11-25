@@ -1,0 +1,26 @@
+{
+    "name": "Camping Aid Kit",
+    "id": "camping-aid-kit",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Common",
+    "owner": "Med-Kit",
+    "description": [
+        {
+            "type": "text",
+            "content": "Has [24] charges. A full heal requires [16] charges."
+        },
+        {
+            "type": "text",
+            "content": "Increases the speed you heal others by [35%]."
+        },
+        {
+            "type": "text",
+            "content": "Unlocks self-healing, but decreases self-healing speed and efficiency by [33%]."
+        }
+    ],
+    "tags": [
+        "Healing"
+    ],
+    "version": "10.3.0"
+}

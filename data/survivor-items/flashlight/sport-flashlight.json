@@ -1,0 +1,26 @@
+{
+    "name": "Sport Flashlight",
+    "id": "sport-flashlight",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Rare",
+    "owner": "Flashlight",
+    "description": [
+        {
+            "type": "text",
+            "content": "Has [8s] of use."
+        },
+        {
+            "type": "text",
+            "content": "Decreases battery consumption by [11%]."
+        },
+        {
+            "type": "text",
+            "content": "Increases the accuracy of the Flashlight beam by [20%]."
+        }
+    ],
+    "tags": [
+        "Blind"
+    ],
+    "version": "10.3.0"
+}

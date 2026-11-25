@@ -1,0 +1,36 @@
+{
+    "name": "Dull Key",
+    "id": "dull-key",
+    "side": "Survivor",
+    "type": "Item",
+    "rarity": "Uncommon",
+    "owner": "Key",
+    "description": [
+        {
+            "type": "text",
+            "content": "Consume a charge to:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Hold <Use Item> to see the Auras of Survivors within [56m] for [9s].",
+                "Quickly unlock Chests.",
+                "Unlock the Hatch."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Chests you unlock have their Aura revealed to Survivors within [42m], can be rummaged once more by another Survivor, and contain items of at least Rare quality."
+        },
+        {
+            "type": "text",
+            "content": "Has [5] charges."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Chest",
+        "Hatch"
+    ],
+    "version": "10.3.0"
+}
