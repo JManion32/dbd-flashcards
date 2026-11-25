@@ -14,8 +14,9 @@ import HomePage from '@/components/home/HomePage.vue';
 import StudyPage from '@/components/study/StudyPage.vue';
 import GameItemPage from '@/components/gameitem/GameItemPage.vue';
 import StatusEffectPage from '@/components/status-effect/StatusEffectPage.vue';
-import KillersPage from '@/components/characters/KillersPage.vue';
-import SurvivorsPage from '@/components/characters/SurvivorsPage.vue';
+import KillersPage from '@/components/owners/KillersPage.vue';
+import SurvivorsPage from '@/components/owners/SurvivorsPage.vue';
+import ItemsPage from '@/components/owners/ItemsPage.vue';
 
 import App from '@/App.vue';
 
@@ -74,6 +75,11 @@ const routes = [
         path: '/survivors',
         component: SurvivorsPage,
         meta: routeMeta['/survivors'],
+    },
+    {
+        path: '/items',
+        component: ItemsPage,
+        meta: routeMeta['/items'],
     },
     gameItemRoute('/perks', 'perk', () => combinedPerks.value),
     gameItemRoute('/add-ons', 'add-on', () => combinedAddOns.value),

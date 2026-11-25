@@ -26,7 +26,6 @@ function close() {
         />
     </Transition>
     <Transition name="sidebar-slide">
-        <!-- v-show, not v-if: closing the sidebar must keep StartStudyModal alive so its modal stays open -->
         <div
             v-show="open"
             class="sidebar"
@@ -52,6 +51,13 @@ function close() {
                     @click="close"
                 >
                     Survivors
+                </RouterLink>
+                <RouterLink
+                    class="sidebar-link"
+                    to="/items"
+                    @click="close"
+                >
+                    Items
                 </RouterLink>
                 <RouterLink
                     class="sidebar-link"
@@ -114,8 +120,9 @@ function close() {
     width: 24rem;
     height: 98%;
     margin: auto 0;
-    padding: 2rem;
+    padding: 4rem 2rem;
     background: var(--header-bg);
+    border: 2px solid var(--dark-3);
     border-radius: 0 2rem 2rem 0;
     display: flex;
     flex-direction: column;
@@ -142,7 +149,7 @@ function close() {
     color: var(--inactive-text);
     font-weight: 800;
     transition: var(--site-transition);
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     border-radius: 1rem;
     border: 1px solid transparent;
 }

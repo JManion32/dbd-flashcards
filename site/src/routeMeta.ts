@@ -32,6 +32,13 @@ export const routeMeta = {
         // Remove once the page has content, so search engines don't index an empty page
         noindex: true,
     },
+    '/items': {
+        title: 'All Dead by Daylight Items | DBD Flashcards',
+        description:
+            'Browse every Survivor item in Dead by Daylight, with their add-ons. Study each item as flashcards.',
+        // Remove once the page has content, so search engines don't index an empty page
+        noindex: true,
+    },
     '/perks': {
         title: 'All Dead by Daylight Perks | DBD Flashcards',
         description:

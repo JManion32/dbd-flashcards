@@ -4,43 +4,43 @@ import ListNoResults from '@/components/list/ListNoResults.vue';
 
 import { useData } from '@/stores/useData';
 import { useListControls } from '@/composables/useListControls';
-import { survivorListConfig } from '@/utils/listConfigs/characters';
+import { itemListConfig } from '@/utils/listConfigs/owners';
 
-// Universal owns shared add-ons and perks; it isn't a Survivor
-const survivors = useData().survivors.filter((survivor) => survivor !== 'Universal');
-const { state, results } = useListControls(survivors, survivorListConfig);
+// items.json is just the item types (Flashlight, Toolbox, ...); there's no Universal entry
+const { items } = useData();
+const { state, results } = useListControls(items, itemListConfig);
 </script>
 
 <template>
     <div>
         <ListToolbar
             v-model="state"
-            :config="survivorListConfig"
+            :config="itemListConfig"
             :count="results.length"
         />
         <ListNoResults v-if="results.length === 0" />
-        <!-- Placeholder cards until there's character data -->
-        <div class="character-list">
+        <!-- Placeholder cards until there's item data -->
+        <div class="owner-list">
             <div
-                v-for="survivor in results"
-                :key="survivor"
-                class="character-card"
+                v-for="item in results"
+                :key="item"
+                class="owner-card"
             >
-                {{ survivor }}
+                {{ item }}
             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
-.character-list {
+.owner-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.8rem;
     padding: 1rem 1rem 2.5rem;
 }
-.character-card {
+.owner-card {
     padding: 1rem 1.5rem;
     color: var(--standard-white);
     font-weight: 800;
