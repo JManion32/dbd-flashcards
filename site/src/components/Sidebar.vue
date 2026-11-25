@@ -1,10 +1,23 @@
 <script setup lang="ts">
 import StartStudyModal from '@/components/study/StartStudyModal.vue';
 import { Menu } from 'lucide-vue-next';
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
 import { useRoute } from 'vue-router';
 const route = useRoute();
+
+// Keyed by the first part of the path, so /perks/agitation still shows "Perks"
+const pageTitles: Record<string, string> = {
+    '/': 'Home',
+    '/killers': 'Killers',
+    '/survivors': 'Survivors',
+    '/items': 'Items',
+    '/perks': 'Perks',
+    '/add-ons': 'Add-Ons',
+    '/status-effects': 'Status Effects',
+    '/study': 'Study',
+};
+const pageTitle = computed(() => pageTitles['/' + route.path.split('/')[1]] ?? '');
 
 const open = ref(false);
 
@@ -14,12 +27,19 @@ function close() {
 </script>
 
 <template>
+    <!-- The page title is part of the button, so clicking either opens the menu -->
     <button
         class="menu-btn"
         aria-label="Open menu"
         @click="open = true"
     >
         <Menu :size="28" />
+        <span
+            v-if="pageTitle"
+            class="page-title"
+        >
+            {{ pageTitle }}
+        </span>
     </button>
     <Transition name="sidebar-fade">
         <div
@@ -88,7 +108,7 @@ function close() {
                 class="sidebar-study"
                 @click="close"
             >
-                <StartStudyModal  v-if="route.path !== '/study'" />
+                <StartStudyModal v-if="route.path !== '/study'" />
             </div>
         </div>
     </Transition>
@@ -97,7 +117,9 @@ function close() {
 <style scoped>
 .menu-btn {
     display: flex;
-    padding: 0.4rem;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 0.4rem 0.75rem 0.4rem 0.4rem;
     border: none;
     border-radius: 0.5rem;
     background: none;
@@ -107,6 +129,11 @@ function close() {
 }
 .menu-btn:hover {
     background: var(--dark-2);
+}
+.page-title {
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-shadow: var(--small-text-glow);
 }
 .sidebar-backdrop {
     position: fixed;

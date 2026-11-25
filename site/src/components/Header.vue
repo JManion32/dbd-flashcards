@@ -3,35 +3,16 @@ import Sidebar from '@/components/Sidebar.vue';
 import StartStudyModal from '@/components/study/StartStudyModal.vue';
 import { useStudy } from '@/stores/useStudy';
 
-import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 const route = useRoute();
 
 const { studyConfig } = useStudy();
-
-// Keyed by the first part of the path, so /perks/agitation still shows "Perks"
-const pageTitles: Record<string, string> = {
-    '/': 'Home',
-    '/killers': 'Killers',
-    '/survivors': 'Survivors',
-    '/items': 'Items',
-    '/perks': 'Perks',
-    '/add-ons': 'Add-Ons',
-    '/status-effects': 'Status Effects',
-    '/study': 'Study',
-};
-const pageTitle = computed(() => pageTitles['/' + route.path.split('/')[1]] ?? '');
 </script>
 
 <template>
     <div class="header-filler-container" />
     <div class="header-container">
-        <div class="header-home-container">
-            <Sidebar />
-            <p class="page-title">
-                {{ pageTitle }}
-            </p>
-        </div>
+        <Sidebar />
         <StartStudyModal v-if="route.path !== '/study'" />
         <p
             v-if="route.path === '/study' && studyConfig"
@@ -64,22 +45,9 @@ const pageTitle = computed(() => pageTitles['/' + route.path.split('/')[1]] ?? '
     align-items: center;
     justify-content: space-between;
 }
-.header-home-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.75rem;
-}
 .header-header {
     color: var(--standard-white);
     margin: 0;
-}
-.page-title {
-    color: var(--standard-white);
-    margin: 0;
-    font-size: 1.3rem;
-    font-weight: 900;
-    text-shadow: var(--small-text-glow);
 }
 .study-info {
     color: var(--standard-white);
