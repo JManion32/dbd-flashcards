@@ -1,53 +1,35 @@
-<script setup lang="ts">
+<script setup lang="ts" generic="T">
 import '@/styles/modal.css';
-import type { Option } from '@/types/options';
-import { useData } from '@/stores/useData';
 import { computed, ref } from 'vue';
-import { GameItemFilterDefault, type GameItemFilter } from '@/types/gameItemFilter';
 import Modal from '@/components/Modal.vue';
 import OptionSelector from '@/components/OptionSelector.vue';
 import ManyOptionSelector from '@/components/ManyOptionSelector.vue';
 import { SlidersHorizontal } from 'lucide-vue-next';
+import { activeFilterCount, clearListFilters } from '@/composables/useListControls';
+import type { ListConfig, ListState } from '@/types/listConfig';
 
 const props = defineProps<{
-    type: 'perk' | 'add-on';
-    filter: GameItemFilter;
+    config: ListConfig<T>;
 }>();
 
-// Emits a whole new filter on every change; the parent owns the state
-const emit = defineEmits<{
-    selected: [filter: GameItemFilter];
-}>();
+// The page owns the state; every change replaces it whole
+const state = defineModel<ListState>({ required: true });
 
 const visible = ref(false);
-const { tags, survivors, killers, items, survivorsByRelease, killersByRelease } = useData();
 
-const sideOptions: Option<GameItemFilter['side']>[] = [
-    { value: 'Killer', label: 'Killer' },
-    { value: 'Survivor', label: 'Survivor' },
-    { value: 'All', label: 'Both' },
-];
-
-const activeCount = computed(
-    () =>
-        props.filter.survivors.length +
-        props.filter.killers.length +
-        props.filter.items.length +
-        props.filter.tags.length
+const activeCount = computed(() => activeFilterCount(props.config, state.value));
+const shownFilters = computed(() =>
+    (props.config.filters ?? []).filter((group) => !group.visible || group.visible(state.value))
 );
 
-function setFilter<K extends keyof GameItemFilter>(key: K, value: GameItemFilter[K]) {
-    emit('selected', { ...props.filter, [key]: value });
-}
-
-// Keeps the search box; it lives outside this modal
-function clearFilters() {
-    emit('selected', { ...GameItemFilterDefault, search: props.filter.search });
+function setFilter(key: string, value: string | string[]) {
+    state.value = { ...state.value, filters: { ...state.value.filters, [key]: value } };
 }
 </script>
 <template>
     <button
         class="filter-btn open-filter-btn"
+        aria-label="Filters"
         @click="visible = true"
     >
         <SlidersHorizontal :size="18" />
@@ -70,45 +52,37 @@ function clearFilters() {
             <h2>Filters</h2>
             <div class="filter-choices-container">
                 <OptionSelector
-                    label="Side"
-                    :options="sideOptions"
-                    :active-value="props.filter.side"
-                    @selected="(newValue) => setFilter('side', newValue)"
+                    v-if="props.config.quickSelect"
+                    :label="props.config.quickSelect.label"
+                    :options="props.config.quickSelect.options"
+                    :active-value="state.quick"
+                    @selected="(value) => (state = { ...state, quick: value })"
                 />
-                <ManyOptionSelector
-                    v-if="props.type === 'perk' && (props.filter.side === 'All' || props.filter.side === 'Survivor')"
-                    label="Survivors"
-                    :items="survivors"
-                    :release-items="survivorsByRelease"
-                    :active-values="props.filter.survivors"
-                    @selected="(newValues) => setFilter('survivors', newValues)"
-                />
-                <ManyOptionSelector
-                    v-if="props.type === 'add-on'"
-                    label="Items"
-                    :items="items"
-                    :active-values="props.filter.items"
-                    @selected="(newValues) => setFilter('items', newValues)"
-                />
-                <ManyOptionSelector
-                    v-if="props.filter.side === 'All' || props.filter.side === 'Killer'"
-                    label="Killers"
-                    :items="killers"
-                    :release-items="killersByRelease"
-                    :active-values="props.filter.killers"
-                    @selected="(newValues) => setFilter('killers', newValues)"
-                />
-                <ManyOptionSelector
-                    label="Tags"
-                    :items="tags"
-                    :active-values="props.filter.tags"
-                    @selected="(newValues) => setFilter('tags', newValues)"
-                />
+                <template
+                    v-for="group in shownFilters"
+                    :key="group.key"
+                >
+                    <OptionSelector
+                        v-if="group.kind === 'single'"
+                        :label="group.label"
+                        :options="group.options"
+                        :active-value="state.filters[group.key] as string"
+                        @selected="(value) => setFilter(group.key, value)"
+                    />
+                    <ManyOptionSelector
+                        v-else
+                        :label="group.label"
+                        :items="group.items"
+                        :release-items="group.releaseItems"
+                        :active-values="state.filters[group.key] as string[]"
+                        @selected="(values) => setFilter(group.key, values)"
+                    />
+                </template>
             </div>
             <div class="filter-actions-container">
                 <button
                     class="clear-selection-btn"
-                    @click="clearFilters()"
+                    @click="state = clearListFilters(props.config, state)"
                 >
                     Clear Filters
                 </button>

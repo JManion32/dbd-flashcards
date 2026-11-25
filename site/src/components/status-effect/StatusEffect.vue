@@ -39,7 +39,7 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
 
 <style scoped>
 .status-effect {
-    --accent: #d4af37;
+    --accent: var(--status-effect-buff);
 
     display: flex;
     flex-direction: row;
@@ -52,7 +52,7 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     border-radius: 1rem;
 }
 .status-effect-debuff {
-    --accent: #c82828;
+    --accent: var(--status-effect-debuff);
 }
 .status-effect-icon {
     flex-shrink: 0;

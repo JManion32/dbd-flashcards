@@ -28,4 +28,8 @@
     --rare-rarity: #265dbd;
     --very-rare-rarity: #ac3ee3;
     --visceral-rarity: #ff0955;
+
+    /* Status Effects */
+    --status-effect-buff: #d4af37;
+    --status-effect-debuff: #c82828;
 }

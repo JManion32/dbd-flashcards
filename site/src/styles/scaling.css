@@ -42,7 +42,7 @@
     --game-item-h3-size: 1.35rem;
     --gd-desc-size: 1.15rem;
 
-    /* GameItemFilter */
+    /* ListToolbar */
     --filter-container-dir: column;
     --filter-hr-top: 2rem;
 
@@ -110,7 +110,7 @@
         --game-item-h2-size: 2.5rem;
         --game-item-h3-size: 1.6rem;
 
-        /* GameItemFilter */
+        /* ListToolbar */
         --filter-container-dir: row;
         --filter-hr-top: 1rem;
 
