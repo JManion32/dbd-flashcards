@@ -1,0 +1,25 @@
+{
+    "name": "The Ninth Circle",
+    "id": "the-ninth-circle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Each time you [Taunt] a [Terrified] Survivor for the first time, gain a Token, up to [4]."
+        },
+        {
+            "type": "text",
+            "content": "When the Exit Gates are powered, if you have [4] Tokens, the [Bag of Toys]' cooldown is reduced to [1s]."
+        }
+    ],
+    "quote": "\"Sadistic, creepy, and shockingly gory. What kind of person would be interested in this?\"",
+    "tags": [
+        "End Game",
+        "Exit Gate",
+        "Token"
+    ],
+    "version": "10.3.0"
+}

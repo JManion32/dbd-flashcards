@@ -1,0 +1,20 @@
+{
+    "name": "Thornton Salt",
+    "id": "thornton-salt",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "While injured Survivors are [Tortured], they gain [Mangled] and [Hemorrhage]. These effects linger for [40s] after [Torture] is removed."
+        }
+    ],
+    "tags": [
+        "Hemorrhage",
+        "Injured State",
+        "Mangled"
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Emily",
+    "id": "emily",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "[Toys] in the [Bag of Toys] appear in a set order:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "[Bike Horn]",
+                "[Handgun]",
+                "[Flamethrower]",
+                "[Flail]",
+                "[Acid Bottle]"
+            ]
+        }
+    ],
+    "tags": [],
+    "version": "10.3.0"
+}

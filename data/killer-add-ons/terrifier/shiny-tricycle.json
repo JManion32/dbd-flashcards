@@ -1,0 +1,22 @@
+{
+    "name": "Shiny Tricycle",
+    "id": "shiny-tricycle",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "When multiple Survivors are detected by the [Bike Horn], you see the Auras of all other Survivors for [5s]."
+        },
+        {
+            "type": "text",
+            "content": "When you [Torture] a Survivor, the [Bag of Toys] is guaranteed to contain the [Bike Horn] on the next search."
+        }
+    ],
+    "tags": [
+        "Aura"
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Jonathan's Skull",
+    "id": "jonathans-skull",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Damaging or [Torturing] a Survivor with a [Toy] grants a Token, up to [5]."
+        },
+        {
+            "type": "text",
+            "content": "[Taunting] spends all Tokens. If at least [1] Token was spent, you see the Auras of all Survivors within [10m] plus [5m] per Token for [6s]."
+        }
+    ],
+    "tags": [
+        "Aura",
+        "Token"
+    ],
+    "version": "10.3.0"
+}

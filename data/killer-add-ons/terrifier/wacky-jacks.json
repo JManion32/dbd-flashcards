@@ -1,0 +1,16 @@
+{
+    "name": "Wacky Jacks",
+    "id": "wacky-jacks",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "The [Deadliness] required for a [Toy] to reach maximum [Deadliness] will not exceed [5] points."
+        }
+    ],
+    "tags": [],
+    "version": "10.3.0"
+}

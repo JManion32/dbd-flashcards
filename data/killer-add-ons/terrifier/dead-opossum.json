@@ -1,0 +1,18 @@
+{
+    "name": "Dead Opossum",
+    "id": "dead-opossum",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a healthy Survivor with the [Handgun] or [Flail] causes all other Survivors within [24m] to scream and reveal their location for [3s]."
+        }
+    ],
+    "tags": [
+        "Scream"
+    ],
+    "version": "10.3.0"
+}

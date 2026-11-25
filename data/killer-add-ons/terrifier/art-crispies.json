@@ -1,0 +1,18 @@
+{
+    "name": "Art Crispies",
+    "id": "art-crispies",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Very Rare",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Whenever you [Torture] a Survivor, you both gain a random amount of [Haste] between [5%] and [15%] for [5s]."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ],
+    "version": "10.3.0"
+}

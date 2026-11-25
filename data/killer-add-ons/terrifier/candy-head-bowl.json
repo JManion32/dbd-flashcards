@@ -1,0 +1,16 @@
+{
+    "name": "Candy Head Bowl",
+    "id": "candy-head-bowl",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Rare",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "When a Survivor is detected with the [Bike Horn], the [Bag of Toys]' cooldown is reset."
+        }
+    ],
+    "tags": [],
+    "version": "10.3.0"
+}

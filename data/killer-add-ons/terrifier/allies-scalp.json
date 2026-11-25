@@ -1,0 +1,19 @@
+{
+    "name": "Allie's Scalp",
+    "id": "allies-scalp",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Once per Trial, downing a [Tortured] Survivor with a basic attack applies [Terrified]."
+        }
+    ],
+    "tags": [
+        "Basic Attack",
+        "Dying State"
+    ],
+    "version": "10.3.0"
+}

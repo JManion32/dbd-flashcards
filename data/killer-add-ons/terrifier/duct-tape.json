@@ -1,0 +1,17 @@
+{
+    "name": "Duct Tape",
+    "id": "duct-tape",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Visceral",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Equipping a [Toy] within [0.5s] of opening the [Bag of Toys] reduces its cooldown by [4s]."
+        }
+    ],
+    "quote": "\"Made for restraining victims but could probably be used to keep things in place.\"",
+    "tags": [],
+    "version": "10.3.0"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Blackened Heart",
+    "id": "blackened-heart",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "After [Taunting] a [Terrified] Survivor, the next time you down a Survivor with a [Toy], that [Toy] gains [1] extra [Deadliness] point."
+        }
+    ],
+    "tags": [
+        "Dying State"
+    ],
+    "version": "10.3.0"
+}

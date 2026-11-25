@@ -1,0 +1,22 @@
+{
+    "name": "Bloodstained Bullet",
+    "id": "bloodstained-bullet",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Shooting a Survivor with the [Handgun] from farther than [16m] grants [10%] [Haste] for [10s]."
+        },
+        {
+            "type": "text",
+            "content": "When you [Torture] a Survivor, the [Bag of Toys] is guaranteed to contain the [Handgun] on the next search."
+        }
+    ],
+    "tags": [
+        "Haste"
+    ],
+    "version": "10.3.0"
+}

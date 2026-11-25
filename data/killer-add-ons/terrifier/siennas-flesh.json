@@ -1,0 +1,20 @@
+{
+    "name": "Sienna's Flesh",
+    "id": "siennas-flesh",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the [Flail]'s maximum reach by [20%]."
+        },
+        {
+            "type": "text",
+            "content": "When you [Torture] a Survivor, the [Bag of Toys] is guaranteed to contain the [Flail] on the next search."
+        }
+    ],
+    "tags": [],
+    "version": "10.3.0"
+}

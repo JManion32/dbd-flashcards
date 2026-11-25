@@ -1,0 +1,19 @@
+{
+    "name": "Mike's Phone",
+    "id": "mikes-phone",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Common",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Hitting a non-regressing Generator with a [Toy] special-breaks it."
+        }
+    ],
+    "tags": [
+        "Generator",
+        "Regression"
+    ],
+    "version": "10.3.0"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Brooke's Pustule",
+    "id": "brookes-pustule",
+    "side": "Killer",
+    "type": "Add-On",
+    "rarity": "Uncommon",
+    "owner": "Terrifier",
+    "description": [
+        {
+            "type": "text",
+            "content": "Increases the size of the [Acid Puddle] by up to [100%] based on the distance the Acid falls, reaching its maximum after falling [6m]."
+        },
+        {
+            "type": "text",
+            "content": "When you [Torture] a Survivor, the [Bag of Toys] is guaranteed to contain the [Acid Bottle] on the next search."
+        }
+    ],
+    "tags": [],
+    "version": "10.3.0"
+}
