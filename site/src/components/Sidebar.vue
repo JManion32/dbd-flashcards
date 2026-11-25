@@ -3,6 +3,9 @@ import StartStudyModal from '@/components/study/StartStudyModal.vue';
 import { Menu } from 'lucide-vue-next';
 import { ref } from 'vue';
 
+import { useRoute } from 'vue-router';
+const route = useRoute();
+
 const open = ref(false);
 
 function close() {
@@ -85,7 +88,7 @@ function close() {
                 class="sidebar-study"
                 @click="close"
             >
-                <StartStudyModal />
+                <StartStudyModal  v-if="route.path !== '/study'" />
             </div>
         </div>
     </Transition>
