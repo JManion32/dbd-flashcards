@@ -53,7 +53,7 @@ onUnmounted(() => {
                 class="full-page-link"
                 :to="{ path: `/${props.type}s`, query: props.side ? { side: props.side } : {} }"
             >
-                {{ `See all ${props.side} ${props.type}s ➞` }}
+                See All ➞
             </RouterLink>
         </div>
         <GameItemCarousel :game-items="props.gameItems" />
