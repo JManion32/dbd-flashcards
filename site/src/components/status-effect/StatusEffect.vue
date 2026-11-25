@@ -11,6 +11,8 @@ const props = defineProps<{
     statusEffect: StatusEffect;
     // Named in the URL (/status-effects/haste), so it's highlighted
     open?: boolean;
+    // Smaller, for showing inside another display
+    compact?: boolean;
 }>();
 
 const route = useRoute();
@@ -19,12 +21,14 @@ const router = useRouter();
 // Clicking selects this status effect (its own URL) or, when it's already selected, goes back to the
 // plain list. Keeps the query (?side=Killer). Replaces rather than pushes, so Back leaves the page
 // instead of stepping through every highlight.
-const toggleLink = computed(() => ({
-    path: props.open ? STATUS_EFFECTS_PATH : statusEffectPath(props.statusEffect),
-    query: route.query,
-}));
+const toggleLink = computed(() =>
+    props.compact
+        ? { path: statusEffectPath(props.statusEffect) }
+        : { path: props.open ? STATUS_EFFECTS_PATH : statusEffectPath(props.statusEffect), query: route.query }
+);
 
 function toggle(event: MouseEvent) {
+    if (props.compact) return;
     // The name link navigates on its own, and selecting text shouldn't count as a click
     if ((event.target as HTMLElement).closest('a') || window.getSelection()?.toString()) return;
     router.replace(toggleLink.value);
@@ -35,9 +39,12 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
 
 <template>
     <article
-        :id="`status-effect-${props.statusEffect.id}`"
+        :id="props.compact ? undefined : `status-effect-${props.statusEffect.id}`"
         class="status-effect"
-        :class="[`status-effect-${props.statusEffect.type.toLowerCase()}`, { open: props.open }]"
+        :class="[
+            `status-effect-${props.statusEffect.type.toLowerCase()}`,
+            { open: props.open, compact: props.compact },
+        ]"
         @click="toggle"
     >
         <img
@@ -51,7 +58,7 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
                     <!-- Each status effect has its own URL so search engines can index it; keeps ?side= -->
                     <RouterLink
                         :to="toggleLink"
-                        replace
+                        :replace="!props.compact"
                     >
                         {{ props.statusEffect.name }}
                     </RouterLink>
@@ -82,6 +89,23 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     border-radius: 1rem;
     transition: var(--site-transition);
     cursor: pointer;
+}
+.status-effect.compact {
+    --gd-desc-size: 0.9rem;
+
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    cursor: default;
+
+    .status-effect-icon {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .status-effect-name {
+        font-size: 1.15rem;
+    }
 }
 .status-effect.open {
     border-color: var(--accent);
