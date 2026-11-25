@@ -1,4 +1,5 @@
 import type { GameItem } from '@/types/gameItem';
+import type { StatusEffect } from '@/types/statusEffect';
 import lastUpdatedDates from 'virtual:last-updated';
 import tagList from '../../../data/validation/tags.json';
 import killerList from '../../../data/validation/killers.json';
@@ -40,6 +41,15 @@ const killerAddOnModules = import.meta.glob('../../../data/killer-add-ons/**/*.j
     import: 'default',
 });
 export const killerAddOns = withLastUpdated(killerAddOnModules);
+
+// Status Effects
+const statusEffectModules = import.meta.glob('../../../data/status-effects/*.json', {
+    eager: true,
+    import: 'default',
+});
+export const statusEffects = (Object.values(statusEffectModules) as StatusEffect[]).sort((a, b) =>
+    a.name.localeCompare(b.name)
+);
 
 const alphabetical = (list: string[]) => [...list].sort((a, b) => a.localeCompare(b));
 
