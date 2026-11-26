@@ -148,7 +148,7 @@ function stepSort(sort: SortControl<T>) {
     border: none;
     color: var(--standard-white);
     background: var(--dark-4);
-    padding: 0.5rem 2.5rem 0.5rem 2.8rem;
+    padding: 0.75rem 2.5rem 0.75rem 3rem;
     font-weight: 600;
     font-size: 16px;
     width: 20rem;

@@ -32,7 +32,7 @@ function setFilter(key: string, value: string | string[]) {
         aria-label="Filters"
         @click="visible = true"
     >
-        <SlidersHorizontal :size="18" />
+        <SlidersHorizontal :size="22" />
         <span
             v-if="activeCount"
             class="filter-count"
