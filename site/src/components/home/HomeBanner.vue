@@ -46,7 +46,6 @@ const splashText = generateSplashText();
     justify-content: center;
 
     overflow: hidden;
-    background: var(--dark-0);
 }
 
 .banner-bg {
@@ -58,8 +57,6 @@ const splashText = generateSplashText();
 
     object-fit: cover;
     object-position: center;
-
-    filter: grayscale(1);
 }
 
 .home-banner::after {
