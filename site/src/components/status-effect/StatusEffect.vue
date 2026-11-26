@@ -101,7 +101,7 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
 }
 .status-effect.open {
     border-color: var(--accent);
-    box-shadow: 0 0 1.25rem color-mix(in srgb, var(--accent) 35%, transparent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
 }
 .status-effect-debuff {
     --accent: var(--status-effect-debuff);
