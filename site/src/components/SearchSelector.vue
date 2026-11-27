@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /* Multi-select with type-ahead: picked values sit in the box as removable chips, the input filters the rest. */
 import { X } from 'lucide-vue-next';
-import { computed, ref, useId } from 'vue';
+import { computed, nextTick, ref, useId } from 'vue';
 
 const props = defineProps<{
     label: string;
@@ -13,12 +13,11 @@ const emit = defineEmits<{
     selected: [values: string[]];
 }>();
 
-const MAX_SUGGESTIONS = 5;
-
 const query = ref('');
 const focused = ref(false);
 const highlighted = ref(0);
 const input = ref<HTMLInputElement>();
+const list = ref<HTMLUListElement>();
 const listId = useId();
 
 // Unpicked items containing the query, names that start with it first
@@ -26,12 +25,12 @@ const suggestions = computed(() => {
     const q = query.value.trim().toLowerCase();
     const unpicked = props.items.filter((item) => !props.activeValues.includes(item));
     if (!q) {
-        return unpicked.slice(0, MAX_SUGGESTIONS);
+        return unpicked;
     }
     const matches = unpicked.filter((item) => item.toLowerCase().includes(q));
     const starts = matches.filter((item) => item.toLowerCase().startsWith(q));
     const rest = matches.filter((item) => !item.toLowerCase().startsWith(q));
-    return [...starts, ...rest].slice(0, MAX_SUGGESTIONS);
+    return [...starts, ...rest];
 });
 
 const showSuggestions = computed(() => focused.value && suggestions.value.length > 0);
@@ -53,6 +52,14 @@ function remove(item: string) {
 function onInput(value: string) {
     query.value = value;
     highlighted.value = 0;
+    scrollToHighlighted();
+}
+
+// Keep the keyboard-highlighted row visible inside the scrolling list
+function scrollToHighlighted() {
+    nextTick(() => {
+        list.value?.children[highlighted.value]?.scrollIntoView({ block: 'nearest' });
+    });
 }
 
 function onKeydown(event: KeyboardEvent) {
@@ -61,10 +68,12 @@ function onKeydown(event: KeyboardEvent) {
         case 'ArrowDown':
             event.preventDefault();
             highlighted.value = count ? (highlighted.value + 1) % count : 0;
+            scrollToHighlighted();
             break;
         case 'ArrowUp':
             event.preventDefault();
             highlighted.value = count ? (highlighted.value - 1 + count) % count : 0;
+            scrollToHighlighted();
             break;
         case 'Enter': {
             const item = suggestions.value[highlighted.value];
@@ -144,6 +153,7 @@ function onKeydown(event: KeyboardEvent) {
                 <ul
                     v-if="showSuggestions"
                     :id="listId"
+                    ref="list"
                     class="suggestions"
                     role="listbox"
                 >
@@ -261,6 +271,9 @@ function onKeydown(event: KeyboardEvent) {
     left: 0;
     right: 0;
     z-index: 5;
+    /* Five rows tall (row = line-height + padding), the rest scrolls */
+    max-height: calc(5 * 2.25rem + 0.7rem + 2px);
+    overflow-y: auto;
     margin: 0;
     padding: 0.35rem;
     list-style: none;
@@ -276,6 +289,7 @@ function onKeydown(event: KeyboardEvent) {
     border-radius: 0.6rem;
     color: var(--dim-text);
     font-size: 1rem;
+    line-height: 1.25rem;
     font-weight: 700;
     cursor: pointer;
 
