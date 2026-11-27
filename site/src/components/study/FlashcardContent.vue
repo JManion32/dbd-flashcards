@@ -75,5 +75,7 @@ const props = defineProps<{
     color: var(--standard-white);
     font-size: var(--fc-top-name-size);
     font-weight: 900;
+    /* align-items only centers the box; wrapped lines inside it need this too */
+    text-align: center;
 }
 </style>

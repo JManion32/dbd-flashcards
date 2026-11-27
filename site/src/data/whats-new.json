@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Cleanup and Status Effects",
+        "date": "2026-11-26",
+        "desc": "Added a sidebar to enhance site navigation and prepare it for the addition of more pages. Added status effects to perks/add-ons, as well as a standalone page for them. Added v10.3.0 changes, and a version field for all data. More to come!"
+    },
+    {
+        "title": "Add-Ons and Sorting",
+        "date": "2026-10-25",
+        "desc": "All 880 Killer Add-Ons have been added alongside advanced sorting! Still to come: advanced quiz settings, Killer powers, status effects, and more!"
+    },
+    {
+        "title": "Added Colors!",
+        "date": "2026-10-22",
+        "desc": "Purple for perks (we don't do tiers 1 or 2), variable for add-ons. We are up to 16/44 Killer Add-On sets! Once complete, I will be adding  more sorting options, advanced quiz settings, and Killer powers."
+    },
+    {
+        "title": "Welcome to DBD Flashcards!",
+        "date": "2026-10-15",
+        "desc": "Featuring ALL killer and survivor perks as of version 10.2.0. Killer add-ons are coming soon!"
+    }
+]
