@@ -74,22 +74,22 @@ onUnmounted(() => {
     display: flex;
     align-items: center;
     background: var(--dark-4);
-}
-.correct-btn svg,
-.incorrect-btn svg {
-    width: 1.75rem;
-    height: 1.75rem;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2.5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-}
-.correct-btn:hover,
-.incorrect-btn:hover {
-    cursor: pointer;
-    background: var(--dark-5);
-    scale: 1.02;
+
+    & svg {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background: var(--dark-5);
+        scale: 1.02;
+    }
 }
 .correct-btn {
     color: var(--standard-gold);

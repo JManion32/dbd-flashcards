@@ -405,13 +405,15 @@ function onCardClickCapture(event: MouseEvent, offset: number) {
     overflow: hidden;
     cursor: grab;
     touch-action: pan-y;
-}
-.carousel-viewport.dragging {
-    cursor: grabbing;
-}
-.carousel-viewport:focus-visible {
-    outline-offset: 4px;
-    border-radius: 1rem;
+
+    &.dragging {
+        cursor: grabbing;
+    }
+
+    &:focus-visible {
+        outline-offset: 4px;
+        border-radius: 1rem;
+    }
 }
 .carousel-card {
     position: absolute;
@@ -426,54 +428,56 @@ function onCardClickCapture(event: MouseEvent, offset: number) {
     /* No CSS transition on purpose: the rAF loop writes a new transform every
        frame, and a transition would lag a frame behind and smear the motion. */
     will-change: transform;
-}
 
-/* The dimming veil. Painted in the page background over an opaque card, so a
-   receding card blends into the page without ever becoming see-through. */
-.carousel-card::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    border-radius: 1rem; /* matches .display-card */
-    background: var(--dark-0);
-    opacity: var(--card-dim, 0);
+    /* The dimming veil. Painted in the page background over an opaque card, so a
+       receding card blends into the page without ever becoming see-through. */
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        border-radius: 1rem; /* matches .display-card */
+        background: var(--dark-0);
+        opacity: var(--card-dim, 0);
 
-    /* Only fires when a card changes slot, which is the whole point: the value
-       is otherwise constant, so this is a handful of transitions per card
-       rather than a fresh opacity on every frame. */
-    transition: opacity var(--card-fade, 500ms) ease;
-    pointer-events: none;
-}
+        /* Only fires when a card changes slot, which is the whole point: the value
+           is otherwise constant, so this is a handful of transitions per card
+           rather than a fresh opacity on every frame. */
+        transition: opacity var(--card-fade, 500ms) ease;
+        pointer-events: none;
+    }
 
-/* GameItemDisplay dims every card to 60% by default; on the drum the veil
-   above owns that job, so the card itself must stay fully opaque. */
-.carousel-card :deep(.display-card) {
-    opacity: 1;
-}
-/* Only the focused card reacts to hover — side cards are click-to-centre. */
-.carousel-card:not(.is-active) :deep(.display-card:hover) {
-    scale: 1;
-    cursor: pointer;
-}
-/* Depth-scaled shadow, handed down as a custom property by cardStyle(). */
-/* The shadow is painted once, at full strength, and never changes — only its
-   opacity does. Animating box-shadow itself re-rasterises the card's layer on
-   every frame of the transition, and at a crossing every card transitions at
-   once, so that burst landed exactly on the changeover. Opacity is cheap and
-   compositable, and the shadow still fades out with the card. */
-.carousel-card::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    border-radius: 1rem; /* matches .display-card, so the shadow follows it */
-    box-shadow:
-        0 0 0.7rem rgb(0 0 0 / 40%),
-        0 1.2rem 2.6rem rgb(0 0 0 / 70%);
-    opacity: var(--card-shadow-opacity, 1);
-    transition: opacity var(--card-fade, 500ms) ease;
-    pointer-events: none;
+    /* GameItemDisplay dims every card to 60% by default; on the drum the veil
+       above owns that job, so the card itself must stay fully opaque. */
+    & :deep(.display-card) {
+        opacity: 1;
+    }
+
+    /* Only the focused card reacts to hover — side cards are click-to-centre. */
+    &:not(.is-active) :deep(.display-card:hover) {
+        scale: 1;
+        cursor: pointer;
+    }
+
+    /* Depth-scaled shadow, handed down as a custom property by cardStyle(). */
+    /* The shadow is painted once, at full strength, and never changes — only its
+       opacity does. Animating box-shadow itself re-rasterises the card's layer on
+       every frame of the transition, and at a crossing every card transitions at
+       once, so that burst landed exactly on the changeover. Opacity is cheap and
+       compositable, and the shadow still fades out with the card. */
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        border-radius: 1rem; /* matches .display-card, so the shadow follows it */
+        box-shadow:
+            0 0 0.7rem rgb(0 0 0 / 40%),
+            0 1.2rem 2.6rem rgb(0 0 0 / 70%);
+        opacity: var(--card-shadow-opacity, 1);
+        transition: opacity var(--card-fade, 500ms) ease;
+        pointer-events: none;
+    }
 }
 
 .carousel-btn {
@@ -495,11 +499,12 @@ function onCardClickCapture(event: MouseEvent, offset: number) {
     line-height: 1;
     transition: var(--site-transition);
     cursor: pointer;
-}
-.carousel-btn:hover {
-    background: var(--dark-5);
-    color: var(--standard-white);
-    scale: 1.08;
+
+    &:hover {
+        background: var(--dark-5);
+        color: var(--standard-white);
+        scale: 1.08;
+    }
 }
 .carousel-btn-left {
     left: 0;

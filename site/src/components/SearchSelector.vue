@@ -195,9 +195,10 @@ function onKeydown(event: KeyboardEvent) {
     font-weight: 700;
     cursor: pointer;
     transition: var(--site-transition);
-}
-.clear-btn:hover {
-    color: var(--standard-white);
+
+    &:hover {
+        color: var(--standard-white);
+    }
 }
 .search-anchor {
     position: relative;
@@ -235,10 +236,11 @@ function onKeydown(event: KeyboardEvent) {
     color: var(--dim-text);
     cursor: pointer;
     transition: var(--site-transition);
-}
-.chip-remove:hover {
-    color: var(--standard-white);
-    background: var(--dark-3);
+
+    &:hover {
+        color: var(--standard-white);
+        background: var(--dark-3);
+    }
 }
 .search-input {
     flex: 1;
@@ -276,10 +278,11 @@ function onKeydown(event: KeyboardEvent) {
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
-}
-.suggestion.highlighted {
-    color: var(--standard-white);
-    background: var(--dark-4);
+
+    &.highlighted {
+        color: var(--standard-white);
+        background: var(--dark-4);
+    }
 }
 .suggestions-enter-active,
 .suggestions-leave-active {

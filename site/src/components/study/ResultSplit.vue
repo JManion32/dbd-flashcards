@@ -30,11 +30,15 @@ const props = defineProps<{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-}
 
-.result-split-container > div:first-child {
-    justify-self: start;
-    display: flex;
+    & > div:first-child {
+        justify-self: start;
+        display: flex;
+    }
+
+    & > div:last-child {
+        justify-self: end;
+    }
 }
 
 .remaining-cards {
@@ -42,10 +46,6 @@ const props = defineProps<{
     color: var(--standard-white);
     font-weight: 800;
     font-size: 1.4rem;
-}
-
-.result-split-container > div:last-child {
-    justify-self: end;
 }
 .result-container {
     display: flex;
@@ -78,7 +78,6 @@ const props = defineProps<{
 .correct-score-txt {
     font-size: 1.1rem;
     font-weight: 700;
-    font-style: italic;
 }
 .correct-score-txt {
     color: var(--standard-gold);

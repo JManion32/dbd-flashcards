@@ -12,12 +12,12 @@
     font-weight: 900;
     padding: 0.5rem 1.5rem;
     transition: var(--site-transition);
-}
 
-.study-btn:hover {
-    background: var(--standard-gold);
-    color: var(--standard-black);
-    box-shadow: 0 0 20px var(--standard-gold);
-    cursor: pointer;
-    scale: 1.08;
+    &:hover {
+        background: var(--standard-gold);
+        color: var(--standard-black);
+        box-shadow: 0 0 20px var(--standard-gold);
+        cursor: pointer;
+        scale: 1.08;
+    }
 }

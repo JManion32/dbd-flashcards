@@ -55,11 +55,11 @@ const backgroundColor = computed(() => `${props.color}12`);
     border-radius: 1rem;
 
     transition: var(--site-transition);
-}
 
-.link-card:hover {
-    scale: 1.05;
-    box-shadow: 0 0 1.5rem var(--link-color);
+    &:hover {
+        scale: 1.05;
+        box-shadow: 0 0 1.5rem var(--link-color);
+    }
 }
 
 .link-card-img {

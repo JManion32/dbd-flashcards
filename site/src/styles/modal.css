@@ -7,58 +7,59 @@
     height: 100%;
     overflow-y: scroll;
     padding: 0 2rem 0.5rem 1rem;
-}
 
-.modal-content h2 {
-    color: var(--standard-white);
-    font-weight: 900;
-    font-size: 3rem;
-    margin: 0;
-    text-shadow: var(--large-text-glow);
-}
+    & h2 {
+        color: var(--standard-white);
+        font-weight: 900;
+        font-size: 3rem;
+        margin: 0;
+        text-shadow: var(--large-text-glow);
+    }
 
-.modal-content h3 {
-    color: var(--standard-white);
-    font-weight: 900;
-    font-size: 1.75rem;
-    margin: 0;
-}
+    & h3 {
+        color: var(--standard-white);
+        font-weight: 900;
+        font-size: 1.75rem;
+        margin: 0;
+    }
 
-.modal-content h4 {
-    color: var(--standard-white);
-    font-weight: 900;
-    font-size: 1.25rem;
-    margin: 1.25rem 0 0;
-}
+    & h4 {
+        color: var(--standard-white);
+        font-weight: 900;
+        font-size: 1.25rem;
+        margin: 1.25rem 0 0;
+    }
 
-.modal-content hr {
-    border: 0;
-    border-top: solid 1px var(--dark-4);
-    margin: 2rem 0 1rem;
-}
+    & hr {
+        border: 0;
+        border-top: solid 1px var(--dark-4);
+        margin: 2rem 0 1rem;
+    }
 
-.modal-content p {
-    font-weight: 600;
-    font-size: 1.1rem;
-}
+    & p {
+        font-weight: 600;
+        font-size: 1.1rem;
 
-.modal-content ul {
-    color: var(--standard-white);
-    font-weight: 700;
-}
+        &:not(.modal-last-updated, .update-header-date, .link-card-desc, .link-card-title) {
+            margin: 1.25rem 0 0;
+            color: var(--standard-white);
+        }
+    }
 
-.modal-content p:not(.modal-last-updated, .update-header-date, .link-card-desc, .link-card-title) {
-    margin: 1.25rem 0 0;
-    color: var(--standard-white);
+    & ul {
+        color: var(--standard-white);
+        font-weight: 700;
+    }
+
+    & .modal-last-updated {
+        padding-top: 2rem;
+        margin: auto auto 0;
+        color: var(--inactive-text);
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
 }
 
 .modal-spacer {
     height: 2rem;
-}
-
-.modal-last-updated {
-    padding-top: 2rem;
-    margin: auto auto 0;
-    font-style: italic;
-    color: var(--inactive-text);
 }

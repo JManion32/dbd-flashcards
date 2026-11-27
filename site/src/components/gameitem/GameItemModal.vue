@@ -86,10 +86,11 @@ const rarityColor = computed(() =>
     opacity: 70%;
     padding: 1rem;
     user-select: none;
-}
-.display-card:hover {
-    cursor: pointer;
-    opacity: 100%;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 100%;
+    }
 }
 .display-card-img {
     width: 5.5rem;
@@ -111,22 +112,24 @@ const rarityColor = computed(() =>
     height: 100%;
     overflow-y: scroll;
     padding: 0.5rem 2rem 0.5rem 1rem;
-}
-.card-modal-content h2 {
-    color: var(--standard-white);
-    font-weight: 900;
-    font-size: 2.5rem;
-    margin: 0;
-    margin-bottom: 0.75rem;
-    text-shadow: var(--large-text-glow);
-}
-.card-modal-content h3 {
-    color: var(--standard-white);
-    font-weight: 900;
-    font-size: 1.6rem;
-    margin: 0;
-    margin-top: 2rem;
-    text-shadow: var(--small-text-glow);
+
+    & h2 {
+        color: var(--standard-white);
+        font-weight: 900;
+        font-size: 2.5rem;
+        margin: 0;
+        margin-bottom: 0.75rem;
+        text-shadow: var(--large-text-glow);
+    }
+
+    & h3 {
+        color: var(--standard-white);
+        font-weight: 900;
+        font-size: 1.6rem;
+        margin: 0;
+        margin-top: 2rem;
+        text-shadow: var(--small-text-glow);
+    }
 }
 .metadata-container {
     display: flex;

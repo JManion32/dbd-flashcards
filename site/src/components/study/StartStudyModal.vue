@@ -211,6 +211,7 @@ function restoreDefaults() {
     font-size: 1.5rem;
     padding: 0.85rem;
     border-radius: 1rem;
+
     &:hover {
         scale: 1.03;
     }
@@ -240,14 +241,37 @@ function restoreDefaults() {
     background: none;
     font-family: inherit;
     cursor: pointer;
+
+    /* Divider lines either side of the label: ──── ▸ ADVANCED ──── */
+    &::before,
+    &::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: var(--dark-4);
+    }
+
+    &::before {
+        margin-right: 0.4rem;
+    }
+
+    &::after {
+        margin-left: 0.4rem;
+    }
+
+    &:hover .advanced-label,
+    &:hover .chevron {
+        color: var(--standard-white);
+    }
 }
 .chevron {
     color: var(--inactive-text);
     font-size: 1rem;
     transition: var(--site-transition);
-}
-.chevron.open {
-    rotate: 90deg;
+
+    &.open {
+        rotate: 90deg;
+    }
 }
 .advanced-label {
     color: var(--inactive-text);
@@ -257,28 +281,10 @@ function restoreDefaults() {
     text-transform: uppercase;
     transition: var(--site-transition);
 }
-/* Divider lines either side of the label: ──── ▸ ADVANCED ──── */
-.advanced-toggle::before,
-.advanced-toggle::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--dark-4);
-}
 /* Closes the section while it's open, so the options don't run into the Start row */
 .advanced-end {
     height: 1px;
     background: var(--dark-4);
-}
-.advanced-toggle::before {
-    margin-right: 0.4rem;
-}
-.advanced-toggle::after {
-    margin-left: 0.4rem;
-}
-.advanced-toggle:hover .advanced-label,
-.advanced-toggle:hover .chevron {
-    color: var(--standard-white);
 }
 .advanced-options {
     display: flex;
@@ -294,6 +300,11 @@ function restoreDefaults() {
     width: 100%;
     margin-top: auto;
     padding: 1.5rem 0 0;
+
+    & .study-btn:disabled {
+        opacity: 0.4;
+        pointer-events: none;
+    }
 }
 .session-summary {
     color: var(--inactive-text);
@@ -301,24 +312,20 @@ function restoreDefaults() {
     font-weight: 700;
     font-style: italic;
 }
-.study-actions-container .study-btn:disabled {
-    opacity: 0.4;
-    pointer-events: none;
-}
 .clear-selection-btn {
     padding: 0;
     background: none;
     color: var(--dim-text);
-    font-style: italic;
     border: none;
     font-size: 1rem;
     font-weight: 700;
     transition: var(--site-transition);
-}
-.clear-selection-btn:hover {
-    scale: 1.05;
-    cursor: pointer;
-    text-shadow: var(--small-text-glow);
-    color: var(--standard-white);
+
+    &:hover {
+        scale: 1.05;
+        cursor: pointer;
+        text-shadow: var(--small-text-glow);
+        color: var(--standard-white);
+    }
 }
 </style>

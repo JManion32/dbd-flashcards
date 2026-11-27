@@ -27,15 +27,17 @@ const props = defineProps<{
     flex-direction: row;
     align-items: center;
     gap: 2rem;
-}
-.still-learning-card img {
-    height: 3.5rem;
-    width: 3.5rem;
-    border: none;
-}
-.still-learning-card span {
-    font-size: 1.25rem;
-    font-weight: 800;
-    color: var(--standard-white);
+
+    & img {
+        height: 3.5rem;
+        width: 3.5rem;
+        border: none;
+    }
+
+    & span {
+        font-size: 1.25rem;
+        font-weight: 800;
+        color: var(--standard-white);
+    }
 }
 </style>

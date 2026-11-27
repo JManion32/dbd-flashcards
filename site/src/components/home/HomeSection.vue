@@ -71,10 +71,11 @@ onUnmounted(() => {
     transition:
         opacity 0.6s ease,
         transform 0.6s ease;
-}
-.home-section-container.visible {
-    opacity: 1;
-    transform: translateY(0);
+
+    &.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .section-header-container {
     display: flex;
@@ -98,11 +99,11 @@ onUnmounted(() => {
     font-size: 1rem;
     transition: var(--site-transition);
     color: var(--dim-text);
-    font-style: italic;
-}
-.full-page-link:hover {
-    scale: 1.05;
-    color: var(--standard-white);
-    text-shadow: var(--small-text-glow);
+
+    &:hover {
+        scale: 1.05;
+        color: var(--standard-white);
+        text-shadow: var(--small-text-glow);
+    }
 }
 </style>

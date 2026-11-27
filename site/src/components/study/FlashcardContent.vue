@@ -66,16 +66,19 @@ const props = defineProps<{
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-}
-.flashcard-content-container img {
-    height: 14rem;
-    width: 14rem;
-}
-.flashcard-content-container h2 {
-    color: var(--standard-white);
-    font-size: var(--fc-top-name-size);
-    font-weight: 900;
-    /* align-items only centers the box; wrapped lines inside it need this too */
-    text-align: center;
+
+    & img {
+        height: 14rem;
+        width: 14rem;
+    }
+
+    & h2 {
+        color: var(--standard-white);
+        font-size: var(--fc-top-name-size);
+        font-weight: 900;
+
+        /* align-items only centers the box; wrapped lines inside it need this too */
+        text-align: center;
+    }
 }
 </style>

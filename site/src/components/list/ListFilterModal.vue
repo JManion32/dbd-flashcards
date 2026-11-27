@@ -102,9 +102,9 @@ function setFilter(key: string, value: string | string[]) {
     color: var(--standard-white);
     border-radius: 0.5rem;
     border: none;
-    font-size: 16px;
+    font-size: 1.25rem;
     font-weight: 700;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
 
     &:hover {
         background: var(--dark-5);
@@ -162,11 +162,12 @@ function setFilter(key: string, value: string | string[]) {
     font-size: 1rem;
     font-weight: 700;
     transition: var(--site-transition);
-}
-.clear-selection-btn:hover {
-    scale: 1.05;
-    cursor: pointer;
-    text-shadow: var(--small-text-glow);
-    color: var(--standard-white);
+
+    &:hover {
+        scale: 1.05;
+        cursor: pointer;
+        text-shadow: var(--small-text-glow);
+        color: var(--standard-white);
+    }
 }
 </style>

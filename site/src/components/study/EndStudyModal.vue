@@ -118,9 +118,10 @@ const resultMsg = computed(() => {
     align-items: center;
     justify-content: center;
     gap: 4rem;
-}
-.end-study-btn-container i {
-    margin-left: 0.5rem;
+
+    & i {
+        margin-left: 0.5rem;
+    }
 }
 .home-btn,
 .retry-study-btn {
@@ -140,17 +141,17 @@ const resultMsg = computed(() => {
     text-decoration: none;
     font-weight: 800;
     padding: 0.5rem 1.5rem;
+
+    &:hover {
+        cursor: pointer;
+        background: var(--dark-5);
+    }
 }
 .home-btn {
     font-size: 1.25rem;
 }
 .retry-study-btn {
     font-size: 1.05rem;
-}
-.home-btn:hover,
-.retry-study-btn:hover {
-    cursor: pointer;
-    background: var(--dark-5);
 }
 .still-learning-header-container {
     display: flex;
@@ -165,9 +166,10 @@ const resultMsg = computed(() => {
     flex-direction: column;
     gap: 0.6rem;
     padding-right: 0.5rem;
-}
-.still-learning-container > * {
-    flex-shrink: 0;
+
+    & > * {
+        flex-shrink: 0;
+    }
 }
 .nothing-left {
     font-style: italic;

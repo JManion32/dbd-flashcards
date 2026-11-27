@@ -40,7 +40,8 @@ const props = defineProps<{
 }
 .update-header-date {
     margin: 0;
-    font-style: italic;
     color: var(--inactive-text);
+    font-weight: 700;
+    font-size: 0.9rem;
 }
 </style>

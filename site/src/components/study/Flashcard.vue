@@ -211,10 +211,10 @@ onUnmounted(() => {
 
 .flashcard-layer-live {
     z-index: 1;
-}
 
-.flashcard-layer-live:hover {
-    cursor: pointer;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .flashcard-layer-exit {
@@ -222,6 +222,16 @@ onUnmounted(() => {
     /* Clicks fall through to the new card underneath */
     pointer-events: none;
     animation: flashcard-exit-correct var(--flashcard-exit-time) cubic-bezier(0.3, 0, 0.5, 1) forwards;
+
+    & .flashcard-side {
+        box-shadow:
+            0 0 0 0.2rem var(--answer-color),
+            0 0 30px color-mix(in srgb, var(--answer-color) 30%, transparent);
+
+        & > * {
+            animation: flashcard-content-recede 0.18s ease-out both;
+        }
+    }
 }
 
 .flashcard-layer-incorrect {
@@ -235,10 +245,10 @@ onUnmounted(() => {
     transition: transform 0.5s ease;
     transform-style: preserve-3d;
     padding: 2rem;
-}
 
-.flashcard-inner.flipped {
-    transform: rotateX(180deg);
+    &.flipped {
+        transform: rotateX(180deg);
+    }
 }
 
 .flashcard-side {
@@ -267,16 +277,6 @@ onUnmounted(() => {
 
 .flashcard-layer-incorrect {
     --answer-color: var(--dim-text);
-}
-
-.flashcard-layer-exit .flashcard-side {
-    box-shadow:
-        0 0 0 0.2rem var(--answer-color),
-        0 0 30px color-mix(in srgb, var(--answer-color) 30%, transparent);
-}
-
-.flashcard-layer-exit .flashcard-side > * {
-    animation: flashcard-content-recede 0.18s ease-out both;
 }
 
 .answer-badge {

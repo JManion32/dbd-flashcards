@@ -129,9 +129,10 @@ function close() {
     color: var(--standard-white);
     cursor: pointer;
     transition: var(--site-transition);
-}
-.menu-btn:hover {
-    background: var(--dark-2);
+
+    &:hover {
+        background: var(--dark-2);
+    }
 }
 .page-title {
     font-size: 1.3rem;
@@ -185,16 +186,18 @@ function close() {
     padding: 0.75rem 1rem;
     border-radius: 1rem;
     border: 1px solid transparent;
-}
-.sidebar-link:hover {
-    color: var(--standard-white);
-    text-shadow: var(--small-text-shadow);
-    background: var(--dark-3);
-}
-.sidebar-link.router-link-active {
-    color: var(--standard-white);
-    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
-    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
+
+    &:hover {
+        color: var(--standard-white);
+        text-shadow: var(--small-text-shadow);
+        background: var(--dark-3);
+    }
+
+    &.router-link-active {
+        color: var(--standard-white);
+        background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+        border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
+    }
 }
 
 .sidebar-fade-enter-active,

@@ -105,12 +105,13 @@ function stepSort(sort: SortControl<T>) {
     flex-direction: column;
     width: 100%;
     margin-top: 3rem;
-}
-.list-toolbar hr {
-    width: calc(100% - 4rem);
-    border: none;
-    margin: var(--filter-hr-top) 2rem 0;
-    border-bottom: solid 1px var(--dark-5);
+
+    & hr {
+        width: calc(100% - 4rem);
+        border: none;
+        margin: var(--filter-hr-top) 2rem 0;
+        border-bottom: solid 1px var(--dark-5);
+    }
 }
 .filter-container {
     display: flex;
@@ -152,18 +153,20 @@ function stepSort(sort: SortControl<T>) {
     font-weight: 600;
     font-size: 16px;
     width: 20rem;
+
+    &::placeholder {
+        color: var(--inactive-text);
+    }
+
+    &:focus {
+        outline: none;
+    }
 }
 .search-icon {
     position: absolute;
     left: 0.75rem;
     color: var(--dim-text);
     pointer-events: none;
-}
-.filter-search::placeholder {
-    color: var(--inactive-text);
-}
-.filter-search:focus {
-    outline: none;
 }
 .search-clear-btn {
     position: absolute;
@@ -184,9 +187,10 @@ function stepSort(sort: SortControl<T>) {
     line-height: 1;
     transition: var(--site-transition);
     cursor: pointer;
-}
-.search-clear-btn:hover {
-    color: var(--standard-white);
+
+    &:hover {
+        color: var(--standard-white);
+    }
 }
 .quick-select-btn {
     color: var(--dim-text);
@@ -198,17 +202,19 @@ function stepSort(sort: SortControl<T>) {
     border: 1px solid transparent;
     font-weight: 800;
     align-items: center;
-}
-.quick-select-btn:hover {
-    color: var(--standard-white);
-    text-shadow: var(--small-text-shadow);
-    cursor: pointer;
-    background: var(--dark-3);
-}
-.quick-select-btn.active {
-    color: var(--standard-white);
-    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
-    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
+
+    &:hover {
+        color: var(--standard-white);
+        text-shadow: var(--small-text-shadow);
+        cursor: pointer;
+        background: var(--dark-3);
+    }
+
+    &.active {
+        color: var(--standard-white);
+        background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+        border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
+    }
 }
 .sort-container {
     display: flex;
@@ -225,7 +231,6 @@ function stepSort(sort: SortControl<T>) {
 .sort-amount {
     color: var(--inactive-text);
     font-weight: 700;
-    font-style: italic;
 }
 .sort-btn {
     display: flex;
@@ -246,10 +251,11 @@ function stepSort(sort: SortControl<T>) {
         cursor: pointer;
         background: var(--dark-5);
     }
-}
-/* Same highlight as the selectors in the modals */
-.sort-btn.selected {
-    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
-    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
+
+    /* Same highlight as the selectors in the modals */
+    &.selected {
+        background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+        border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
+    }
 }
 </style>

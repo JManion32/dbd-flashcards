@@ -82,26 +82,28 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     &:hover {
         background-color: var(--dark-3);
     }
-}
-.status-effect.compact {
-    --gd-desc-size: 0.9rem;
 
-    gap: 1rem;
-    padding: 0.75rem 1rem;
-    border-radius: 0.75rem;
+    &.compact {
+        --gd-desc-size: 0.9rem;
 
-    .status-effect-icon {
-        height: 3.5rem;
-        width: 3.5rem;
+        gap: 1rem;
+        padding: 0.75rem 1rem;
+        border-radius: 0.75rem;
+
+        .status-effect-icon {
+            height: 3.5rem;
+            width: 3.5rem;
+        }
+
+        .status-effect-name {
+            font-size: 1.15rem;
+        }
     }
 
-    .status-effect-name {
-        font-size: 1.15rem;
+    &.open {
+        border-color: var(--accent);
+        background: color-mix(in srgb, var(--accent) 10%, transparent);
     }
-}
-.status-effect.open {
-    border-color: var(--accent);
-    background: color-mix(in srgb, var(--accent) 10%, transparent);
 }
 .status-effect-debuff {
     --accent: var(--status-effect-debuff);
@@ -115,6 +117,10 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
     display: flex;
     flex-direction: column;
     min-width: 0;
+
+    & :deep(.game-item-desc-txt) {
+        margin: 0.5rem 0 0;
+    }
 }
 .status-effect-header {
     display: flex;
@@ -141,8 +147,5 @@ const sideLabel = props.statusEffect.side === 'All' ? 'Killers & Survivors' : `$
 }
 .status-effect-type {
     color: var(--accent);
-}
-.status-effect-body :deep(.game-item-desc-txt) {
-    margin: 0.5rem 0 0;
 }
 </style>

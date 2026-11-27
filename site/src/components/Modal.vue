@@ -114,32 +114,31 @@ onUnmounted(() => {
     border: none;
     padding: none;
     font-size: 1.75rem;
-}
-.modal-close-btn:hover {
-    cursor: pointer;
-    scale: 1.05;
-    color: color-mix(in srgb, var(--modal-close) 50%, var(--standard-white));
+
+    &:hover {
+        cursor: pointer;
+        scale: 1.05;
+        color: color-mix(in srgb, var(--modal-close) 50%, var(--standard-white));
+    }
 }
 
 /* Slide up */
 .slide-up-enter-active,
 .slide-up-leave-active {
     transition: opacity 0.35s ease;
-}
 
-.slide-up-enter-active .modal-container,
-.slide-up-leave-active .modal-container {
-    transition: transform 0.35s ease;
+    & .modal-container {
+        transition: transform 0.35s ease;
+    }
 }
 
 .slide-up-enter-from,
 .slide-up-leave-to {
     opacity: 0;
-}
 
-.slide-up-enter-from .modal-container,
-.slide-up-leave-to .modal-container {
-    transform: translateY(24rem);
+    & .modal-container {
+        transform: translateY(24rem);
+    }
 }
 
 /* Fade */
@@ -157,20 +156,18 @@ onUnmounted(() => {
 .scale-enter-active,
 .scale-leave-active {
     transition: opacity 0.2s ease;
-}
 
-.scale-enter-active .modal-container,
-.scale-leave-active .modal-container {
-    transition: transform 0.2s ease;
+    & .modal-container {
+        transition: transform 0.2s ease;
+    }
 }
 
 .scale-enter-from,
 .scale-leave-to {
     opacity: 0;
-}
 
-.scale-enter-from .modal-container,
-.scale-leave-to .modal-container {
-    transform: scale(0.9);
+    & .modal-container {
+        transform: scale(0.9);
+    }
 }
 </style>

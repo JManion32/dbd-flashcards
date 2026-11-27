@@ -46,6 +46,19 @@ const splashText = generateSplashText();
     justify-content: center;
 
     overflow: hidden;
+
+    &::after {
+        content: '';
+
+        position: absolute;
+        inset: 0;
+
+        background:
+            linear-gradient(to bottom, color-mix(in srgb, var(--dark-0) 10%, transparent), rgba(17, 17, 17, 0.65)),
+            radial-gradient(circle at center, transparent 30%, rgba(0, 0, 0, 0.6) 100%);
+
+        pointer-events: none;
+    }
 }
 
 .banner-bg {
@@ -57,19 +70,6 @@ const splashText = generateSplashText();
 
     object-fit: cover;
     object-position: center;
-}
-
-.home-banner::after {
-    content: '';
-
-    position: absolute;
-    inset: 0;
-
-    background:
-        linear-gradient(to bottom, color-mix(in srgb, var(--dark-0) 10%, transparent), rgba(17, 17, 17, 0.65)),
-        radial-gradient(circle at center, transparent 30%, rgba(0, 0, 0, 0.6) 100%);
-
-    pointer-events: none;
 }
 
 .banner-content {
@@ -114,19 +114,19 @@ const splashText = generateSplashText();
 
     transform: translateX(-50%);
     white-space: nowrap;
-}
 
-.home-h-links a {
-    color: var(--inactive-text);
-    font-weight: 800;
-    text-decoration: none;
-    transition: var(--site-transition);
-}
+    & a {
+        color: var(--inactive-text);
+        font-weight: 800;
+        text-decoration: none;
+        transition: var(--site-transition);
 
-.home-h-links a:hover {
-    color: var(--standard-white);
-    scale: 1.05;
-    cursor: pointer;
-    text-shadow: var(--small-text-glow);
+        &:hover {
+            color: var(--standard-white);
+            scale: 1.05;
+            cursor: pointer;
+            text-shadow: var(--small-text-glow);
+        }
+    }
 }
 </style>

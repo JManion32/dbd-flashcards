@@ -17,10 +17,10 @@ are split between too many files (the modals). */
     gap: var(--footer-links-gap);
     color: var(--inactive-text);
     margin-bottom: var(--footer-links-margin-bottom);
-}
 
-.footer-links-container span {
-    display: var(--footer-spacer-visibility);
+    & span {
+        display: var(--footer-spacer-visibility);
+    }
 }
 
 .footer-link {
@@ -30,12 +30,12 @@ are split between too many files (the modals). */
     color: var(--inactive-text);
     text-decoration: none;
     transition: var(--site-transition);
-}
 
-.footer-link:hover {
-    color: var(--standard-white);
-    scale: 1.03;
-    text-shadow: var(--small-text-glow);
+    &:hover {
+        color: var(--standard-white);
+        scale: 1.03;
+        text-shadow: var(--small-text-glow);
+    }
 }
 
 .twitch-link-container {

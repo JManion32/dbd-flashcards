@@ -49,41 +49,46 @@ const emit = defineEmits<{
     border-radius: 0.85rem;
     background: var(--dark-0);
     border: 1px solid var(--dark-4);
-}
-.segmented button {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.15rem;
 
-    padding: 0.45rem 1rem;
-    border: 1px solid transparent;
-    border-radius: 0.6rem;
-    background: none;
+    & button {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.15rem;
 
-    color: var(--dim-text);
-    font-family: inherit;
-    font-size: 1.2rem;
-    font-weight: 800;
-    transition: var(--site-transition);
-}
-.segmented button:not(.segment-with-hint) {
-    flex-direction: row;
-    gap: 0.5rem;
-}
-.segmented button:hover {
-    cursor: pointer;
-    color: var(--standard-white);
-    background: var(--dark-3);
-}
-.segmented button.active {
-    color: var(--standard-white);
-    background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
-    border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
-}
-.segmented button.active {
-    color: var(--dim-text);
+        padding: 0.45rem 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.6rem;
+        background: none;
+
+        color: var(--dim-text);
+        font-family: inherit;
+        font-size: 1.2rem;
+        font-weight: 800;
+        transition: var(--site-transition);
+
+        &:not(.segment-with-hint) {
+            flex-direction: row;
+            gap: 0.5rem;
+        }
+
+        &:hover {
+            cursor: pointer;
+            color: var(--standard-white);
+            background: var(--dark-3);
+        }
+
+        &.active {
+            color: var(--standard-white);
+            background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
+            border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
+        }
+
+        &.active {
+            color: var(--dim-text);
+        }
+    }
 }
 </style>

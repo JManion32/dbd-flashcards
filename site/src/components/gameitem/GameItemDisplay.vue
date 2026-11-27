@@ -140,6 +140,14 @@ watch(
     min-height: 0;
     overflow-y: scroll;
     padding: 0.5rem 2rem 0.5rem 1rem;
+
+    & h3 {
+        color: var(--standard-white);
+        font-weight: 900;
+        font-size: var(--game-item-h3-size);
+        margin: 0;
+        margin-top: 2rem;
+    }
 }
 .game-item-header-container {
     display: flex;
@@ -163,13 +171,6 @@ watch(
     height: 5rem;
     width: 5rem;
     border: none;
-}
-.game-item-display-container h3 {
-    color: var(--standard-white);
-    font-weight: 900;
-    font-size: var(--game-item-h3-size);
-    margin: 0;
-    margin-top: 2rem;
 }
 .metadata-container {
     display: flex;
@@ -222,9 +223,10 @@ watch(
 }
 .more-info-chevron {
     transition: var(--site-transition);
-}
-.more-info-chevron.open {
-    rotate: 180deg;
+
+    &.open {
+        rotate: 180deg;
+    }
 }
 .more-info-list {
     display: flex;
