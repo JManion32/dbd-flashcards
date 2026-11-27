@@ -9,7 +9,7 @@ import {
     getAllowList,
     getJsonFiles,
     validateSchema,
-    assertField,
+    assertFieldPresence,
     validateField,
     assertLowerKebabCase,
     validateList,
@@ -23,31 +23,136 @@ import validateFieldOrder from './validation/validateFieldOrder.mjs';
 
 validateArgLength(process.argv.length, 3);
 
-const DATASET = [
-    'killer-powers',
-    'killer-perks',
-    'killer-add-ons',
-    'survivor-items',
-    'survivor-perks',
-    'survivor-add-ons',
-    'status-effects',
-];
+/*
+ * Per-dataset rules layered on top of schema.json:
+ *   required/forbidden: optional schema fields this dataset must have / must not have
+ *   sides/types:        allowed values for side and type
+ *   owners:             allow list (in validation/) that owner must come from
+ */
+const GAME_ITEM = {
+    required: [
+        'owner',
+        'tags',
+    ],
+    forbidden: [],
+};
+const DATASETS = {
+    'killer-perks': {
+        ...GAME_ITEM,
+        forbidden: [
+            'rarity',
+        ],
+        sides: [
+            'Killer',
+        ],
+        types: [
+            'Perk',
+        ],
+        owners: 'killers.json',
+    },
+    'killer-add-ons': {
+        ...GAME_ITEM,
+        required: [
+            ...GAME_ITEM.required,
+            'rarity',
+        ],
+        sides: [
+            'Killer',
+        ],
+        types: [
+            'Add-On',
+        ],
+        owners: 'killers.json',
+    },
+    'killer-powers': {
+        ...GAME_ITEM,
+        forbidden: [
+            'rarity',
+        ],
+        sides: [
+            'Killer',
+        ],
+        types: [
+            'Power',
+        ],
+        owners: 'killers.json',
+    },
+    'survivor-perks': {
+        ...GAME_ITEM,
+        forbidden: [
+            'rarity',
+        ],
+        sides: [
+            'Survivor',
+        ],
+        types: [
+            'Perk',
+        ],
+        owners: 'survivors.json',
+    },
+    'survivor-items': {
+        ...GAME_ITEM,
+        required: [
+            ...GAME_ITEM.required,
+            'rarity',
+        ],
+        sides: [
+            'Survivor',
+        ],
+        types: [
+            'Item',
+        ],
+        owners: 'items.json',
+    },
+    'survivor-add-ons': {
+        ...GAME_ITEM,
+        required: [
+            ...GAME_ITEM.required,
+            'rarity',
+        ],
+        sides: [
+            'Survivor',
+        ],
+        types: [
+            'Add-On',
+        ],
+        owners: 'items.json',
+    },
+    'status-effects': {
+        required: [],
+        forbidden: [
+            'owner',
+            'rarity',
+            'quote',
+            'tags',
+        ],
+        sides: [
+            'Survivor',
+            'Killer',
+            'All',
+        ],
+        types: [
+            'Buff',
+            'Debuff',
+        ],
+    },
+};
 
-// Location of data to be validated, also used for the switch statement.
+// Location of data to be validated.
 const dataDir = process.argv[2];
-validateArgContent(2, dataDir, DATASET);
+validateArgContent(2, dataDir, Object.keys(DATASETS));
+const rules = DATASETS[dataDir];
 
-// Which schema each folder is validated against
-const schema = 'schema.json';
-
-// Create the validation function (for helper)
-createValidationFunction(schema);
+// One schema covers the shape every data file shares; the dataset rules above handle the rest.
+createValidationFunction('schema.json');
 
 // exhaustion, elusive, exposed, etc
 const allowedTags = getAllowList('tags.json');
 
 // Visceral, Very Rare, Rare, Uncommon, Common
 const allowedRarities = getAllowList('rarities.json');
+
+const allowedOwners = rules.owners && getAllowList(rules.owners);
 
 const jsonFiles = getJsonFiles(dataDir);
 
@@ -80,126 +185,30 @@ for (const [
     if (assertBalancedBrackets(file, parsedFile)) {
         hasErrors = true;
     }
-    if (parsedFile.version !== undefined && assertSemanticVersion(file, 'Version', parsedFile.version)) {
+    if (assertSemanticVersion(file, 'Version', parsedFile.version)) {
         hasErrors = true;
     }
-
-    switch (dataDir) {
-        case 'survivor-perks': {
-            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
-                hasErrors = true;
-            }
-            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'type', parsedFile.type, 'Perk')) {
-                hasErrors = true;
-            }
-            const allowedCharacters = getAllowList('survivors.json');
-            if (validateField(file, 'survivor', parsedFile.owner, allowedCharacters)) {
-                hasErrors = true;
-            }
-            break;
+    if (assertFieldPresence(file, parsedFile, rules.required, rules.forbidden)) {
+        hasErrors = true;
+    }
+    if (validateField(file, 'side', parsedFile.side, new Set(rules.sides))) {
+        hasErrors = true;
+    }
+    if (validateField(file, 'type', parsedFile.type, new Set(rules.types))) {
+        hasErrors = true;
+    }
+    if (allowedOwners && 'owner' in parsedFile && validateField(file, 'owner', parsedFile.owner, allowedOwners)) {
+        hasErrors = true;
+    }
+    if ('rarity' in parsedFile && validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
+        hasErrors = true;
+    }
+    if ('tags' in parsedFile) {
+        if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
+            hasErrors = true;
         }
-
-        case 'survivor-items': {
-            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
-                hasErrors = true;
-            }
-            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'type', parsedFile.type, 'Item')) {
-                hasErrors = true;
-            }
-            const allowedItems = getAllowList('items.json');
-            if (validateField(file, 'item', parsedFile.owner, allowedItems)) {
-                hasErrors = true;
-            }
-            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
-                hasErrors = true;
-            }
-            break;
-        }
-
-        case 'survivor-add-ons': {
-            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
-                hasErrors = true;
-            }
-            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'side', parsedFile.side, 'Survivor')) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'type', parsedFile.type, 'Add-On')) {
-                hasErrors = true;
-            }
-            const allowedItems = getAllowList('items.json');
-            if (validateField(file, 'item', parsedFile.owner, allowedItems)) {
-                hasErrors = true;
-            }
-            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
-                hasErrors = true;
-            }
-            break;
-        }
-
-        case 'killer-perks': {
-            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
-                hasErrors = true;
-            }
-            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'side', parsedFile.side, 'Killer')) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'type', parsedFile.type, 'Perk')) {
-                hasErrors = true;
-            }
-            const allowedCharacters = getAllowList('killers.json');
-            if (validateField(file, 'killer', parsedFile.owner, allowedCharacters)) {
-                hasErrors = true;
-            }
-            break;
-        }
-
-        case 'killer-add-ons': {
-            if (validateList(file, 'tag', parsedFile.tags, allowedTags)) {
-                hasErrors = true;
-            }
-            if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'side', parsedFile.side, 'Killer')) {
-                hasErrors = true;
-            }
-            if (assertField(file, 'type', parsedFile.type, 'Add-On')) {
-                hasErrors = true;
-            }
-            const allowedCharacters = getAllowList('killers.json');
-            if (validateField(file, 'killer', parsedFile.owner, allowedCharacters)) {
-                hasErrors = true;
-            }
-            if (validateField(file, 'rarity', parsedFile.rarity, allowedRarities)) {
-                hasErrors = true;
-            }
-            break;
-        }
-
-        case 'status-effects': {
-            break;
-        }
-
-        default: {
-            console.error('Error: No such dataset.');
+        if (assertAlphabeticalList(file, 'Tags', parsedFile.tags)) {
+            hasErrors = true;
         }
     }
 }

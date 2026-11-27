@@ -131,7 +131,7 @@ jobs:
               with:
                   node-version: '24'
                   cache: 'npm'
-                  cache-dependency-path: site/package-lock.json
+                  cache-dependency-path: data/package-lock.json
 
             - name: Install dependencies
               run: npm ci
@@ -157,7 +157,7 @@ jobs:
               with:
                   node-version: '24'
                   cache: 'npm'
-                  cache-dependency-path: site/package-lock.json
+                  cache-dependency-path: data/package-lock.json
 
             - name: Install dependencies
               run: npm ci
@@ -183,7 +183,7 @@ jobs:
               with:
                   node-version: '24'
                   cache: 'npm'
-                  cache-dependency-path: site/package-lock.json
+                  cache-dependency-path: data/package-lock.json
 
             - name: Install dependencies
               run: npm ci
@@ -209,13 +209,65 @@ jobs:
               with:
                   node-version: '24'
                   cache: 'npm'
-                  cache-dependency-path: site/package-lock.json
+                  cache-dependency-path: data/package-lock.json
 
             - name: Install dependencies
               run: npm ci
 
             - name: Run Validator
               run: node ./validate.mjs survivor-add-ons
+
+
+    validate-survivor-items:
+        name: Validate Survivor Item Data
+        runs-on: ubuntu-24.04
+
+        defaults:
+            run:
+                working-directory: data
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '24'
+                  cache: 'npm'
+                  cache-dependency-path: data/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run Validator
+              run: node ./validate.mjs survivor-items
+
+
+    validate-status-effects:
+        name: Validate Status Effect Data
+        runs-on: ubuntu-24.04
+
+        defaults:
+            run:
+                working-directory: data
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '24'
+                  cache: 'npm'
+                  cache-dependency-path: data/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run Validator
+              run: node ./validate.mjs status-effects
 
 
     deploy:
@@ -230,6 +282,8 @@ jobs:
           validate-killer-add-ons,
           validate-survivor-perks,
           validate-survivor-add-ons,
+          validate-survivor-items,
+          validate-status-effects,
         ]
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
 

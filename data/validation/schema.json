@@ -5,29 +5,42 @@
         "id",
         "side",
         "type",
-        "owner",
         "description",
-        "tags",
         "version"
     ],
     "properties": {
         "name": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
         },
         "id": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
         },
         "side": {
-            "type": "string"
+            "enum": [
+                "Survivor",
+                "Killer",
+                "All"
+            ]
         },
         "type": {
-            "type": "string"
+            "enum": [
+                "Perk",
+                "Add-On",
+                "Item",
+                "Power",
+                "Buff",
+                "Debuff"
+            ]
         },
         "rarity": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
         },
         "owner": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
         },
         "description": {
             "type": "array",
@@ -74,7 +87,8 @@
             "minItems": 1
         },
         "quote": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
         },
         "tags": {
             "type": "array",
@@ -84,7 +98,8 @@
             "uniqueItems": true
         },
         "version": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
         }
     },
     "additionalProperties": false

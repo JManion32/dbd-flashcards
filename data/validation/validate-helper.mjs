@@ -4,7 +4,7 @@ import Ajv from 'ajv';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const usage = `Usage: node validate <killer-perks/killer-add-ons/survivor-perks/survivor-add-ons>`;
+const usage = `Usage: node validate <killer-perks/killer-add-ons/killer-powers/survivor-perks/survivor-items/survivor-add-ons/status-effects>`;
 
 const ajv = new Ajv({
     allErrors: true,
@@ -70,6 +70,23 @@ export function assertLowerKebabCase(file, field, value) {
         return true;
     }
     return false;
+}
+
+export function assertFieldPresence(file, data, required, forbidden) {
+    let hasError = false;
+    for (const field of required) {
+        if (!(field in data)) {
+            console.error(`\n❌ ${file}: Missing required field "${field}".`);
+            hasError = true;
+        }
+    }
+    for (const field of forbidden) {
+        if (field in data) {
+            console.error(`\n❌ ${file}: Field "${field}" is not allowed here.`);
+            hasError = true;
+        }
+    }
+    return hasError;
 }
 
 export function assertField(file, field, value, expectedValue) {

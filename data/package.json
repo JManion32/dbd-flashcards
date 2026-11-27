@@ -8,10 +8,12 @@
         "lint-fix": "prettier --write .",
         "validate:killer-perks": "node validate.mjs killer-perks",
         "validate:killer-add-ons": "node validate.mjs killer-add-ons",
+        "validate:killer-powers": "node validate.mjs killer-powers",
         "validate:survivor-perks": "node validate.mjs survivor-perks",
         "validate:survivor-items": "node validate.mjs survivor-items",
         "validate:survivor-add-ons": "node validate.mjs survivor-add-ons",
-        "validate": "npm run validate:killer-perks && npm run validate:killer-add-ons && npm run validate:survivor-perks && npm run validate:survivor-items && npm run validate:survivor-add-ons",
+        "validate:status-effects": "node validate.mjs status-effects",
+        "validate": "npm run validate:killer-perks && npm run validate:killer-add-ons && npm run validate:killer-powers && npm run validate:survivor-perks && npm run validate:survivor-items && npm run validate:survivor-add-ons && npm run validate:status-effects",
         "all": "npm run validate && npm run lint-fix"
     },
     "devDependencies": {
