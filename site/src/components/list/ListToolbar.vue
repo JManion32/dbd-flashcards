@@ -160,7 +160,6 @@ function stepSort(sort: SortControl<T>) {
     pointer-events: none;
 }
 .filter-search::placeholder {
-    font-style: italic;
     color: var(--inactive-text);
 }
 .filter-search:focus {

@@ -108,7 +108,10 @@ function close() {
                 class="sidebar-study"
                 @click="close"
             >
-                <StartStudyModal v-if="route.path !== '/study'" />
+                <StartStudyModal
+                    v-if="route.path !== '/study'"
+                    sidebar
+                />
             </div>
         </div>
     </Transition>
@@ -150,7 +153,7 @@ function close() {
     width: 24rem;
     height: 98%;
     margin: auto 0;
-    padding: 4rem 2rem;
+    padding: 3.5rem 2rem;
     background: var(--header-bg);
     border: 2px solid var(--dark-3);
     border-radius: 0 2rem 2rem 0;
@@ -175,11 +178,11 @@ function close() {
 }
 .sidebar-link {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--inactive-text);
     font-weight: 800;
     transition: var(--site-transition);
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     border-radius: 1rem;
     border: 1px solid transparent;
 }

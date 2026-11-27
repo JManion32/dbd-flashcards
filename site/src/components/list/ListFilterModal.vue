@@ -3,7 +3,7 @@ import '@/styles/modal.css';
 import { computed, ref } from 'vue';
 import Modal from '@/components/Modal.vue';
 import OptionSelector from '@/components/OptionSelector.vue';
-import ManyOptionSelector from '@/components/ManyOptionSelector.vue';
+import SearchSelector from '@/components/SearchSelector.vue';
 import { SlidersHorizontal } from 'lucide-vue-next';
 import { activeFilterCount, clearListFilters } from '@/composables/useListControls';
 import type { ListConfig, ListState } from '@/types/listConfig';
@@ -69,11 +69,10 @@ function setFilter(key: string, value: string | string[]) {
                         :active-value="state.filters[group.key] as string"
                         @selected="(value) => setFilter(group.key, value)"
                     />
-                    <ManyOptionSelector
+                    <SearchSelector
                         v-else
                         :label="group.label"
                         :items="group.items"
-                        :release-items="group.releaseItems"
                         :active-values="state.filters[group.key] as string[]"
                         @selected="(values) => setFilter(group.key, values)"
                     />
@@ -159,7 +158,6 @@ function setFilter(key: string, value: string | string[]) {
     padding: 0;
     background: none;
     color: var(--dim-text);
-    font-style: italic;
     border: none;
     font-size: 1rem;
     font-weight: 700;

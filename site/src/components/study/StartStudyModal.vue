@@ -11,15 +11,19 @@ import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import Modal from '@/components/Modal.vue';
 import OptionSelector from '@/components/OptionSelector.vue';
-import ManyOptionSelector from '@/components/ManyOptionSelector.vue';
+import SearchSelector from '@/components/SearchSelector.vue';
 import { filterStudyPool } from '@/utils/filterStudyPool';
 import { useData } from '@/stores/useData';
+
+const props = defineProps<{
+    sidebar?: boolean;
+}>();
 
 const visible = ref(false);
 // Owner pickers live in a collapsed section so the main options don't shift as Side/Type change
 const advancedOpen = ref(false);
 const router = useRouter();
-const { combinedGameItems, survivors, killers, items, survivorsByRelease, killersByRelease } = useData();
+const { combinedGameItems, survivors, killers, items } = useData();
 
 const config = ref<StudyConfig>({ ...StudyConfigDefault });
 
@@ -60,21 +64,13 @@ const sessionSummary = computed(() => {
     const typeLabel = config.value.type === 'Perk' ? 'perks' : 'add-ons';
     const sideLabel = config.value.side === 'All' ? '' : `${config.value.side.toLowerCase()} `;
 
-    const ownerCount = selectedOwners.value.length;
-    const ownerLabel = ownerCount ? ` from ${ownerCount === 1 ? selectedOwners.value[0] : `${ownerCount} picks`}` : '';
-
-    return `${sessionSize.value} of ${poolSize.value} ${sideLabel}${typeLabel}${ownerLabel}`;
+    return `${sessionSize.value} of ${poolSize.value} ${sideLabel}${typeLabel}`;
 });
 
-// Only the lists whose selector is showing count, matching filterStudyPool
+// Which owner pickers show for the current Side/Type, matching filterStudyPool
 const showSurvivors = computed(() => config.value.type === 'Perk' && config.value.side !== 'Killer');
 const showItems = computed(() => config.value.type === 'Add-On' && config.value.side !== 'Killer');
 const showKillers = computed(() => config.value.side !== 'Survivor');
-const selectedOwners = computed(() => [
-    ...(showSurvivors.value ? config.value.survivors : []),
-    ...(showItems.value ? config.value.items : []),
-    ...(showKillers.value ? config.value.killers : []),
-]);
 
 function setConfig<K extends keyof StudyConfig>(key: K, value: StudyConfig[K]) {
     config.value[key] = value;
@@ -106,6 +102,7 @@ function restoreDefaults() {
 <template>
     <button
         class="study-btn"
+        :class="{ 'study-btn-sidebar': props.sidebar }"
         @click="visible = true"
     >
         Study
@@ -154,43 +151,37 @@ function restoreDefaults() {
                             >&#9656;</span
                         >
                         <span class="advanced-label">Advanced</span>
-                        <span
-                            v-if="selectedOwners.length"
-                            class="advanced-count"
-                            >{{ selectedOwners.length }} selected</span
-                        >
                     </button>
                     <div
                         v-if="advancedOpen"
                         class="advanced-options"
                     >
-                        <ManyOptionSelector
+                        <SearchSelector
                             v-if="showSurvivors"
                             label="Survivors"
-                            default-open
                             :items="survivors"
-                            :release-items="survivorsByRelease"
                             :active-values="config.survivors"
                             @selected="(newValues) => setConfig('survivors', newValues)"
                         />
-                        <ManyOptionSelector
+                        <SearchSelector
                             v-if="showItems"
                             label="Items"
-                            default-open
                             :items="items"
                             :active-values="config.items"
                             @selected="(newValues) => setConfig('items', newValues)"
                         />
-                        <ManyOptionSelector
+                        <SearchSelector
                             v-if="showKillers"
                             label="Killers"
-                            default-open
                             :items="killers"
-                            :release-items="killersByRelease"
                             :active-values="config.killers"
                             @selected="(newValues) => setConfig('killers', newValues)"
                         />
                     </div>
+                    <div
+                        v-if="advancedOpen"
+                        class="advanced-end"
+                    />
                 </div>
             </div>
             <div class="study-actions-container">
@@ -215,6 +206,15 @@ function restoreDefaults() {
     </Modal>
 </template>
 <style scoped>
+.study-btn-sidebar {
+    width: 80%;
+    font-size: 1.5rem;
+    padding: 0.85rem;
+    border-radius: 1rem;
+    &:hover {
+        scale: 1.03;
+    }
+}
 .modal-content .start-study-subtitle {
     margin: 0.25rem 0 0;
     color: var(--dim-text);
@@ -234,6 +234,7 @@ function restoreDefaults() {
     display: flex;
     align-items: center;
     gap: 0.6rem;
+    width: 100%;
     padding: 0;
     border: none;
     background: none;
@@ -256,21 +257,33 @@ function restoreDefaults() {
     text-transform: uppercase;
     transition: var(--site-transition);
 }
+/* Divider lines either side of the label: ──── ▸ ADVANCED ──── */
+.advanced-toggle::before,
+.advanced-toggle::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--dark-4);
+}
+/* Closes the section while it's open, so the options don't run into the Start row */
+.advanced-end {
+    height: 1px;
+    background: var(--dark-4);
+}
+.advanced-toggle::before {
+    margin-right: 0.4rem;
+}
+.advanced-toggle::after {
+    margin-left: 0.4rem;
+}
 .advanced-toggle:hover .advanced-label,
 .advanced-toggle:hover .chevron {
     color: var(--standard-white);
-}
-.advanced-count {
-    color: var(--standard-gold);
-    font-size: 0.9rem;
-    font-weight: 700;
-    font-style: italic;
 }
 .advanced-options {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    padding-left: 1.6rem;
 }
 .study-actions-container {
     display: flex;

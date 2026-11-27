@@ -39,8 +39,6 @@ export type FilterControl<T> =
     | (FilterBase & {
           kind: 'many';
           items: string[];
-          // Same items in release order; adds the A–Z / release toggle in the popup
-          releaseItems?: string[];
           // Omit when the config-level `match` handles this group
           match?: (item: T, values: string[]) => boolean;
       });

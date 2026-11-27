@@ -1,5 +1,5 @@
 import { Gem, SquareUserRound } from 'lucide-vue-next';
-import { items, killers, killersByRelease, survivors, survivorsByRelease, tags } from '@/utils/loadData';
+import { items, killers, survivors, tags } from '@/utils/loadData';
 import { alphaSort, descriptionText, sideSelect } from '@/utils/listConfigs/shared';
 import type { GameItem } from '@/types/gameItem';
 import type { FilterControl, ListConfig, ListState, SortControl } from '@/types/listConfig';
@@ -11,7 +11,6 @@ const killerFilter: FilterControl<GameItem> = {
     key: 'killers',
     label: 'Killers',
     items: killers,
-    releaseItems: killersByRelease,
     visible: showsSide('Killer'),
 };
 
@@ -77,7 +76,6 @@ export const perkListConfig: ListConfig<GameItem> = {
             key: 'survivors',
             label: 'Survivors',
             items: survivors,
-            releaseItems: survivorsByRelease,
             visible: showsSide('Survivor'),
         },
         killerFilter,
