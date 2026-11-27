@@ -37,8 +37,15 @@ defineProps<{
 </template>
 
 <style scoped>
+.game-item-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
 .game-item-desc-txt {
     color: var(--standard-white);
     font-size: var(--gd-desc-size);
+    margin: 0;
 }
 </style>

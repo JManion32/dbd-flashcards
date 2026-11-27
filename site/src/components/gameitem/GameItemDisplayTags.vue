@@ -22,7 +22,6 @@ const props = defineProps<{
 </template>
 <style scoped>
 .game-item-tags {
-    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

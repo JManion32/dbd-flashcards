@@ -73,19 +73,12 @@ watch(
                 :src="getGameItemImage(props.gameItem.id)"
             />
         </div>
-        <GameItemDisplayDesc
-            :desc="props.gameItem.description"
-            style="margin-top: 1.25rem"
-        />
-        <div
+        <GameItemDisplayDesc :desc="props.gameItem.description" />
+        <GameItemDisplayTags
             v-if="props.gameItem.tags.length > 0"
-            style="margin-top: 1.25rem"
-        >
-            <GameItemDisplayTags
-                :tags="props.gameItem.tags"
-                :color="getRarityColor(props.gameItem.rarity)"
-            />
-        </div>
+            :tags="props.gameItem.tags"
+            :color="getRarityColor(props.gameItem.rarity)"
+        />
         <div
             v-if="statusEffects.length > 0"
             class="more-info"
@@ -140,6 +133,7 @@ watch(
     min-height: 0;
     overflow-y: scroll;
     padding: 0.5rem 2rem 0.5rem 1rem;
+    gap: 2rem;
 
     & h3 {
         color: var(--standard-white);
@@ -198,7 +192,7 @@ watch(
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    margin-top: 1.5rem;
+    margin: 0;
 }
 .more-info-btn {
     display: flex;
@@ -234,7 +228,7 @@ watch(
     gap: 0.75rem;
 }
 .game-item-display-quote {
-    margin-top: 3rem;
+    margin: 0.5rem 0 0 0;
     color: var(--dim-text);
     font-style: italic;
 }
@@ -243,7 +237,7 @@ watch(
     flex-direction: row;
     gap: 1rem;
     margin-top: auto;
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
     align-self: center;
 
     color: var(--dim-text);
