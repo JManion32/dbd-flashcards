@@ -12,6 +12,9 @@ body,
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    /* iOS Safari's 100vh is the viewport with its toolbars hidden, so it overflows
+       whenever they're showing. dvh tracks the actually visible height. */
+    min-height: 100dvh;
 }
 
 main {
@@ -20,6 +23,7 @@ main {
 
 body {
     min-height: 100vh;
+    min-height: 100dvh;
     width: 100%;
     background: var(--dark-0);
 }

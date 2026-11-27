@@ -7,7 +7,7 @@
     "description": [
         {
             "type": "text",
-            "content": "Whenever you unhook a Survivor, while crouched and idle, use <Activate Ability> to have injured and downed Survivors within [24m]:"
+            "content": "After unhooking a Survivor, while crouched and idle, use <Activate Ability> to have injured and downed Survivors within [24m]:"
         },
         {
             "type": "list",

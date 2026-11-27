@@ -38,17 +38,10 @@ const dataDir = process.argv[2];
 validateArgContent(2, dataDir, DATASET);
 
 // Which schema each folder is validated against
-const schemas = {
-    'killer-perks': 'game-item-schema.json',
-    'killer-add-ons': 'game-item-schema.json',
-    'survivor-perks': 'game-item-schema.json',
-    'survivor-items': 'game-item-schema.json',
-    'survivor-add-ons': 'game-item-schema.json',
-    'status-effects': 'status-effect-schema.json',
-};
+const schema = 'schema.json';
 
 // Create the validation function (for helper)
-createValidationFunction(schemas[dataDir]);
+createValidationFunction(schema);
 
 // exhaustion, elusive, exposed, etc
 const allowedTags = getAllowList('tags.json');
