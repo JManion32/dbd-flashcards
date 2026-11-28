@@ -1,0 +1,8 @@
+{
+    "Flashlight": "Shines a beam of light that blinds the Killer when aimed at their face. Blinding the Killer while they carry a Survivor makes them drop that Survivor.",
+    "Fog Vial": "Releases a Fog Cloud that hides Survivors inside it, suppressing Auras, Scratch Marks, and sound. Its charges recharge over time.",
+    "Key": "Lets you see the Auras of other Survivors. Stronger Keys can also unlock Chests and the Hatch.",
+    "Map": "Reveals the Auras of nearby Pallets and vaults, and can mark a spot that reveals the Auras of Generators around it.",
+    "Med-Kit": "Heals other Survivors faster and lets you heal yourself, at a reduced speed.",
+    "Toolbox": "Repairs Generators faster and lets you sabotage Hooks. Each use drains its charges."
+}

@@ -104,7 +104,7 @@ function setFilter(key: string, value: string | string[]) {
     border: none;
     font-size: 1.25rem;
     font-weight: 700;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
 
     &:hover {
         background: var(--dark-5);

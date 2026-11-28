@@ -28,6 +28,13 @@ const survivorAddOnModules = import.meta.glob('../../../data/survivor-add-ons/**
 });
 export const survivorAddOns = withLastUpdated(survivorAddOnModules);
 
+// Survivor Items (each item type's rarity variants, e.g. Sport Flashlight)
+const survivorItemModules = import.meta.glob('../../../data/survivor-items/**/*.json', {
+    eager: true,
+    import: 'default',
+});
+export const survivorItems = withLastUpdated(survivorItemModules);
+
 // Killer Perks
 const killerPerkModules = import.meta.glob('../../../data/killer-perks/**/*.json', {
     eager: true,

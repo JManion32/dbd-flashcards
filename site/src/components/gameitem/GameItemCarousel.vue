@@ -503,7 +503,6 @@ function onCardClickCapture(event: MouseEvent, offset: number) {
     &:hover {
         background: var(--dark-5);
         color: var(--standard-white);
-        scale: 1.08;
     }
 }
 .carousel-btn-left {

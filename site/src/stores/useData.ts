@@ -2,6 +2,7 @@ import { computed } from 'vue';
 import {
     survivorPerks,
     survivorAddOns as rawSurvivorAddOns,
+    survivorItems,
     killerPerks,
     killerAddOns as rawKillerAddOns,
     tags,
@@ -42,6 +43,7 @@ export function useData() {
         combinedGameItems,
         survivorPerks,
         survivorAddOns,
+        survivorItems,
         killerPerks,
         killerAddOns,
         tags,

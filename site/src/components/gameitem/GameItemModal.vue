@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import '@/styles/modal.css';
-import { computed, ref } from 'vue';
+import { computed, nextTick, ref } from 'vue';
 import { RouterLink, type RouteLocationRaw } from 'vue-router';
 
 import Modal from '@/components/Modal.vue';
@@ -25,8 +25,11 @@ function open() {
     if (props.to) {
         return;
     }
+    // Mount the Modal hidden first, then show it
     opened.value = true;
-    visible.value = true;
+    nextTick(() => {
+        visible.value = true;
+    });
 }
 // Perks have no rarity, so they keep the default card and modal colors
 const rarityColor = computed(() =>

@@ -52,6 +52,9 @@
     --progress-bottom: 1.5rem;
     --flashcard-side-padding: 1.5rem;
     --fc-top-name-size: 2rem;
+
+    /* Owner Page */
+    --owner-display-width: 100%;
 }
 
 /* Large Phones */
@@ -119,6 +122,9 @@
         --progress-bottom: 2.5rem;
         --flashcard-side-padding: 3rem;
         --fc-top-name-size: 3rem;
+
+        /* Owner Page */
+        --owner-display-width: 85%;
     }
 }
 
@@ -139,6 +145,9 @@
 
         /* Study */
         --flashcard-width: 70%;
+
+        /* Owner Page */
+        --owner-display-width: 70%;
     }
 }
 
@@ -150,6 +159,9 @@
         /* Study */
         --flashcard-width: 50%;
         --flashcard-side-padding: 4rem;
+
+        /* Owner Page */
+        --owner-display-width: 60%;
     }
 }
 
