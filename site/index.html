@@ -120,6 +120,77 @@
             content="DBD Flashcards logo"
         />
 
+        <!-- Prerendered pages put a plain <article> in #app for crawlers (see renderPage in
+             vite.config.ts). Vue replaces it on mount; hide it until then so visitors don't see
+             it flash unstyled. Without JavaScript it's the only content, so it shows. -->
+        <style>
+            #app > article {
+                display: none;
+            }
+
+            /* Loading flashcard: a gold card flipping in the middle of the screen until Vue mounts
+               (Vue adds data-v-app to #app then, so this stops matching). It waits 200ms before
+               fading in, so fast loads never show it. */
+            #app:not([data-v-app]) {
+                display: grid;
+                place-items: center;
+                min-height: 100vh;
+            }
+            #app:not([data-v-app])::before {
+                content: '';
+                width: 4.5rem;
+                height: 6rem;
+                border-radius: 0.75rem;
+                border: 2px solid var(--standard-gold, #ffd700);
+                background: color-mix(in srgb, var(--standard-gold, #ffd700) 12%, transparent);
+                box-shadow: 0 0 1.5rem color-mix(in srgb, var(--standard-gold, #ffd700) 25%, transparent);
+                animation:
+                    boot-fade-in 0.3s ease 0.2s both,
+                    boot-flip 1.4s cubic-bezier(0.65, 0, 0.35, 1) 0.2s infinite;
+            }
+            @keyframes boot-fade-in {
+                from {
+                    opacity: 0;
+                }
+            }
+            @keyframes boot-flip {
+                from {
+                    transform: perspective(30rem) rotateY(0);
+                }
+                to {
+                    transform: perspective(30rem) rotateY(360deg);
+                }
+            }
+            /* No flipping for reduced motion: the card just breathes */
+            @media (prefers-reduced-motion: reduce) {
+                #app:not([data-v-app])::before {
+                    animation:
+                        boot-fade-in 0.3s ease 0.2s both,
+                        boot-pulse 1.6s ease-in-out 0.2s infinite alternate;
+                }
+            }
+            @keyframes boot-pulse {
+                to {
+                    opacity: 0.4;
+                }
+            }
+        </style>
+        <noscript>
+            <!-- No JavaScript: show the prerendered text and drop the loader, which would spin forever -->
+            <style>
+                #app > article {
+                    display: block;
+                }
+                #app:not([data-v-app]) {
+                    display: block;
+                    min-height: 0;
+                }
+                #app:not([data-v-app])::before {
+                    content: none;
+                }
+            </style>
+        </noscript>
+
         <!-- Structured data: lets Google show "DBD Flashcards" as the site name -->
         <script type="application/ld+json">
             {
