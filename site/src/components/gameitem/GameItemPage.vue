@@ -58,7 +58,7 @@ function closeGameItem() {
     }
 }
 
-// Filters, search, and sorts all live in the toolbar's config; ?side=Killer preselects a side
+// Filters, search, and order all live in the toolbar's config; ?side=Killer preselects a side
 const listConfig = props.type === 'perk' ? perkListConfig : addOnListConfig;
 const { state: listState, results: filteredAndSortedGameItems } = useListControls(() => props.gameItems, listConfig);
 

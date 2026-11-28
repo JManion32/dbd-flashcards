@@ -44,7 +44,8 @@
 
     /* ListToolbar */
     --filter-container-dir: column;
-    --filter-hr-top: 2rem;
+    --filter-divider-top: 2rem;
+    --right-filter-right-margin: auto;
 
     /* Study */
     --flashcard-width: 90%;
@@ -115,7 +116,8 @@
 
         /* ListToolbar */
         --filter-container-dir: row;
-        --filter-hr-top: 1rem;
+        --filter-divider-top: 1rem;
+        --right-filter-right-margin: 0;
 
         /* Study */
         --flashcard-width: 80%;

@@ -1,6 +1,5 @@
-import { ArrowDownAZ, ArrowUpAZ } from 'lucide-vue-next';
 import type { DescriptionBlock } from '@/types/gameItem';
-import type { QuickSelectControl, SortControl } from '@/types/listConfig';
+import type { QuickSelectControl } from '@/types/listConfig';
 
 // Every line of a description, for search
 export function descriptionText(description: DescriptionBlock[]): string[] {
@@ -22,14 +21,7 @@ export function sideSelect<T>(matchesSide: (item: T, side: string) => boolean): 
     };
 }
 
-// A–Z / Z–A; always on, so it settles every tie left by the sorts before it
-export function alphaSort<T>(name: (item: T) => string): SortControl<T> {
-    return {
-        key: 'alpha',
-        title: 'Alphabetical Ordering',
-        icon: (value) => (value === 'desc' ? ArrowUpAZ : ArrowDownAZ),
-        mode: 'direction',
-        default: 'asc',
-        compare: (a, b) => name(a).localeCompare(name(b)),
-    };
+// A–Z by name; also the tiebreak for lists with a primary order
+export function byName<T>(name: (item: T) => string) {
+    return (a: T, b: T) => name(a).localeCompare(name(b));
 }

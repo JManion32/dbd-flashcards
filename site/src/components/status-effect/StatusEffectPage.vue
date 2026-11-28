@@ -22,7 +22,7 @@ async function scrollToOpen() {
 
     // A shared link should land on its status effect even if the search or filters would hide it
     if (!results.value.some((statusEffect) => statusEffect.id === id)) {
-        state.value = { ...defaultListState(statusEffectListConfig), sorts: state.value.sorts };
+        state.value = defaultListState(statusEffectListConfig);
         await nextTick();
     }
     // Only scroll when it's off screen, so clicking a card on the page doesn't move it

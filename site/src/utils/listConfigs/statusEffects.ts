@@ -1,5 +1,4 @@
-import { Layers } from 'lucide-vue-next';
-import { alphaSort, descriptionText, sideSelect } from '@/utils/listConfigs/shared';
+import { byName, descriptionText, sideSelect } from '@/utils/listConfigs/shared';
 import type { ListConfig } from '@/types/listConfig';
 import type { StatusEffect } from '@/types/statusEffect';
 
@@ -22,16 +21,5 @@ export const statusEffectListConfig: ListConfig<StatusEffect> = {
             match: (statusEffect, type) => statusEffect.type === type,
         },
     ],
-    sorts: [
-        {
-            key: 'type',
-            title: 'Group by Type',
-            icon: () => Layers,
-            mode: 'toggle',
-            default: 'off',
-            // Buffs first
-            compare: (a, b) => a.type.localeCompare(b.type),
-        },
-        alphaSort((statusEffect) => statusEffect.name),
-    ],
+    order: byName((statusEffect) => statusEffect.name),
 };

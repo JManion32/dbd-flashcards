@@ -1,8 +1,4 @@
-import type { Component } from 'vue';
 import type { Option } from '@/types/options';
-
-// 'asc' doubles as "on" for toggle sorts
-export type SortValue = 'asc' | 'desc' | 'off';
 
 export interface ListState {
     search: string;
@@ -10,7 +6,6 @@ export interface ListState {
     quick: string;
     // Popup filters by key: a string for 'single' groups, a string[] for 'many' groups
     filters: Record<string, string | string[]>;
-    sorts: Record<string, SortValue>;
 }
 
 export interface QuickSelectControl<T> {
@@ -43,24 +38,13 @@ export type FilterControl<T> =
           match?: (item: T, values: string[]) => boolean;
       });
 
-export interface SortControl<T> {
-    key: string;
-    title: string;
-    label?: string;
-    icon: (value: SortValue) => Component;
-    // direction: always on, flips asc/desc · toggle: on/off
-    mode: 'direction' | 'toggle';
-    default: SortValue;
-    compare: (a: T, b: T) => number;
-}
-
 export interface ListConfig<T> {
     noun: [singular: string, plural: string];
     search: (item: T) => (string | undefined)[];
     quickSelect?: QuickSelectControl<T>;
     filters?: FilterControl<T>[];
-    // Applied in order: the first sort that doesn't tie decides
-    sorts: SortControl<T>[];
+    // The list's fixed order (there are no sort controls; search and filters do the narrowing)
+    order: (a: T, b: T) => number;
     // For rules that span several filters (e.g. the owner rule on perks and add-ons)
     match?: (item: T, state: ListState) => boolean;
 }

@@ -1,8 +1,7 @@
-import { Gem, SquareUserRound } from 'lucide-vue-next';
 import { items, killers, survivors, tags } from '@/utils/loadData';
-import { alphaSort, descriptionText, sideSelect } from '@/utils/listConfigs/shared';
+import { byName, descriptionText, sideSelect } from '@/utils/listConfigs/shared';
 import type { GameItem } from '@/types/gameItem';
-import type { FilterControl, ListConfig, ListState, SortControl } from '@/types/listConfig';
+import type { FilterControl, ListConfig, ListState } from '@/types/listConfig';
 
 const showsSide = (side: string) => (state: ListState) => state.quick === 'All' || state.quick === side;
 
@@ -35,26 +34,9 @@ function ownerMatch(survivorKey: string) {
     };
 }
 
-const ownerSort: SortControl<GameItem> = {
-    key: 'owner',
-    title: 'Group by Owner',
-    icon: () => SquareUserRound,
-    mode: 'toggle',
-    default: 'off',
-    compare: (a, b) => a.owner.localeCompare(b.owner),
-};
-
-// Rarest first when grouped
+// Rarest first, then A–Z
 const RARITY_ORDER = ['Visceral', 'Very Rare', 'Rare', 'Uncommon', 'Common'];
-
-const raritySort: SortControl<GameItem> = {
-    key: 'rarity',
-    title: 'Group by Rarity',
-    icon: () => Gem,
-    mode: 'toggle',
-    default: 'asc',
-    compare: (a, b) => RARITY_ORDER.indexOf(a.rarity ?? '') - RARITY_ORDER.indexOf(b.rarity ?? ''),
-};
+const rarityRank = (gameItem: GameItem) => RARITY_ORDER.indexOf(gameItem.rarity ?? '');
 
 const search = (gameItem: GameItem) => [
     gameItem.name,
@@ -64,7 +46,7 @@ const search = (gameItem: GameItem) => [
 ];
 
 const side = sideSelect<GameItem>((gameItem, value) => gameItem.side === value);
-const alpha = alphaSort<GameItem>((gameItem) => gameItem.name);
+const alpha = byName<GameItem>((gameItem) => gameItem.name);
 
 export const perkListConfig: ListConfig<GameItem> = {
     noun: ['perk', 'perks'],
@@ -81,7 +63,7 @@ export const perkListConfig: ListConfig<GameItem> = {
         killerFilter,
         tagFilter,
     ],
-    sorts: [ownerSort, alpha],
+    order: alpha,
     match: ownerMatch('survivors'),
 };
 
@@ -100,6 +82,6 @@ export const addOnListConfig: ListConfig<GameItem> = {
         killerFilter,
         tagFilter,
     ],
-    sorts: [ownerSort, raritySort, alpha],
+    order: (a, b) => rarityRank(a) - rarityRank(b) || alpha(a, b),
     match: ownerMatch('items'),
 };

@@ -1,7 +1,7 @@
 <script setup lang="ts" generic="T">
 import ListFilterModal from '@/components/list/ListFilterModal.vue';
 import { Search } from 'lucide-vue-next';
-import type { ListConfig, ListState, SortControl, SortValue } from '@/types/listConfig';
+import type { ListConfig, ListState } from '@/types/listConfig';
 
 const props = defineProps<{
     config: ListConfig<T>;
@@ -18,16 +18,6 @@ function setSearch(search: string) {
 
 function setQuick(quick: string) {
     state.value = { ...state.value, quick };
-}
-
-const NEXT_SORT: Record<SortControl<T>['mode'], Record<SortValue, SortValue>> = {
-    direction: { asc: 'desc', desc: 'asc', off: 'asc' },
-    toggle: { asc: 'off', desc: 'off', off: 'asc' },
-};
-
-function stepSort(sort: SortControl<T>) {
-    const next = NEXT_SORT[sort.mode][state.value.sorts[sort.key] ?? 'off'];
-    state.value = { ...state.value, sorts: { ...state.value.sorts, [sort.key]: next } };
 }
 </script>
 
@@ -77,24 +67,12 @@ function stepSort(sort: SortControl<T>) {
                 />
             </div>
         </div>
-        <hr />
-        <div class="sort-container">
-            <span class="sort-amount">
+        <div class="list-divider">
+            <hr />
+            <span class="list-count">
                 {{ props.count }} {{ props.count === 1 ? props.config.noun[0] : props.config.noun[1] }}
             </span>
-            <div class="sort-btns-container">
-                <button
-                    v-for="sort in props.config.sorts"
-                    :key="sort.key"
-                    class="sort-btn"
-                    :class="{ selected: state.sorts[sort.key] !== 'off' }"
-                    :title="sort.title"
-                    @click="stepSort(sort)"
-                >
-                    <span v-if="sort.label">{{ sort.label }}</span>
-                    <component :is="sort.icon(state.sorts[sort.key] ?? 'off')" />
-                </button>
-            </div>
+            <hr />
         </div>
     </div>
 </template>
@@ -105,13 +83,20 @@ function stepSort(sort: SortControl<T>) {
     flex-direction: column;
     width: 100%;
     margin-top: 3rem;
-
-    & hr {
-        width: calc(100% - 4rem);
-        border: none;
-        margin: var(--filter-hr-top) 2rem 0;
-        border-bottom: solid 1px var(--dark-5);
-    }
+    padding: 0 2rem;
+}
+.list-divider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin: var(--filter-divider-top) 0 1.5rem;
+    width: 100%;
+}
+.list-divider hr {
+    border: none;
+    border-bottom: solid 1px var(--dark-5);
+    width: 100%;
 }
 .filter-container {
     display: flex;
@@ -119,7 +104,6 @@ function stepSort(sort: SortControl<T>) {
     gap: 1.25rem;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem;
 }
 .quick-select-container {
     display: flex;
@@ -138,6 +122,7 @@ function stepSort(sort: SortControl<T>) {
     flex-direction: var(--right-container-dir);
     gap: 1rem;
     margin-left: auto;
+    margin-right: var(--right-filter-right-margin);
 }
 .search-field {
     position: relative;
@@ -216,46 +201,9 @@ function stepSort(sort: SortControl<T>) {
         border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
     }
 }
-.sort-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.75rem 2rem;
-}
-.sort-btns-container {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-.sort-amount {
+.list-count {
     color: var(--inactive-text);
     font-weight: 700;
-}
-.sort-btn {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    align-items: center;
-
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--standard-white);
-    padding: 0.25rem 0.75rem;
-    background: var(--dark-4);
-    border: 1px solid transparent;
-    border-radius: 0.5rem;
-    transition: var(--site-transition);
-
-    &:hover {
-        cursor: pointer;
-        background: var(--dark-5);
-    }
-
-    /* Same highlight as the selectors in the modals */
-    &.selected {
-        background: color-mix(in srgb, var(--standard-gold) 10%, transparent);
-        border-color: color-mix(in srgb, var(--standard-gold) 60%, transparent);
-    }
+    white-space: nowrap;
 }
 </style>
