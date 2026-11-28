@@ -40,6 +40,7 @@ const splashText = generateSplashText();
     width: 100%;
     height: var(--banner-img-height);
     padding: 1rem;
+    border-bottom: 1px solid var(--dark-4);
 
     display: flex;
     align-items: center;

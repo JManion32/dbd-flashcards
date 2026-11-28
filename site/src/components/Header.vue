@@ -44,7 +44,10 @@ const { studyConfig } = useStudy();
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-radius: 0.15rem;
+
+    border-bottom: 1px solid var(--dark-4);
+    border-left: 1px solid var(--dark-4);
+    border-right: 1px solid var(--dark-4);
 }
 .header-header {
     color: var(--standard-white);

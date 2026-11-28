@@ -1,8 +1,17 @@
 <script setup lang="ts">
 import StartStudyModal from '@/components/study/StartStudyModal.vue';
+import { ref } from 'vue';
+import { useRevealOnScroll } from '@/composables/useRevealOnScroll';
+
+const elRef = ref<HTMLElement | null>(null);
+const isVisible = useRevealOnScroll(elRef);
 </script>
 <template>
-    <div class="test-knowledge-container">
+    <div
+        ref="elRef"
+        class="test-knowledge-container reveal"
+        :class="{ visible: isVisible }"
+    >
         <h2 class="ready-header">Ready to test your knowledge?</h2>
         <StartStudyModal />
     </div>

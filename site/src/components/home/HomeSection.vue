@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from 'vue';
+import { ref } from 'vue';
+import { useRevealOnScroll } from '@/composables/useRevealOnScroll';
 import type { GameItem } from '@/types/gameItem.ts';
 import GameItemCarousel from '../gameitem/GameItemCarousel.vue';
 
@@ -12,37 +13,13 @@ const props = defineProps<{
 }>();
 
 const sectionRef = ref<HTMLElement | null>(null);
-const isVisible = ref(false);
-
-let observer: IntersectionObserver | null = null;
-
-onMounted(() => {
-    observer = new IntersectionObserver(
-        ([entry]) => {
-            if (entry.isIntersecting) {
-                isVisible.value = true;
-                observer?.unobserve(entry.target);
-            }
-        },
-        {
-            threshold: 0.15,
-        }
-    );
-
-    if (sectionRef.value) {
-        observer.observe(sectionRef.value);
-    }
-});
-
-onUnmounted(() => {
-    observer?.disconnect();
-});
+const isVisible = useRevealOnScroll(sectionRef);
 </script>
 <template>
     <section
         :id="props.id"
         ref="sectionRef"
-        class="home-section-container"
+        class="home-section-container reveal"
         :class="{ visible: isVisible }"
     >
         <div class="section-header-container">
@@ -65,17 +42,6 @@ onUnmounted(() => {
     margin-top: 3rem;
     height: 20rem;
     width: var(--home-section-width);
-
-    opacity: 0;
-    transform: translateY(2rem);
-    transition:
-        opacity 0.6s ease,
-        transform 0.6s ease;
-
-    &.visible {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 .section-header-container {
     display: flex;

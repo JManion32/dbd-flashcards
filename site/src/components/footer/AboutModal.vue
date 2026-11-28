@@ -10,14 +10,21 @@ import Modal from '@/components/Modal.vue';
 import LinkCard from '@/components/footer/LinkCard.vue';
 
 const visible = ref(false);
+
+function open() {
+    visible.value = true;
+}
 </script>
 <template>
-    <a
-        class="footer-link"
-        @click="visible = true"
-    >
-        About
-    </a>
+    <!-- Override the trigger with the slot; defaults to the footer link -->
+    <slot :open="open">
+        <a
+            class="footer-link"
+            @click="open"
+        >
+            About
+        </a>
+    </slot>
     <Modal
         :visible="visible"
         transition="slide-up"
@@ -49,7 +56,7 @@ const visible = ref(false);
                 repository!
             </p>
             <LinkCard
-                href="https://www.twitch.tv/the_jman32"
+                href="https://github.com/JManion32/dbd-flashcards"
                 :img="ghWhite"
                 title="JManion32/dbd-flashcards"
                 desc="An unofficial Dead by Daylight study tool!"

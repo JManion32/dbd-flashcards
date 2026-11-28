@@ -135,11 +135,23 @@
                 display: grid;
                 place-items: center;
                 min-height: 100vh;
+                background: #111;
+                margin: 0;
+                padding: 0;
+            }
+            /* Copied from base.css */
+            html,
+            body,
+            #app {
+                scroll-behavior: smooth;
+                margin: 0;
+                padding: 0;
+                height: 100%;
             }
             #app:not([data-v-app])::before {
                 content: '';
-                width: 4.5rem;
-                height: 6rem;
+                width: 6rem;
+                height: 8rem;
                 border-radius: 0.75rem;
                 border: 2px solid var(--standard-gold, #ffd700);
                 background: color-mix(in srgb, var(--standard-gold, #ffd700) 12%, transparent);

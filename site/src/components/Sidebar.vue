@@ -2,6 +2,7 @@
 import StartStudyModal from '@/components/study/StartStudyModal.vue';
 import { Menu } from 'lucide-vue-next';
 import { computed, ref } from 'vue';
+import siteLogo from '/favicon-192.png';
 
 import { useRoute } from 'vue-router';
 const route = useRoute();
@@ -53,6 +54,12 @@ function close() {
             v-show="open"
             class="sidebar"
         >
+            <div class="sidebar-header-container">
+                <hr />
+                <img :src="siteLogo" />
+                <span>DBD Flashcards</span>
+                <hr />
+            </div>
             <nav class="sidebar-nav">
                 <RouterLink
                     class="sidebar-link"
@@ -160,6 +167,26 @@ function close() {
     border-radius: 0 2rem 2rem 0;
     display: flex;
     flex-direction: column;
+}
+.sidebar-header-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.sidebar-header-container span {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--inactive-text);
+    margin-left: 0.5rem;
+}
+.sidebar-header-container img {
+    height: 1.5rem;
+}
+.sidebar-header-container hr {
+    border: none;
+    border-bottom: 0.75px solid var(--inactive-text);
+    width: 4rem;
 }
 .sidebar-content-container {
     display: flex;
