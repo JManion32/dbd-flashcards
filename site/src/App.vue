@@ -6,6 +6,7 @@ import '@/styles/base.css';
 
 import Header from '@/components/Header.vue';
 import Footer from '@/components/footer/Footer.vue';
+import UpdatePrompt from '@/components/UpdatePrompt.vue';
 </script>
 
 <template>
@@ -21,4 +22,5 @@ import Footer from '@/components/footer/Footer.vue';
         </RouterView>
     </main>
     <Footer />
+    <UpdatePrompt />
 </template>

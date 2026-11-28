@@ -4,6 +4,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { fileURLToPath, URL } from 'node:url';
 import { defineConfig, type Plugin } from 'vite';
+import { VitePWA } from 'vite-plugin-pwa';
 import { routeMeta, SITE_URL, type PageMeta } from './src/routeMeta.ts';
 import { escapeHtml, gameItemHtml, gameItemMeta, gameItemPath } from './src/utils/gameItemSeo.ts';
 import { statusEffectHtml, statusEffectMeta, statusEffectPath } from './src/utils/statusEffectSeo.ts';
@@ -173,7 +174,45 @@ function routeHtml(): Plugin {
 
 // https://vite.dev/config/
 export default defineConfig({
-    plugins: [vue(), lastUpdated(), routeHtml()],
+    plugins: [
+        vue(),
+        lastUpdated(),
+        routeHtml(),
+        // Installable, offline-capable app. There's no backend, so caching the build is the whole
+        // site: the service worker downloads every script, style, font, and image on the first
+        // visit, and after that the app opens with no connection at all.
+        VitePWA({
+            // A new version waits until the user taps Reload (see UpdatePrompt.vue), so an update
+            // never reloads the page in the middle of a study session
+            registerType: 'prompt',
+            manifest: {
+                name: 'DBD Flashcards',
+                short_name: 'DBD Flashcards',
+                description: 'Learn every Dead by Daylight perk and add-on with flashcards, even offline.',
+                start_url: '/',
+                scope: '/',
+                display: 'standalone',
+                theme_color: '#111111',
+                background_color: '#111111',
+                icons: [
+                    { src: '/favicon-192.png', sizes: '192x192', type: 'image/png' },
+                    { src: '/favicon-512.png', sizes: '512x512', type: 'image/png' },
+                ],
+            },
+            workbox: {
+                globPatterns: ['index.html', '**/*.{js,css,woff2,webp,png,ico}'],
+                // The per-route .html pages are only for crawlers; offline, every page is the app
+                // shell (index.html) and the router takes it from there
+                navigateFallback: 'index.html',
+                // Real files (sitemap.xml, robots.txt) still come from the server
+                navigateFallbackDenylist: [/\.[a-z0-9]+$/i],
+                // The main bundle holds all the game data, so it's over Workbox's 2 MB default
+                maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+                // A new version's caches replace the old ones instead of piling up
+                cleanupOutdatedCaches: true,
+            },
+        }),
+    ],
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url)),
